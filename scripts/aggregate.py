@@ -8,7 +8,7 @@ from time import mktime
 # ── CONFIG ────────────────────────────────────────────────────────────────────
  
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
-MODEL = "google/gemma-4-26b-it:free"
+MODEL = "meta-llama/llama-3.3-70b-instruct:free"
 MAX_ITEMS_PER_FEED = 3  # articles per source
 OUTPUT_FILE = "data.json"
  
@@ -35,10 +35,10 @@ def summarise(title, content):
     if not OPENROUTER_API_KEY:
         return "Summary not available."
 
-    prompt = f"""You are an assistant for Product Managers. Summarize the following article in 2-3 concise sentences focusing on the key insight and what is actionable for a PM.
+    prompt = f"""Summarize this article in exactly 2-3 sentences in English. Be concise and focus on the key insight for a Product Manager. Do not think out loud. Only output the summary.
 
 Title: {title}
-Content: {content[:1500]}
+Content: {content[:1500]}"""
 
 Reply ONLY with the summary, no introduction or commentary."""
 
@@ -53,7 +53,7 @@ Reply ONLY with the summary, no introduction or commentary."""
             json={
                 "model": MODEL,
                 "messages": [{"role": "user", "content": prompt}],
-                "max_tokens": 200,
+                "max_tokens": 300,
             },
             timeout=30,
         )
