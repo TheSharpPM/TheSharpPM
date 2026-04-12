@@ -1,7 +1,7 @@
 import feedparser
 import json
 import os
-
+import re
 import requests
 from datetime import datetime, timezone
 from time import mktime
@@ -70,42 +70,36 @@ Reply ONLY with the summary, no introduction or commentary."""
 # ── FETCH FEEDS ───────────────────────────────────────────────────────────────
  
 def fetch_feed(feed_config):
-    """Fetch the most recent articles from an RSS feed."""
     items = []
     try:
         parsed = feedparser.parse(feed_config["url"])
         entries = parsed.entries[:MAX_ITEMS_PER_FEED]
  
         for entry in entries:
-            # Data
+            title = entry.get("title", "No title")
+ 
+            if not is_english(title):
+                print("  Skipped (non-English): " + title[:40])
+                continue
+ 
             date = None
             if hasattr(entry, "published_parsed") and entry.published_parsed:
                 date = datetime.fromtimestamp(
                     mktime(entry.published_parsed), tz=timezone.utc
                 ).isoformat()
  
-            # Content to summarize
             content = ""
             if hasattr(entry, "summary"):
                 content = entry.summary
             elif hasattr(entry, "content"):
                 content = entry.content[0].value
  
-            # Remove basic HTML
-            import re
             content = re.sub(r"<[^>]+>", " ", content)
             content = re.sub(r"\s+", " ", content).strip()
  
-            title = entry.get("title", "Sem título")
-
-            # Filter non-english articles using non-ASCII characters as an indicator
-            non_ascii = sum(1 for c in title if ord(c) > 127)
-            if non_ascii > 3:
-                print(f"  ⏭ Ignored (non english): {title[:40]}")
-                continue
             url = entry.get("link", "#")
  
-            print(f"  → {title[:60]}...")
+            print("  -> " + title[:60] + "...")
             summary = summarise(title, content)
  
             items.append({
@@ -118,7 +112,7 @@ def fetch_feed(feed_config):
             })
  
     except Exception as e:
-        print(f"  ⚠ Error reading {feed_config['source']}: {e}")
+        print("  Error reading " + feed_config["source"] + ": " + str(e))
  
     return items
  
