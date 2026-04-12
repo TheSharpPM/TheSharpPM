@@ -36,6 +36,5 @@ jobs:
           git config --global user.name "TheSharpPM Bot"
           git config --global user.email "bot@thesharppm.com"
           git add data.json
-          git diff --staged --quiet && echo "Sem alterações" && exit 0
-          git commit -m "chore: atualizar conteúdo $(date +'%Y-%m-%d')"
-          git push origin main 2>/dev/null || (git pull --rebase origin main && git push origin main)
+          git diff --staged --quiet || git commit -m "chore: atualizar conteúdo $(date +'%Y-%m-%d')"
+          git push origin main
