@@ -16,19 +16,28 @@ OUTPUT_FILE = "data.json"
  
 # RSS sources per category
 FEEDS = [
-    # PM Articles
+    # Articles
     {"url": "https://www.lennysnewsletter.com/feed", "source": "Lenny's Newsletter", "type": "article"},
     {"url": "https://www.reforge.com/blog/rss.xml", "source": "Reforge", "type": "article"},
     {"url": "https://www.svpg.com/articles/rss", "source": "SVPG", "type": "article"},
     {"url": "https://productcoalition.com/feed", "source": "Product Coalition", "type": "article"},
     {"url": "https://www.mindtheproduct.com/feed/", "source": "Mind the Product", "type": "article"},
- 
+    {"url": "https://blackboxofpm.com/feed", "source": "Black Box of PM", "type": "article"},
+    {"url": "https://www.producttalk.org/feed/", "source": "Product Talk", "type": "article"},
+
     # AI Trends
     {"url": "https://www.ben-evans.com/benedictevans/rss.xml", "source": "Benedict Evans", "type": "trend"},
     {"url": "https://stratechery.com/feed/", "source": "Stratechery", "type": "trend"},
- 
-    # Frameworks & templates (via Medium tags)
-    {"url": "https://medium.com/feed/tag/product-management", "source": "Medium PM", "type": "framework"},
+    {"url": "https://www.exponentialview.co/feed", "source": "Exponential View", "type": "trend"},
+
+    # Frameworks
+    {"url": "https://medium.com/feed/tag/product-management", "source": "Medium PM", "type": "article"},
+    {"url": "https://medium.com/feed/tag/product-strategy", "source": "Medium Strategy", "type": "article"},
+
+    # Jobs (remote)
+    {"url": "https://remoteok.com/remote-product-manager-jobs.rss", "source": "Remote OK", "type": "job"},
+    {"url": "https://weworkremotely.com/categories/remote-product-jobs.rss", "source": "We Work Remotely", "type": "job"},
+    {"url": "https://www.workatastartup.com/jobs.rss?role=product", "source": "Work at a Startup", "type": "job"},
 ]
 
 # ── LANGUAGE FILTER ───────────────────────────────────────────────────────────
