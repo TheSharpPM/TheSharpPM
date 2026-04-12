@@ -95,6 +95,12 @@ def fetch_feed(feed_config):
             content = re.sub(r"\s+", " ", content).strip()
  
             title = entry.get("title", "Sem título")
+
+            # Filtrar artigos não ingleses usando caracteres não-ASCII como indicador
+            non_ascii = sum(1 for c in title if ord(c) > 127)
+            if non_ascii > 3:
+                print(f"  ⏭ Ignorado (não inglês): {title[:40]}")
+                continue
             url = entry.get("link", "#")
  
             print(f"  → {title[:60]}...")
