@@ -16,7 +16,8 @@ jobs:
       - name: Checkout repositório
         uses: actions/checkout@v5
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          ref: main
+          fetch-depth: 0
 
       - name: Configurar Python
         uses: actions/setup-python@v6
@@ -32,9 +33,9 @@ jobs:
         run: python scripts/aggregate.py
 
       - name: Commit e push do data.json
-        run: |
-          git config --global user.name "TheSharpPM Bot"
-          git config --global user.email "bot@thesharppm.com"
-          git add data.json
-          git diff --staged --quiet || git commit -m "chore: atualizar conteúdo $(date +'%Y-%m-%d')"
-          git push origin main
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: atualizar conteúdo"
+          file_pattern: data.json
+          skip_fetch: false
+          push_options: '--force-with-lease'
