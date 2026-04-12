@@ -34,3 +34,4 @@ jobs:
         with:
           commit_message: "chore: atualizar conteúdo"
           file_pattern: data.json
+          push_options: '--force'
