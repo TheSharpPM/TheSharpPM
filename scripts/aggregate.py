@@ -10,7 +10,7 @@ from time import mktime
  
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
 # MODEL = "nvidia/nemotron-3-super-120b-a12b:free"
-MODEL = "openai/gpt-oss-120b:free"
+MODEL = "nvidia/nemotron-nano-12b-v2-vl:free"
 
 MAX_ITEMS_PER_FEED = 3  # articles per source
 OUTPUT_FILE = "data.json"
