@@ -125,29 +125,43 @@ def fetch_feed(feed_config):
 # ── MAIN ──────────────────────────────────────────────────────────────────────
  
 def main():
-    print("🚀 The Sharp PM — Aggregator running\n")
-    all_items = []
- 
+    print("The Sharp PM - Aggregator running\n")
+    
+    # Carregar artigos existentes
+    existing_items = []
+    if os.path.exists(OUTPUT_FILE):
+        with open(OUTPUT_FILE, "r", encoding="utf-8") as f:
+            existing_data = json.load(f)
+            existing_items = existing_data.get("items", [])
+    
+    # URLs já existentes para evitar duplicados
+    existing_urls = {item["url"] for item in existing_items}
+    
+    # Recolher novos artigos
+    new_items = []
     for feed in FEEDS:
-        print(f"📡 {feed['source']}")
+        print("Feed: " + feed["source"])
         items = fetch_feed(feed)
-        all_items.extend(items)
-        print(f"   ✓ {len(items)} articles collected\n")
- 
-    # Sort by data (most recent first)
+        # Só adiciona artigos que ainda não existem
+        fresh = [i for i in items if i["url"] not in existing_urls]
+        new_items.extend(fresh)
+        print("   " + str(len(fresh)) + " new articles\n")
+
+    # Juntar novos com existentes
+    all_items = new_items + existing_items
     all_items.sort(key=lambda x: x.get("date") or "", reverse=True)
- 
+
     output = {
         "updated": datetime.now(timezone.utc).isoformat(),
         "total": len(all_items),
         "items": all_items,
     }
- 
+
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
- 
-    print(f"✅ All done! {len(all_items)} articles saved on {OUTPUT_FILE}")
- 
- 
+
+    print("Done! " + str(len(all_items)) + " total articles saved.")
+
+
 if __name__ == "__main__":
     main()
