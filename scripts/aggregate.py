@@ -8,7 +8,7 @@ from time import mktime
 # ── CONFIG ────────────────────────────────────────────────────────────────────
  
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
-MODEL = "meta-llama/llama-3.1-8b-instruct:free"
+MODEL = "nvidia/llama-3.1-nemotron-ultra-253b-v1:free"
 MAX_ITEMS_PER_FEED = 3  # artigos por fonte
 OUTPUT_FILE = "data.json"
  
