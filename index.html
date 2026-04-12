@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,7 +26,6 @@
             line-height: 1.6;
         }
  
-        /* HEADER */
         header {
             border-bottom: 2px solid var(--ink);
             padding: 0 2rem;
@@ -63,7 +62,6 @@
             text-transform: uppercase;
         }
  
-        /* HERO */
         .hero {
             border-bottom: 1px solid var(--border);
             padding: 4rem 2rem 3rem;
@@ -107,7 +105,6 @@
             letter-spacing: 0.05em;
         }
  
-        /* FILTERS */
         .filters {
             padding: 1.5rem 2rem;
             border-bottom: 1px solid var(--border);
@@ -149,7 +146,6 @@
             border-color: var(--ink);
         }
  
-        /* SEARCH */
         .search-wrap {
             margin-left: auto;
         }
@@ -174,7 +170,6 @@
             color: var(--muted);
         }
  
-        /* MAIN GRID */
         main {
             max-width: 1200px;
             margin: 0 auto;
@@ -200,7 +195,6 @@
             color: var(--muted);
         }
  
-        /* CARDS */
         .grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
@@ -302,7 +296,6 @@
  
         .card-link:hover { text-decoration: underline; }
  
-        /* EMPTY STATE */
         .empty {
             text-align: center;
             padding: 4rem 2rem;
@@ -317,7 +310,6 @@
             color: var(--ink);
         }
  
-        /* LOADING */
         .loading {
             text-align: center;
             padding: 4rem;
@@ -326,7 +318,6 @@
             letter-spacing: 0.05em;
         }
  
-        /* FOOTER */
         footer {
             border-top: 2px solid var(--ink);
             padding: 2rem;
@@ -337,7 +328,6 @@
  
         footer a { color: var(--accent); text-decoration: none; }
  
-        /* RESPONSIVE */
         @media (max-width: 600px) {
             .hero { padding: 2.5rem 1.5rem; }
             main { padding: 1.5rem; }
@@ -362,7 +352,7 @@
         <p class="hero-label">Daily digest</p>
         <h1>What PMs are reading today</h1>
         <p>Articles, jobs, frameworks and trends — curated and summarised by AI, updated daily.</p>
-        <p class="updated" id="last-updated">A carregar...</p>
+        <p class="updated" id="last-updated"></p>
     </div>
 </div>
  
@@ -390,7 +380,7 @@
 </main>
  
 <footer>
-    <p>The Sharp PM · Automatically loaded content · <a href="https://github.com/TheSharpPM/TheSharpPM" target="_blank">GitHub</a></p>
+    <p>The Sharp PM · Content aggregated automatically · <a href="https://github.com/TheSharpPM/TheSharpPM" target="_blank">GitHub</a></p>
 </footer>
  
 <script>
@@ -416,62 +406,61 @@
  
     function renderCards(items) {
         if (items.length === 0) {
-            grid.innerHTML = `<div class="empty"><h3>No results</h3><p>Try another fitler or search term.</p></div>`;
+            grid.innerHTML = '<div class="empty"><h3>No results</h3><p>Try another filter or search term.</p></div>';
             countEl.textContent = '';
             return;
         }
-        countEl.textContent = `${items.length} artigos`;
-        grid.innerHTML = items.map((item, i) => `
-            <div class="card" style="animation-delay:${i * 0.05}s">
-                <div class="card-meta">
-                    <span class="card-tag ${tagClass(item.type)}">${tagLabel(item.type)}</span>
-                    <span class="card-source">${item.source || ''}</span>
-                </div>
-                <h2><a href="${item.url}" target="_blank" rel="noopener">${item.title}</a></h2>
-                <p class="card-summary">${item.summary || ''}</p>
-                <div class="card-footer">
-                    <span class="card-date">${formatDate(item.date)}</span>
-                    <a class="card-link" href="${item.url}" target="_blank" rel="noopener">Ler artigo →</a>
-                </div>
-            </div>
-        `).join('');
+        countEl.textContent = items.length + ' articles';
+        grid.innerHTML = items.map(function(item, i) {
+            return '<div class="card" style="animation-delay:' + (i * 0.05) + 's">' +
+                '<div class="card-meta">' +
+                '<span class="card-tag ' + tagClass(item.type) + '">' + tagLabel(item.type) + '</span>' +
+                '<span class="card-source">' + (item.source || '') + '</span>' +
+                '</div>' +
+                '<h2><a href="' + item.url + '" target="_blank" rel="noopener">' + item.title + '</a></h2>' +
+                '<p class="card-summary">' + (item.summary || '') + '</p>' +
+                '<div class="card-footer">' +
+                '<span class="card-date">' + formatDate(item.date) + '</span>' +
+                '<a class="card-link" href="' + item.url + '" target="_blank" rel="noopener">Read article →</a>' +
+                '</div>' +
+                '</div>';
+        }).join('');
     }
  
     function applyFilters() {
         const query = document.getElementById('search').value.toLowerCase();
-        const filtered = allItems.filter(item => {
+        const sevenDaysAgo = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000);
+        const filtered = allItems.filter(function(item) {
             const matchesFilter = activeFilter === 'all' || item.type === activeFilter;
             const matchesSearch = !query || item.title.toLowerCase().includes(query) || (item.summary || '').toLowerCase().includes(query);
-            return matchesFilter && matchesSearch;
+            const matchesDate = !item.date || new Date(item.date) >= sevenDaysAgo;
+            return matchesFilter && matchesSearch && matchesDate;
         });
         renderCards(filtered);
     }
  
-    // Filter buttons
-    document.querySelectorAll('.filter-btn').forEach(btn => {
-        btn.addEventListener('click', () => {
-            document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.filter-btn').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+            document.querySelectorAll('.filter-btn').forEach(function(b) { b.classList.remove('active'); });
             btn.classList.add('active');
             activeFilter = btn.dataset.filter;
             applyFilters();
         });
     });
  
-    // Search
     document.getElementById('search').addEventListener('input', applyFilters);
  
-    // Load data
     fetch('data.json')
-        .then(r => r.json())
-        .then(data => {
+        .then(function(r) { return r.json(); })
+        .then(function(data) {
             allItems = data.items || [];
             if (data.updated) {
                 lastUpdatedEl.textContent = 'Updated on ' + formatDate(data.updated);
             }
             applyFilters();
         })
-        .catch(() => {
-            grid.innerHTML = `<div class="empty"><h3>Content will be available</h3><p>Loading. Come back soon!</p></div>`;
+        .catch(function() {
+            grid.innerHTML = '<div class="empty"><h3>Content coming soon</h3><p>The aggregator has not run yet. Check back tomorrow!</p></div>';
             lastUpdatedEl.textContent = '';
         });
 </script>
