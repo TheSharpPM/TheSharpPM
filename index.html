@@ -268,6 +268,10 @@
         .tag-job { background: #e6f4ea; color: #1e7e34; }
         .tag-framework { background: #fef3e2; color: #b45309; }
         .tag-trend { background: #fce8e6; color: #c8391a; }
+        .tag-podcast { background: #f3e8ff; color: #7c3aed; }
+        .tag-video { background: #fee2e2; color: #dc2626; }
+        .tag-course { background: #ecfdf5; color: #059669; }
+        .tag-event { background: #fff7ed; color: #ea580c; }
  
         .card-source {
             font-size: 0.7rem;
@@ -517,11 +521,27 @@
     // ── HELPERS ───────────────────────────────────────────────────────────────
  
     function tagClass(type) {
-        return { article: 'tag-article', job: 'tag-job', framework: 'tag-framework', trend: 'tag-trend' }[type] || 'tag-article';
+    return {
+            article: 'tag-article',
+            job: 'tag-job',
+            trend: 'tag-trend',
+            podcast: 'tag-podcast',
+            video: 'tag-video',
+            course: 'tag-course',
+            event: 'tag-event'
+        }[type] || 'tag-article';
     }
- 
+    
     function tagLabel(type) {
-        return { article: 'Article', job: 'Job', framework: 'Framework', trend: 'AI Trend' }[type] || type;
+        return {
+            article: 'Article',
+            job: 'Job',
+            trend: 'AI Trend',
+            podcast: 'Podcast',
+            video: 'Video',
+            course: 'Course',
+            event: 'Event'
+        }[type] || type;
     }
  
     function formatDate(dateStr) {
