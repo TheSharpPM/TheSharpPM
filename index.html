@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Sharp PM</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --ink: #0f0e0d;
+            --paper: #f5f2ed;
+            --accent: #c8391a;
+            --muted: #8a8278;
+            --card: #ffffff;
+            --border: #e0dbd4;
+        }
+ 
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+ 
+        body {
+            background: var(--paper);
+            color: var(--ink);
+            font-family: 'DM Sans', sans-serif;
+            font-weight: 300;
+            line-height: 1.6;
+        }
+ 
+        /* HEADER */
+        header {
+            border-bottom: 2px solid var(--ink);
+            padding: 0 2rem;
+            background: var(--paper);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+ 
+        .header-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1rem 0;
+        }
+ 
+        .logo {
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+        }
+ 
+        .logo img {
+            height: 36px;
+            width: auto;
+        }
+ 
+        .tagline {
+            font-size: 0.75rem;
+            color: var(--muted);
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+ 
+        /* HERO */
+        .hero {
+            border-bottom: 1px solid var(--border);
+            padding: 4rem 2rem 3rem;
+            background: var(--ink);
+            color: var(--paper);
+        }
+ 
+        .hero-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+ 
+        .hero-label {
+            font-size: 0.7rem;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--accent);
+            margin-bottom: 1rem;
+        }
+ 
+        .hero h1 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: clamp(2.5rem, 6vw, 5rem);
+            font-weight: 700;
+            line-height: 1.05;
+            letter-spacing: -0.03em;
+            max-width: 700px;
+            margin-bottom: 1.5rem;
+        }
+ 
+        .hero p {
+            color: #a09890;
+            font-size: 1rem;
+            max-width: 500px;
+        }
+ 
+        .updated {
+            margin-top: 2rem;
+            font-size: 0.75rem;
+            color: #6a6058;
+            letter-spacing: 0.05em;
+        }
+ 
+        /* FILTERS */
+        .filters {
+            padding: 1.5rem 2rem;
+            border-bottom: 1px solid var(--border);
+            background: var(--paper);
+        }
+ 
+        .filters-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+ 
+        .filter-label {
+            font-size: 0.7rem;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--muted);
+            margin-right: 0.5rem;
+        }
+ 
+        .filter-btn {
+            padding: 0.4rem 1rem;
+            border: 1px solid var(--border);
+            background: transparent;
+            color: var(--ink);
+            font-family: 'DM Sans', sans-serif;
+            font-size: 0.8rem;
+            cursor: pointer;
+            transition: all 0.15s;
+            border-radius: 2px;
+        }
+ 
+        .filter-btn:hover, .filter-btn.active {
+            background: var(--ink);
+            color: var(--paper);
+            border-color: var(--ink);
+        }
+ 
+        /* SEARCH */
+        .search-wrap {
+            margin-left: auto;
+        }
+ 
+        .search-wrap input {
+            padding: 0.4rem 1rem;
+            border: 1px solid var(--border);
+            background: transparent;
+            font-family: 'DM Sans', sans-serif;
+            font-size: 0.8rem;
+            color: var(--ink);
+            width: 200px;
+            outline: none;
+            border-radius: 2px;
+        }
+ 
+        .search-wrap input:focus {
+            border-color: var(--ink);
+        }
+ 
+        .search-wrap input::placeholder {
+            color: var(--muted);
+        }
+ 
+        /* MAIN GRID */
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+ 
+        .section-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.75rem;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+ 
+        .section-title .count {
+            font-family: 'DM Sans', sans-serif;
+            font-size: 0.75rem;
+            font-weight: 400;
+            color: var(--muted);
+        }
+ 
+        /* CARDS */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+ 
+        .card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            padding: 1.5rem;
+            transition: transform 0.15s, box-shadow 0.15s;
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+            animation: fadeIn 0.4s ease both;
+        }
+ 
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+ 
+        .card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+        }
+ 
+        .card-meta {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+ 
+        .card-tag {
+            font-size: 0.65rem;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            padding: 0.2rem 0.6rem;
+            border-radius: 2px;
+            font-weight: 500;
+        }
+ 
+        .tag-article { background: #e8f0fe; color: #1a56b0; }
+        .tag-job { background: #e6f4ea; color: #1e7e34; }
+        .tag-framework { background: #fef3e2; color: #b45309; }
+        .tag-trend { background: #fce8e6; color: #c8391a; }
+ 
+        .card-source {
+            font-size: 0.7rem;
+            color: var(--muted);
+            margin-left: auto;
+        }
+ 
+        .card h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.05rem;
+            font-weight: 700;
+            line-height: 1.3;
+            letter-spacing: -0.01em;
+        }
+ 
+        .card h2 a {
+            color: var(--ink);
+            text-decoration: none;
+        }
+ 
+        .card h2 a:hover {
+            color: var(--accent);
+        }
+ 
+        .card-summary {
+            font-size: 0.85rem;
+            color: #4a4540;
+            line-height: 1.6;
+            flex: 1;
+        }
+ 
+        .card-footer {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 0.75rem;
+            border-top: 1px solid var(--border);
+        }
+ 
+        .card-date {
+            font-size: 0.7rem;
+            color: var(--muted);
+        }
+ 
+        .card-link {
+            font-size: 0.75rem;
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 500;
+            letter-spacing: 0.03em;
+        }
+ 
+        .card-link:hover { text-decoration: underline; }
+ 
+        /* EMPTY STATE */
+        .empty {
+            text-align: center;
+            padding: 4rem 2rem;
+            color: var(--muted);
+            grid-column: 1 / -1;
+        }
+ 
+        .empty h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+            color: var(--ink);
+        }
+ 
+        /* LOADING */
+        .loading {
+            text-align: center;
+            padding: 4rem;
+            color: var(--muted);
+            font-size: 0.85rem;
+            letter-spacing: 0.05em;
+        }
+ 
+        /* FOOTER */
+        footer {
+            border-top: 2px solid var(--ink);
+            padding: 2rem;
+            text-align: center;
+            font-size: 0.75rem;
+            color: var(--muted);
+        }
+ 
+        footer a { color: var(--accent); text-decoration: none; }
+ 
+        /* RESPONSIVE */
+        @media (max-width: 600px) {
+            .hero { padding: 2.5rem 1.5rem; }
+            main { padding: 1.5rem; }
+            .grid { grid-template-columns: 1fr; }
+            .search-wrap { display: none; }
+        }
+    </style>
+</head>
+<body>
+ 
+<header>
+    <div class="header-inner">
+        <a href="/" class="logo">
+            <img src="The_Sharp_PM_Header3.png" alt="The Sharp PM">
+        </a>
+        <span class="tagline">Curated for Product Managers</span>
+    </div>
+</header>
+ 
+<div class="hero">
+    <div class="hero-inner">
+        <p class="hero-label">Daily digest</p>
+        <h1>What PMs are reading today</h1>
+        <p>Articles, jobs, frameworks and trends — curated and summarised by AI, updated daily.</p>
+        <p class="updated" id="last-updated">A carregar...</p>
+    </div>
+</div>
+ 
+<div class="filters">
+    <div class="filters-inner">
+        <span class="filter-label">Filtrar:</span>
+        <button class="filter-btn active" data-filter="all">Todos</button>
+        <button class="filter-btn" data-filter="article">Artigos</button>
+        <button class="filter-btn" data-filter="job">Empregos</button>
+        <button class="filter-btn" data-filter="framework">Frameworks</button>
+        <button class="filter-btn" data-filter="trend">Tendências AI</button>
+        <div class="search-wrap">
+            <input type="text" id="search" placeholder="Pesquisar...">
+        </div>
+    </div>
+</div>
+ 
+<main>
+    <div class="section-title">
+        Conteúdo recente <span class="count" id="item-count"></span>
+    </div>
+    <div class="grid" id="grid">
+        <div class="loading">A carregar conteúdo...</div>
+    </div>
+</main>
+ 
+<footer>
+    <p>The Sharp PM · Conteúdo agregado automaticamente · <a href="https://github.com/TheSharpPM/TheSharpPM" target="_blank">GitHub</a></p>
+</footer>
+ 
+<script>
+    const grid = document.getElementById('grid');
+    const countEl = document.getElementById('item-count');
+    const lastUpdatedEl = document.getElementById('last-updated');
+    let allItems = [];
+    let activeFilter = 'all';
+ 
+    function tagClass(type) {
+        return { article: 'tag-article', job: 'tag-job', framework: 'tag-framework', trend: 'tag-trend' }[type] || 'tag-article';
+    }
+ 
+    function tagLabel(type) {
+        return { article: 'Artigo', job: 'Emprego', framework: 'Framework', trend: 'Tendência AI' }[type] || type;
+    }
+ 
+    function formatDate(dateStr) {
+        if (!dateStr) return '';
+        const d = new Date(dateStr);
+        return d.toLocaleDateString('pt-PT', { day: 'numeric', month: 'short', year: 'numeric' });
+    }
+ 
+    function renderCards(items) {
+        if (items.length === 0) {
+            grid.innerHTML = `<div class="empty"><h3>Nenhum resultado</h3><p>Tenta outro filtro ou termo de pesquisa.</p></div>`;
+            countEl.textContent = '';
+            return;
+        }
+        countEl.textContent = `${items.length} artigos`;
+        grid.innerHTML = items.map((item, i) => `
+            <div class="card" style="animation-delay:${i * 0.05}s">
+                <div class="card-meta">
+                    <span class="card-tag ${tagClass(item.type)}">${tagLabel(item.type)}</span>
+                    <span class="card-source">${item.source || ''}</span>
+                </div>
+                <h2><a href="${item.url}" target="_blank" rel="noopener">${item.title}</a></h2>
+                <p class="card-summary">${item.summary || ''}</p>
+                <div class="card-footer">
+                    <span class="card-date">${formatDate(item.date)}</span>
+                    <a class="card-link" href="${item.url}" target="_blank" rel="noopener">Ler artigo →</a>
+                </div>
+            </div>
+        `).join('');
+    }
+ 
+    function applyFilters() {
+        const query = document.getElementById('search').value.toLowerCase();
+        const filtered = allItems.filter(item => {
+            const matchesFilter = activeFilter === 'all' || item.type === activeFilter;
+            const matchesSearch = !query || item.title.toLowerCase().includes(query) || (item.summary || '').toLowerCase().includes(query);
+            return matchesFilter && matchesSearch;
+        });
+        renderCards(filtered);
+    }
+ 
+    // Filter buttons
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            activeFilter = btn.dataset.filter;
+            applyFilters();
+        });
+    });
+ 
+    // Search
+    document.getElementById('search').addEventListener('input', applyFilters);
+ 
+    // Load data
+    fetch('data.json')
+        .then(r => r.json())
+        .then(data => {
+            allItems = data.items || [];
+            if (data.updated) {
+                lastUpdatedEl.textContent = 'Atualizado em ' + formatDate(data.updated);
+            }
+            applyFilters();
+        })
+        .catch(() => {
+            grid.innerHTML = `<div class="empty"><h3>Conteúdo em breve</h3><p>O aggregator ainda não correu. Volta amanhã!</p></div>`;
+            lastUpdatedEl.textContent = '';
+        });
+</script>
+</body>
+</html>
