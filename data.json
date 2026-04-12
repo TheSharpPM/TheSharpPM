@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-12T16:22:43.222863+00:00",
+  "updated": "2026-04-12T16:27:57.297607+00:00",
   "total": 17,
   "items": [
     {
@@ -8,7 +8,7 @@
       "source": "Product Coalition",
       "type": "article",
       "date": "2026-04-12T16:15:43+00:00",
-      "summary": "Resumo não disponível."
+      "summary": "O insight central é que métricas de voz — como tom, ritmo e clareza — podem ser monitorizadas e melhoradas através de feedback em tempo real, tal como um tracker de atividade física. Para um PM, isso sugere adotar ciclos curtos de coleta de dados de comunicação, oferecer sugestões acionáveis após cada interação e validar oemente"
     },
     {
       "title": "This Isn’t a Success Story",
@@ -16,7 +16,7 @@
       "source": "Medium PM",
       "type": "framework",
       "date": "2026-04-12T15:39:17+00:00",
-      "summary": "Resumo não disponível."
+      "summary": "We need to summarize article titled \"This Isn’t a Success Story\" about being a Product Owner with neurodivergent brain, real version not inspirational. Provide insight main and actionable. 2-3 concise sentences in European Portuguese. No intro/comments. Just summary.\n\nWe need to infer content: likely about challenges, accommodations, self-awareness, leveraging strengths, need for clear communication, structured processes, etc. Provide actionable: adopt explicit routines, request accommodations, use strengths like hyperfocus, etc. We'll produce 2-3 sentences.\n\nLet's craft: \"Ser Product Owner com cérebro neurodivergente significa lidar constantemente com sobrecarga sensorial e dificuldades de comunicação não estruturada, mas também tirar proveito de focos intensos e pensamento fora da caixa quando o ambiente é previsível. O insight chave é que, ao estabelecer processos claros, kanbans visuais e pedir adaptaçõesó"
     },
     {
       "title": "Tinkering on Agentic AI and the Future of Product Management",
@@ -24,7 +24,7 @@
       "source": "Medium PM",
       "type": "framework",
       "date": "2026-04-12T15:23:13+00:00",
-      "summary": "Resumo não disponível."
+      "summary": "We need to summarize article in Portuguese European, 2-3 sentences, focusing on main insight and actionable for a PM. The content is truncated, but we can infer: article about \"Tinkering on Agentic AI and the Future of Product Management\" and mentions \"artifact factory\" causing product leaders to be destroyed, not by hard problems nor competitive. Likely insight: over-reliance on producing artifacts (docs, specs) without actual value; need to focus on outcomes, experimentation, agentic AI to augment PM work, shift from artifact factory to learning and impact.\n\nWe need to produce concise summary 2-3 sentences in European Portuguese.\n\nLet's craft: Main insight: PMs get stuck in producing deliverables (artifact factory) rather than driving real value; agentic AI can automate routine artifacts, freeing PMs to focus on discovery, experimentation and strategic decisions. Actionable: adopt AI‑powered agents to handle spec writing, backlog grooming and reportingreport"
     },
     {
       "title": "Streaks, Nudges, and the Behavioral Science of Showing Up",
@@ -32,7 +32,7 @@
       "source": "Product Coalition",
       "type": "article",
       "date": "2026-04-12T14:24:41+00:00",
-      "summary": "Resumo não disponível."
+      "summary": "O fundador do ExecReps.ai demonstrou que combinar sequências de uso (streaks) com lembretes bem‑timed (nudges) aumenta significativamente a frequência de acesso ao produto, aproveitando princípios de ciência comportamental para criar hábitos. Para um PM, o insight accion‑"
     },
     {
       "title": "Hard truths about building in the AI era | Keith Rabois (Khosla Ventures)",
@@ -40,7 +40,7 @@
       "source": "Lenny's Newsletter",
       "type": "article",
       "date": "2026-04-12T12:31:41+00:00",
-      "summary": "Resumo não disponível."
+      "summary": "Keith Rabois aconselha contratar primeiro “barrel” – profissionais versáteis que podem assumir múltiplas funções – antes de adicionar “ammunition”, especialistas pontuais, para manter a agg"
     },
     {
       "title": "🧠 Community Wisdom: Vibe coding as a team sport, teaching interviewers to surface real signal, what’s missing from leadership offsites, and more",
@@ -48,7 +48,7 @@
       "source": "Lenny's Newsletter",
       "type": "article",
       "date": "2026-04-11T19:36:51+00:00",
-      "summary": "Resumo não disponível."
+      "summary": "A sabedoria da comunidade mostra que programar em estilo “vibe” — como atividade de equipe (pair/mob coding) — melhora a qualidade do sinal capturado nas entrevistas, ensinando os entrevistadores a fazer perguntas que revelam competências reais em vez de respostas ensaiadas. Para os PMs, isso significa translation"
     },
     {
       "title": "2026.15: Myth and Mythos",
@@ -56,7 +56,7 @@
       "source": "Stratechery",
       "type": "trend",
       "date": "2026-04-10T17:00:00+00:00",
-      "summary": "Resumo não disponível."
+      "summary": "The user asks: \"És um assistente para Product Managers. Resume o seguinte artigo em português europeu em 2-3 frases concisas e úteis para um PM. Foca-te no insight principal e no que é accionável.\n\nTítulo: 2026.15: Myth and Mythos\nConteúdo: The best Stratechery content from the week of April 6, 2026, including Anthropic, The New York Times and another paradigm shift, and The New Yorker explains Sam Altman.\n\nResponde APENAS com o resumo, sem introduções nem comentários.\"\n\nWe have only title and a brief description, not actual article content. The content is generic: best Stratechery content week of April 6, 2026, including Anthropic, NYT and another paradigm shift, and The New Yorker explains Sam Altman.\n\nWe need to produce a  to"
     },
     {
       "title": "The financial blind spot that gets product managers fired",
@@ -64,7 +64,7 @@
       "source": "Product Coalition",
       "type": "article",
       "date": "2026-04-10T14:13:40+00:00",
-      "summary": "Resumo não disponível."
+      "summary": "A maioria dos product managers acompanha o NPS, mas ignora o período de recuperação do investimento (payback period), o que pode levar a decisões de produto desalinhadas com a rentabilidade e colocar seus empregos em risco. O insight chave é que métricas financeiras, como o payback period, devem ser monitoradas tão de perto quanto a satisfação do usuário para validar o valor real das iniciativas. De forma prática, PM"
     },
     {
       "title": "Commercial vs Internal Products",
@@ -72,7 +72,7 @@
       "source": "SVPG",
       "type": "article",
       "date": "2026-04-09T19:52:26+00:00",
-      "summary": "Resumo não disponível."
+      "summary": "Produtos internos são essenciais para apoiar as equipes e melhorar a experiência do cliente, porém exigem esforço e atenção semelhantes aos produtos comerciais. O insight chave é que, embora ambos sejam desafiadores, os internos muitas vezes são subestimados, então os PMs devem tratá‑los com a mesma disciplina de descoberta, priorização e métricas de sucesso aplicada aos produtos externos. Para agir, aloque recursos dedicados, envolva usuários internos no ciclo de feedback e estabeleça KPIs claros de adoção e impacto nos resultados do negócio."
     },
     {
       "title": "An Interview with New York Times CEO Meredith Kopit Levien About Betting on Humans With Expertise",
@@ -80,7 +80,7 @@
       "source": "Stratechery",
       "type": "trend",
       "date": "2026-04-09T10:00:00+00:00",
-      "summary": "Resumo não disponível."
+      "summary": "We need to produce a summary in European Portuguese, 2-3 concise, useful sentences for a Product Manager, focusing on main insight and actionable points. Only the summary, no intro/comments.\n\nWe need to infer content: interview with NYT CEO about human expertise as moat vs aggregators and AI. Main insight: human expertise (journalists, editors) is a defensible advantage; investing in talent, expertise, trust. Actionable: PMs should prioritize building deep domain expertise in their teams, leverage human curation alongside AI, protect quality, foster culture of expertise, maybe invest in training, editorial standards.\n\nWe produce 2-3 sentences in European Portuguese.\n\nLet's craft: \"A principal lição é que a perícia humana — jornalistas, editores e especialistas — constitui uma barreira defensável frente aos agregadores e à IA, protegendo a confiança e a diferenciação do produto. Para os Product Managers, isso traduz se"
     },
     {
       "title": "I built a custom Slack inbox. It was easier than you’d think. | Yash Tekriwal (Clay)",
@@ -88,7 +88,7 @@
       "source": "Lenny's Newsletter",
       "type": "article",
       "date": "2026-04-08T12:03:47+00:00",
-      "summary": "Resumo não disponível."
+      "summary": "Yash Tekriwal criou um digest personalizado no Slack usando agentes da OpenAI e a ferramenta Perplexity Computer, reduzindo 150 notificações diárias a cerca de 30 tarefas acionáveis. Esta abordagem demonstra como automatizar a filtragem e priorização de mensagens pode aumentar a produtividade da equipa sem exigir desenvolvimento complexo. Para PMs, replicar um pipeline semelhante — combinando IA para resumir conversas e ferramentas de visualização tipo Kanban — permite transformar o ruído do Slack em um fluxo de trabalhoir"
     },
     {
       "title": "Anthropic’s New Model, The Mythos Wolf, Glasswing and Alignment",
@@ -96,7 +96,7 @@
       "source": "Stratechery",
       "type": "trend",
       "date": "2026-04-08T10:00:00+00:00",
-      "summary": "Resumo não disponível."
+      "summary": "The user wants a concise summary in European Portuguese, 2-3 sentences, focusing on main insight and actionable for a PM. No intro or commentary. Just the summary.\n\nWe need to read the article: Title: Anthropic’s New Model, The Mythos Wolf, Glasswing and Alignment. Content: Anthropic says its new model is too dangerous to release; there are reasons to be skeptical, but to the extent Anthropic is right, that raises even deeper concerns.\n\nInterpretation: The main insight: Anthropic claims its new model is too dangerous to release; skepticism exists but if true, indicates serious alignment/safety issues. Actionable for PM: need to assess risk, consider safety testing, alignment checks, possibly delay release, engage with external review, monitor for dangerous capabilities.\n\nWe must produce 2-3 sentences, European Portuguese, concise, useful.\n\nLet's craft: \"Anthropic afirma que o seu novo modelo é demasiado perigoso para ser a"
     },
     {
       "title": "How will OpenAI compete?",
@@ -104,7 +104,7 @@
       "source": "Benedict Evans",
       "type": "trend",
       "date": "2026-02-19T20:51:04+00:00",
-      "summary": "Resumo não disponível."
+      "summary": "OpenAI não pode contar apenas com tecnologia proprietária; o seu diferencial deve vir de aumentar o engajamento e criar efeitos de rede através de experiências novas que só possam ser construídas em colaboração com desenvolvedores e parceiros. Para um PM, isso significa investir em loops de retenção (personalização, feedback rápido) e abrir plataformas ou to"
     },
     {
       "title": "Product Coaching and AI",
@@ -112,7 +112,7 @@
       "source": "SVPG",
       "type": "article",
       "date": "2026-02-04T19:28:20+00:00",
-      "summary": "Resumo não disponível."
+      "summary": "O artigo defende que a integração de IA no coaching de produto é agora essencial para atualizar as práticas dos product owners e dos product managers de equipes de feature, marcando uma mudança significativa após duas décadas de enfoque tradicional. O insight principal é que a IA pode fornecer feedback em tempo real, identificar padrões de sucesso e personalizar o desenvolvimento de habilidades, tornando o coaching mais escalável e baseado em dados. Como ação imediata, os PMs devem iniciar experimentos com ferr com"
     },
     {
       "title": "The Product Model at Google",
@@ -120,7 +120,7 @@
       "source": "SVPG",
       "type": "article",
       "date": "2025-12-19T12:32:20+00:00",
-      "summary": "Resumo não disponível."
+      "summary": "No modelo de produto do Google, os gestores de produto lideram equipas multifuncionais (PM, engenharia e design) que são responsabilizadas por resultados mensuráveis definidos através de OKRs, trabalhando em ciclos de descoberta e entrega em paralelo. O foco está em capacitar as equipas a‑"
     },
     {
       "title": "AI, networks and Mechanical Turks",
@@ -128,7 +128,7 @@
       "source": "Benedict Evans",
       "type": "trend",
       "date": "2025-11-23T13:14:03+00:00",
-      "summary": "Resumo não disponível."
+      "summary": "We need to summarize article (presumably about AI, networks, Mechanical Turks). Provide concise 2-3 sentences in European Portuguese, focusing on main insight and actionable for PM. No intro/comments. Just the summary.\n\nWe need to infer content: Likely about LLMs improving search/recommendation, reducing need for large user base, leveraging external data, network effects, mechanical turk for labeling. Insight: LLMs can bootstrap recommendation with less data, but still need network effects and human-in-the-loop for quality. Actionable: Use LLMs to generate initial embeddings, combine with small user data, use crowdsourcing for validation, iterate.\n\nProvide 2-3 sentences.\n\nLet's craft: \"Os LLMs permitem criar sistemas de busca e recomendação com desempenho elevado mesmo sem uma grande base de utilizadores própria, aproveitando conhecimentos pré‑treinados e embeddings genéricos. Contudo, para atingir a qualidade de um‑"
     },
     {
       "title": "AI metrics",
@@ -136,7 +136,7 @@
       "source": "Benedict Evans",
       "type": "trend",
       "date": "2025-06-09T13:15:31+00:00",
-      "summary": "Resumo não disponível."
+      "summary": "A medição do crescimento em mudanças de plataforma depende mais de definições claras e alinhadas ao objetivo do produto do que da quantidade de dados disponíveis; identificar o que realmente importa para o negócio é o primeiro passo. Defina métricas que reflitam o valor entregue aos usuários e ao negócio, e estabeleça um processo contínuo de revisão e ajuste conforme a plataforma evolui."
     }
   ]
 }
