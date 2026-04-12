@@ -1,13 +1,29 @@
 {
-  "updated": "2026-04-12T17:20:26.166266+00:00",
+  "updated": "2026-04-12T17:26:21.045604+00:00",
   "total": 18,
   "items": [
     {
-      "title": "The Art of Asking (Tech) Questions to GenAI and Humans Alike",
-      "url": "https://danblevins.medium.com/the-art-of-asking-tech-questions-to-genai-and-humans-alike-dcaa99d0b8ce?source=rss------product_management-5",
+      "title": "Most Businesses Don’t Need More Posts. They Need This Instead.",
+      "url": "https://medium.com/@R_Abhimaan01/most-businesses-dont-need-more-posts-they-need-this-instead-b3fca4f36fec?source=rss------product_management-5",
       "source": "Medium PM",
       "type": "framework",
-      "date": "2026-04-12T16:42:18+00:00",
+      "date": "2026-04-12T17:17:16+00:00",
+      "summary": "Summary not available."
+    },
+    {
+      "title": "Most Businesses Choose the Wrong Agency for One Simple Reason",
+      "url": "https://medium.com/@R_Abhimaan01/most-businesses-choose-the-wrong-agency-for-one-simple-reason-9d48a2d7b00f?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "framework",
+      "date": "2026-04-12T17:13:29+00:00",
+      "summary": "Summary not available."
+    },
+    {
+      "title": "The New Mandate for Product Leaders: Stop Managing Process and Start Delivering Value",
+      "url": "https://medium.com/@pankaj-uvacha/the-new-mandate-for-product-leaders-stop-managing-process-and-start-delivering-value-64bdc4ec8e6f?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "framework",
+      "date": "2026-04-12T17:11:01+00:00",
       "summary": "Summary not available."
     },
     {
@@ -16,22 +32,6 @@
       "source": "Product Coalition",
       "type": "article",
       "date": "2026-04-12T16:15:43+00:00",
-      "summary": "The founder discovered that vocal delivery—pace, tone, filler use, and energy—can be quantified and improved like physical fitness, leading to the creation of ExecReps.ai, a platform that continuously tracks and gives real‑time feedback on executives’ speaking habits. For product managers, the actionable insight is to identify measurable “soft‑skill” metrics够"
-    },
-    {
-      "title": "This Isn’t a Success Story",
-      "url": "https://medium.com/@isabeldecastro/this-isnt-a-success-story-2ee733567fa3?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "framework",
-      "date": "2026-04-12T15:39:17+00:00",
-      "summary": "Summary not available."
-    },
-    {
-      "title": "Tinkering on Agentic AI and the Future of Product Management",
-      "url": "https://medium.com/@jontziv/tinkering-on-agentic-ai-the-future-of-product-management-6e5eed2788bd?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "framework",
-      "date": "2026-04-12T15:23:13+00:00",
       "summary": "Summary not available."
     },
     {
@@ -40,7 +40,7 @@
       "source": "Product Coalition",
       "type": "article",
       "date": "2026-04-12T14:24:41+00:00",
-      "summary": "The article shows how ExecReps.ai leveraged behavioral‑science tactics—streak tracking and timely nudges—to turn occasional users into habitual participants by making the desired action visible, rewarding consistency, and reducing friction. For product managers, the takeaway is to design clear streak metrics, embed contextual nudges (e.g., reminders, progress alerts), and tie small rewards or social proof to those streaks to boost engagement and retention. Implementing these loops can systematically increase “showing up” behavior of"
+      "summary": "Summary not available."
     },
     {
       "title": "Hard truths about building in the AI era | Keith Rabois (Khosla Ventures)",
@@ -48,7 +48,7 @@
       "source": "Lenny's Newsletter",
       "type": "article",
       "date": "2026-04-12T12:31:41+00:00",
-      "summary": "Keith Rabo​is argues that early‑stage teams should prioritize hiring “barrels” — versatile, high‑impact founders‑level talent — over “ammunition,” or narrowly skilled specialists, and cautions that excessive customer interviews can dilute product vision in consumer markets. He also predicts AI will automatelegate"
+      "summary": "Summary not available."
     },
     {
       "title": "🧠 Community Wisdom: Vibe coding as a team sport, teaching interviewers to surface real signal, what’s missing from leadership offsites, and more",
@@ -56,7 +56,7 @@
       "source": "Lenny's Newsletter",
       "type": "article",
       "date": "2026-04-11T19:36:51+00:00",
-      "summary": "We need to summarize article, but content is minimal: just title and \"Community Wisdom 181\". No actual article. Likely we must respond with just summary of that? There's no content. Probably we should output a short note that no content provided. But instructions: Reply ONLY with the summary, no intro. If no content, we can say \"No content to summarize.\" That is a summary. It is 2-3 concise sentences? One sentence maybe. But must be 2-3 sentences. Could say: \"The article discusses community insights on vibe coding, interviewing techniques, and leadership offsites, highlighting the importance of collaborative coding practices, extracting real signals in interviews, and identifying gaps in leadership gatherings. Actionable takeaways for product managers include fostering team-based coding exercises, refining interview questions to uncover genuine candidate abilities, and evaluating offsite agendas to ensure they address missing leadership development needs.\" That's 2 sentences. We'll output that."
+      "summary": "Summary not available."
     },
     {
       "title": "2026.15: Myth and Mythos",
@@ -64,7 +64,7 @@
       "source": "Stratechery",
       "type": "trend",
       "date": "2026-04-10T17:00:00+00:00",
-      "summary": "The week’s highlights reveal that AI competition (notably Anthropic) and evolving media dynamics (NYT’s paradigm shift) are reshaping user expectations, while insights from Sam Altman underscore the importance of clear vision and rapid iteration in AI‑driven products. PMs should prioritize tracking AI integrating"
+      "summary": "Summary not available."
     },
     {
       "title": "The financial blind spot that gets product managers fired",
@@ -72,7 +72,7 @@
       "source": "Product Coalition",
       "type": "article",
       "date": "2026-04-10T14:13:40+00:00",
-      "summary": "Product managers often excel at reporting customer‑centric metrics like NPS while overlooking the financial metric of payback period, which can jeopardize their role. To avoid this blind spot, PMs should regularly calculate and monitor the payback period for new features or initiatives, tying product decisions directly to ROI. Integrating this financial view into roadmap planning and stakeholder communication ensures alignment with business sustainability."
+      "summary": "Summary not available."
     },
     {
       "title": "Commercial vs Internal Products",
@@ -80,7 +80,7 @@
       "source": "SVPG",
       "type": "article",
       "date": "2026-04-09T19:52:26+00:00",
-      "summary": "Internal products are often overlooked yet critical, as they enable employees to serve customers effectively; neglecting them creates hidden bottlenecks that make commercial product success harder to achieve. PMs should treat internal tools with the same strategic rigor—define clear success metrics, prioritize user experience, and allocate resources—to unlock greater efficiency and downstream commercial impact."
+      "summary": "Summary not available."
     },
     {
       "title": "An Interview with New York Times CEO Meredith Kopit Levien About Betting on Humans With Expertise",
@@ -88,7 +88,7 @@
       "source": "Stratechery",
       "type": "trend",
       "date": "2026-04-09T10:00:00+00:00",
-      "summary": "Human expertise remains a durable competitive advantage against algorithmic aggregators and AI, as it delivers nuanced, trustworthy content that machines can’t replicate. For product managers, the actionable takeaway is to prioritize investments in skilled creators and editorial rigor, using their unique insights to differentiate products, deepen user trust, and defend against commoditization by automated platforms."
+      "summary": "Summary not available."
     },
     {
       "title": "I built a custom Slack inbox. It was easier than you’d think. | Yash Tekriwal (Clay)",
@@ -96,7 +96,7 @@
       "source": "Lenny's Newsletter",
       "type": "article",
       "date": "2026-04-08T12:03:47+00:00",
-      "summary": "The author built a custom Slack inbox using OpenAI agents and Perplexity Computer to create a digest and Kanban board, cutting daily notifications from 150 to about 30 actionable items. This shows that AI‑powered automation can streamline communication overload, and PMs can replicate the approach by linking Slack to LLMs and task‑tracking tools to surface only high‑priority work."
+      "summary": "Summary not available."
     },
     {
       "title": "Anthropic’s New Model, The Mythos Wolf, Glasswing and Alignment",
@@ -104,7 +104,7 @@
       "source": "Stratechery",
       "type": "trend",
       "date": "2026-04-08T10:00:00+00:00",
-      "summary": "Anthropic claims its new model is too dangerous to release, suggesting that if true it highlights serious AI safety and alignment risks that could impede deployment. Product managers should rigorously evaluate safety testing, establish clear release criteria, and prepare contingency plans for models that may pose unacceptable risks."
+      "summary": "Summary not available."
     },
     {
       "title": "How will OpenAI compete?",
@@ -112,7 +112,7 @@
       "source": "Benedict Evans",
       "type": "trend",
       "date": "2026-02-19T20:51:04+00:00",
-      "summary": "OpenAI’s competitive edge isn’t in proprietary technology but in creating novel, engaging experiences that drive user stickiness and network effects, since incumbents already match its core AI capabilities and have stronger distribution. For product managers, the actionable priority is to the"
+      "summary": "Summary not available."
     },
     {
       "title": "Product Coaching and AI",
@@ -120,7 +120,7 @@
       "source": "SVPG",
       "type": "article",
       "date": "2026-02-04T19:28:20+00:00",
-      "summary": "The user wants summary in 2-3 concise sentences focusing on key insight and actionable for a PM. No intro/commentary. Provide only summary.\n\nWe need to infer key insight: article title \"Product Coaching and AI\". Content: \"This article represents a significant change to what we have been advocating for the past two decades. But hopefully you will agree it is necessary, and that it also represents a substantial step forward. We have been gradually but consistently raising the alarm about the need for product owners and feature team product managers to...\" truncated.\n\nKey insight: need for product coaching with AI, shift from past advocacy; need for product owners/feature team PMs to adapt. Actionable: PMs should integrate AI-driven coaching tools, focus on continuous learning, adjust role to leverage AI insights, perhaps adopt coaching mindset.\n\nSummarize in 2-3 sentences.\n\nLet's produce: \"The article argues that after two decades of advocating traditional product ownership, the field must outdated"
+      "summary": "Summary not available."
     },
     {
       "title": "The Product Model at Google",
@@ -128,7 +128,7 @@
       "source": "SVPG",
       "type": "article",
       "date": "2025-12-19T12:32:20+00:00",
-      "summary": "Google’s product model emphasizes data‑driven decision‑making, strong engineering ownership, and autonomous, cross‑functional teams that iterate rapidly on user‑centric outcomes. For product managers, this means leveraging deep analytics to validate ideas, empowering engineers to co‑lead discovery, and structuring teams around clear objectives that align with Google’s platform‑first strategy."
+      "summary": "Summary not available."
     },
     {
       "title": "AI, networks and Mechanical Turks",
@@ -136,7 +136,7 @@
       "source": "Benedict Evans",
       "type": "trend",
       "date": "2025-11-23T13:14:03+00:00",
-      "summary": "LLMs can significantly boost the relevance and personalization of search and recommendation systems, but they still require substantial high‑quality data—often sourced from a sizable user base or human‑labeled feedback (e.g., Mechanical Turk)—to avoid hallucinations and achieve reliable performance. For product managers, the actionable takeaway is to treat LLMs as a powerful augmentation layer rather than a replacement for data collection, and to invest in hybrid pipelines that blend model‑generated suggestions with targeted human validation or active learning loops."
+      "summary": "Summary not available."
     },
     {
       "title": "AI metrics",
@@ -144,7 +144,7 @@
       "source": "Benedict Evans",
       "type": "trend",
       "date": "2025-06-09T13:15:31+00:00",
-      "summary": "The core insight is that metric confusion during platform shifts stems from not first clarifying what the AI platform is intended to become, rather than just data gaps. For product managers, the actionable step is to articulate a clear strategic vision and desired outcomes for the AI initiative, then that"
+      "summary": "Summary not available."
     }
   ]
 }
