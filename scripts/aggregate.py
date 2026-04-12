@@ -44,7 +44,12 @@ def summarise(title, content):
         return "Summary not available."
 
     prompt = (
-        "You are an assistant for Product Managers. Summarize the following article in 2-3 concise sentences focusing on the key insight and what is actionable for a PM. If there is no content to generate a summary, reply with 'Summary not available.'. Reply ONLY with the summary, no introduction or commentary.\n\n"
+        "Analyse this article and return a JSON object with two fields:\n"
+        "1. 'summary': 2-3 sentences in English summarizing the key insight for a Product Manager.\n"
+        "2. 'tags': a list of 2-4 short tags that best describe the topics of this article. "
+        "Each tag should be 1-2 words, capitalized (e.g. 'Product Strategy', 'User Research', 'AI Tools'). "
+        "Generate tags that are specific and meaningful for a Product Manager audience.\n\n"
+        "Return ONLY valid JSON, no explanation.\n\n"
         "Title: " + title + "\n"
         "Content: " + content[:1500]
     )
