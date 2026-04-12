@@ -43,7 +43,7 @@ def summarise(title, content):
         return "Summary not available."
 
     prompt = (
-        "You are an assistant for Product Managers. Summarize the following article in 2-3 concise sentences focusing on the key insight and what is actionable for a PM. Reply ONLY with the summary, no introduction or commentary.\n\n"
+        "You are an assistant for Product Managers. Summarize the following article in 2-3 concise sentences focusing on the key insight and what is actionable for a PM. If there is no content to generate a summary, reply with 'Summary not available.'. Reply ONLY with the summary, no introduction or commentary.\n\n"
         "Title: " + title + "\n"
         "Content: " + content[:1500]
     )
