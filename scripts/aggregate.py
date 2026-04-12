@@ -41,6 +41,24 @@ FEEDS = [
     {"url": "https://www.firstround.com/review/feed.xml", "source": "First Round Review", "type": "article"},
     {"url": "https://www.producthunt.com/feed", "source": "Product Hunt", "type": "trend"},
     {"url": "https://hnrss.org/best?q=product+manager", "source": "Hacker News", "type": "trend"},
+
+    # Podcasts
+    {"url": "https://feeds.transistor.fm/lenny-s-podcast", "source": "Lenny's Podcast", "type": "podcast"},
+    {"url": "https://www.mindtheproduct.com/feed/podcast/", "source": "Mind the Product Podcast", "type": "podcast"},
+    {"url": "https://feeds.simplecast.com/4MvgQ73R", "source": "Masters of Scale", "type": "podcast"},
+    {"url": "https://rss.art19.com/how-i-built-this", "source": "How I Built This", "type": "podcast"},
+
+    # Videos (YouTube RSS)
+    {"url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCJXGnMEFEpKKBqAVBpTSoQQ", "source": "Y Combinator", "type": "video"},
+    {"url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC4r3BHFUBxfXGzKxb5HFmRg", "source": "Product School", "type": "video"},
+
+    # Courses & Learning
+    {"url": "https://www.coursera.org/sitemap/courses.xml", "source": "Coursera PM", "type": "course"},
+    {"url": "https://www.reforge.com/blog/rss.xml", "source": "Reforge Programs", "type": "course"},
+
+    # Events
+    {"url": "https://www.mindtheproduct.com/feed/events/", "source": "Mind the Product Events", "type": "event"},
+    {"url": "https://productledalliance.com/feed/", "source": "Product-Led Alliance", "type": "event"},
 ]
  
 # ── LANGUAGE FILTER ───────────────────────────────────────────────────────────
