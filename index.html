@@ -105,7 +105,6 @@
             letter-spacing: 0.05em;
         }
  
-        /* FILTERS */
         .filters {
             padding: 1.5rem 2rem;
             border-bottom: 1px solid var(--border);
@@ -154,7 +153,6 @@
             border-color: var(--ink);
         }
  
-        /* TAG FILTER BUTTONS */
         .tag-btn {
             padding: 0.3rem 0.75rem;
             border: 1px solid var(--border);
@@ -195,13 +193,8 @@
             border-radius: 2px;
         }
  
-        .search-wrap input:focus {
-            border-color: var(--ink);
-        }
- 
-        .search-wrap input::placeholder {
-            color: var(--muted);
-        }
+        .search-wrap input:focus { border-color: var(--ink); }
+        .search-wrap input::placeholder { color: var(--muted); }
  
         main {
             max-width: 1200px;
@@ -295,9 +288,7 @@
             text-decoration: none;
         }
  
-        .card h2 a:hover {
-            color: var(--accent);
-        }
+        .card h2 a:hover { color: var(--accent); }
  
         .card-summary {
             font-size: 0.85rem;
@@ -306,7 +297,6 @@
             flex: 1;
         }
  
-        /* CARD TAGS */
         .card-tags {
             display: flex;
             flex-wrap: wrap;
@@ -321,6 +311,19 @@
             color: var(--muted);
             border: 1px solid var(--border);
             letter-spacing: 0.03em;
+            cursor: pointer;
+            transition: all 0.15s;
+        }
+ 
+        .card-tag-pill:hover {
+            border-color: var(--accent);
+            color: var(--accent);
+        }
+ 
+        .card-tag-pill.active {
+            background: var(--accent);
+            color: white;
+            border-color: var(--accent);
         }
  
         .card-footer {
@@ -421,6 +424,7 @@
         </div>
         <div class="filter-row" id="tag-filters">
             <span class="filter-label">Topics:</span>
+            <span style="font-size:0.75rem;color:var(--muted)">Loading topics...</span>
         </div>
     </div>
 </div>
@@ -439,12 +443,6 @@
 </footer>
  
 <script>
-    const ALL_TAGS = [
-        'Strategy','Discovery','Metrics','Leadership','AI','Roadmap',
-        'Prioritization','Stakeholders','Career','Design','Growth',
-        'Agile','Data','Communication','OKRs'
-    ];
- 
     const grid = document.getElementById('grid');
     const countEl = document.getElementById('item-count');
     const lastUpdatedEl = document.getElementById('last-updated');
@@ -455,24 +453,43 @@
     // ── COOKIES ──────────────────────────────────────────────────────────────
  
     function saveTagsToCookie(tags) {
-        const expires = new Date();
+        var expires = new Date();
         expires.setFullYear(expires.getFullYear() + 1);
         document.cookie = 'selectedTags=' + JSON.stringify(tags) + '; expires=' + expires.toUTCString() + '; path=/; SameSite=Lax';
     }
  
     function loadTagsFromCookie() {
-        const match = document.cookie.match(/(?:^|;\s*)selectedTags=([^;]*)/);
+        var match = document.cookie.match(/(?:^|;\s*)selectedTags=([^;]*)/);
         if (!match) return [];
         try { return JSON.parse(decodeURIComponent(match[1])); }
         catch(e) { return []; }
     }
  
-    // ── TAG FILTER UI ─────────────────────────────────────────────────────────
+    // ── BUILD TAG FILTERS FROM DATA ───────────────────────────────────────────
  
-    function buildTagFilters() {
-        const container = document.getElementById('tag-filters');
-        ALL_TAGS.forEach(function(tag) {
-            const btn = document.createElement('button');
+    function buildTagFilters(items) {
+        var tagCount = {};
+        items.forEach(function(item) {
+            (item.tags || []).forEach(function(tag) {
+                tagCount[tag] = (tagCount[tag] || 0) + 1;
+            });
+        });
+ 
+        // Sort tags by frequency
+        var sortedTags = Object.keys(tagCount).sort(function(a, b) {
+            return tagCount[b] - tagCount[a];
+        });
+ 
+        var container = document.getElementById('tag-filters');
+        container.innerHTML = '<span class="filter-label">Topics:</span>';
+ 
+        if (sortedTags.length === 0) {
+            container.innerHTML += '<span style="font-size:0.75rem;color:var(--muted)">No topics yet — run the aggregator first.</span>';
+            return;
+        }
+ 
+        sortedTags.forEach(function(tag) {
+            var btn = document.createElement('button');
             btn.className = 'tag-btn' + (activeTags.includes(tag) ? ' active' : '');
             btn.textContent = tag;
             btn.addEventListener('click', function() {
@@ -485,6 +502,10 @@
                 }
                 saveTagsToCookie(activeTags);
                 applyFilters();
+                // Also update pill states in cards
+                document.querySelectorAll('.card-tag-pill[data-tag="' + tag + '"]').forEach(function(pill) {
+                    pill.classList.toggle('active', activeTags.includes(tag));
+                });
             });
             container.appendChild(btn);
         });
@@ -502,14 +523,17 @@
  
     function formatDate(dateStr) {
         if (!dateStr) return '';
-        const d = new Date(dateStr);
+        var d = new Date(dateStr);
         return d.toLocaleDateString('en-US', { day: 'numeric', month: 'short', year: 'numeric' });
     }
  
     function renderTagPills(tags) {
         if (!tags || tags.length === 0) return '';
         return '<div class="card-tags">' +
-            tags.map(function(t) { return '<span class="card-tag-pill">' + t + '</span>'; }).join('') +
+            tags.map(function(t) {
+                var isActive = activeTags.includes(t) ? ' active' : '';
+                return '<span class="card-tag-pill' + isActive + '" data-tag="' + t + '">' + t + '</span>';
+            }).join('') +
             '</div>';
     }
  
@@ -537,18 +561,36 @@
                 '</div>' +
                 '</div>';
         }).join('');
+ 
+        // Pill click — toggle tag filter
+        document.querySelectorAll('.card-tag-pill').forEach(function(pill) {
+            pill.addEventListener('click', function() {
+                var tag = pill.dataset.tag;
+                if (activeTags.includes(tag)) {
+                    activeTags = activeTags.filter(function(t) { return t !== tag; });
+                } else {
+                    activeTags.push(tag);
+                }
+                saveTagsToCookie(activeTags);
+                // Sync filter buttons
+                document.querySelectorAll('.tag-btn').forEach(function(btn) {
+                    btn.classList.toggle('active', activeTags.includes(btn.textContent));
+                });
+                applyFilters();
+            });
+        });
     }
  
     // ── FILTER LOGIC ──────────────────────────────────────────────────────────
  
     function applyFilters() {
-        const query = document.getElementById('search').value.toLowerCase();
-        const sevenDaysAgo = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000);
-        const filtered = allItems.filter(function(item) {
-            const matchesType = activeFilter === 'all' || item.type === activeFilter;
-            const matchesSearch = !query || item.title.toLowerCase().includes(query) || (item.summary || '').toLowerCase().includes(query);
-            const matchesDate = !item.date || new Date(item.date) >= sevenDaysAgo;
-            const matchesTags = activeTags.length === 0 || activeTags.some(function(tag) {
+        var query = document.getElementById('search').value.toLowerCase();
+        var sevenDaysAgo = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000);
+        var filtered = allItems.filter(function(item) {
+            var matchesType = activeFilter === 'all' || item.type === activeFilter;
+            var matchesSearch = !query || item.title.toLowerCase().includes(query) || (item.summary || '').toLowerCase().includes(query);
+            var matchesDate = !item.date || new Date(item.date) >= sevenDaysAgo;
+            var matchesTags = activeTags.length === 0 || activeTags.some(function(tag) {
                 return (item.tags || []).includes(tag);
             });
             return matchesType && matchesSearch && matchesDate && matchesTags;
@@ -571,8 +613,6 @@
  
     // ── INIT ──────────────────────────────────────────────────────────────────
  
-    buildTagFilters();
- 
     fetch('data.json')
         .then(function(r) { return r.json(); })
         .then(function(data) {
@@ -580,6 +620,7 @@
             if (data.updated) {
                 lastUpdatedEl.textContent = 'Updated on ' + formatDate(data.updated);
             }
+            buildTagFilters(allItems);
             applyFilters();
         })
         .catch(function() {
