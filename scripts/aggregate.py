@@ -8,20 +8,20 @@ from time import mktime
 # ── CONFIG ────────────────────────────────────────────────────────────────────
  
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
-MODEL = "nvidia/nemotron-3-super-120b-a12b:free"
-MAX_ITEMS_PER_FEED = 3  # artigos por fonte
+MODEL = "google/gemma-4-26b-it:free"
+MAX_ITEMS_PER_FEED = 3  # articles per source
 OUTPUT_FILE = "data.json"
  
-# Fontes RSS por categoria
+# RSS sources per category
 FEEDS = [
-    # Artigos de PM
+    # PM Articles
     {"url": "https://www.lennysnewsletter.com/feed", "source": "Lenny's Newsletter", "type": "article"},
     {"url": "https://www.reforge.com/blog/rss.xml", "source": "Reforge", "type": "article"},
     {"url": "https://www.svpg.com/articles/rss", "source": "SVPG", "type": "article"},
     {"url": "https://productcoalition.com/feed", "source": "Product Coalition", "type": "article"},
     {"url": "https://www.mindtheproduct.com/feed/", "source": "Mind the Product", "type": "article"},
  
-    # Tendências AI
+    # AI Trends
     {"url": "https://www.ben-evans.com/benedictevans/rss.xml", "source": "Benedict Evans", "type": "trend"},
     {"url": "https://stratechery.com/feed/", "source": "Stratechery", "type": "trend"},
  
@@ -32,17 +32,16 @@ FEEDS = [
 # ── SUMMARISE WITH AI ─────────────────────────────────────────────────────────
  
 def summarise(title, content):
-    """Pede ao LLM um resumo em português de 2-3 frases."""
     if not OPENROUTER_API_KEY:
-        return "Resumo não disponível (API key não configurada)."
- 
-    prompt = f"""És um assistente para Product Managers. Resume o seguinte artigo em português europeu em 2-3 frases concisas e úteis para um PM. Foca-te no insight principal e no que é accionável.
- 
-Título: {title}
-Conteúdo: {content[:1500]}
- 
-Responde APENAS com o resumo, sem introduções nem comentários."""
- 
+        return "Summary not available."
+
+    prompt = f"""You are an assistant for Product Managers. Summarize the following article in 2-3 concise sentences focusing on the key insight and what is actionable for a PM.
+
+Title: {title}
+Content: {content[:1500]}
+
+Reply ONLY with the summary, no introduction or commentary."""
+
     try:
         response = requests.post(
             "https://openrouter.ai/api/v1/chat/completions",
@@ -59,16 +58,17 @@ Responde APENAS com o resumo, sem introduções nem comentários."""
             timeout=30,
         )
         data = response.json()
+        print(f"  API response: {data}")
         return data["choices"][0]["message"]["content"].strip()
     except Exception as e:
-        print(f"  ⚠ Erro na API: {e}")
-        return "Resumo não disponível."
+        print(f"  ⚠ API error: {e}")
+        return "Summary not available."
  
  
 # ── FETCH FEEDS ───────────────────────────────────────────────────────────────
  
 def fetch_feed(feed_config):
-    """Vai buscar os artigos mais recentes de um RSS feed."""
+    """Fetch the most recent articles from an RSS feed."""
     items = []
     try:
         parsed = feedparser.parse(feed_config["url"])
@@ -82,24 +82,24 @@ def fetch_feed(feed_config):
                     mktime(entry.published_parsed), tz=timezone.utc
                 ).isoformat()
  
-            # Conteúdo para resumir
+            # Content to summarize
             content = ""
             if hasattr(entry, "summary"):
                 content = entry.summary
             elif hasattr(entry, "content"):
                 content = entry.content[0].value
  
-            # Remove HTML básico
+            # Remove basic HTML
             import re
             content = re.sub(r"<[^>]+>", " ", content)
             content = re.sub(r"\s+", " ", content).strip()
  
             title = entry.get("title", "Sem título")
 
-            # Filtrar artigos não ingleses usando caracteres não-ASCII como indicador
+            # Filter non-english articles using non-ASCII characters as an indicator
             non_ascii = sum(1 for c in title if ord(c) > 127)
             if non_ascii > 3:
-                print(f"  ⏭ Ignorado (não inglês): {title[:40]}")
+                print(f"  ⏭ Ignored (non english): {title[:40]}")
                 continue
             url = entry.get("link", "#")
  
@@ -116,7 +116,7 @@ def fetch_feed(feed_config):
             })
  
     except Exception as e:
-        print(f"  ⚠ Erro a ler {feed_config['source']}: {e}")
+        print(f"  ⚠ Error reading {feed_config['source']}: {e}")
  
     return items
  
@@ -124,16 +124,16 @@ def fetch_feed(feed_config):
 # ── MAIN ──────────────────────────────────────────────────────────────────────
  
 def main():
-    print("🚀 The Sharp PM — Aggregator a correr\n")
+    print("🚀 The Sharp PM — Aggregator running\n")
     all_items = []
  
     for feed in FEEDS:
         print(f"📡 {feed['source']}")
         items = fetch_feed(feed)
         all_items.extend(items)
-        print(f"   ✓ {len(items)} artigos recolhidos\n")
+        print(f"   ✓ {len(items)} articles collected\n")
  
-    # Ordena por data (mais recentes primeiro)
+    # Sort by data (most recent first)
     all_items.sort(key=lambda x: x.get("date") or "", reverse=True)
  
     output = {
@@ -145,7 +145,7 @@ def main():
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
  
-    print(f"✅ Concluído! {len(all_items)} artigos guardados em {OUTPUT_FILE}")
+    print(f"✅ All done! {len(all_items)} articles saved on {OUTPUT_FILE}")
  
  
 if __name__ == "__main__":
