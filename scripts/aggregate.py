@@ -36,6 +36,11 @@ FEEDS = [
     {"url": "https://remoteok.com/remote-product-manager-jobs.rss", "source": "Remote OK", "type": "job"},
     {"url": "https://weworkremotely.com/categories/remote-product-jobs.rss", "source": "We Work Remotely", "type": "job"},
     {"url": "https://www.workatastartup.com/jobs.rss?role=product", "source": "Work at a Startup", "type": "job"},
+
+    # Additional Articles
+    {"url": "https://www.firstround.com/review/feed.xml", "source": "First Round Review", "type": "article"},
+    {"url": "https://www.producthunt.com/feed", "source": "Product Hunt", "type": "trend"},
+    {"url": "https://hnrss.org/best?q=product+manager", "source": "Hacker News", "type": "trend"},
 ]
  
 # ── LANGUAGE FILTER ───────────────────────────────────────────────────────────
@@ -191,6 +196,11 @@ def main():
     all_items = new_items + existing_items
     all_items.sort(key=lambda x: x.get("date") or "", reverse=True)
  
+    # Remove articles older than 90 days
+    from datetime import timedelta
+    cutoff = datetime.now(timezone.utc) - timedelta(days=90)
+    all_items = [i for i in all_items if not i.get("date") or datetime.fromisoformat(i["date"]) >= cutoff]
+
     output = {
         "updated": datetime.now(timezone.utc).isoformat(),
         "total": len(all_items),
