@@ -369,28 +369,28 @@
 <div class="filters">
     <div class="filters-inner">
         <span class="filter-label">Filtrar:</span>
-        <button class="filter-btn active" data-filter="all">Todos</button>
-        <button class="filter-btn" data-filter="article">Artigos</button>
-        <button class="filter-btn" data-filter="job">Empregos</button>
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="article">Articles</button>
+        <button class="filter-btn" data-filter="job">Jobs</button>
         <button class="filter-btn" data-filter="framework">Frameworks</button>
-        <button class="filter-btn" data-filter="trend">Tendências AI</button>
+        <button class="filter-btn" data-filter="trend">AI Trends</button>
         <div class="search-wrap">
-            <input type="text" id="search" placeholder="Pesquisar...">
+            <input type="text" id="search" placeholder="Search...">
         </div>
     </div>
 </div>
  
 <main>
     <div class="section-title">
-        Conteúdo recente <span class="count" id="item-count"></span>
+        Recent content <span class="count" id="item-count"></span>
     </div>
     <div class="grid" id="grid">
-        <div class="loading">A carregar conteúdo...</div>
+        <div class="loading">Loading...</div>
     </div>
 </main>
  
 <footer>
-    <p>The Sharp PM · Conteúdo agregado automaticamente · <a href="https://github.com/TheSharpPM/TheSharpPM" target="_blank">GitHub</a></p>
+    <p>The Sharp PM · Automatically loaded content · <a href="https://github.com/TheSharpPM/TheSharpPM" target="_blank">GitHub</a></p>
 </footer>
  
 <script>
@@ -416,7 +416,7 @@
  
     function renderCards(items) {
         if (items.length === 0) {
-            grid.innerHTML = `<div class="empty"><h3>Nenhum resultado</h3><p>Tenta outro filtro ou termo de pesquisa.</p></div>`;
+            grid.innerHTML = `<div class="empty"><h3>No results</h3><p>Try another fitler or search term.</p></div>`;
             countEl.textContent = '';
             return;
         }
@@ -466,12 +466,12 @@
         .then(data => {
             allItems = data.items || [];
             if (data.updated) {
-                lastUpdatedEl.textContent = 'Atualizado em ' + formatDate(data.updated);
+                lastUpdatedEl.textContent = 'Updated on ' + formatDate(data.updated);
             }
             applyFilters();
         })
         .catch(() => {
-            grid.innerHTML = `<div class="empty"><h3>Conteúdo em breve</h3><p>O aggregator ainda não correu. Volta amanhã!</p></div>`;
+            grid.innerHTML = `<div class="empty"><h3>Content will be available</h3><p>Loading. Come back soon!</p></div>`;
             lastUpdatedEl.textContent = '';
         });
 </script>
