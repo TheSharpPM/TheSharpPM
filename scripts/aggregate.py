@@ -9,12 +9,10 @@ from time import mktime
 # ── CONFIG ────────────────────────────────────────────────────────────────────
  
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
-MODEL = "nvidia/nemotron-3-super-120b-a12b:free"
-
-MAX_ITEMS_PER_FEED = 3  # articles per source
+MODEL = "meta-llama/llama-3.3-70b-instruct:free"
+MAX_ITEMS_PER_FEED = 3
 OUTPUT_FILE = "data.json"
  
-# RSS sources per category
 FEEDS = [
     # Articles
     {"url": "https://www.lennysnewsletter.com/feed", "source": "Lenny's Newsletter", "type": "article"},
@@ -24,34 +22,56 @@ FEEDS = [
     {"url": "https://www.mindtheproduct.com/feed/", "source": "Mind the Product", "type": "article"},
     {"url": "https://blackboxofpm.com/feed", "source": "Black Box of PM", "type": "article"},
     {"url": "https://www.producttalk.org/feed/", "source": "Product Talk", "type": "article"},
-
+ 
     # AI Trends
     {"url": "https://www.ben-evans.com/benedictevans/rss.xml", "source": "Benedict Evans", "type": "trend"},
     {"url": "https://stratechery.com/feed/", "source": "Stratechery", "type": "trend"},
     {"url": "https://www.exponentialview.co/feed", "source": "Exponential View", "type": "trend"},
-
-    # Frameworks
+ 
+    # Articles (Medium)
     {"url": "https://medium.com/feed/tag/product-management", "source": "Medium PM", "type": "article"},
     {"url": "https://medium.com/feed/tag/product-strategy", "source": "Medium Strategy", "type": "article"},
-
+ 
     # Jobs (remote)
     {"url": "https://remoteok.com/remote-product-manager-jobs.rss", "source": "Remote OK", "type": "job"},
     {"url": "https://weworkremotely.com/categories/remote-product-jobs.rss", "source": "We Work Remotely", "type": "job"},
     {"url": "https://www.workatastartup.com/jobs.rss?role=product", "source": "Work at a Startup", "type": "job"},
 ]
-
+ 
 # ── LANGUAGE FILTER ───────────────────────────────────────────────────────────
  
 def is_english(text):
     non_ascii = sum(1 for c in text if ord(c) > 127)
     return non_ascii <= 3
  
-# ── SUMMARISE WITH AI ─────────────────────────────────────────────────────────
+# ── API CHECK ─────────────────────────────────────────────────────────────────
  
-def summarise(title, content):
+def check_api_available():
     if not OPENROUTER_API_KEY:
-        return "Summary not available."
-
+        return False
+    try:
+        response = requests.post(
+            "https://openrouter.ai/api/v1/chat/completions",
+            headers={
+                "Authorization": "Bearer " + OPENROUTER_API_KEY,
+                "Content-Type": "application/json",
+                "HTTP-Referer": "https://thesharppm.github.io",
+            },
+            json={
+                "model": MODEL,
+                "messages": [{"role": "user", "content": "test"}],
+                "max_tokens": 5,
+            },
+            timeout=15,
+        )
+        data = response.json()
+        return "choices" in data
+    except Exception:
+        return False
+ 
+# ── ANALYSE WITH AI ───────────────────────────────────────────────────────────
+ 
+def analyse(title, content):
     prompt = (
         "Analyse this article and return a JSON object with two fields:\n"
         "1. 'summary': 2-3 sentences in English summarizing the key insight for a Product Manager.\n"
@@ -62,29 +82,30 @@ def summarise(title, content):
         "Title: " + title + "\n"
         "Content: " + content[:1500]
     )
-
+ 
     try:
         response = requests.post(
             "https://openrouter.ai/api/v1/chat/completions",
             headers={
-                "Authorization": f"Bearer {OPENROUTER_API_KEY}",
+                "Authorization": "Bearer " + OPENROUTER_API_KEY,
                 "Content-Type": "application/json",
                 "HTTP-Referer": "https://thesharppm.github.io",
             },
             json={
                 "model": MODEL,
                 "messages": [{"role": "user", "content": prompt}],
-                "max_tokens": 200,
+                "max_tokens": 300,
             },
             timeout=30,
         )
         data = response.json()
-        print(f"  API response: {data}")
-        return data["choices"][0]["message"]["content"].strip()
+        text = data["choices"][0]["message"]["content"].strip()
+        text = text.replace("```json", "").replace("```", "").strip()
+        parsed = json.loads(text)
+        return parsed.get("summary", "Summary not available."), parsed.get("tags", [])
     except Exception as e:
-        print(f"  ⚠ API error: {e}")
-        return "Summary not available."
- 
+        print("  Warning API error: " + str(e))
+        return "Summary not available.", []
  
 # ── FETCH FEEDS ───────────────────────────────────────────────────────────────
  
@@ -119,7 +140,7 @@ def fetch_feed(feed_config):
             url = entry.get("link", "#")
  
             print("  -> " + title[:60] + "...")
-            summary = summarise(title, content)
+            summary, tags = analyse(title, content)
  
             items.append({
                 "title": title,
@@ -128,6 +149,7 @@ def fetch_feed(feed_config):
                 "type": feed_config["type"],
                 "date": date,
                 "summary": summary,
+                "tags": tags,
             })
  
     except Exception as e:
@@ -135,47 +157,51 @@ def fetch_feed(feed_config):
  
     return items
  
- 
 # ── MAIN ──────────────────────────────────────────────────────────────────────
  
 def main():
     print("The Sharp PM - Aggregator running\n")
-    
-    # Carregar artigos existentes
+ 
+    print("Checking OpenRouter API...")
+    if not check_api_available():
+        print("API not available or out of credits. Skipping run.")
+        return
+    print("API available. Proceeding...\n")
+ 
+    # Load existing articles
     existing_items = []
     if os.path.exists(OUTPUT_FILE):
         with open(OUTPUT_FILE, "r", encoding="utf-8") as f:
             existing_data = json.load(f)
             existing_items = existing_data.get("items", [])
-    
-    # URLs já existentes para evitar duplicados
+ 
+    # Existing URLs to avoid duplicates
     existing_urls = {item["url"] for item in existing_items}
-    
-    # Recolher novos artigos
+ 
+    # Fetch new articles
     new_items = []
     for feed in FEEDS:
         print("Feed: " + feed["source"])
         items = fetch_feed(feed)
-        # Só adiciona artigos que ainda não existem
         fresh = [i for i in items if i["url"] not in existing_urls]
         new_items.extend(fresh)
         print("   " + str(len(fresh)) + " new articles\n")
-
-    # Juntar novos com existentes
+ 
+    # Merge new with existing
     all_items = new_items + existing_items
     all_items.sort(key=lambda x: x.get("date") or "", reverse=True)
-
+ 
     output = {
         "updated": datetime.now(timezone.utc).isoformat(),
         "total": len(all_items),
         "items": all_items,
     }
-
+ 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
-
+ 
     print("Done! " + str(len(all_items)) + " total articles saved.")
-
-
+ 
+ 
 if __name__ == "__main__":
     main()
