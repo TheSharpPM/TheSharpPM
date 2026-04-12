@@ -29,6 +29,12 @@ FEEDS = [
     # Frameworks & templates (via Medium tags)
     {"url": "https://medium.com/feed/tag/product-management", "source": "Medium PM", "type": "framework"},
 ]
+
+# ── LANGUAGE FILTER ───────────────────────────────────────────────────────────
+ 
+def is_english(text):
+    non_ascii = sum(1 for c in text if ord(c) > 127)
+    return non_ascii <= 3
  
 # ── SUMMARISE WITH AI ─────────────────────────────────────────────────────────
  
