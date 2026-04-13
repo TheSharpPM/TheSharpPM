@@ -642,6 +642,9 @@
         .then(function(r) { return r.json(); })
         .then(function(data) {
             allItems = data.items || [];
+            console.log('Items loaded:', allItems.length);
+            console.log('First item date:', allItems[0] && allItems[0].date);
+            console.log('90 days ago:', new Date(Date.now() - 90 * 24 * 60 * 60 * 1000));
             if (data.updated) {
                 lastUpdatedEl.textContent = 'Updated on ' + formatDate(data.updated);
             }
