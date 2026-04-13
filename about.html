@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About — The Sharp PM</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --ink: #0f0e0d;
+            --paper: #f5f2ed;
+            --accent: #c8391a;
+            --muted: #8a8278;
+            --card: #ffffff;
+            --border: #e0dbd4;
+        }
+ 
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+ 
+        body {
+            background: var(--paper);
+            color: var(--ink);
+            font-family: 'DM Sans', sans-serif;
+            font-weight: 300;
+            line-height: 1.6;
+        }
+ 
+        header {
+            border-bottom: 2px solid var(--ink);
+            padding: 0 2rem;
+            background: var(--paper);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+ 
+        .header-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1rem 0;
+        }
+ 
+        .logo {
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+        }
+ 
+        .logo img {
+            height: 36px;
+            width: auto;
+        }
+ 
+        .tagline {
+            font-size: 0.75rem;
+            color: var(--muted);
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+ 
+        .hero {
+            border-bottom: 1px solid var(--border);
+            padding: 4rem 2rem 3rem;
+            background: var(--ink);
+            color: var(--paper);
+        }
+ 
+        .hero-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+ 
+        .hero-label {
+            font-size: 0.7rem;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--accent);
+            margin-bottom: 1rem;
+        }
+ 
+        .hero h1 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: clamp(2.5rem, 6vw, 4rem);
+            font-weight: 700;
+            line-height: 1.05;
+            letter-spacing: -0.03em;
+            max-width: 700px;
+        }
+ 
+        main {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+ 
+        .section {
+            margin-bottom: 3rem;
+        }
+ 
+        .section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.4rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            padding-bottom: 0.75rem;
+            border-bottom: 1px solid var(--border);
+        }
+ 
+        .section p {
+            font-size: 0.95rem;
+            color: #3a3530;
+            line-height: 1.8;
+            margin-bottom: 1rem;
+        }
+ 
+        .sources-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 0.75rem;
+            margin-top: 1rem;
+        }
+ 
+        .source-item {
+            background: var(--card);
+            border: 1px solid var(--border);
+            padding: 0.75rem 1rem;
+            font-size: 0.8rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+ 
+        .source-type {
+            font-size: 0.6rem;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            padding: 0.15rem 0.5rem;
+            border-radius: 2px;
+            font-weight: 500;
+            white-space: nowrap;
+        }
+ 
+        .type-article { background: #e8f0fe; color: #1a56b0; }
+        .type-trend { background: #fce8e6; color: #c8391a; }
+        .type-job { background: #e6f4ea; color: #1e7e34; }
+        .type-podcast { background: #f3e8ff; color: #7c3aed; }
+ 
+        .stack-list {
+            list-style: none;
+            margin-top: 1rem;
+        }
+ 
+        .stack-list li {
+            padding: 0.6rem 0;
+            border-bottom: 1px solid var(--border);
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+ 
+        .stack-list li:last-child {
+            border-bottom: none;
+        }
+ 
+        .stack-label {
+            font-size: 0.7rem;
+            color: var(--muted);
+            width: 100px;
+            flex-shrink: 0;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+        }
+ 
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--accent);
+            text-decoration: none;
+            font-size: 0.85rem;
+            font-weight: 500;
+            margin-bottom: 2rem;
+        }
+ 
+        .back-link:hover { text-decoration: underline; }
+ 
+        footer {
+            border-top: 2px solid var(--ink);
+            padding: 2rem;
+            text-align: center;
+            font-size: 0.75rem;
+            color: var(--muted);
+        }
+ 
+        footer a { color: var(--accent); text-decoration: none; }
+    </style>
+</head>
+<body>
+ 
+<header>
+    <div class="header-inner">
+        <a href="index.html" class="logo">
+            <img src="The_Sharp_PM_Header3.png" alt="The Sharp PM">
+        </a>
+        <span class="tagline">Curated for Product Managers</span>
+    </div>
+</header>
+ 
+<div class="hero">
+    <div class="hero-inner">
+        <p class="hero-label">About</p>
+        <h1>An experimental project for PMs</h1>
+    </div>
+</div>
+ 
+<main>
+    <a href="index.html" class="back-link">← Back to content</a>
+ 
+    <div class="section">
+        <h2>What is this?</h2>
+        <p>The Sharp PM is an experimental project designed to aggregate relevant content for Product Managers in one place. Instead of following dozens of newsletters, podcasts, and blogs separately, this site pulls everything together automatically — articles, jobs, AI trends, podcasts, videos, courses, and events.</p>
+        <p>Each piece of content is summarised and tagged by AI, making it easier to quickly scan what's worth reading and filter by the topics you care about most.</p>
+    </div>
+ 
+    <div class="section">
+        <h2>How it works</h2>
+        <p>A Python script runs every day via GitHub Actions, fetching the latest content from RSS feeds across the sources below. Each article is sent to an AI model (via OpenRouter) which generates a 2-3 sentence summary and assigns relevant topic tags. The results are saved to a JSON file that powers this site.</p>
+        <p>The site itself is a static HTML page hosted on GitHub Pages — no server, no database, no ongoing costs.</p>
+        <ul class="stack-list">
+            <li><span class="stack-label">Hosting</span> GitHub Pages</li>
+            <li><span class="stack-label">Automation</span> GitHub Actions</li>
+            <li><span class="stack-label">AI summaries</span> OpenRouter API</li>
+            <li><span class="stack-label">Content</span> RSS feeds</li>
+            <li><span class="stack-label">Built with</span> Claude (Anthropic)</li>
+        </ul>
+    </div>
+ 
+    <div class="section">
+        <h2>Sources</h2>
+        <div class="sources-grid">
+            <div class="source-item"><span class="source-type type-article">Article</span> Lenny's Newsletter</div>
+            <div class="source-item"><span class="source-type type-article">Article</span> SVPG</div>
+            <div class="source-item"><span class="source-type type-article">Article</span> Reforge</div>
+            <div class="source-item"><span class="source-type type-article">Article</span> Product Coalition</div>
+            <div class="source-item"><span class="source-type type-article">Article</span> Mind the Product</div>
+            <div class="source-item"><span class="source-type type-article">Article</span> Black Box of PM</div>
+            <div class="source-item"><span class="source-type type-article">Article</span> Product Talk</div>
+            <div class="source-item"><span class="source-type type-article">Article</span> First Round Review</div>
+            <div class="source-item"><span class="source-type type-trend">Trend</span> Benedict Evans</div>
+            <div class="source-item"><span class="source-type type-trend">Trend</span> Stratechery</div>
+            <div class="source-item"><span class="source-type type-trend">Trend</span> Exponential View</div>
+            <div class="source-item"><span class="source-type type-trend">Trend</span> Hacker News</div>
+            <div class="source-item"><span class="source-type type-trend">Trend</span> Product Hunt</div>
+            <div class="source-item"><span class="source-type type-job">Job</span> Remote OK</div>
+            <div class="source-item"><span class="source-type type-job">Job</span> We Work Remotely</div>
+            <div class="source-item"><span class="source-type type-job">Job</span> Work at a Startup</div>
+            <div class="source-item"><span class="source-type type-podcast">Podcast</span> Lenny's Podcast</div>
+            <div class="source-item"><span class="source-type type-podcast">Podcast</span> Mind the Product</div>
+            <div class="source-item"><span class="source-type type-podcast">Podcast</span> Masters of Scale</div>
+            <div class="source-item"><span class="source-type type-podcast">Podcast</span> How I Built This</div>
+        </div>
+    </div>
+</main>
+ 
+<footer>
+    <p>The Sharp PM · Content aggregated automatically · <a href="https://github.com/TheSharpPM/TheSharpPM" target="_blank">GitHub</a></p>
+</footer>
+ 
+</body>
+</html>
