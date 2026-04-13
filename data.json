@@ -1,5 +1,240 @@
-{
-  "updated": "",
-  "total": 0,
-  "items": []
+
+  "updated": "2026-04-12T18:14:46.665869+00:00",
+  "total": 18,
+  "items": [
+    {
+      "title": "How We Built a Voice Agent on Chatzy.ai in Just One Week",
+      "url": "https://medium.com/@KumarSKS/how-we-built-a-voice-agent-on-chatzy-ai-in-just-one-week-709239afe449?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-04-12T17:40:14+00:00",
+      "summary": "A hands-on account of shipping a voice agent in one week using AI-assisted development, covering the key architectural decisions and tradeoffs made under time pressure. The team prioritised speed over perfection, using existing APIs and low-code tools to validate the concept before investing in custom infrastructure. A useful case study for PMs evaluating rapid prototyping approaches for voice and conversational AI features.",
+      "tags": [
+        "AI Tools",
+        "Rapid Prototyping",
+        "Voice AI"
+      ]
+    },
+    {
+      "title": "Everything is Connected: A Preview of My New Book",
+      "url": "https://medium.com/practical-agilist/everything-is-connected-a-preview-of-my-new-book-9466b8fe0bd2?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-04-12T17:36:53+00:00",
+      "summary": "A preview of an upcoming book arguing that product, design, engineering, and business outcomes are deeply interconnected systems rather than separate concerns. The author challenges the tendency to optimise individual parts in isolation, which often creates local wins but systemic failures. PMs will find value in the systems-thinking framework proposed for navigating cross-functional complexity.",
+      "tags": [
+        "Systems Thinking",
+        "Product Strategy",
+        "Leadership"
+      ]
+    },
+    {
+      "title": "Most Businesses Don't Need More Posts. They Need This Instead.",
+      "url": "https://medium.com/@R_Abhimaan01/most-businesses-dont-need-more-posts-they-need-this-instead-b3fca4f36fec?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-04-12T17:17:16+00:00",
+      "summary": "Most businesses default to producing more content when their marketing underperforms, but the real problem is usually a lack of strategic positioning and clear value proposition. The author argues that clarity of message and audience targeting outperforms volume every time. PMs building growth loops should consider this when evaluating content as an acquisition channel.",
+      "tags": [
+        "Growth",
+        "Product Marketing",
+        "Strategy"
+      ]
+    },
+    {
+      "title": "I Built a Fitness Tracker for How You Speak",
+      "url": "https://www.productcoalition.com/p/i-built-a-fitness-tracker-for-how",
+      "source": "Product Coalition",
+      "type": "article",
+      "date": "2026-04-12T16:15:43+00:00",
+      "summary": "The founder of ExecReps.ai shares how they overcame the 'Gulf of Evaluation' problem — showing users too much data with too little meaning. After building an impressive analytics dashboard, they realised users couldn't answer a simple question: am I improving? The key PM lesson is that users want answers, not data, and simplicity in measurement design drives better outcomes than comprehensiveness.",
+      "tags": [
+        "Product Design",
+        "Metrics",
+        "User Research"
+      ]
+    },
+    {
+      "title": "Streaks, Nudges, and the Behavioral Science of Showing Up",
+      "url": "https://www.productcoalition.com/p/streaks-nudges-and-the-behavioral",
+      "source": "Product Coalition",
+      "type": "article",
+      "date": "2026-04-12T14:24:41+00:00",
+      "summary": "A founder's account of the internal debate around adding streaks to ExecReps.ai, exploring the tension between building a healthy habit product and creating guilt-driven engagement. Drawing on Duolingo's experience and behavioural science research, the team evaluated whether streaks help users build genuine practice or just anxiety. An essential read for PMs working on retention and engagement mechanics.",
+      "tags": [
+        "Retention",
+        "Behavioural Design",
+        "Growth"
+      ]
+    },
+    {
+      "title": "Hard truths about building in the AI era | Keith Rabois (Khosla Ventures)",
+      "url": "https://www.lennysnewsletter.com/p/hard-truths-about-building-in-the-ai-era",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-04-12T12:31:41+00:00",
+      "summary": "Keith Rabois shares his contrarian views on building products in the AI era, including his 'barrels vs. ammunition' hiring framework and why he believes talking to customers actively harms consumer product development. He argues AI is fundamentally collapsing the traditional PM role, and that the best builders today work from strong conviction rather than user feedback. A provocative perspective that challenges conventional product wisdom.",
+      "tags": [
+        "AI Strategy",
+        "Leadership",
+        "Product Culture"
+      ]
+    },
+    {
+      "title": "Community Wisdom: Vibe coding as a team sport, teaching interviewers to surface real signal, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-vibe-coding-as-a",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-04-11T19:36:51+00:00",
+      "summary": "A curated collection of insights from Lenny's Slack community covering practical topics including using AI-assisted coding collaboratively, improving interview signal quality, and making leadership offsites more effective. Community members share first-hand experiences and frameworks that go beyond theory. Useful for PMs looking for peer-tested approaches to common team challenges.",
+      "tags": [
+        "Leadership",
+        "Hiring",
+        "AI Tools"
+      ]
+    },
+    {
+      "title": "2026.15: Myth and Mythos",
+      "url": "https://stratechery.com/2026/myth-and-mythos/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-04-10T17:00:00+00:00",
+      "summary": "Ben Thompson explores how dominant tech narratives shape product strategy and competitive dynamics in the AI era, drawing parallels between mythological storytelling and modern platform wars. He argues that companies which control the prevailing narrative gain strategic leverage well beyond their actual technical capabilities. Essential context for PMs navigating AI-driven market shifts and positioning decisions.",
+      "tags": [
+        "AI Strategy",
+        "Platform Strategy",
+        "Competitive Analysis"
+      ]
+    },
+    {
+      "title": "The financial blind spot that gets product managers fired",
+      "url": "https://www.productcoalition.com/p/the-number-your-board-asks-first",
+      "source": "Product Coalition",
+      "type": "article",
+      "date": "2026-04-10T14:13:40+00:00",
+      "summary": "Many product managers excel at product metrics like NPS and activation rates but are dangerously unaware of the financial metrics boards actually care about — particularly LTV-to-CAC ratio and payback period. The author argues this blind spot is one of the leading reasons experienced PMs get cut in budget reviews. PMs who want to be taken seriously at the executive level need to own their product's financial narrative.",
+      "tags": [
+        "Metrics",
+        "Stakeholders",
+        "Product Finance"
+      ]
+    },
+    {
+      "title": "Commercial vs Internal Products",
+      "url": "https://www.svpg.com/commercial-vs-internal-products/",
+      "source": "SVPG",
+      "type": "article",
+      "date": "2026-04-09T19:52:26+00:00",
+      "summary": "Marty Cagan examines the fundamental differences between building commercial products for paying customers and internal tools for employees, arguing that the constraints, incentives, and success metrics are so different they require distinct PM skill sets. Internal products often lack the forcing function of market competition, which leads to lower quality and slower iteration. A useful framework for PMs transitioning between these contexts.",
+      "tags": [
+        "Product Strategy",
+        "Internal Tools",
+        "Product Culture"
+      ]
+    },
+    {
+      "title": "An Interview with New York Times CEO Meredith Kopit Levien About Betting on Humans With Expertise",
+      "url": "https://stratechery.com/2026/an-interview-with-new-york-times-ceo-meredith-kopit-levien-about-betting-on-humans-with-expertise/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-04-09T10:00:00+00:00",
+      "summary": "The NYT CEO discusses the company's strategy of doubling down on human expertise and trusted journalism as a competitive moat against AI-generated content. She argues that in a world of abundant AI content, scarcity of credible human expertise becomes the premium product. PMs in media or content-adjacent products will find this a valuable case study in differentiation strategy.",
+      "tags": [
+        "AI Strategy",
+        "Content Strategy",
+        "Competitive Analysis"
+      ]
+    },
+    {
+      "title": "I built a custom Slack inbox. It was easier than you'd think. | Yash Tekriwal (Clay)",
+      "url": "https://www.lennysnewsletter.com/p/i-built-a-custom-slack-inbox-it-was",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-04-08T12:03:47+00:00",
+      "summary": "Yash Tekriwal from Clay shares how he used AI agents to reduce 150+ daily Slack notifications to ~30 actionable items by building a custom digest and Kanban dashboard. The system categorises messages into action-required, need-to-read, and FYI buckets automatically. A practical example of how PMs can use AI tools to reclaim focus and reduce notification fatigue without waiting for their company to solve it.",
+      "tags": [
+        "AI Tools",
+        "Productivity",
+        "Automation"
+      ]
+    },
+    {
+      "title": "Anthropic's New Model, The Mythos Wolf, Glasswing and Alignment",
+      "url": "https://stratechery.com/2026/anthropics-new-model-the-mythos-wolf-glasswing-and-alignment/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-04-08T10:00:00+00:00",
+      "summary": "Ben Thompson analyses Anthropic's latest model release in the context of the broader AI alignment debate and competitive dynamics among frontier AI labs. He examines how safety-focused positioning affects product strategy and market perception for companies like Anthropic. Essential reading for PMs tracking the AI landscape and thinking about how foundation model choices affect their product roadmap.",
+      "tags": [
+        "AI Strategy",
+        "Competitive Analysis",
+        "Foundation Models"
+      ]
+    },
+    {
+      "title": "How will OpenAI compete?",
+      "url": "https://www.ben-evans.com/benedictevans/2026/2/19/how-will-openai-compete-nkg2x",
+      "source": "Benedict Evans",
+      "type": "trend",
+      "date": "2026-02-19T20:51:04+00:00",
+      "summary": "Benedict Evans argues that OpenAI faces four fundamental strategic challenges: no clear competitive moat, a rapidly shifting product landscape, the need to cross the chasm without existing distribution, and the difficulty of building consumer products on top of commodity models. He questions whether OpenAI's massive user base translates into durable strategic advantage. A clear-eyed analysis of the competitive dynamics shaping the AI product landscape.",
+      "tags": [
+        "AI Strategy",
+        "Competitive Analysis",
+        "Platform Strategy"
+      ]
+    },
+    {
+      "title": "Product Coaching and AI",
+      "url": "https://www.svpg.com/product-coaching-and-ai/",
+      "source": "SVPG",
+      "type": "article",
+      "date": "2026-02-04T19:28:20+00:00",
+      "summary": "Marty Cagan explores how AI is changing the nature of product coaching and mentorship, arguing that while AI can accelerate skill development in some areas, the fundamentally human aspects of product leadership — judgement, empathy, and stakeholder navigation — remain beyond AI's reach. He suggests coaches should focus on these irreplaceable skills rather than competing with AI on technical knowledge. A thoughtful perspective for PMs investing in their own development.",
+      "tags": [
+        "Leadership",
+        "Career",
+        "AI Tools"
+      ]
+    },
+    {
+      "title": "The Product Model at Google",
+      "url": "https://www.svpg.com/the-product-model-at-google/",
+      "source": "SVPG",
+      "type": "article",
+      "date": "2025-12-19T12:32:20+00:00",
+      "summary": "Marty Cagan examines how Google's product model has evolved over the years, distinguishing between the early innovation-driven culture and the more process-heavy approach that emerged as the company scaled. He argues that Google's struggles with product innovation in recent years stem from moving away from empowered product teams toward a feature-factory model. A useful diagnostic for PMs assessing their own organisation's product culture.",
+      "tags": [
+        "Product Culture",
+        "Org Design",
+        "Product Strategy"
+      ]
+    },
+    {
+      "title": "AI, networks and Mechanical Turks",
+      "url": "https://www.ben-evans.com/benedictevans/2025/11/23/ai-networks-and-mechanical-turks",
+      "source": "Benedict Evans",
+      "type": "trend",
+      "date": "2025-11-23T13:14:03+00:00",
+      "summary": "Benedict Evans argues that LLMs represent a step change in how consumer platforms understand user behaviour — moving from correlation-based recommendations to something closer to genuine semantic understanding. This unlocks new kinds of network effects and personalisation that weren't possible with traditional ML. PMs building recommendation systems or personalisation features should understand how this shift changes the competitive landscape.",
+      "tags": [
+        "AI Strategy",
+        "Network Effects",
+        "Personalisation"
+      ]
+    },
+    {
+      "title": "AI metrics",
+      "url": "https://www.ben-evans.com/benedictevans/2025/6/9/generative-ais-metrics-question",
+      "source": "Benedict Evans",
+      "type": "trend",
+      "date": "2025-06-09T13:15:31+00:00",
+      "summary": "Benedict Evans draws parallels between the early internet's metric confusion — hits, registered users, MAU — and the current struggle to measure meaningful AI adoption. He argues that metrics like weekly active users obscure whether AI is genuinely changing behaviour, and that the industry needs better proxies for real value creation. PMs building AI features should think carefully about what success actually looks like beyond surface-level engagement metrics.",
+      "tags": [
+        "Metrics",
+        "AI Strategy",
+        "Product Analytics"
+      ]
+    }
+  ]
 }
