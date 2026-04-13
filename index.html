@@ -363,6 +363,32 @@
         }
  
         .card-link:hover { text-decoration: underline; }
+
+        .card-share {
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+            opacity: 0;
+            transition: opacity 0.2s;
+        }
+
+        .card:hover .card-share {
+            opacity: 1;
+        }
+
+        .share-btn {
+            font-size: 0.7rem;
+            color: var(--muted);
+            text-decoration: none;
+            padding: 0.2rem 0.4rem;
+            border-radius: 2px;
+            transition: color 0.15s;
+            cursor: pointer;
+            background: none;
+            border: none;
+        }
+
+        .share-btn:hover { color: var(--ink); }
  
         .empty {
             text-align: center;
@@ -567,7 +593,14 @@
                 renderTagPills(item.tags) +
                 '<div class="card-footer">' +
                 '<span class="card-date">' + formatDate(item.date) + '</span>' +
+                '<div style="display:flex;align-items:center;gap:1rem;">' +
+                '<div class="card-share">' +
+                '<a class="share-btn" href="https://twitter.com/intent/tweet?url=' + encodeURIComponent(item.url) + '&text=' + encodeURIComponent(item.title) + '" target="_blank" title="Share on X">𝕏</a>' +
+                '<a class="share-btn" href="https://www.linkedin.com/sharing/share-offsite/?url=' + encodeURIComponent(item.url) + '" target="_blank" title="Share on LinkedIn">in</a>' +
+                '<button class="share-btn" onclick="navigator.clipboard.writeText(\'' + item.url + '\');this.textContent=\'✓\';setTimeout(()=>this.textContent=\'🔗\',1500)" title="Copy link">🔗</button>' +
+                '</div>' +
                 '<a class="card-link" href="' + item.url + '" target="_blank" rel="noopener">Read article →</a>' +
+                '</div>' +
                 '</div>' +
                 '</div>';
         }).join('');
