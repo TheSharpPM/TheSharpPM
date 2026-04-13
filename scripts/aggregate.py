@@ -10,7 +10,7 @@ from time import mktime
  
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
 MODEL = "meta-llama/llama-3.3-70b-instruct:free"
-MAX_ITEMS_PER_FEED = 5
+MAX_ITEMS_PER_FEED = int(os.environ.get("MAX_ITEMS_PER_FEED", "5"))
 OUTPUT_FILE = "data.json"
  
 FEEDS = [
