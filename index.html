@@ -431,7 +431,7 @@
         </div>
         <div class="filter-row" id="tag-filters">
             <span class="filter-label">Topics:</span>
-            <span style="font-size:0.75rem;color:var(--muted)">Loading topics...</span>
+            <span id="topics-placeholder" style="font-size:0.75rem;color:var(--muted)">Loading topics...</span>
         </div>
     </div>
 </div>
@@ -450,30 +450,34 @@
 </footer>
  
 <script>
-    const grid = document.getElementById('grid');
-    const countEl = document.getElementById('item-count');
-    const lastUpdatedEl = document.getElementById('last-updated');
-    let allItems = [];
-    let activeFilter = 'all';
-    let activeTags = [];
-    document.cookie = 'selectedTags=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
+    var grid = document.getElementById('grid');
+    var countEl = document.getElementById('item-count');
+    var lastUpdatedEl = document.getElementById('last-updated');
+    var allItems = [];
+    var activeFilter = 'all';
+    var activeTags = [];
  
-    // ── COOKIES ──────────────────────────────────────────────────────────────
+    function tagClass(type) {
+        var map = { article: 'tag-article', job: 'tag-job', trend: 'tag-trend', podcast: 'tag-podcast', video: 'tag-video', course: 'tag-course', event: 'tag-event' };
+        return map[type] || 'tag-article';
+    }
+ 
+    function tagLabel(type) {
+        var map = { article: 'Article', job: 'Job', trend: 'AI Trend', podcast: 'Podcast', video: 'Video', course: 'Course', event: 'Event' };
+        return map[type] || type;
+    }
+ 
+    function formatDate(dateStr) {
+        if (!dateStr) return '';
+        var d = new Date(dateStr);
+        return d.toLocaleDateString('en-US', { day: 'numeric', month: 'short', year: 'numeric' });
+    }
  
     function saveTagsToCookie(tags) {
         var expires = new Date();
         expires.setFullYear(expires.getFullYear() + 1);
         document.cookie = 'selectedTags=' + JSON.stringify(tags) + '; expires=' + expires.toUTCString() + '; path=/; SameSite=Lax';
     }
- 
-    function loadTagsFromCookie() {
-        var match = document.cookie.match(/(?:^|;\s*)selectedTags=([^;]*)/);
-        if (!match) return [];
-        try { return JSON.parse(decodeURIComponent(match[1])); }
-        catch(e) { return []; }
-    }
- 
-    // ── BUILD TAG FILTERS FROM DATA ───────────────────────────────────────────
  
     function buildTagFilters(items) {
         var tagCount = {};
@@ -483,7 +487,6 @@
             });
         });
  
-        // Sort tags by frequency
         var sortedTags = Object.keys(tagCount).sort(function(a, b) {
             return tagCount[b] - tagCount[a];
         });
@@ -498,10 +501,10 @@
  
         sortedTags.forEach(function(tag) {
             var btn = document.createElement('button');
-            btn.className = 'tag-btn' + (activeTags.includes(tag) ? ' active' : '');
+            btn.className = 'tag-btn';
             btn.textContent = tag;
             btn.addEventListener('click', function() {
-                if (activeTags.includes(tag)) {
+                if (activeTags.indexOf(tag) > -1) {
                     activeTags = activeTags.filter(function(t) { return t !== tag; });
                     btn.classList.remove('active');
                 } else {
@@ -510,58 +513,19 @@
                 }
                 saveTagsToCookie(activeTags);
                 applyFilters();
-                // Also update pill states in cards
-                document.querySelectorAll('.card-tag-pill[data-tag="' + tag + '"]').forEach(function(pill) {
-                    pill.classList.toggle('active', activeTags.includes(tag));
-                });
             });
             container.appendChild(btn);
         });
-    }
- 
-    // ── HELPERS ───────────────────────────────────────────────────────────────
- 
-    function tagClass(type) {
-    return {
-            article: 'tag-article',
-            job: 'tag-job',
-            trend: 'tag-trend',
-            podcast: 'tag-podcast',
-            video: 'tag-video',
-            course: 'tag-course',
-            event: 'tag-event'
-        }[type] || 'tag-article';
-    }
-    
-    function tagLabel(type) {
-        return {
-            article: 'Article',
-            job: 'Job',
-            trend: 'AI Trend',
-            podcast: 'Podcast',
-            video: 'Video',
-            course: 'Course',
-            event: 'Event'
-        }[type] || type;
-    }
- 
-    function formatDate(dateStr) {
-        if (!dateStr) return '';
-        var d = new Date(dateStr);
-        return d.toLocaleDateString('en-US', { day: 'numeric', month: 'short', year: 'numeric' });
     }
  
     function renderTagPills(tags) {
         if (!tags || tags.length === 0) return '';
         return '<div class="card-tags">' +
             tags.map(function(t) {
-                var isActive = activeTags.includes(t) ? ' active' : '';
-                return '<span class="card-tag-pill' + isActive + '" data-tag="' + t + '">' + t + '</span>';
+                return '<span class="card-tag-pill" data-tag="' + t + '">' + t + '</span>';
             }).join('') +
             '</div>';
     }
- 
-    // ── RENDER ────────────────────────────────────────────────────────────────
  
     function renderCards(items) {
         if (items.length === 0) {
@@ -586,44 +550,37 @@
                 '</div>';
         }).join('');
  
-        // Pill click — toggle tag filter
         document.querySelectorAll('.card-tag-pill').forEach(function(pill) {
             pill.addEventListener('click', function() {
                 var tag = pill.dataset.tag;
-                if (activeTags.includes(tag)) {
+                if (activeTags.indexOf(tag) > -1) {
                     activeTags = activeTags.filter(function(t) { return t !== tag; });
                 } else {
                     activeTags.push(tag);
                 }
                 saveTagsToCookie(activeTags);
-                // Sync filter buttons
                 document.querySelectorAll('.tag-btn').forEach(function(btn) {
-                    btn.classList.toggle('active', activeTags.includes(btn.textContent));
+                    btn.classList.toggle('active', activeTags.indexOf(btn.textContent) > -1);
                 });
                 applyFilters();
             });
         });
     }
  
-    // ── FILTER LOGIC ──────────────────────────────────────────────────────────
- 
     function applyFilters() {
         var query = document.getElementById('search').value.toLowerCase();
-        //var sevenDaysAgo = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000);
-        var sevenDaysAgo = new Date(Date.now() - 90 * 24 * 60 * 60 * 1000);
+        var cutoff = new Date(Date.now() - 90 * 24 * 60 * 60 * 1000);
         var filtered = allItems.filter(function(item) {
             var matchesType = activeFilter === 'all' || item.type === activeFilter;
-            var matchesSearch = !query || item.title.toLowerCase().includes(query) || (item.summary || '').toLowerCase().includes(query);
-            var matchesDate = !item.date || new Date(item.date) >= sevenDaysAgo;
+            var matchesSearch = !query || item.title.toLowerCase().indexOf(query) > -1 || (item.summary || '').toLowerCase().indexOf(query) > -1;
+            var matchesDate = !item.date || new Date(item.date) >= cutoff;
             var matchesTags = activeTags.length === 0 || activeTags.some(function(tag) {
-                return (item.tags || []).includes(tag);
+                return (item.tags || []).indexOf(tag) > -1;
             });
             return matchesType && matchesSearch && matchesDate && matchesTags;
         });
         renderCards(filtered);
     }
- 
-    // ── EVENT LISTENERS ───────────────────────────────────────────────────────
  
     document.querySelectorAll('.filter-btn').forEach(function(btn) {
         btn.addEventListener('click', function() {
@@ -636,24 +593,23 @@
  
     document.getElementById('search').addEventListener('input', applyFilters);
  
-    // ── INIT ──────────────────────────────────────────────────────────────────
- 
     fetch('data.json')
-        .then(function(r) { return r.json(); })
+        .then(function(r) {
+            console.log('Fetch status:', r.status);
+            return r.json();
+        })
         .then(function(data) {
+            console.log('Items received:', data.items ? data.items.length : 0);
             allItems = data.items || [];
-            console.log('Items loaded:', allItems.length);
-            console.log('First item date:', allItems[0] && allItems[0].date);
-            console.log('90 days ago:', new Date(Date.now() - 90 * 24 * 60 * 60 * 1000));
             if (data.updated) {
                 lastUpdatedEl.textContent = 'Updated on ' + formatDate(data.updated);
             }
             buildTagFilters(allItems);
             applyFilters();
         })
-        .catch(function() {
+        .catch(function(err) {
+            console.log('Fetch error:', err);
             grid.innerHTML = '<div class="empty"><h3>Content coming soon</h3><p>Check back tomorrow!</p></div>';
-            lastUpdatedEl.textContent = '';
         });
 </script>
 </body>
