@@ -508,7 +508,7 @@
  
         sortedTags.forEach(function(tag) {
             var btn = document.createElement('button');
-            btn.className = 'tag-btn';
+            btn.className = 'tag-btn' + (activeTags.indexOf(tag) > -1 ? ' active' : '');
             btn.textContent = tag;
             btn.addEventListener('click', function() {
                 if (activeTags.indexOf(tag) > -1) {
