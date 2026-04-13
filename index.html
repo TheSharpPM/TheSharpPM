@@ -278,6 +278,17 @@
             color: var(--muted);
             margin-left: auto;
         }
+
+        .card-new {
+            font-size: 0.6rem;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: white;
+            background: var(--accent);
+            padding: 0.15rem 0.5rem;
+            border-radius: 2px;
+        }
  
         .card h2 {
             font-family: 'Playfair Display', serif;
@@ -546,6 +557,7 @@
                 '<div class="card-meta">' +
                 '<span class="card-tag ' + tagClass(item.type) + '">' + tagLabel(item.type) + '</span>' +
                 '<span class="card-source">' + (item.source || '') + '</span>' +
+                (new Date(item.date) >= new Date(Date.now() - 24*60*60*1000) ? '<span class="card-new">New</span>' : '') +
                 '</div>' +
                 '<h2><a href="' + item.url + '" target="_blank" rel="noopener">' + item.title + '</a></h2>' +
                 '<p class="card-summary">' + (item.summary || '') + '</p>' +
