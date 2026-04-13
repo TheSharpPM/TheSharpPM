@@ -455,7 +455,14 @@
     var lastUpdatedEl = document.getElementById('last-updated');
     var allItems = [];
     var activeFilter = 'all';
-    var activeTags = [];
+    var activeTags = loadTagsFromCookie();
+
+    function loadTagsFromCookie() {
+        var match = document.cookie.match(/(?:^|;\s*)selectedTags=([^;]*)/);
+        if (!match) return [];
+        try { return JSON.parse(decodeURIComponent(match[1])); }
+        catch(e) { return []; }
+    }
  
     function tagClass(type) {
         var map = { article: 'tag-article', job: 'tag-job', trend: 'tag-trend', podcast: 'tag-podcast', video: 'tag-video', course: 'tag-course', event: 'tag-event' };
