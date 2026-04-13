@@ -455,7 +455,8 @@
     const lastUpdatedEl = document.getElementById('last-updated');
     let allItems = [];
     let activeFilter = 'all';
-    let activeTags = loadTagsFromCookie();
+    let activeTags = [];
+    document.cookie = 'selectedTags=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
  
     // ── COOKIES ──────────────────────────────────────────────────────────────
  
