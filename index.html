@@ -608,7 +608,8 @@
  
     function applyFilters() {
         var query = document.getElementById('search').value.toLowerCase();
-        var sevenDaysAgo = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000);
+        //var sevenDaysAgo = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000);
+        var sevenDaysAgo = new Date(Date.now() - 90 * 24 * 60 * 60 * 1000);
         var filtered = allItems.filter(function(item) {
             var matchesType = activeFilter === 'all' || item.type === activeFilter;
             var matchesSearch = !query || item.title.toLowerCase().includes(query) || (item.summary || '').toLowerCase().includes(query);
