@@ -648,7 +648,7 @@
  
     document.getElementById('search').addEventListener('input', applyFilters);
  
-    fetch('data.json')
+    fetch('data.json?v=' + Date.now())
         .then(function(r) {
             console.log('Fetch status:', r.status);
             return r.json();
