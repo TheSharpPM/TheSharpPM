@@ -55,12 +55,29 @@
             width: auto;
         }
  
+        .header-right {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+        }
+ 
         .tagline {
             font-size: 0.75rem;
             color: var(--muted);
             letter-spacing: 0.1em;
             text-transform: uppercase;
         }
+ 
+        .nav-link {
+            font-size: 0.75rem;
+            color: var(--muted);
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            text-decoration: none;
+            transition: color 0.15s;
+        }
+ 
+        .nav-link:hover { color: var(--ink); }
  
         .hero {
             border-bottom: 1px solid var(--border);
@@ -166,20 +183,26 @@
             letter-spacing: 0.03em;
         }
  
-        .tag-btn:hover {
-            border-color: var(--accent);
-            color: var(--accent);
+        .tag-btn:hover { border-color: var(--accent); color: var(--accent); }
+        .tag-btn.active { background: var(--accent); color: white; border-color: var(--accent); }
+        .tag-btn.hidden { display: none; }
+ 
+        .show-more-btn {
+            padding: 0.3rem 0.75rem;
+            border: 1px dashed var(--border);
+            background: transparent;
+            color: var(--muted);
+            font-family: 'DM Sans', sans-serif;
+            font-size: 0.72rem;
+            cursor: pointer;
+            border-radius: 20px;
+            letter-spacing: 0.03em;
+            transition: all 0.15s;
         }
  
-        .tag-btn.active {
-            background: var(--accent);
-            color: white;
-            border-color: var(--accent);
-        }
+        .show-more-btn:hover { border-color: var(--ink); color: var(--ink); }
  
-        .search-wrap {
-            margin-left: auto;
-        }
+        .search-wrap { margin-left: auto; }
  
         .search-wrap input {
             padding: 0.4rem 1rem;
@@ -273,12 +296,6 @@
         .tag-course { background: #ecfdf5; color: #059669; }
         .tag-event { background: #fff7ed; color: #ea580c; }
  
-        .card-source {
-            font-size: 0.7rem;
-            color: var(--muted);
-            margin-left: auto;
-        }
-
         .card-new {
             font-size: 0.6rem;
             font-weight: 700;
@@ -290,6 +307,12 @@
             border-radius: 2px;
         }
  
+        .card-source {
+            font-size: 0.7rem;
+            color: var(--muted);
+            margin-left: auto;
+        }
+ 
         .card h2 {
             font-family: 'Playfair Display', serif;
             font-size: 1.05rem;
@@ -298,11 +321,7 @@
             letter-spacing: -0.01em;
         }
  
-        .card h2 a {
-            color: var(--ink);
-            text-decoration: none;
-        }
- 
+        .card h2 a { color: var(--ink); text-decoration: none; }
         .card h2 a:hover { color: var(--accent); }
  
         .card-summary {
@@ -330,16 +349,8 @@
             transition: all 0.15s;
         }
  
-        .card-tag-pill:hover {
-            border-color: var(--accent);
-            color: var(--accent);
-        }
- 
-        .card-tag-pill.active {
-            background: var(--accent);
-            color: white;
-            border-color: var(--accent);
-        }
+        .card-tag-pill:hover { border-color: var(--accent); color: var(--accent); }
+        .card-tag-pill.active { background: var(--accent); color: white; border-color: var(--accent); }
  
         .card-footer {
             display: flex;
@@ -354,41 +365,47 @@
             color: var(--muted);
         }
  
+        .card-footer-right {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+ 
+        .card-share {
+            display: flex;
+            gap: 0.4rem;
+            align-items: center;
+            opacity: 0;
+            transition: opacity 0.2s;
+        }
+ 
+        .card:hover .card-share { opacity: 1; }
+ 
+        .share-btn {
+            font-size: 0.7rem;
+            color: var(--muted);
+            text-decoration: none;
+            padding: 0.15rem 0.3rem;
+            border-radius: 2px;
+            transition: color 0.15s;
+            cursor: pointer;
+            background: none;
+            border: none;
+            font-family: 'DM Sans', sans-serif;
+        }
+ 
+        .share-btn:hover { color: var(--ink); }
+ 
         .card-link {
             font-size: 0.75rem;
             color: var(--accent);
             text-decoration: none;
             font-weight: 500;
             letter-spacing: 0.03em;
+            white-space: nowrap;
         }
  
         .card-link:hover { text-decoration: underline; }
-
-        .card-share {
-            display: flex;
-            gap: 0.5rem;
-            align-items: center;
-            opacity: 0;
-            transition: opacity 0.2s;
-        }
-
-        .card:hover .card-share {
-            opacity: 1;
-        }
-
-        .share-btn {
-            font-size: 0.7rem;
-            color: var(--muted);
-            text-decoration: none;
-            padding: 0.2rem 0.4rem;
-            border-radius: 2px;
-            transition: color 0.15s;
-            cursor: pointer;
-            background: none;
-            border: none;
-        }
-
-        .share-btn:hover { color: var(--ink); }
  
         .empty {
             text-align: center;
@@ -427,6 +444,7 @@
             main { padding: 1.5rem; }
             .grid { grid-template-columns: 1fr; }
             .search-wrap { display: none; }
+            .tagline { display: none; }
         }
     </style>
 </head>
@@ -437,9 +455,9 @@
         <a href="/" class="logo">
             <img src="The_Sharp_PM_Header3.png" alt="The Sharp PM">
         </a>
-        <div style="display:flex;align-items:center;gap:1.5rem;">
+        <div class="header-right">
             <span class="tagline">Curated for Product Managers</span>
-            <a href="about.html" style="font-size:0.75rem;color:var(--muted);letter-spacing:0.1em;text-transform:uppercase;text-decoration:none;">About</a>
+            <a href="about.html" class="nav-link">About</a>
         </div>
     </div>
 </header>
@@ -448,7 +466,7 @@
     <div class="hero-inner">
         <p class="hero-label">Daily digest</p>
         <h1>What PMs are reading today</h1>
-        <p>Articles, jobs, frameworks and trends — curated and summarised by AI.</p>
+        <p>Articles, jobs, frameworks and trends curated and summarised by AI.</p>
         <p class="updated" id="last-updated"></p>
     </div>
 </div>
@@ -471,7 +489,7 @@
         </div>
         <div class="filter-row" id="tag-filters">
             <span class="filter-label">Topics:</span>
-            <span id="topics-placeholder" style="font-size:0.75rem;color:var(--muted)">Loading topics...</span>
+            <span style="font-size:0.75rem;color:var(--muted)">Loading topics...</span>
         </div>
     </div>
 </div>
@@ -496,34 +514,20 @@
     var allItems = [];
     var activeFilter = 'all';
     var activeTags = loadTagsFromCookie();
-
-    function loadTagsFromCookie() {
-        var match = document.cookie.match(/(?:^|;\s*)selectedTags=([^;]*)/);
-        if (!match) return [];
-        try { return JSON.parse(decodeURIComponent(match[1])); }
-        catch(e) { return []; }
-    }
  
-    function tagClass(type) {
-        var map = { article: 'tag-article', job: 'tag-job', trend: 'tag-trend', podcast: 'tag-podcast', video: 'tag-video', course: 'tag-course', event: 'tag-event' };
-        return map[type] || 'tag-article';
-    }
- 
-    function tagLabel(type) {
-        var map = { article: 'Article', job: 'Job', trend: 'AI Trend', podcast: 'Podcast', video: 'Video', course: 'Course', event: 'Event' };
-        return map[type] || type;
-    }
- 
-    function formatDate(dateStr) {
-        if (!dateStr) return '';
-        var d = new Date(dateStr);
-        return d.toLocaleDateString('en-US', { day: 'numeric', month: 'short', year: 'numeric' });
-    }
+    var MAX_VISIBLE_TAGS = 8;
  
     function saveTagsToCookie(tags) {
         var expires = new Date();
         expires.setFullYear(expires.getFullYear() + 1);
         document.cookie = 'selectedTags=' + JSON.stringify(tags) + '; expires=' + expires.toUTCString() + '; path=/; SameSite=Lax';
+    }
+ 
+    function loadTagsFromCookie() {
+        var match = document.cookie.match(/(?:^|;\s*)selectedTags=([^;]*)/);
+        if (!match) return [];
+        try { return JSON.parse(decodeURIComponent(match[1])); }
+        catch(e) { return []; }
     }
  
     function buildTagFilters(items) {
@@ -546,9 +550,11 @@
             return;
         }
  
-        sortedTags.forEach(function(tag) {
+        var expanded = false;
+ 
+        sortedTags.forEach(function(tag, index) {
             var btn = document.createElement('button');
-            btn.className = 'tag-btn' + (activeTags.indexOf(tag) > -1 ? ' active' : '');
+            btn.className = 'tag-btn' + (activeTags.indexOf(tag) > -1 ? ' active' : '') + (index >= MAX_VISIBLE_TAGS ? ' hidden' : '');
             btn.textContent = tag;
             btn.addEventListener('click', function() {
                 if (activeTags.indexOf(tag) > -1) {
@@ -563,13 +569,52 @@
             });
             container.appendChild(btn);
         });
+ 
+        if (sortedTags.length > MAX_VISIBLE_TAGS) {
+            var moreBtn = document.createElement('button');
+            moreBtn.className = 'show-more-btn';
+            moreBtn.textContent = '+ ' + (sortedTags.length - MAX_VISIBLE_TAGS) + ' more';
+            moreBtn.addEventListener('click', function() {
+                expanded = !expanded;
+                var allTagBtns = container.querySelectorAll('.tag-btn');
+                allTagBtns.forEach(function(btn, index) {
+                    if (index >= MAX_VISIBLE_TAGS) {
+                        btn.classList.toggle('hidden', !expanded);
+                    }
+                });
+                moreBtn.textContent = expanded ? '− less' : '+ ' + (sortedTags.length - MAX_VISIBLE_TAGS) + ' more';
+            });
+            container.appendChild(moreBtn);
+        }
+    }
+ 
+    function tagClass(type) {
+        var map = { article: 'tag-article', job: 'tag-job', trend: 'tag-trend', podcast: 'tag-podcast', video: 'tag-video', course: 'tag-course', event: 'tag-event' };
+        return map[type] || 'tag-article';
+    }
+ 
+    function tagLabel(type) {
+        var map = { article: 'Article', job: 'Job', trend: 'AI Trend', podcast: 'Podcast', video: 'Video', course: 'Course', event: 'Event' };
+        return map[type] || type;
+    }
+ 
+    function formatDate(dateStr) {
+        if (!dateStr) return '';
+        var d = new Date(dateStr);
+        return d.toLocaleDateString('en-US', { day: 'numeric', month: 'short', year: 'numeric' });
+    }
+ 
+    function isNew(dateStr) {
+        if (!dateStr) return false;
+        return new Date(dateStr) >= new Date(Date.now() - 24 * 60 * 60 * 1000);
     }
  
     function renderTagPills(tags) {
         if (!tags || tags.length === 0) return '';
         return '<div class="card-tags">' +
             tags.map(function(t) {
-                return '<span class="card-tag-pill" data-tag="' + t + '">' + t + '</span>';
+                var isActive = activeTags.indexOf(t) > -1 ? ' active' : '';
+                return '<span class="card-tag-pill' + isActive + '" data-tag="' + t + '">' + t + '</span>';
             }).join('') +
             '</div>';
     }
@@ -582,22 +627,24 @@
         }
         countEl.textContent = items.length + ' articles';
         grid.innerHTML = items.map(function(item, i) {
+            var twitterUrl = 'https://twitter.com/intent/tweet?url=' + encodeURIComponent(item.url) + '&text=' + encodeURIComponent(item.title);
+            var linkedinUrl = 'https://www.linkedin.com/sharing/share-offsite/?url=' + encodeURIComponent(item.url);
             return '<div class="card" style="animation-delay:' + (i * 0.05) + 's">' +
                 '<div class="card-meta">' +
                 '<span class="card-tag ' + tagClass(item.type) + '">' + tagLabel(item.type) + '</span>' +
+                (isNew(item.date) ? '<span class="card-new">New</span>' : '') +
                 '<span class="card-source">' + (item.source || '') + '</span>' +
-                (new Date(item.date) >= new Date(Date.now() - 24*60*60*1000) ? '<span class="card-new">New</span>' : '') +
                 '</div>' +
                 '<h2><a href="' + item.url + '" target="_blank" rel="noopener">' + item.title + '</a></h2>' +
                 '<p class="card-summary">' + (item.summary || '') + '</p>' +
                 renderTagPills(item.tags) +
                 '<div class="card-footer">' +
                 '<span class="card-date">' + formatDate(item.date) + '</span>' +
-                '<div style="display:flex;align-items:center;gap:1rem;">' +
+                '<div class="card-footer-right">' +
                 '<div class="card-share">' +
-                '<a class="share-btn" href="https://twitter.com/intent/tweet?url=' + encodeURIComponent(item.url) + '&text=' + encodeURIComponent(item.title) + '" target="_blank" title="Share on X">𝕏</a>' +
-                '<a class="share-btn" href="https://www.linkedin.com/sharing/share-offsite/?url=' + encodeURIComponent(item.url) + '" target="_blank" title="Share on LinkedIn">in</a>' +
-                '<button class="share-btn" onclick="navigator.clipboard.writeText(\'' + item.url + '\');this.textContent=\'✓\';setTimeout(()=>this.textContent=\'🔗\',1500)" title="Copy link">🔗</button>' +
+                '<a class="share-btn" href="' + twitterUrl + '" target="_blank" title="Share on X">𝕏</a>' +
+                '<a class="share-btn" href="' + linkedinUrl + '" target="_blank" title="Share on LinkedIn">in</a>' +
+                '<button class="share-btn" onclick="navigator.clipboard.writeText(\'' + item.url.replace(/'/g, "\\'") + '\');this.textContent=\'✓\';setTimeout(function(){this.textContent=\'🔗\';}.bind(this),1500)" title="Copy link">🔗</button>' +
                 '</div>' +
                 '<a class="card-link" href="' + item.url + '" target="_blank" rel="noopener">Read article →</a>' +
                 '</div>' +
@@ -649,12 +696,8 @@
     document.getElementById('search').addEventListener('input', applyFilters);
  
     fetch('data.json?v=' + Date.now())
-        .then(function(r) {
-            console.log('Fetch status:', r.status);
-            return r.json();
-        })
+        .then(function(r) { return r.json(); })
         .then(function(data) {
-            console.log('Items received:', data.items ? data.items.length : 0);
             allItems = data.items || [];
             if (data.updated) {
                 lastUpdatedEl.textContent = 'Updated on ' + formatDate(data.updated);
@@ -662,8 +705,7 @@
             buildTagFilters(allItems);
             applyFilters();
         })
-        .catch(function(err) {
-            console.log('Fetch error:', err);
+        .catch(function() {
             grid.innerHTML = '<div class="empty"><h3>Content coming soon</h3><p>Check back tomorrow!</p></div>';
         });
 </script>
