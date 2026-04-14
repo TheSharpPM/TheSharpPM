@@ -1,7 +1,135 @@
 {
-  "updated": "2026-04-12T18:14:46.665869+00:00",
-  "total": 18,
+  "updated": "2026-04-14T08:38:04.524014+00:00",
+  "total": 34,
   "items": [
+    {
+      "title": "How to Turn a Boring Corporate Strategy Into a Shared Team Story",
+      "url": "https://williammeller.medium.com/how-to-turn-a-boring-corporate-strategy-into-a-shared-team-story-55dd60bc141f?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-04-14T08:31:01+00:00",
+      "summary": "This article highlights the importance of framing corporate strategy as a shared team story rather than a top-down mandate. By using language that emphasizes milestones and goals the team actively wants to achieve, you can foster greater buy-in and engagement.  Shifting from abstract corporate directives to concrete, team-oriented objectives is key to driving motivation and productivity.",
+      "tags": [
+        "Team Alignment",
+        "Product Vision",
+        "Communication Strategy",
+        "Motivation"
+      ]
+    },
+    {
+      "title": "AI Accelerates Building. It Does Not Accelerate Commitment.",
+      "url": "https://medium.com/@koyto/ai-accelerates-building-it-does-not-accelerate-commitment-a48500748f4f?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-04-14T07:41:01+00:00",
+      "summary": "The article emphasizes that AI tools can speed up development but not decision-making or commitment.",
+      "tags": [
+        "Product Strategy",
+        "AI Tools"
+      ]
+    },
+    {
+      "title": "AI Agents Don’t Need Your Permission Anymore — What That Means If You’re a Product Manager",
+      "url": "https://medium.com/@mohit15856/ai-agents-dont-need-your-permission-anymore-what-that-means-if-you-re-a-product-manager-2864094ab325?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-04-14T07:32:28+00:00",
+      "summary": "The article highlights that AI agents now operate without needing user intervention, significantly altering the Product Manager's role.",
+      "tags": [
+        "Product Strategy",
+        "AI Tools",
+        "User Research",
+        "Tech Trends"
+      ]
+    },
+    {
+      "title": "I’m Standing Inside Bell Labs’ Legacy. And Thinking About AI.",
+      "url": "https://medium.com/@deepak.bapna/im-standing-inside-bell-labs-legacy-and-thinking-about-ai-882c5ed89557?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-04-14T04:27:58+00:00",
+      "summary": "The article describes a visit to Bell Works, a former Bell Labs facility now housing various tech companies. The author reflects on the significance of AI in light of Bell Labs' historical innovation, suggesting a potential resurgence of groundbreaking research and development. This highlights the importance of anticipating future technological shifts and fostering environments conducive to innovation, particularly in areas like AI.",
+      "tags": [
+        "Innovation",
+        "AI",
+        "History",
+        "Tech Ecosystem"
+      ]
+    },
+    {
+      "title": "📈 Data to start your week – The jet fuel inflection point",
+      "url": "https://www.exponentialview.co/p/data-to-start-your-week-the-jet-fuel",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-04-13T16:32:35+00:00",
+      "summary": "This article highlights a potential inflection point in energy markets driven by geopolitical conflict, suggesting a shift in energy supply and demand dynamics. For Product Managers, this signals a need to monitor external factors impacting user behavior and potentially adjust product roadmaps to address changing needs related to energy costs or availability. Understanding these macro trends is crucial for anticipating future user needs and maintaining product relevance.",
+      "tags": [
+        "Macrotrends",
+        "Energy",
+        "Risk",
+        "Externalities"
+      ]
+    },
+    {
+      "title": "Google's Nest Doorbell",
+      "url": "https://www.producthunt.com/products/google",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-04-13T15:53:10+00:00",
+      "summary": "Summary not available.",
+      "tags": []
+    },
+    {
+      "title": "🎙️ This week on How I AI: Claude Cowork tutorial for non-engineers + Build your own Slack inbox (for $0)",
+      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-claude-cowork",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-04-13T15:07:46+00:00",
+      "summary": "This article promotes a tutorial from How I AI focusing on using Claude, an AI assistant, for collaborative workflows, specifically designed for non-technical users. It also highlights a method for creating a custom Slack inbox for free, offering practical productivity tips.  Product Managers can leverage these resources to explore AI tools for team collaboration and streamline communication processes.",
+      "tags": [
+        "AI Tools",
+        "Productivity",
+        "Slack Integration",
+        "Workflow Automation"
+      ]
+    },
+    {
+      "title": "Claude Cowork 101: How to automate your workday without touching code | JJ Englert (Tenex)",
+      "url": "https://www.lennysnewsletter.com/p/claude-cowork-101-how-to-automate",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-04-13T12:03:52+00:00",
+      "summary": "This article demonstrates how to leverage Claude Cowork to automate repetitive tasks across various business tools like email and Slack, significantly boosting productivity. It highlights a no-code approach, allowing product managers and teams to integrate AI capabilities into their workflows without requiring technical expertise. The core insight is that AI automation can be readily implemented to streamline daily operations and free up valuable time for strategic work.",
+      "tags": [
+        "AI Automation",
+        "Productivity",
+        "No-Code Tools",
+        "Workflow Optimization"
+      ]
+    },
+    {
+      "title": "Mythos, Muse, and the Opportunity Cost of Compute",
+      "url": "https://stratechery.com/2026/mythos-muse-and-the-opportunity-cost-of-compute/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-04-13T10:00:00+00:00",
+      "summary": "The article argues that Aggregation Theory still holds when compute resources are scarce, because firms that can manage and prioritize demand will control the limited supply and gain market power. For product managers, this highlights the strategic advantage of shaping user demand to secure access to constrained compute resources.",
+      "tags": [
+        "Aggregation Theory",
+        "Compute Constraints",
+        "Demand Management",
+        "Product Strategy"
+      ]
+    },
+    {
+      "title": "iRobot: Colin Angle. How The Roomba Became a Household Icon",
+      "url": "#",
+      "source": "How I Built This",
+      "type": "podcast",
+      "date": "2026-04-13T07:10:00+00:00",
+      "summary": "Summary not available.",
+      "tags": []
+    },
     {
       "title": "How We Built a Voice Agent on Chatzy.ai in Just One Week",
       "url": "https://medium.com/@KumarSKS/how-we-built-a-voice-agent-on-chatzy-ai-in-just-one-week-709239afe449?source=rss------product_management-5",
@@ -81,6 +209,19 @@
       ]
     },
     {
+      "title": "🔮 Exponential View #569: When the future is uncertain, what do you teach?",
+      "url": "https://www.exponentialview.co/p/ev-569",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-04-12T03:17:38+00:00",
+      "summary": "The article discusses adapting to rapidly changing environments and the importance of leveraging AI tools to stay ahead.",
+      "tags": [
+        "Product Strategy",
+        "User Research",
+        "AI Tools"
+      ]
+    },
+    {
       "title": "Community Wisdom: Vibe coding as a team sport, teaching interviewers to surface real signal, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-vibe-coding-as-a",
       "source": "Lenny's Newsletter",
@@ -107,6 +248,15 @@
       ]
     },
     {
+      "title": "The fall of the house of product:  A heartfelt goodbye",
+      "url": "https://www.productledalliance.com/the-fall-of-the-house-of-product-a-heartfelt-goodbye/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-04-10T15:00:36+00:00",
+      "summary": "Summary not available.",
+      "tags": []
+    },
+    {
       "title": "The financial blind spot that gets product managers fired",
       "url": "https://www.productcoalition.com/p/the-number-your-board-asks-first",
       "source": "Product Coalition",
@@ -118,6 +268,38 @@
         "Stakeholders",
         "Product Finance"
       ]
+    },
+    {
+      "title": "Anamap",
+      "url": "https://www.producthunt.com/products/anamap",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-04-10T06:11:15+00:00",
+      "summary": "Summary not available.",
+      "tags": []
+    },
+    {
+      "title": "Okta: Principal Product Manager, LogIn",
+      "url": "https://weworkremotely.com/remote-jobs/okta-principal-product-manager-login",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-04-09T20:34:35+00:00",
+      "summary": "This job posting highlights the critical role of a Principal Product Manager focused on login experiences, specifically within Okta's Auth0 platform. The position emphasizes ownership of a high-impact area – the 'front door' for millions of users – and requires defining secure, customizable, and performant authentication flows that balance security with a seamless user experience for major brands. It's a technically focused role demanding expertise in building secure-by-design authentication solutions.",
+      "tags": [
+        "Identity Management",
+        "Authentication",
+        "UX Security",
+        "Technical PM"
+      ]
+    },
+    {
+      "title": "Signifyd: Senior Product Manager, Identity & Intelligence Platform",
+      "url": "https://weworkremotely.com/remote-jobs/signifyd-senior-product-manager-identity-intelligence-platform",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-04-09T20:34:08+00:00",
+      "summary": "Summary not available.",
+      "tags": []
     },
     {
       "title": "Commercial vs Internal Products",
@@ -143,6 +325,38 @@
         "AI Strategy",
         "Content Strategy",
         "Competitive Analysis"
+      ]
+    },
+    {
+      "title": "Advice Line with Steve Ells of Chipotle",
+      "url": "#",
+      "source": "How I Built This",
+      "type": "podcast",
+      "date": "2026-04-09T07:10:00+00:00",
+      "summary": "Summary not available.",
+      "tags": []
+    },
+    {
+      "title": "How quantum computing is transforming  data centers and energy",
+      "url": "https://www.productledalliance.com/how-quantum-computing-is-transforming-data-centers-and-energy/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-04-08T14:00:07+00:00",
+      "summary": "Summary not available.",
+      "tags": []
+    },
+    {
+      "title": "Product Roadmaps: How the Best Product Teams Plan for Uncertainty",
+      "url": "https://www.producttalk.org/product-roadmaps/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-04-08T13:00:26+00:00",
+      "summary": "This article highlights the pitfalls of poorly constructed product roadmaps, exemplified by a scenario where prioritization was arbitrary and lacked a clear rationale. It underscores the need for a more robust and strategic approach to roadmap planning, especially when navigating uncertainty. For Product Managers, this emphasizes the importance of data-driven prioritization and stakeholder alignment, moving beyond simple feature lists.",
+      "tags": [
+        "Roadmapping",
+        "Prioritization",
+        "Product Strategy",
+        "Stakeholder Alignment"
       ]
     },
     {
@@ -172,6 +386,20 @@
       ]
     },
     {
+      "title": "FOMO - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "url": "https://www.producttalk.org/fomo-all-things-product-podcast-with-teresa-torres-petra-wille/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-04-07T13:00:35+00:00",
+      "summary": "This podcast episode addresses the overwhelming nature of the rapidly evolving AI landscape for product professionals. It acknowledges the excitement of new AI tools while highlighting the challenge of staying current without experiencing burnout. The conversation likely offers strategies for navigating this constant influx of information and prioritizing impactful AI adoption.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Product Management",
+        "AI Adoption"
+      ]
+    },
+    {
       "title": "How will OpenAI compete?",
       "url": "https://www.ben-evans.com/benedictevans/2026/2/19/how-will-openai-compete-nkg2x",
       "source": "Benedict Evans",
@@ -195,45 +423,6 @@
         "Leadership",
         "Career",
         "AI Tools"
-      ]
-    },
-    {
-      "title": "The Product Model at Google",
-      "url": "https://www.svpg.com/the-product-model-at-google/",
-      "source": "SVPG",
-      "type": "article",
-      "date": "2025-12-19T12:32:20+00:00",
-      "summary": "Marty Cagan examines how Google's product model has evolved over the years, distinguishing between the early innovation-driven culture and the more process-heavy approach that emerged as the company scaled. He argues that Google's struggles with product innovation in recent years stem from moving away from empowered product teams toward a feature-factory model. A useful diagnostic for PMs assessing their own organisation's product culture.",
-      "tags": [
-        "Product Culture",
-        "Org Design",
-        "Product Strategy"
-      ]
-    },
-    {
-      "title": "AI, networks and Mechanical Turks",
-      "url": "https://www.ben-evans.com/benedictevans/2025/11/23/ai-networks-and-mechanical-turks",
-      "source": "Benedict Evans",
-      "type": "trend",
-      "date": "2025-11-23T13:14:03+00:00",
-      "summary": "Benedict Evans argues that LLMs represent a step change in how consumer platforms understand user behaviour — moving from correlation-based recommendations to something closer to genuine semantic understanding. This unlocks new kinds of network effects and personalisation that weren't possible with traditional ML. PMs building recommendation systems or personalisation features should understand how this shift changes the competitive landscape.",
-      "tags": [
-        "AI Strategy",
-        "Network Effects",
-        "Personalisation"
-      ]
-    },
-    {
-      "title": "AI metrics",
-      "url": "https://www.ben-evans.com/benedictevans/2025/6/9/generative-ais-metrics-question",
-      "source": "Benedict Evans",
-      "type": "trend",
-      "date": "2025-06-09T13:15:31+00:00",
-      "summary": "Benedict Evans draws parallels between the early internet's metric confusion — hits, registered users, MAU — and the current struggle to measure meaningful AI adoption. He argues that metrics like weekly active users obscure whether AI is genuinely changing behaviour, and that the industry needs better proxies for real value creation. PMs building AI features should think carefully about what success actually looks like beyond surface-level engagement metrics.",
-      "tags": [
-        "Metrics",
-        "AI Strategy",
-        "Product Analytics"
       ]
     }
   ]
