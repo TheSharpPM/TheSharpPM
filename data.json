@@ -8,8 +8,12 @@
       "source": "Product-Led Alliance",
       "type": "event",
       "date": "2026-04-15T10:42:57+00:00",
-      "summary": "Summary not available.",
-      "tags": []
+      "summary": "In fast-moving markets, the ability to control the narrative is a strategic advantage that goes beyond product quality. This GTM Labs session explores frameworks for crafting compelling positioning that resonates with buyers even when the competitive landscape is shifting rapidly. PMs will find practical guidance on aligning messaging with market momentum rather than chasing it.",
+      "tags": [
+        "Growth",
+        "Competitive Analysis",
+        "Communication"
+      ]
     },
     {
       "title": "Avoid vanity metrics: evaluating true GTM impact | GTM Labs",
@@ -17,8 +21,12 @@
       "source": "Product-Led Alliance",
       "type": "event",
       "date": "2026-04-15T10:23:45+00:00",
-      "summary": "Summary not available.",
-      "tags": []
+      "summary": "Many GTM teams track metrics that look good in dashboards but do not reflect real business impact. This session makes the case for replacing vanity metrics with leading indicators that connect directly to revenue and retention. For PMs, the key takeaway is building measurement frameworks that hold GTM teams accountable to outcomes, not activity.",
+      "tags": [
+        "Metrics",
+        "Growth",
+        "Product Strategy"
+      ]
     },
     {
       "title": "GTM on a budget: do more with less | GTM Labs",
@@ -26,8 +34,12 @@
       "source": "Product-Led Alliance",
       "type": "event",
       "date": "2026-04-15T10:23:18+00:00",
-      "summary": "Summary not available.",
-      "tags": []
+      "summary": "Resource-constrained teams can still execute high-impact GTM strategies by focusing on high-leverage channels and ruthless prioritization. The session covers how to identify the minimum viable GTM motion that drives meaningful traction without large budgets. Particularly relevant for PMs at early-stage companies or teams running lean after restructuring.",
+      "tags": [
+        "Growth",
+        "Prioritization",
+        "Product Strategy"
+      ]
     },
     {
       "title": "Lifecycle metrics that drive retention & advocacy | GTM Labs",
@@ -35,8 +47,12 @@
       "source": "Product-Led Alliance",
       "type": "event",
       "date": "2026-04-15T10:20:00+00:00",
-      "summary": "Summary not available.",
-      "tags": []
+      "summary": "Retention and advocacy are driven by measurable moments in the user lifecycle, not just by product quality. This session maps the key metrics that signal when users are at risk of churning or primed to become advocates, and how to act on them. PMs will take away a practical framework for instrumenting their product to surface these signals in real time.",
+      "tags": [
+        "Retention",
+        "Metrics",
+        "Growth"
+      ]
     },
     {
       "title": "Turning launches into repeatable revenue moments | GTM Labs",
@@ -44,8 +60,12 @@
       "source": "Product-Led Alliance",
       "type": "event",
       "date": "2026-04-15T10:16:59+00:00",
-      "summary": "Summary not available.",
-      "tags": []
+      "summary": "Most product launches are one-off events rather than repeatable revenue drivers. This session introduces a system for designing launches that generate compounding returns by building on previous momentum. For PMs, the insight is that launch strategy should be engineered into the product lifecycle from the start, not bolted on at the end.",
+      "tags": [
+        "Product Strategy",
+        "Growth",
+        "Communication"
+      ]
     },
     {
       "title": "The AI Pivot: Why Product Management is Evolving into “System Orchestration",
@@ -65,8 +85,12 @@
       "source": "Stratechery",
       "type": "trend",
       "date": "2026-04-15T10:00:00+00:00",
-      "summary": "Summary not available.",
-      "tags": []
+      "summary": "Ben Thompson analyses Amazon's acquisition of Globalstar and its implications for the satellite connectivity market, with Delta set to add LEO connectivity for passengers. He explores the Apple angle — how satellite-connected devices shift the dynamics of consumer hardware and carrier relationships. A must-read for PMs thinking about connectivity as a platform and the strategic implications of satellite infrastructure becoming mainstream.",
+      "tags": [
+        "AI Strategy",
+        "Platform Strategy",
+        "Competitive Analysis"
+      ]
     },
     {
       "title": "Cybersecurity & Ethical Hacking Explained - Protecting the Digital World.",
@@ -86,8 +110,12 @@
       "source": "Exponential View",
       "type": "trend",
       "date": "2026-04-15T09:45:58+00:00",
-      "summary": "Summary not available.",
-      "tags": []
+      "summary": "This edition of Exponential View examines the growing role of classified AI research in national security and defence, and how the frontier of AI capabilities is increasingly moving behind closed doors. The piece raises important questions about what this means for the pace of public AI progress and who controls the most powerful models. PMs building on AI infrastructure should understand how geopolitical dynamics are shaping the availability and direction of foundation model development.",
+      "tags": [
+        "AI Strategy",
+        "Competitive Analysis",
+        "Platform Strategy"
+      ]
     },
     {
       "title": "We Wired Up Audiences in Cinemas, Gaming Labs, and Concert Halls.",
@@ -95,8 +123,12 @@
       "source": "Medium PM",
       "type": "article",
       "date": "2026-04-15T09:45:07+00:00",
-      "summary": "Summary not available.",
-      "tags": []
+      "summary": "A research team used biometric sensors to measure real-time emotional responses from audiences at cinemas, gaming labs, and concerts, generating rich data on engagement and attention. The findings reveal that peak emotional moments do not always align with what creators or product teams expect, challenging assumptions about what drives user satisfaction. For PMs, this is a compelling case for physiological and behavioural research methods beyond traditional surveys and analytics.",
+      "tags": [
+        "User Research",
+        "Product Design",
+        "Data"
+      ]
     },
     {
       "title": "The GetAway Group’s AI Product Engineering Development Plan",
@@ -142,8 +174,12 @@
       "source": "Medium Strategy",
       "type": "article",
       "date": "2026-04-15T08:27:15+00:00",
-      "summary": "Summary not available.",
-      "tags": []
+      "summary": "As AI tools compress learning cycles, teams can validate assumptions and iterate on strategies faster than ever before. This creates a new challenge: organisational structures and decision-making processes designed for slower learning loops become bottlenecks. PMs need to redesign team workflows and meeting cadences to match the pace at which insights can now be generated.",
+      "tags": [
+        "Product Culture",
+        "AI Tools",
+        "Productivity"
+      ]
     },
     {
       "title": "Consent Isn’t a Checkbox: Rethinking User Choice in Digital Products",
@@ -151,8 +187,12 @@
       "source": "Medium Strategy",
       "type": "article",
       "date": "2026-04-15T06:01:02+00:00",
-      "summary": "Summary not available.",
-      "tags": []
+      "summary": "Consent in digital products has been reduced to cookie banners that users dismiss without reading, creating a gap between legal compliance and genuine user autonomy. The author argues for designing consent as a meaningful experience that gives users real control and builds trust over time. PMs should treat consent design as a product quality issue, not just a legal requirement.",
+      "tags": [
+        "Product Design",
+        "User Research",
+        "Product Culture"
+      ]
     },
     {
       "title": "Listen: Not all AI agents are created equal",
@@ -173,8 +213,12 @@
       "source": "Product Hunt",
       "type": "trend",
       "date": "2026-04-15T00:44:36+00:00",
-      "summary": "Summary not available.",
-      "tags": []
+      "summary": "MiniAi is a compact AI assistant designed for everyday tasks, positioning itself as a lightweight alternative to larger models for quick queries and personal productivity. The product targets users who find full-featured AI assistants overwhelming for routine tasks. An interesting case study in how AI products are being segmented by use case intensity rather than capability.",
+      "tags": [
+        "AI Tools",
+        "Productivity",
+        "Product Strategy"
+      ]
     },
     {
       "title": "Payra: Product Lead - Data Products",
@@ -182,8 +226,12 @@
       "source": "We Work Remotely",
       "type": "job",
       "date": "2026-04-14T21:55:55+00:00",
-      "summary": "Summary not available.",
-      "tags": []
+      "summary": "Payra is hiring a Product Lead for Data Products, a role focused on building data infrastructure and analytics products for their platform. The position requires experience bridging technical data teams and business stakeholders, with a strong emphasis on defining data product strategy. A good opportunity for PMs with a data background looking to own a strategic function at a growing fintech.",
+      "tags": [
+        "Career",
+        "Data",
+        "Leadership"
+      ]
     },
     {
       "title": "Why Travel Platforms Keep Missing Their Most Valuable User",
@@ -191,8 +239,12 @@
       "source": "Medium Strategy",
       "type": "article",
       "date": "2026-04-14T20:45:43+00:00",
-      "summary": "Summary not available.",
-      "tags": []
+      "summary": "Travel platforms consistently optimise for price-sensitive, infrequent travelers while overlooking frequent business and premium travellers who generate disproportionate revenue. The author argues that most platforms' discovery and personalisation features are built for the wrong user segment, leading to churn among their most valuable customers. PMs in marketplace or platform businesses will recognise this pattern of optimising for volume at the expense of value.",
+      "tags": [
+        "User Research",
+        "Product Strategy",
+        "Growth"
+      ]
     },
     {
       "title": "Astra",
@@ -200,8 +252,12 @@
       "source": "Product Hunt",
       "type": "trend",
       "date": "2026-04-14T19:25:24+00:00",
-      "summary": "Summary not available.",
-      "tags": []
+      "summary": "Astra is an AI-powered assistant designed for complex research and multi-step reasoning tasks, positioning itself above general-purpose chatbots for professional use cases. The product targets knowledge workers who need deeper analysis rather than quick answers. Interesting to watch as AI assistants increasingly segment by task complexity and domain expertise.",
+      "tags": [
+        "AI Tools",
+        "Productivity",
+        "Product Strategy"
+      ]
     },
     {
       "title": "Claude Code Routines",
@@ -209,8 +265,12 @@
       "source": "Product Hunt",
       "type": "trend",
       "date": "2026-04-14T16:45:51+00:00",
-      "summary": "Summary not available.",
-      "tags": []
+      "summary": "Claude Code Routines is a new feature from Anthropic that allows developers to create reusable, shareable automation sequences within Claude Code, enabling teams to standardise common workflows like code review, documentation generation, and test writing. This represents a shift from individual AI assistance toward team-level AI workflow management. PMs evaluating AI development tools should note how standardised routines could accelerate onboarding and reduce variance in AI-assisted code quality.",
+      "tags": [
+        "AI Tools",
+        "Productivity",
+        "Product Strategy"
+      ]
     },
     {
       "title": "When AI Becomes Invisible, Trust Becomes Strategy",
@@ -218,8 +278,12 @@
       "source": "Medium Strategy",
       "type": "article",
       "date": "2026-04-14T14:47:09+00:00",
-      "summary": "Summary not available.",
-      "tags": []
+      "summary": "As AI capabilities become embedded invisibly into products, users stop perceiving them as AI features and start expecting them as baseline product behaviour. This shift means that trust — in accuracy, reliability, and intent — becomes the primary competitive differentiator for AI-powered products. PMs should design AI features with an explicit trust strategy, not just a capability roadmap.",
+      "tags": [
+        "AI Strategy",
+        "Product Design",
+        "Product Culture"
+      ]
     },
     {
       "title": "When 'Viable' Stopped Being Enough",
@@ -265,8 +329,12 @@
       "source": "Stratechery",
       "type": "trend",
       "date": "2026-04-14T10:00:00+00:00",
-      "summary": "Summary not available.",
-      "tags": []
+      "summary": "Ben Thompson analyses leaked OpenAI internal memos and what they reveal about the company strategic priorities, alongside Amazon deepening partnership with Anthropic and what it means for the frontier model landscape. He argues that competitive dynamics between AI labs are increasingly shaped by compute access and distribution partnerships rather than model quality alone. Essential context for PMs evaluating which AI providers to build on.",
+      "tags": [
+        "AI Strategy",
+        "Competitive Analysis",
+        "Platform Strategy"
+      ]
     },
     {
       "title": "How to Turn a Boring Corporate Strategy Into a Shared Team Story",
@@ -325,8 +393,12 @@
       "source": "Product Hunt",
       "type": "trend",
       "date": "2026-04-14T00:14:16+00:00",
-      "summary": "Summary not available.",
-      "tags": []
+      "summary": "Cenote is a data observability and pipeline monitoring tool that helps data teams detect and diagnose issues in their data infrastructure before they impact downstream products and decisions. It positions itself as a layer of reliability on top of existing data stacks. PMs relying on data pipelines for product analytics or ML features will find this category increasingly relevant as data quality becomes a product quality issue.",
+      "tags": [
+        "Data",
+        "Productivity",
+        "AI Tools"
+      ]
     },
     {
       "title": "📈 Data to start your week – The jet fuel inflection point",
@@ -346,8 +418,12 @@
       "source": "Product Hunt",
       "type": "trend",
       "date": "2026-04-13T15:53:10+00:00",
-      "summary": "Summary not available.",
-      "tags": []
+      "summary": "Google's Nest Doorbell update brings improved AI-powered person and package detection, enhanced night vision, and a redesigned app experience for managing home security. The update reflects ongoing investment in making smart home hardware more reliable and less reliant on cloud processing. For PMs in IoT and smart home products, this release sets a higher baseline for what users expect from AI-powered home security features.",
+      "tags": [
+        "AI Tools",
+        "Product Design",
+        "Platform Strategy"
+      ]
     },
     {
       "title": "🎙️ This week on How I AI: Claude Cowork tutorial for non-engineers + Build your own Slack inbox (for $0)",
@@ -391,8 +467,12 @@
       "source": "How I Built This",
       "type": "podcast",
       "date": "2026-04-13T07:10:00+00:00",
-      "summary": "Summary not available.",
-      "tags": []
+      "summary": "This episode of How I Built This tells the story of how Colin Angle turned a bold robotics research project into one of the most recognisable consumer products of the past two decades. The episode explores the product decisions, pivots, and persistence required to build a category-defining business. Essential listening for PMs who want to understand how consumer products achieve mass adoption and cultural relevance.",
+      "tags": [
+        "Leadership",
+        "Product Culture",
+        "Growth"
+      ]
     },
     {
       "title": "How We Built a Voice Agent on Chatzy.ai in Just One Week",
@@ -512,8 +592,12 @@
       "source": "Product-Led Alliance",
       "type": "event",
       "date": "2026-04-10T15:00:36+00:00",
-      "summary": "Summary not available.",
-      "tags": []
+      "summary": "A reflective piece marking the end of an era in product-led growth thinking, arguing that the original vision of PLG has been diluted into a marketing buzzword. The author calls for a return to first principles: building products so good that they sell themselves. A thought-provoking read for PMs questioning whether their PLG motion is genuine or performative.",
+      "tags": [
+        "Product Strategy",
+        "Growth",
+        "Product Culture"
+      ]
     },
     {
       "title": "The financial blind spot that gets product managers fired",
@@ -533,8 +617,12 @@
       "source": "Exponential View",
       "type": "trend",
       "date": "2026-04-10T13:35:48+00:00",
-      "summary": "Summary not available.",
-      "tags": []
+      "summary": "Azeem Azhar argues that financial markets are systematically mispricing AI companies because traditional valuation frameworks fail to account for the compounding, non-linear nature of AI-driven value creation. He draws parallels with previous technological transitions where incumbents were undervalued before markets recalibrated. For PMs at AI-native companies, this framing has implications for how to communicate product value to investors and boards.",
+      "tags": [
+        "AI Strategy",
+        "Platform Strategy",
+        "Competitive Analysis"
+      ]
     },
     {
       "title": "Anamap",
@@ -542,8 +630,12 @@
       "source": "Product Hunt",
       "type": "trend",
       "date": "2026-04-10T06:11:15+00:00",
-      "summary": "Summary not available.",
-      "tags": []
+      "summary": "Anamap is a market research and competitive intelligence tool that uses AI to map competitive landscapes and identify whitespace opportunities automatically. It targets product and strategy teams who need structured competitive analysis without manually monitoring dozens of sources. A useful addition to the PM toolkit for teams doing regular competitive reviews or market entry assessments.",
+      "tags": [
+        "Competitive Analysis",
+        "AI Tools",
+        "Product Strategy"
+      ]
     },
     {
       "title": "Okta: Principal Product Manager, LogIn",
@@ -562,8 +654,12 @@
       "source": "We Work Remotely",
       "type": "job",
       "date": "2026-04-09T20:34:08+00:00",
-      "summary": "Summary not available.",
-      "tags": []
+      "summary": "Signifyd is looking for a Senior PM to lead their Identity and Intelligence Platform, focusing on fraud prevention and identity verification at scale. The role sits at the intersection of machine learning, data products, and financial security — requiring a PM who can translate complex model outputs into clear product decisions. A strong opportunity for PMs interested in trust and safety infrastructure.",
+      "tags": [
+        "Career",
+        "Data",
+        "Stakeholders"
+      ]
     },
     {
       "title": "Carrum Health: Staff Applied AI Product Engineer",
@@ -571,8 +667,12 @@
       "source": "We Work Remotely",
       "type": "job",
       "date": "2026-04-09T20:33:52+00:00",
-      "summary": "Summary not available.",
-      "tags": []
+      "summary": "Carrum Health is hiring a Staff Applied AI Product Engineer to build AI-powered features for their healthcare navigation platform, with a focus on matching patients to the right providers and care pathways. The role blends product thinking with hands-on ML engineering, making it unusual in the PM job market. Relevant for technically-oriented PMs exploring hybrid product-engineering roles in health tech.",
+      "tags": [
+        "Career",
+        "AI Tools",
+        "Leadership"
+      ]
     },
     {
       "title": "Voodoo: Product Specialist Intern - Product",
@@ -580,8 +680,12 @@
       "source": "We Work Remotely",
       "type": "job",
       "date": "2026-04-09T20:33:22+00:00",
-      "summary": "Summary not available.",
-      "tags": []
+      "summary": "Voodoo, one of Europe's leading mobile gaming companies, is offering a Product Specialist internship focused on game product management and player engagement metrics. The role provides exposure to mobile gaming growth loops, A/B testing at scale, and monetisation strategy in a highly competitive market. A strong entry point for aspiring PMs interested in consumer mobile and gaming.",
+      "tags": [
+        "Career",
+        "Growth",
+        "Metrics"
+      ]
     },
     {
       "title": "Commercial vs Internal Products",
@@ -614,8 +718,12 @@
       "source": "How I Built This",
       "type": "podcast",
       "date": "2026-04-09T07:10:00+00:00",
-      "summary": "Summary not available.",
-      "tags": []
+      "summary": "In this Advice Line episode, Guy Raz speaks with Steve Ells, founder of Chipotle, about the strategic decisions that turned a single burrito restaurant into a global fast-casual empire. The episode explores the product decisions, pivots, and persistence required to build a category-defining business. Essential listening for PMs who want to understand how consumer products achieve mass adoption and cultural relevance.",
+      "tags": [
+        "Leadership",
+        "Product Culture",
+        "Growth"
+      ]
     },
     {
       "title": "How quantum computing is transforming  data centers and energy",
@@ -623,8 +731,12 @@
       "source": "Product-Led Alliance",
       "type": "event",
       "date": "2026-04-08T14:00:07+00:00",
-      "summary": "Summary not available.",
-      "tags": []
+      "summary": "This piece explores how quantum computing is beginning to influence data center architecture and energy efficiency, with early use cases emerging in optimisation problems that classical computers struggle with. For most PMs, quantum computing remains distant from day-to-day product decisions, but understanding the trajectory helps anticipate platform shifts that could reshape cloud infrastructure costs and capabilities over the next decade.",
+      "tags": [
+        "AI Strategy",
+        "Platform Strategy",
+        "Data"
+      ]
     },
     {
       "title": "Product Roadmaps: How the Best Product Teams Plan for Uncertainty",
