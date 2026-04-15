@@ -1,7 +1,285 @@
 {
-  "updated": "2026-04-14T08:38:04.524014+00:00",
-  "total": 34,
+  "updated": "2026-04-15T10:52:01.293973+00:00",
+  "total": 68,
   "items": [
+    {
+      "title": "Winning the narrative when markets move fast | GTM Labs",
+      "url": "https://www.productledalliance.com/winning-the-narrative-when-markets-move-fast-gtm-labs/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-04-15T10:42:57+00:00",
+      "summary": "Summary not available.",
+      "tags": []
+    },
+    {
+      "title": "Avoid vanity metrics: evaluating true GTM impact | GTM Labs",
+      "url": "https://www.productledalliance.com/avoid-vanity-metrics-evaluating-true-gtm-impact-gtm-labs/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-04-15T10:23:45+00:00",
+      "summary": "Summary not available.",
+      "tags": []
+    },
+    {
+      "title": "GTM on a budget: do more with less | GTM Labs",
+      "url": "https://www.productledalliance.com/gtm-on-a-budget-do-more-with-less-gtm-labs/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-04-15T10:23:18+00:00",
+      "summary": "Summary not available.",
+      "tags": []
+    },
+    {
+      "title": "Lifecycle metrics that drive retention & advocacy | GTM Labs",
+      "url": "https://www.productledalliance.com/lifecycle-metrics-that-drive-retention-advocacy-gtm-labs/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-04-15T10:20:00+00:00",
+      "summary": "Summary not available.",
+      "tags": []
+    },
+    {
+      "title": "Turning launches into repeatable revenue moments | GTM Labs",
+      "url": "https://www.productledalliance.com/turning-launches-into-repeatable-revenue-moments-gtm-labs/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-04-15T10:16:59+00:00",
+      "summary": "Summary not available.",
+      "tags": []
+    },
+    {
+      "title": "The AI Pivot: Why Product Management is Evolving into “System Orchestration",
+      "url": "https://medium.com/@titasahmedinfo/the-ai-pivot-why-product-management-is-evolving-into-system-orchestration-c7ae1f545877?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-04-15T10:05:27+00:00",
+      "summary": "AI is fundamentally transforming product management, shifting the role from traditional oversight to system orchestration, where PMs must manage complex, AI-driven ecosystems.",
+      "tags": [
+        "AI Integration",
+        "Product Strategy",
+        "System Orchestration"
+      ]
+    },
+    {
+      "title": "Amazon Buys Globalstar, Delta to Add Leo, The Apple Angle",
+      "url": "https://stratechery.com/2026/amazon-buys-globalstar-delta-to-add-leo-the-apple-angle/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-04-15T10:00:00+00:00",
+      "summary": "Summary not available.",
+      "tags": []
+    },
+    {
+      "title": "Cybersecurity & Ethical Hacking Explained - Protecting the Digital World.",
+      "url": "https://medium.com/codetodeploy/cybersecurity-ethical-hacking-explained-protecting-the-digital-world-54ab7c7a2bb1?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-04-15T09:49:21+00:00",
+      "summary": "Cybersecurity and ethical hacking guard digital systems by proactively preventing attacks, finding and fixing weaknesses, and safeguarding data worldwide. These practices keep users, businesses, and critical infrastructure safe from evolving threats. For product managers, understanding these concepts helps design more secure offerings and instill confidence in end‑users.",
+      "tags": [
+        "Cybersecurity",
+        "Ethical Hacking",
+        "Security Design",
+        "Threat Mitigation"
+      ]
+    },
+    {
+      "title": "🔮 The classified frontier",
+      "url": "https://www.exponentialview.co/p/the-classified-frontier",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-04-15T09:45:58+00:00",
+      "summary": "Summary not available.",
+      "tags": []
+    },
+    {
+      "title": "We Wired Up Audiences in Cinemas, Gaming Labs, and Concert Halls.",
+      "url": "https://medium.com/@insightflow-ai/we-wired-up-audiences-in-cinemas-gaming-labs-and-concert-halls-1db62cf6d796?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-04-15T09:45:07+00:00",
+      "summary": "Summary not available.",
+      "tags": []
+    },
+    {
+      "title": "The GetAway Group’s AI Product Engineering Development Plan",
+      "url": "https://medium.com/getaway-group-tech-blog/the-getaway-groups-ai-product-engineering-development-plan-50c48917f0c9?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-04-15T09:35:00+00:00",
+      "summary": "The article argues that product teams should focus on creating the systems, habits, and decision‑making frameworks that enable rapid, compounding use of AI rather than merely adopting AI tools. By embedding AI into the product development process, organizations can achieve sustainable speed and scale in delivering AI‑powered features.",
+      "tags": [
+        "AI Strategy",
+        "Product Operations",
+        "Development Process",
+        "Innovation Management"
+      ]
+    },
+    {
+      "title": "The Diderot Effect: Product Management’s Most Expensive Blind Spot",
+      "url": "https://medium.com/@sanskarj35/the-diderot-effect-product-managements-most-expensive-blind-spot-c60772bf4cd6?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-04-15T09:17:05+00:00",
+      "summary": "The Diderot Effect highlights how adding a single new feature to a product can subtly shift user expectations and perceived value, leading to a continuous cycle of feature requests and potentially diminishing returns. For Product Managers, this means carefully considering the long-term impact of each addition, as it can fundamentally alter user perception and create a need for constant upgrades. Ignoring this effect can result in feature bloat and a less satisfying user experience.",
+      "tags": [
+        "Feature Creep",
+        "User Expectations",
+        "Product Design",
+        "Behavioral Economics"
+      ]
+    },
+    {
+      "title": "The Diderot Effect: Product Management’s Most Expensive Blind Spot",
+      "url": "https://medium.com/@sanskarj35/the-diderot-effect-product-managements-most-expensive-blind-spot-c60772bf4cd6?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-04-15T09:17:05+00:00",
+      "summary": "The article discusses the 'Diderot Effect,' the phenomenon where adding small, incremental features to a product can drastically increase development costs and complexity, often leading to an unsustainable product roadmap. Product Managers need to recognize that seemingly minor additions can have a disproportionately large impact on time, resources, and overall product strategy. Prioritization and strategic roadmap planning are crucial to avoid this expensive blind spot.",
+      "tags": [
+        "Feature Prioritization",
+        "Product Roadmap",
+        "Cost Management",
+        "Scope Creep"
+      ]
+    },
+    {
+      "title": "Faster learning changes how teams work",
+      "url": "https://medium.com/@shyamkiran.kotnana/faster-learning-changes-how-teams-work-78dc9871f0b6?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-04-15T08:27:15+00:00",
+      "summary": "Summary not available.",
+      "tags": []
+    },
+    {
+      "title": "Consent Isn’t a Checkbox: Rethinking User Choice in Digital Products",
+      "url": "https://medium.com/@Kreativeps/consent-isnt-a-checkbox-rethinking-user-choice-in-digital-products-b63552443472?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-04-15T06:01:02+00:00",
+      "summary": "Summary not available.",
+      "tags": []
+    },
+    {
+      "title": "Listen: Not all AI agents are created equal",
+      "url": "https://www.lennysnewsletter.com/p/listen-not-all-ai-agents-are-created",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-04-15T03:45:04+00:00",
+      "summary": "The article emphasizes that AI agents vary significantly in capability, suitability, and performance, so product managers must assess them based on specific use cases rather than treating them as interchangeable. Choosing the right AI agent requires evaluating factors like domain expertise, integration ease, and measurable outcomes to ensure it aligns with product goals.",
+      "tags": [
+        "AI Agents",
+        "Product Evaluation",
+        "Tool Selection",
+        "AI Strategy"
+      ]
+    },
+    {
+      "title": "MiniAi",
+      "url": "https://www.producthunt.com/products/miniai",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-04-15T00:44:36+00:00",
+      "summary": "Summary not available.",
+      "tags": []
+    },
+    {
+      "title": "Payra: Product Lead - Data Products",
+      "url": "https://weworkremotely.com/remote-jobs/payra-product-lead-data-products",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-04-14T21:55:55+00:00",
+      "summary": "Summary not available.",
+      "tags": []
+    },
+    {
+      "title": "Why Travel Platforms Keep Missing Their Most Valuable User",
+      "url": "https://notbythebook.medium.com/why-travel-platforms-keep-missing-their-most-valuable-user-98e424b1754d?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-04-14T20:45:43+00:00",
+      "summary": "Summary not available.",
+      "tags": []
+    },
+    {
+      "title": "Astra",
+      "url": "https://www.producthunt.com/products/astra-5",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-04-14T19:25:24+00:00",
+      "summary": "Summary not available.",
+      "tags": []
+    },
+    {
+      "title": "Claude Code Routines",
+      "url": "https://www.producthunt.com/products/claude",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-04-14T16:45:51+00:00",
+      "summary": "Summary not available.",
+      "tags": []
+    },
+    {
+      "title": "When AI Becomes Invisible, Trust Becomes Strategy",
+      "url": "https://medium.com/@suhanikhandelwal/when-ai-becomes-invisible-trust-becomes-strategy-9344b5e3ae68?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-04-14T14:47:09+00:00",
+      "summary": "Summary not available.",
+      "tags": []
+    },
+    {
+      "title": "When 'Viable' Stopped Being Enough",
+      "url": "https://www.productcoalition.com/p/when-viable-stopped-being-enough",
+      "source": "Product Coalition",
+      "type": "article",
+      "date": "2026-04-14T14:16:46+00:00",
+      "summary": "The article argues that simply launching a minimal viable product (MVP) is no longer sufficient for long-term product success. It highlights a shift towards prioritizing viability – ensuring a product can sustain itself and grow – over rapid, initial releases. Product Managers should focus on building a product that's not just functional but also has a clear path to profitability and user retention, rather than solely chasing speed of delivery.",
+      "tags": [
+        "Product Strategy",
+        "Viability",
+        "Growth Hacking",
+        "Product Lifecycle"
+      ]
+    },
+    {
+      "title": "Product Work Is Relationship Work - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "url": "https://www.producttalk.org/product-work-is-relationship-work-all-things-product-podcast-with-teresa-torres-petra-wille/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-04-14T13:00:06+00:00",
+      "summary": "Teresa Torres and Petra Wille explain that product management is fundamentally about building relationships—understanding stakeholders, aligning teams, and continuously learning from users—rather than just generating ideas or specs. Even as AI streamlines idea generation, the core value of a product manager lies in facilitation, negotiation, and empathy to ensure the right problems are solved.",
+      "tags": [
+        "Stakeholder Management",
+        "User Research",
+        "Product Leadership",
+        "AI Impact"
+      ]
+    },
+    {
+      "title": "Not all AI agents are created equal",
+      "url": "https://www.lennysnewsletter.com/p/not-all-ai-agents-are-created-equal",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-04-14T12:46:08+00:00",
+      "summary": "The article introduces a framework that classifies AI agents by their capabilities, integration depth, and business impact, helping product managers prioritize which agent initiatives to pursue first. By aligning agent types with strategic goals and resource constraints, product teams can focus on high‑value use cases and avoid overengineering less effective solutions.",
+      "tags": [
+        "AI Agents",
+        "Product Strategy",
+        "Prioritization",
+        "Roadmap Planning"
+      ]
+    },
+    {
+      "title": "OpenAI’s Memos, Frontier, Amazon and Anthropic",
+      "url": "https://stratechery.com/2026/openais-memos-frontier-amazon-and-anthropic/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-04-14T10:00:00+00:00",
+      "summary": "Summary not available.",
+      "tags": []
+    },
     {
       "title": "How to Turn a Boring Corporate Strategy Into a Shared Team Story",
       "url": "https://williammeller.medium.com/how-to-turn-a-boring-corporate-strategy-into-a-shared-team-story-55dd60bc141f?source=rss------product_management-5",
@@ -55,6 +333,15 @@
         "History",
         "Tech Ecosystem"
       ]
+    },
+    {
+      "title": "Cenote",
+      "url": "https://www.producthunt.com/products/cenote",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-04-14T00:14:16+00:00",
+      "summary": "Summary not available.",
+      "tags": []
     },
     {
       "title": "📈 Data to start your week – The jet fuel inflection point",
@@ -270,6 +557,15 @@
       ]
     },
     {
+      "title": "💸 Mythos and the mispricing of everything",
+      "url": "https://www.exponentialview.co/p/mythos-and-the-mispricing-of-everything",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-04-10T13:35:48+00:00",
+      "summary": "Summary not available.",
+      "tags": []
+    },
+    {
       "title": "Anamap",
       "url": "https://www.producthunt.com/products/anamap",
       "source": "Product Hunt",
@@ -298,6 +594,24 @@
       "source": "We Work Remotely",
       "type": "job",
       "date": "2026-04-09T20:34:08+00:00",
+      "summary": "Summary not available.",
+      "tags": []
+    },
+    {
+      "title": "Carrum Health: Staff Applied AI Product Engineer",
+      "url": "https://weworkremotely.com/remote-jobs/carrum-health-staff-applied-ai-product-engineer",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-04-09T20:33:52+00:00",
+      "summary": "Summary not available.",
+      "tags": []
+    },
+    {
+      "title": "Voodoo: Product Specialist Intern - Product",
+      "url": "https://weworkremotely.com/remote-jobs/voodoo-product-specialist-intern-product",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-04-09T20:33:22+00:00",
       "summary": "Summary not available.",
       "tags": []
     },
@@ -373,6 +687,20 @@
       ]
     },
     {
+      "title": "🔮 Where we’re taking Exponential View next",
+      "url": "https://www.exponentialview.co/p/exponential-view-greg-williams",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-04-08T11:31:15+00:00",
+      "summary": "The article outlines the strategic roadmap for Exponential View, focusing on scaling its research studio by selecting an editorial platform that balances depth, flexibility, and audience engagement. The plan emphasizes iterative content experiments, tighter integration with data-driven insights, and expanding collaborative authoring tools to enhance the publication's influence in the tech‑future discourse.",
+      "tags": [
+        "Product Strategy",
+        "Content Platforms",
+        "Research Operations",
+        "Growth Experimentation"
+      ]
+    },
+    {
       "title": "Anthropic's New Model, The Mythos Wolf, Glasswing and Alignment",
       "url": "https://stratechery.com/2026/anthropics-new-model-the-mythos-wolf-glasswing-and-alignment/",
       "source": "Stratechery",
@@ -383,6 +711,19 @@
         "AI Strategy",
         "Competitive Analysis",
         "Foundation Models"
+      ]
+    },
+    {
+      "title": "The North Star That Wasn't",
+      "url": "https://www.productcoalition.com/p/the-north-star-that-wasnt",
+      "source": "Product Coalition",
+      "type": "article",
+      "date": "2026-04-07T14:10:12+00:00",
+      "summary": "The article critiques the over-reliance on a single 'North Star Metric,' warning that it can lead to narrow optimization and strategic blindness. Product Managers should instead balance a primary goal with complementary counter-metrics to ensure sustainable growth and overall product health.",
+      "tags": [
+        "Product Metrics",
+        "KPI Strategy",
+        "Growth Management"
       ]
     },
     {
@@ -397,6 +738,34 @@
         "Product Strategy",
         "Product Management",
         "AI Adoption"
+      ]
+    },
+    {
+      "title": "Let's Read Continuous Discovery Habits Together (April 2026)",
+      "url": "https://www.producttalk.org/cdh-book-club-april-2026/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-04-06T13:00:16+00:00",
+      "summary": "This article announces a community read-along of the book 'Continuous Discovery Habits', offering monthly reading guides with key concepts and video resources. For Product Managers, this signals a valuable opportunity to deepen their understanding of ongoing user research and iterative product development practices. Participating can provide structured learning and community support for implementing these habits.",
+      "tags": [
+        "Continuous Discovery",
+        "User Research",
+        "Product Process",
+        "Habits"
+      ]
+    },
+    {
+      "title": "Building Banani: How a Canvas-First AI Designer Is Raising the Floor on Product Design",
+      "url": "https://www.producttalk.org/building-banani-how-a-canvas-first-ai-designer-is-raising-the-floor-on-product-design/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-04-02T13:00:59+00:00",
+      "summary": "Banani is an AI design platform democratizing UX design by providing a simple, canvas-first interface accessible to anyone. This is particularly valuable for resource-constrained teams and early-stage startups who often lack dedicated designers, allowing them to rapidly iterate on designs and improve user experiences without requiring extensive design expertise.",
+      "tags": [
+        "AI Design",
+        "UX Accessibility",
+        "Productivity",
+        "Startup Tools"
       ]
     },
     {
