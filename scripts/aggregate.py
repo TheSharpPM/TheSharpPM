@@ -99,9 +99,12 @@ def analyse(title, content):
     prompt = (
         "Analyse this article and return a JSON object with two fields:\n"
         "1. 'summary': 2-3 sentences in English summarizing the key insight for a Product Manager.\n"
-        "2. 'tags': a list of 2-4 short tags that best describe the topics of this article. "
-        "Each tag should be 1-2 words, capitalized (e.g. 'Product Strategy', 'User Research', 'AI Tools'). "
-        "Generate tags that are specific and meaningful for a Product Manager audience.\n\n"
+        "2. 'tags': a list of exactly 2-3 tags. You MUST choose ONLY from this list:\n"
+        "AI Strategy, AI Tools, Product Strategy, Leadership, Metrics, User Research, "
+        "Growth, Career, Prioritization, Stakeholders, Product Design, Retention, "
+        "Data, Communication, Productivity, Competitive Analysis, Platform Strategy, "
+        "Product Culture.\n"
+        "Do NOT invent new tags. If nothing fits perfectly, pick the closest match.\n\n"
         "Return ONLY valid JSON, no explanation.\n\n"
         "Title: " + title + "\n"
         "Content: " + content[:1500]
