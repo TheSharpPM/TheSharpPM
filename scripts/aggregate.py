@@ -3,16 +3,16 @@ import json
 import os
 import re
 import requests
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from time import mktime
  
 # ── CONFIG ────────────────────────────────────────────────────────────────────
  
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
-#MODEL = "meta-llama/llama-3.3-70b-instruct:free"
-MODEL = "openrouter/free"
+MODEL = "openrouter/auto"
 MAX_ITEMS_PER_FEED = int(os.environ.get("MAX_ITEMS_PER_FEED", "2"))
 OUTPUT_FILE = "data.json"
+MAX_DAYS = 90
  
 FEEDS = [
     # Articles
@@ -37,26 +37,22 @@ FEEDS = [
     {"url": "https://remoteok.com/remote-product-manager-jobs.rss", "source": "Remote OK", "type": "job"},
     {"url": "https://weworkremotely.com/categories/remote-product-jobs.rss", "source": "We Work Remotely", "type": "job"},
     {"url": "https://www.workatastartup.com/jobs.rss?role=product", "source": "Work at a Startup", "type": "job"},
-
+ 
     # Additional Articles
     {"url": "https://www.firstround.com/review/feed.xml", "source": "First Round Review", "type": "article"},
     {"url": "https://www.producthunt.com/feed", "source": "Product Hunt", "type": "trend"},
     {"url": "https://hnrss.org/best?q=product+manager", "source": "Hacker News", "type": "trend"},
-
+ 
     # Podcasts
     {"url": "https://feeds.transistor.fm/lenny-s-podcast", "source": "Lenny's Podcast", "type": "podcast"},
     {"url": "https://www.mindtheproduct.com/feed/podcast/", "source": "Mind the Product Podcast", "type": "podcast"},
     {"url": "https://feeds.simplecast.com/4MvgQ73R", "source": "Masters of Scale", "type": "podcast"},
     {"url": "https://rss.art19.com/how-i-built-this", "source": "How I Built This", "type": "podcast"},
-
+ 
     # Videos (YouTube RSS)
     {"url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCJXGnMEFEpKKBqAVBpTSoQQ", "source": "Y Combinator", "type": "video"},
     {"url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC4r3BHFUBxfXGzKxb5HFmRg", "source": "Product School", "type": "video"},
-
-    # Courses & Learning
-    {"url": "https://www.coursera.org/sitemap/courses.xml", "source": "Coursera PM", "type": "course"},
-    {"url": "https://www.reforge.com/blog/rss.xml", "source": "Reforge Programs", "type": "course"},
-
+ 
     # Events
     {"url": "https://www.mindtheproduct.com/feed/events/", "source": "Mind the Product Events", "type": "event"},
     {"url": "https://productledalliance.com/feed/", "source": "Product-Led Alliance", "type": "event"},
@@ -79,11 +75,11 @@ def check_api_available():
             headers={
                 "Authorization": "Bearer " + OPENROUTER_API_KEY,
                 "Content-Type": "application/json",
-                "HTTP-Referer": "https://thesharppm.github.io",
+                "HTTP-Referer": "https://thesharppm.com",
             },
             json={
                 "model": MODEL,
-                "messages": [{"role": "user", "content": "test"}],
+                "messages": [{"role": "user", "content": "reply with: ok"}],
                 "max_tokens": 5,
             },
             timeout=15,
@@ -97,42 +93,53 @@ def check_api_available():
  
 def analyse(title, content):
     prompt = (
-        "Analyse this article and return a JSON object with two fields:\n"
-        "1. 'summary': 2-3 sentences in English summarizing the key insight for a Product Manager.\n"
-        "2. 'tags': a list of exactly 2-3 tags. You MUST choose ONLY from this list:\n"
-        "AI Strategy, AI Tools, Product Strategy, Leadership, Metrics, User Research, "
-        "Growth, Career, Prioritization, Stakeholders, Product Design, Retention, "
-        "Data, Communication, Productivity, Competitive Analysis, Platform Strategy, "
-        "Product Culture.\n"
-        "Do NOT invent new tags. If nothing fits perfectly, pick the closest match.\n\n"
-        "Return ONLY valid JSON, no explanation.\n\n"
-        "Title: " + title + "\n"
-        "Content: " + content[:1500]
+        "Return ONLY valid JSON with two fields:\n"
+        "- summary: 2-3 sentences about this article for a Product Manager\n"
+        "- tags: array of 2-3 tags from: AI Strategy, AI Tools, Product Strategy, "
+        "Leadership, Metrics, User Research, Growth, Career, Prioritization, "
+        "Stakeholders, Product Design, Retention, Data, Communication, Productivity, "
+        "Competitive Analysis, Platform Strategy, Product Culture\n\n"
+        "Title: " + title + "\nContent: " + content[:800]
     )
  
-    try:
-        response = requests.post(
-            "https://openrouter.ai/api/v1/chat/completions",
-            headers={
-                "Authorization": "Bearer " + OPENROUTER_API_KEY,
-                "Content-Type": "application/json",
-                "HTTP-Referer": "https://thesharppm.github.io",
-            },
-            json={
-                "model": MODEL,
-                "messages": [{"role": "user", "content": prompt}],
-                "max_tokens": 300,
-            },
-            timeout=30,
-        )
-        data = response.json()
-        text = data["choices"][0]["message"]["content"].strip()
-        text = text.replace("```json", "").replace("```", "").strip()
-        parsed = json.loads(text)
-        return parsed.get("summary", "Summary not available."), parsed.get("tags", [])
-    except Exception as e:
-        print("  Warning API error: " + str(e))
-        return "Summary not available.", []
+    for attempt in range(2):
+        try:
+            response = requests.post(
+                "https://openrouter.ai/api/v1/chat/completions",
+                headers={
+                    "Authorization": "Bearer " + OPENROUTER_API_KEY,
+                    "Content-Type": "application/json",
+                    "HTTP-Referer": "https://thesharppm.com",
+                },
+                json={
+                    "model": MODEL,
+                    "messages": [{"role": "user", "content": prompt}],
+                    "max_tokens": 250,
+                    "response_format": {"type": "json_object"},
+                },
+                timeout=30,
+            )
+            data = response.json()
+            if "choices" not in data:
+                msg = data.get("error", {}).get("message", str(data))
+                print("  Rate limit or error: " + msg)
+                return None, None
+            text = data["choices"][0]["message"]["content"]
+            if not text:
+                continue
+            text = text.strip().replace("```json", "").replace("```", "").strip()
+            # Extract JSON object even if model adds text around it
+            start = text.find("{")
+            end = text.rfind("}") + 1
+            if start >= 0 and end > start:
+                text = text[start:end]
+            parsed = json.loads(text)
+            return parsed.get("summary", "Summary not available."), parsed.get("tags", [])
+        except Exception as e:
+            print("  Warning API error: " + str(e))
+            if attempt == 0:
+                continue
+    return "Summary not available.", []
  
 # ── FETCH FEEDS ───────────────────────────────────────────────────────────────
  
@@ -167,7 +174,14 @@ def fetch_feed(feed_config):
             url = entry.get("link", "#")
  
             print("  -> " + title[:60] + "...")
-            summary, tags = analyse(title, content)
+            result = analyse(title, content)
+ 
+            # If API returns None (rate limit), stop processing this feed
+            if result[0] is None:
+                print("  Stopping feed due to rate limit.")
+                break
+ 
+            summary, tags = result
  
             items.append({
                 "title": title,
@@ -218,11 +232,10 @@ def main():
     all_items = new_items + existing_items
     all_items.sort(key=lambda x: x.get("date") or "", reverse=True)
  
-    # Remove articles older than 90 days
-    from datetime import timedelta
-    cutoff = datetime.now(timezone.utc) - timedelta(days=90)
+    # Remove articles older than MAX_DAYS
+    cutoff = datetime.now(timezone.utc) - timedelta(days=MAX_DAYS)
     all_items = [i for i in all_items if not i.get("date") or datetime.fromisoformat(i["date"]) >= cutoff]
-
+ 
     output = {
         "updated": datetime.now(timezone.utc).isoformat(),
         "total": len(all_items),
@@ -237,3 +250,4 @@ def main():
  
 if __name__ == "__main__":
     main()
+ 
