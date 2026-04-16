@@ -1,7 +1,141 @@
 {
-  "updated": "2026-04-15T10:52:01.293973+00:00",
-  "total": 68,
+  "updated": "2026-04-16T10:52:18.867142+00:00",
+  "total": 86,
   "items": [
+    {
+      "title": "Why an MBA/PGDM with Internship is the Future of Management Education in India",
+      "url": "https://medium.com/@peopleeducationisbr/why-an-mba-pgdm-with-internship-is-the-future-of-management-education-in-india-58514344c048?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-04-16T10:31:47+00:00",
+      "summary": "Summary not available.",
+      "tags": []
+    },
+    {
+      "title": "A Spring Break Commute, Five Dollars, and the State of Multilingual Text-to-Speech",
+      "url": "https://joshmcdonald.medium.com/a-spring-break-commute-five-dollars-and-the-state-of-multilingual-text-to-speech-82bcb8bfa179?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-04-16T10:17:48+00:00",
+      "summary": "Summary not available.",
+      "tags": []
+    },
+    {
+      "title": "Discovery: Where Better Products Take Shape",
+      "url": "https://medium.com/@nitin.sri2002/discovery-where-better-products-take-shape-d004163cd06f?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-04-16T10:17:37+00:00",
+      "summary": "Summary not available.",
+      "tags": []
+    },
+    {
+      "title": "Most Businesses Choose the Wrong Marketing Agency (Here’s Why)",
+      "url": "https://medium.com/@R_Abhimaan01/most-businesses-choose-the-wrong-marketing-agency-heres-why-043f12c5d0b1?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-04-16T10:04:16+00:00",
+      "summary": "Summary not available.",
+      "tags": []
+    },
+    {
+      "title": "An Interview with F1 Driver and Venture Capitalist Nico Rosberg About the Drive to Win",
+      "url": "https://stratechery.com/2026/an-interview-with-f1-driver-and-venture-capitalist-nico-rosberg-about-the-drive-to-win/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-04-16T10:00:00+00:00",
+      "summary": "Nico Rosberg emphasizes the importance of mental fortitude and strategic thinking for achieving success, drawing parallels to his F1 career and applying those principles to venture capital. The interview highlights the need for proactive opportunity recognition and relentless focus, particularly in competitive environments. This is relevant for Product Managers needing to identify and capitalize on market opportunities while navigating challenging landscapes.",
+      "tags": [
+        "Product Strategy",
+        "Prioritization",
+        "Leadership"
+      ]
+    },
+    {
+      "title": "Why Your Business Can’t Afford to Ignore Mobile Anymore",
+      "url": "https://medium.com/@appbuildchat/why-your-business-cant-afford-to-ignore-mobile-anymore-14405f4b7932?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-04-16T09:32:47+00:00",
+      "summary": "Summary not available.",
+      "tags": []
+    },
+    {
+      "title": "Why Feedback Quality Declines as Start-ups Scale",
+      "url": "https://shashank-rajrukar.medium.com/why-feedback-quality-declines-as-start-ups-scale-c3f412869381?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-04-16T09:06:01+00:00",
+      "summary": "Summary not available.",
+      "tags": []
+    },
+    {
+      "title": "Stop Building, Start Validating: A 5-Step Guide for Founders",
+      "url": "https://medium.com/@info_69552/stop-building-start-validating-a-5-step-guide-for-founders-d8f6616f93e5?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-04-16T08:56:48+00:00",
+      "summary": "Summary not available.",
+      "tags": []
+    },
+    {
+      "title": "I Analyzed Top Apps And Found This Common Pattern",
+      "url": "https://medium.com/@baheer224/i-analyzed-top-apps-and-found-this-common-pattern-f5af695055f8?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-04-16T04:19:51+00:00",
+      "summary": "Summary not available.",
+      "tags": []
+    },
+    {
+      "title": "Resend CLI 2.0",
+      "url": "https://www.producthunt.com/products/resend",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-04-15T22:14:26+00:00",
+      "summary": "Summary not available.",
+      "tags": []
+    },
+    {
+      "title": "Zero-Visibility Finance: Building a Privacy-First Credit Card Insights Tool That Never Asks for…",
+      "url": "https://payalprakash-shah.medium.com/zero-visibility-finance-building-a-privacy-first-credit-card-insights-tool-that-never-asks-for-c46e0f51114a?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-04-15T18:06:44+00:00",
+      "summary": "Summary not available.",
+      "tags": []
+    },
+    {
+      "title": "Google Gemini 3.1 Flash TTS",
+      "url": "https://www.producthunt.com/products/google-gemini-3-1-flash-tts",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-04-15T16:11:39+00:00",
+      "summary": "Summary not available.",
+      "tags": []
+    },
+    {
+      "title": "Why 73% of product managers  expect generalists to define the future",
+      "url": "https://www.productledalliance.com/future-of-product-management-is-generalist/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-04-15T14:00:46+00:00",
+      "summary": "Summary not available.",
+      "tags": []
+    },
+    {
+      "title": "How to Share Your AI Context and Skills Across Devices",
+      "url": "https://www.producttalk.org/how-to-share-your-ai-context-and-skills/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-04-15T13:00:25+00:00",
+      "summary": "Product Managers leading AI adoption often encounter challenges in ensuring consistent context and skill application across different devices and platforms for their teams. Effective knowledge sharing and standardized approaches to leveraging AI tools are crucial for successful AI implementation and wider team enablement. Addressing this context sharing issue improves productivity and maximizes the value of AI investments.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Product Design"
+      ]
+    },
     {
       "title": "Winning the narrative when markets move fast | GTM Labs",
       "url": "https://www.productledalliance.com/winning-the-narrative-when-markets-move-fast-gtm-labs/",
@@ -167,6 +301,15 @@
         "Prioritization",
         "Product Strategy"
       ]
+    },
+    {
+      "title": "LISA Core",
+      "url": "https://www.producthunt.com/products/lisa-core-your-ai-memory-library",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-04-15T08:46:23+00:00",
+      "summary": "Summary not available.",
+      "tags": []
     },
     {
       "title": "Faster learning changes how teams work",
@@ -523,6 +666,15 @@
       ]
     },
     {
+      "title": "X-Pilot",
+      "url": "https://www.producthunt.com/products/x-pilot-5",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-04-12T15:17:56+00:00",
+      "summary": "Summary not available.",
+      "tags": []
+    },
+    {
       "title": "Streaks, Nudges, and the Behavioral Science of Showing Up",
       "url": "https://www.productcoalition.com/p/streaks-nudges-and-the-behavioral",
       "source": "Product Coalition",
@@ -688,6 +840,15 @@
       ]
     },
     {
+      "title": "Doordash Usa: Staff Product Manager, People Product",
+      "url": "https://weworkremotely.com/remote-jobs/doordash-usa-staff-product-manager-people-product",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-04-09T20:32:51+00:00",
+      "summary": "Summary not available.",
+      "tags": []
+    },
+    {
       "title": "Commercial vs Internal Products",
       "url": "https://www.svpg.com/commercial-vs-internal-products/",
       "source": "SVPG",
@@ -812,6 +973,15 @@
         "AI Strategy",
         "Product Strategy"
       ]
+    },
+    {
+      "title": "Flixier Edit by Transcript",
+      "url": "https://www.producthunt.com/products/flixier",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-04-07T12:35:00+00:00",
+      "summary": "Summary not available.",
+      "tags": []
     },
     {
       "title": "Let's Read Continuous Discovery Habits Together (April 2026)",
