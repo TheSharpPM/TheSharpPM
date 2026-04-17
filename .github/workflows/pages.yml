@@ -15,6 +15,14 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v5
+
+      - name: Cache-bust data.json
+        run: |
+          HASH=$(sha256sum data.json | cut -c1-12)
+          cp data.json "data-${HASH}.json"
+          sed -i "s|data\.json|data-${HASH}.json|" index.html
+          rm data.json
+
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

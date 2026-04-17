@@ -695,7 +695,7 @@
  
     document.getElementById('search').addEventListener('input', applyFilters);
  
-    fetch('data.json?v=' + Date.now())
+    fetch('data.json')
         .then(function(r) { return r.json(); })
         .then(function(data) {
             allItems = data.items || [];
