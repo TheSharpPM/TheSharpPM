@@ -1,187 +1,18 @@
 {
-  "updated": "2026-04-16T10:52:18.867142+00:00",
+  "updated": "2026-04-18T13:54:44.716932+00:00",
   "total": 84,
   "items": [
     {
-      "title": "Flixier Edit by Transcript",
-      "url": "https://www.producthunt.com/products/flixier",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-04-07T12:35:00+00:00",
-      "summary": "Flixier has launched a transcript-based video editing feature that allows users to edit video by editing text, automatically cutting or rearranging footage to match the modified transcript. The feature dramatically lowers the barrier to video editing for non-technical creators. For PMs in content or media products, this is a compelling example of how AI can unlock new user segments by abstracting away technical complexity.",
-      "tags": [
-        "AI Tools",
-        "Product Design",
-        "Productivity"
-      ]
-    },
-    {
-      "title": "Doordash Usa: Staff Product Manager, People Product",
-      "url": "https://weworkremotely.com/remote-jobs/doordash-usa-staff-product-manager-people-product",
-      "source": "We Work Remotely",
-      "type": "job",
-      "date": "2026-04-09T20:32:51+00:00",
-      "summary": "DoorDash is hiring a Staff PM for their People Product team, focused on building internal tools and experiences that support the company's workforce operations. The role sits at the intersection of HR technology and platform product management, requiring a PM who can navigate complex stakeholder landscapes and build products for internal users at scale. A strong opportunity for PMs interested in enterprise or internal tooling at a high-growth company.",
-      "tags": [
-        "Career",
-        "Stakeholders",
-        "Leadership"
-      ]
-    },
-    {
-      "title": "X-Pilot",
-      "url": "https://www.producthunt.com/products/x-pilot-5",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-04-12T15:17:56+00:00",
-      "summary": "X-Pilot is an AI-powered productivity tool designed for power users of X (formerly Twitter), offering advanced scheduling, analytics, and content optimisation features. It positions itself as a professional layer on top of X's native capabilities for creators and marketers. Interesting as a case study in how third-party tools continue to thrive on top of social platforms despite API restrictions.",
-      "tags": [
-        "AI Tools",
-        "Productivity",
-        "Platform Strategy"
-      ]
-    },
-    {
-      "title": "LISA Core",
-      "url": "https://www.producthunt.com/products/lisa-core-your-ai-memory-library",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-04-15T08:46:23+00:00",
-      "summary": "LISA Core is an AI memory library that allows users to store, organise, and retrieve context across AI interactions, solving the persistent context problem in current LLM-based tools. It positions itself as a personal knowledge layer that makes AI assistants more useful over time by remembering preferences, projects, and past conversations. PMs exploring AI product design will find this an interesting example of the emerging category of AI memory and personalisation infrastructure.",
-      "tags": [
-        "AI Tools",
-        "Product Design",
-        "AI Strategy"
-      ]
-    },
-    {
-      "title": "Why 73% of product managers  expect generalists to define the future",
-      "url": "https://www.productledalliance.com/future-of-product-management-is-generalist/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-04-15T14:00:46+00:00",
-      "summary": "A survey of product managers reveals that the majority believe generalist PMs — those with broad skills across strategy, data, design, and engineering — will be more valuable in the AI era than specialists. The findings suggest that as AI handles more execution-layer tasks, the distinctly human skills of synthesis, communication, and judgement become the core PM differentiators. An important data point for PMs thinking about their own career development and skill investment.",
+      "title": "Why an MBA/PGDM with Internship is the Future of Management Education in India",
+      "url": "https://medium.com/@peopleeducationisbr/why-an-mba-pgdm-with-internship-is-the-future-of-management-education-in-india-58514344c048?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-04-16T10:31:47+00:00",
+      "summary": "This article explores how MBA programmes with integrated internships are becoming the preferred path for management education in India, offering practical experience alongside academic learning. The author argues that companies increasingly prefer candidates who have real-world exposure over those with purely theoretical backgrounds. For PMs evaluating talent pipelines or career development programmes, this signals a shift in how entry-level product talent is being trained.",
       "tags": [
         "Career",
         "Leadership",
-        "AI Strategy"
-      ]
-    },
-    {
-      "title": "Google Gemini 3.1 Flash TTS",
-      "url": "https://www.producthunt.com/products/google-gemini-3-1-flash-tts",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-04-15T16:11:39+00:00",
-      "summary": "Google has released Gemini 3.1 Flash TTS, a fast and cost-efficient text-to-speech model with improved naturalness and multilingual support. The release signals Google's continued investment in making high-quality voice synthesis accessible at scale for developers. PMs building voice interfaces, accessibility features, or multilingual products should evaluate this against existing TTS options for quality and cost tradeoffs.",
-      "tags": [
-        "AI Tools",
-        "Product Design",
-        "Platform Strategy"
-      ]
-    },
-    {
-      "title": "Zero-Visibility Finance: Building a Privacy-First Credit Card Insights Tool That Never Asks for…",
-      "url": "https://payalprakash-shah.medium.com/zero-visibility-finance-building-a-privacy-first-credit-card-insights-tool-that-never-asks-for-c46e0f51114a?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-04-15T18:06:44+00:00",
-      "summary": "This case study documents the design and build of a financial insights tool that provides credit card analysis without requiring users to share sensitive account credentials. The author explores privacy-preserving architectures and the product tradeoffs involved in building trust with users in a high-sensitivity domain. A valuable read for PMs working on fintech, data products, or any product where user data privacy is a core design constraint.",
-      "tags": [
-        "Product Design",
-        "Data",
-        "User Research"
-      ]
-    },
-    {
-      "title": "Resend CLI 2.0",
-      "url": "https://www.producthunt.com/products/resend",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-04-15T22:14:26+00:00",
-      "summary": "Resend CLI 2.0 is a major update to the developer tool for the Resend email API, adding local development environments, improved debugging, and team collaboration features. The release reflects growing adoption of Resend as a developer-first email infrastructure layer. PMs building products with transactional email workflows will find the improved local testing capabilities particularly useful for reducing email-related bugs in production.",
-      "tags": [
-        "AI Tools",
-        "Productivity",
-        "Product Design"
-      ]
-    },
-    {
-      "title": "I Analyzed Top Apps And Found This Common Pattern",
-      "url": "https://medium.com/@baheer224/i-analyzed-top-apps-and-found-this-common-pattern-f5af695055f8?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-04-16T04:19:51+00:00",
-      "summary": "An analysis of top-performing apps across categories reveals a common structural pattern: a tight activation loop that delivers core value within the first session and creates a natural reason to return. The author maps this pattern across consumer apps from different verticals and extracts principles applicable to any product. PMs designing onboarding and retention flows will find this a useful benchmark against best-in-class products.",
-      "tags": [
-        "Product Design",
-        "Retention",
-        "Growth"
-      ]
-    },
-    {
-      "title": "Stop Building, Start Validating: A 5-Step Guide for Founders",
-      "url": "https://medium.com/@info_69552/stop-building-start-validating-a-5-step-guide-for-founders-d8f6616f93e5?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-04-16T08:56:48+00:00",
-      "summary": "This guide challenges the default founder impulse to build first and validate later, arguing that most failed products suffer from insufficient early validation rather than poor execution. The five-step framework covers problem interviews, assumption mapping, minimum viable experiments, and success metrics definition. For PMs, it reinforces the continuous discovery mindset and provides a practical structure for de-risking new initiatives.",
-      "tags": [
-        "User Research",
-        "Prioritization",
-        "Product Strategy"
-      ]
-    },
-    {
-      "title": "Why Feedback Quality Declines as Start-ups Scale",
-      "url": "https://shashank-rajrukar.medium.com/why-feedback-quality-declines-as-start-ups-scale-c3f412869381?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-04-16T09:06:01+00:00",
-      "summary": "As startups grow, the signal-to-noise ratio in customer feedback deteriorates because the user base diversifies and direct access to early customers diminishes. The author identifies structural causes — sales-filtered feedback, support ticket aggregation, and executive insulation — and proposes mechanisms to preserve feedback quality at scale. A critical read for PMs at scaling companies who feel increasingly disconnected from their users.",
-      "tags": [
-        "User Research",
-        "Product Culture",
-        "Leadership"
-      ]
-    },
-    {
-      "title": "Why Your Business Can't Afford to Ignore Mobile Anymore",
-      "url": "https://medium.com/@appbuildchat/why-your-business-cant-afford-to-ignore-mobile-anymore-14405f4b7932?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-04-16T09:32:47+00:00",
-      "summary": "Mobile now accounts for the majority of digital interactions across virtually every industry, yet many businesses still treat mobile as a secondary channel. The author argues that mobile-first design and strategy is no longer optional — it is the default expectation for users. PMs building consumer or B2B products should audit their mobile experience as a first-class product surface, not an afterthought.",
-      "tags": [
-        "Product Design",
-        "Product Strategy",
-        "Growth"
-      ]
-    },
-    {
-      "title": "Most Businesses Choose the Wrong Marketing Agency (Here's Why)",
-      "url": "https://medium.com/@R_Abhimaan01/most-businesses-choose-the-wrong-marketing-agency-heres-why-043f12c5d0b1?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-04-16T10:04:16+00:00",
-      "summary": "Most businesses select marketing agencies based on portfolio aesthetics or price rather than strategic fit, leading to misaligned expectations and poor results. The author identifies the key questions businesses should ask before hiring an agency, focusing on understanding their target audience and measuring outcomes. PMs involved in go-to-market strategy will recognise the pattern of prioritising output over outcome in vendor selection.",
-      "tags": [
-        "Growth",
-        "Product Strategy",
-        "Communication"
-      ]
-    },
-    {
-      "title": "Discovery: Where Better Products Take Shape",
-      "url": "https://medium.com/@nitin.sri2002/discovery-where-better-products-take-shape-d004163cd06f?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-04-16T10:17:37+00:00",
-      "summary": "This article argues that product discovery is not a phase but a continuous practice embedded throughout the product development lifecycle. The author outlines a framework for ongoing discovery that integrates user research, hypothesis testing, and cross-functional collaboration. For PMs looking to move beyond periodic discovery sprints to a more systematic approach, this provides actionable guidance.",
-      "tags": [
-        "User Research",
-        "Product Strategy",
-        "Prioritization"
+        "Product Culture"
       ]
     },
     {
@@ -198,16 +29,133 @@
       ]
     },
     {
-      "title": "Why an MBA/PGDM with Internship is the Future of Management Education in India",
-      "url": "https://medium.com/@peopleeducationisbr/why-an-mba-pgdm-with-internship-is-the-future-of-management-education-in-india-58514344c048?source=rss------product_management-5",
+      "title": "Discovery: Where Better Products Take Shape",
+      "url": "https://medium.com/@nitin.sri2002/discovery-where-better-products-take-shape-d004163cd06f?source=rss------product_management-5",
       "source": "Medium PM",
       "type": "article",
-      "date": "2026-04-16T10:31:47+00:00",
-      "summary": "This article explores how MBA programmes with integrated internships are becoming the preferred path for management education in India, offering practical experience alongside academic learning. The author argues that companies increasingly prefer candidates who have real-world exposure over those with purely theoretical backgrounds. For PMs evaluating talent pipelines or career development programmes, this signals a shift in how entry-level product talent is being trained.",
+      "date": "2026-04-16T10:17:37+00:00",
+      "summary": "This article argues that product discovery is not a phase but a continuous practice embedded throughout the product development lifecycle. The author outlines a framework for ongoing discovery that integrates user research, hypothesis testing, and cross-functional collaboration. For PMs looking to move beyond periodic discovery sprints to a more systematic approach, this provides actionable guidance.",
+      "tags": [
+        "User Research",
+        "Product Strategy",
+        "Prioritization"
+      ]
+    },
+    {
+      "title": "Most Businesses Choose the Wrong Marketing Agency (Here's Why)",
+      "url": "https://medium.com/@R_Abhimaan01/most-businesses-choose-the-wrong-marketing-agency-heres-why-043f12c5d0b1?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-04-16T10:04:16+00:00",
+      "summary": "Most businesses select marketing agencies based on portfolio aesthetics or price rather than strategic fit, leading to misaligned expectations and poor results. The author identifies the key questions businesses should ask before hiring an agency, focusing on understanding their target audience and measuring outcomes. PMs involved in go-to-market strategy will recognise the pattern of prioritising output over outcome in vendor selection.",
+      "tags": [
+        "Growth",
+        "Product Strategy",
+        "Communication"
+      ]
+    },
+    {
+      "title": "Why Your Business Can't Afford to Ignore Mobile Anymore",
+      "url": "https://medium.com/@appbuildchat/why-your-business-cant-afford-to-ignore-mobile-anymore-14405f4b7932?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-04-16T09:32:47+00:00",
+      "summary": "Mobile now accounts for the majority of digital interactions across virtually every industry, yet many businesses still treat mobile as a secondary channel. The author argues that mobile-first design and strategy is no longer optional — it is the default expectation for users. PMs building consumer or B2B products should audit their mobile experience as a first-class product surface, not an afterthought.",
+      "tags": [
+        "Product Design",
+        "Product Strategy",
+        "Growth"
+      ]
+    },
+    {
+      "title": "Why Feedback Quality Declines as Start-ups Scale",
+      "url": "https://shashank-rajrukar.medium.com/why-feedback-quality-declines-as-start-ups-scale-c3f412869381?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-04-16T09:06:01+00:00",
+      "summary": "As startups grow, the signal-to-noise ratio in customer feedback deteriorates because the user base diversifies and direct access to early customers diminishes. The author identifies structural causes — sales-filtered feedback, support ticket aggregation, and executive insulation — and proposes mechanisms to preserve feedback quality at scale. A critical read for PMs at scaling companies who feel increasingly disconnected from their users.",
+      "tags": [
+        "User Research",
+        "Product Culture",
+        "Leadership"
+      ]
+    },
+    {
+      "title": "Stop Building, Start Validating: A 5-Step Guide for Founders",
+      "url": "https://medium.com/@info_69552/stop-building-start-validating-a-5-step-guide-for-founders-d8f6616f93e5?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-04-16T08:56:48+00:00",
+      "summary": "This guide challenges the default founder impulse to build first and validate later, arguing that most failed products suffer from insufficient early validation rather than poor execution. The five-step framework covers problem interviews, assumption mapping, minimum viable experiments, and success metrics definition. For PMs, it reinforces the continuous discovery mindset and provides a practical structure for de-risking new initiatives.",
+      "tags": [
+        "User Research",
+        "Prioritization",
+        "Product Strategy"
+      ]
+    },
+    {
+      "title": "I Analyzed Top Apps And Found This Common Pattern",
+      "url": "https://medium.com/@baheer224/i-analyzed-top-apps-and-found-this-common-pattern-f5af695055f8?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-04-16T04:19:51+00:00",
+      "summary": "An analysis of top-performing apps across categories reveals a common structural pattern: a tight activation loop that delivers core value within the first session and creates a natural reason to return. The author maps this pattern across consumer apps from different verticals and extracts principles applicable to any product. PMs designing onboarding and retention flows will find this a useful benchmark against best-in-class products.",
+      "tags": [
+        "Product Design",
+        "Retention",
+        "Growth"
+      ]
+    },
+    {
+      "title": "Resend CLI 2.0",
+      "url": "https://www.producthunt.com/products/resend",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-04-15T22:14:26+00:00",
+      "summary": "Resend CLI 2.0 is a major update to the developer tool for the Resend email API, adding local development environments, improved debugging, and team collaboration features. The release reflects growing adoption of Resend as a developer-first email infrastructure layer. PMs building products with transactional email workflows will find the improved local testing capabilities particularly useful for reducing email-related bugs in production.",
+      "tags": [
+        "AI Tools",
+        "Productivity",
+        "Product Design"
+      ]
+    },
+    {
+      "title": "Zero-Visibility Finance: Building a Privacy-First Credit Card Insights Tool That Never Asks for…",
+      "url": "https://payalprakash-shah.medium.com/zero-visibility-finance-building-a-privacy-first-credit-card-insights-tool-that-never-asks-for-c46e0f51114a?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-04-15T18:06:44+00:00",
+      "summary": "This case study documents the design and build of a financial insights tool that provides credit card analysis without requiring users to share sensitive account credentials. The author explores privacy-preserving architectures and the product tradeoffs involved in building trust with users in a high-sensitivity domain. A valuable read for PMs working on fintech, data products, or any product where user data privacy is a core design constraint.",
+      "tags": [
+        "Product Design",
+        "Data",
+        "User Research"
+      ]
+    },
+    {
+      "title": "Google Gemini 3.1 Flash TTS",
+      "url": "https://www.producthunt.com/products/google-gemini-3-1-flash-tts",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-04-15T16:11:39+00:00",
+      "summary": "Google has released Gemini 3.1 Flash TTS, a fast and cost-efficient text-to-speech model with improved naturalness and multilingual support. The release signals Google's continued investment in making high-quality voice synthesis accessible at scale for developers. PMs building voice interfaces, accessibility features, or multilingual products should evaluate this against existing TTS options for quality and cost tradeoffs.",
+      "tags": [
+        "AI Tools",
+        "Product Design",
+        "Platform Strategy"
+      ]
+    },
+    {
+      "title": "Why 73% of product managers  expect generalists to define the future",
+      "url": "https://www.productledalliance.com/future-of-product-management-is-generalist/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-04-15T14:00:46+00:00",
+      "summary": "A survey of product managers reveals that the majority believe generalist PMs — those with broad skills across strategy, data, design, and engineering — will be more valuable in the AI era than specialists. The findings suggest that as AI handles more execution-layer tasks, the distinctly human skills of synthesis, communication, and judgement become the core PM differentiators. An important data point for PMs thinking about their own career development and skill investment.",
       "tags": [
         "Career",
         "Leadership",
-        "Product Culture"
+        "AI Strategy"
       ]
     },
     {
@@ -374,6 +322,19 @@
         "Product Strategy",
         "Metrics",
         "Prioritization"
+      ]
+    },
+    {
+      "title": "LISA Core",
+      "url": "https://www.producthunt.com/products/lisa-core-your-ai-memory-library",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-04-15T08:46:23+00:00",
+      "summary": "LISA Core is an AI memory library that allows users to store, organise, and retrieve context across AI interactions, solving the persistent context problem in current LLM-based tools. It positions itself as a personal knowledge layer that makes AI assistants more useful over time by remembering preferences, projects, and past conversations. PMs exploring AI product design will find this an interesting example of the emerging category of AI memory and personalisation infrastructure.",
+      "tags": [
+        "AI Tools",
+        "Product Design",
+        "AI Strategy"
       ]
     },
     {
@@ -732,6 +693,19 @@
       ]
     },
     {
+      "title": "X-Pilot",
+      "url": "https://www.producthunt.com/products/x-pilot-5",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-04-12T15:17:56+00:00",
+      "summary": "X-Pilot is an AI-powered productivity tool designed for power users of X (formerly Twitter), offering advanced scheduling, analytics, and content optimisation features. It positions itself as a professional layer on top of X's native capabilities for creators and marketers. Interesting as a case study in how third-party tools continue to thrive on top of social platforms despite API restrictions.",
+      "tags": [
+        "AI Tools",
+        "Productivity",
+        "Platform Strategy"
+      ]
+    },
+    {
       "title": "Streaks, Nudges, and the Behavioral Science of Showing Up",
       "url": "https://www.productcoalition.com/p/streaks-nudges-and-the-behavioral",
       "source": "Product Coalition",
@@ -897,6 +871,19 @@
       ]
     },
     {
+      "title": "Doordash Usa: Staff Product Manager, People Product",
+      "url": "https://weworkremotely.com/remote-jobs/doordash-usa-staff-product-manager-people-product",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-04-09T20:32:51+00:00",
+      "summary": "DoorDash is hiring a Staff PM for their People Product team, focused on building internal tools and experiences that support the company's workforce operations. The role sits at the intersection of HR technology and platform product management, requiring a PM who can navigate complex stakeholder landscapes and build products for internal users at scale. A strong opportunity for PMs interested in enterprise or internal tooling at a high-growth company.",
+      "tags": [
+        "Career",
+        "Stakeholders",
+        "Leadership"
+      ]
+    },
+    {
       "title": "Commercial vs Internal Products",
       "url": "https://www.svpg.com/commercial-vs-internal-products/",
       "source": "SVPG",
@@ -1020,6 +1007,19 @@
         "AI Strategy",
         "AI Tools",
         "Product Strategy"
+      ]
+    },
+    {
+      "title": "Flixier Edit by Transcript",
+      "url": "https://www.producthunt.com/products/flixier",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-04-07T12:35:00+00:00",
+      "summary": "Flixier has launched a transcript-based video editing feature that allows users to edit video by editing text, automatically cutting or rearranging footage to match the modified transcript. The feature dramatically lowers the barrier to video editing for non-technical creators. For PMs in content or media products, this is a compelling example of how AI can unlock new user segments by abstracting away technical complexity.",
+      "tags": [
+        "AI Tools",
+        "Product Design",
+        "Productivity"
       ]
     },
     {
