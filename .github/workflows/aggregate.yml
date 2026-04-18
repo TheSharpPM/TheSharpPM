@@ -22,31 +22,31 @@ jobs:
       contents: write
 
     steps:
-      - name: Checkout repositório
+      - name: Checkout repository
         uses: actions/checkout@v5
         with:
           ref: main
           fetch-depth: 0
 
-      - name: Configurar Python
+      - name: Set up Python
         uses: actions/setup-python@v6
         with:
           python-version: '3.11'
 
-      - name: Instalar dependências
+      - name: Install dependencies
         run: pip install feedparser requests
 
-      - name: Correr aggregator
+      - name: Run aggregator
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           MAX_ITEMS_PER_FEED: ${{ github.event.inputs.max_items || '2' }}
           OPENROUTER_MODEL: ${{ github.event.inputs.openrouter_model || 'google/gemma-3-27b-it:free' }}
         run: python scripts/aggregate.py
 
-      - name: Commit e push do data.json
+      - name: Commit and push data.json
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: atualizar conteúdo"
+          commit_message: "chore: update content"
           file_pattern: data.json
           skip_fetch: false
           push_options: '--force-with-lease'
