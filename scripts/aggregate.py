@@ -9,7 +9,7 @@ from time import mktime
 # ── CONFIG ────────────────────────────────────────────────────────────────────
  
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
-MODEL = "openrouter/auto"
+MODEL = os.environ.get("OPENROUTER_MODEL", "google/gemma-3-27b-it:free")
 MAX_ITEMS_PER_FEED = int(os.environ.get("MAX_ITEMS_PER_FEED", "2"))
 OUTPUT_FILE = "data.json"
 MAX_DAYS = 90
@@ -143,36 +143,40 @@ def analyse(title, content):
  
 # ── FETCH FEEDS ───────────────────────────────────────────────────────────────
  
-def fetch_feed(feed_config):
+def fetch_feed(feed_config, existing_urls):
     items = []
     try:
         parsed = feedparser.parse(feed_config["url"])
         entries = parsed.entries[:MAX_ITEMS_PER_FEED]
- 
+
         for entry in entries:
             title = entry.get("title", "No title")
- 
+
             if not is_english(title):
                 print("  Skipped (non-English): " + title[:40])
                 continue
- 
+
+            url = entry.get("link", "#")
+
+            if url in existing_urls:
+                print("  Skipped (already exists): " + title[:40])
+                continue
+
             date = None
             if hasattr(entry, "published_parsed") and entry.published_parsed:
                 date = datetime.fromtimestamp(
                     mktime(entry.published_parsed), tz=timezone.utc
                 ).isoformat()
- 
+
             content = ""
             if hasattr(entry, "summary"):
                 content = entry.summary
             elif hasattr(entry, "content"):
                 content = entry.content[0].value
- 
+
             content = re.sub(r"<[^>]+>", " ", content)
             content = re.sub(r"\s+", " ", content).strip()
- 
-            url = entry.get("link", "#")
- 
+
             print("  -> " + title[:60] + "...")
             result = analyse(title, content)
  
@@ -223,10 +227,9 @@ def main():
     new_items = []
     for feed in FEEDS:
         print("Feed: " + feed["source"])
-        items = fetch_feed(feed)
-        fresh = [i for i in items if i["url"] not in existing_urls]
-        new_items.extend(fresh)
-        print("   " + str(len(fresh)) + " new articles\n")
+        items = fetch_feed(feed, existing_urls)
+        new_items.extend(items)
+        print("   " + str(len(items)) + " new articles\n")
  
     # Merge new with existing
     all_items = new_items + existing_items
