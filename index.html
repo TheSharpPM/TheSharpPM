@@ -194,23 +194,7 @@
  
         .tag-btn:hover { border-color: var(--accent); color: var(--accent); }
         .tag-btn.active { background: var(--accent); color: white; border-color: var(--accent); }
-        .tag-btn.hidden { display: none; }
- 
-        .show-more-btn {
-            padding: 0.3rem 0.75rem;
-            border: 1px dashed var(--border);
-            background: transparent;
-            color: var(--muted);
-            font-family: 'DM Sans', sans-serif;
-            font-size: 0.72rem;
-            cursor: pointer;
-            border-radius: 20px;
-            letter-spacing: 0.03em;
-            transition: all 0.15s;
-        }
- 
-        .show-more-btn:hover { border-color: var(--ink); color: var(--ink); }
- 
+
         .search-wrap { margin-left: auto; }
  
         .search-wrap input {
@@ -523,9 +507,7 @@
     var allItems = [];
     var activeFilter = 'all';
     var activeTags = loadTagsFromCookie();
- 
-    var MAX_VISIBLE_TAGS = 8;
- 
+
     function saveTagsToCookie(tags) {
         var expires = new Date();
         expires.setFullYear(expires.getFullYear() + 1);
@@ -559,11 +541,9 @@
             return;
         }
  
-        var expanded = false;
- 
-        sortedTags.forEach(function(tag, index) {
+        sortedTags.forEach(function(tag) {
             var btn = document.createElement('button');
-            btn.className = 'tag-btn' + (activeTags.indexOf(tag) > -1 ? ' active' : '') + (index >= MAX_VISIBLE_TAGS ? ' hidden' : '');
+            btn.className = 'tag-btn' + (activeTags.indexOf(tag) > -1 ? ' active' : '');
             btn.textContent = tag;
             btn.addEventListener('click', function() {
                 if (activeTags.indexOf(tag) > -1) {
@@ -578,23 +558,6 @@
             });
             container.appendChild(btn);
         });
- 
-        if (sortedTags.length > MAX_VISIBLE_TAGS) {
-            var moreBtn = document.createElement('button');
-            moreBtn.className = 'show-more-btn';
-            moreBtn.textContent = '+ ' + (sortedTags.length - MAX_VISIBLE_TAGS) + ' more';
-            moreBtn.addEventListener('click', function() {
-                expanded = !expanded;
-                var allTagBtns = container.querySelectorAll('.tag-btn');
-                allTagBtns.forEach(function(btn, index) {
-                    if (index >= MAX_VISIBLE_TAGS) {
-                        btn.classList.toggle('hidden', !expanded);
-                    }
-                });
-                moreBtn.textContent = expanded ? '− less' : '+ ' + (sortedTags.length - MAX_VISIBLE_TAGS) + ' more';
-            });
-            container.appendChild(moreBtn);
-        }
     }
  
     function tagClass(type) {
