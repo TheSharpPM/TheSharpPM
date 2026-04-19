@@ -4,15 +4,23 @@ import os
 import re
 import requests
 from datetime import datetime, timezone, timedelta
-from time import mktime
- 
+from time import mktime, sleep
+
 # ── CONFIG ────────────────────────────────────────────────────────────────────
- 
+
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
 MODEL = os.environ.get("OPENROUTER_MODEL", "google/gemma-3-27b-it:free")
+FALLBACK_MODELS = [
+    m.strip() for m in os.environ.get(
+        "OPENROUTER_FALLBACK_MODELS",
+        "meta-llama/llama-3.3-70b-instruct:free,qwen/qwen-2.5-72b-instruct:free,deepseek/deepseek-chat:free",
+    ).split(",") if m.strip()
+]
 MAX_ITEMS_PER_FEED = int(os.environ.get("MAX_ITEMS_PER_FEED", "2"))
 OUTPUT_FILE = "data.json"
 MAX_DAYS = 90
+REQUEST_DELAY = 1.5  # seconds to sleep after each successful API call
+RETRY_BACKOFFS = [15, 30]  # seconds to wait before retrying on provider error
  
 FEEDS = [
     # Articles
@@ -90,7 +98,50 @@ def check_api_available():
         return False
  
 # ── ANALYSE WITH AI ───────────────────────────────────────────────────────────
- 
+
+# Models that have been marked as exhausted (rate-limited/unavailable) this run.
+# Once every candidate model is exhausted, analyse() returns (None, None) to
+# signal the caller to stop making further API calls.
+_exhausted_models = set()
+
+
+def _call_model(model, prompt):
+    """Call a single model once. Returns (summary, tags) on success, or
+    ("__RATE_LIMIT__", None) if the provider reports a rate limit / upstream
+    error. Raises on transport/parse errors."""
+    response = requests.post(
+        "https://openrouter.ai/api/v1/chat/completions",
+        headers={
+            "Authorization": "Bearer " + OPENROUTER_API_KEY,
+            "Content-Type": "application/json",
+            "HTTP-Referer": "https://thesharppm.com",
+        },
+        json={
+            "model": model,
+            "messages": [{"role": "user", "content": prompt}],
+            "max_tokens": 250,
+            "response_format": {"type": "json_object"},
+        },
+        timeout=30,
+    )
+    data = response.json()
+    if "choices" not in data:
+        msg = data.get("error", {}).get("message", str(data))
+        print("  Provider error on " + model + ": " + msg)
+        return "__RATE_LIMIT__", None
+    text = data["choices"][0]["message"]["content"]
+    if not text:
+        raise ValueError("Empty response content")
+    text = text.strip().replace("```json", "").replace("```", "").strip()
+    # Extract JSON object even if model adds text around it
+    start = text.find("{")
+    end = text.rfind("}") + 1
+    if start >= 0 and end > start:
+        text = text[start:end]
+    parsed = json.loads(text)
+    return parsed.get("summary", "Summary not available."), parsed.get("tags", [])
+
+
 def analyse(title, content):
     prompt = (
         "Return ONLY valid JSON with two fields:\n"
@@ -102,44 +153,37 @@ def analyse(title, content):
         "Title: " + title + "\nContent: " + content[:800]
     )
  
-    for attempt in range(2):
-        try:
-            response = requests.post(
-                "https://openrouter.ai/api/v1/chat/completions",
-                headers={
-                    "Authorization": "Bearer " + OPENROUTER_API_KEY,
-                    "Content-Type": "application/json",
-                    "HTTP-Referer": "https://thesharppm.com",
-                },
-                json={
-                    "model": MODEL,
-                    "messages": [{"role": "user", "content": prompt}],
-                    "max_tokens": 250,
-                    "response_format": {"type": "json_object"},
-                },
-                timeout=30,
-            )
-            data = response.json()
-            if "choices" not in data:
-                msg = data.get("error", {}).get("message", str(data))
-                print("  Rate limit or error: " + msg)
-                return None, None
-            text = data["choices"][0]["message"]["content"]
-            if not text:
-                continue
-            text = text.strip().replace("```json", "").replace("```", "").strip()
-            # Extract JSON object even if model adds text around it
-            start = text.find("{")
-            end = text.rfind("}") + 1
-            if start >= 0 and end > start:
-                text = text[start:end]
-            parsed = json.loads(text)
-            return parsed.get("summary", "Summary not available."), parsed.get("tags", [])
-        except Exception as e:
-            print("  Warning API error: " + str(e))
-            if attempt == 0:
-                continue
-    return "Summary not available.", []
+    candidates = [MODEL] + [m for m in FALLBACK_MODELS if m != MODEL]
+
+    for model in candidates:
+        if model in _exhausted_models:
+            continue
+
+        # Try this model up to len(RETRY_BACKOFFS)+1 times (initial + backoffs)
+        for attempt in range(len(RETRY_BACKOFFS) + 1):
+            try:
+                summary, tags = _call_model(model, prompt)
+            except Exception as e:
+                print("  Warning API error on " + model + ": " + str(e))
+                summary, tags = "__RATE_LIMIT__", None
+
+            if summary != "__RATE_LIMIT__":
+                # Success — pace the next request and return
+                sleep(REQUEST_DELAY)
+                return summary, tags
+
+            # Retry with backoff if we have retries left
+            if attempt < len(RETRY_BACKOFFS):
+                wait = RETRY_BACKOFFS[attempt]
+                print("  Retrying " + model + " in " + str(wait) + "s...")
+                sleep(wait)
+
+        # All retries failed for this model — mark exhausted and try next
+        print("  Model exhausted: " + model)
+        _exhausted_models.add(model)
+
+    # Every candidate model is exhausted — signal caller to stop
+    return None, None
  
 # ── FETCH FEEDS ───────────────────────────────────────────────────────────────
  
@@ -180,9 +224,9 @@ def fetch_feed(feed_config, existing_urls):
             print("  -> " + title[:60] + "...")
             result = analyse(title, content)
  
-            # If API returns None (rate limit), stop processing this feed
+            # If API returns None, every candidate model is exhausted — stop this feed
             if result[0] is None:
-                print("  Stopping feed due to rate limit.")
+                print("  Stopping feed: all models exhausted.")
                 break
  
             summary, tags = result
@@ -225,7 +269,12 @@ def main():
  
     # Fetch new articles
     new_items = []
+    all_candidates = {MODEL, *FALLBACK_MODELS}
     for feed in FEEDS:
+        # Stop early if every candidate model has been exhausted
+        if all_candidates and _exhausted_models >= all_candidates:
+            print("All models exhausted — skipping remaining feeds.\n")
+            break
         print("Feed: " + feed["source"])
         items = fetch_feed(feed, existing_urls)
         new_items.extend(items)
