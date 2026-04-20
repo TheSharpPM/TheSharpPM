@@ -72,31 +72,6 @@ def is_english(text):
     non_ascii = sum(1 for c in text if ord(c) > 127)
     return non_ascii <= 3
  
-# ── API CHECK ─────────────────────────────────────────────────────────────────
- 
-def check_api_available():
-    if not OPENROUTER_API_KEY:
-        return False
-    try:
-        response = requests.post(
-            "https://openrouter.ai/api/v1/chat/completions",
-            headers={
-                "Authorization": "Bearer " + OPENROUTER_API_KEY,
-                "Content-Type": "application/json",
-                "HTTP-Referer": "https://thesharppm.com",
-            },
-            json={
-                "model": MODEL,
-                "messages": [{"role": "user", "content": "reply with: ok"}],
-                "max_tokens": 5,
-            },
-            timeout=15,
-        )
-        data = response.json()
-        return "choices" in data
-    except Exception:
-        return False
- 
 # ── ANALYSE WITH AI ───────────────────────────────────────────────────────────
 
 # Models that have been marked as exhausted (rate-limited/unavailable) this run.
@@ -250,13 +225,7 @@ def fetch_feed(feed_config, existing_urls):
  
 def main():
     print("The Sharp PM - Aggregator running\n")
- 
-    print("Checking OpenRouter API...")
-    if not check_api_available():
-        print("API not available or out of credits. Skipping run.")
-        return
-    print("API available. Proceeding...\n")
- 
+
     # Load existing articles
     existing_items = []
     if os.path.exists(OUTPUT_FILE):
