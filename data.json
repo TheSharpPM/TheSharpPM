@@ -1,7 +1,59 @@
 {
-  "updated": "2026-04-20T07:44:56.175096+00:00",
-  "total": 101,
+  "updated": "2026-04-20T11:02:26.654534+00:00",
+  "total": 107,
   "items": [
+    {
+      "title": "My Jira Dashboard Looked Green. Nothing Had Shipped. So I Built 6 AI Tools.",
+      "url": "https://medium.com/product-powerhouse/my-jira-dashboard-looked-green-nothing-had-shipped-so-i-built-6-ai-tools-f61a2f73006d?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-04-20T10:43:48+00:00",
+      "summary": "The author describes how persistent green Jira dashboards masked a lack of actual product releases, prompting them to develop six lightweight AI-powered tools that surface real-time project health insights. These tools automate status detection, highlight bottlenecks, and provide actionable data, turning dashboards from deceptive morale boosters into reliable decision‑making assets.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Metrics"
+      ]
+    },
+    {
+      "title": "Stop Calling It “Human Resources”: What the Best Companies Call It Instead",
+      "url": "https://medium.com/@meethrhub/stop-calling-it-human-resources-what-the-best-companies-call-it-instead-d24cbcec7d5f?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-04-20T10:40:49+00:00",
+      "summary": "The article argues that the term 'Human Resources' is outdated and suggests that top-performing companies rebrand this function to reflect a more strategic, people‑centric focus, such as Talent Management or People Operations. It outlines how this shift aligns HR with product thinking, enhances employee experience, and drives better business outcomes.",
+      "tags": [
+        "Product Strategy",
+        "Leadership",
+        "Product Culture"
+      ]
+    },
+    {
+      "title": "Design System Challenges",
+      "url": "https://www.designsystemscollective.com/design-system-challenges-d39ef075d0e2?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-04-20T10:31:11+00:00",
+      "summary": "The article outlines how product teams can combat design system entropy by establishing clear governance, regular audits, and incremental updates to keep the component library lean and reusable. It emphasizes practical processes for maintaining consistency while allowing flexibility as products evolve.",
+      "tags": [
+        "Product Design",
+        "Platform Strategy",
+        "Productivity"
+      ]
+    },
+    {
+      "title": "TSMC Earnings, New N3 Fabs, The Nvidia Ramp",
+      "url": "https://stratechery.com/2026/tsmc-earnings-new-n3-fabs-the-nvidia-ramp/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-04-20T10:00:00+00:00",
+      "summary": "TSMC's latest earnings report reveals limited enthusiasm from its leadership regarding the AI boom, casting doubt on the company's commitment to scaling AI-focused manufacturing. This hesitancy could affect supply dynamics for advanced chips like Nvidia's N3 and broader AI hardware demand.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Leadership"
+      ]
+    },
     {
       "title": "PM’s Dilemma: Go Deeper in the Domain VS Build Better Product Sense",
       "url": "https://nidakhan333.medium.com/pms-dilemma-go-deeper-in-the-domain-vs-build-better-product-sense-af3ff5044527?source=rss------product_management-5",
@@ -25,6 +77,19 @@
       "tags": [
         "Leadership",
         "Communication",
+        "Product Culture"
+      ]
+    },
+    {
+      "title": "QA Crow",
+      "url": "https://www.producthunt.com/products/qa-crow",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-04-20T06:42:14+00:00",
+      "summary": "The article likens a bug backlog to a 'murder of crows,' emphasizing the importance of systematically addressing and prioritizing defects to maintain product health. It offers strategies for product managers to triage, assign ownership, and resolve bugs efficiently, turning chaos into actionable insight.",
+      "tags": [
+        "Product Strategy",
+        "Prioritization",
         "Product Culture"
       ]
     },
@@ -312,6 +377,19 @@
         "Product Strategy",
         "Data",
         "Leadership"
+      ]
+    },
+    {
+      "title": "In Parallel",
+      "url": "https://www.producthunt.com/products/in-parallel",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-04-16T00:41:56+00:00",
+      "summary": "The article introduces \"In Parallel,\" an operating system designed to streamline execution across product teams by providing shared contexts, transparent workflows, and real-time status updates. It helps Product Managers align resources, reduce bottlenecks, and maintain focus on strategic outcomes while fostering cross‑functional collaboration.",
+      "tags": [
+        "Product Strategy",
+        "Leadership",
+        "Platform Strategy"
       ]
     },
     {
