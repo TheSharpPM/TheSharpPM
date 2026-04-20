@@ -9,11 +9,14 @@ from time import mktime, sleep
 # ── CONFIG ────────────────────────────────────────────────────────────────────
 
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
-MODEL = os.environ.get("OPENROUTER_MODEL", "google/gemma-3-27b-it:free")
+MODEL = os.environ.get("OPENROUTER_MODEL", "z-ai/glm-4.5-air:free")
 FALLBACK_MODELS = [
     m.strip() for m in os.environ.get(
         "OPENROUTER_FALLBACK_MODELS",
-        "meta-llama/llama-3.3-70b-instruct:free,qwen/qwen-2.5-72b-instruct:free,deepseek/deepseek-chat:free",
+        "openai/gpt-oss-120b:free,"
+        "meta-llama/llama-3.3-70b-instruct:free,"
+        "nvidia/nemotron-nano-9b-v2:free,"
+        "minimax/minimax-m2.5:free",
     ).split(",") if m.strip()
 ]
 MAX_ITEMS_PER_FEED = int(os.environ.get("MAX_ITEMS_PER_FEED", "2"))

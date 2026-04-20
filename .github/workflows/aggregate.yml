@@ -10,9 +10,9 @@ on:
         required: false
         default: '2'
       openrouter_model:
-        description: 'OpenRouter model (e.g. openrouter/auto, google/gemma-3-27b-it:free)'
+        description: 'OpenRouter model (e.g. openrouter/auto, z-ai/glm-4.5-air:free)'
         required: false
-        default: 'google/gemma-3-27b-it:free'
+        default: 'z-ai/glm-4.5-air:free'
 
 jobs:
   aggregate:
@@ -40,7 +40,7 @@ jobs:
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           MAX_ITEMS_PER_FEED: ${{ github.event.inputs.max_items || '2' }}
-          OPENROUTER_MODEL: ${{ github.event.inputs.openrouter_model || 'google/gemma-3-27b-it:free' }}
+          OPENROUTER_MODEL: ${{ github.event.inputs.openrouter_model || 'z-ai/glm-4.5-air:free' }}
         run: python scripts/aggregate.py
 
       - name: Commit and push data.json
