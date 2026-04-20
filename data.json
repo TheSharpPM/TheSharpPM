@@ -1,7 +1,189 @@
 {
-  "updated": "2026-04-20T07:25:51.411261+00:00",
-  "total": 84,
+  "updated": "2026-04-20T07:44:56.175096+00:00",
+  "total": 101,
   "items": [
+    {
+      "title": "PM’s Dilemma: Go Deeper in the Domain VS Build Better Product Sense",
+      "url": "https://nidakhan333.medium.com/pms-dilemma-go-deeper-in-the-domain-vs-build-better-product-sense-af3ff5044527?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-04-20T07:26:01+00:00",
+      "summary": "The article explores the tension product managers face between diving deep into domain expertise and cultivating broader product sense. It argues that while deep knowledge can drive nuanced decisions, a strong product intuition enables faster validation and cross‑functional collaboration, and suggests balancing both through focused learning and diverse stakeholder engagement.",
+      "tags": [
+        "Product Strategy",
+        "Leadership",
+        "Prioritization"
+      ]
+    },
+    {
+      "title": "The 15-Minute Daily Habit That Connects Every Team to a Shared Truth",
+      "url": "https://medium.com/@asbjorn_17696/the-15-minute-daily-habit-that-connects-every-team-to-a-shared-truth-2cb66ae04346?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-04-20T07:24:29+00:00",
+      "summary": "The article describes a simple 15‑minute daily practice that aligns teams around a single, shared reality, helping them maintain transparency and focus as they scale Agile. By embedding this habit, organizations can avoid lengthy, heavyweight framework implementations and keep collaboration efficient and purpose‑driven.",
+      "tags": [
+        "Leadership",
+        "Communication",
+        "Product Culture"
+      ]
+    },
+    {
+      "title": "Let's Barter",
+      "url": "https://www.producthunt.com/products/let-s-barter",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-04-20T06:29:41+00:00",
+      "summary": "The article explores the concept of integrating a barter system into product offerings, challenging traditional purchase models and opening new avenues for value exchange. It discusses potential benefits such as increased user engagement, differentiation in the market, and opportunities to tap into underserved customer segments.",
+      "tags": [
+        "Product Strategy",
+        "Growth",
+        "Competitive Analysis"
+      ]
+    },
+    {
+      "title": "What 100 Successful Apps Have in Common (After Studying Them for 30 Days)",
+      "url": "https://medium.com/@baheer224/what-100-successful-apps-have-in-common-after-studying-them-for-30-days-a2b3b863b3ce?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-04-20T02:46:06+00:00",
+      "summary": "The article examines a wide range of high‑performing apps, identifying a common, often overlooked design or development pattern that drives user adoption and growth. Understanding this pattern can help product managers prioritize features and roadmap decisions to replicate similar success in their own products.",
+      "tags": [
+        "Product Strategy",
+        "Growth",
+        "Product Design"
+      ]
+    },
+    {
+      "title": "We Built Netflix-Style Recommendations Without a Single LLM Call",
+      "url": "https://www.productcoalition.com/p/we-built-netflix-style-recommendations",
+      "source": "Product Coalition",
+      "type": "article",
+      "date": "2026-04-19T14:28:43+00:00",
+      "summary": "The article details how the founder of ExecReps.ai created a Netflix-like recommendation engine without relying on any large language model calls, instead using custom data pipelines, similarity algorithms, and lightweight models. The approach highlights cost-effective, privacy‑preserving techniques that deliver personalized suggestions at scale, offering valuable insights for product teams looking to build recommendation features without heavy LLM dependencies.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "AI Tools"
+      ]
+    },
+    {
+      "title": "You’re Not Failing at Building",
+      "url": "https://anggaprytn.medium.com/youre-not-failing-at-building-4e48ac6c3965?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-04-19T13:46:31+00:00",
+      "summary": "The article argues that many product teams stumble not because they can't build, but because they struggle to decide which ideas truly merit development. It emphasizes the importance of rigorous prioritization and clear criteria for determining what should exist, helping teams focus resources on high‑impact opportunities.",
+      "tags": [
+        "Product Strategy",
+        "Prioritization",
+        "Leadership"
+      ]
+    },
+    {
+      "title": "Why half of product managers are in trouble | Nikhyl Singhal (Meta, Google)",
+      "url": "https://www.lennysnewsletter.com/p/why-half-of-product-managers-are-in-trouble",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-04-19T12:31:44+00:00",
+      "summary": "Nikhyl Singhal warns that half of product managers face career risk due to rapid AI-driven changes and shifting market dynamics. He outlines the \"reinvention threshold\"—the need for PMs to acquire AI strategy and cross‑functional skills—to thrive in the chaotic next two years.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Career"
+      ]
+    },
+    {
+      "title": "🔮 Exponential View #570: Inside Jensen Huang’s worldview",
+      "url": "https://www.exponentialview.co/p/ev-570",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-04-19T02:25:43+00:00",
+      "summary": "The article explores Jensen Huang’s perspective on future technology trends, emphasizing the rise of a Chinese tech ecosystem, geopolitical risks like Iran scenarios, and the emergence of a 'clip economy' driven by short-form video. It highlights strategic implications for product leaders in navigating global competition, regulatory uncertainty, and new content consumption habits.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Competitive Analysis"
+      ]
+    },
+    {
+      "title": "Cookunity: Product Manager - B2B",
+      "url": "https://weworkremotely.com/remote-jobs/cookunity-product-manager-b2b",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-04-18T20:30:59+00:00",
+      "summary": "CookUnity is seeking a Product Manager to drive its B2B marketplace expansion, focusing on empowering chefs and scaling the platform beyond meal delivery. The role will shape product strategy, prioritize growth initiatives, and collaborate across stakeholders to build a sustainable, chef‑centric ecosystem.",
+      "tags": [
+        "Product Strategy",
+        "Growth",
+        "Platform Strategy"
+      ]
+    },
+    {
+      "title": "🧠 Community Wisdom: Sharing Claude Code skills across the org, Why did lennysjobs.com shut down, opening an LLC for side work, AI for SMB sales, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-sharing-claude-code",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-04-18T18:38:18+00:00",
+      "summary": "The article shares a collection of community insights, including how teams are disseminating Claude AI code expertise internally, the reasons behind the shutdown of lennysjobs.com, steps for forming an LLC for side projects, and leveraging AI to boost SMB sales. It highlights practical tactics and lessons that product managers can apply to improve AI adoption, operational efficiency, and revenue growth.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Growth"
+      ]
+    },
+    {
+      "title": "2026.16: Servers, Satellites, and Stars",
+      "url": "https://stratechery.com/2026/servers-satellites-and-stars/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-04-17T17:00:00+00:00",
+      "summary": "The weekly Stratechery roundup highlights the rising costs and strategic considerations of AI deployments, Amazon's expanding involvement with Globalstar satellite services, and insights from Nico Rosberg on leveraging racing data for investment decisions. These topics reveal how hardware infrastructure, AI economics, and data-driven insights are shaping product and platform strategies.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Competitive Analysis"
+      ]
+    },
+    {
+      "title": "Build to Learn vs Build to Earn",
+      "url": "https://www.svpg.com/build-to-learn-vs-build-to-earn/",
+      "source": "SVPG",
+      "type": "article",
+      "date": "2026-04-16T18:48:19+00:00",
+      "summary": "The article contrasts two product development approaches: \"Build to Learn,\" which focuses on experimentation, discovery, and gaining insights, versus \"Build to Earn,\" which emphasizes delivering predetermined features for immediate business outcomes. It argues that while the output‑driven project model remains dominant, product managers should balance learning-oriented initiatives with revenue‑focused work to sustain long‑term innovation.",
+      "tags": [
+        "Product Strategy",
+        "Product Culture",
+        "Leadership"
+      ]
+    },
+    {
+      "title": "Who Pays When the Agent Breaks?",
+      "url": "https://www.productcoalition.com/p/who-pays-when-the-agent-breaks",
+      "source": "Product Coalition",
+      "type": "article",
+      "date": "2026-04-16T14:43:39+00:00",
+      "summary": "The article explores the emerging discipline of agentic engineering, focusing on the often‑overlooked question of liability and cost when autonomous AI agents malfunction or cause damage. It highlights the need for clear contractual frameworks, insurance models, and governance policies to protect stakeholders and sustain trust in agent‑driven products.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Leadership"
+      ]
+    },
+    {
+      "title": "Building Todoist Ramble: How Doist Turned Voice Braindumps into Real-Time Task Capture",
+      "url": "https://www.producttalk.org/building-todoist-ramble-how-doist-turned-voice-braindumps-into-real-time-task-capture/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-04-16T13:00:22+00:00",
+      "summary": "Doist created Ramble, a voice-to-task feature for Todoist that captures spoken thoughts in real time and converts them into structured task items. The solution leverages live audio AI to turn unstructured ramblings into actionable items instantly, improving user workflow and task capture efficiency.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Productivity"
+      ]
+    },
     {
       "title": "Why an MBA/PGDM with Internship is the Future of Management Education in India",
       "url": "https://medium.com/@peopleeducationisbr/why-an-mba-pgdm-with-internship-is-the-future-of-management-education-in-india-58514344c048?source=rss------product_management-5",
@@ -52,6 +234,19 @@
         "Growth",
         "Product Strategy",
         "Communication"
+      ]
+    },
+    {
+      "title": "An Interview with F1 Driver and Venture Capitalist Nico Rosberg About the Drive to Win",
+      "url": "https://stratechery.com/2026/an-interview-with-f1-driver-and-venture-capitalist-nico-rosberg-about-the-drive-to-win/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-04-16T10:00:00+00:00",
+      "summary": "In this interview, former F1 champion Nico Rosberg shares how he cultivated a competitive mental edge and leveraged high‑performance principles to identify and seize opportunities in his transition to venture capital. He discusses the parallels between racing strategy and product leadership, emphasizing disciplined decision‑making, rapid iteration, and data‑driven risk assessment to drive growth.",
+      "tags": [
+        "Leadership",
+        "Growth",
+        "Product Strategy"
       ]
     },
     {
@@ -107,6 +302,19 @@
       ]
     },
     {
+      "title": "Grale",
+      "url": "https://www.producthunt.com/products/grale",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-04-16T00:43:22+00:00",
+      "summary": "The article discusses the conclusion of a debate on microplastics, summarizing key findings and implications for environmental policy and product design. It emphasizes actionable steps for companies to reduce microplastic usage and improve sustainability metrics.",
+      "tags": [
+        "Product Strategy",
+        "Data",
+        "Leadership"
+      ]
+    },
+    {
       "title": "Resend CLI 2.0",
       "url": "https://www.producthunt.com/products/resend",
       "source": "Product Hunt",
@@ -156,6 +364,19 @@
         "Career",
         "Leadership",
         "AI Strategy"
+      ]
+    },
+    {
+      "title": "How to Share Your AI Context and Skills Across Devices",
+      "url": "https://www.producttalk.org/how-to-share-your-ai-context-and-skills/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-04-15T13:00:25+00:00",
+      "summary": "The article discusses practical methods for syncing AI-driven context and personalized skills across multiple devices, enabling seamless continuation of AI interactions. It offers guidance for leaders spearheading AI adoption on how to maintain consistent AI experiences for users regardless of the platform they switch to.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Productivity"
       ]
     },
     {
