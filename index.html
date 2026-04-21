@@ -87,6 +87,14 @@
         }
  
         .nav-link:hover { color: var(--ink); }
+        .nav-link.active { color: var(--ink); }
+        .nav-link.active::after {
+            content: '';
+            display: block;
+            height: 2px;
+            background: var(--accent);
+            margin-top: 2px;
+        }
  
         .hero {
             border-bottom: 1px solid var(--border);
@@ -449,7 +457,8 @@
             <img src="The_Sharp_PM_Header3.png" alt="The Sharp PM">
         </a>
         <div class="header-right">
-            <span class="tagline">Curated for Product Managers</span>
+            <a href="index.html" class="nav-link active">Daily Digest</a>
+            <a href="agent.html" class="nav-link">Agent Sharp</a>
             <a href="about.html" class="nav-link">About</a>
         </div>
     </div>
