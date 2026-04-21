@@ -1,7 +1,111 @@
 {
-  "updated": "2026-04-20T11:02:26.654534+00:00",
-  "total": 107,
+  "updated": "2026-04-21T10:08:03.221083+00:00",
+  "total": 116,
   "items": [
+    {
+      "title": "Tim Cook’s Impeccable Timing",
+      "url": "https://stratechery.com/2026/tim-cooks-impeccable-timing/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-04-21T10:00:00+00:00",
+      "summary": "The article highlights Tim Cook’s remarkable tenure at Apple, emphasizing how his appointment and eventual departure align perfectly with the company's strategic milestones. It underscores the impact of his leadership timing on Apple’s growth and future direction.",
+      "tags": [
+        "Leadership",
+        "Product Strategy",
+        "Career"
+      ]
+    },
+    {
+      "title": "Management Leadership Paradox: Do Less, Achieve More",
+      "url": "https://medium.com/@admission_15067/management-leadership-paradox-do-less-achieve-more-6513fa738967?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-04-21T09:47:20+00:00",
+      "summary": "The article challenges the myth that leaders must be constantly busy, arguing that effective leadership comes from stepping back, delegating, and focusing on high-impact decisions. For product managers, this means prioritizing strategic thinking over micromanagement, trusting teams, and creating space for innovation to drive better outcomes.",
+      "tags": [
+        "Leadership",
+        "Productivity",
+        "Product Culture"
+      ]
+    },
+    {
+      "title": "WAMI: Why Designing a Community Isn’t Enough If No One Knows You Exist",
+      "url": "https://medium.com/@matteo.menini90/wami-why-designing-a-community-isnt-enough-if-no-one-knows-you-exist-5ff337ff1c00?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-04-21T07:31:01+00:00",
+      "summary": "The article argues that building a community alone won’t drive success unless the community is aware of the brand and can discover it. It emphasizes the need for strategic outreach, visibility tactics, and integration with product goals to ensure the community fuels growth and engagement.",
+      "tags": [
+        "Growth",
+        "Product Strategy",
+        "Community"
+      ]
+    },
+    {
+      "title": "Why Product Management Platforms Are Becoming the Backbone of Product-Led Organizations",
+      "url": "https://medium.com/@gargiben954/why-product-management-platforms-are-becoming-the-backbone-of-product-led-organizations-8cf528df3fba?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-04-21T06:43:05+00:00",
+      "summary": "The article explains how Product Management Platforms (PMPs) are evolving into essential infrastructure for product-led companies by integrating roadmapping, analytics, and cross-functional collaboration tools. It highlights trends such as AI-driven insights, modular architectures, and the shift toward unified data layers that enable faster decision‑making and scaling.",
+      "tags": [
+        "Product Strategy",
+        "AI Tools",
+        "Platform Strategy"
+      ]
+    },
+    {
+      "title": "Pioneer",
+      "url": "https://www.producthunt.com/products/launching-pioneer",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-04-21T05:39:25+00:00",
+      "summary": "The article introduces 'Pioneer', a platform that enables rapid fine-tuning of large language models using a single prompt, drastically reducing the time and technical effort required. This capability empowers product teams to quickly adapt LLMs to specific use cases, accelerating experimentation and feature rollout.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Productivity"
+      ]
+    },
+    {
+      "title": "🎙️ This week on How I AI: How Intercom 2x’d their engineering velocity with Claude Code",
+      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-how-intercom",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-04-20T15:33:11+00:00",
+      "summary": "The episode explains how Intercom doubled its engineering output by integrating Claude Code, an AI coding assistant, into their development workflow. It highlights the practical steps they took, the measurable boost in deployment frequency, and the broader implications for AI-driven productivity in product teams.",
+      "tags": [
+        "AI Tools",
+        "Productivity",
+        "Engineering Velocity"
+      ]
+    },
+    {
+      "title": "📈 Data to start your week: Inside the AI boom – jobs, jargon & jittery uptime",
+      "url": "https://www.exponentialview.co/p/data-to-start-your-week-inside-the-ai-boom",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-04-20T14:02:51+00:00",
+      "summary": "The article surveys the rapid expansion of AI across industries, highlighting soaring job demand, emerging jargon, and concerns about system reliability. It also notes related breakthroughs like solar energy gains, a promising cancer vaccine, and signs of an economic slowdown.",
+      "tags": [
+        "AI Strategy",
+        "AI Tools",
+        "Product Strategy"
+      ]
+    },
+    {
+      "title": "How Intercom 2x’d their engineering velocity in 9 months with Claude Code | Brian Scanlan",
+      "url": "https://www.lennysnewsletter.com/p/how-intercom-2xd-their-engineering",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-04-20T12:03:25+00:00",
+      "summary": "Brian Scanlan explains how Intercom doubled its engineering velocity in nine months by leveraging Claude Code's AI-powered coding assistance, comprehensive telemetry, and a culture that empowers engineers to ship faster. The approach combined AI tools with data-driven insights to streamline development and improve output.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Product Culture"
+      ]
+    },
     {
       "title": "My Jira Dashboard Looked Green. Nothing Had Shipped. So I Built 6 AI Tools.",
       "url": "https://medium.com/product-powerhouse/my-jira-dashboard-looked-green-nothing-had-shipped-so-i-built-6-ai-tools-f61a2f73006d?source=rss------product_management-5",
@@ -927,6 +1031,19 @@
       "tags": [
         "Platform Strategy",
         "Product Strategy"
+      ]
+    },
+    {
+      "title": "Pegkits",
+      "url": "https://www.producthunt.com/products/pegkits",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-04-13T09:39:43+00:00",
+      "summary": "Pegkits offers a solution that prevents users from losing clipboard contents, ensuring important copied data is retained and easily accessible. This tool can streamline workflows and reduce the friction of re-copying information, boosting productivity for individuals and teams.",
+      "tags": [
+        "Productivity",
+        "AI Tools",
+        "User Research"
       ]
     },
     {
