@@ -70,6 +70,27 @@
             letter-spacing: 0.1em;
             text-transform: uppercase;
         }
+
+        .header-right { display: flex; align-items: center; gap: 1.5rem; }
+
+        .nav-link {
+            font-size: 0.75rem;
+            color: var(--muted);
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            text-decoration: none;
+            transition: color 0.15s;
+        }
+
+        .nav-link:hover { color: var(--ink); }
+        .nav-link.active { color: var(--ink); }
+        .nav-link.active::after {
+            content: '';
+            display: block;
+            height: 2px;
+            background: var(--accent);
+            margin-top: 2px;
+        }
  
         .hero {
             border-bottom: 1px solid var(--border);
@@ -216,7 +237,11 @@
         <a href="index.html" class="logo">
             <img src="The_Sharp_PM_Header3.png" alt="The Sharp PM">
         </a>
-        <span class="tagline">Curated for Product Managers</span>
+        <div class="header-right">
+            <a href="index.html" class="nav-link">Daily Digest</a>
+            <a href="agent.html" class="nav-link">Agent Sharp</a>
+            <a href="about.html" class="nav-link active">About</a>
+        </div>
     </div>
 </header>
  
