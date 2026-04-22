@@ -1,7 +1,150 @@
 {
-  "updated": "2026-04-21T10:08:03.221083+00:00",
-  "total": 116,
+  "updated": "2026-04-22T10:08:33.456162+00:00",
+  "total": 128,
   "items": [
+    {
+      "title": "John Ternus and Apple’s Hardware-Defined Future, SpaceXAI and Cursor",
+      "url": "https://stratechery.com/2026/john-ternus-and-apples-hardware-defined-future-spacexai-and-cursor/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-04-22T10:00:00+00:00",
+      "summary": "The article notes that John Ternus's promotion signals Apple’s continued focus on hardware differentiation as a core product strategy. It also highlights the strategic relevance of the SpaceX-Cursor partnership, suggesting it aligns with broader AI and hardware integration trends.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Hardware Differentiation"
+      ]
+    },
+    {
+      "title": "How PancakeSwap Built a DEX for the Other 4 Billion",
+      "url": "https://medium.com/@anirudhmakhana/how-pancakeswap-built-a-dex-for-the-other-4-billion-ff2abd58c037?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-04-22T09:42:35+00:00",
+      "summary": "The article details how PancakeSwap created a decentralized exchange (DEX) that caters to the massive, under‑served user base of roughly four billion people, focusing on low fees, fast transactions, and a user‑friendly experience. It outlines the product decisions, platform choices, and growth tactics that enabled rapid adoption in emerging markets.",
+      "tags": [
+        "Product Strategy",
+        "Growth",
+        "Platform Strategy"
+      ]
+    },
+    {
+      "title": "Your Chatbot Is About to Go Live. Have You Really Stress-Tested It?",
+      "url": "https://medium.com/@chatboq/your-chatbot-is-about-to-go-live-have-you-really-stress-tested-it-1f74544abd28?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-04-22T09:21:08+00:00",
+      "summary": "The article warns product teams that lengthy development cycles for chatbots often lead to insufficient testing before launch, which can result in poor user experiences and costly fixes. It outlines a structured stress‑testing framework—covering edge cases, performance under load, and real‑world conversation variability—to ensure reliability and alignment with business goals before going live.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Metrics"
+      ]
+    },
+    {
+      "title": "Plaid: Product Manager – Payments",
+      "url": "https://weworkremotely.com/remote-jobs/plaid-product-manager-payments",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-04-22T02:29:49+00:00",
+      "summary": "Plaid seeks an experienced Product Manager to lead its payments product line, shaping the roadmap and collaborating with engineering, design, and go-to-market teams. The role focuses on building and iterating developer- and consumer-facing financial products, leveraging strong analytical and data-driven decision‑making skills.",
+      "tags": [
+        "Product Strategy",
+        "Growth",
+        "Product Design"
+      ]
+    },
+    {
+      "title": "kimiflare",
+      "url": "https://www.producthunt.com/products/kimiflare",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-04-22T01:16:37+00:00",
+      "summary": "The article introduces \"kimiflare,\" a K2.6 CLI code editor that runs on Cloudflare Workers, allowing developers to edit code directly in the cloud with AI-assisted features. It highlights the benefits of low-latency, serverless deployment and integrated AI discussions for collaborative development.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Product Design"
+      ]
+    },
+    {
+      "title": "🍏 Apple’s AI bet got a CEO",
+      "url": "https://www.exponentialview.co/p/apples-ai-bet-got-a-ceo",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-04-21T15:40:54+00:00",
+      "summary": "Apple's board has appointed John Ternus, the senior vice president of Hardware Engineering, as the new CEO effective September 1, succeeding Tim Cook. This leadership change signals a potential shift in Apple's strategic focus, possibly emphasizing hardware-driven AI initiatives.",
+      "tags": [
+        "AI Strategy",
+        "Leadership",
+        "Product Strategy"
+      ]
+    },
+    {
+      "title": "New: A free year of Cursor, Google AI Pro, Notion, Supabase, Gumloop, and Fin for subscribers",
+      "url": "https://www.lennysnewsletter.com/p/new-a-free-year-of-cursor-google",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-04-21T15:03:33+00:00",
+      "summary": "Lenny's Newsletter subscribers now receive a complimentary year of access to 25 premium tools—including Cursor, Google AI Pro, Notion, Supabase, Gumloop, and Fin—valued at over $30,000. This bundle offers product teams immediate access to AI-powered development, collaboration, and data platforms, accelerating experimentation and delivery without upfront cost.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Growth"
+      ]
+    },
+    {
+      "title": "From Punch Cards to 'All My Shit's in There'",
+      "url": "https://www.productcoalition.com/p/from-punch-cards-to-all-my-shits",
+      "source": "Product Coalition",
+      "type": "article",
+      "date": "2026-04-21T14:21:05+00:00",
+      "summary": "The article chronicles seven years of evolving retention tactics, starting with simple push notifications and progressing to sophisticated experiences that treat subscription cancellations with the emotional weight of a divorce. It highlights how deepening user empathy and strategic communication can transform churn prevention into a more humane, data-driven process.",
+      "tags": [
+        "Retention",
+        "Product Strategy",
+        "User Research"
+      ]
+    },
+    {
+      "title": "Localize: Engineering Manager",
+      "url": "https://weworkremotely.com/remote-jobs/localize-engineering-manager",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-04-21T13:40:07+00:00",
+      "summary": "Localize is hiring a remote Engineering Manager to lead a distributed team of software engineers, overseeing the full development lifecycle and ensuring reliable, scalable product delivery. The role emphasizes technical leadership, performance management, and close partnership with senior leadership to elevate engineering standards and execution discipline.",
+      "tags": [
+        "Leadership",
+        "Product Strategy",
+        "Metrics"
+      ]
+    },
+    {
+      "title": "Predicting the Future - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "url": "https://www.producttalk.org/predicting-the-future-all-things-product-podcast-with-teresa-torres-petra-wille/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-04-21T13:00:54+00:00",
+      "summary": "In this episode Teresa Torres and Petra Wille discuss the pitfalls of assuming certainty in AI forecasts, emphasizing how human bias hampers accurate future predictions. They argue that product teams should adopt a more experimental, hypothesis‑driven approach rather than rely on speculative predictions when shaping their roadmaps.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Leadership"
+      ]
+    },
+    {
+      "title": "From feature engagement to network effects:  Engineering community as a scalable growth system",
+      "url": "https://www.productledalliance.com/from-feature-engagement-to-network-effects-engineering-community-as-a-scalable-growth-system/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-04-21T12:00:21+00:00",
+      "summary": "The article explains how daily.dev transformed individual user actions into collective value by engineering a community-driven growth system that leverages network effects. By turning every feature engagement into data that benefits all users, the platform scales organically, turning the community itself into a powerful acquisition and retention engine.",
+      "tags": [
+        "Growth",
+        "Product Strategy",
+        "Platform Strategy"
+      ]
+    },
     {
       "title": "Tim Cook’s Impeccable Timing",
       "url": "https://stratechery.com/2026/tim-cooks-impeccable-timing/",
@@ -39,6 +182,19 @@
         "Growth",
         "Product Strategy",
         "Community"
+      ]
+    },
+    {
+      "title": "Loomal",
+      "url": "https://www.producthunt.com/products/loomal",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-04-21T07:07:27+00:00",
+      "summary": "Loomal is building a unified identity infrastructure that enables AI agents to authenticate, authorize, and manage user data securely across multiple platforms. By providing standardized identity protocols, it simplifies the integration of AI-driven features into products while ensuring compliance and user privacy. This foundation can accelerate AI feature rollout and reduce friction for both developers and end‑users.",
+      "tags": [
+        "AI Strategy",
+        "AI Tools",
+        "Product Strategy"
       ]
     },
     {
