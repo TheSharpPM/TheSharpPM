@@ -1,7 +1,111 @@
 {
-  "updated": "2026-04-22T10:08:33.456162+00:00",
-  "total": 128,
+  "updated": "2026-04-23T10:14:03.851584+00:00",
+  "total": 138,
   "items": [
+    {
+      "title": "An Interview with Google Cloud CEO Thomas Kurian About the Agentic Moment",
+      "url": "https://stratechery.com/2026/an-interview-with-google-cloud-ceo-thomas-kurian-about-the-agentic-moment/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-04-23T10:00:00+00:00",
+      "summary": "In the interview, Google Cloud CEO Thomas Kurian outlines the company's focus on building an enterprise agent platform that leverages Google's integration strengths across cloud services and AI. He emphasizes the \"agentic moment\" as a strategic shift toward AI-driven workflows that enhance productivity and create new business opportunities for customers.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Platform Strategy"
+      ]
+    },
+    {
+      "title": "Designing Robust Virtual Currency Management Systems for US Social Gaming Platforms",
+      "url": "https://medium.com/@luckybuddhaaffiliates/designing-robust-virtual-currency-management-systems-for-us-social-gaming-platforms-2a944d87a980?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-04-23T09:59:32+00:00",
+      "summary": "The article outlines best practices for building reliable virtual currency systems on U.S. social gaming platforms, covering security, scalability, compliance, and user experience considerations. It provides a framework for product managers to design, implement, and monitor virtual economies that support player engagement and monetization while mitigating fraud and regulatory risks.",
+      "tags": [
+        "Product Strategy",
+        "Platform Strategy",
+        "Retention"
+      ]
+    },
+    {
+      "title": "47 Features. 6 Weeks. 4 Developers. Here’s How a BA Decides What Gets Built First",
+      "url": "https://medium.com/analysts-corner/47-features-6-weeks-4-developers-heres-how-a-ba-decides-what-gets-built-first-b657d58d1edb?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-04-23T09:49:45+00:00",
+      "summary": "The article walks through a real-world example of how a business analyst prioritizes a backlog of 47 feature ideas over a six‑week sprint with only four developers. It highlights the decision‑making framework—using acceptance criteria, impact assessments, and stakeholder input—to determine which features deliver the most value early on.",
+      "tags": [
+        "Prioritization",
+        "Product Strategy",
+        "Stakeholders"
+      ]
+    },
+    {
+      "title": "BRD, FRD, SRS — Three Documents Walk Into a Meeting. Only One Gets Read.",
+      "url": "https://medium.com/analysts-corner/brd-frd-srs-three-documents-walk-into-a-meeting-only-one-gets-read-0c06a9e6a109?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-04-23T09:49:30+00:00",
+      "summary": "The article compares three common requirement documents—BRD, FRD, and SRS—highlighting why only one typically gets used in practice. It illustrates the impact of clear documentation by recounting how a team applied MoSCoW prioritization to organize 47 feature ideas into a coherent roadmap.",
+      "tags": [
+        "Product Strategy",
+        "Prioritization",
+        "Product Design"
+      ]
+    },
+    {
+      "title": "The New Era of Indian Beauty: Moving Beyond Discounts to Mass Premiumization",
+      "url": "https://medium.com/@sargambijoor2004/the-new-era-of-indian-beauty-moving-beyond-discounts-to-mass-premiumization-ecc9268f0696?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-04-23T08:45:21+00:00",
+      "summary": "The Indian beauty and personal care market is shifting from a discount-driven, volume-focused model to one centered on mass premiumization, where higher-quality, aspirational products are gaining traction across broader consumer segments. This transition demands brands to rethink product positioning, pricing, and distribution strategies to capture emerging demand for premium experiences while maintaining scale.",
+      "tags": [
+        "Product Strategy",
+        "Growth",
+        "Competitive Analysis"
+      ]
+    },
+    {
+      "title": "Embedded Analytics Opportunity 2026 report",
+      "url": "https://www.productledalliance.com/embedded-analytics-opportunity-2026-report/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-04-23T08:00:43+00:00",
+      "summary": "The report outlines the 2026 landscape for embedded analytics, highlighting trends such as ROI justification, AI integration, and the strategic decision between buying and building solutions. It also examines operational challenges and opportunities for product teams to embed analytics as a core capability.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Data"
+      ]
+    },
+    {
+      "title": "The AI revolution in fintech:  Driving transformative change",
+      "url": "https://www.productledalliance.com/the-ai-revolution-in-fintech-driving-transformative-change/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-04-22T14:00:24+00:00",
+      "summary": "The article outlines how AI technologies are reshaping the fintech landscape by enhancing risk assessment, personalizing financial services, and automating operations, leading to faster product cycles and new business models. It highlights the strategic implications for product teams, emphasizing the need to adopt AI tools, adapt product roadmaps, and align cross‑functional stakeholders to stay competitive.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Growth"
+      ]
+    },
+    {
+      "title": "What Claude Design is actually good for (and why Figma isn’t dead yet)",
+      "url": "https://www.lennysnewsletter.com/p/what-claude-design-is-actually-good",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-04-22T12:04:31+00:00",
+      "summary": "The article tests Claude Design by building a landing page, presentation slides, and a bold redesign to reveal its strengths and limitations, showing where it excels compared to traditional design tools. It also discusses how upcoming GPT Image 2.0 could reshape the creation of brand assets and why Figma remains relevant despite AI advances.",
+      "tags": [
+        "AI Tools",
+        "Product Design",
+        "Product Strategy"
+      ]
+    },
     {
       "title": "John Ternus and Apple’s Hardware-Defined Future, SpaceXAI and Cursor",
       "url": "https://stratechery.com/2026/john-ternus-and-apples-hardware-defined-future-spacexai-and-cursor/",
@@ -234,6 +338,19 @@
         "AI Tools",
         "Productivity",
         "Engineering Velocity"
+      ]
+    },
+    {
+      "title": "PopTask v2.0",
+      "url": "https://www.producthunt.com/products/poptask",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-04-20T15:30:45+00:00",
+      "summary": "PopTask v2.0 introduces a frictionless workflow that converts a user’s thought into a task within three seconds, eliminating clicks and app switching. This rapid capture aims to boost productivity by integrating task creation directly into the user’s mental flow.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Productivity"
       ]
     },
     {
@@ -1390,6 +1507,19 @@
         "Competitive Analysis",
         "AI Tools",
         "Product Strategy"
+      ]
+    },
+    {
+      "title": "Ikes 3",
+      "url": "https://www.producthunt.com/products/ikes",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-04-10T05:49:15+00:00",
+      "summary": "Ikes 3 is an idea storage application designed to help users quickly capture fleeting thoughts before they disappear. The discussion focuses on its potential as a simple, low-friction tool for personal knowledge management and how it could integrate into broader productivity workflows.",
+      "tags": [
+        "Product Strategy",
+        "Productivity",
+        "Growth"
       ]
     },
     {
