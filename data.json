@@ -1,7 +1,189 @@
 {
-  "updated": "2026-04-24T10:18:48.320670+00:00",
-  "total": 138,
+  "updated": "2026-04-25T08:19:39.208735+00:00",
+  "total": 153,
   "items": [
+    {
+      "title": "Prompts Are Requirements. We Forgot How To Write Them.",
+      "url": "https://medium.com/@thekuldeep/prompts-are-requirements-we-forgot-how-to-write-them-01e22a10d090?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-04-25T08:01:02+00:00",
+      "summary": "The article argues that AI hasn't eliminated the need for clear requirements; instead, it has highlighted how vague they often are. Product teams must relearn disciplined prompt writing as a core requirement‑definition skill to guide AI effectively.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Communication"
+      ]
+    },
+    {
+      "title": "From Requirements to Assumptions: A Better Way to Build Products",
+      "url": "https://medium.com/@jessewei/from-requirements-to-assumptions-a-better-way-to-build-products-bf5816bac718?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-04-25T07:53:09+00:00",
+      "summary": "The article argues that in environments where consensus is sought, starting with assumptions rather than rigid requirements leads to more flexible and innovative product development. By questioning underlying assumptions early, teams can align stakeholders, iterate faster, and avoid costly rework.",
+      "tags": [
+        "Product Strategy",
+        "Leadership",
+        "Prioritization"
+      ]
+    },
+    {
+      "title": "YNAB: Humbly Confident Data Analyst",
+      "url": "https://weworkremotely.com/remote-jobs/ynab-humbly-confident-data-analyst",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-04-24T21:41:06+00:00",
+      "summary": "YNAB is a fully remote product company dedicated to improving users' financial wellbeing, boasting a 20-year track record of helping customers eliminate debt, achieve goals, and reduce stress. The role of a Humbly Confident Data Analyst supports this mission by leveraging data to inform product decisions, enhance user experiences, and drive continued growth.",
+      "tags": [
+        "Product Strategy",
+        "Growth",
+        "Metrics"
+      ]
+    },
+    {
+      "title": "🔮 How Ukraine solved the hardest problem in defense",
+      "url": "https://www.exponentialview.co/p/ukraine-seven-day-drone-advantage",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-04-24T17:11:12+00:00",
+      "summary": "The article outlines how Ukraine achieved a rapid, seven‑day advantage in drone warfare by swiftly integrating off‑the‑shelf technology, establishing a dedicated cross‑functional task force, and iterating deployments based on frontline feedback. It demonstrates the power of rapid experimentation, tight stakeholder alignment, and data‑driven decision‑making to solve critical defense challenges under extreme time pressure.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Leadership"
+      ]
+    },
+    {
+      "title": "2026.17: He Came, He Saw, He Cooked",
+      "url": "https://stratechery.com/2026/he-came-he-saw-he-cooked/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-04-24T17:00:00+00:00",
+      "summary": "The article recaps key Stratechery insights from late April 2026, highlighting the transition out of the Tim Cook era at Apple, the strategic moves of AI company Cursor, and SpaceX's latest initiatives. It also examines the emerging dimensions of a new Cold War 2.0 and their implications for tech strategy.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Competitive Analysis"
+      ]
+    },
+    {
+      "title": "The Banking System Small Businesses Deserve — But Don’t Yet Have (Build it)",
+      "url": "https://medium.com/@drtolea/the-banking-system-small-businesses-deserve-but-dont-yet-have-6e7270ce2e33?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-04-24T16:39:17+00:00",
+      "summary": "The article outlines a step‑by‑step approach for product teams to translate a visionary banking platform for small businesses into a tangible product, covering stakeholder alignment, roadmap planning, and iterative delivery. It emphasizes practical execution tactics such as rapid prototyping, cross‑functional collaboration, and data‑driven prioritization to overcome current gaps in the market.",
+      "tags": [
+        "Product Strategy",
+        "Execution",
+        "Stakeholders"
+      ]
+    },
+    {
+      "title": "The Banking System Small Businesses Deserve — But Don’t Yet Have",
+      "url": "https://medium.com/@drtolea/the-banking-system-small-businesses-deserve-but-dont-yet-have-5dd8fa335045?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-04-24T16:30:48+00:00",
+      "summary": "The article critiques the current banking landscape for small businesses, highlighting gaps in services, accessibility, and tailored financial products. It argues that while small enterprises need a more supportive, technology-driven banking system, the industry has yet to deliver solutions that fully address their unique challenges and growth objectives.",
+      "tags": [
+        "Product Strategy",
+        "Growth",
+        "Competitive Analysis"
+      ]
+    },
+    {
+      "title": "5 golden rules for thriving  in uncertain times",
+      "url": "https://www.productledalliance.com/5-golden-rules-for-thriving-in-uncertain-times/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-04-24T15:00:11+00:00",
+      "summary": "The article outlines five practical rules that product managers can adopt to turn market uncertainty into a strategic advantage, focusing on adaptive planning, rapid experimentation, and resilient team dynamics. By embracing uncertainty, PMs can drive continuous learning, prioritize high-impact initiatives, and maintain momentum even when external conditions are volatile.",
+      "tags": [
+        "Product Strategy",
+        "Leadership",
+        "Growth"
+      ]
+    },
+    {
+      "title": "State of Digital Analytics 2026",
+      "url": "https://www.productledalliance.com/state-of-digital-analytics-2026/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-04-24T11:55:32+00:00",
+      "summary": "The State of Digital Analytics 2026 report benchmarks acquisition, engagement, stickiness, and retention metrics across multiple industries, highlighting key performance trends and gaps. It provides actionable recommendations for product teams to improve measurement frameworks, optimize user journeys, and drive sustained growth.",
+      "tags": [
+        "Metrics",
+        "Product Strategy",
+        "Growth"
+      ]
+    },
+    {
+      "title": "Playlab: Fractional Product Manager  EdTech Deployment",
+      "url": "https://weworkremotely.com/remote-jobs/playlab-fractional-product-manager-edtech-deployment",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-04-23T20:31:08+00:00",
+      "summary": "Playlab is a remote, tech‑focused non‑profit that equips educators and students with AI tools and professional development to create custom AI applications for education. By fostering an open‑source, community‑driven ecosystem, Playlab has enabled over 60,000 educators to publish apps, scaling impact and positioning AI as a new design material in learning.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Growth"
+      ]
+    },
+    {
+      "title": "GPT 5.5 just did what no other model could",
+      "url": "https://www.lennysnewsletter.com/p/gpt-55-just-did-what-no-other-model",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-04-23T19:39:26+00:00",
+      "summary": "The author explains why they’re willing to pay a premium for GPT‑5.5 Pro, highlighting its breakthrough performance in a coding workflow that outpaced Claude Code on a specific intelligence test. The article showcases the model’s unique capabilities, suggesting a significant step forward for AI‑assisted development.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Productivity"
+      ]
+    },
+    {
+      "title": "MiMo-V2.5 Voice",
+      "url": "https://www.producthunt.com/products/mimo-v2-5-voice",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-04-23T18:36:14+00:00",
+      "summary": "MiMo-V2.5 Voice introduces a bilingual automatic speech recognition system capable of handling dialects, code-switching, and singing. This advancement expands the product’s language coverage and opens new use cases in multilingual and entertainment contexts.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "AI Strategy"
+      ]
+    },
+    {
+      "title": "How Anthropic’s product team moves faster than anyone else | Cat Wu (Head of Product, Claude Code)",
+      "url": "https://www.lennysnewsletter.com/p/how-anthropics-product-team-moves",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-04-23T15:01:50+00:00",
+      "summary": "Cat Wu, Head of Product for Claude Code, explains how Anthropic’s product team accelerates delivery by launching features before the underlying AI model is fully ready, using a rapid \"launch room\" process. She highlights the shift in the PM role toward speed over long‑term strategy and shares tactics for coordinating across stakeholders in a fast‑moving AI environment.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Productivity"
+      ]
+    },
+    {
+      "title": "Prioritization frameworks are just opinion laundering",
+      "url": "https://www.productcoalition.com/p/100-frameworks-and-youre-still-building",
+      "source": "Product Coalition",
+      "type": "article",
+      "date": "2026-04-23T14:24:20+00:00",
+      "summary": "The article argues that common prioritization frameworks like RICE often mask subjective judgments, creating a false sense of objectivity while the real decision-makers still control what gets shipped. It urges product managers to recognize this gap and address the underlying political and strategic factors influencing prioritization.",
+      "tags": [
+        "Prioritization",
+        "Product Strategy",
+        "Leadership"
+      ]
+    },
     {
       "title": "An Interview with Google Cloud CEO Thomas Kurian About the Agentic Moment",
       "url": "https://stratechery.com/2026/an-interview-with-google-cloud-ceo-thomas-kurian-about-the-agentic-moment/",
@@ -1379,6 +1561,19 @@
         "Product Design",
         "User Research",
         "Metrics"
+      ]
+    },
+    {
+      "title": "XChat",
+      "url": "https://www.producthunt.com/products/chat-by-x",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-04-12T15:42:24+00:00",
+      "summary": "XChat is a new standalone, end‑to‑end encrypted messaging application launched by X Discussion, aimed at providing secure, private communication for individuals and teams. The app emphasizes robust encryption, user‑friendly design, and integration with X’s broader ecosystem, positioning it as a privacy‑focused alternative in the crowded messaging market.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Privacy"
       ]
     },
     {
