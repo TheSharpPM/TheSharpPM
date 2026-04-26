@@ -1,7 +1,85 @@
 {
-  "updated": "2026-04-25T08:19:39.208735+00:00",
-  "total": 153,
+  "updated": "2026-04-26T08:49:01.463918+00:00",
+  "total": 161,
   "items": [
+    {
+      "title": "The Scrum-to-POM Transition Is a Role Repositioning Event",
+      "url": "https://medium.com/10-min-briefing-on-startup-tech-news/scrum-pom-transition-stefan-wolpers-d76b5f5940d0?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-04-26T08:02:10+00:00",
+      "summary": "The article argues that moving from Scrum to Product Ownership Management (POM) is less about adopting a new framework and more about redefining roles within the organization. It emphasizes that this transition reshapes responsibilities, aligns product thinking with business outcomes, and requires clear communication to ensure teams understand the new positioning.",
+      "tags": [
+        "Product Strategy",
+        "Leadership",
+        "Product Culture"
+      ]
+    },
+    {
+      "title": "Execution is cheap. Differentiation? Less so.",
+      "url": "https://medium.com/@humble_nick/execution-is-cheap-differentiation-less-so-b57987d7c9c6?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-04-26T08:01:01+00:00",
+      "summary": "The article warns product leaders against falling into the \"good enough\" mentality as AI lowers execution costs, emphasizing that merely building functional AI features won't create lasting advantage. It argues that true differentiation now requires strategic investment in unique data, user experience, and business models that leverage AI in ways competitors can't easily replicate.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Competitive Analysis"
+      ]
+    },
+    {
+      "title": "Why Clear Value Propositions Matter in Web3",
+      "url": "https://medium.com/@blockrush.corp/why-clear-value-propositions-matter-in-web3-8bdda3b70641?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-04-26T04:01:01+00:00",
+      "summary": "The article argues that Web3 projects must articulate clear value propositions to drive user adoption, as the technology's potential is often obscured by technical jargon. It suggests focusing on tangible benefits and user-centric messaging to differentiate offerings and build trust in the ecosystem.",
+      "tags": [
+        "Product Strategy",
+        "Growth",
+        "User Research"
+      ]
+    },
+    {
+      "title": "🔮 Exponential View #571: DeepSeek shows the future, again; drones on a learning curve; solar goes up, LLM pixels & tennis robots++",
+      "url": "https://www.exponentialview.co/p/ev-571",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-04-26T02:40:51+00:00",
+      "summary": "The article highlights DeepSeek's latest breakthroughs, suggesting a strategic edge for companies that can achieve more with limited compute resources. It also touches on emerging trends in drone learning, rising solar adoption, advancements in LLM efficiency, and innovative tennis robots, all pointing to opportunities for product teams to leverage AI-driven efficiencies.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Productivity"
+      ]
+    },
+    {
+      "title": "🧠 Community Wisdom: What great product leaders do differently, Claude vs. ChatGPT, receiving hard feedback two weeks into the job, tips for joining a pre-PMF startup, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-what-great-product",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-04-25T19:51:00+00:00",
+      "summary": "The article compiles insights from the product community, highlighting behaviors that set great product leaders apart, comparing Claude and ChatGPT capabilities, and offering advice on handling tough feedback early in a role. It also provides practical tips for joining a pre‑product‑market‑fit startup and other actionable product leadership guidance.",
+      "tags": [
+        "Leadership",
+        "Product Strategy",
+        "Growth"
+      ]
+    },
+    {
+      "title": "Duolingo Just Made Everything a Card — Here’s the PM Case Study",
+      "url": "https://medium.com/product-powerhouse/duolingo-just-made-everything-a-card-heres-the-pm-case-study-82694805ca13?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-04-25T14:15:13+00:00",
+      "summary": "The article examines Duolingo's new rewards interface, which adopts a card-based design to streamline user interactions and boost engagement. It breaks down how the card pattern functions behind the scenes, supporting both onboarding and retention goals while simplifying the product experience.",
+      "tags": [
+        "Product Design",
+        "Growth",
+        "Product Strategy"
+      ]
+    },
     {
       "title": "Prompts Are Requirements. We Forgot How To Write Them.",
       "url": "https://medium.com/@thekuldeep/prompts-are-requirements-we-forgot-how-to-write-them-01e22a10d090?source=rss------product_management-5",
@@ -104,6 +182,19 @@
         "Product Strategy",
         "Leadership",
         "Growth"
+      ]
+    },
+    {
+      "title": "Edgee Team",
+      "url": "https://www.producthunt.com/products/edgee",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-04-24T12:51:45+00:00",
+      "summary": "The article introduces Edgee Team, a platform described as the \"Strava for coding assistants,\" which tracks and visualizes the performance and usage of AI coding assistants across teams. It aims to help product managers monitor productivity, identify bottlenecks, and optimize AI tool adoption within development workflows.",
+      "tags": [
+        "AI Tools",
+        "Productivity",
+        "Metrics"
       ]
     },
     {
@@ -1412,6 +1503,19 @@
         "AI Strategy",
         "Product Strategy",
         "Product Culture"
+      ]
+    },
+    {
+      "title": "Free chart generator by Embedful",
+      "url": "https://www.producthunt.com/products/embedful",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-04-14T02:54:29+00:00",
+      "summary": "The article introduces Embedful's free chart generator, a tool that quickly transforms CSV and Excel data into visual charts. This solution enables product teams to create data visualizations on the fly, speeding up reporting and stakeholder communication.",
+      "tags": [
+        "Product Strategy",
+        "Productivity",
+        "Growth"
       ]
     },
     {
