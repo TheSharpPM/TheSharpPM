@@ -1,7 +1,111 @@
 {
-  "updated": "2026-04-26T08:49:01.463918+00:00",
-  "total": 161,
+  "updated": "2026-04-27T11:34:02.687235+00:00",
+  "total": 170,
   "items": [
+    {
+      "title": "The bottleneck moved. The question is whether your systems moved with it",
+      "url": "https://medium.com/@ido_53527/the-bottleneck-moved-the-question-is-whether-your-systems-moved-with-it-79f0dfcd3b71?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-04-27T11:23:02+00:00",
+      "summary": "The article discusses how the primary bottleneck in product development has shifted to new areas, emphasizing the need for teams to adapt their processes and systems accordingly. It urges product leaders to proactively evaluate and evolve their workflows to keep pace with changing constraints.",
+      "tags": [
+        "Product Strategy",
+        "Leadership",
+        "Productivity"
+      ]
+    },
+    {
+      "title": "Idea to Prototype with AI",
+      "url": "https://medium.com/@rajklns1234/idea-to-prototype-with-ai-225e0cd534c7?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-04-27T11:15:05+00:00",
+      "summary": "The article outlines a streamlined workflow for turning ideas into functional prototypes using AI-powered tools, emphasizing rapid iteration and reduced manual effort. It guides product managers through selecting the right AI services, integrating them into the design process, and validating concepts quickly before full development.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Productivity"
+      ]
+    },
+    {
+      "title": "Why Speed Is Overrated in Design",
+      "url": "https://medium.com/@swapnilms.joshi/why-speed-is-overrated-in-design-76840859175a?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-04-27T10:26:03+00:00",
+      "summary": "The article argues that emphasizing rapid design output can mask underlying slow decision-making processes, leading teams to prioritize speed over thoughtful problem solving. For product managers, it highlights the risk of sacrificing strategic alignment and quality when speed becomes the primary metric, urging a balance between velocity and deliberate decision frameworks.",
+      "tags": [
+        "Product Strategy",
+        "Product Design",
+        "Leadership"
+      ]
+    },
+    {
+      "title": "AI Hardware, Meta Display, Redefining VR and AR",
+      "url": "https://stratechery.com/2026/ai-hardware-meta-display-redefining-vr-and-ar/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-04-27T10:00:00+00:00",
+      "summary": "The author’s hands‑on experience with Meta’s Ray‑Ban Display reveals a breakthrough in AR/VR hardware that could reshape immersive product experiences. This new form factor suggests fresh opportunities for product managers to integrate spatial computing into their roadmaps and differentiate in the market.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Product Design"
+      ]
+    },
+    {
+      "title": "I’ve Had 5 Careers. They All Made Me a Better Product Manager.",
+      "url": "https://medium.com/@obigwechinelo/ive-had-5-careers-they-all-made-me-a-better-product-manager-57a9f2b16d93?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-04-27T09:55:12+00:00",
+      "summary": "The author reflects on five distinct career paths that each contributed unique skills and perspectives, ultimately shaping a more versatile and effective product manager. By integrating lessons from varied roles, they highlight how cross‑functional experience enhances decision‑making, stakeholder communication, and product strategy.",
+      "tags": [
+        "Product Strategy",
+        "Leadership",
+        "Product Culture"
+      ]
+    },
+    {
+      "title": "VIDEO AI ME",
+      "url": "https://www.producthunt.com/products/video-ai-me",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-04-26T20:22:53+00:00",
+      "summary": "VIDEO AI ME is a platform that lets users generate videos featuring AI-driven actors that appear and sound realistic, streamlining content creation for marketing, education, and entertainment. The tool promises faster production cycles and lower costs by eliminating the need for traditional filming and casting.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Growth"
+      ]
+    },
+    {
+      "title": "The Hardest Product Decision: When to Build for Teams",
+      "url": "https://www.productcoalition.com/p/the-hardest-product-decision-when",
+      "source": "Product Coalition",
+      "type": "article",
+      "date": "2026-04-26T14:36:48+00:00",
+      "summary": "The article recounts the founder’s journey with ExecReps.ai, highlighting the tough decision of whether to develop a product for whole teams versus individual users. It outlines the strategic considerations, trade‑offs, and impact on product roadmap that product managers must weigh when targeting collaborative workflows.",
+      "tags": [
+        "Product Strategy",
+        "Leadership",
+        "Product Design"
+      ]
+    },
+    {
+      "title": "Snapchat CEO: Why distribution has become the most important moat | Evan Spiegel",
+      "url": "https://www.lennysnewsletter.com/p/snapchat-ceo-why-distribution-is",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-04-26T12:31:49+00:00",
+      "summary": "Snapchat co‑founder Evan Spiegel explains that in the past 15 years only two consumer apps have achieved lasting scale, and most Snapchat features have been quickly copied. He argues that true defensibility now lies in hardware‑enabled distribution channels rather than product features, making distribution the primary moat for Snap.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Competitive Analysis"
+      ]
+    },
     {
       "title": "The Scrum-to-POM Transition Is a Role Repositioning Event",
       "url": "https://medium.com/10-min-briefing-on-startup-tech-news/scrum-pom-transition-stefan-wolpers-d76b5f5940d0?source=rss------product_management-5",
@@ -624,6 +728,19 @@
         "AI Tools",
         "Product Strategy",
         "Productivity"
+      ]
+    },
+    {
+      "title": "Logic",
+      "url": "https://www.producthunt.com/products/logic-ship-an-agent",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-04-20T14:31:44+00:00",
+      "summary": "The article outlines how to build and manage large-scale fleets of autonomous agents, focusing on the architecture, orchestration, and monitoring needed for reliable operation. It discusses strategic considerations for integrating such fleets into products, including scaling, cost management, and aligning agent behavior with business goals.",
+      "tags": [
+        "AI Strategy",
+        "AI Tools",
+        "Product Strategy"
       ]
     },
     {
