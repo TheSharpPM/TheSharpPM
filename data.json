@@ -1,7 +1,137 @@
 {
-  "updated": "2026-04-27T11:34:02.687235+00:00",
-  "total": 170,
+  "updated": "2026-04-28T11:36:53.773864+00:00",
+  "total": 180,
   "items": [
+    {
+      "title": "The Art of Writing a PRD That People Actually Read",
+      "url": "https://medium.com/@iamvishwavj/the-art-of-writing-a-prd-that-people-actually-read-4d5f4010afd7?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-04-28T11:20:23+00:00",
+      "summary": "The article outlines how to craft Product Requirement Documents (PRDs) that strike the right balance between clarity and conciseness, ensuring they are actionable and engaging for stakeholders. It provides practical guidelines for structuring content, prioritizing information, and making the PRD readable so teams can efficiently execute on product plans.",
+      "tags": [
+        "Product Strategy",
+        "Communication",
+        "Product Design"
+      ]
+    },
+    {
+      "title": "Todo empieza fuera del producto",
+      "url": "https://medium.com/think-by-shifta/todo-empieza-fuera-del-producto-610e98c7657d?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-04-28T11:06:01+00:00",
+      "summary": "The article emphasizes that effective product discovery begins beyond the product itself, encouraging Product Managers to engage with users, market trends, and cross‑functional insights before shaping features. By adopting an outward‑looking discovery process, teams can validate problems early, align on real user needs, and prioritize work that drives meaningful impact.",
+      "tags": [
+        "Product Strategy",
+        "User Research",
+        "Growth"
+      ]
+    },
+    {
+      "title": "Todo empieza fuera del producto",
+      "url": "https://medium.com/think-by-shifta/todo-empieza-fuera-del-producto-610e98c7657d?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-04-28T11:06:01+00:00",
+      "summary": "The article emphasizes that effective product discovery begins beyond the product itself, urging Product Managers to engage with users, market signals, and cross‑functional insights before shaping features. It outlines a systematic approach to uncover real problems, validate assumptions, and align teams around validated opportunities.",
+      "tags": [
+        "Product Strategy",
+        "User Research",
+        "Product Culture"
+      ]
+    },
+    {
+      "title": "The Core Promise Principle: Why Some Data Loss Kills Companies and Some Doesn’t",
+      "url": "https://medium.com/@ove.ashraf/the-core-promise-principle-why-some-data-loss-kills-companies-and-some-doesnt-a81d9e126b57?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-04-28T09:26:29+00:00",
+      "summary": "The article explains the Core Promise Principle, showing how breaches of a product's core promise—especially data loss—can either devastate a company or serve as a catalyst for growth, depending on how the organization responds. It contrasts the rapid collapse of Ma.gnolia with GitLab's resilient recovery, highlighting the importance of trust, transparent communication, and strategic handling of data incidents.",
+      "tags": [
+        "Data",
+        "Product Strategy",
+        "Leadership"
+      ]
+    },
+    {
+      "title": "Build To Learn FAQ",
+      "url": "https://www.svpg.com/build-to-learn-faq/",
+      "source": "SVPG",
+      "type": "article",
+      "date": "2026-04-27T21:16:33+00:00",
+      "summary": "The article differentiates ‘building to learn’ (product discovery) from ‘building to earn’ (product delivery), emphasizing that as AI lowers delivery costs, organizations must invest more in discovery to create valuable products. It advises product managers to prioritize iterative learning and validation over rapid execution to stay competitive in the AI era.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Product Culture"
+      ]
+    },
+    {
+      "title": "Monet",
+      "url": "https://www.producthunt.com/products/monet-5",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-04-27T19:45:41+00:00",
+      "summary": "Monet is a new AI-powered platform that leverages Claude and Codex to let users edit videos and design images through natural language prompts. The article explores how the tool streamlines creative workflows, reduces reliance on specialized software, and opens opportunities for product teams to integrate generative AI into content creation pipelines.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Growth"
+      ]
+    },
+    {
+      "title": "🎙️ This week on How I AI: GPT 5.5, Claude Design, and GPT Images 2.0 hands-on reviews—plus an inside look at Memelord",
+      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-gpt-55-claude",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-04-27T15:02:19+00:00",
+      "summary": "The episode reviews the latest AI releases—including GPT‑5.5, Claude’s new design features, and GPT Images 2.0—offering hands‑on performance insights and practical takeaways for product teams. It also gives a behind‑the‑scenes look at Memelord, illustrating how emerging AI tools can be integrated into product workflows.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Product Design"
+      ]
+    },
+    {
+      "title": "Product manager  job description template",
+      "url": "https://www.productledalliance.com/product-manager-job-description-template-framework/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-04-27T13:47:30+00:00",
+      "summary": "This article offers a ready-to-use product manager job description template designed to streamline hiring and attract top talent. It outlines key responsibilities, required skills, and performance expectations to help teams define the PM role clearly and hire more effectively.",
+      "tags": [
+        "Product Strategy",
+        "Product Culture",
+        "Leadership"
+      ]
+    },
+    {
+      "title": "Colir",
+      "url": "https://www.producthunt.com/products/colir",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-04-27T12:52:49+00:00",
+      "summary": "The article discusses how to create custom gradient designs that avoid the generic default look often seen in UI libraries. It offers practical tips for product designers to craft more distinctive visual experiences that align with brand identity.",
+      "tags": [
+        "Product Design",
+        "Product Strategy",
+        "Growth"
+      ]
+    },
+    {
+      "title": "From a $6.90 newsletter to $3M API: How a non-coder built Memelord | Jason Levin",
+      "url": "https://www.lennysnewsletter.com/p/from-a-690-newsletter-to-3m-api-how",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-04-27T12:03:55+00:00",
+      "summary": "Jason Levin, CEO of Memelord, explains how he grew a meme-based product from a $6.90 newsletter to a $3M API-driven business without writing code, leveraging low‑code tools and AI agents. He argues that marketers should understand coding basics to accelerate product development and that AI agents are becoming his primary user segment.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Growth"
+      ]
+    },
     {
       "title": "The bottleneck moved. The question is whether your systems moved with it",
       "url": "https://medium.com/@ido_53527/the-bottleneck-moved-the-question-is-whether-your-systems-moved-with-it-79f0dfcd3b71?source=rss------product_management-5",
