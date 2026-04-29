@@ -1,7 +1,176 @@
 {
-  "updated": "2026-04-28T11:36:53.773864+00:00",
-  "total": 180,
+  "updated": "2026-04-29T11:26:48.156950+00:00",
+  "total": 195,
   "items": [
+    {
+      "title": "17 product operations voices worth  flying to Amsterdam for",
+      "url": "https://www.productledalliance.com/product-operations-voices-worth-flying-to-amsterdam-for/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-04-29T11:00:27+00:00",
+      "summary": "The article highlights the top product operations leaders who will be speaking at the upcoming Product Operations Summit in Amsterdam, offering PMs a chance to learn cutting‑edge operational strategies and network with industry experts. Attending promises valuable insights into scaling product ops, cross‑functional collaboration, and data‑driven decision making.",
+      "tags": [
+        "Product Operations",
+        "Leadership",
+        "Product Strategy"
+      ]
+    },
+    {
+      "title": "PM vs Great PM: The Difference Isn’t Execution — It’s Thinking",
+      "url": "https://medium.com/@unmeshkamble7/pm-vs-great-pm-the-difference-isnt-execution-it-s-thinking-8c046a831c7c?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-04-29T10:54:59+00:00",
+      "summary": "The article explains that the key distinction between a regular product manager and a great one lies in their strategic thinking rather than just execution skills. It emphasizes the importance of holistic product vision, critical analysis, and proactive decision‑making to drive impact.",
+      "tags": [
+        "Product Strategy",
+        "Leadership",
+        "Product Culture"
+      ]
+    },
+    {
+      "title": "The invisible engine: How product managers save your sportsbook daily",
+      "url": "https://medium.com/@altenar/the-invisible-engine-how-product-managers-save-your-sportsbook-daily-a01e95735166?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-04-29T10:47:57+00:00",
+      "summary": "The article reveals how product managers work behind the scenes to keep sportsbook platforms running smoothly, handling data integrity, odds management, risk controls, and cross‑functional coordination. Their invisible but critical work ensures a reliable betting experience and drives revenue growth.",
+      "tags": [
+        "Product Strategy",
+        "Leadership",
+        "Data"
+      ]
+    },
+    {
+      "title": "The Role of Influential Women in Building Digital Legacy",
+      "url": "https://laura-novak.medium.com/the-role-of-influential-women-in-building-digital-legacy-3d1b982d8e6b?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-04-29T10:41:07+00:00",
+      "summary": "The article highlights how influential women shape lasting digital legacies by championing inclusive innovation, mentorship, and long‑term product vision. Their leadership demonstrates the importance of building sustainable, user‑centric platforms that endure beyond immediate market success.",
+      "tags": [
+        "Leadership",
+        "Product Culture",
+        "AI Strategy"
+      ]
+    },
+    {
+      "title": "Couch to 5K Product Case Study: How a Free NHS App Outperforms Runna and Strava for Beginners",
+      "url": "https://medium.com/product-powerhouse/couch-to-5k-product-case-study-how-a-free-nhs-app-outperforms-runna-and-strava-for-beginners-9f02ec6b2649?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-04-29T10:22:06+00:00",
+      "summary": "The NHS's free Couch to 5K app demonstrates how a minimalist approach can beat premium competitors like Runna and Strava among beginner runners. By focusing on clear onboarding, low friction, and leveraging trusted public health branding, it drives higher adoption and sustained engagement. Product managers can learn the power of simplicity, strong user trust, and targeted value for a specific user segment.",
+      "tags": [
+        "Product Strategy",
+        "Product Design",
+        "Growth"
+      ]
+    },
+    {
+      "title": "Intel Earnings, Intel’s Differentiation?, Whither Terafab",
+      "url": "https://stratechery.com/2026/intel-earnings-intels-differentiation-whither-terafab/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-04-29T10:00:00+00:00",
+      "summary": "Intel reported strong earnings, driven primarily by a structural surge in demand for AI-focused CPUs rather than traditional PC or data‑center sales. The article also questions Intel's competitive edge in AI and highlights uncertainty surrounding its Terafab manufacturing strategy.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Competitive Analysis"
+      ]
+    },
+    {
+      "title": "Katkin: Senior Growth Product Manager",
+      "url": "https://weworkremotely.com/remote-jobs/katkin-senior-growth-product-manager",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-04-29T08:34:44+00:00",
+      "summary": "KatKin is a challenger DTC brand targeting the $50B global cat health market with fresh‑cooked, vet‑formulated cat food and plans to expand into a broader suite of health products and digital services for cat owners. The Senior Growth Product Manager will lead initiatives to scale the core business in the UK, drive retail expansion, and build the ecosystem of ancillary products and health‑tech solutions.",
+      "tags": [
+        "Growth",
+        "Product Strategy",
+        "Product Culture"
+      ]
+    },
+    {
+      "title": "Knowunity: Product Engineer",
+      "url": "https://weworkremotely.com/remote-jobs/knowunity-product-engineer",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-04-29T08:34:44+00:00",
+      "summary": "Knowunity is Europe's fastest-growing AI-powered learning companion, offering a social community for 18 million students and delivering hyper-personalized educational experiences. The platform uses AI to guide users, generate tailored flashcards, and prepare them for exams, aiming to democratize high-quality education worldwide. As a Product Engineer, you would help scale these AI-driven features and enhance the student learning journey.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Growth"
+      ]
+    },
+    {
+      "title": "An Interview with OpenAI CEO Sam Altman and AWS CEO Matt Garman About Bedrock Managed Agents",
+      "url": "https://stratechery.com/2026/an-interview-with-openai-ceo-sam-altman-and-aws-ceo-matt-garman-about-bedrock-managed-agents/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-04-28T17:00:00+00:00",
+      "summary": "In this interview, OpenAI CEO Sam Altman and AWS CEO Matt Garman discuss their new Bedrock Managed Agents partnership, detailing how the collaboration will streamline AI deployment for developers. The conversation also touches on broader industry implications, including OpenAI's recent deal with Microsoft and its impact on AI strategy and tooling.",
+      "tags": [
+        "AI Strategy",
+        "AI Tools",
+        "Product Strategy"
+      ]
+    },
+    {
+      "title": "Your Couch-to-5K for AI",
+      "url": "https://www.lennysnewsletter.com/p/your-couch-to-5k-for-ai",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-04-28T15:31:24+00:00",
+      "summary": "The article outlines a practical, step‑by‑step framework for product teams to develop a sustainable AI development routine, likening it to a Couch‑to‑5K running plan. It emphasizes incremental learning, regular experimentation, and habit formation to embed AI capabilities into product workflows without overwhelming resources.",
+      "tags": [
+        "AI Strategy",
+        "Productivity",
+        "Growth"
+      ]
+    },
+    {
+      "title": "The $3,000 framework that quietly became table stakes",
+      "url": "https://www.productcoalition.com/p/the-post-it-note-died-for-your-sins",
+      "source": "Product Coalition",
+      "type": "article",
+      "date": "2026-04-28T14:28:07+00:00",
+      "summary": "The article traces the evolution of a $3,000 design-thinking framework that originated at Stanford and has become an unspoken standard in product development. It explains how the methodology, once a celebrated innovation, has been absorbed into everyday practice and is rarely credited by name, yet continues to shape how teams solve problems and validate ideas.",
+      "tags": [
+        "Product Design",
+        "Product Strategy",
+        "Competitive Analysis"
+      ]
+    },
+    {
+      "title": "Command and Control - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "url": "https://www.producttalk.org/command-and-control-all-things-product-podcast-with-teresa-torres-petra-wille/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-04-28T13:00:59+00:00",
+      "summary": "Teresa Torres and Petra Wille discuss how command-and-control leadership often surfaces in uncertain times, appearing faster and safer, but may hinder effectiveness in modern product teams. They explore the true impact of this style on product outcomes and suggest more collaborative approaches for better results.",
+      "tags": [
+        "Leadership",
+        "Product Strategy",
+        "Product Culture"
+      ]
+    },
+    {
+      "title": "From shadow AI to sanctioned AI:  What product teams can learn from how enterprises actually adopt",
+      "url": "https://www.productledalliance.com/from-shadow-ai-to-sanctioned-ai-what-product-teams-can-learn-from-how-enterprises-actually-adopt/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-04-28T12:00:33+00:00",
+      "summary": "Enterprises often have employees using AI tools without official approval, creating a hidden but valuable source of product insight. Product teams should monitor this \"shadow AI\" usage to understand real needs, inform roadmap decisions, and guide the transition to sanctioned, enterprise‑grade AI solutions.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Product Culture"
+      ]
+    },
     {
       "title": "The Art of Writing a PRD That People Actually Read",
       "url": "https://medium.com/@iamvishwavj/the-art-of-writing-a-prd-that-people-actually-read-4d5f4010afd7?source=rss------product_management-5",
@@ -273,6 +442,19 @@
         "Product Strategy",
         "Growth",
         "User Research"
+      ]
+    },
+    {
+      "title": "Snapr",
+      "url": "https://www.producthunt.com/products/snapr-5",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-04-26T02:52:42+00:00",
+      "summary": "Snapr is an all‑in‑one app that lets users capture screenshots, record their screen, annotate, and edit videos directly within a single interface. The tool aims to streamline content creation for teams and creators, reducing the need to switch between multiple applications.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Product Design"
       ]
     },
     {
@@ -2294,6 +2476,19 @@
         "Product Design",
         "AI Tools",
         "Productivity"
+      ]
+    },
+    {
+      "title": "Plurai",
+      "url": "https://www.producthunt.com/products/plurai",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-03-23T09:57:44+00:00",
+      "summary": "The article discusses Plurai's Vibe‑train evaluation framework and its customizable guardrails, enabling teams to align AI behavior with specific product use cases. By tailoring these controls, product managers can ensure safer, more relevant AI outputs while maintaining flexibility for rapid iteration.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Risk Management"
       ]
     },
     {
