@@ -254,7 +254,7 @@
         .then(function(data) {
             var editions = (data && data.editions) || [];
             if (editions.length === 0) {
-                container.innerHTML = '<div class="empty"><h3>First edition coming soon</h3><p>The agent runs every Sunday at 06:00 UTC.</p></div>';
+                container.innerHTML = '<div class="empty"><h3>First edition coming soon</h3></div>';
                 return;
             }
             container.innerHTML = editions.map(function(e) {
