@@ -1,7 +1,111 @@
 {
-  "updated": "2026-04-29T11:26:48.156950+00:00",
-  "total": 195,
+  "updated": "2026-04-30T11:20:48.120641+00:00",
+  "total": 205,
   "items": [
+    {
+      "title": "The embedded analytics  ROI paradox",
+      "url": "https://www.productledalliance.com/the-embedded-analytics-roi-paradox/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-04-30T11:00:32+00:00",
+      "summary": "Embedded analytics initiatives often boost user engagement, yet quantifying the financial return remains challenging. The article explains why this ROI paradox occurs and outlines the practices top-performing teams use to tie engagement metrics to measurable business outcomes.",
+      "tags": [
+        "Product Strategy",
+        "Metrics",
+        "Growth"
+      ]
+    },
+    {
+      "title": "The First Version (Sometimes Is the Best)",
+      "url": "https://dwayne-phillips.medium.com/the-first-version-sometimes-is-the-best-9a21963d2ec5?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-04-30T11:00:01+00:00",
+      "summary": "The article argues that launching a simple, functional first version of a product can be more effective than over‑engineering. By delivering early value, teams gather real user feedback, iterate faster, and avoid the pitfalls of sunk‑cost bias.",
+      "tags": [
+        "Product Strategy",
+        "Product Design",
+        "Growth"
+      ]
+    },
+    {
+      "title": "Amazon Earnings, Trainium and Commodity Markets, Additional Amazon Notes",
+      "url": "https://stratechery.com/2026/amazon-earnings-trainium-and-commodity-markets-additional-amazon-notes/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-04-30T10:00:00+00:00",
+      "summary": "Amazon's latest earnings show that its focus on inference workloads and AI agents is validating the investment in its custom Trainium chips, signaling a strategic shift from model training to deployment. The report also touches on developments in advertising, AI agents, and the company's pursuit of sports media rights, all of which shape its broader product and market strategy.",
+      "tags": [
+        "AI Strategy",
+        "AI Tools",
+        "Product Strategy"
+      ]
+    },
+    {
+      "title": "The Betty Crocker Paradox: Why Using AI Feels Like Cheating (And How to Fix It)",
+      "url": "https://appibara.medium.com/the-betty-crocker-paradox-why-using-ai-feels-like-cheating-and-how-to-fix-it-892dee22e158?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-04-30T09:00:09+00:00",
+      "summary": "The article argues that in the AI era, deliberately introducing \"meaningful friction\" can improve user experiences, countering the instinct to eliminate all obstacles. It explains why using AI can feel like cheating and offers strategies for product teams to integrate AI responsibly and enhance value.",
+      "tags": [
+        "AI Strategy",
+        "Product Design",
+        "User Research"
+      ]
+    },
+    {
+      "title": "Omada Health: Senior Product Manager",
+      "url": "https://weworkremotely.com/remote-jobs/omada-health-senior-product-manager",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-04-29T23:03:54+00:00",
+      "summary": "Omada Health seeks a Senior Product Manager to lead the development of medication prescribing features for members and care teams, focusing on the emerging GLP-1 market in virtual-first health programs. The role involves deep user research, market analysis, and rapid product execution to strengthen Omada's leadership in weight, diabetes, hypertension, and musculoskeletal care.",
+      "tags": [
+        "Product Strategy",
+        "Growth",
+        "Leadership"
+      ]
+    },
+    {
+      "title": "Risk: Senior Product Manager",
+      "url": "https://weworkremotely.com/remote-jobs/risk-senior-product-manager",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-04-29T23:03:54+00:00",
+      "summary": "RISK inc., a global iGaming company with over 1,000 employees, is hiring a Senior Product Manager in Warsaw to boost user engagement via gamification and optimize both marketing and organic acquisition funnels. The role emphasizes leveraging analytics and data-driven insights to improve retention and drive growth across their multi‑market platform.",
+      "tags": [
+        "Product Strategy",
+        "Growth",
+        "Data"
+      ]
+    },
+    {
+      "title": "Why You Should Start LATAM Expansion with Brazil, Not Spanish Markets",
+      "url": "https://medium.com/@ic-eight/why-you-should-start-latam-expansion-with-brazil-not-spanish-markets-277ab926df2f?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-04-29T19:27:08+00:00",
+      "summary": "The article argues that product teams aiming to enter the Latin American market should prioritize Brazil over Spanish-speaking countries like Mexico, citing Brazil's larger economy, digital adoption rates, and unique market dynamics. It outlines the strategic benefits of leveraging Brazil's size and growth potential as a springboard for broader LATAM expansion.",
+      "tags": [
+        "Product Strategy",
+        "Growth",
+        "Competitive Analysis"
+      ]
+    },
+    {
+      "title": "Why Your Product Management OKR Is Quietly Killing Your Team’s Motivation (And How to Fix It Before…",
+      "url": "https://medium.com/@marketing10135/why-your-product-management-okr-is-killing-team-motivation-1883f76377e5?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-04-29T14:34:04+00:00",
+      "summary": "The article explains how poorly crafted product management OKRs can demotivate teams by setting unrealistic or misaligned goals, leading to frustration during performance reviews. It offers practical steps to redesign OKRs—focusing on clear outcomes, balanced ambition, and frequent feedback—to boost motivation and drive better results.",
+      "tags": [
+        "Product Strategy",
+        "Leadership",
+        "Motivation"
+      ]
+    },
     {
       "title": "17 product operations voices worth  flying to Amsterdam for",
       "url": "https://www.productledalliance.com/product-operations-voices-worth-flying-to-amsterdam-for/",
@@ -364,6 +468,19 @@
         "Product Strategy",
         "Leadership",
         "Product Culture"
+      ]
+    },
+    {
+      "title": "Hera Launch",
+      "url": "https://www.producthunt.com/products/hera-6",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-04-27T09:33:59+00:00",
+      "summary": "The article introduces Hera Launch, a tool that leverages AI to help teams produce studio-quality launch videos quickly. It positions the platform as a way to streamline marketing and communication efforts, reducing the need for extensive video production resources.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Growth"
       ]
     },
     {
@@ -2489,6 +2606,19 @@
         "AI Tools",
         "Product Strategy",
         "Risk Management"
+      ]
+    },
+    {
+      "title": "VideoOS by Jupitrr AI",
+      "url": "https://www.producthunt.com/products/jupitrr",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-03-17T01:34:49+00:00",
+      "summary": "The article introduces VideoOS by Jupitrr AI, an integrated platform that streamlines video creation, editing, and distribution for product teams. It emphasizes how the tool can accelerate content workflows, improve collaboration, and enable data-driven decisions on video performance.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Productivity"
       ]
     },
     {
