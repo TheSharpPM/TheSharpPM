@@ -1,7 +1,124 @@
 {
-  "updated": "2026-04-30T11:20:48.120641+00:00",
-  "total": 205,
+  "updated": "2026-05-01T10:15:23.416824+00:00",
+  "total": 215,
   "items": [
+    {
+      "title": "The 1:00 AM Pivot: How TruMarked.in Was Built in 5 Days for $0",
+      "url": "https://medium.com/@jagadeeshpurohith/the-1-00-am-pivot-how-trumarked-in-was-built-in-5-days-for-0-a013c86c774b?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-05-01T09:56:52+00:00",
+      "summary": "The article recounts how the founder of TruMarked.in reacted to a late-night frustration and built the entire product in just five days without any budget, highlighting rapid prototyping, lean resource use, and swift decision‑making. It offers insights into fast product validation and the importance of urgency and simplicity in early-stage development for product managers.",
+      "tags": [
+        "Product Strategy",
+        "Product Design",
+        "Growth"
+      ]
+    },
+    {
+      "title": "Remove Don’t Add",
+      "url": "https://antmurphy.medium.com/remove-dont-add-0b7198916fe3?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-05-01T09:30:11+00:00",
+      "summary": "The article, \"Remove Don’t Add,\" argues that the most critical product decisions involve deliberate inaction—choosing not to build features or pursue initiatives that don't align with core value. By focusing on removal and restraint, product teams can sharpen focus, reduce complexity, and drive stronger outcomes. It encourages leaders to embed this mindset into roadmap planning and prioritization processes.",
+      "tags": [
+        "Product Strategy",
+        "Leadership",
+        "Prioritization"
+      ]
+    },
+    {
+      "title": "The spec is dead.  Long live the spec.",
+      "url": "https://www.productledalliance.com/why-product-specs-are-more-important-than-ever/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-05-01T07:14:03+00:00",
+      "summary": "The article discusses how AI is transforming product specifications, turning them into dynamic, AI‑driven artifacts that product managers must expertly navigate. It also highlights that judgment becomes a scarce resource in this new environment, emphasizing the need for PMs to develop strong decision‑making skills.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Product Design"
+      ]
+    },
+    {
+      "title": "How to Build a TikTok-Like App Without Wasting Time and Budget",
+      "url": "https://medium.com/activated-thinker/how-to-build-a-tiktok-like-app-without-wasting-time-and-budget-dd2058e4d4be?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-05-01T05:27:21+00:00",
+      "summary": "The article outlines a streamlined approach to developing a TikTok-style short‑form video app, emphasizing rapid prototyping, cost‑effective technology stacks, and prioritizing core features that drive user engagement. It provides product managers with a roadmap to avoid common pitfalls, leverage existing AI tools for content recommendation, and focus resources on scalability and retention.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Growth"
+      ]
+    },
+    {
+      "title": "How to Build a TikTok-Like App Without Wasting Time and Budget",
+      "url": "https://medium.com/write-a-catalyst/how-to-build-a-tiktok-like-app-without-wasting-time-and-budget-d7ddeb0cb598?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-05-01T05:24:33+00:00",
+      "summary": "The article outlines a lean approach to launching a short‑form video platform, emphasizing rapid MVP development, leveraging existing cloud services, and focusing on core features that drive user engagement while avoiding costly custom infrastructure. It provides a step‑by‑step roadmap for product managers to prioritize functionality, iterate quickly, and validate market demand before scaling.",
+      "tags": [
+        "Product Strategy",
+        "Growth",
+        "Product Design"
+      ]
+    },
+    {
+      "title": "Webpt: Principal Product Manager",
+      "url": "https://weworkremotely.com/remote-jobs/webpt-principal-product-manager",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-04-30T20:34:20+00:00",
+      "summary": "WebPT is seeking a Principal Product Manager to own and execute cross‑functional product strategies that support its growth in the EMR and billing space. The role will drive high‑impact initiatives, partner across the organization, and ensure alignment with business objectives to enhance healthcare provider workflows.",
+      "tags": [
+        "Product Strategy",
+        "Leadership",
+        "Product Design"
+      ]
+    },
+    {
+      "title": "Userwise Services: Product Manager",
+      "url": "https://weworkremotely.com/remote-jobs/userwise-services-product-manager-1",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-04-30T20:33:47+00:00",
+      "summary": "UserWise is seeking a data‑driven Product Manager to own a casual game tied to a major global IP, acting as the product’s CEO to drive daily LiveOps, balance, and player experience. The role combines product strategy, rapid iteration, and monetization insights to keep the game fresh and engaging for millions of users worldwide.",
+      "tags": [
+        "Product Strategy",
+        "Metrics",
+        "Growth"
+      ]
+    },
+    {
+      "title": "Montage",
+      "url": "https://www.producthunt.com/products/montage-3",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-04-30T15:50:23+00:00",
+      "summary": "The article introduces the Montage UI Agentic framework, which streamlines UI generation by reducing token consumption and accelerating output. It outlines how the framework leverages agentic components to automate design tasks, helping product teams deliver interfaces faster and more efficiently.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Productivity"
+      ]
+    },
+    {
+      "title": "Building AI Employees for Hospitality: How AITropos Takes Orders Where Customers Already Are",
+      "url": "https://www.producttalk.org/building-ai-employees-for-hospitality-how-aitropos-takes-orders-where-customers-already-are/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-04-30T13:00:18+00:00",
+      "summary": "The episode explores how AITropos built an AI system capable of taking food orders via WhatsApp with human-like accuracy and speed, addressing challenges like natural language understanding, real-time response, and seamless integration into existing hospitality workflows. It delves into the product design decisions, data training, and operational considerations required to deploy AI employees that meet both customer expectations and business efficiency goals.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Growth"
+      ]
+    },
     {
       "title": "The embedded analytics  ROI paradox",
       "url": "https://www.productledalliance.com/the-embedded-analytics-roi-paradox/",
@@ -325,6 +442,19 @@
         "Data",
         "Product Strategy",
         "Leadership"
+      ]
+    },
+    {
+      "title": "ScreenVeil",
+      "url": "https://www.producthunt.com/products/screenveil",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-04-28T07:56:19+00:00",
+      "summary": "ScreenVeil is a tool that allows users to mask or hide sensitive information on their computer screens, helping maintain privacy during meetings, recordings, or screen sharing. It offers customizable overlays to obscure specific windows or content, catering to professionals concerned about data leakage and visual confidentiality.",
+      "tags": [
+        "Product Strategy",
+        "AI Tools",
+        "Privacy"
       ]
     },
     {
