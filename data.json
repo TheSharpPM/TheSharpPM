@@ -1,7 +1,120 @@
 {
-  "updated": "2026-05-01T10:15:23.416824+00:00",
-  "total": 215,
+  "updated": "2026-05-02T09:02:09.678521+00:00",
+  "total": 226,
   "items": [
+    {
+      "title": "Most Product Teams Are Building for a World That No Longer Exists",
+      "url": "https://medium.com/@saichithra.swaminathan/most-product-teams-are-building-for-a-world-that-no-longer-exists-4ae8014137d1?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-05-02T08:41:16+00:00",
+      "summary": "The article argues that most product teams are still planning features for a market that has shifted dramatically, leading to misaligned roadmaps and wasted resources. It urges product managers to reassess assumptions, incorporate real-time market signals, and pivot toward solving current user problems rather than outdated visions.",
+      "tags": [
+        "Product Strategy",
+        "Growth",
+        "Leadership"
+      ]
+    },
+    {
+      "title": "The Onboarding Call That Made Us Trust a B2B Tool More Than Our Own Team.",
+      "url": "https://medium.com/@miladdevarts/the-onboarding-call-that-made-us-trust-a-b2b-tool-more-than-our-own-team-81a263a29d12?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-05-02T08:03:38+00:00",
+      "summary": "The article highlights how effective B2B onboarding calls can build stronger trust than internal teams by providing clear, expert guidance and personalized support. It outlines best practices for onboarding that help users quickly realize value and feel confident using the tool.",
+      "tags": [
+        "Product Strategy",
+        "User Research",
+        "Growth"
+      ]
+    },
+    {
+      "title": "Minimum Viable Product (MVP): What is MVP and types of MVP",
+      "url": "https://medium.com/@Karthikeyag/what-is-minimum-viable-product-and-types-of-mvp-28e0c491cad4?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-05-02T03:31:01+00:00",
+      "summary": "The article explains the concept of a Minimum Viable Product (MVP), outlining its purpose as a low‑effort version of a product used to validate assumptions and gather user feedback. It also categorizes the different types of MVPs—such as prototype, concierge, wizard of oz, and landing page—helping product managers choose the right approach for early-stage validation.",
+      "tags": [
+        "Product Strategy",
+        "Product Design",
+        "Prioritization"
+      ]
+    },
+    {
+      "title": "11 Tips to Build a Profitable Mobile App",
+      "url": "https://medium.com/@baheer224/11-tips-to-build-a-profitable-mobile-app-c47777bd0b64?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-05-02T03:24:17+00:00",
+      "summary": "The article outlines practical tactics for creating mobile apps that generate profit, emphasizing market research, user-focused design, effective monetization models, and continuous optimization. It advises product managers to prioritize core features, leverage data-driven decisions, and maintain a lean development cycle to maximize ROI.",
+      "tags": [
+        "Product Strategy",
+        "Growth",
+        "Metrics"
+      ]
+    },
+    {
+      "title": "Clover Health: Staff Product Manager, Member Experience",
+      "url": "https://weworkremotely.com/remote-jobs/clover-health-staff-product-manager-member-experience",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-05-01T20:32:33+00:00",
+      "summary": "The posting seeks a senior individual contributor to lead product strategy and execution for Clover Health's member experience across all channels. The Staff Product Manager will define direction, set metrics, form hypotheses, and drive measurable member and business outcomes while influencing cross‑functional teams.",
+      "tags": [
+        "Product Strategy",
+        "Metrics",
+        "Leadership"
+      ]
+    },
+    {
+      "title": "Pulse Games: Product Specialist",
+      "url": "https://weworkremotely.com/remote-jobs/pulse-games-product-specialist",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-05-01T20:31:24+00:00",
+      "summary": "Pulse Games is hiring a Product Specialist to drive the end-to-end development of its mobile, skill‑based games, focusing on creating engaging experiences for a global audience. The role emphasizes remote collaboration, community building, and iterative improvement to grow player bases worldwide.",
+      "tags": [
+        "Product Strategy",
+        "Growth",
+        "Product Culture"
+      ]
+    },
+    {
+      "title": "2026.18: Long-term, Peripheral & Myopic Visions",
+      "url": "https://stratechery.com/2026/long-term-peripheral-myopic-visions/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-05-01T17:00:00+00:00",
+      "summary": "This week’s Stratechery roundup highlights Amazon’s expanding AI initiatives, the evolving landscape of AR hardware, and how Beijing’s focus on myopia reflects broader health and technology trends. For product managers, the pieces underscore the importance of long‑term vision, peripheral market signals, and balancing short‑term tactics with strategic foresight.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Growth"
+      ]
+    },
+    {
+      "title": "What does a product  manager (PM) do?",
+      "url": "https://www.productledalliance.com/what-does-a-product-manager-do-exactly/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-05-01T13:30:00+00:00",
+      "summary": "A product manager crafts the product vision and strategic roadmap, aligning business objectives with user needs. They act as the central coordinator, guiding cross‑functional teams through development and launch to ensure successful delivery.",
+      "tags": [
+        "Product Strategy",
+        "Leadership",
+        "Product Design"
+      ]
+    },
+    {
+      "title": "75+ product management statistics  you need to know in 2026",
+      "url": "https://www.productledalliance.com/product-management-statistics/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-05-01T13:05:15+00:00",
+      "summary": "Summary not available.",
+      "tags": []
+    },
     {
       "title": "The 1:00 AM Pivot: How TruMarked.in Was Built in 5 Days for $0",
       "url": "https://medium.com/@jagadeeshpurohith/the-1-00-am-pivot-how-trumarked-in-was-built-in-5-days-for-0-a013c86c774b?source=rss------product_management-5",
@@ -614,6 +727,19 @@
       ]
     },
     {
+      "title": "Filect",
+      "url": "https://www.producthunt.com/products/filect",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-04-26T21:57:34+00:00",
+      "summary": "Filect is an AI‑powered tool that automatically categorizes, tags, and organizes digital files, making it easier for users to locate and manage documents without manual effort. For product managers, the platform showcases how AI can be integrated into everyday productivity workflows to drive user adoption and reduce friction in file management.",
+      "tags": [
+        "AI Tools",
+        "Productivity",
+        "Product Strategy"
+      ]
+    },
+    {
       "title": "VIDEO AI ME",
       "url": "https://www.producthunt.com/products/video-ai-me",
       "source": "Product Hunt",
@@ -1040,6 +1166,19 @@
         "AI Tools",
         "Product Design",
         "Product Strategy"
+      ]
+    },
+    {
+      "title": "Microsoft Copilot Health",
+      "url": "https://www.producthunt.com/products/copilot-health",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-04-22T10:34:44+00:00",
+      "summary": "Microsoft Copilot Health provides a unified interface for users to aggregate and view their personal health data, enabling easier monitoring and insights. The platform aims to centralize medical records, wearables, and wellness metrics to support proactive health management.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "User Research"
       ]
     },
     {
