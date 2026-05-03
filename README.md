@@ -14,3 +14,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+<div class="section">
+        <p>The Sharp PM is an experimental project for Product Managers who want to stay sharp without drowning in newsletters. It does two things: a daily aggregator that pulls fresh content from PM and AI sources, and Agent Sharp, a weekly editorial dispatch with a point of view.</p>
+        <p>Each piece in the daily digest is summarised and tagged by AI, so you can scan, filter, and skip what you don't need. Agent Sharp goes further: it reads the week's output, picks what matters, and writes an opinionated editorial.</p>
+    </div>
