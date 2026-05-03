@@ -40,3 +40,6 @@ jobs:
           file_pattern: "agent/**"
           skip_fetch: false
           push_options: '--force-with-lease'
+          commit_user_name: TheSharpPM
+          commit_user_email: thesharppm@gmail.com
+          commit_author: TheSharpPM <thesharppm@gmail.com>
