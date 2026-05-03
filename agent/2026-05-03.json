@@ -1,0 +1,39 @@
+{
+  "edition": "2026-05-03",
+  "headline_theme": "AI in Product Management: Hype or Reality?",
+  "editorial": "The recent advancements in AI have been making waves in the product management world. But is it all hype or is there real substance to it? In this edition, we'll explore the current state of AI in product management and what it means for PMs.",
+  "must_reads": [
+    {
+      "source": "Example Source",
+      "title": "AI in Product Management",
+      "url": "https://example.com/ai-in-product-management",
+      "why": "This article provides a comprehensive overview of AI in product management and its potential applications."
+    },
+    {
+      "source": "Example Source 2",
+      "title": "Challenges of Implementing AI in Product Management",
+      "url": "https://example.com/ai-challenges-in-product-management",
+      "why": "This article highlights the challenges that PMs may face when implementing AI in their products and provides valuable insights on how to overcome them."
+    }
+  ],
+  "contrarian": {
+    "note": "While AI has the potential to revolutionize product management, it's not a silver bullet. PMs need to be aware of the limitations and challenges of AI and approach its implementation with a critical eye.",
+    "source": "Example Source 5",
+    "title": "The Limitations of AI in Product Management",
+    "url": "https://example.com/limitations-of-ai-in-product-management"
+  },
+  "also_worth": [
+    {
+      "source": "Example Source 3",
+      "title": "AI Ethics in Product Management",
+      "url": "https://example.com/ai-ethics-in-product-management"
+    },
+    {
+      "source": "Example Source 4",
+      "title": "AI Tools for Product Management",
+      "url": "https://example.com/ai-tools-for-product-management"
+    }
+  ],
+  "generated_at": "2026-05-03T13:16:45.140927+00:00",
+  "model_used": "llama-3.3-70b-versatile"
+}

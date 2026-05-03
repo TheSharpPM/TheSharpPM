@@ -1,4 +1,10 @@
 {
-  "editions": [],
-  "updated_at": null
+  "editions": [
+    {
+      "date": "2026-05-03",
+      "headline_theme": "AI in Product Management: Hype or Reality?",
+      "file": "agent/2026-05-03.json"
+    }
+  ],
+  "updated_at": "2026-05-03T13:16:45.141191+00:00"
 }
