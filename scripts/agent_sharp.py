@@ -20,15 +20,14 @@ from datetime import datetime, timezone
 from pathlib import Path
 from time import mktime
 
-from google import genai
-from google.genai import types
+from groq import Groq
 
 
 # ── CONFIG ────────────────────────────────────────────────────────────────────
 
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
+GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
 TAVILY_API_KEY = os.environ.get("TAVILY_API_KEY")
-MODEL = os.environ.get("AGENT_MODEL", "gemini-2.0-flash")
+MODEL = os.environ.get("AGENT_MODEL", "llama-3.3-70b-versatile")
 
 AGENT_DIR = Path("agent")
 INDEX_FILE = AGENT_DIR / "index.json"
@@ -236,7 +235,7 @@ def tool_publish_edition(headline_theme, editorial, must_reads,
     return {"status": "published", "file": f"agent/{date}.json"}
 
 
-# ── TOOL DECLARATIONS (Gemini function calling) ───────────────────────────────
+# ── TOOL DECLARATIONS (OpenAI / Groq function calling) ────────────────────────
 
 TOOL_DECLARATIONS = [
     {
@@ -353,6 +352,9 @@ TOOL_DECLARATIONS = [
     },
 ]
 
+# Wrap declarations in the OpenAI / Groq tool envelope.
+TOOLS = [{"type": "function", "function": d} for d in TOOL_DECLARATIONS]
+
 
 # ── SYSTEM PROMPT ─────────────────────────────────────────────────────────────
 
@@ -416,72 +418,83 @@ def execute_tool(name, args):
 
 
 def run_agent():
-    if not GEMINI_API_KEY:
-        print("ERROR: GEMINI_API_KEY not set")
+    if not GROQ_API_KEY:
+        print("ERROR: GROQ_API_KEY not set")
         return 1
     if not TAVILY_API_KEY:
         print("WARNING: TAVILY_API_KEY not set - web_search will return errors.")
 
-    client = genai.Client(api_key=GEMINI_API_KEY)
-
-    tools = [types.Tool(function_declarations=TOOL_DECLARATIONS)]
-    config = types.GenerateContentConfig(
-        system_instruction=SYSTEM_PROMPT,
-        tools=tools,
-        temperature=0.7,
-    )
+    client = Groq(api_key=GROQ_API_KEY)
 
     date = edition_date()
     user_turn = (
         f"Begin editorial work for the Agent Sharp edition of {date}. "
         f"Start with read_memory, then explore feeds, finish by calling publish_edition."
     )
-    contents = [types.Content(role="user", parts=[types.Part.from_text(text=user_turn)])]
+    messages = [
+        {"role": "system", "content": SYSTEM_PROMPT},
+        {"role": "user", "content": user_turn},
+    ]
 
     print(f"Agent Sharp - starting run for {date}\n")
 
     for iteration in range(1, MAX_ITERATIONS + 1):
         print(f"[iter {iteration}]")
         try:
-            response = client.models.generate_content(
+            response = client.chat.completions.create(
                 model=MODEL,
-                contents=contents,
-                config=config,
+                messages=messages,
+                tools=TOOLS,
+                tool_choice="auto",
+                temperature=0.7,
             )
         except Exception as e:
-            print(f"  Gemini error: {e}")
+            print(f"  Groq error: {e}")
             return 1
 
-        candidate = response.candidates[0]
-        contents.append(candidate.content)
+        message = response.choices[0].message
+        tool_calls = message.tool_calls or []
 
-        function_calls = []
-        for part in (candidate.content.parts or []):
-            if getattr(part, "function_call", None):
-                function_calls.append(part.function_call)
+        assistant_msg = {"role": "assistant", "content": message.content}
+        if tool_calls:
+            assistant_msg["tool_calls"] = [
+                {
+                    "id": tc.id,
+                    "type": "function",
+                    "function": {
+                        "name": tc.function.name,
+                        "arguments": tc.function.arguments,
+                    },
+                }
+                for tc in tool_calls
+            ]
+        messages.append(assistant_msg)
 
-        if not function_calls:
-            text_parts = [p.text for p in (candidate.content.parts or []) if getattr(p, "text", None)]
-            if text_parts:
-                print(f"  Agent said: {text_parts[0][:300]}")
+        if not tool_calls:
+            if message.content:
+                print(f"  Agent said: {message.content[:300]}")
             print("  Agent produced no tool calls. Stopping.")
             return 1
 
-        tool_result_parts = []
         published = False
-        for fc in function_calls:
-            args = dict(fc.args) if fc.args else {}
-            result = execute_tool(fc.name, args)
-            tool_result_parts.append(
-                types.Part.from_function_response(name=fc.name, response={"result": result})
-            )
-            if (fc.name == "publish_edition"
+        for tc in tool_calls:
+            try:
+                args = json.loads(tc.function.arguments) if tc.function.arguments else {}
+                result = execute_tool(tc.function.name, args)
+            except json.JSONDecodeError as e:
+                result = {"error": f"could not parse arguments: {e}"}
+
+            messages.append({
+                "role": "tool",
+                "tool_call_id": tc.id,
+                "content": json.dumps(result, ensure_ascii=False),
+            })
+
+            if (tc.function.name == "publish_edition"
                     and isinstance(result, dict)
                     and result.get("status") == "published"):
                 published = True
                 print(f"  [published] {result.get('file')}")
-
-        contents.append(types.Content(role="user", parts=tool_result_parts))
 
         if published:
             print("\nDone.")
