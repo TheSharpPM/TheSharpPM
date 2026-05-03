@@ -36,6 +36,20 @@ MAX_ITERATIONS = 15          # safety cap on agent turns
 MAX_ARTICLE_CHARS = 5000     # truncate article fetches
 MAX_FEED_ITEMS = 30          # cap feed payload per tool call
 
+# Tracks how many times each tool has been invoked in the current run.
+# Used by the publish gate to refuse premature or ungrounded publishes.
+TOOL_CALL_COUNTS = {}
+
+# Substrings that signal fabricated / placeholder content. The publish gate
+# refuses to publish anything containing these.
+PLACEHOLDER_INDICATORS = [
+    "example.com",
+    "example.org",
+    "example source",
+    "lorem ipsum",
+    "placeholder",
+]
+
 
 # ── FEEDS ─────────────────────────────────────────────────────────────────────
 
@@ -193,6 +207,57 @@ def tool_read_memory(weeks=4):
 def tool_publish_edition(headline_theme, editorial, must_reads,
                          contrarian=None, also_worth=None):
     """Save the edition to disk and update the index. Ends the run."""
+
+    # Gate 1: the agent must have actually gathered material before publishing.
+    if (TOOL_CALL_COUNTS.get("fetch_feeds", 0) == 0
+            and TOOL_CALL_COUNTS.get("web_search", 0) == 0):
+        return {
+            "error": (
+                "Refusing to publish: you have not called fetch_feeds or "
+                "web_search yet. Gather real articles first, then call "
+                "publish_edition with sources from those tool results."
+            )
+        }
+
+    # Gate 2: every URL, title and source must look real. Reject placeholders.
+    items_to_check = list(must_reads or [])
+    if contrarian:
+        items_to_check.append(contrarian)
+    items_to_check.extend(also_worth or [])
+
+    for item in items_to_check:
+        if not isinstance(item, dict):
+            continue
+        haystack = " ".join([
+            str(item.get("url", "")),
+            str(item.get("title", "")),
+            str(item.get("source", "")),
+        ]).lower()
+        for indicator in PLACEHOLDER_INDICATORS:
+            if indicator in haystack:
+                return {
+                    "error": (
+                        f"Refusing to publish: detected placeholder content "
+                        f"('{indicator}'). Every URL, title and source must "
+                        f"come from a real fetch_feeds, web_search or "
+                        f"fetch_article result. Re-do the research and call "
+                        f"publish_edition again with real items."
+                    )
+                }
+
+    # Gate 3: the editorial must have substance. Llama tends to write 50-word
+    # stubs unless we explicitly refuse them.
+    word_count = len((editorial or "").split())
+    if word_count < 200:
+        return {
+            "error": (
+                f"Refusing to publish: editorial is only {word_count} words. "
+                f"Required: 250-450 words with three paragraphs (hook anchored "
+                f"in a specific article, synthesis across 3+ pieces, "
+                f"implication for PMs). Rewrite and call publish_edition again."
+            )
+        }
+
     AGENT_DIR.mkdir(parents=True, exist_ok=True)
 
     date = edition_date()
@@ -304,7 +369,7 @@ TOOL_DECLARATIONS = [
                 },
                 "editorial": {
                     "type": "string",
-                    "description": "Opening editorial with voice and opinion. 2 or 3 paragraphs, 150 to 300 words. Direct, sharp, no corporate jargon.",
+                    "description": "Editorial with voice and opinion. EXACTLY 3 paragraphs, 250 to 450 words total. Para 1: hook anchored in 1-2 specific articles you found this run (name them). Para 2: synthesis connecting 3+ pieces you read, with a clear position. Para 3: concrete implication for Staff/Senior PMs this week. Direct, sharp, no corporate jargon.",
                 },
                 "must_reads": {
                     "type": "array",
@@ -362,16 +427,27 @@ SYSTEM_PROMPT = """You are the editor of "Agent Sharp" - a weekly editorial disp
 
 Your voice is direct, opinionated, and sharp. You cut through hype and surface what actually matters.
 
+ABSOLUTE RULES (violating these will cause publish_edition to reject your submission):
+- NEVER invent URLs, titles, sources, dates, or quotes. Every URL in must_reads, contrarian, and also_worth MUST come verbatim from a fetch_feeds, web_search, or fetch_article tool result returned in this conversation.
+- NEVER use placeholder content. URLs containing "example.com" or "example.org", and titles or sources like "Example Source" will be rejected.
+- NEVER call publish_edition before you have called fetch_feeds or web_search at least once and read real items.
+- The editorial body must be between 250 and 450 words. Shorter editorials will be rejected.
+
 Your weekly routine:
 
 1. Call read_memory first. See what the last few editions covered. Avoid repeating themes from the last 2-3 weeks unless there is genuine news to add.
 2. Call fetch_feeds to see what is out there. Start broad, then narrow with topic filters when a theme emerges.
 3. When an item looks important, use fetch_article to read the full piece, or web_search to find reactions and context.
-4. Identify ONE dominant theme for the week. Not a vague category - a real, opinionated angle.
-5. Pick 3 to 5 must-reads with an editorial "why". The "why" must contain opinion, not description.
+4. Identify ONE dominant theme for the week. Not a vague category - a real, opinionated angle grounded in specific articles you actually read this turn.
+5. Pick 3 to 5 must-reads with an editorial "why". The "why" must contain opinion, not description, and must reference something concrete from the article.
 6. Optionally find a contrarian: something that challenges the week's dominant narrative.
-7. Write the editorial: 2 to 3 short paragraphs, sharp voice, no hedging.
+7. Write the editorial.
 8. Call publish_edition when ready. This ends the run.
+
+Editorial structure (3 paragraphs, 250-450 words total):
+- Paragraph 1 - Hook: a sharp observation about THIS specific week, anchored in 1 or 2 specific articles or events you found via tools. Name the article or company. No vague openings.
+- Paragraph 2 - Synthesis: connect 3 or more pieces you actually read this run. Show the pattern. Take a position.
+- Paragraph 3 - Implication for PMs: what should a Staff or Senior PM DO differently this week because of what you surfaced. Concrete, not abstract.
 
 Editorial principles:
 - Opinion beats description. "This matters because X" beats "This article says Y".
@@ -406,6 +482,7 @@ TOOL_DISPATCH = {
 
 def execute_tool(name, args):
     print(f"  -> tool: {name}({json.dumps(args, ensure_ascii=False)[:200]})")
+    TOOL_CALL_COUNTS[name] = TOOL_CALL_COUNTS.get(name, 0) + 1
     fn = TOOL_DISPATCH.get(name)
     if not fn:
         return {"error": f"unknown tool: {name}"}
@@ -440,12 +517,16 @@ def run_agent():
 
     for iteration in range(1, MAX_ITERATIONS + 1):
         print(f"[iter {iteration}]")
+        # On the first turn, force the agent to actually call a tool.
+        # Without this, Llama sometimes skips straight to a fabricated
+        # publish_edition with example.com URLs.
+        tool_choice = "required" if iteration == 1 else "auto"
         try:
             response = client.chat.completions.create(
                 model=MODEL,
                 messages=messages,
                 tools=TOOLS,
-                tool_choice="auto",
+                tool_choice=tool_choice,
                 temperature=0.7,
             )
         except Exception as e:
