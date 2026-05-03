@@ -1,30 +1,51 @@
 {
   "edition": "2026-05-03",
   "headline_theme": "AI in Product Management: Separating Hype from Reality",
-  "editorial": "The recent advancements in AI have been making waves in the product management world. But is it all hype or is there real substance to it? In this edition, we'll explore the current state of AI in product management and what it means for PMs. We'll examine how Notion's design and product lead, Max Schoening, has been effective in getting designers and PMs to ship code, prototype in the terminal, and launch extremely successful AI products. We'll also discuss how agency—not skills—is the thing that separates people who thrive from those who fall behind in the AI era. In the world of AI, the first 10% of every project is now \"free,\" and what that means for product development. Our must-reads include an article by Lenny's Newsletter on why cultivating agency matters more than cultivating skills in the AI era, and a guide by Statsig on how to build a great AI product if you're not an AI company. Our contrarian pick is an article by Benedict Evans on how OpenAI will compete in the market. The implications for PMs are clear: to thrive in the AI era, they need to focus on cultivating agency, not just skills. They need to understand how to build great AI products, and how to use AI to enhance their productivity, creativity, and workflow efficiency.",
+  "editorial": "Notion shipped its terminal-first agent build flow this week, and Lenny's interview with Max Schoening makes a quiet claim that should land louder: agency is now the bottleneck, not skill. The PMs you envy in 2026 are not the ones who learned six AI tools - they're the ones willing to ship a half-broken prototype on a Tuesday afternoon. \n\nIn a world where AI is increasingly capable, the difference between good and great product managers is no longer about skills, but about agency. Agency is the ability to take action, to make decisions, and to drive change. It's the ability to cut through the noise, to prioritize, and to focus on what really matters. As Max Schoening noted in his interview, Notion's design and product lead has been effective in getting designers and PMs to ship code, prototype in the terminal, and launch extremely successful AI products. \n\nSo what does this mean for product managers? It means that we need to focus on building our agency, not just our skills. We need to be willing to take risks, to experiment, and to learn from our failures. We need to be able to navigate the complexities of our organizations, to build alliances, and to drive change. As seen in the Notion AI agent build flow, we can use AI to automate tasks and free up time for more strategic work. By doing so, we can increase our agency and become more effective product managers. In short, we need to be able to get things done, even when it's hard. And that's what separates the good product managers from the great ones.",
+  "key_takeaways": [
+    "Agency is now the bottleneck, not skill",
+    "The ability to take action and drive change is key to success in product management",
+    "Product managers need to focus on building their agency, not just their skills"
+  ],
   "must_reads": [
     {
       "source": "Lenny's Newsletter",
       "title": "Why cultivating agency matters more than cultivating skills in the AI era",
       "url": "https://www.lennysnewsletter.com/p/why-cultivating-agency-matters-more",
-      "why": "This article provides a comprehensive overview of why agency matters more than skills in the AI era, and how Notion's design and product lead, Max Schoening, has been effective in getting designers and PMs to ship code, prototype in the terminal, and launch extremely successful AI products."
+      "why": "I appreciate how this article emphasizes the importance of agency in product management, and how it's becoming the key differentiator between good and great product managers. The article's focus on the role of agency in driving change and taking action resonates with me, and I think it's a crucial takeaway for product managers."
     },
     {
-      "source": "Statsig",
-      "title": "Lessons from Notion: How to build a great AI product, if you're not an AI company",
-      "url": "https://www.statsig.com/blog/notion-how-to-build-an-ai-product",
-      "why": "This guide provides a comprehensive overview of how to build a great AI product, even if you're not an AI company, and how Notion has been successful in building AI products."
+      "source": "SVPG",
+      "title": "Build To Learn FAQ",
+      "url": "https://www.svpg.com/build-to-learn-faq/",
+      "why": "The build-to-learn approach is a game-changer for product managers looking to build their agency. By focusing on learning and experimentation, PMs can develop the skills and confidence they need to drive change and take action."
+    },
+    {
+      "source": "Product Talk",
+      "title": "Building AI Employees for Hospitality: How AITropos Takes Orders Where Customers Already Are",
+      "url": "https://www.producttalk.org/building-ai-employees-for-hospitality-how-aitropos-takes-orders-where-customers-already-are/",
+      "why": "I think this article is a great example of how AI can be used to build agency in product management. The way AITropos uses AI to automate tasks and free up time for more strategic work is a valuable insight for product managers looking to improve their agency."
     }
   ],
-  "contrarian": null,
+  "contrarian": {
+    "note": "This article challenges the idea that building agency in product management requires a lot of time and effort. It shows how Notion AI agents can be used to create custom workflows in just 10 minutes, which can help product managers build their agency quickly and efficiently.",
+    "source": "Nate's Substack",
+    "title": "Million-Dollar Workflows in 10 Minutes",
+    "url": "https://natesnewsletter.substack.com/p/million-dollar-workflows-in-10-minutes"
+  },
   "also_worth": [
     {
-      "note": "This resource provides an overview of how product teams can use artificial intelligence to enhance their productivity, creativity, and workflow efficiency.",
-      "source": "Notion",
-      "title": "Notion AI",
-      "url": "https://www.notion.com/help/guides/category/ai"
+      "source": "YouTube",
+      "title": "Build Your Own Notion AI Agent",
+      "url": "https://www.youtube.com/watch?v=uK5mrYZhuCo",
+      "why": "This video provides a step-by-step guide on how to create a Notion AI agent, which can help product managers automate tasks and build their agency."
     }
   ],
-  "generated_at": "2026-05-03T13:26:13.115806+00:00",
+  "pm_homework": [
+    "Take a risk and ship a half-broken prototype this week",
+    "Identify one area where you can build your agency, and take action on it",
+    "Read one article on building agency in product management, and apply one insight to your work."
+  ],
+  "generated_at": "2026-05-03T13:39:56.859724+00:00",
   "model_used": "llama-3.3-70b-versatile"
 }
