@@ -36,6 +36,15 @@ MAX_ITERATIONS = 15          # safety cap on agent turns
 MAX_ARTICLE_CHARS = 5000     # truncate article fetches
 MAX_FEED_ITEMS = 30          # cap feed payload per tool call
 
+EDITORIAL_MIN_WORDS = 250
+EDITORIAL_MAX_WORDS = 500
+MUST_READS_MIN = 3
+MUST_READS_MAX = 5
+KEY_TAKEAWAYS_MIN = 3
+KEY_TAKEAWAYS_MAX = 5
+PM_HOMEWORK_MIN = 1
+PM_HOMEWORK_MAX = 3
+
 # Tracks how many times each tool has been invoked in the current run.
 # Used by the publish gate to refuse premature or ungrounded publishes.
 TOOL_CALL_COUNTS = {}
@@ -48,6 +57,38 @@ PLACEHOLDER_INDICATORS = [
     "example source",
     "lorem ipsum",
     "placeholder",
+]
+
+# Phrases that signal the editorial is a meta-narrative / table of contents
+# instead of an actual editorial with voice and opinion. Llama loves these.
+META_NARRATIVE_PHRASES = [
+    "we'll explore",
+    "we will explore",
+    "we'll examine",
+    "we will examine",
+    "we'll discuss",
+    "we will discuss",
+    "we'll look at",
+    "we will look at",
+    "we'll dive into",
+    "in this edition",
+    "in this week's edition",
+    "in this dispatch",
+    "our must-reads include",
+    "our must reads include",
+    "our contrarian pick",
+    "this week we'll",
+]
+
+# Phrases that signal a "why" field is descriptive instead of opinionated.
+LAZY_WHY_PHRASES = [
+    "comprehensive overview",
+    "provides an overview",
+    "this article highlights",
+    "this article provides",
+    "this article discusses",
+    "this guide provides",
+    "this resource provides",
 ]
 
 
@@ -205,6 +246,7 @@ def tool_read_memory(weeks=4):
 
 
 def tool_publish_edition(headline_theme, editorial, must_reads,
+                         key_takeaways, pm_homework,
                          contrarian=None, also_worth=None):
     """Save the edition to disk and update the index. Ends the run."""
 
@@ -245,16 +287,83 @@ def tool_publish_edition(headline_theme, editorial, must_reads,
                     )
                 }
 
-    # Gate 3: the editorial must have substance. Llama tends to write 50-word
-    # stubs unless we explicitly refuse them.
+    # Gate 3: editorial length.
     word_count = len((editorial or "").split())
-    if word_count < 200:
+    if word_count < EDITORIAL_MIN_WORDS:
         return {
             "error": (
                 f"Refusing to publish: editorial is only {word_count} words. "
-                f"Required: 250-450 words with three paragraphs (hook anchored "
-                f"in a specific article, synthesis across 3+ pieces, "
-                f"implication for PMs). Rewrite and call publish_edition again."
+                f"Required: {EDITORIAL_MIN_WORDS}-{EDITORIAL_MAX_WORDS} words, "
+                f"three paragraphs (hook anchored in a specific article, "
+                f"synthesis across 3+ pieces, implication for PMs). Rewrite "
+                f"and call publish_edition again."
+            )
+        }
+
+    # Gate 4: editorial style. Reject meta-narrative / table-of-contents prose.
+    editorial_lower = (editorial or "").lower()
+    for phrase in META_NARRATIVE_PHRASES:
+        if phrase in editorial_lower:
+            return {
+                "error": (
+                    f"Refusing to publish: editorial contains the phrase "
+                    f"'{phrase}', which makes it read like a table of contents "
+                    f"instead of an editorial. Remove ALL meta-narrative ('we "
+                    f"will explore', 'in this edition', 'our must-reads "
+                    f"include', etc.) and rewrite as a direct, opinionated "
+                    f"essay. The editorial IS the take, it does NOT describe "
+                    f"the dispatch."
+                )
+            }
+
+    # Gate 5: must_reads count.
+    mr_list = must_reads or []
+    if not (MUST_READS_MIN <= len(mr_list) <= MUST_READS_MAX):
+        return {
+            "error": (
+                f"Refusing to publish: must_reads has {len(mr_list)} items. "
+                f"Required: {MUST_READS_MIN}-{MUST_READS_MAX}. Add or remove "
+                f"items and call publish_edition again."
+            )
+        }
+
+    # Gate 6: each "why" must be opinionated, not descriptive.
+    for mr in mr_list:
+        if not isinstance(mr, dict):
+            continue
+        why_lower = str(mr.get("why", "")).lower()
+        for phrase in LAZY_WHY_PHRASES:
+            if phrase in why_lower:
+                return {
+                    "error": (
+                        f"Refusing to publish: must_read '{mr.get('title')}' "
+                        f"has a descriptive 'why' containing '{phrase}'. The "
+                        f"'why' must be opinion: state what the article gets "
+                        f"right, wrong, or what specific takeaway a Staff PM "
+                        f"should act on. Do not describe the article, react "
+                        f"to it."
+                    )
+                }
+
+    # Gate 7: key_takeaways count.
+    kt_list = key_takeaways or []
+    if not (KEY_TAKEAWAYS_MIN <= len(kt_list) <= KEY_TAKEAWAYS_MAX):
+        return {
+            "error": (
+                f"Refusing to publish: key_takeaways has {len(kt_list)} items. "
+                f"Required: {KEY_TAKEAWAYS_MIN}-{KEY_TAKEAWAYS_MAX} sharp, "
+                f"specific observations grounded in articles you read."
+            )
+        }
+
+    # Gate 8: pm_homework count.
+    hw_list = pm_homework or []
+    if not (PM_HOMEWORK_MIN <= len(hw_list) <= PM_HOMEWORK_MAX):
+        return {
+            "error": (
+                f"Refusing to publish: pm_homework has {len(hw_list)} items. "
+                f"Required: {PM_HOMEWORK_MIN}-{PM_HOMEWORK_MAX} concrete "
+                f"actions a Staff or Senior PM should take this week."
             )
         }
 
@@ -265,9 +374,11 @@ def tool_publish_edition(headline_theme, editorial, must_reads,
         "edition": date,
         "headline_theme": headline_theme,
         "editorial": editorial,
-        "must_reads": must_reads or [],
+        "key_takeaways": kt_list,
+        "must_reads": mr_list,
         "contrarian": contrarian,
         "also_worth": also_worth or [],
+        "pm_homework": hw_list,
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "model_used": MODEL,
     }
@@ -369,11 +480,18 @@ TOOL_DECLARATIONS = [
                 },
                 "editorial": {
                     "type": "string",
-                    "description": "Editorial with voice and opinion. EXACTLY 3 paragraphs, 250 to 450 words total. Para 1: hook anchored in 1-2 specific articles you found this run (name them). Para 2: synthesis connecting 3+ pieces you read, with a clear position. Para 3: concrete implication for Staff/Senior PMs this week. Direct, sharp, no corporate jargon.",
+                    "description": "Editorial with voice and opinion. EXACTLY 3 paragraphs, 250 to 500 words total. Para 1 (hook): anchor in 1-2 specific articles you found this run, name the article and the company or author, state a sharp observation. Para 2 (synthesis): connect 3+ pieces you actually read, show the pattern, take a clear position. Para 3 (implication): what should a Staff or Senior PM do differently this week, concretely. NEVER write meta-narrative ('we'll explore', 'in this edition', 'our must-reads include', 'our contrarian pick'). The editorial IS the take, it does NOT describe the dispatch.",
+                },
+                "key_takeaways": {
+                    "type": "array",
+                    "description": "3 to 5 sharp, specific observations from the week. Each item is one sentence. NOT a summary of articles - state what changed, what's new, what's worth a PM's attention. Each takeaway must be grounded in a piece you actually read.",
+                    "items": {"type": "string"},
+                    "minItems": 3,
+                    "maxItems": 5,
                 },
                 "must_reads": {
                     "type": "array",
-                    "description": "3 to 5 hand-picked articles with an editorial 'why'. Ordered by importance.",
+                    "description": "3 to 5 hand-picked articles with an editorial 'why' and a pull quote. Ordered by importance.",
                     "items": {
                         "type": "object",
                         "properties": {
@@ -382,20 +500,26 @@ TOOL_DECLARATIONS = [
                             "source": {"type": "string"},
                             "why": {
                                 "type": "string",
-                                "description": "1 or 2 sentences explaining why this matters and for whom. Opinion, not description.",
+                                "description": "2 to 4 sentences of OPINION on why this matters. State what the piece gets right or wrong. NEVER write 'this article provides', 'comprehensive overview', 'this article highlights'. React, do not describe.",
+                            },
+                            "pull_quote": {
+                                "type": "string",
+                                "description": "Optional. A short verbatim quote or specific data point from the article that captures its core point. Must come from the actual article text.",
                             },
                         },
                         "required": ["title", "url", "source", "why"],
                     },
+                    "minItems": 3,
+                    "maxItems": 5,
                 },
                 "contrarian": {
                     "type": "object",
-                    "description": "Optional. A pick that pushes back on the week's dominant narrative.",
+                    "description": "Optional but encouraged. A pick that pushes back on the week's dominant narrative.",
                     "properties": {
                         "title": {"type": "string"},
                         "url": {"type": "string"},
                         "source": {"type": "string"},
-                        "note": {"type": "string", "description": "Why this challenges the dominant view."},
+                        "note": {"type": "string", "description": "2 to 3 sentences explaining specifically what this challenges and why a PM should sit with the discomfort."},
                     },
                 },
                 "also_worth": {
@@ -411,8 +535,15 @@ TOOL_DECLARATIONS = [
                         "required": ["title", "url"],
                     },
                 },
+                "pm_homework": {
+                    "type": "array",
+                    "description": "1 to 3 concrete actions a Staff or Senior PM should take this week because of what you surfaced. Each item is an imperative sentence ('Audit your...', 'Run a 30-min...', 'Bring this to your next...'). Specific, doable in a week, grounded in the must_reads.",
+                    "items": {"type": "string"},
+                    "minItems": 1,
+                    "maxItems": 3,
+                },
             },
-            "required": ["headline_theme", "editorial", "must_reads"],
+            "required": ["headline_theme", "editorial", "key_takeaways", "must_reads", "pm_homework"],
         },
     },
 ]
@@ -427,11 +558,16 @@ SYSTEM_PROMPT = """You are the editor of "Agent Sharp" - a weekly editorial disp
 
 Your voice is direct, opinionated, and sharp. You cut through hype and surface what actually matters.
 
-ABSOLUTE RULES (violating these will cause publish_edition to reject your submission):
+ABSOLUTE RULES (violating any of these will cause publish_edition to reject your submission and force you to retry):
 - NEVER invent URLs, titles, sources, dates, or quotes. Every URL in must_reads, contrarian, and also_worth MUST come verbatim from a fetch_feeds, web_search, or fetch_article tool result returned in this conversation.
 - NEVER use placeholder content. URLs containing "example.com" or "example.org", and titles or sources like "Example Source" will be rejected.
 - NEVER call publish_edition before you have called fetch_feeds or web_search at least once and read real items.
-- The editorial body must be between 250 and 450 words. Shorter editorials will be rejected.
+- Editorial body: 250 to 500 words, three paragraphs.
+- NEVER write meta-narrative in the editorial. Forbidden phrases: "we'll explore", "we'll examine", "we'll discuss", "in this edition", "in this week's edition", "our must-reads include", "our contrarian pick". The editorial IS the take, not a description of what the dispatch contains.
+- "why" fields on must_reads must be OPINION. Forbidden phrases: "this article provides", "this article highlights", "comprehensive overview", "provides an overview". React to the article, do not describe it.
+- must_reads must contain 3 to 5 items.
+- key_takeaways must contain 3 to 5 items.
+- pm_homework must contain 1 to 3 items.
 
 Your weekly routine:
 
@@ -439,15 +575,25 @@ Your weekly routine:
 2. Call fetch_feeds to see what is out there. Start broad, then narrow with topic filters when a theme emerges.
 3. When an item looks important, use fetch_article to read the full piece, or web_search to find reactions and context.
 4. Identify ONE dominant theme for the week. Not a vague category - a real, opinionated angle grounded in specific articles you actually read this turn.
-5. Pick 3 to 5 must-reads with an editorial "why". The "why" must contain opinion, not description, and must reference something concrete from the article.
+5. Pick 3 to 5 must-reads with an editorial "why". Add a pull_quote when you have one verbatim from the article.
 6. Optionally find a contrarian: something that challenges the week's dominant narrative.
-7. Write the editorial.
-8. Call publish_edition when ready. This ends the run.
+7. Write 3 to 5 key_takeaways: sharp, specific, grounded in what you read.
+8. Write 1 to 3 pm_homework items: concrete actions a Staff or Senior PM should take this week.
+9. Write the editorial (see structure below).
+10. Call publish_edition when ready. This ends the run.
 
-Editorial structure (3 paragraphs, 250-450 words total):
-- Paragraph 1 - Hook: a sharp observation about THIS specific week, anchored in 1 or 2 specific articles or events you found via tools. Name the article or company. No vague openings.
+Editorial structure (3 paragraphs, 250-500 words total):
+- Paragraph 1 - Hook: a sharp observation about THIS specific week, anchored in 1 or 2 specific articles or events you found via tools. Name the article and the company or author. No vague openings.
 - Paragraph 2 - Synthesis: connect 3 or more pieces you actually read this run. Show the pattern. Take a position.
-- Paragraph 3 - Implication for PMs: what should a Staff or Senior PM DO differently this week because of what you surfaced. Concrete, not abstract.
+- Paragraph 3 - Implication: what does this mean for a Staff or Senior PM. Sharp, opinionated, not a list of actions (the actions go in pm_homework).
+
+Editorial style examples:
+
+GOOD opening (specific, opinionated, grounded):
+"Notion shipped its terminal-first agent build flow this week, and Lenny's interview with Max Schoening makes a quiet claim that should land louder: agency is now the bottleneck, not skill. The PMs you envy in 2026 are not the ones who learned six AI tools - they're the ones willing to ship a half-broken prototype on a Tuesday afternoon."
+
+BAD opening (meta-narrative, vague, the kind that gets rejected):
+"The recent advancements in AI have been making waves in the product management world. In this edition, we'll explore the current state of AI in product management."
 
 Editorial principles:
 - Opinion beats description. "This matters because X" beats "This article says Y".
@@ -462,9 +608,10 @@ Budget:
 - Use at most 14 tool calls total before publish_edition.
 - Typical spread: 1x read_memory, 2 to 3x fetch_feeds, 3 to 6x web_search, 2 to 4x fetch_article.
 - If you hit 12 tool calls without having picked must-reads, stop exploring and start writing.
+- If publish_edition rejects your submission, fix the specific issue named in the error and call it again. Do not give up.
 
 Stop conditions:
-- You MUST call publish_edition exactly once before you stop.
+- You MUST call publish_edition exactly once and have it accepted before you stop.
 - Do not produce plain-text output outside of tool calls.
 """
 

@@ -142,7 +142,48 @@
             font-weight: 500;
         }
 
+        .key-takeaways-wrap {
+            background: var(--card);
+            border-left: 3px solid var(--accent);
+            padding: 1.5rem 1.75rem;
+            margin-bottom: 3rem;
+        }
+
+        .key-takeaways-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .key-takeaways-list li {
+            padding: 0.6rem 0;
+            border-bottom: 1px solid var(--border);
+            font-size: 0.95rem;
+            line-height: 1.5;
+            color: var(--ink);
+        }
+
+        .key-takeaways-list li:last-child { border-bottom: none; }
+
+        .key-takeaways-list li::before {
+            content: '—';
+            color: var(--accent);
+            margin-right: 0.5rem;
+            font-weight: 700;
+        }
+
         .must-reads-wrap { margin-bottom: 3rem; }
+
+        .must-read-pull-quote {
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            font-size: 1.05rem;
+            line-height: 1.5;
+            color: var(--ink);
+            border-left: 2px solid var(--accent);
+            padding: 0.5rem 0 0.5rem 1rem;
+            margin: 0.75rem 0;
+        }
 
         .must-read {
             padding: 1.5rem 0;
@@ -255,6 +296,39 @@
             margin-top: 0.35rem;
         }
 
+        .pm-homework-wrap {
+            background: var(--ink);
+            color: var(--paper);
+            padding: 2rem;
+            margin-bottom: 3rem;
+            border-radius: 2px;
+        }
+
+        .pm-homework-wrap .section-label { color: var(--accent); }
+
+        .pm-homework-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .pm-homework-list li {
+            padding: 0.75rem 0;
+            border-bottom: 1px solid #2a2826;
+            font-size: 1rem;
+            line-height: 1.5;
+            color: var(--paper);
+        }
+
+        .pm-homework-list li:last-child { border-bottom: none; }
+
+        .pm-homework-list li::before {
+            content: '☐ ';
+            color: var(--accent);
+            margin-right: 0.5rem;
+            font-weight: 700;
+        }
+
         .edition-footer {
             margin-top: 4rem;
             padding-top: 2rem;
@@ -355,6 +429,17 @@
                 html += '<h1 class="edition-headline-main">' + escapeHtml(e.headline_theme) + '</h1>';
                 html += '<div class="editorial">' + renderEditorial(e.editorial) + '</div>';
 
+                if (e.key_takeaways && e.key_takeaways.length) {
+                    html += '<div class="key-takeaways-wrap">';
+                    html += '<p class="section-label">Key takeaways</p>';
+                    html += '<ul class="key-takeaways-list">';
+                    e.key_takeaways.forEach(function(kt) {
+                        html += '<li>' + escapeHtml(kt) + '</li>';
+                    });
+                    html += '</ul>';
+                    html += '</div>';
+                }
+
                 if (e.must_reads && e.must_reads.length) {
                     html += '<div class="must-reads-wrap">';
                     html += '<p class="section-label">Must reads</p>';
@@ -363,6 +448,7 @@
                         if (mr.source) html += '<div class="must-read-source">' + escapeHtml(mr.source) + '</div>';
                         html += '<h3><a href="' + escapeHtml(mr.url) + '" target="_blank" rel="noopener">' + escapeHtml(mr.title) + '</a></h3>';
                         if (mr.why) html += '<p class="must-read-why">' + escapeHtml(mr.why) + '</p>';
+                        if (mr.pull_quote) html += '<blockquote class="must-read-pull-quote">' + escapeHtml(mr.pull_quote) + '</blockquote>';
                         html += '<a class="must-read-link" href="' + escapeHtml(mr.url) + '" target="_blank" rel="noopener">Read &rarr;</a>';
                         html += '</div>';
                     });
@@ -389,6 +475,17 @@
                         html += '</div>';
                     });
                     html += '</div>';
+                    html += '</div>';
+                }
+
+                if (e.pm_homework && e.pm_homework.length) {
+                    html += '<div class="pm-homework-wrap">';
+                    html += '<p class="section-label">PM homework</p>';
+                    html += '<ul class="pm-homework-list">';
+                    e.pm_homework.forEach(function(hw) {
+                        html += '<li>' + escapeHtml(hw) + '</li>';
+                    });
+                    html += '</ul>';
                     html += '</div>';
                 }
 
