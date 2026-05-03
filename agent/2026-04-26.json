@@ -1,5 +1,5 @@
 {
-  "edition": "2026-05-03",
+  "edition": "2026-04-26",
   "headline_theme": "AI in Product Management: Separating Hype from Reality",
   "editorial": "Notion shipped its terminal-first agent build flow this week, and Lenny's interview with Max Schoening makes a quiet claim that should land louder: agency is now the bottleneck, not skill. The PMs you envy in 2026 are not the ones who learned six AI tools - they're the ones willing to ship a half-broken prototype on a Tuesday afternoon. \n\nIn a world where AI is increasingly capable, the difference between good and great product managers is no longer about skills, but about agency. Agency is the ability to take action, to make decisions, and to drive change. It's the ability to cut through the noise, to prioritize, and to focus on what really matters. As Max Schoening noted in his interview, Notion's design and product lead has been effective in getting designers and PMs to ship code, prototype in the terminal, and launch extremely successful AI products. \n\nSo what does this mean for product managers? It means that we need to focus on building our agency, not just our skills. We need to be willing to take risks, to experiment, and to learn from our failures. We need to be able to navigate the complexities of our organizations, to build alliances, and to drive change. As seen in the Notion AI agent build flow, we can use AI to automate tasks and free up time for more strategic work. By doing so, we can increase our agency and become more effective product managers. In short, we need to be able to get things done, even when it's hard. And that's what separates the good product managers from the great ones.",
   "key_takeaways": [
@@ -46,6 +46,6 @@
     "Identify one area where you can build your agency, and take action on it",
     "Read one article on building agency in product management, and apply one insight to your work."
   ],
-  "generated_at": "2026-05-03T13:39:56.859724+00:00",
+  "generated_at": "2026-04-26T13:00:53.547784+00:00",
   "model_used": "llama-3.3-70b-versatile"
 }
