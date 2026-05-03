@@ -383,10 +383,14 @@ def tool_publish_edition(headline_theme, editorial, must_reads,
         "model_used": MODEL,
     }
 
+    # Atomic write: serialise to .tmp, then rename. Prevents a half-written
+    # JSON from being committed if the process is killed mid-write.
     edition_file = AGENT_DIR / f"{date}.json"
-    edition_file.write_text(
+    edition_tmp = edition_file.with_suffix(".json.tmp")
+    edition_tmp.write_text(
         json.dumps(edition, ensure_ascii=False, indent=2), encoding="utf-8"
     )
+    os.replace(edition_tmp, edition_file)
 
     if INDEX_FILE.exists():
         try:
@@ -404,9 +408,11 @@ def tool_publish_edition(headline_theme, editorial, must_reads,
     })
     index["updated_at"] = datetime.now(timezone.utc).isoformat()
 
-    INDEX_FILE.write_text(
+    index_tmp = INDEX_FILE.with_suffix(".json.tmp")
+    index_tmp.write_text(
         json.dumps(index, ensure_ascii=False, indent=2), encoding="utf-8"
     )
+    os.replace(index_tmp, INDEX_FILE)
 
     return {"status": "published", "file": f"agent/{date}.json"}
 

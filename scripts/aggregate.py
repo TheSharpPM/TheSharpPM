@@ -3,6 +3,7 @@ import json
 import os
 import re
 import requests
+import sys
 from datetime import datetime, timezone, timedelta
 from time import mktime, sleep
 
@@ -229,6 +230,13 @@ def fetch_feed(feed_config, existing_urls):
 def main():
     print("The Sharp PM - Aggregator running\n")
 
+    # Fail loudly if the API key is missing, instead of letting every
+    # provider call return "Bearer None" and silently producing an
+    # empty / partial data.json.
+    if not OPENROUTER_API_KEY:
+        print("ERROR: OPENROUTER_API_KEY not set. Aborting.")
+        sys.exit(1)
+
     # Load existing articles
     existing_items = []
     if os.path.exists(OUTPUT_FILE):
@@ -266,9 +274,13 @@ def main():
         "items": all_items,
     }
  
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+    # Atomic write: serialise to a temp file, then rename. Prevents a half-
+    # written data.json from being committed if the process dies mid-write.
+    tmp_file = OUTPUT_FILE + ".tmp"
+    with open(tmp_file, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
- 
+    os.replace(tmp_file, OUTPUT_FILE)
+
     print("Done! " + str(len(all_items)) + " total articles saved.")
  
  

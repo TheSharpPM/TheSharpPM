@@ -2,7 +2,9 @@ name: Agent Sharp Weekly
 
 on:
   schedule:
-    - cron: '0 6 * * 0'
+    # Sundays at 07:00 UTC. Spaced 2h after the daily aggregator (05:00 UTC)
+    # to avoid overlapping pushes to main.
+    - cron: '0 7 * * 0'
   workflow_dispatch:
 
 jobs:

@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Editors
+.vscode/
+.idea/
+
+# Env files
+.env
+.env.local
+
+# Atomic-write temp files (in case a write is interrupted)
+*.json.tmp
