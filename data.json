@@ -1,7 +1,124 @@
 {
-  "updated": "2026-05-03T09:56:45.260139+00:00",
-  "total": 234,
+  "updated": "2026-05-04T11:35:13.345185+00:00",
+  "total": 244,
   "items": [
+    {
+      "title": "The Illusion of AI: The Massive Marketing Tool Targeting Us",
+      "url": "https://medium.com/@teobaek830/the-illusion-of-ai-the-massive-marketing-tool-targeting-us-0d24734c4623?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-05-04T11:17:03+00:00",
+      "summary": "The article critiques how AI is being marketed as a revolutionary intelligence while actually serving as a broad promotional device. It urges product leaders to look beyond hype and assess AI's real functional value for their customers and business goals.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "AI Tools"
+      ]
+    },
+    {
+      "title": "📈 Data to start your week: AI boom, nowhere near the ceiling",
+      "url": "https://www.exponentialview.co/p/data-to-start-your-week-compute-crunch-may-2026",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-05-04T11:15:50+00:00",
+      "summary": "The article argues that the AI boom is still in its early stages, with massive growth potential as access to compute becomes a key competitive moat. Product managers should focus on securing scalable compute resources now to stay ahead of the curve.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Competitive Analysis"
+      ]
+    },
+    {
+      "title": "The Myth of Prompt Portability: Why Your AI Foundation Keeps Moving",
+      "url": "https://medium.com/@adamrgoodman/the-myth-of-prompt-portability-why-your-ai-foundation-keeps-moving-1fbfca523883?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-05-04T11:06:01+00:00",
+      "summary": "The article explains that large prompts for AI models are not easily portable across different models or updates, as underlying foundations constantly evolve, causing prompts to break or lose effectiveness. It advises product managers to treat prompts as dynamic assets, regularly testing and adapting them rather than assuming a one‑time build will remain stable.",
+      "tags": [
+        "AI Strategy",
+        "Product Design",
+        "Product Culture"
+      ]
+    },
+    {
+      "title": "Google Earnings, Meta Earnings",
+      "url": "https://stratechery.com/2026/google-earnings-meta-earnings/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-05-04T10:00:00+00:00",
+      "summary": "Wall Street praised Google's earnings because it is successfully monetizing its AI investments, potentially through partnerships like Anthropic, whereas Meta's earnings were poorly received despite strong core performance. The contrast highlights the market's focus on immediate AI-driven revenue generation over traditional product metrics.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Metrics"
+      ]
+    },
+    {
+      "title": "Your toughest competitor isn’t who you think. And AI won’t help you find it.",
+      "url": "https://medium.com/@mihaela.blanaru/your-toughest-competitor-isnt-who-you-think-and-ai-won-t-help-you-find-it-47fa85cde646?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-05-04T05:51:32+00:00",
+      "summary": "Many product teams focus on obvious rivals, overlooking hidden threats that stem from unconventional business models or emerging technologies. Understanding these blind‑spot competitors is crucial for shaping a resilient product strategy, and relying on AI alone won’t uncover them without deliberate analysis. Leaders must combine competitive research with cross‑functional insights to stay ahead.",
+      "tags": [
+        "Competitive Analysis",
+        "Product Strategy",
+        "AI Strategy"
+      ]
+    },
+    {
+      "title": "The Hidden Skill That Separates Good Product Managers from Great Ones",
+      "url": "https://medium.productcoalition.com/the-hidden-skill-that-separates-good-product-managers-from-great-ones-e55333427d54?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-05-04T04:33:55+00:00",
+      "summary": "The article argues that the key differentiator between good and great product managers is not a specific framework or tool, but the ability to exercise sound judgment in ambiguous situations. This involves balancing data, stakeholder input, and long‑term vision to make decisions that drive product success.",
+      "tags": [
+        "Product Strategy",
+        "Leadership",
+        "Judgment"
+      ]
+    },
+    {
+      "title": "Codex Pets",
+      "url": "https://www.producthunt.com/products/openai",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-05-04T03:02:40+00:00",
+      "summary": "Codex Pets introduces animated companion characters that integrate directly into the Codex workflow, aiming to boost user engagement and provide contextual assistance. The feature is positioned as a lightweight, gamified layer to enhance productivity and user satisfaction within the platform.",
+      "tags": [
+        "Product Design",
+        "Growth",
+        "User Research"
+      ]
+    },
+    {
+      "title": "Security Is a Feature, Not a Checkbox",
+      "url": "https://www.productcoalition.com/p/security-is-a-feature-not-a-checkbox",
+      "source": "Product Coalition",
+      "type": "article",
+      "date": "2026-05-03T14:40:52+00:00",
+      "summary": "The article recounts a solo founder’s journey building ExecReps.ai, emphasizing that security must be integrated into product design from the start rather than treated as an afterthought. It highlights concrete steps—like threat modeling, continuous testing, and transparent communication with users—to embed security as a core feature that drives trust and competitive advantage.",
+      "tags": [
+        "AI Strategy",
+        "Product Design",
+        "Leadership"
+      ]
+    },
+    {
+      "title": "Why cultivating agency matters more than cultivating skills in the AI era | Max Schoening (Head of Product, Notion)",
+      "url": "https://www.lennysnewsletter.com/p/why-cultivating-agency-matters-more",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-05-03T12:30:59+00:00",
+      "summary": "Max Schoening argues that in the AI era product teams should prioritize fostering a sense of agency—empowering users to shape outcomes—over merely teaching new technical skills. He explains how superficial \"vibe coding\" can increase output without improving quality, and shares Notion's fast, ownership-driven shipping philosophy.",
+      "tags": [
+        "Product Strategy",
+        "Leadership",
+        "Product Culture"
+      ]
+    },
     {
       "title": "How I Finally Stopped the \"Freelance Chaos\" and Reclaimed 10+ Hours a Week",
       "url": "https://medium.com/@susheelapandey742/how-i-finally-stopped-the-freelance-chaos-and-reclaimed-10-hours-a-week-295250381f8d?source=rss------product_management-5",
@@ -130,6 +247,19 @@
         "Product Strategy",
         "Growth",
         "Metrics"
+      ]
+    },
+    {
+      "title": "Panels Store",
+      "url": "https://www.producthunt.com/products/panels-store",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-05-01T21:00:27+00:00",
+      "summary": "Panels Store is an online marketplace that lets users purchase DRM-free comics and start reading them instantly, eliminating access restrictions and enhancing the reading experience. This platform positions itself as a consumer-friendly alternative in the digital comics market, focusing on immediate content delivery and ownership freedom.",
+      "tags": [
+        "Product Strategy",
+        "Growth",
+        "User Research"
       ]
     },
     {
