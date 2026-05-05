@@ -1,7 +1,124 @@
 {
-  "updated": "2026-05-04T11:35:13.345185+00:00",
-  "total": 244,
+  "updated": "2026-05-05T10:59:37.229126+00:00",
+  "total": 254,
   "items": [
+    {
+      "title": "How I solved supply demand (chicken egg problem)",
+      "url": "https://medium.com/@sanjanawoodi123/how-i-solved-supply-demand-chicken-egg-problem-99e7c884b476?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-05-05T10:38:43+00:00",
+      "summary": "The article describes a product manager's method for tackling noisy demand signals and supply bottlenecks, using a confidence-weighted system to predict and balance chicken egg supply and demand. It outlines a data-driven approach to identify chokepoints, prioritize interventions, and improve forecasting accuracy from the ground up.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Metrics"
+      ]
+    },
+    {
+      "title": "Designing AI Intake Agents: From Customer Ideas to Product Insights",
+      "url": "https://medium.com/pragmatic-transformation/designing-ai-intake-agents-from-customer-ideas-to-product-insights-0a2f9e0eca63?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-05-05T10:17:02+00:00",
+      "summary": "The article provides a step-by-step framework for building AI-powered intake agents that collect customer ideas via chat or voice, evaluate their alignment with the product roadmap, and automate follow‑up actions like scheduling meetings and logging insights. It highlights best practices for integrating these agents into existing workflows to turn raw feedback into actionable product insights quickly.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Product Design"
+      ]
+    },
+    {
+      "title": "Amazon’s Durability",
+      "url": "https://stratechery.com/2026/amazons-durability/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-05-05T10:01:14+00:00",
+      "summary": "The article explains that while Amazon lagged in AI during the model training phase, its sustained long‑term investments have positioned it strongly for the current AI inference era. This shift gives Amazon a competitive edge in delivering scalable AI services to customers.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Competitive Analysis"
+      ]
+    },
+    {
+      "title": "Segway Solved the Wrong Problem",
+      "url": "https://medium.com/@aryan1999varma/segway-solved-the-wrong-problem-f0f983b8068b?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-05-05T06:05:16+00:00",
+      "summary": "The article recounts how the engineer behind Segway misread urban mobility needs, focusing on a high‑tech solution for a problem that didn't exist. It highlights the importance for product managers to ground innovations in real user behavior, validate assumptions early, and align technology with genuine market demand.",
+      "tags": [
+        "Product Strategy",
+        "Leadership",
+        "User Research"
+      ]
+    },
+    {
+      "title": "Dina",
+      "url": "https://www.producthunt.com/products/dina",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-05-05T05:57:40+00:00",
+      "summary": "The article introduces 'Dina', a tool that transforms raw screen captures into polished videos within minutes, streamlining content creation for product teams. It highlights how this capability can accelerate stakeholder communication, improve documentation, and reduce reliance on external video production resources.",
+      "tags": [
+        "AI Tools",
+        "Productivity",
+        "Communication"
+      ]
+    },
+    {
+      "title": "7 Mistakes That Kill Mobile Apps Before Launch",
+      "url": "https://medium.com/@baheer224/7-mistakes-that-kill-mobile-apps-before-launch-aea71ca308e4?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-05-05T04:39:58+00:00",
+      "summary": "The article outlines common pre‑launch pitfalls that cause mobile apps to never reach the market, such as insufficient user research, poor product‑market fit validation, and neglecting performance or onboarding design. It emphasizes the need for rigorous testing, clear value proposition, and early stakeholder alignment to avoid costly failures before launch.",
+      "tags": [
+        "Product Strategy",
+        "User Research",
+        "Growth"
+      ]
+    },
+    {
+      "title": "🎙️ This week on How I AI: The internal AI tool that’s transforming how Stripe designs products",
+      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-the-internal",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-05-04T15:01:56+00:00",
+      "summary": "The episode highlights Stripe's internal AI platform that accelerates product design by automating research, prototyping, and data analysis, enabling teams to iterate faster and make more data-driven decisions. It discusses how the tool integrates into existing workflows, improves collaboration across stakeholders, and serves as a strategic advantage in product development.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Product Design"
+      ]
+    },
+    {
+      "title": "Let's Read Continuous Discovery Habits Together (May 2026)",
+      "url": "https://www.producttalk.org/cdh-book-club-april-2026-2/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-05-04T13:00:57+00:00",
+      "summary": "The article announces a collaborative reading of the five‑year‑old book Continuous Discovery Habits, with monthly guides that outline specific chapters, highlight key concepts, and provide short videos to reinforce learning. It aims to help product teams adopt ongoing discovery practices to improve user research and product strategy.",
+      "tags": [
+        "User Research",
+        "Product Strategy",
+        "Growth"
+      ]
+    },
+    {
+      "title": "The internal AI tool that’s transforming how Stripe designs products | Owen Williams",
+      "url": "https://www.lennysnewsletter.com/p/the-internal-ai-tool-thats-transforming",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-05-04T12:03:59+00:00",
+      "summary": "Owen Williams demonstrates Protodash, an internal AI‑powered tool at Stripe that instantly converts design system components into interactive prototypes within minutes. The tool streamlines the product design workflow, enabling rapid iteration and faster validation of ideas across teams.",
+      "tags": [
+        "AI Tools",
+        "Product Design",
+        "Productivity"
+      ]
+    },
     {
       "title": "The Illusion of AI: The Massive Marketing Tool Targeting Us",
       "url": "https://medium.com/@teobaek830/the-illusion-of-ai-the-massive-marketing-tool-targeting-us-0d24734c4623?source=rss------product_management-5",
@@ -3109,6 +3226,19 @@
         "AI Tools",
         "Product Strategy",
         "Risk Management"
+      ]
+    },
+    {
+      "title": "Ghostwriter",
+      "url": "https://www.producthunt.com/products/ghostwriter-5",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-03-20T05:27:03+00:00",
+      "summary": "Ghostwriter is an AI-powered assistant that helps users craft and schedule posts for LinkedIn and X, streamlining content creation and publishing workflows. It aims to boost engagement and reach by providing on‑demand writing support and analytics for social media managers.",
+      "tags": [
+        "AI Tools",
+        "Growth",
+        "Product Strategy"
       ]
     },
     {
