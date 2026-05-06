@@ -1,7 +1,124 @@
 {
-  "updated": "2026-05-05T10:59:37.229126+00:00",
-  "total": 254,
+  "updated": "2026-05-06T11:38:03.372731+00:00",
+  "total": 263,
   "items": [
+    {
+      "title": "The Illusion of Progress (Activity ≠ Progress)",
+      "url": "https://sagar-awasthi.medium.com/the-illusion-of-progress-activity-progress-345bbba48e0d?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-05-06T11:31:01+00:00",
+      "summary": "The article argues that a team's activity level often gives a false sense of progress, emphasizing the need for clear metrics and outcome-focused planning rather than just busy work. It advises product managers to define tangible goals, regularly evaluate impact, and align efforts with strategic objectives to ensure real advancement.",
+      "tags": [
+        "Metrics",
+        "Product Strategy",
+        "Leadership"
+      ]
+    },
+    {
+      "title": "The workbench",
+      "url": "https://medium.com/no-time/the-workbench-3c5fac6ff8b0?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-05-06T11:17:18+00:00",
+      "summary": "The article shares a practical, everyday tip designed to boost efficiency and effectiveness in a product manager's routine work life. By implementing this simple strategy, you can streamline tasks and free up mental bandwidth for higher‑impact activities.",
+      "tags": [
+        "Productivity",
+        "Product Culture",
+        "Leadership"
+      ]
+    },
+    {
+      "title": "What Signals Misalignment Between UX and Product Strategy?",
+      "url": "https://medium.com/@marketingtd64/what-signals-misalignment-between-ux-and-product-strategy-6232de21ea31?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-05-06T10:52:09+00:00",
+      "summary": "The article explains how divergence between user experience (UX) and product strategy can manifest through inconsistent design decisions, neglected customer feedback, and misaligned metrics. It highlights warning signs such as fragmented user journeys, conflicting priorities between design and business goals, and a lack of shared ownership, offering guidance for product managers to realign teams and maintain a cohesive vision.",
+      "tags": [
+        "Product Strategy",
+        "Product Culture",
+        "Leadership"
+      ]
+    },
+    {
+      "title": "Microsoft Earnings, Apple Earnings",
+      "url": "https://stratechery.com/2026/microsoft-earnings-apple-earnings/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-05-06T10:00:00+00:00",
+      "summary": "Microsoft announced an \"agentic\" business model that embeds AI-driven autonomous agents into its enterprise offerings, signaling a shift toward AI-augmented workflows. Apple, while promoting AI capabilities in its Mac line, is grappling with component shortages in memory and chips, highlighting supply chain risks that could affect product rollout and performance.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Competitive Analysis"
+      ]
+    },
+    {
+      "title": "Ads in ChatGPT",
+      "url": "https://www.producthunt.com/products/chatgpt",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-05-06T03:17:32+00:00",
+      "summary": "The article introduces a new feature that lets businesses create, manage, and track advertising campaigns directly within ChatGPT, providing tools for targeting, budgeting, and performance analytics. Product managers can leverage this to explore new monetization channels and integrate ad experiences into conversational interfaces.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Metrics"
+      ]
+    },
+    {
+      "title": "Freepik Didn’t Just Build a Design Library. It Built an Entire Creative Economy.",
+      "url": "https://medium.com/write-a-catalyst/freepik-didnt-just-build-a-design-library-it-built-an-entire-creative-economy-9dca2b88eaa3?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-05-05T21:11:23+00:00",
+      "summary": "Freepik evolved from a simple asset library into a full-fledged creative economy platform, developing infrastructure that supports designers, contributors, and businesses. This strategic expansion leverages network effects and monetization tools to become a central hub for creative work, positioning Freepik as a critical player in the design ecosystem.",
+      "tags": [
+        "Product Strategy",
+        "Platform Strategy",
+        "Growth"
+      ]
+    },
+    {
+      "title": "Why SaaS freemium playbooks don’t work in AI, and what to do instead",
+      "url": "https://www.lennysnewsletter.com/p/why-saas-freemium-playbooks-dont",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-05-05T13:03:32+00:00",
+      "summary": "The article explains that traditional SaaS freemium models fail for AI products because the value is tied to model performance and data, not just feature access. It recommends a monetization strategy focused on usage-based pricing, tiered model quality, and value‑added services to align revenue with AI outcomes.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Pricing"
+      ]
+    },
+    {
+      "title": "Taste - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "url": "https://www.producttalk.org/taste-all-things-product-podcast-with-teresa-torres-petra-wille/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-05-05T13:00:33+00:00",
+      "summary": "In this episode, Petra Wille and Teresa Torres explore whether \"taste\"—the ability to discern quality and make nuanced choices—is a genuine competitive advantage for humans in the AI era or merely a buzzword. They discuss how product teams can cultivate and leverage taste to differentiate their offerings amidst rapid AI-driven automation.",
+      "tags": [
+        "AI Strategy",
+        "Product Design",
+        "Leadership"
+      ]
+    },
+    {
+      "title": "What scaling AI taught me about  product leadership in e-commerce marketplaces",
+      "url": "https://www.productledalliance.com/what-scaling-ai-taught-me-about-product-leadership-in-e-commerce-marketplaces/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-05-05T11:00:31+00:00",
+      "summary": "The article shares insights from eBay's product lead on how scaling AI across e-commerce marketplaces reshaped product leadership, emphasizing the need for cross-functional alignment, data-driven decision making, and rapid experimentation. It outlines practical approaches for integrating AI responsibly, balancing speed with quality, and fostering a culture that empowers teams to own AI-driven product outcomes.",
+      "tags": [
+        "AI Strategy",
+        "Leadership",
+        "Product Strategy"
+      ]
+    },
     {
       "title": "How I solved supply demand (chicken egg problem)",
       "url": "https://medium.com/@sanjanawoodi123/how-i-solved-supply-demand-chicken-egg-problem-99e7c884b476?source=rss------product_management-5",
@@ -802,6 +919,19 @@
         "Product Design",
         "Product Strategy",
         "Competitive Analysis"
+      ]
+    },
+    {
+      "title": "Custom Integrations by Databox",
+      "url": "https://www.producthunt.com/products/databox",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-04-28T13:11:50+00:00",
+      "summary": "Databox introduces custom integrations that let users import data from any source without needing to write code. This feature expands the platform's flexibility, enabling product teams to consolidate disparate metrics and gain a unified view of performance. By simplifying data onboarding, it accelerates insight generation and supports more data-driven decision making.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Data"
       ]
     },
     {
@@ -3265,19 +3395,6 @@
         "AI Strategy",
         "Platform Strategy",
         "Competitive Analysis"
-      ]
-    },
-    {
-      "title": "Product Coaching and AI",
-      "url": "https://www.svpg.com/product-coaching-and-ai/",
-      "source": "SVPG",
-      "type": "article",
-      "date": "2026-02-04T19:28:20+00:00",
-      "summary": "Marty Cagan explores how AI is changing the nature of product coaching and mentorship, arguing that while AI can accelerate skill development in some areas, the fundamentally human aspects of product leadership — judgement, empathy, and stakeholder navigation — remain beyond AI's reach. He suggests coaches should focus on these irreplaceable skills rather than competing with AI on technical knowledge. A thoughtful perspective for PMs investing in their own development.",
-      "tags": [
-        "AI Tools",
-        "Leadership",
-        "Career"
       ]
     }
   ]
