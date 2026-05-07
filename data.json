@@ -1,7 +1,137 @@
 {
-  "updated": "2026-05-06T11:38:03.372731+00:00",
-  "total": 263,
+  "updated": "2026-05-07T11:37:55.648009+00:00",
+  "total": 275,
   "items": [
+    {
+      "title": "The Planet as a Stakeholder and “User-Centric” is No Longer Enough in 2026",
+      "url": "https://medium.com/@sonacatherine/the-planet-as-a-stakeholder-and-user-centric-is-no-longer-enough-in-2026-6175fcc0bf3d?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-05-07T11:23:04+00:00",
+      "summary": "The article argues that by 2026 product managers must expand their perspective beyond traditional user-centric design to treat the planet as an equal stakeholder, integrating sustainability into every decision. It outlines how aligning product strategy with environmental impact not only meets evolving regulatory and consumer expectations but also drives long-term business resilience.",
+      "tags": [
+        "Stakeholders",
+        "Product Strategy",
+        "Leadership"
+      ]
+    },
+    {
+      "title": "What's stopping product teams  from shipping embedded analytics?",
+      "url": "https://www.productledalliance.com/whats-stopping-product-teams-from-shipping-embedded-analytics/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-05-07T11:00:31+00:00",
+      "summary": "The article examines why product teams often fail to ship embedded analytics, highlighting structural hurdles such as fragmented data ownership, inadequate cross‑team coordination, and limited tooling. It offers a roadmap for aligning stakeholders, establishing clear data governance, and adopting scalable AI tools to embed analytics seamlessly into products.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Stakeholders"
+      ]
+    },
+    {
+      "title": "We Have Built Over 100 Mobile Games: Why Most Cost Estimates Are Inaccurate",
+      "url": "https://medium.com/@social_46823/we-have-built-over-100-mobile-games-why-most-cost-estimates-are-inaccurate-99ed7fd93c94?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-05-07T10:22:47+00:00",
+      "summary": "The article explains why traditional cost estimates for mobile game development, like the $30,000 budget for a mid‑core RPG, often miss the mark due to hidden complexities in gameplay systems, art pipelines, and ongoing post‑launch support. It outlines a more realistic budgeting approach based on feature breakdowns, iterative development, and contingency planning for unexpected scope changes.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Metrics"
+      ]
+    },
+    {
+      "title": "Why Software Is Becoming More Important Than Hardware",
+      "url": "https://jakubjirak.medium.com/why-software-is-becoming-more-important-than-hardware-d49a45bef197?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-05-07T10:02:38+00:00",
+      "summary": "The article argues that the value shift from hardware to software is driven by the need for scalable, updatable, and data-driven experiences, making software the primary differentiator in product competitiveness. For product managers, this underscores the importance of focusing on software strategy, continuous improvement cycles, and leveraging data to enhance user value.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Competitive Analysis"
+      ]
+    },
+    {
+      "title": "An Interview with Joanna Stern About Living With AI",
+      "url": "https://stratechery.com/2026/an-interview-with-joanna-stern-about-living-with-ai/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-05-07T10:00:00+00:00",
+      "summary": "The interview with Joanna Stern explores insights from her new book on everyday interactions with AI and her venture into founding a media company. She discusses how AI reshapes user experiences, the importance of ethical design, and the strategic considerations for product leaders building AI‑enabled offerings.",
+      "tags": [
+        "AI Strategy",
+        "Product Culture",
+        "Leadership"
+      ]
+    },
+    {
+      "title": "Nexpanse: Product Manager (B2C Subscription Utilities)",
+      "url": "https://weworkremotely.com/remote-jobs/nexpanse-product-manager-b2c-subscription-utilities",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-05-07T08:59:24+00:00",
+      "summary": "The role at Nexpanse focuses on owning the B2C subscription utility product from launch, with paying users and unit economics as the primary success metric. It blends product and marketing responsibilities, requiring you to drive product‑led growth through funnel optimization, landing pages, paywalls, feature enhancements, SEO, and leveraging AI coding projects.",
+      "tags": [
+        "Product Strategy",
+        "Growth",
+        "AI Tools"
+      ]
+    },
+    {
+      "title": "Code with Claude: The 5 biggest updates explained",
+      "url": "https://www.lennysnewsletter.com/p/code-with-claude-the-5-biggest-updates",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-05-07T01:39:47+00:00",
+      "summary": "The article recaps the five major new features Anthropic introduced during the Code with Claude event, highlighting enhancements to Claude's coding capabilities, integration options, and developer tooling. These updates aim to streamline AI-assisted development workflows and expand the platform's utility for product teams seeking to accelerate feature delivery.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "AI Strategy"
+      ]
+    },
+    {
+      "title": "The Post-Mortem Of Skipping Pre-Build Validation",
+      "url": "https://medium.com/@wearecapicua/the-post-mortem-of-skipping-pre-build-validation-946073ab46ac?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-05-06T16:01:01+00:00",
+      "summary": "The article outlines a feature validation framework that helps product teams verify ideas before development, reducing costly rework and post‑launch failures. By applying structured pre‑build validation, teams can prioritize work that delivers real value and avoid the need for costly post‑mortems.",
+      "tags": [
+        "Product Strategy",
+        "Prioritization",
+        "Product Design"
+      ]
+    },
+    {
+      "title": "How AI in life sciences is  reshaping healthcare",
+      "url": "https://www.productledalliance.com/how-ai-in-life-sciences-is-reshaping-healthcare/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-05-06T14:00:32+00:00",
+      "summary": "The article explains how artificial intelligence is transforming the life sciences sector by accelerating drug discovery, improving diagnostic accuracy, and enabling personalized treatment plans. For product managers, this shift highlights new opportunities to integrate AI-driven features into healthcare products, streamline development cycles, and create value through data‑rich insights.",
+      "tags": [
+        "AI Strategy",
+        "AI Tools",
+        "Product Strategy"
+      ]
+    },
+    {
+      "title": "Quests, token leaderboards, and a skills marketplace: The elite AI adoption playbook | John Kim (Sendbird)",
+      "url": "https://www.lennysnewsletter.com/p/quests-token-leaderboards-and-a-skills",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-05-06T12:03:39+00:00",
+      "summary": "Sendbird’s CEO transformed AI adoption into a gamified product experience, using quests, token-based leaderboards, and a rapid‑deployment swag store to drive engagement without additional engineering resources. The playbook shows how to embed AI incentives and a skills marketplace into the product roadmap to boost user activation and retention.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Growth"
+      ]
+    },
     {
       "title": "The Illusion of Progress (Activity ≠ Progress)",
       "url": "https://sagar-awasthi.medium.com/the-illusion-of-progress-activity-progress-345bbba48e0d?source=rss------product_management-5",
@@ -13,6 +143,19 @@
         "Metrics",
         "Product Strategy",
         "Leadership"
+      ]
+    },
+    {
+      "title": "Saydi",
+      "url": "https://www.producthunt.com/products/saydi",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-05-06T11:17:27+00:00",
+      "summary": "Saydi offers real-time voice translation, allowing users to hear conversations instantly in their preferred language. This tool can streamline multilingual communication for product teams and customers, enhancing global reach and user experience.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Growth"
       ]
     },
     {
@@ -78,6 +221,19 @@
         "Product Strategy",
         "Platform Strategy",
         "Growth"
+      ]
+    },
+    {
+      "title": "DevPass by LLM Gateway",
+      "url": "https://www.producthunt.com/products/devpass-by-llm-gateway",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-05-05T19:14:26+00:00",
+      "summary": "The article introduces DevPass, a service that provides a unified gateway to multiple coding models through three flat-rate pricing plans, simplifying access and budgeting for development teams. This approach aims to streamline AI model integration, reduce vendor lock‑in, and accelerate product development cycles.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Pricing"
       ]
     },
     {
