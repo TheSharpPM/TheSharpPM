@@ -1,7 +1,72 @@
 {
-  "updated": "2026-05-07T11:37:55.648009+00:00",
-  "total": 275,
+  "updated": "2026-05-08T10:14:30.018327+00:00",
+  "total": 282,
   "items": [
+    {
+      "title": "The great ui shrink: is minimalism a design philosophy or a corporate trap?",
+      "url": "https://medium.com/design-bootcamp/the-great-ui-shrink-is-minimalism-a-design-philosophy-or-a-corporate-trap-ee8e1cfe80e1?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-05-08T10:04:45+00:00",
+      "summary": "The article critiques the current trend toward ultra‑minimalist UI design, arguing that what began as a clarity‑focused philosophy has become a revenue‑driven tactic that limits user engagement and differentiates products. It warns product managers that excessive minimalism can trap users in a bland experience, reducing value and competitive advantage.",
+      "tags": [
+        "Product Strategy",
+        "Design",
+        "Growth"
+      ]
+    },
+    {
+      "title": "Stakeholder interviews: useful questions and a practical guide to run them well",
+      "url": "https://medium.com/@hanna.smarhunova/stakeholder-interviews-useful-questions-and-a-practical-guide-to-run-them-well-f7de10656fcf?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-05-08T09:51:52+00:00",
+      "summary": "The article provides a step-by-step framework for conducting stakeholder interviews, emphasizing the need for preparation, structured questioning, and post-interview follow‑up. It includes a curated list of effective questions and practical tips to ensure interviews yield actionable insights for product decisions.",
+      "tags": [
+        "Stakeholders",
+        "Product Strategy",
+        "Communication"
+      ]
+    },
+    {
+      "title": "Human-Centered AI: The 5 Questions You Should Ask Before Deploying Any AI System",
+      "url": "https://aderayointech.medium.com/human-centered-ai-the-5-questions-you-should-ask-before-deploying-any-ai-system-2aab3eb3d11b?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-05-08T09:20:50+00:00",
+      "summary": "The article outlines a human‑centered framework for deploying AI, focusing on five critical questions that ensure ethical, practical, and user‑focused outcomes. It emphasizes aligning AI capabilities with real user needs, assessing risk and bias, planning for transparency, and establishing measurable success criteria before launch.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "User Research"
+      ]
+    },
+    {
+      "title": "Product Strategy Without Buzzwords",
+      "url": "https://barisgunduz.medium.com/product-strategy-without-buzzwords-25cf4315ac01?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-05-08T08:42:16+00:00",
+      "summary": "The article argues that product strategy is often reduced to buzzwords and vague statements, emphasizing that a solid strategy should be grounded in clear, measurable goals, deep user understanding, and a realistic assessment of market dynamics. It offers practical guidance for product managers to move beyond jargon by focusing on problem validation, prioritization frameworks, and continuous alignment with business outcomes.",
+      "tags": [
+        "Product Strategy",
+        "User Research",
+        "Metrics"
+      ]
+    },
+    {
+      "title": "silverorange: Digital Product Lead",
+      "url": "https://weworkremotely.com/remote-jobs/silverorange-digital-product-lead",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-05-07T18:49:00+00:00",
+      "summary": "silverorange is a Canadian design and development agency with 26 years of experience delivering user‑focused digital products for notable tech firms, non‑profits, and education providers. As a Digital Product Lead, you would drive both product outcomes and the collaborative processes that underpin them, balancing client goals with high‑impact, meaningful solutions.",
+      "tags": [
+        "Product Strategy",
+        "Product Design",
+        "Product Culture"
+      ]
+    },
     {
       "title": "The Planet as a Stakeholder and “User-Centric” is No Longer Enough in 2026",
       "url": "https://medium.com/@sonacatherine/the-planet-as-a-stakeholder-and-user-centric-is-no-longer-enough-in-2026-6175fcc0bf3d?source=rss------product_management-5",
@@ -13,6 +78,19 @@
         "Stakeholders",
         "Product Strategy",
         "Leadership"
+      ]
+    },
+    {
+      "title": "APIEval-20",
+      "url": "https://www.producthunt.com/products/kushoai",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-05-07T11:03:39+00:00",
+      "summary": "APIEval-20 is an open benchmark designed to evaluate AI agents' ability to interact with and test APIs, providing standardized metrics for performance and robustness. This resource helps product managers assess AI-driven integrations and guides improvements in agent reliability for API-dependent products.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Metrics"
       ]
     },
     {
@@ -2024,6 +2102,19 @@
         "AI Tools",
         "Product Strategy",
         "Productivity"
+      ]
+    },
+    {
+      "title": "RankSpot",
+      "url": "https://www.producthunt.com/products/rankspot",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-04-20T18:52:54+00:00",
+      "summary": "RankSpot is an AI-powered SEO blogging platform that leverages deep competitor intelligence to generate content optimized for search rankings. By continuously analyzing rivals' strategies, it helps product teams prioritize topics and keywords that drive traffic and improve visibility.",
+      "tags": [
+        "AI Strategy",
+        "Competitive Analysis",
+        "Product Strategy"
       ]
     },
     {
