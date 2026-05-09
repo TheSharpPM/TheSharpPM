@@ -1,7 +1,72 @@
 {
-  "updated": "2026-05-08T10:14:30.018327+00:00",
-  "total": 282,
+  "updated": "2026-05-09T10:03:36.465947+00:00",
+  "total": 288,
   "items": [
+    {
+      "title": "The “Last-Minute Feature” Friction: Navigating the Gap Between Stakeholder Vision and Developer…",
+      "url": "https://medium.com/@liyu4947/the-last-minute-feature-friction-navigating-the-gap-between-stakeholder-vision-and-developer-c181511e205a?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-05-09T09:52:58+00:00",
+      "summary": "The article examines the common problem of last‑minute feature requests that emerge during the final product reveal, highlighting how misaligned stakeholder expectations and rushed developer handoffs can jeopardize delivery quality and timelines. It offers practical tactics for product managers to set clearer boundaries, improve communication, and incorporate structured validation to prevent costly rework.",
+      "tags": [
+        "Stakeholders",
+        "Product Strategy",
+        "Communication"
+      ]
+    },
+    {
+      "title": "Why Products Fail When Teams Treat Design Like Decoration",
+      "url": "https://medium.com/write-a-catalyst/why-products-fail-when-teams-treat-design-like-decoration-b1aa35764d1d?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-05-09T06:25:54+00:00",
+      "summary": "The article argues that product failures often stem from superficial design approaches rather than deep strategic thinking, emphasizing that design should guide problem solving and decision making. It urges teams to integrate design thinking throughout product development to avoid treating aesthetics as mere decoration.",
+      "tags": [
+        "Product Design",
+        "Product Strategy",
+        "Leadership"
+      ]
+    },
+    {
+      "title": "John Neuhart: Building What Customers Hire You For in JTBD",
+      "url": "https://medium.com/@johnneuhart/john-neuhart-building-what-customers-hire-you-for-in-jtbd-6f6b003bbbd0?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-05-08T18:55:50+00:00",
+      "summary": "The article explains how the 'Hire' concept in Jobs To Be Done (JTBD) helps teams identify the true outcomes customers are seeking, allowing product managers to prioritize features that directly solve those jobs. By framing product decisions around what customers 'hire' a solution to do, teams can align roadmaps with real user needs and drive more effective, market‑focused outcomes.",
+      "tags": [
+        "Product Strategy",
+        "User Research",
+        "Growth"
+      ]
+    },
+    {
+      "title": "2026.19: Earning & Spending",
+      "url": "https://stratechery.com/2026/earning-spending/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-05-08T17:00:00+00:00",
+      "summary": "This weekly roundup recaps key insights from Big Tech's Q1 performance, highlights a strategic conversation with Joanna Stern on tech product trends, and explores upcoming opportunities for the Boston Celtics as a brand. Product managers can extract lessons on market dynamics, content strategy, and leveraging media partnerships to drive growth.",
+      "tags": [
+        "Product Strategy",
+        "Growth",
+        "Competitive Analysis"
+      ]
+    },
+    {
+      "title": "Staff.rip",
+      "url": "https://www.producthunt.com/products/staff-rip",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-05-08T13:43:30+00:00",
+      "summary": "Staff.rip helps developers translate technical code changes into clear, plain-language descriptions that can be directly used in commit messages or release notes, streamlining the communication of updates to stakeholders. By simplifying the documentation process, it accelerates shipping cycles and reduces friction between engineering and product teams.",
+      "tags": [
+        "AI Tools",
+        "Productivity",
+        "Communication"
+      ]
+    },
     {
       "title": "The great ui shrink: is minimalism a design philosophy or a corporate trap?",
       "url": "https://medium.com/design-bootcamp/the-great-ui-shrink-is-minimalism-a-design-philosophy-or-a-corporate-trap-ee8e1cfe80e1?source=rss------product_strategy-5",
@@ -520,6 +585,19 @@
         "AI Strategy",
         "Product Strategy",
         "Metrics"
+      ]
+    },
+    {
+      "title": "Omi A11Y",
+      "url": "https://www.producthunt.com/products/omi-a11y-accessibility-scanner",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-05-04T09:52:31+00:00",
+      "summary": "The Omi A11Y extension provides a web accessibility scanner that helps teams identify and fix accessibility issues directly in the browser. For product managers, it offers a practical way to integrate accessibility checks into the development workflow, ensuring compliance and improving user experience across all users.",
+      "tags": [
+        "Product Design",
+        "User Research",
+        "Productivity"
       ]
     },
     {
