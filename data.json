@@ -1,7 +1,85 @@
 {
-  "updated": "2026-05-09T10:03:36.465947+00:00",
-  "total": 288,
+  "updated": "2026-05-10T10:07:13.609616+00:00",
+  "total": 297,
   "items": [
+    {
+      "title": "Why More People Are Taking Emergency Preparedness Seriously?",
+      "url": "https://medium.com/@rafiqlosong123/why-more-people-are-taking-emergency-preparedness-seriously-50ee3ff2bad5?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-05-10T07:44:00+00:00",
+      "summary": "The article discusses the rising public interest in emergency preparedness amid increasing global uncertainty, highlighting how individuals are now proactively seeking tools and information to mitigate risks. It examines the drivers behind this shift, such as recent crises and heightened awareness, and suggests opportunities for businesses to develop products and services that cater to this growing demand.",
+      "tags": [
+        "Product Strategy",
+        "Growth",
+        "User Research"
+      ]
+    },
+    {
+      "title": "We Don’t Need More AI Features. We Need Better Product Thinking.",
+      "url": "https://medium.com/codetodeploy/we-dont-need-more-ai-features-we-need-better-product-thinking-e6f4486f1fb7?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-05-10T06:26:03+00:00",
+      "summary": "The article argues that merely adding AI features like chatbots does not constitute a solid product strategy; instead, teams should focus on fundamental product thinking to ensure AI adds real value. It emphasizes aligning AI initiatives with user needs, business goals, and thoughtful design rather than chasing hype.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Product Design"
+      ]
+    },
+    {
+      "title": "🔮 Exponential View #573: Are the AI labs building for an intelligence explosion?",
+      "url": "https://www.exponentialview.co/p/ev-573",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-05-10T03:05:00+00:00",
+      "summary": "The article explores whether AI labs are intentionally developing systems aimed at creating an intelligence explosion, examining the strategic motivations and potential risks behind such pursuits. It also touches on related topics like upcoming Mythos events, job market shifts, fusion economics, and emerging concepts of AI personhood.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Leadership"
+      ]
+    },
+    {
+      "title": "The Gondal Framework: A Unified Theory of Product Viability",
+      "url": "https://medium.com/@talalahmadgondal/the-gondal-framework-a-unified-theory-of-product-viability-bcb8f710dd58?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-05-10T00:54:24+00:00",
+      "summary": "The article introduces the Gondal Framework, a unified theory derived from literature review and qualitative research that defines the key dimensions influencing product viability. It outlines how product managers can assess viability across market fit, technical feasibility, and business sustainability to make more informed decisions.",
+      "tags": [
+        "Product Strategy",
+        "Metrics",
+        "Product Design"
+      ]
+    },
+    {
+      "title": "🧠 Community Wisdom: What to do when non-PMs start shipping directly to production, thoughts on Claude Code’s pricing A/B test, the use of gen AI in games, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-what-to-do-when",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-05-09T18:18:35+00:00",
+      "summary": "The article discusses challenges when non‑product managers start pushing code directly to production, offering guidance on maintaining governance and cross‑functional alignment. It also reviews Claude Code’s pricing A/B test and explores the growing role of generative AI in game development, highlighting strategic considerations for product teams.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Leadership"
+      ]
+    },
+    {
+      "title": "Engagement is Dead. Long Live Intention.",
+      "url": "https://yutha.medium.com/engagement-is-dead-long-live-live-intention-60103919781c?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-05-09T11:43:32+00:00",
+      "summary": "The article argues that traditional engagement metrics are becoming obsolete in the AI-driven product landscape, urging product managers to focus on measuring user intention instead. It outlines how intent signals can guide feature prioritization, improve personalization, and drive sustainable growth in consumer apps undergoing AI transformation.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Metrics"
+      ]
+    },
     {
       "title": "The “Last-Minute Feature” Friction: Navigating the Gap Between Stakeholder Vision and Developer…",
       "url": "https://medium.com/@liyu4947/the-last-minute-feature-friction-navigating-the-gap-between-stakeholder-vision-and-developer-c181511e205a?source=rss------product_management-5",
@@ -26,6 +104,19 @@
         "Product Design",
         "Product Strategy",
         "Leadership"
+      ]
+    },
+    {
+      "title": "Adject 2.0",
+      "url": "https://www.producthunt.com/products/adject",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-05-08T19:29:52+00:00",
+      "summary": "Adject 2.0 introduces an AI-powered solution that generates hyperrealistic product visuals, enabling faster iteration and more compelling presentations. This tool streamlines the design workflow, reducing reliance on external renderers and accelerating go-to-market timelines.",
+      "tags": [
+        "AI Tools",
+        "Product Design",
+        "Productivity"
       ]
     },
     {
@@ -55,6 +146,19 @@
       ]
     },
     {
+      "title": "The PM to GM shift:  From building products to leading businesses",
+      "url": "https://www.productledalliance.com/the-pm-to-gm-shift-from-building-products-to-leading-businesses/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-05-08T15:00:28+00:00",
+      "summary": "The article explains how product managers are evolving into general managers, expanding their focus from pure product development to full business leadership, including profit and loss responsibility, cross‑functional coordination, and strategic growth. It outlines the new skill sets required—such as financial acumen, people leadership, and market positioning—and offers guidance for PMs to transition successfully.",
+      "tags": [
+        "Leadership",
+        "Product Strategy",
+        "Growth"
+      ]
+    },
+    {
       "title": "Staff.rip",
       "url": "https://www.producthunt.com/products/staff-rip",
       "source": "Product Hunt",
@@ -65,6 +169,19 @@
         "AI Tools",
         "Productivity",
         "Communication"
+      ]
+    },
+    {
+      "title": "InvestorFinder",
+      "url": "https://www.producthunt.com/products/investorfinder",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-05-08T11:03:01+00:00",
+      "summary": "InvestorFinder is a platform that helps founders discover investors who have previously backed companies with similar profiles or industries. By leveraging searchable data on past investments, it streamlines the outreach process and improves the relevance of investor-founder matches.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Growth"
       ]
     },
     {
