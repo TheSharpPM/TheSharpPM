@@ -27,11 +27,12 @@ from groq import Groq
 
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
 TAVILY_API_KEY = os.environ.get("TAVILY_API_KEY")
-# Default to gpt-oss-120b - more reliable tool calling than Llama 3.3 70B,
-# which periodically emits malformed function tags (missing `>`, dropped
-# closing tags) that Groq rejects with tool_use_failed before the agent
-# can react. Override with AGENT_MODEL env var if you want to A/B test.
-MODEL = os.environ.get("AGENT_MODEL", "openai/gpt-oss-120b")
+# Default back to llama-3.3-70b-versatile: gpt-oss-120b has a 8k TPM cap
+# on Groq's on_demand tier which this workload exceeds, while Llama 3.3
+# has a 12k TPM cap. Llama 3.3 occasionally emits malformed function
+# tags - the schema-retry loop in run_agent (with perturbed temperature)
+# is the safety net for that. Override with AGENT_MODEL env var.
+MODEL = os.environ.get("AGENT_MODEL", "llama-3.3-70b-versatile")
 
 AGENT_DIR = Path("agent")
 INDEX_FILE = AGENT_DIR / "index.json"
