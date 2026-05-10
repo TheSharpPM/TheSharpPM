@@ -45,6 +45,11 @@ KEY_TAKEAWAYS_MAX = 5
 PM_HOMEWORK_MIN = 1
 PM_HOMEWORK_MAX = 3
 
+# Minimum total of fetch_feeds + web_search + fetch_article calls before
+# publish_edition will be accepted. Stops the agent from publishing on
+# iteration 3-5 with a single article.
+MIN_RESEARCH_CALLS = 6
+
 # Tracks how many times each tool has been invoked in the current run.
 # Used by the publish gate to refuse premature or ungrounded publishes.
 TOOL_CALL_COUNTS = {}
@@ -258,6 +263,26 @@ def tool_publish_edition(headline_theme, editorial, must_reads,
                 "Refusing to publish: you have not called fetch_feeds or "
                 "web_search yet. Gather real articles first, then call "
                 "publish_edition with sources from those tool results."
+            )
+        }
+
+    # Gate 1b: minimum exploration before publishing. Llama 3.3 likes to
+    # publish on iteration 3-5 with one article. Force a wider lens.
+    research_calls = (
+        TOOL_CALL_COUNTS.get("fetch_feeds", 0)
+        + TOOL_CALL_COUNTS.get("web_search", 0)
+        + TOOL_CALL_COUNTS.get("fetch_article", 0)
+    )
+    if research_calls < MIN_RESEARCH_CALLS:
+        return {
+            "error": (
+                f"Refusing to publish: only {research_calls} research calls "
+                f"made (fetch_feeds + web_search + fetch_article). "
+                f"Minimum {MIN_RESEARCH_CALLS}. You cannot pick the week's "
+                f"theme from one article. Call fetch_feeds with different "
+                f"topic filters, run web_search to find reactions and "
+                f"context, and fetch_article on at least 2-3 full pieces "
+                f"before deciding what matters."
             )
         }
 
@@ -490,14 +515,12 @@ TOOL_DECLARATIONS = [
                 },
                 "key_takeaways": {
                     "type": "array",
-                    "description": "3 to 5 sharp, specific observations from the week. Each item is one sentence. NOT a summary of articles - state what changed, what's new, what's worth a PM's attention. Each takeaway must be grounded in a piece you actually read.",
+                    "description": "Exactly 3 to 5 items. Sharp, specific observations from the week. Each item is one sentence. NOT a summary of articles - state what changed, what's new, what's worth a PM's attention. Each takeaway must be grounded in a piece you actually read.",
                     "items": {"type": "string"},
-                    "minItems": 3,
-                    "maxItems": 5,
                 },
                 "must_reads": {
                     "type": "array",
-                    "description": "3 to 5 hand-picked articles with an editorial 'why' and a pull quote. Ordered by importance.",
+                    "description": "Exactly 3 to 5 hand-picked articles with an editorial 'why' and a pull quote. Ordered by importance. Fewer than 3 will be rejected.",
                     "items": {
                         "type": "object",
                         "properties": {
@@ -515,8 +538,6 @@ TOOL_DECLARATIONS = [
                         },
                         "required": ["title", "url", "source", "why"],
                     },
-                    "minItems": 3,
-                    "maxItems": 5,
                 },
                 "contrarian": {
                     "type": "object",
@@ -543,10 +564,8 @@ TOOL_DECLARATIONS = [
                 },
                 "pm_homework": {
                     "type": "array",
-                    "description": "1 to 3 concrete actions a Staff or Senior PM should take this week because of what you surfaced. Each item is an imperative sentence ('Audit your...', 'Run a 30-min...', 'Bring this to your next...'). Specific, doable in a week, grounded in the must_reads.",
+                    "description": "Exactly 1 to 3 concrete actions a Staff or Senior PM should take this week because of what you surfaced. Each item is an imperative sentence ('Audit your...', 'Run a 30-min...', 'Bring this to your next...'). Specific, doable in a week, grounded in the must_reads.",
                     "items": {"type": "string"},
-                    "minItems": 1,
-                    "maxItems": 3,
                 },
             },
             "required": ["headline_theme", "editorial", "key_takeaways", "must_reads", "pm_homework"],
@@ -567,11 +586,11 @@ Your voice is direct, opinionated, and sharp. You cut through hype and surface w
 ABSOLUTE RULES (violating any of these will cause publish_edition to reject your submission and force you to retry):
 - NEVER invent URLs, titles, sources, dates, or quotes. Every URL in must_reads, contrarian, and also_worth MUST come verbatim from a fetch_feeds, web_search, or fetch_article tool result returned in this conversation.
 - NEVER use placeholder content. URLs containing "example.com" or "example.org", and titles or sources like "Example Source" will be rejected.
-- NEVER call publish_edition before you have called fetch_feeds or web_search at least once and read real items.
+- NEVER call publish_edition before you have at minimum 6 research tool calls (fetch_feeds + web_search + fetch_article combined). One feed pull and one search is NOT enough. You cannot pick the week's theme from a single article.
 - Editorial body: 250 to 500 words, three paragraphs.
 - NEVER write meta-narrative in the editorial. Forbidden phrases: "we'll explore", "we'll examine", "we'll discuss", "in this edition", "in this week's edition", "our must-reads include", "our contrarian pick". The editorial IS the take, not a description of what the dispatch contains.
 - "why" fields on must_reads must be OPINION. Forbidden phrases: "this article provides", "this article highlights", "comprehensive overview", "provides an overview". React to the article, do not describe it.
-- must_reads must contain 3 to 5 items.
+- must_reads must contain EXACTLY 3 to 5 items. Submitting fewer than 3 will be rejected. If you only have 1-2 candidates, go back and run more fetch_feeds or web_search calls until you have at least 3 strong picks.
 - key_takeaways must contain 3 to 5 items.
 - pm_homework must contain 1 to 3 items.
 
@@ -668,6 +687,7 @@ def run_agent():
 
     print(f"Agent Sharp - starting run for {date}\n")
 
+    schema_retries = 0
     for iteration in range(1, MAX_ITERATIONS + 1):
         print(f"[iter {iteration}]")
         # On the first turn, force the agent to actually call a tool.
@@ -683,6 +703,29 @@ def run_agent():
                 temperature=0.7,
             )
         except Exception as e:
+            error_str = str(e)
+            # Groq does its own JSON-Schema validation on tool calls and
+            # returns 400 / tool_use_failed before the model even gets a
+            # chance to react. When that happens, feed the error back as a
+            # user message and let the agent retry, instead of crashing
+            # the whole run.
+            if "tool_use_failed" in error_str and schema_retries < 3:
+                schema_retries += 1
+                print(
+                    f"  Groq rejected tool call (schema). Asking agent to "
+                    f"retry. retry {schema_retries}/3."
+                )
+                messages.append({
+                    "role": "user",
+                    "content": (
+                        "Your previous tool call was rejected by the API "
+                        "for not matching the tool's JSON schema. Read the "
+                        "schema descriptions carefully (required fields, "
+                        "expected counts, types) and try again. Error from "
+                        f"the API: {error_str[:600]}"
+                    ),
+                })
+                continue
             print(f"  Groq error: {e}")
             return 1
 
