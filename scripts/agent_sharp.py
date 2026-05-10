@@ -27,7 +27,11 @@ from groq import Groq
 
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
 TAVILY_API_KEY = os.environ.get("TAVILY_API_KEY")
-MODEL = os.environ.get("AGENT_MODEL", "llama-3.3-70b-versatile")
+# Default to gpt-oss-120b - more reliable tool calling than Llama 3.3 70B,
+# which periodically emits malformed function tags (missing `>`, dropped
+# closing tags) that Groq rejects with tool_use_failed before the agent
+# can react. Override with AGENT_MODEL env var if you want to A/B test.
+MODEL = os.environ.get("AGENT_MODEL", "openai/gpt-oss-120b")
 
 AGENT_DIR = Path("agent")
 INDEX_FILE = AGENT_DIR / "index.json"
@@ -687,41 +691,56 @@ def run_agent():
 
     print(f"Agent Sharp - starting run for {date}\n")
 
+    # Perturbed temperatures used on tool_use_failed retries. Cycling
+    # through different values nudges the model out of any deterministic
+    # bad-output pattern (malformed function tags, repeated invalid
+    # arguments).
+    RETRY_TEMPERATURES = [1.0, 0.4, 1.1]
     schema_retries = 0
     for iteration in range(1, MAX_ITERATIONS + 1):
         print(f"[iter {iteration}]")
         # On the first turn, force the agent to actually call a tool.
-        # Without this, Llama sometimes skips straight to a fabricated
-        # publish_edition with example.com URLs.
+        # Without this, the model sometimes skips straight to a
+        # fabricated publish_edition with example.com URLs.
         tool_choice = "required" if iteration == 1 else "auto"
+        # Use perturbed temperature on retries; baseline 0.7 otherwise.
+        if schema_retries > 0 and schema_retries <= len(RETRY_TEMPERATURES):
+            current_temp = RETRY_TEMPERATURES[schema_retries - 1]
+        else:
+            current_temp = 0.7
         try:
             response = client.chat.completions.create(
                 model=MODEL,
                 messages=messages,
                 tools=TOOLS,
                 tool_choice=tool_choice,
-                temperature=0.7,
+                temperature=current_temp,
             )
         except Exception as e:
             error_str = str(e)
-            # Groq does its own JSON-Schema validation on tool calls and
-            # returns 400 / tool_use_failed before the model even gets a
-            # chance to react. When that happens, feed the error back as a
-            # user message and let the agent retry, instead of crashing
-            # the whole run.
+            # Groq does its own validation on tool calls and returns 400
+            # / tool_use_failed before the model gets a chance to react.
+            # Two flavours: JSON-Schema mismatch on arguments, and
+            # malformed function-tag emission from the model. In both
+            # cases, feed the error back as a user message and let the
+            # agent retry with a perturbed temperature, instead of
+            # crashing the whole run.
             if "tool_use_failed" in error_str and schema_retries < 3:
                 schema_retries += 1
                 print(
-                    f"  Groq rejected tool call (schema). Asking agent to "
-                    f"retry. retry {schema_retries}/3."
+                    f"  Groq rejected tool call. Asking agent to retry "
+                    f"(retry {schema_retries}/3, temp -> "
+                    f"{RETRY_TEMPERATURES[schema_retries - 1]})."
                 )
                 messages.append({
                     "role": "user",
                     "content": (
-                        "Your previous tool call was rejected by the API "
-                        "for not matching the tool's JSON schema. Read the "
-                        "schema descriptions carefully (required fields, "
-                        "expected counts, types) and try again. Error from "
+                        "Your previous tool call was rejected by the API. "
+                        "It was either malformed (function tag syntax) or "
+                        "did not match the tool's JSON schema. Re-read "
+                        "the tool definitions carefully (required fields, "
+                        "expected counts, types) and try again, emitting "
+                        "exactly one well-formed tool call. Error from "
                         f"the API: {error_str[:600]}"
                     ),
                 })
