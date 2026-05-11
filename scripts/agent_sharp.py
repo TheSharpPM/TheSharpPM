@@ -685,6 +685,40 @@ def execute_tool(name, args):
         return {"error": f"tool {name} failed: {e}"}
 
 
+# Sliding-window cap: keep system + user + this many of the most recent
+# messages in full. Older tool message contents are truncated to a short
+# stub to stay within the model's per-request token budget. The agent
+# does not need to re-read old tool dumps - it builds up understanding
+# turn by turn - so truncating older results is structurally safe.
+KEEP_RECENT_MESSAGES = 6
+OLD_TOOL_RESULT_PREVIEW_CHARS = 200
+
+
+def trim_message_history(messages):
+    """In-place: truncate content of old tool messages to save tokens.
+
+    Leaves system prompt, user turn, and the last KEEP_RECENT_MESSAGES
+    untouched. For older tool-role messages, replaces the JSON content
+    with a short preview plus a marker so the model knows that detail
+    is no longer available.
+    """
+    if len(messages) <= 2 + KEEP_RECENT_MESSAGES:
+        return
+    cutoff = len(messages) - KEEP_RECENT_MESSAGES
+    for i in range(2, cutoff):
+        msg = messages[i]
+        if msg.get("role") != "tool":
+            continue
+        content = msg.get("content", "")
+        if not isinstance(content, str) or len(content) <= OLD_TOOL_RESULT_PREVIEW_CHARS + 50:
+            continue
+        msg["content"] = (
+            content[:OLD_TOOL_RESULT_PREVIEW_CHARS]
+            + "...[older tool result truncated for token budget; "
+            "re-fetch if you need this content again]"
+        )
+
+
 def run_agent():
     if not GROQ_API_KEY:
         print("ERROR: GROQ_API_KEY not set")
@@ -724,6 +758,10 @@ def run_agent():
             current_temp = RETRY_TEMPERATURES[schema_retries - 1]
         else:
             current_temp = 0.7
+        # Truncate content of older tool results before sending. Stops
+        # the messages array from growing past the per-request TPM cap
+        # as iterations stack up.
+        trim_message_history(messages)
         try:
             response = client.chat.completions.create(
                 model=MODEL,
