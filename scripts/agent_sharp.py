@@ -72,6 +72,19 @@ PM_HOMEWORK_MAX = 3
 # iteration 3-5 with a single article.
 MIN_RESEARCH_CALLS = 6
 
+# Per-field hard caps on what publish_edition will accept. Defence
+# against an LLM prompt-injected into emitting absurdly large strings
+# that bloat the JSON file and inflate every later read_memory call.
+MAX_HEADLINE_CHARS = 200
+MAX_MUST_READ_TITLE_CHARS = 300
+MAX_MUST_READ_SOURCE_CHARS = 100
+MAX_MUST_READ_WHY_CHARS = 1500
+MAX_MUST_READ_PULL_QUOTE_CHARS = 500
+MAX_KEY_TAKEAWAY_CHARS = 500
+MAX_PM_HOMEWORK_CHARS = 500
+MAX_CONTRARIAN_NOTE_CHARS = 1000
+MAX_ALSO_WORTH_TITLE_CHARS = 300
+
 # Tracks how many times each tool has been invoked in the current run.
 # Used by the publish gate to refuse premature or ungrounded publishes.
 TOOL_CALL_COUNTS = {}
@@ -449,12 +462,15 @@ def tool_publish_edition(headline_theme, editorial, must_reads,
                 )
             }
 
-    # Gate 3: editorial length.
+    # Gate 3: editorial length (both ends). Enforcing the upper bound
+    # is also a defence against an LLM being prompt-injected into
+    # publishing a 50k-word blob that bloats the repo and burns tokens
+    # on every subsequent read_memory.
     word_count = len((editorial or "").split())
-    if word_count < EDITORIAL_MIN_WORDS:
+    if word_count < EDITORIAL_MIN_WORDS or word_count > EDITORIAL_MAX_WORDS:
         return {
             "error": (
-                f"Refusing to publish: editorial is only {word_count} words. "
+                f"Refusing to publish: editorial is {word_count} words. "
                 f"Required: {EDITORIAL_MIN_WORDS}-{EDITORIAL_MAX_WORDS} words, "
                 f"three paragraphs (hook anchored in a specific article, "
                 f"synthesis across 3+ pieces, implication for PMs). Rewrite "
@@ -528,6 +544,38 @@ def tool_publish_edition(headline_theme, editorial, must_reads,
                 f"actions a Staff or Senior PM should take this week."
             )
         }
+
+    # Gate 9: per-field length caps. Truncate-as-you-go (rather than
+    # reject) so a slightly verbose model still gets published, but
+    # nothing can bloat the JSON file by orders of magnitude. Mutates
+    # the dicts in place; the caller has already passed them in.
+    def _cap(s, n):
+        if not isinstance(s, str):
+            return s
+        return s if len(s) <= n else s[:n].rstrip() + "..."
+
+    headline_theme = _cap(headline_theme, MAX_HEADLINE_CHARS)
+    for mr in mr_list:
+        if not isinstance(mr, dict):
+            continue
+        mr["title"] = _cap(mr.get("title"), MAX_MUST_READ_TITLE_CHARS)
+        mr["source"] = _cap(mr.get("source"), MAX_MUST_READ_SOURCE_CHARS)
+        mr["why"] = _cap(mr.get("why"), MAX_MUST_READ_WHY_CHARS)
+        if mr.get("pull_quote"):
+            mr["pull_quote"] = _cap(mr["pull_quote"], MAX_MUST_READ_PULL_QUOTE_CHARS)
+    kt_list = [_cap(k, MAX_KEY_TAKEAWAY_CHARS) for k in kt_list]
+    hw_list = [_cap(h, MAX_PM_HOMEWORK_CHARS) for h in hw_list]
+    if isinstance(contrarian, dict):
+        contrarian["title"] = _cap(contrarian.get("title"), MAX_MUST_READ_TITLE_CHARS)
+        contrarian["source"] = _cap(contrarian.get("source"), MAX_MUST_READ_SOURCE_CHARS)
+        contrarian["note"] = _cap(contrarian.get("note"), MAX_CONTRARIAN_NOTE_CHARS)
+    if also_worth:
+        for aw in also_worth:
+            if not isinstance(aw, dict):
+                continue
+            aw["title"] = _cap(aw.get("title"), MAX_ALSO_WORTH_TITLE_CHARS)
+            if aw.get("source"):
+                aw["source"] = _cap(aw["source"], MAX_MUST_READ_SOURCE_CHARS)
 
     AGENT_DIR.mkdir(parents=True, exist_ok=True)
 
