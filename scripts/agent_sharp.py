@@ -27,12 +27,16 @@ from groq import Groq
 
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
 TAVILY_API_KEY = os.environ.get("TAVILY_API_KEY")
-# Default back to llama-3.3-70b-versatile: gpt-oss-120b has a 8k TPM cap
-# on Groq's on_demand tier which this workload exceeds, while Llama 3.3
-# has a 12k TPM cap. Llama 3.3 occasionally emits malformed function
-# tags - the schema-retry loop in run_agent (with perturbed temperature)
-# is the safety net for that. Override with AGENT_MODEL env var.
-MODEL = os.environ.get("AGENT_MODEL", "llama-3.3-70b-versatile")
+# Default to kimi-k2-instruct: built for agentic tool calling and so far
+# the only model on Groq's free tier that reliably handles this
+# workload. History:
+#   - llama-3.3-70b-versatile: emits malformed <function=name{args}>
+#     tags (missing `>`) on iteration 1 - confirmed even after 3 retries
+#     with perturbed temperatures, same bad output.
+#   - openai/gpt-oss-120b: 8k TPM cap on on_demand tier, this workload
+#     hits ~9k+ per request, so every run rate-limited.
+# Override with AGENT_MODEL env var if you want to A/B test.
+MODEL = os.environ.get("AGENT_MODEL", "moonshotai/kimi-k2-instruct")
 
 AGENT_DIR = Path("agent")
 INDEX_FILE = AGENT_DIR / "index.json"
