@@ -526,7 +526,10 @@
     function saveTagsToCookie(tags) {
         var expires = new Date();
         expires.setFullYear(expires.getFullYear() + 1);
-        document.cookie = 'selectedTags=' + JSON.stringify(tags) + '; expires=' + expires.toUTCString() + '; path=/; SameSite=Lax';
+        // Secure flag: site is served over HTTPS on GitHub Pages, so
+        // require the browser to only send this cookie over HTTPS.
+        // No-op on plain http (localhost) but harmless there.
+        document.cookie = 'selectedTags=' + JSON.stringify(tags) + '; expires=' + expires.toUTCString() + '; path=/; SameSite=Lax; Secure';
     }
  
     function loadTagsFromCookie() {

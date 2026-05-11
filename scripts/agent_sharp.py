@@ -11,15 +11,18 @@ dispatch per week.
 """
 
 import feedparser
+import ipaddress
 import json
 import os
 import re
 import requests
+import socket
 import sys
 import time
 from datetime import datetime, timezone
 from pathlib import Path
 from time import mktime
+from urllib.parse import urlparse
 
 from groq import Groq
 
@@ -218,15 +221,79 @@ def tool_web_search(query, max_results=5):
         return {"error": str(e)}
 
 
+# Hard cap on bytes downloaded by tool_fetch_article. The text is
+# truncated anyway, but without this a malicious server could stream
+# arbitrary amounts of data before we hit our slice. 1 MB is enough
+# headroom for any legitimate article we'd want to extract from.
+MAX_FETCH_BYTES = 1_048_576
+
+
+def _url_is_safe_to_fetch(url):
+    """Return (ok, reason). Blocks anything that's not public http/https.
+
+    Defends against SSRF via prompt injection: a feed snippet could
+    instruct the LLM to call fetch_article(http://169.254.169.254/...)
+    to hit the GHA runner's cloud-metadata endpoint, an internal
+    service, or a loopback address. We allow only http(s) and only to
+    DNS names that resolve to public IPs.
+    """
+    if not isinstance(url, str) or not url.strip():
+        return False, "empty URL"
+    parsed = urlparse(url.strip())
+    if parsed.scheme not in ("http", "https"):
+        return False, f"scheme '{parsed.scheme}' not allowed (http/https only)"
+    if not parsed.hostname:
+        return False, "URL has no hostname"
+    # Resolve every address the hostname maps to. Reject if any is
+    # private, loopback, link-local, reserved or multicast. A single
+    # public A record alongside a private one is treated as unsafe -
+    # DNS rebinding pretext.
+    try:
+        infos = socket.getaddrinfo(parsed.hostname, None)
+    except socket.gaierror as e:
+        return False, f"DNS resolution failed: {e}"
+    for info in infos:
+        addr = info[4][0]
+        try:
+            ip = ipaddress.ip_address(addr)
+        except ValueError:
+            return False, f"unresolvable IP: {addr}"
+        if (ip.is_private or ip.is_loopback or ip.is_link_local
+                or ip.is_reserved or ip.is_multicast or ip.is_unspecified):
+            return False, f"hostname resolves to non-public IP {addr}"
+    return True, "ok"
+
+
 def tool_fetch_article(url):
     """Fetch the text of a specific URL. Truncated to MAX_ARTICLE_CHARS."""
+    ok, reason = _url_is_safe_to_fetch(url)
+    if not ok:
+        return {"error": f"refusing to fetch: {reason}"}
     try:
+        # stream=True + iter_content lets us cap download at
+        # MAX_FETCH_BYTES instead of pulling the whole response into
+        # memory first. allow_redirects=True is the default, but each
+        # redirect target is NOT re-validated by _url_is_safe_to_fetch;
+        # mitigations: only the final URL host is fetched here, and
+        # cloud-metadata endpoints don't typically chain via redirect.
         response = requests.get(
             url,
             timeout=15,
             headers={"User-Agent": "Mozilla/5.0 (Agent Sharp Weekly Editor)"},
+            stream=True,
         )
-        text = strip_html(response.text)
+        chunks = []
+        bytes_read = 0
+        for chunk in response.iter_content(chunk_size=16384, decode_unicode=False):
+            if not chunk:
+                continue
+            chunks.append(chunk)
+            bytes_read += len(chunk)
+            if bytes_read >= MAX_FETCH_BYTES:
+                break
+        response.close()
+        raw = b"".join(chunks).decode(response.encoding or "utf-8", errors="replace")
+        text = strip_html(raw)
         return {
             "url": url,
             "text": text[:MAX_ARTICLE_CHARS],
@@ -249,8 +316,16 @@ def tool_read_memory(weeks=4):
 
     editions_meta = index.get("editions", [])[:weeks]
     summaries = []
+    # Strict ISO-date regex. index.json is in-repo so a malicious entry
+    # would require write access, but a single bogus value like
+    # "../../../etc/passwd" would otherwise let read_memory open files
+    # outside AGENT_DIR. Cheap belt-and-braces.
+    date_re = re.compile(r"^\d{4}-\d{2}-\d{2}$")
     for meta in editions_meta:
-        edition_file = AGENT_DIR / f"{meta['date']}.json"
+        date = str(meta.get("date", ""))
+        if not date_re.match(date):
+            continue
+        edition_file = AGENT_DIR / f"{date}.json"
         if not edition_file.exists():
             continue
         try:
