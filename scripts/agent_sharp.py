@@ -264,24 +264,47 @@ def _url_is_safe_to_fetch(url):
     return True, "ok"
 
 
+MAX_REDIRECTS = 5
+
+
 def tool_fetch_article(url):
     """Fetch the text of a specific URL. Truncated to MAX_ARTICLE_CHARS."""
     ok, reason = _url_is_safe_to_fetch(url)
     if not ok:
         return {"error": f"refusing to fetch: {reason}"}
     try:
-        # stream=True + iter_content lets us cap download at
-        # MAX_FETCH_BYTES instead of pulling the whole response into
-        # memory first. allow_redirects=True is the default, but each
-        # redirect target is NOT re-validated by _url_is_safe_to_fetch;
-        # mitigations: only the final URL host is fetched here, and
-        # cloud-metadata endpoints don't typically chain via redirect.
-        response = requests.get(
-            url,
-            timeout=15,
-            headers={"User-Agent": "Mozilla/5.0 (Agent Sharp Weekly Editor)"},
-            stream=True,
-        )
+        # Manual redirect handling. Each hop is re-validated by
+        # _url_is_safe_to_fetch so a public host cannot 302-redirect
+        # us to a private/loopback/metadata target. stream=True +
+        # iter_content caps the download at MAX_FETCH_BYTES so a
+        # malicious server cannot stream gigabytes before our text
+        # slice kicks in.
+        current_url = url
+        response = None
+        for hop in range(MAX_REDIRECTS + 1):
+            response = requests.get(
+                current_url,
+                timeout=15,
+                headers={"User-Agent": "Mozilla/5.0 (Agent Sharp Weekly Editor)"},
+                stream=True,
+                allow_redirects=False,
+            )
+            if response.is_redirect or response.is_permanent_redirect:
+                next_url = response.headers.get("Location")
+                response.close()
+                if not next_url:
+                    return {"error": "redirect with no Location header"}
+                if hop == MAX_REDIRECTS:
+                    return {"error": f"too many redirects (> {MAX_REDIRECTS})"}
+                # Resolve relative Location against the current URL,
+                # then re-validate before the next hop.
+                next_url = requests.compat.urljoin(current_url, next_url)
+                ok, reason = _url_is_safe_to_fetch(next_url)
+                if not ok:
+                    return {"error": f"refusing redirect to unsafe target: {reason}"}
+                current_url = next_url
+                continue
+            break
         chunks = []
         bytes_read = 0
         for chunk in response.iter_content(chunk_size=16384, decode_unicode=False):
