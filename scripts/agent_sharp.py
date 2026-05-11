@@ -331,6 +331,26 @@ def tool_publish_edition(headline_theme, editorial, must_reads,
                     )
                 }
 
+    # Gate 2b: every URL must be http(s). Defense against an LLM
+    # hallucinating a javascript:, data:, or file: URL that the
+    # frontend then injects into an href attribute.
+    for item in items_to_check:
+        if not isinstance(item, dict):
+            continue
+        url = str(item.get("url", "")).strip()
+        if not url:
+            continue
+        if not (url.lower().startswith("http://")
+                or url.lower().startswith("https://")):
+            return {
+                "error": (
+                    f"Refusing to publish: URL '{url[:80]}' is not http "
+                    f"or https. Every URL in must_reads, contrarian and "
+                    f"also_worth must be a real article link starting "
+                    f"with http:// or https:// from a tool result."
+                )
+            }
+
     # Gate 3: editorial length.
     word_count = len((editorial or "").split())
     if word_count < EDITORIAL_MIN_WORDS:

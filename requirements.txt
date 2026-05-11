@@ -1,0 +1,7 @@
+# Pinned runtime dependencies for scripts/aggregate.py and
+# scripts/agent_sharp.py. Pin to specific versions so a malicious or
+# breaking release upstream cannot ship into CI without a deliberate
+# bump here. Rebump deliberately via Dependabot or manually.
+feedparser==6.0.12
+requests==2.34.0
+groq==1.2.0
