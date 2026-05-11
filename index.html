@@ -12,6 +12,12 @@
     </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSP: keep inline scripts/styles (site relies on them) but block
+         loading from origins other than the few we use, and forbid
+         framing entirely. Defence in depth for any XSS that slipped past
+         the renderer's escapeHtml. -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self' https://www.google-analytics.com https://stats.g.doubleclick.net; frame-ancestors 'none'; base-uri 'self'; form-action 'self';">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
     <title>The Sharp PM</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
@@ -590,16 +596,35 @@
         return new Date(dateStr) >= new Date(Date.now() - 24 * 60 * 60 * 1000);
     }
  
+    // Escape any string before injecting into HTML. data.json is built
+    // from third-party RSS feeds (Medium, Hacker News, etc.) where the
+    // title/summary fields are user-controlled, so every field must be
+    // escaped to prevent XSS.
+    function escapeHtml(s) {
+        return String(s == null ? '' : s).replace(/[&<>"']/g, function(c) {
+            return { '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c];
+        });
+    }
+
+    // Only allow http(s) URLs through. Blocks javascript:, data:, and
+    // any other scheme an attacker could smuggle through a feed.
+    function safeUrl(u) {
+        if (typeof u !== 'string') return '#';
+        var trimmed = u.trim();
+        if (/^https?:\/\//i.test(trimmed)) return trimmed;
+        return '#';
+    }
+
     function renderTagPills(tags) {
         if (!tags || tags.length === 0) return '';
         return '<div class="card-tags">' +
             tags.map(function(t) {
                 var isActive = activeTags.indexOf(t) > -1 ? ' active' : '';
-                return '<span class="card-tag-pill' + isActive + '" data-tag="' + t + '">' + t + '</span>';
+                return '<span class="card-tag-pill' + isActive + '" data-tag="' + escapeHtml(t) + '">' + escapeHtml(t) + '</span>';
             }).join('') +
             '</div>';
     }
- 
+
     function renderCards(items) {
         if (items.length === 0) {
             grid.innerHTML = '<div class="empty"><h3>No results</h3><p>Try another filter or search term.</p></div>';
@@ -608,31 +633,51 @@
         }
         countEl.textContent = items.length + ' articles';
         grid.innerHTML = items.map(function(item, i) {
-            var twitterUrl = 'https://twitter.com/intent/tweet?url=' + encodeURIComponent(item.url) + '&text=' + encodeURIComponent(item.title);
-            var linkedinUrl = 'https://www.linkedin.com/sharing/share-offsite/?url=' + encodeURIComponent(item.url);
-            return '<div class="card" style="animation-delay:' + (i * 0.05) + 's">' +
+            var url = safeUrl(item.url);
+            var urlEsc = escapeHtml(url);
+            var titleEsc = escapeHtml(item.title);
+            var summaryEsc = escapeHtml(item.summary || '');
+            var sourceEsc = escapeHtml(item.source || '');
+            var twitterUrl = 'https://twitter.com/intent/tweet?url=' + encodeURIComponent(url) + '&text=' + encodeURIComponent(item.title || '');
+            var linkedinUrl = 'https://www.linkedin.com/sharing/share-offsite/?url=' + encodeURIComponent(url);
+            return '<div class="card" data-url="' + urlEsc + '" style="animation-delay:' + (i * 0.05) + 's">' +
                 '<div class="card-meta">' +
                 '<span class="card-tag ' + tagClass(item.type) + '">' + tagLabel(item.type) + '</span>' +
                 (isNew(item.date) ? '<span class="card-new">New</span>' : '') +
-                '<span class="card-source">' + (item.source || '') + '</span>' +
+                '<span class="card-source">' + sourceEsc + '</span>' +
                 '</div>' +
-                '<h2><a href="' + item.url + '" target="_blank" rel="noopener">' + item.title + '</a></h2>' +
-                '<p class="card-summary">' + (item.summary || '') + '</p>' +
+                '<h2><a href="' + urlEsc + '" target="_blank" rel="noopener">' + titleEsc + '</a></h2>' +
+                '<p class="card-summary">' + summaryEsc + '</p>' +
                 renderTagPills(item.tags) +
                 '<div class="card-footer">' +
                 '<span class="card-date">' + formatDate(item.date) + '</span>' +
                 '<div class="card-footer-right">' +
                 '<div class="card-share">' +
-                '<a class="share-btn" href="' + twitterUrl + '" target="_blank" title="Share on X">𝕏</a>' +
-                '<a class="share-btn" href="' + linkedinUrl + '" target="_blank" title="Share on LinkedIn">in</a>' +
-                '<button class="share-btn" onclick="navigator.clipboard.writeText(\'' + item.url.replace(/'/g, "\\'") + '\');this.textContent=\'✓\';setTimeout(function(){this.textContent=\'🔗\';}.bind(this),1500)" title="Copy link">🔗</button>' +
+                '<a class="share-btn" href="' + escapeHtml(twitterUrl) + '" target="_blank" title="Share on X">𝕏</a>' +
+                '<a class="share-btn" href="' + escapeHtml(linkedinUrl) + '" target="_blank" title="Share on LinkedIn">in</a>' +
+                '<button class="share-btn card-copy" type="button" title="Copy link">🔗</button>' +
                 '</div>' +
-                '<a class="card-link" href="' + item.url + '" target="_blank" rel="noopener">Read article →</a>' +
+                '<a class="card-link" href="' + urlEsc + '" target="_blank" rel="noopener">Read article →</a>' +
                 '</div>' +
                 '</div>' +
                 '</div>';
         }).join('');
- 
+
+        // Wire up copy-link buttons. Replaces the previous inline onclick
+        // handler which interpolated item.url directly into JS source -
+        // that was a XSS sink even with the quote replace, because
+        // item.url could contain newlines or other control chars.
+        document.querySelectorAll('.card .card-copy').forEach(function(btn) {
+            btn.addEventListener('click', function() {
+                var card = btn.closest('.card');
+                if (!card) return;
+                var url = card.getAttribute('data-url') || '';
+                navigator.clipboard.writeText(url);
+                btn.textContent = '✓';
+                setTimeout(function() { btn.textContent = '🔗'; }, 1500);
+            });
+        });
+
         document.querySelectorAll('.card-tag-pill').forEach(function(pill) {
             pill.addEventListener('click', function() {
                 var tag = pill.dataset.tag;

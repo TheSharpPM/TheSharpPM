@@ -11,6 +11,8 @@
     </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self' https://www.google-analytics.com https://stats.g.doubleclick.net; frame-ancestors 'none'; base-uri 'self'; form-action 'self';">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
     <title>Agent Sharp - Edition - The Sharp PM</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
@@ -410,6 +412,16 @@
         });
     }
 
+    // escapeHtml alone does not protect against javascript: or data:
+    // URLs in href attributes - it only neutralises quote-breakout. Use
+    // this for anything that becomes an href/src.
+    function safeUrl(u) {
+        if (typeof u !== 'string') return '#';
+        var trimmed = u.trim();
+        if (/^https?:\/\//i.test(trimmed)) return trimmed;
+        return '#';
+    }
+
     function renderEditorial(text) {
         var parts = (text || '').split(/\n\s*\n/).filter(function(p) { return p.trim(); });
         return parts.map(function(p) { return '<p>' + escapeHtml(p.trim()) + '</p>'; }).join('');
@@ -446,10 +458,10 @@
                     e.must_reads.forEach(function(mr) {
                         html += '<div class="must-read">';
                         if (mr.source) html += '<div class="must-read-source">' + escapeHtml(mr.source) + '</div>';
-                        html += '<h3><a href="' + escapeHtml(mr.url) + '" target="_blank" rel="noopener">' + escapeHtml(mr.title) + '</a></h3>';
+                        html += '<h3><a href="' + escapeHtml(safeUrl(mr.url)) + '" target="_blank" rel="noopener">' + escapeHtml(mr.title) + '</a></h3>';
                         if (mr.why) html += '<p class="must-read-why">' + escapeHtml(mr.why) + '</p>';
                         if (mr.pull_quote) html += '<blockquote class="must-read-pull-quote">' + escapeHtml(mr.pull_quote) + '</blockquote>';
-                        html += '<a class="must-read-link" href="' + escapeHtml(mr.url) + '" target="_blank" rel="noopener">Read &rarr;</a>';
+                        html += '<a class="must-read-link" href="' + escapeHtml(safeUrl(mr.url)) + '" target="_blank" rel="noopener">Read &rarr;</a>';
                         html += '</div>';
                     });
                     html += '</div>';
@@ -459,7 +471,7 @@
                     html += '<div class="contrarian">';
                     html += '<p class="section-label">The contrarian</p>';
                     if (e.contrarian.source) html += '<div class="contrarian-source">' + escapeHtml(e.contrarian.source) + '</div>';
-                    html += '<h3><a href="' + escapeHtml(e.contrarian.url) + '" target="_blank" rel="noopener">' + escapeHtml(e.contrarian.title) + '</a></h3>';
+                    html += '<h3><a href="' + escapeHtml(safeUrl(e.contrarian.url)) + '" target="_blank" rel="noopener">' + escapeHtml(e.contrarian.title) + '</a></h3>';
                     if (e.contrarian.note) html += '<p class="contrarian-note">' + escapeHtml(e.contrarian.note) + '</p>';
                     html += '</div>';
                 }
@@ -470,7 +482,7 @@
                     html += '<div class="also-worth-list">';
                     e.also_worth.forEach(function(aw) {
                         html += '<div class="also-worth-item">';
-                        html += '<a href="' + escapeHtml(aw.url) + '" target="_blank" rel="noopener">' + escapeHtml(aw.title) + '</a>';
+                        html += '<a href="' + escapeHtml(safeUrl(aw.url)) + '" target="_blank" rel="noopener">' + escapeHtml(aw.title) + '</a>';
                         if (aw.source) html += '<div class="also-worth-source">' + escapeHtml(aw.source) + '</div>';
                         html += '</div>';
                     });
