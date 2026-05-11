@@ -16,6 +16,7 @@ import os
 import re
 import requests
 import sys
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 from time import mktime
@@ -44,8 +45,15 @@ AGENT_DIR = Path("agent")
 INDEX_FILE = AGENT_DIR / "index.json"
 
 MAX_ITERATIONS = 15          # safety cap on agent turns
-MAX_ARTICLE_CHARS = 5000     # truncate article fetches
-MAX_FEED_ITEMS = 30          # cap feed payload per tool call
+MAX_ARTICLE_CHARS = 2500     # truncate article fetches
+MAX_FEED_ITEMS = 10          # cap feed payload per tool call
+MAX_FEED_SUMMARY_CHARS = 200 # cap each feed item's summary
+
+# How long to sleep on a transient rate_limit_exceeded (TPM) error
+# before retrying. TPM windows are 60 seconds, so 65s is enough for
+# the oldest tokens to roll out. Tries up to RATE_LIMIT_MAX_RETRIES.
+RATE_LIMIT_SLEEP_SECONDS = 65
+RATE_LIMIT_MAX_RETRIES = 2
 
 EDITORIAL_MIN_WORDS = 250
 EDITORIAL_MAX_WORDS = 500
@@ -153,7 +161,7 @@ def tool_fetch_feeds(topics=None, max_per_feed=2):
             parsed = feedparser.parse(feed["url"])
             for entry in parsed.entries[:max_per_feed]:
                 title = entry.get("title", "")
-                summary = strip_html(entry.get("summary", ""))[:500]
+                summary = strip_html(entry.get("summary", ""))[:MAX_FEED_SUMMARY_CHARS]
 
                 if topics_lower:
                     haystack = (title + " " + summary).lower()
@@ -704,6 +712,7 @@ def run_agent():
     # arguments).
     RETRY_TEMPERATURES = [1.0, 0.4, 1.1]
     schema_retries = 0
+    rate_limit_retries = 0
     for iteration in range(1, MAX_ITERATIONS + 1):
         print(f"[iter {iteration}]")
         # On the first turn, force the agent to actually call a tool.
@@ -751,6 +760,23 @@ def run_agent():
                         f"the API: {error_str[:600]}"
                     ),
                 })
+                continue
+            # Transient TPM rate limit: free tier windows are per-minute,
+            # so a short sleep is usually enough for the oldest tokens
+            # to roll out. Don't retry forever - if it keeps failing,
+            # the payload is structurally too large and a code fix is
+            # needed, not a wait.
+            if ("rate_limit_exceeded" in error_str
+                    and "tokens per minute" in error_str.lower()
+                    and rate_limit_retries < RATE_LIMIT_MAX_RETRIES):
+                rate_limit_retries += 1
+                print(
+                    f"  Hit TPM rate limit. Sleeping "
+                    f"{RATE_LIMIT_SLEEP_SECONDS}s and retrying "
+                    f"(retry {rate_limit_retries}/"
+                    f"{RATE_LIMIT_MAX_RETRIES})."
+                )
+                time.sleep(RATE_LIMIT_SLEEP_SECONDS)
                 continue
             print(f"  Groq error: {e}")
             return 1
