@@ -27,16 +27,18 @@ from groq import Groq
 
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
 TAVILY_API_KEY = os.environ.get("TAVILY_API_KEY")
-# Default to kimi-k2-instruct: built for agentic tool calling and so far
-# the only model on Groq's free tier that reliably handles this
-# workload. History:
+# Default to qwen/qwen3-32b. History of what was tried and discarded:
 #   - llama-3.3-70b-versatile: emits malformed <function=name{args}>
-#     tags (missing `>`) on iteration 1 - confirmed even after 3 retries
-#     with perturbed temperatures, same bad output.
-#   - openai/gpt-oss-120b: 8k TPM cap on on_demand tier, this workload
-#     hits ~9k+ per request, so every run rate-limited.
-# Override with AGENT_MODEL env var if you want to A/B test.
-MODEL = os.environ.get("AGENT_MODEL", "moonshotai/kimi-k2-instruct")
+#     tags (missing `>`) on iteration 1, confirmed even after 3 retries
+#     with perturbed temperatures - identical bad output every time.
+#   - openai/gpt-oss-120b: 8k TPM on free tier, this workload hits ~9k+
+#     per request, every run rate-limited.
+#   - moonshotai/kimi-k2-instruct: not listed in Groq's available
+#     models, returns 404.
+# qwen3-32b is on Groq's Preview tier, has solid tool-calling
+# reputation in agentic flows, and 32B params should fit within the
+# free-tier TPM budget. Override with AGENT_MODEL env var.
+MODEL = os.environ.get("AGENT_MODEL", "qwen/qwen3-32b")
 
 AGENT_DIR = Path("agent")
 INDEX_FILE = AGENT_DIR / "index.json"
