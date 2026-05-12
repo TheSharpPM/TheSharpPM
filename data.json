@@ -1,7 +1,111 @@
 {
-  "updated": "2026-05-11T14:20:33.253823+00:00",
-  "total": 308,
+  "updated": "2026-05-12T12:37:45.802963+00:00",
+  "total": 318,
   "items": [
+    {
+      "title": "The Wrong Question Is “Which AI Model Is Best?”",
+      "url": "https://medium.com/@wonderingmax/the-wrong-question-is-which-ai-model-is-best-7e74c900cc12?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-05-12T12:18:43+00:00",
+      "summary": "The article argues that product managers should stop asking which AI model is best and instead focus on defining the problem they need to solve, the value it creates for users, and the constraints of the product. By reframing the question, teams can prioritize the right data, evaluation metrics, and integration strategies rather than getting stuck on model selection.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Prioritization"
+      ]
+    },
+    {
+      "title": "Nobody Told Me These 5 Things Before I Switched to Product Management",
+      "url": "https://medium.productcoalition.com/nobody-told-me-these-5-things-before-i-switched-to-product-management-1040dd9cf1c2?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-05-12T12:13:17+00:00",
+      "summary": "The article shares five unexpected lessons the author learned when transitioning into product management, highlighting the importance of cross-functional communication, data-driven decision making, and setting realistic expectations. It also points readers to a key resource that helped clarify the role and accelerate their learning curve.",
+      "tags": [
+        "Career",
+        "Product Strategy",
+        "Leadership"
+      ]
+    },
+    {
+      "title": "The market dynamics behind product ecosystems",
+      "url": "https://paulkabon.medium.com/the-market-dynamics-behind-product-ecosystems-7977db5cb234?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-05-12T12:09:12+00:00",
+      "summary": "The article explores how shifting a flagship service like YouTube into a broader media hosting ecosystem—rebranded as ‘Google Video’—could reshape user expectations, developer partnerships, and competitive positioning. It examines the strategic trade‑offs of ecosystem integration versus platform focus, highlighting implications for product roadmaps and monetization models.",
+      "tags": [
+        "Product Strategy",
+        "Platform Strategy",
+        "Competitive Analysis"
+      ]
+    },
+    {
+      "title": "How to build trust into your AI product  before the security review kills your deal",
+      "url": "https://www.productledalliance.com/build-trust-into-your-ai-product-before-the-security-review-kills-your-deal/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-05-12T12:00:29+00:00",
+      "summary": "The article reframes the security review as an early indicator of trustworthiness rather than a final hurdle, urging product teams to embed trust principles from the start of AI development. By designing with transparency, compliance, and risk mitigation in mind, product managers can streamline security reviews and accelerate enterprise deals.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Leadership"
+      ]
+    },
+    {
+      "title": "Is Your B2B Software the Loudest Employee in the Room?",
+      "url": "https://appibara.medium.com/is-your-b2b-software-the-loudest-employee-in-the-room-a27d73d88e84?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-05-12T11:22:31+00:00",
+      "summary": "The article examines how B2B software often becomes a disruptive presence by overloading users with unnecessary features and demanding interfaces, leading to wasted time and reduced productivity. It highlights the psychological drivers behind feature bloat and offers insights on simplifying product experiences to align with real user needs.",
+      "tags": [
+        "Product Strategy",
+        "User Research",
+        "Leadership"
+      ]
+    },
+    {
+      "title": "What is a Chief Product Officer?  Responsibilities, skills, and opportunities",
+      "url": "https://www.productledalliance.com/what-is-a-chief-product-officer-the-skills-needed-for-this-emerging-career-path/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-05-12T11:00:00+00:00",
+      "summary": "The Chief Product Officer (CPO) is an executive role tasked with overseeing all product-related functions within a company, ensuring alignment with business goals. Reporting to the CEO, the CPO leads the product management team, shaping strategy, execution, and cross-functional collaboration. The position is pivotal for driving product vision, market fit, and overall company growth.",
+      "tags": [
+        "Product Strategy",
+        "Leadership",
+        "Product Culture"
+      ]
+    },
+    {
+      "title": "SpaceX and Anthropic, xAI’s Two Companies, Elon Musk and SpaceXAI’s Future",
+      "url": "https://stratechery.com/2026/spacex-and-anthropic-xais-two-companies-elon-musk-and-spacexais-future/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-05-12T10:00:00+00:00",
+      "summary": "The article discusses Elon Musk's recent deal involving Anthropic and his AI venture xAI, highlighting how the partnership underscores Musk's strategy to position his AI ventures as service providers for external companies rather than solely internal tools. It suggests that SpaceX and his broader AI initiatives will increasingly focus on B2B offerings, leveraging AI capabilities to support other businesses.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Growth"
+      ]
+    },
+    {
+      "title": "🎙️ How I AI: Quests, token leaderboards, and the elite AI adoption playbook & Notion’s spec-driven development",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-quests-token-leaderboards",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-05-11T16:02:49+00:00",
+      "summary": "The episode explores practical AI adoption tactics, such as quest-based learning, token-based leaderboards, and a senior leadership playbook for scaling AI within organizations, while also dissecting Notion's spec-driven development approach. It offers product managers actionable frameworks for driving AI integration and improving product specs and execution.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Leadership"
+      ]
+    },
     {
       "title": "Del caos y la rigidez a una orquestación estratégica",
       "url": "https://medium.com/@sssolon/del-caos-y-la-rigidez-a-una-orquestaci%C3%B3n-estrat%C3%A9gica-79c7629f352d?source=rss------product_management-5",
@@ -26,6 +130,19 @@
         "AI Strategy",
         "Product Design",
         "Product Culture"
+      ]
+    },
+    {
+      "title": "display.dev",
+      "url": "https://www.producthunt.com/products/display-dev",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-05-11T12:29:11+00:00",
+      "summary": "The article discusses a new feature on display.dev that allows publishing HTML generated by AI agents while keeping it secured behind company authentication mechanisms. It outlines how this capability can streamline internal workflows, maintain compliance, and enable controlled sharing of AI-generated content within an organization.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Security"
       ]
     },
     {
@@ -377,6 +494,19 @@
         "Product Strategy",
         "User Research",
         "Metrics"
+      ]
+    },
+    {
+      "title": "Jotform Claude App",
+      "url": "https://www.producthunt.com/products/jotform",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-05-08T07:44:00+00:00",
+      "summary": "The article introduces the Jotform Claude App, which enables users to create, modify, and analyze forms directly within the Claude discussion platform, streamlining workflow and data collection. This integration aims to enhance productivity by consolidating form management and AI-powered insights in a single interface.",
+      "tags": [
+        "AI Tools",
+        "Productivity",
+        "Product Strategy"
       ]
     },
     {
