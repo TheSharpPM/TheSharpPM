@@ -1,7 +1,111 @@
 {
-  "updated": "2026-05-12T12:37:45.802963+00:00",
-  "total": 318,
+  "updated": "2026-05-13T12:35:35.492142+00:00",
+  "total": 327,
   "items": [
+    {
+      "title": "The Real Challenge in Modern Project Management",
+      "url": "https://medium.com/@fortissocialbusiness/the-real-challenge-in-modern-project-management-f518961501ed?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-05-13T12:16:09+00:00",
+      "summary": "The article examines why modern projects often fail even when staffed with talented teams, highlighting issues such as unclear objectives, misaligned stakeholder expectations, and ineffective prioritization. It stresses the need for stronger leadership, clearer communication, and strategic alignment to keep projects on track.",
+      "tags": [
+        "Leadership",
+        "Prioritization",
+        "Product Strategy"
+      ]
+    },
+    {
+      "title": "What Working In UK Insurance Changed About How I See Risk",
+      "url": "https://medium.com/@nikhil2617.shinde/what-working-in-uk-insurance-changed-about-how-i-see-risk-867c95a0faa9?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-05-13T12:15:18+00:00",
+      "summary": "The author reflects on how their experience in UK insurance revealed that customers often buy policies out of uncertainty and trust rather than a clear understanding of risk. This insight emphasizes the need for product teams to simplify risk communication and design offerings that address perceived, not just actual, risk.",
+      "tags": [
+        "Product Strategy",
+        "User Research",
+        "Communication"
+      ]
+    },
+    {
+      "title": "The agile product mindset:  3 practitioners' insights",
+      "url": "https://www.productledalliance.com/the-agile-product-mindset/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-05-13T11:00:30+00:00",
+      "summary": "The article compiles insights from three agile practitioners, highlighting how an agile mindset drives continuous experimentation, user discovery, and effective prioritization of work. It emphasizes the importance of rapid learning cycles and flexible planning to deliver value, offering actionable lessons for product teams seeking to embed agility into their processes.",
+      "tags": [
+        "Product Strategy",
+        "Prioritization",
+        "Product Design"
+      ]
+    },
+    {
+      "title": "The Deployment Company, Back to the 70s, Apple and Intel",
+      "url": "https://stratechery.com/2026/the-deployment-company-back-to-the-70s-apple-and-intel/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-05-13T10:00:00+00:00",
+      "summary": "OpenAI is creating a dedicated deployment company to implement AI at scale, prompting other labs to follow suit, which underscores the need for top‑down AI integration. Meanwhile, Apple is motivated by cost and performance considerations to partner more closely with Intel.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Growth"
+      ]
+    },
+    {
+      "title": "Retention Is Not About Reminders. It Is About Continuation.",
+      "url": "https://medium.com/@dhruvsaxena220904/retention-is-not-about-reminders-it-is-about-continuation-05d14d826471?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-05-13T08:54:26+00:00",
+      "summary": "The article argues that retention issues are often mistakenly tackled with reminder notifications, whereas true retention depends on delivering seamless continuation experiences that keep users engaged. It emphasizes designing product flows that naturally embed users into ongoing value, rather than relying on sporadic alerts.",
+      "tags": [
+        "Retention",
+        "Product Strategy",
+        "Growth"
+      ]
+    },
+    {
+      "title": "How Zomato Can Improve Food Delivery Experience in Tier-1 Cities",
+      "url": "https://medium.com/@kalyanikohale99/how-zomato-can-improve-food-delivery-experience-in-tier-1-cities-7b1d9488b5fa?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-05-13T07:12:59+00:00",
+      "summary": "The article outlines a product strategy for Zomato aimed at boosting retention in Tier‑1 cities by tightening the delivery funnel, reducing friction points, and fostering habitual ordering through personalized incentives and streamlined UX. It emphasizes data‑driven experiments, cross‑functional alignment, and continuous feedback loops to sustainably grow the user base.",
+      "tags": [
+        "Product Strategy",
+        "Retention",
+        "Growth"
+      ]
+    },
+    {
+      "title": "Product Builder Myth - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "url": "https://www.producttalk.org/product-builder-myth-all-things-product-podcast-with-teresa-torres-petra-wille/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-05-12T13:00:15+00:00",
+      "summary": "In this episode, Teresa Torres and Petra Wille challenge the hype around the \"product builder\" movement, questioning whether it truly represents the future of product management or is merely a trendy buzzword. They explore the implications of adopting a builder mindset for product teams, emphasizing the need for strategic focus over surface-level execution. Listeners gain perspective on balancing hands‑on building with deeper product strategy and leadership responsibilities.",
+      "tags": [
+        "Product Strategy",
+        "Leadership",
+        "Product Culture"
+      ]
+    },
+    {
+      "title": "Flowsnip",
+      "url": "https://www.producthunt.com/products/flowsnip",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-05-12T12:50:36+00:00",
+      "summary": "Flowsnip is an n8n extension that lets users capture, store, and reuse snippets of workflow components directly on the canvas, streamlining automation building. This feature enhances productivity by reducing repetitive setup and encourages modular design practices for faster iteration.",
+      "tags": [
+        "Productivity",
+        "Product Design",
+        "Platform Strategy"
+      ]
+    },
     {
       "title": "The Wrong Question Is “Which AI Model Is Best?”",
       "url": "https://medium.com/@wonderingmax/the-wrong-question-is-which-ai-model-is-best-7e74c900cc12?source=rss------product_management-5",
@@ -611,6 +715,19 @@
         "Product Strategy",
         "Growth",
         "AI Tools"
+      ]
+    },
+    {
+      "title": "Memoket Gem",
+      "url": "https://www.producthunt.com/products/memoket-gem",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-05-07T04:28:59+00:00",
+      "summary": "Memoket Gem is an AI-powered wearable that continuously records and organizes daily conversations, enabling users to recall and retrieve spoken information later. For product managers, its key challenges involve ensuring privacy compliance, seamless integration with existing communication tools, and delivering a compelling user experience that balances utility with data security.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Privacy"
       ]
     },
     {
