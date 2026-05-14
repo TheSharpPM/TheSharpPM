@@ -1,7 +1,84 @@
 {
-  "updated": "2026-05-13T12:35:35.492142+00:00",
-  "total": 327,
+  "updated": "2026-05-14T07:41:57.853410+00:00",
+  "total": 335,
   "items": [
+    {
+      "title": "https://login.dgconnect.gov.kh/realms/prd/protocol/openid-connect/auth?prompt=login&state=ND10SM_uit",
+      "url": "https://medium.com/@rjbwscyf/https-login-dgconnect-gov-kh-realms-prd-protocol-openid-connect-auth-prompt-login-state-nd10sm-uit-39c7d5d34f4e?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-05-14T07:36:09+00:00",
+      "summary": "The provided link points to a login page for dgconnect.gov.kh and does not contain any article content to summarize for product management insights.",
+      "tags": [
+        "Product Culture",
+        "Leadership"
+      ]
+    },
+    {
+      "title": "How Restaurant Automation Improves Speed, Accuracy, and Customer Experience",
+      "url": "https://medium.com/@ovenkotsoftware/how-restaurant-automation-improves-speed-accuracy-and-customer-experience-628376b19d27?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-05-14T07:29:15+00:00",
+      "summary": "The article explains how automating restaurant operations—through AI-driven ordering, kitchen display systems, and predictive analytics—boosts service speed and order accuracy while enhancing the overall customer experience. For product managers, it highlights the strategic value of integrating automation to reduce errors, increase throughput, and drive competitive differentiation in the dining sector.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Growth"
+      ]
+    },
+    {
+      "title": "The New Rules of Marketplace Building: What the Current Global Situation Changed Forever",
+      "url": "https://medium.com/@u1core/the-new-rules-of-marketplace-building-what-the-current-global-situation-changed-forever-59dc79ef41b9?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-05-13T19:19:18+00:00",
+      "summary": "The traditional marketplace playbook that drove the success of companies like Airbnb, Etsy, and Amazon is now obsolete due to shifts in the global environment. The article outlines new principles and tactics that modern marketplace founders must adopt to compete and scale in today's market. It emphasizes the need for adaptive product strategies that respond to changing consumer behavior, regulatory landscapes, and technological advancements.",
+      "tags": [
+        "Product Strategy",
+        "Growth",
+        "Competitive Analysis"
+      ]
+    },
+    {
+      "title": "The 16-Year-Old Nokia on My Desk Just Taught Me a Masterclass in Product Strategy",
+      "url": "https://medium.com/@subhadeepstar/the-16-year-old-nokia-on-my-desk-just-taught-me-a-masterclass-in-product-strategy-580b6f843056?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-05-13T17:03:50+00:00",
+      "summary": "The author reflects on a 16‑year‑old Nokia phone as a case study in durable, user‑focused product design and long‑term strategy. By examining its simplicity, longevity, and consistent user experience, the piece highlights lessons on building products that endure market changes and maintain brand loyalty.",
+      "tags": [
+        "Product Strategy",
+        "Leadership",
+        "Product Culture"
+      ]
+    },
+    {
+      "title": "Organizational change map  template",
+      "url": "https://www.productledalliance.com/organizational-change-map-template-framework/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-05-13T16:55:10+00:00",
+      "summary": "The Organizational Change Map template provides a structured framework for product managers to visualize and coordinate initiatives across multiple departments and timelines. It helps ensure alignment, track progress, and mitigate risks during transformation efforts.",
+      "tags": [
+        "Product Strategy",
+        "Leadership",
+        "Productivity"
+      ]
+    },
+    {
+      "title": "Behind the Scenes: Building AI-Generated Opportunity Solution Trees",
+      "url": "https://www.producttalk.org/behind-the-scenes-ai-osts/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-05-13T13:00:39+00:00",
+      "summary": "The article recounts a product manager's intensive engineering sprint to create AI-generated Opportunity Solution Trees, highlighting the cross-functional effort required to blend design thinking, product strategy, and technical execution. It emphasizes the importance of aligning AI tools with product discovery processes to surface high-impact opportunities efficiently.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Product Design"
+      ]
+    },
     {
       "title": "The Real Challenge in Modern Project Management",
       "url": "https://medium.com/@fortissocialbusiness/the-real-challenge-in-modern-project-management-f518961501ed?source=rss------product_management-5",
@@ -195,6 +272,19 @@
         "AI Strategy",
         "Product Strategy",
         "Growth"
+      ]
+    },
+    {
+      "title": "Sherloq",
+      "url": "https://www.producthunt.com/products/sherloq-2",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-05-12T06:06:05+00:00",
+      "summary": "Sherloq helps product teams quickly identify LinkedIn prospects who are currently warm, enabling timely outreach and higher conversion rates. The tool integrates with LinkedIn to surface real‑time engagement signals, streamlining prospecting workflows.",
+      "tags": [
+        "AI Tools",
+        "Growth",
+        "Product Strategy"
       ]
     },
     {
@@ -741,6 +831,19 @@
         "AI Tools",
         "Product Strategy",
         "AI Strategy"
+      ]
+    },
+    {
+      "title": "Tendem by Toloka",
+      "url": "https://www.producthunt.com/products/tendem-by-toloka",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-05-06T21:23:37+00:00",
+      "summary": "Tandem by Toloka showcases how human experts collaborate with AI systems, highlighting the importance of human-in-the-loop workflows for reliable AI outputs. The article provides insights for product managers on integrating expert feedback loops to improve model performance and user trust.",
+      "tags": [
+        "AI Strategy",
+        "Product Design",
+        "Leadership"
       ]
     },
     {
