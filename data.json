@@ -1,7 +1,59 @@
 {
-  "updated": "2026-05-14T07:41:57.853410+00:00",
-  "total": 335,
+  "updated": "2026-05-16T07:19:43.581129+00:00",
+  "total": 339,
   "items": [
+    {
+      "title": "2026.20: Shifting Alliances in a Changing World",
+      "url": "https://stratechery.com/2026/shifting-alliances-in-a-changing-world/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-05-15T17:00:00+00:00",
+      "summary": "The weekly Stratechery roundup covers emerging shifts in global tech power dynamics, highlighting the rise of a novel computing paradigm and Elon Musk's strategic moves. It also provides a comprehensive look at the evolving US‑China relationship and its implications for product leaders navigating geopolitical risk.",
+      "tags": [
+        "Product Strategy",
+        "Competitive Analysis",
+        "Leadership"
+      ]
+    },
+    {
+      "title": "📈 Cerebras and the IPO pop",
+      "url": "https://www.exponentialview.co/p/cerebras-and-the-ipo-pop",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-05-15T09:17:16+00:00",
+      "summary": "The article discusses the recent surge in Cerebras' stock price following its IPO, attributing the rally to heightened market awareness of AI inference demand. It highlights how investors are increasingly valuing companies that can deliver high-performance AI hardware for real-time workloads, positioning Cerebras as a key player in this emerging segment.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Growth"
+      ]
+    },
+    {
+      "title": "Building Rhea's Factory: How AI-Designed Enzymes Could Finally Solve Plastic Recycling",
+      "url": "https://www.producttalk.org/building-rheas-factory-how-ai-designed-enzymes-could-finally-solve-plastic-recycling/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-05-14T13:00:27+00:00",
+      "summary": "The article discusses a new approach to plastic recycling that leverages AI-designed enzymes to break down polymers more efficiently than traditional mechanical and chemical methods. By using machine learning to engineer enzymes capable of degrading various plastics, the initiative aims to create a scalable, cost-effective solution that could dramatically increase recycling rates and reduce environmental impact.",
+      "tags": [
+        "AI Strategy",
+        "AI Tools",
+        "Product Strategy"
+      ]
+    },
+    {
+      "title": "An Interview with Ben Thompson at the MoffettNathanson Media, Internet & Communications Conference",
+      "url": "https://stratechery.com/2026/an-interview-with-ben-thompson-at-the-moffettnathanson-media-internet-communications-conference/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-05-14T10:00:00+00:00",
+      "summary": "The interview explores how the current compute shortage reshapes Aggregation Theory, influencing the economics of platforms and the rollout of consumer AI services. It also examines strategic implications for product{{}{{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Competitive Analysis"
+      ]
+    },
     {
       "title": "https://login.dgconnect.gov.kh/realms/prd/protocol/openid-connect/auth?prompt=login&state=ND10SM_uit",
       "url": "https://medium.com/@rjbwscyf/https-login-dgconnect-gov-kh-realms-prd-protocol-openid-connect-auth-prompt-login-state-nd10sm-uit-39c7d5d34f4e?source=rss------product_management-5",
