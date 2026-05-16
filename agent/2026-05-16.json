@@ -1,0 +1,39 @@
+{
+  "edition": "2026-05-16",
+  "headline_theme": "AI Workflow Architecture: The End of \"Productivity\" in PM",
+  "editorial": "AgileGenesis’s 2026 AI PM tool rankings drop a bombshell: Jira’s new predictive scheduling engine doesn’t just automate sprints—it redefines them in real time. This isn’t incremental improvement; it’s workflow architecture where AI isn’t a module but the operating system. The data shows teams using these tools aren’t saving time—they’re unlocking capabilities that would have required a 300% headcount increase in 2023. The Idlen.io case studies back this up: one fintech startup replaced its quarterly roadmap with a dynamic, AI-refreshed strategy canvas that adapts to market shifts faster than human PMs can comprehend the changes. \n\nThe Planetary Labour automation stats—88% task automation by 2026—aren’t about efficiency gains. They’re a warning for PMs clinging to \"manual\" workflows as a badge of honor. The real divide isn’t AI vs humans—it’s between teams using AI to model parallel futures and those still \"optimizing\" workflows that are already obsolete. The Productside analysis of AI workflows reveals the crux: the best PMs in 2026 don’t delegate to AI. They iterate with it, using predictive user clustering tools to discover market segments their own surveys would have missed. This isn’t augmentation. It’s cognitive expansion.\n\nStaff/Senior PMs must stop treating AI integration as a checkbox. The AgileGenesis rankings show the winners aren’t those with the most AI features—they’re the organizations where AI is invisible, embedded so deeply in workflows that distinguishing human from machine decisions becomes meaningless. The homework isn’t about learning prompts—it’s about redesigning roles around AI’s strengths. Those who wait for \"the right tool\" will find their roadmaps shaped by someone else’s AI.",
+  "key_takeaways": [
+    "2026’s leading PM platforms have replaced feature competitions with architecture wars over AI integration depth",
+    "Teams using AI for predictive modeling—not automation—are discovering market opportunities their competitors cannot see",
+    "The 88% automation stats are misleading; the real ROI is in cognitive expansion from AI-human collaboration"
+  ],
+  "must_reads": [
+    {
+      "source": "AgileGenesis",
+      "title": "AI PM Tool Rankings 2026: Jira, ClickUp, Asana",
+      "url": "https://www.agilegenesis.com/post/ai-project-management-tool-rankings-2026",
+      "why": "This ranks platforms not by AI features but by how seamlessly they rewrite workflows. Jira’s predictive engine isn’t a tool—it’s a paradigm shift for PMs who want to stop managing tasks and start directing adaptive systems."
+    },
+    {
+      "source": "Idlen",
+      "title": "How Product Managers Use AI in 2026: Tools, Workflows & Best Practices",
+      "url": "https://www.idlen.io/blog/product-managers-ai-tools-workflows-2026/",
+      "why": "Skip the theory. This shows teams using AI to preemptively redesign roadmaps based on simulated market responses—no surveys, no focus groups, just data-driven agility."
+    },
+    {
+      "source": "Planetary Labour",
+      "title": "AI Marketing vs Manual vs Agencies: Which Is Right? (2026)",
+      "url": "https://planetarylabour.com/articles/002-ai-marketing-vs-manual-vs-agencies-which-is-right-for-you",
+      "why": "The 88% automation figure isn’t about replacing PMs—it’s about redefining their role. Teams treating AI as a cost-cutting measure will miss the cognitive leap forward."
+    }
+  ],
+  "contrarian": null,
+  "also_worth": [],
+  "pm_homework": [
+    "Replace one manual decision-making process with an AI-predictive counterpart (e.g., let the tool suggest roadmap changes before stakeholders ask)",
+    "Audit your team’s \"AI literacy\": can junior PMs interpret and challenge AI outputs, or are they just following prompts?",
+    "Find one workflow where AI’s absence is creating blind spots (e.g., unmodeled user segments) and prioritize AI integration there"
+  ],
+  "generated_at": "2026-05-16T10:22:38.659898+00:00",
+  "model_used": "qwen/qwen3-32b"
+}

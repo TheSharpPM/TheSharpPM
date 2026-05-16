@@ -1,10 +1,15 @@
 {
   "editions": [
     {
+      "date": "2026-05-16",
+      "headline_theme": "AI Workflow Architecture: The End of \"Productivity\" in PM",
+      "file": "agent/2026-05-16.json"
+    },
+    {
       "date": "2026-05-03",
       "headline_theme": "AI in Product Management: Separating Hype from Reality",
       "file": "agent/2026-05-03.json"
     }
   ],
-  "updated_at": "2026-05-03T13:39:56.860020+00:00"
+  "updated_at": "2026-05-16T10:22:38.660251+00:00"
 }
