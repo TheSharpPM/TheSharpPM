@@ -208,13 +208,16 @@ def tool_web_search(query, max_results=5):
     """Search the web via Tavily. Returns snippets optimised for agent consumption."""
     if not TAVILY_API_KEY:
         return {"error": "TAVILY_API_KEY not configured"}
+    # Hard cap at 3 results and 400 chars/snippet. With the TPM cap on
+    # qwen3-32b free tier (6k), one fat web_search response was enough
+    # to push the accumulated context over the line.
     try:
         response = requests.post(
             "https://api.tavily.com/search",
             json={
                 "api_key": TAVILY_API_KEY,
                 "query": query,
-                "max_results": max(1, min(int(max_results or 5), 10)),
+                "max_results": max(1, min(int(max_results or 3), 3)),
                 "search_depth": "basic",
                 "include_answer": False,
             },
@@ -226,7 +229,7 @@ def tool_web_search(query, max_results=5):
             results.append({
                 "title": r.get("title", ""),
                 "url": r.get("url", ""),
-                "content": (r.get("content") or "")[:1000],
+                "content": (r.get("content") or "")[:400],
                 "score": r.get("score", 0),
             })
         return {"count": len(results), "results": results}
@@ -692,20 +695,20 @@ TOOL_DECLARATIONS = [
             "properties": {
                 "headline_theme": {
                     "type": "string",
-                    "description": "Short, provocative headline for the week. 5 to 12 words.",
+                    "description": "5-12 word provocative headline.",
                 },
                 "editorial": {
                     "type": "string",
-                    "description": "Editorial with voice and opinion. EXACTLY 3 paragraphs, 250 to 500 words total. Para 1 (hook): anchor in 1-2 specific articles you found this run, name the article and the company or author, state a sharp observation. Para 2 (synthesis): connect 3+ pieces you actually read, show the pattern, take a clear position. Para 3 (implication): what should a Staff or Senior PM do differently this week, concretely. NEVER write meta-narrative ('we'll explore', 'in this edition', 'our must-reads include', 'our contrarian pick'). The editorial IS the take, it does NOT describe the dispatch.",
+                    "description": "250-500 words, 3 paragraphs (hook/synthesis/implication). See system prompt.",
                 },
                 "key_takeaways": {
                     "type": "array",
-                    "description": "Exactly 3 to 5 items. Sharp, specific observations from the week. Each item is one sentence. NOT a summary of articles - state what changed, what's new, what's worth a PM's attention. Each takeaway must be grounded in a piece you actually read.",
+                    "description": "3-5 sharp one-sentence observations grounded in articles read.",
                     "items": {"type": "string"},
                 },
                 "must_reads": {
                     "type": "array",
-                    "description": "Exactly 3 to 5 hand-picked articles with an editorial 'why' and a pull quote. Ordered by importance. Fewer than 3 will be rejected.",
+                    "description": "3-5 hand-picked articles ordered by importance.",
                     "items": {
                         "type": "object",
                         "properties": {
@@ -714,11 +717,11 @@ TOOL_DECLARATIONS = [
                             "source": {"type": "string"},
                             "why": {
                                 "type": "string",
-                                "description": "2 to 4 sentences of OPINION on why this matters. State what the piece gets right or wrong. NEVER write 'this article provides', 'comprehensive overview', 'this article highlights'. React, do not describe.",
+                                "description": "2-4 sentences of opinion (react, don't describe).",
                             },
                             "pull_quote": {
                                 "type": "string",
-                                "description": "Optional. A short verbatim quote or specific data point from the article that captures its core point. Must come from the actual article text.",
+                                "description": "Optional verbatim quote from article.",
                             },
                         },
                         "required": ["title", "url", "source", "why"],
@@ -726,17 +729,17 @@ TOOL_DECLARATIONS = [
                 },
                 "contrarian": {
                     "type": "object",
-                    "description": "Optional but encouraged. A pick that pushes back on the week's dominant narrative.",
+                    "description": "Optional pick that pushes back on the week's narrative.",
                     "properties": {
                         "title": {"type": "string"},
                         "url": {"type": "string"},
                         "source": {"type": "string"},
-                        "note": {"type": "string", "description": "2 to 3 sentences explaining specifically what this challenges and why a PM should sit with the discomfort."},
+                        "note": {"type": "string", "description": "2-3 sentences on what this challenges."},
                     },
                 },
                 "also_worth": {
                     "type": "array",
-                    "description": "Optional. 3 to 8 secondary picks with lighter treatment.",
+                    "description": "Optional 3-8 secondary picks.",
                     "items": {
                         "type": "object",
                         "properties": {
@@ -749,7 +752,7 @@ TOOL_DECLARATIONS = [
                 },
                 "pm_homework": {
                     "type": "array",
-                    "description": "Exactly 1 to 3 concrete actions a Staff or Senior PM should take this week because of what you surfaced. Each item is an imperative sentence ('Audit your...', 'Run a 30-min...', 'Bring this to your next...'). Specific, doable in a week, grounded in the must_reads.",
+                    "description": "1-3 concrete imperative actions for a Staff/Senior PM this week.",
                     "items": {"type": "string"},
                 },
             },
@@ -764,65 +767,27 @@ TOOLS = [{"type": "function", "function": d} for d in TOOL_DECLARATIONS]
 
 # ── SYSTEM PROMPT ─────────────────────────────────────────────────────────────
 
-SYSTEM_PROMPT = """You are the editor of "Agent Sharp" - a weekly editorial dispatch for Product Managers, covering product, strategy, and the AI shifts that affect their work.
+SYSTEM_PROMPT = """You are the editor of Agent Sharp, a weekly editorial dispatch for Product Managers (5-15 yrs experience). Voice: direct, opinionated, sharp. No hype, no corporate jargon (no "unlock", "leverage", "dive into", "game-changer", "deep dive").
 
-Your voice is direct, opinionated, and sharp. You cut through hype and surface what actually matters.
+HARD RULES (publish_edition will reject and you must retry):
+- Every URL/title/source comes verbatim from a fetch_feeds, web_search, or fetch_article result in this conversation. No invented sources, no placeholders.
+- Call publish_edition only after >=6 research tool calls (fetch_feeds + web_search + fetch_article combined).
+- Editorial: 250-500 words, exactly 3 paragraphs. NEVER meta-narrative ("we'll explore", "in this edition", "our must-reads include"). The editorial IS the take, not a TOC.
+- must_reads "why": OPINION. Never "this article provides", "comprehensive overview", "highlights". React, don't describe.
+- must_reads: 3-5 items. key_takeaways: 3-5. pm_homework: 1-3.
 
-ABSOLUTE RULES (violating any of these will cause publish_edition to reject your submission and force you to retry):
-- NEVER invent URLs, titles, sources, dates, or quotes. Every URL in must_reads, contrarian, and also_worth MUST come verbatim from a fetch_feeds, web_search, or fetch_article tool result returned in this conversation.
-- NEVER use placeholder content. URLs containing "example.com" or "example.org", and titles or sources like "Example Source" will be rejected.
-- NEVER call publish_edition before you have at minimum 6 research tool calls (fetch_feeds + web_search + fetch_article combined). One feed pull and one search is NOT enough. You cannot pick the week's theme from a single article.
-- Editorial body: 250 to 500 words, three paragraphs.
-- NEVER write meta-narrative in the editorial. Forbidden phrases: "we'll explore", "we'll examine", "we'll discuss", "in this edition", "in this week's edition", "our must-reads include", "our contrarian pick". The editorial IS the take, not a description of what the dispatch contains.
-- "why" fields on must_reads must be OPINION. Forbidden phrases: "this article provides", "this article highlights", "comprehensive overview", "provides an overview". React to the article, do not describe it.
-- must_reads must contain EXACTLY 3 to 5 items. Submitting fewer than 3 will be rejected. If you only have 1-2 candidates, go back and run more fetch_feeds or web_search calls until you have at least 3 strong picks.
-- key_takeaways must contain 3 to 5 items.
-- pm_homework must contain 1 to 3 items.
+ROUTINE:
+1. read_memory (avoid themes from last 2-3 weeks unless real news).
+2. fetch_feeds broadly, then with topic filters as a theme emerges.
+3. fetch_article on items that look important; web_search for context.
+4. Pick ONE opinionated theme grounded in articles you actually read.
+5. Pick 3-5 must_reads, optional contrarian, write 3-5 key_takeaways, 1-3 pm_homework.
+6. Write editorial: P1 hook (name a specific article + author/company, sharp observation), P2 synthesis (connect 3+ pieces, take position), P3 implication for Staff/Senior PMs.
+7. Call publish_edition. Run ends.
 
-Your weekly routine:
+Budget: <=14 tool calls before publish. If publish_edition is rejected, fix the specific issue named and call again.
 
-1. Call read_memory first. See what the last few editions covered. Avoid repeating themes from the last 2-3 weeks unless there is genuine news to add.
-2. Call fetch_feeds to see what is out there. Start broad, then narrow with topic filters when a theme emerges.
-3. When an item looks important, use fetch_article to read the full piece, or web_search to find reactions and context.
-4. Identify ONE dominant theme for the week. Not a vague category - a real, opinionated angle grounded in specific articles you actually read this turn.
-5. Pick 3 to 5 must-reads with an editorial "why". Add a pull_quote when you have one verbatim from the article.
-6. Optionally find a contrarian: something that challenges the week's dominant narrative.
-7. Write 3 to 5 key_takeaways: sharp, specific, grounded in what you read.
-8. Write 1 to 3 pm_homework items: concrete actions a Staff or Senior PM should take this week.
-9. Write the editorial (see structure below).
-10. Call publish_edition when ready. This ends the run.
-
-Editorial structure (3 paragraphs, 250-500 words total):
-- Paragraph 1 - Hook: a sharp observation about THIS specific week, anchored in 1 or 2 specific articles or events you found via tools. Name the article and the company or author. No vague openings.
-- Paragraph 2 - Synthesis: connect 3 or more pieces you actually read this run. Show the pattern. Take a position.
-- Paragraph 3 - Implication: what does this mean for a Staff or Senior PM. Sharp, opinionated, not a list of actions (the actions go in pm_homework).
-
-Editorial style examples:
-
-GOOD opening (specific, opinionated, grounded):
-"Notion shipped its terminal-first agent build flow this week, and Lenny's interview with Max Schoening makes a quiet claim that should land louder: agency is now the bottleneck, not skill. The PMs you envy in 2026 are not the ones who learned six AI tools - they're the ones willing to ship a half-broken prototype on a Tuesday afternoon."
-
-BAD opening (meta-narrative, vague, the kind that gets rejected):
-"The recent advancements in AI have been making waves in the product management world. In this edition, we'll explore the current state of AI in product management."
-
-Editorial principles:
-- Opinion beats description. "This matters because X" beats "This article says Y".
-- Depth beats volume. 4 great picks beats 15 mediocre ones.
-- Push back. If a piece is weak or hype, say so.
-- No corporate jargon. Avoid "unlock", "leverage", "dive into", "game-changer", "deep dive".
-- Short sentences. Real voice. Use em dashes sparingly - prefer commas or periods.
-- Assume readers are PMs with 5 to 15 years of experience. Do not explain basics.
-- Write for sharp minds who want a point of view, not a roundup.
-
-Budget:
-- Use at most 14 tool calls total before publish_edition.
-- Typical spread: 1x read_memory, 2 to 3x fetch_feeds, 3 to 6x web_search, 2 to 4x fetch_article.
-- If you hit 12 tool calls without having picked must-reads, stop exploring and start writing.
-- If publish_edition rejects your submission, fix the specific issue named in the error and call it again. Do not give up.
-
-Stop conditions:
-- You MUST call publish_edition exactly once and have it accepted before you stop.
-- Do not produce plain-text output outside of tool calls.
+Stop: publish_edition must be called exactly once and accepted.
 """
 
 
@@ -856,8 +821,8 @@ def execute_tool(name, args):
 # stub to stay within the model's per-request token budget. The agent
 # does not need to re-read old tool dumps - it builds up understanding
 # turn by turn - so truncating older results is structurally safe.
-KEEP_RECENT_MESSAGES = 6
-OLD_TOOL_RESULT_PREVIEW_CHARS = 200
+KEEP_RECENT_MESSAGES = 4
+OLD_TOOL_RESULT_PREVIEW_CHARS = 150
 
 
 def trim_message_history(messages):
