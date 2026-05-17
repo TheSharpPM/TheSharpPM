@@ -1,0 +1,44 @@
+{
+  "edition": "2026-05-17",
+  "headline_theme": "AI is for Discovery, Not Deployment",
+  "editorial": "SVPG’s Build To Learn framework isn’t just a philosophy—it’s a survival manual for AI teams drowning in hype. When they define learning as \"building to test assumptions\" and earning as \"scaling known solutions\", they expose why most AI projects fail. The Rhea’s Factory enzyme breakthrough didn’t come from a bigger model—it came from framing plastic recycling as a discovery problem. This isn’t about tools; it’s about problem selection. \n\nThis week’s most important tension is between discovery infrastructure and execution infrastructure. Zartis’ build-buy framework shows the same duality: startups buy AI tools to prove value quickly, enterprises build proprietary systems to own moats. But Benedict Evans’ OpenAI analysis drops the hammer—when the infrastructure itself becomes the product, who’s actually discovering? The compute shortage isn’t a technical problem; it’s a philosophical one. Startups iterating on last year’s features are not building to learn—they’re papering over broken assumptions. Even Lenny’s Newsletter rightly calls out AI hiring tools that inherit human biases, exposing how infrastructure can’t transcend the flawed metrics it’s given. \n\nStaff PMs: Your AI roadmap is invalid if it lacks discovery. If you’re iterating on last year’s features, you’re not building to learn—you’re papering over broken assumptions. The enzymes project shows what’s possible when you treat AI as a discovery partner, not a feature factory. Start with problems that need discovery, not models that need deployment. Ask: What hypothesis requires AI to validate it? What physical or regulatory constraint must we solve for? Your answer will define whether you’re building to learn—or just building to earn.",
+  "key_takeaways": [
+    "Build to Learn requires reframing AI as hypothesis testing, not feature building",
+    "Plastic recycling enzymes succeed because they attacked a physical problem with discovery, not tech",
+    "The build-buy framework is a sequence, not a choice—buy to prove, build to own"
+  ],
+  "must_reads": [
+    {
+      "source": "SVPG",
+      "title": "Build To Learn FAQ",
+      "url": "https://www.svpg.com/build-to-learn-faq/",
+      "why": "This isn't just a philosophy—it's the only viable approach for AI projects with >6 month horizons. Your current roadmap is irrelevant if you're not testing assumptions."
+    },
+    {
+      "source": "Product Talk",
+      "title": "Building Rhea's Factory: How AI-Designed Enzymes Could Finally Solve Plastic Recycling",
+      "url": "https://www.producttalk.org/building-rheas-factory-how-ai-designed-enzymes-could-finally-solve-plastic-recycling/",
+      "why": "The real breakthrough isn't the AI—it's the problem framing. This shows how to build systems that solve physical constraints, not just digital ones."
+    },
+    {
+      "source": "Benedict Evans",
+      "title": "How will OpenAI compete?",
+      "url": "https://www.ben-evans.com/benedictevans/2026/2/19/how-will-openai-compete-nkg2x",
+      "why": "Pierces the infrastructure illusion. When your \"product\" is a training run, you're not building software—you're renting compute."
+    }
+  ],
+  "contrarian": {
+    "note": "AI hiring tool critiques ignore the root problem: human bias in hiring criteria. Tools inherit the flawed metrics they're given.",
+    "source": "Lenny's Newsletter",
+    "title": "🧠 Community Wisdom: Screening AI slop in hiring",
+    "url": "https://www.lennysnewsletter.com/p/community-wisdom-screening-ai-slop"
+  },
+  "also_worth": [],
+  "pm_homework": [
+    "Define one hypothesis your team is testing today that requires AI to validate",
+    "Map your current features to either discovery or optimization goals",
+    "Find a physical or regulatory constraint your AI solution must address"
+  ],
+  "generated_at": "2026-05-17T11:02:08.296908+00:00",
+  "model_used": "qwen/qwen3-32b"
+}

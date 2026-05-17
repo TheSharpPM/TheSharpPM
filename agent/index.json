@@ -1,6 +1,11 @@
 {
   "editions": [
     {
+      "date": "2026-05-17",
+      "headline_theme": "AI is for Discovery, Not Deployment",
+      "file": "agent/2026-05-17.json"
+    },
+    {
       "date": "2026-05-16",
       "headline_theme": "AI Workflow Architecture: The End of \"Productivity\" in PM",
       "file": "agent/2026-05-16.json"
@@ -11,5 +16,5 @@
       "file": "agent/2026-05-03.json"
     }
   ],
-  "updated_at": "2026-05-16T10:22:38.660251+00:00"
+  "updated_at": "2026-05-17T11:02:08.297254+00:00"
 }
