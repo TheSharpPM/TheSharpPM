@@ -1,7 +1,124 @@
 {
-  "updated": "2026-05-16T07:19:43.581129+00:00",
-  "total": 339,
+  "updated": "2026-05-17T07:36:34.567279+00:00",
+  "total": 350,
   "items": [
+    {
+      "title": "AI Agents Don’t See Your Consent Banner — And That’s Disrupting a $2.4 Billion Industry",
+      "url": "https://medium.com/gptalk/ai-agents-dont-see-your-consent-banner-and-that-s-disrupting-a-2-4-billion-industry-2df93743aafe?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-05-17T07:04:42+00:00",
+      "summary": "Consent management platforms assume human users will read and act on consent banners, but AI agents bypass these prompts, threatening a $2.4 billion industry. Product managers must rethink consent flows, integrate machine‑readable signals, and ensure compliance while preserving user trust.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Compliance"
+      ]
+    },
+    {
+      "title": "The Company That Didn’t Take the SDV Bet",
+      "url": "https://owen-hill.medium.com/the-company-that-didnt-take-the-sdv-bet-47a209d1fe3e?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-05-17T06:33:29+00:00",
+      "summary": "The article examines Toyota's cautious approach to the software-defined vehicle (SDV) trend, highlighting how their reliance on traditional manufacturing strengths may cause them to miss early market leadership in vehicle software. For product managers, it underscores the risk of inertia in fast‑moving tech domains and the need to balance legacy capabilities with bold platform investments.",
+      "tags": [
+        "Product Strategy",
+        "Competitive Analysis",
+        "AI Strategy"
+      ]
+    },
+    {
+      "title": "Why the Nomad Era Is Just Beginning (For the 10% Who Actually Built It Right)",
+      "url": "https://medium.com/@dustinbalictar/why-the-nomad-era-is-just-beginning-for-the-10-who-actually-built-it-right-006c4f220840?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-05-17T05:48:12+00:00",
+      "summary": "The article argues that the remote work movement is still in its early stages, with only a small fraction of companies having truly optimized their operations for distributed teams. It highlights the strategic shifts needed—such as rethinking collaboration tools, culture, and performance metrics—to fully capitalize on the emerging nomad era.",
+      "tags": [
+        "Product Strategy",
+        "Growth",
+        "Platform Strategy"
+      ]
+    },
+    {
+      "title": "🔮 Exponential View #574: Inside Anthropic’s rocket ship; AI pluralism; love commoditized, context-maxxing & Voltaire++",
+      "url": "https://www.exponentialview.co/p/ev-574",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-05-17T03:32:49+00:00",
+      "summary": "The issue dives into Anthropic’s rapid growth, highlighting its strategic positioning in the AI landscape and the broader move toward AI pluralism. It also explores emerging trends like commoditizing love, maximizing contextual intelligence, and the cultural impact of Voltaire++, offering insights for product leaders on navigating these shifts.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Leadership"
+      ]
+    },
+    {
+      "title": "🧠 Community Wisdom: Screening AI slop in hiring, Wispr Flow alternatives for voice transcription, multi-agent pipeline vs. MCP, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-screening-ai-slop",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-05-16T21:46:34+00:00",
+      "summary": "The article highlights recent community discussions on practical AI applications, including methods for screening AI-generated content in hiring processes, alternatives to Wispr Flow for voice transcription, and a comparison of multi‑agent pipelines versus the MCP framework. It offers actionable insights for product teams looking to integrate reliable AI tools and improve workflow efficiency.",
+      "tags": [
+        "AI Strategy",
+        "AI Tools",
+        "Product Strategy"
+      ]
+    },
+    {
+      "title": "Peak Design: Product Lifecycle Management (PLM) Product Data Contractor (4 months)",
+      "url": "https://weworkremotely.com/remote-jobs/peak-design-product-lifecycle-management-plm-product-data-contractor-4-months",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-05-16T20:32:08+00:00",
+      "summary": "Peak Design is hiring a temporary contractor to manage product data within its Product Lifecycle Management (PLM) system, ensuring that detailed engineering specifications and metadata for their gear are accurately captured and maintained. The role supports cross‑functional teams by providing reliable product information that underpins design decisions, production planning, and quality assurance.",
+      "tags": [
+        "Product Strategy",
+        "Product Design",
+        "Data"
+      ]
+    },
+    {
+      "title": "Cision: Product Manager (SaaS)- Part time, Fixed Term",
+      "url": "https://weworkremotely.com/remote-jobs/cision-product-manager-saas-part-time-fixed-term",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-05-16T20:32:04+00:00",
+      "summary": "Cision is hiring a part‑time, fixed‑term Product Manager for its SaaS offerings, focusing on building innovative communication solutions and driving product growth. The role emphasizes collaboration, user‑centric problem solving, and contributing to the company's mission of empowering authentic brand conversations.",
+      "tags": [
+        "Product Strategy",
+        "Growth",
+        "Leadership"
+      ]
+    },
+    {
+      "title": "The business case your leadership team isn’t writing. And the one decision it would change.",
+      "url": "https://medium.com/@mihaela.blanaru/the-business-case-your-leadership-team-isnt-writing-and-the-one-decision-it-would-change-e97ef49b5d3a?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-05-16T16:55:22+00:00",
+      "summary": "The article explains how a clear, data‑driven business case is essential for turning around underperforming products, and why leaders often skip creating one. It emphasizes that presenting a concise, impact‑focused decision framework can shift leadership perception and drive decisive action.",
+      "tags": [
+        "Product Strategy",
+        "Leadership",
+        "Metrics"
+      ]
+    },
+    {
+      "title": "Kirki",
+      "url": "https://www.producthunt.com/products/kirki",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-05-16T11:15:00+00:00",
+      "summary": "WordPress has introduced Kirki, a freeform canvas website builder that lets users design pages with drag‑and‑drop flexibility directly within the platform. This tool expands WordPress’s native capabilities, offering a more visual, no‑code experience for creating custom layouts without needing external plugins or themes.",
+      "tags": [
+        "Product Design",
+        "Platform Strategy",
+        "Growth"
+      ]
+    },
     {
       "title": "2026.20: Shifting Alliances in a Changing World",
       "url": "https://stratechery.com/2026/shifting-alliances-in-a-changing-world/",
@@ -24,6 +141,32 @@
       "summary": "The article discusses the recent surge in Cerebras' stock price following its IPO, attributing the rally to heightened market awareness of AI inference demand. It highlights how investors are increasingly valuing companies that can deliver high-performance AI hardware for real-time workloads, positioning Cerebras as a key player in this emerging segment.",
       "tags": [
         "AI Strategy",
+        "Product Strategy",
+        "Growth"
+      ]
+    },
+    {
+      "title": "Must-attend product events  in 2026",
+      "url": "https://www.productledalliance.com/top-product-led-events-you-must-attend/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-05-15T09:00:00+00:00",
+      "summary": "The article lists the most important product leadership conferences happening in 2026, highlighting opportunities to learn emerging trends, network with peers, and gather actionable advice from leading product experts. Attending these events can help product managers stay ahead of industry developments and accelerate their teams' performance.",
+      "tags": [
+        "Leadership",
+        "Product Strategy",
+        "Growth"
+      ]
+    },
+    {
+      "title": "Using Multilingual AI to Reduce Time-to-Market for Product Launches",
+      "url": "https://www.productledalliance.com/using-multilingual-ai-to-reduce-time-to-market/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-05-14T15:47:19+00:00",
+      "summary": "Product teams are leveraging multilingual AI to automate localization, enabling simultaneous launches in over 100 markets. This approach cuts time-to-market and costs while eliminating extensive engineering effort.",
+      "tags": [
+        "AI Tools",
         "Product Strategy",
         "Growth"
       ]
