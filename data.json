@@ -1,7 +1,85 @@
 {
-  "updated": "2026-05-17T07:36:34.567279+00:00",
-  "total": 350,
+  "updated": "2026-05-18T08:47:28.314008+00:00",
+  "total": 359,
   "items": [
+    {
+      "title": "The IC Is Dead. Long Live the IC.",
+      "url": "https://medium.com/@julian.oczkowski/the-ic-is-dead-long-live-the-ic-38caf2d45f1b?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-05-18T08:35:29+00:00",
+      "summary": "The article argues that individual contributor (IC) roles are evolving rather than disappearing, emphasizing that the future of knowledge work will be defined by those who proactively adapt and continuously demonstrate impact. It highlights the need for ICs to embrace new responsibilities, visibility, and collaborative influence to remain essential in the coming decade.",
+      "tags": [
+        "Leadership",
+        "Product Culture",
+        "Productivity"
+      ]
+    },
+    {
+      "title": "How EPD Teams Must Evolve in the Age of AI",
+      "url": "https://medium.com/@shainamofficial/how-epd-teams-must-evolve-in-the-age-of-ai-ac6fc10a0673?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-05-18T08:13:33+00:00",
+      "summary": "The article discusses how Engineering, Product, and Design (EPD) teams need to transform their processes and mindsets to stay competitive as AI tools enable rapid prototyping and development by a broader range of contributors. It emphasizes adopting AI-driven workflows, redefining roles, and focusing on strategic differentiation rather than purely execution.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Product Culture"
+      ]
+    },
+    {
+      "title": "We Tried to Build a Better Link-in-Bio. The Category Wouldn’t Let Us.",
+      "url": "https://rex0lux.medium.com/we-tried-to-build-a-better-link-in-bio-the-category-wouldnt-let-us-e703b5d82c3a?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-05-18T01:25:28+00:00",
+      "summary": "The article chronicles the development of EdgeURL, a Link-in-Bio service aimed at surpassing Linktree by adding native URL shortening and analytics. The team faced significant hurdles due to platform categorization constraints, which impeded their product’s launch and growth.",
+      "tags": [
+        "Product Strategy",
+        "AI Tools",
+        "Metrics"
+      ]
+    },
+    {
+      "title": "Hint Health: Senior Product Manager",
+      "url": "https://weworkremotely.com/remote-jobs/hint-health-senior-product-manager",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-05-17T20:30:41+00:00",
+      "summary": "Hint Health, the leading digital health platform for Direct Primary Care, is hiring a Senior Product Manager to drive product development across its HintOS platform, conferences, and clinic network. The role will focus on scaling solutions for thousands of clinics, enhancing member experiences, and advancing the mission of making affordable, high‑quality healthcare the new standard.",
+      "tags": [
+        "Product Strategy",
+        "Leadership",
+        "Growth"
+      ]
+    },
+    {
+      "title": "Can ChatGPT Show Ads Without Damaging User Trust?",
+      "url": "https://medium.com/@harshdeep18894/can-chatgpt-show-ads-without-damaging-user-trust-9e0b6345d229?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-05-17T13:54:03+00:00",
+      "summary": "The article explores how integrating advertisements into ChatGPT could affect user trust, weighing potential revenue benefits against the risk of eroding confidence in the platform. It examines strategies to balance monetization with maintaining a high-quality, trustworthy user experience.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "User Research"
+      ]
+    },
+    {
+      "title": "Why we’re at the beginning of the AI hardware boom | Caitlin Kalinowski (ex–OpenAI, Meta, Apple)",
+      "url": "https://www.lennysnewsletter.com/p/why-were-at-the-beginning-of-the",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-05-17T12:31:57+00:00",
+      "summary": "Caitlin Kalinowski explains how supply chain fragilities are delaying the robotics revolution and why consumer VR struggled, highlighting the imminent surge in AI hardware demand. Drawing on her experience at Apple, Meta, and OpenAI, she outlines lessons for building resilient AI products and positioning companies to capitalize on the upcoming hardware boom.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Leadership"
+      ]
+    },
     {
       "title": "AI Agents Don’t See Your Consent Banner — And That’s Disrupting a $2.4 Billion Industry",
       "url": "https://medium.com/gptalk/ai-agents-dont-see-your-consent-banner-and-that-s-disrupting-a-2-4-billion-industry-2df93743aafe?source=rss------product_management-5",
@@ -94,6 +172,19 @@
       ]
     },
     {
+      "title": "Biggerpockets: Senior Product Manager",
+      "url": "https://weworkremotely.com/remote-jobs/biggerpockets-senior-product-manager",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-05-16T20:31:21+00:00",
+      "summary": "The Senior Product Manager, Marketplace will lead the development of core marketplace experiences at BiggerPockets, focusing on scalability, trust, and user engagement for a community of over 3 million real estate investors. The role involves shaping product foundations that enable learning, investing, and community interactions, aligning with the company’s mission to facilitate financial freedom through education and tools.",
+      "tags": [
+        "Product Strategy",
+        "Growth",
+        "Product Design"
+      ]
+    },
+    {
       "title": "The business case your leadership team isn’t writing. And the one decision it would change.",
       "url": "https://medium.com/@mihaela.blanaru/the-business-case-your-leadership-team-isnt-writing-and-the-one-decision-it-would-change-e97ef49b5d3a?source=rss------product_strategy-5",
       "source": "Medium Strategy",
@@ -104,6 +195,19 @@
         "Product Strategy",
         "Leadership",
         "Metrics"
+      ]
+    },
+    {
+      "title": "pixserp",
+      "url": "https://www.producthunt.com/products/pixserp",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-05-16T12:11:38+00:00",
+      "summary": "pixserp offers a single API endpoint that lets you run a large language model against live web data, returning results in ten different formats. This flexible solution simplifies integration of up-to-date web knowledge into products, enabling faster feature development and richer user experiences.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "AI Strategy"
       ]
     },
     {
@@ -3505,6 +3609,19 @@
         "Career",
         "Leadership",
         "AI Strategy"
+      ]
+    },
+    {
+      "title": "SocLeads 3.0",
+      "url": "https://www.producthunt.com/products/socleads",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-04-15T13:27:47+00:00",
+      "summary": "SocLeads 3.0 is a tool that automates the extraction of email addresses from social media platforms and map services based on geographic location, streamlining lead generation for sales and marketing teams. It aims to improve outreach efficiency by providing targeted contact lists with minimal manual effort.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Growth"
       ]
     },
     {
