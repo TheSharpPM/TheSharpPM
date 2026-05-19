@@ -1,7 +1,163 @@
 {
-  "updated": "2026-05-18T08:47:28.314008+00:00",
-  "total": 359,
+  "updated": "2026-05-19T08:29:31.253602+00:00",
+  "total": 372,
   "items": [
+    {
+      "title": "I built and deployed a real web app in one afternoon.\nAnd, I am not a developer.",
+      "url": "https://medium.com/@priyaphadtare/i-built-and-deployed-a-real-web-app-in-one-afternoon-and-i-am-not-a-developer-25a957d36ce6?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-05-19T07:55:32+00:00",
+      "summary": "The author details how they, without a developer background, built and launched a production-ready web app in a single afternoon using Claude Code, Supabase, and Vercel. The piece highlights a minimalist tech stack and rapid deployment approach that product teams can replicate for fast validation.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Productivity"
+      ]
+    },
+    {
+      "title": "Litorale Romano, il talento si digitalizza: la nuova sfida per il territorio",
+      "url": "https://medium.com/@frdbjkkgv/litorale-romano-il-talento-si-digitalizza-la-nuova-sfida-per-il-territorio-06f7cc1eca4f?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-05-19T07:41:16+00:00",
+      "summary": "The article discusses how the Litorale Romano region is fostering digital talent to boost its local economy, highlighting initiatives that help professionals acquire new tech skills and integrate them into regional projects. It emphasizes the strategic importance of digital transformation for the territory's growth and competitiveness.",
+      "tags": [
+        "Product Strategy",
+        "Growth",
+        "Platform Strategy"
+      ]
+    },
+    {
+      "title": "The Dots That Matter",
+      "url": "https://medium.com/@f.brinkmann-design/the-dots-that-matter-8803a3918ef1?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-05-19T06:40:02+00:00",
+      "summary": "The article argues that the states most valuable to humans—such as safety, health, and wellbeing—are also the ones that require robust structural support in systems and organizations. It stresses the need for deliberate design and stabilization of these critical states to ensure sustainable outcomes.",
+      "tags": [
+        "Product Strategy",
+        "Leadership",
+        "Metrics"
+      ]
+    },
+    {
+      "title": "Vine Solved the Format, Not the Ecosystem",
+      "url": "https://medium.com/@aryan1999varma/vine-solved-the-format-not-the-ecosystem-2323933fc0b0?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-05-19T06:14:15+00:00",
+      "summary": "The article examines why Vine, once celebrated for its innovative short‑video format, ultimately failed despite its creative strengths. It argues that solving the content format alone wasn't enough; the platform ignored broader ecosystem challenges like monetization, creator incentives, and competitive pressures, leading to its internal collapse.",
+      "tags": [
+        "Platform Strategy",
+        "Growth",
+        "Product Culture"
+      ]
+    },
+    {
+      "title": "Thinnest AI",
+      "url": "https://www.producthunt.com/products/thinnest-ai",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-05-19T05:09:58+00:00",
+      "summary": "Thinnest AI offers a platform to create voice AI agents in over 100 languages, charging a low usage fee of ₹1.5 per minute. This enables product teams to quickly prototype multilingual voice experiences without heavy upfront investment, accelerating time-to-market and expanding global reach.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Growth"
+      ]
+    },
+    {
+      "title": "Upcoming Events - May 2026",
+      "url": "https://www.producttalk.org/upcoming-events-may-2026/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-05-18T21:16:16+00:00",
+      "summary": "The announcement highlights two upcoming internal events, including a Claude Code: Show and Tell session scheduled for May 26th at 9 am PDT. Participants will showcase their favorite Claude Code workflows, fostering knowledge sharing and community engagement around AI development tools.",
+      "tags": [
+        "AI Tools",
+        "Product Culture",
+        "Productivity"
+      ]
+    },
+    {
+      "title": "🎙️ How I AI: HTML is the new Markdown: How Anthropic engineers are building with Claude Code",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-html-is-the-new-markdown",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-05-18T15:00:52+00:00",
+      "summary": "The episode discusses Anthropic's Claude Code, which positions HTML as a more powerful alternative to Markdown for AI-assisted development, highlighting how engineers leverage this tool to streamline code generation and documentation. It explores the strategic implications for product teams looking to integrate AI-driven coding assistants into their workflows.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Product Design"
+      ]
+    },
+    {
+      "title": "Accessibility risk reduction playbook:  Closing the gap in your accessibility program",
+      "url": "https://www.productledalliance.com/accessibility-risk-reduction-playbook-closing-the-gap-in-your-accessibility-program/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-05-18T13:58:24+00:00",
+      "summary": "The playbook outlines a systematic approach to reducing accessibility risk by combining automated scanning tools with expert audits, enabling product teams to identify and prioritize issues effectively. It provides guidance on fixing problems at the source, helping to close gaps in your accessibility program and improve overall user experience.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Retention"
+      ]
+    },
+    {
+      "title": "HTML is the new Markdown: How Anthropic engineers are building with Claude Code | Thariq Shihipar",
+      "url": "https://www.lennysnewsletter.com/p/html-is-the-new-markdown-how-anthropic",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-05-18T12:02:11+00:00",
+      "summary": "The article explains how Anthropic engineers are using Claude Code to treat HTML as a modern replacement for markdown, enabling the rapid creation of micro‑apps for specification editing and living design systems. It also discusses the role of developers as \"compute allocators\" who focus on orchestrating AI resources rather than writing code line‑by‑line.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Product Design"
+      ]
+    },
+    {
+      "title": "📈 Data to start your week: The cost of tokenmaxxing",
+      "url": "https://www.exponentialview.co/p/monday-data-the-cost-of-tokenmaxxing",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-05-18T10:53:34+00:00",
+      "summary": "The article explains how token maximization (“tokenmaxxing”) shifts costs from fixed infrastructure to variable usage, creating new budgeting and performance challenges for product teams. It highlights the need for careful monitoring of token consumption, cost forecasting, and strategies to mitigate token‑related anxiety while maintaining AI product quality.",
+      "tags": [
+        "AI Strategy",
+        "Metrics",
+        "Product Design"
+      ]
+    },
+    {
+      "title": "Why product managers are a bottleneck  and how product ops can fix it",
+      "url": "https://www.productledalliance.com/how-product-operations-can-unlock-ais-true-potential/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-05-18T10:44:56+00:00",
+      "summary": "The article argues that product managers are increasingly becoming bottlenecks due to overloaded responsibilities. It proposes that product ops shift from merely enforcing processes to actively curating contextual information, enabling faster decision‑making and smoother workflows.",
+      "tags": [
+        "Product Strategy",
+        "Product Ops",
+        "Leadership"
+      ]
+    },
+    {
+      "title": "Data Center Discontent, Understanding the Opposition, Fixing the Problem",
+      "url": "https://stratechery.com/2026/data-center-discontent-understanding-the-opposition-fixing-the-problem/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-05-18T10:00:00+00:00",
+      "summary": "The article outlines the common community concerns surrounding data center deployments, emphasizing that opposition often stems from perceived environmental and local impact. It controversially argues that the most effective way to resolve these disputes is through financial compensation to affected parties.",
+      "tags": [
+        "Stakeholders",
+        "Product Strategy",
+        "Leadership"
+      ]
+    },
     {
       "title": "The IC Is Dead. Long Live the IC.",
       "url": "https://medium.com/@julian.oczkowski/the-ic-is-dead-long-live-the-ic-38caf2d45f1b?source=rss------product_management-5",
@@ -52,6 +208,19 @@
         "Product Strategy",
         "Leadership",
         "Growth"
+      ]
+    },
+    {
+      "title": "CaseGap AI",
+      "url": "https://www.producthunt.com/products/casegap-ai",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-05-17T17:12:24+00:00",
+      "summary": "CaseGap AI leverages artificial intelligence to identify hidden revenue leaks within law firms by analyzing billing patterns, client interactions, and operational workflows. The platform then offers actionable recommendations to close these gaps, helping firms boost profitability and improve financial oversight.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Data"
       ]
     },
     {
