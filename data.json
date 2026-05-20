@@ -1,7 +1,59 @@
 {
-  "updated": "2026-05-19T08:29:31.253602+00:00",
-  "total": 372,
+  "updated": "2026-05-20T08:26:46.980642+00:00",
+  "total": 376,
   "items": [
+    {
+      "title": "What launched at Google I/O 2026 (30-minute day 1 recap)",
+      "url": "https://www.lennysnewsletter.com/p/what-launched-at-google-io-2026-30",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-05-20T01:59:31+00:00",
+      "summary": "Google I/O 2026 unveiled a suite of AI‑powered developer tools, new Generative AI APIs, and tighter integration of AI into Android and Workspace. The announcements focus on accelerating product development cycles, improving user personalization, and offering programmable AI components that product teams can embed directly into their services.",
+      "tags": [
+        "AI Strategy",
+        "AI Tools",
+        "Product Strategy"
+      ]
+    },
+    {
+      "title": "The Lenny and Friends Summit is back!",
+      "url": "https://www.lennysnewsletter.com/p/the-lenny-and-friends-summit-is-back",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-05-19T15:27:24+00:00",
+      "summary": "The Lenny and Friends Summit is returning on September 10th in San Francisco, with applications now open for attendees. This event offers product managers a chance to network, learn from industry leaders, and explore emerging trends in product development.",
+      "tags": [
+        "Product Culture",
+        "Stakeholders",
+        "Growth"
+      ]
+    },
+    {
+      "title": "AI Engineering - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "url": "https://www.producttalk.org/ai-engineering-all-things-product-podcast-with-teresa-torres-petra-wille/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-05-19T13:00:31+00:00",
+      "summary": "Teresa Torres discusses her unexpected transition from product leadership to hands‑on AI engineering, dedicating the majority of her work to building AI‑powered tools that support continuous discovery. She explains the practical challenges and benefits of integrating AI into product processes, offering insights for product managers looking to leverage AI in their own workflows.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Product Design"
+      ]
+    },
+    {
+      "title": "Personal Day",
+      "url": "https://stratechery.com/2026/personal-day-3/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-05-19T10:00:00+00:00",
+      "summary": "The article provides a brief note indicating there are no new updates on the Personal Day initiative. It serves as a placeholder to inform stakeholders that the project status remains unchanged.",
+      "tags": [
+        "Product Culture",
+        "Productivity",
+        "Communication"
+      ]
+    },
     {
       "title": "I built and deployed a real web app in one afternoon.\nAnd, I am not a developer.",
       "url": "https://medium.com/@priyaphadtare/i-built-and-deployed-a-real-web-app-in-one-afternoon-and-i-am-not-a-developer-25a957d36ce6?source=rss------product_management-5",
