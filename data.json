@@ -1,7 +1,98 @@
 {
-  "updated": "2026-05-20T08:26:46.980642+00:00",
-  "total": 376,
+  "updated": "2026-05-21T08:33:22.428190+00:00",
+  "total": 384,
   "items": [
+    {
+      "title": "Health Marketplace Development: Essential Features & Costs You Have to Know",
+      "url": "https://medium.com/@allclonescript/health-marketplace-development-essential-features-costs-you-have-to-know-e4d2885bb93a?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-05-21T08:00:48+00:00",
+      "summary": "The article provides a practical roadmap for health tech startups, outlining essential compliance features, development timelines, and cost estimates needed to launch a health marketplace. It also highlights key considerations for regulatory adherence and budgeting to ensure a successful product launch.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Compliance"
+      ]
+    },
+    {
+      "title": "Highlights",
+      "url": "https://medium.com/@hello.erinajewels/highlights-4e8a151b0a3b?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-05-21T07:01:04+00:00",
+      "summary": "The article presents a brief overview of recent highlights curated by ErinaJewels, pointing readers to a longer piece on Medium for full details. It serves as a teaser to engage the audience and direct them to the complete content.",
+      "tags": [
+        "Product Culture",
+        "Communication",
+        "Growth"
+      ]
+    },
+    {
+      "title": "The Evolution of Product Management Platforms: Market Trends and Future Outlook",
+      "url": "https://medium.com/@gargiben954/the-evolution-of-product-management-platforms-market-trends-and-future-outlook-d16cbaf40f34?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-05-21T06:47:15+00:00",
+      "summary": "The article examines how product management platforms are evolving, detailing current market dynamics, emerging technologies, and the competitive landscape. It also forecasts future trends, emphasizing the shift toward integrated, AI‑enhanced solutions that streamline workflows and drive strategic decision‑making.",
+      "tags": [
+        "Product Strategy",
+        "Platform Strategy",
+        "AI Tools"
+      ]
+    },
+    {
+      "title": "Tycoon AI",
+      "url": "https://www.producthunt.com/products/tycoon-us",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-05-21T02:08:22+00:00",
+      "summary": "Tycoon AI explores how solo founders can operate fully autonomous businesses by leveraging AI agents to handle tasks ranging from product development to customer support. The article outlines the practical setup, potential efficiencies, and the strategic considerations for integrating AI as a co‑founder in a one‑person startup.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Product Culture"
+      ]
+    },
+    {
+      "title": "AI Chatbots Are UX Interfaces. So, Why Aren’t We Designing Them Like One?",
+      "url": "https://medium.com/design-bootcamp/ai-chatbots-are-ux-interfaces-so-why-arent-we-designing-them-like-one-5cd03ac6212c?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-05-21T01:12:34+00:00",
+      "summary": "The article argues that AI chatbots should be treated as primary UX interfaces, requiring the same design rigor as traditional product screens. It highlights the rapid adoption of generative AI across sectors and calls for systematic design frameworks, user research, and metrics to evaluate chatbot experiences.",
+      "tags": [
+        "AI Strategy",
+        "Product Design",
+        "User Research"
+      ]
+    },
+    {
+      "title": "My Team of Agents: How I Get Claude to Do Tasks While I'm Away from the Computer",
+      "url": "https://www.producttalk.org/my-team-of-agents/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-05-20T13:00:43+00:00",
+      "summary": "The author describes how they use Claude-powered autonomous agents to automate routine tasks, such as generating to‑do items and preparing podcast interview briefs, without being at the computer. By prompting Claude to act as a personal assistant, they streamline workflow and ensure critical actions are pre‑populated daily.",
+      "tags": [
+        "AI Tools",
+        "Productivity",
+        "Automation"
+      ]
+    },
+    {
+      "title": "Google I/O, World Models, I/O Spaghetti",
+      "url": "https://stratechery.com/2026/google-i-o-world-models-i-o-spaghetti/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-05-20T10:00:00+00:00",
+      "summary": "Google I/O showcased a pervasive integration of AI across its product suite, highlighting both innovative opportunities and potential drawbacks. The event raised questions about DeepMind's alignment with Google's broader business goals, prompting product leaders to consider strategic coherence between cutting‑edge AI research and commercial objectives.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Leadership"
+      ]
+    },
     {
       "title": "What launched at Google I/O 2026 (30-minute day 1 recap)",
       "url": "https://www.lennysnewsletter.com/p/what-launched-at-google-io-2026-30",
@@ -13,6 +104,19 @@
         "AI Strategy",
         "AI Tools",
         "Product Strategy"
+      ]
+    },
+    {
+      "title": "TongueType for macOS",
+      "url": "https://www.producthunt.com/products/tonguetype",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-05-19T21:56:55+00:00",
+      "summary": "TongueType is a macOS application that offers local, offline dictation capabilities, eliminating the need for a cloud-based subscription. This solves privacy concerns and provides a seamless voice-to-text experience directly on the device, positioning it as a compelling alternative to subscription models.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Productivity"
       ]
     },
     {
@@ -39,6 +143,19 @@
         "AI Strategy",
         "Product Strategy",
         "Product Design"
+      ]
+    },
+    {
+      "title": "The data-first pivot:  A senior PM’s guide to building AI-ready ecosystems",
+      "url": "https://www.productledalliance.com/the-data-first-pivot-a-senior-pms-guide-to-building-ai-ready-ecosystems/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-05-19T12:00:30+00:00",
+      "summary": "The article advises product managers to shift focus from creating raw data lakes to developing reusable data products that can be directly leveraged by AI initiatives. It outlines a practical framework for embedding data considerations early in product design, ensuring that ecosystem components are AI-ready and can deliver measurable business value.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Data"
       ]
     },
     {
@@ -4850,19 +4967,6 @@
         "AI Tools",
         "Product Strategy",
         "Productivity"
-      ]
-    },
-    {
-      "title": "How will OpenAI compete?",
-      "url": "https://www.ben-evans.com/benedictevans/2026/2/19/how-will-openai-compete-nkg2x",
-      "source": "Benedict Evans",
-      "type": "trend",
-      "date": "2026-02-19T20:51:04+00:00",
-      "summary": "Benedict Evans argues that OpenAI faces four fundamental strategic challenges: no clear competitive moat, a rapidly shifting product landscape, the need to cross the chasm without existing distribution, and the difficulty of building consumer products on top of commodity models. He questions whether OpenAI's massive user base translates into durable strategic advantage. A clear-eyed analysis of the competitive dynamics shaping the AI product landscape.",
-      "tags": [
-        "AI Strategy",
-        "Platform Strategy",
-        "Competitive Analysis"
       ]
     }
   ]
