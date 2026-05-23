@@ -1,7 +1,124 @@
 {
-  "updated": "2026-05-22T08:22:19.050590+00:00",
-  "total": 393,
+  "updated": "2026-05-23T07:35:29.161901+00:00",
+  "total": 403,
   "items": [
+    {
+      "title": "What It Means to Be Part of a Zero-to-One Team",
+      "url": "https://medium.com/@seeyoung22/what-it-means-to-be-part-of-a-zero-to-one-team-df2dcc5ee3e0?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-05-23T06:44:36+00:00",
+      "summary": "The article explains the unique dynamics of zero-to-one teams—small, high‑impact groups that build something truly new from scratch. It highlights how members must wear multiple hats, make rapid decisions, and embrace uncertainty, offering product managers insight into navigating early-stage product development and fostering a culture of ownership and speed.",
+      "tags": [
+        "Product Strategy",
+        "Leadership",
+        "Product Culture"
+      ]
+    },
+    {
+      "title": "Design/Build For the End-User and Lowest-Resource Environment",
+      "url": "https://rahighi.medium.com/design-build-for-the-end-user-and-lowest-resource-environment-db617be78470?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-05-23T06:31:22+00:00",
+      "summary": "A leader introduced a strict constraint—designing for the end-user in the lowest-resource environment—to curb engineering over‑complexity, driving the team toward simpler, more efficient solutions. The approach highlights how purposeful limits can focus product development on real user needs and operational practicality.",
+      "tags": [
+        "Product Strategy",
+        "Leadership",
+        "Product Design"
+      ]
+    },
+    {
+      "title": "Blinkfit: Designing a 30-Minute Fitness Commerce Experience",
+      "url": "https://medium.com/@ami007muk/blinkfit-designing-a-30-minute-fitness-commerce-experience-812861de4201?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-05-23T06:10:09+00:00",
+      "summary": "The article outlines the product strategy and UX flow design for Blinkfit, a 30‑minute fitness commerce platform, detailing how the team crafted a seamless prototype to streamline user onboarding, workout selection, and checkout. It highlights key decisions around simplifying the experience to boost conversion and engagement for time‑pressed users.",
+      "tags": [
+        "Product Strategy",
+        "Product Design",
+        "Growth"
+      ]
+    },
+    {
+      "title": "Your concept test showed consumers loved it. That’s the problem.",
+      "url": "https://medium.com/@mihaela.blanaru/your-concept-test-showed-consumers-loved-it-thats-the-problem-2a73c2fe7d54?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-05-23T05:32:51+00:00",
+      "summary": "The article argues that positive concept test results can be misleading, as they often reflect participants' enthusiasm for a prototype rather than true market demand. Product managers should complement concept testing with deeper validation methods, such as real purchase behavior and longitudinal studies, to avoid building products that users claim to love but won't actually buy.",
+      "tags": [
+        "Product Strategy",
+        "User Research",
+        "Metrics"
+      ]
+    },
+    {
+      "title": "SignalLEMO - Ai Outreach Made Simple",
+      "url": "https://www.producthunt.com/products/signallemo-ai-outreach-made-simple",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-05-23T02:56:16+00:00",
+      "summary": "SignalLEMO offers an AI-driven platform that automates lead outreach for field service contractors, streamlining prospect identification, messaging, and follow‑up to increase conversion rates. The solution promises to reduce manual effort, improve targeting accuracy, and accelerate sales cycles for service‑based businesses.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Growth"
+      ]
+    },
+    {
+      "title": "E. Breuninger& Co.: Product Owner Zendesk  Customer Service (m/w/d) // remote möglich",
+      "url": "https://weworkremotely.com/remote-jobs/e-breuninger-co-product-owner-zendesk-customer-service-m-w-d-remote-moglich",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-05-22T20:31:19+00:00",
+      "summary": "Breuninger is hiring a Product Owner for its Zendesk-powered Customer Service platform, responsible for driving technological innovation and improving the omnichannel support experience across its extensive retail network. The role focuses on defining product vision, aligning cross‑functional teams, and delivering data‑driven enhancements to boost service quality and customer satisfaction.",
+      "tags": [
+        "Product Strategy",
+        "Growth",
+        "Stakeholders"
+      ]
+    },
+    {
+      "title": "Aledade: Senior Product Analyst, Remote",
+      "url": "https://weworkremotely.com/remote-jobs/aledade-senior-product-analyst-remote",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-05-22T20:31:14+00:00",
+      "summary": "The Senior Product Analyst will support Aledade's data ingestion pipelines for payer partners, handling medical and pharmacy claims, eligibility, and care gaps data. They will collaborate with product and engineering teams on issue triage, operational support, requirements gathering for new integrations, and act as a liaison to ensure data accuracy and timeliness.",
+      "tags": [
+        "Product Strategy",
+        "Data",
+        "Stakeholders"
+      ]
+    },
+    {
+      "title": "2026.21: The Data Center Veto",
+      "url": "https://stratechery.com/2026/the-data-center-veto/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-05-22T17:12:32+00:00",
+      "summary": "This week’s Stratechery roundup highlights growing dissatisfaction with data center operations, exploring how the economics of AI agents impact cost structures and scalability. It also draws unconventional insights from slime mold behavior to inspire new approaches to distributed system design and resource allocation.",
+      "tags": [
+        "Data",
+        "AI Strategy",
+        "Product Strategy"
+      ]
+    },
+    {
+      "title": "Goodbye, Lenny's Reads!",
+      "url": "https://www.lennysnewsletter.com/p/goodbye-lennys-reads",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-05-22T15:41:05+00:00",
+      "summary": "The author announces the discontinuation of the audio newsletter experiment after a year, indicating a strategic shift away from that content format. This decision may impact audience engagement and suggests a refocus on core product offerings.",
+      "tags": [
+        "Product Strategy",
+        "Growth",
+        "Communication"
+      ]
+    },
     {
       "title": "FxPro — Trade with Confidence. Trade with Precision.",
       "url": "https://medium.com/@maalmo2029/fxpro-trade-with-confidence-trade-with-precision-26c7328729c4?source=rss------product_management-5",
@@ -918,6 +1035,19 @@
         "Productivity",
         "Product Design",
         "Platform Strategy"
+      ]
+    },
+    {
+      "title": "Memdex",
+      "url": "https://www.producthunt.com/products/memdex",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-05-12T12:27:45+00:00",
+      "summary": "Memdex proposes a solution that captures AI conversation content and stores it as local, searchable memory that can be reused across sessions. This enables product teams to build more context-aware experiences and reduce repetitive prompting, improving efficiency and user satisfaction.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Productivity"
       ]
     },
     {
