@@ -1,0 +1,45 @@
+{
+  "edition": "2026-05-24",
+  "headline_theme": "AI Agents: From Sidekicks to Core Teammates",
+  "editorial": "Dan Shipper’s Lenny piece, “The AI paradox: More automation, more humans, more work,” cuts through the hype and reminds us that every new agent we hand a task to creates a fresh coordination problem. He shows the paradox isn’t a glitch; it’s a design flaw that surfaces the instant a PM assumes an agent can operate in a vacuum. The piece forces us to ask: are we swapping one bottleneck for another?\n\nProductTalk’s “My Team of Agents: How I Get Claude to Do Tasks While I’m Away from the Computer” offers a pragmatic counter‑point. The author stitches Claude‑driven bots into a nightly workflow, but only by defining explicit hand‑offs, clear intent, and a human‑in‑the‑loop for edge cases. Sleekplan’s “Best 10 AI Agents for the Product Manager in 2026” pushes the idea further, listing agents that claim ownership of feedback triage, roadmap drafting, and even customer‑facing communications. The reality sits between these extremes – agents are no longer novelty plugins, they are delegated teammates, but they still need the same governance, prioritisation, and accountability scaffolding we give junior engineers. The sweet spot is a thin layer of human judgement that defines scope, audits output, and reroutes work when the model drifts. Ignoring that layer turns agents into invisible risk generators.\n\nFor senior and staff PMs, the implication is crystal clear: stop treating agents as magical shortcuts and start treating them as product‑owned micro‑services. Map every agent to a concrete outcome, embed a review gate, and measure the net reduction in human effort versus the new coordination overhead. Build a governance checklist – scope, hand‑off points, review gates – and apply it to every new agent you introduce. Only then will the promised productivity lift survive the paradox that Shipper warned about, and you’ll have a repeatable framework for scaling AI teammates without drowning in coordination debt.",
+  "key_takeaways": [
+    "Agents amplify the coordination load they were meant to reduce.",
+    "Human‑in‑the‑loop governance is non‑negotiable for reliable output.",
+    "Treat each agent as a product feature with its own success metrics.",
+    "The real ROI comes from shifting judgment, not just automating tasks."
+  ],
+  "must_reads": [
+    {
+      "source": "Lenny's Newsletter",
+      "title": "The AI paradox: More automation, more humans, more work",
+      "url": "https://www.lennysnewsletter.com/p/the-ai-paradox-dan-shipper",
+      "why": "Shipper nails the hidden cost of AI – every delegated task spawns a new layer of human oversight, a reality PMs can’t ignore."
+    },
+    {
+      "source": "ProductTalk",
+      "title": "My Team of Agents: How I Get Claude to Do Tasks While I’m Away from the Computer",
+      "url": "https://www.producttalk.org/my-team-of-agents/",
+      "why": "A real‑world playbook that shows agents can run nightly pipelines, but only when you define clear hand‑offs and keep a review loop."
+    },
+    {
+      "source": "Sleekplan Blog",
+      "title": "Best 10 AI Agents for the Product Manager in 2026: Tools, Use Cases, and ROI",
+      "url": "https://sleekplan.com/blog/best-10-ai-agents-for-the-product-manager-in-2026-tools-use-cases-and-roi-8615",
+      "why": "The list proves the market has moved beyond hype; these agents are positioned as autonomous teammates, demanding the same product rigor as any other tool."
+    }
+  ],
+  "contrarian": {
+    "note": "Shipper’s paradox challenges the prevailing narrative that AI agents are immediate productivity boosters; it warns that without deliberate governance they add hidden coordination costs.",
+    "source": "Lenny's Newsletter",
+    "title": "The AI paradox: More automation, more humans, more work",
+    "url": "https://www.lennysnewsletter.com/p/the-ai-paradox-dan-shipper"
+  },
+  "also_worth": [],
+  "pm_homework": [
+    "Pick one repetitive workflow and prototype an AI agent to own it, then set up a weekly audit meeting to measure coordination overhead.",
+    "Define a success metric for the agent (e.g., time saved, error rate) and track it for a month before deciding to scale.",
+    "Document a governance checklist – scope, hand‑off points, review gates – and apply it to every new agent you introduce."
+  ],
+  "generated_at": "2026-05-24T17:42:53.038936+00:00",
+  "model_used": "openai/gpt-oss-120b"
+}

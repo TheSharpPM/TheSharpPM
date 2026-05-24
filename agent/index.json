@@ -1,6 +1,11 @@
 {
   "editions": [
     {
+      "date": "2026-05-24",
+      "headline_theme": "AI Agents: From Sidekicks to Core Teammates",
+      "file": "agent/2026-05-24.json"
+    },
+    {
       "date": "2026-05-17",
       "headline_theme": "AI is for Discovery, Not Deployment",
       "file": "agent/2026-05-17.json"
@@ -16,5 +21,5 @@
       "file": "agent/2026-05-03.json"
     }
   ],
-  "updated_at": "2026-05-17T11:02:08.297254+00:00"
+  "updated_at": "2026-05-24T17:42:53.039299+00:00"
 }
