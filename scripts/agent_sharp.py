@@ -31,18 +31,20 @@ from groq import Groq
 
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
 TAVILY_API_KEY = os.environ.get("TAVILY_API_KEY")
-# Default to qwen/qwen3-32b. History of what was tried and discarded:
-#   - llama-3.3-70b-versatile: emits malformed <function=name{args}>
-#     tags (missing `>`) on iteration 1, confirmed even after 3 retries
-#     with perturbed temperatures - identical bad output every time.
-#   - openai/gpt-oss-120b: 8k TPM on free tier, this workload hits ~9k+
-#     per request, every run rate-limited.
+# Default to llama-3.3-70b-versatile. History of what was tried:
+#   - qwen/qwen3-32b: works but its 6k TPM ceiling is right on top of
+#     this workload's typical request size (~5.8-6.1k). One bad day
+#     and the run fails with 413 "request too large" before the agent
+#     can even start trimming. Moved off after recurring breaches.
+#   - openai/gpt-oss-120b: 8k TPM, this workload hits ~9k+, every run
+#     rate-limited.
 #   - moonshotai/kimi-k2-instruct: not listed in Groq's available
 #     models, returns 404.
-# qwen3-32b is on Groq's Preview tier, has solid tool-calling
-# reputation in agentic flows, and 32B params should fit within the
-# free-tier TPM budget. Override with AGENT_MODEL env var.
-MODEL = os.environ.get("AGENT_MODEL", "qwen/qwen3-32b")
+# llama-3.3-70b-versatile has 12k TPM (2x headroom over qwen3) and the
+# historical malformed <function=...> tag issue is covered by the
+# perturbed-temperature retry loop in RETRY_TEMPERATURES below. Override
+# with AGENT_MODEL env var.
+MODEL = os.environ.get("AGENT_MODEL", "llama-3.3-70b-versatile")
 
 AGENT_DIR = Path("agent")
 INDEX_FILE = AGENT_DIR / "index.json"
@@ -824,6 +826,14 @@ def execute_tool(name, args):
 KEEP_RECENT_MESSAGES = 4
 OLD_TOOL_RESULT_PREVIEW_CHARS = 150
 
+# Tighter window applied after a 413 TPM error. Used to shrink the
+# payload below the per-request token cap before the next retry, since
+# the standard trim is by definition not aggressive enough if we hit
+# the ceiling.
+KEEP_RECENT_MESSAGES_ON_413 = 2
+OLD_TOOL_RESULT_PREVIEW_CHARS_ON_413 = 80
+RECENT_TOOL_RESULT_PREVIEW_CHARS_ON_413 = 500
+
 
 def trim_message_history(messages):
     """In-place: truncate content of old tool messages to save tokens.
@@ -847,6 +857,48 @@ def trim_message_history(messages):
             content[:OLD_TOOL_RESULT_PREVIEW_CHARS]
             + "...[older tool result truncated for token budget; "
             "re-fetch if you need this content again]"
+        )
+
+
+def trim_message_history_aggressive(messages):
+    """In-place: emergency shrink after a 413 TPM breach.
+
+    The standard trim is a no-op when the payload is already over
+    budget. This pass truncates ALL tool messages (including the most
+    recent ones) and uses a tighter recent-window, so the next request
+    can fit under the per-minute token ceiling. Called only on
+    rate_limit_exceeded - normal iterations keep the gentler trim.
+    """
+    if len(messages) <= 2:
+        return
+    cutoff = max(2, len(messages) - KEEP_RECENT_MESSAGES_ON_413)
+    # Older tool messages: stub them down to ~80 chars.
+    for i in range(2, cutoff):
+        msg = messages[i]
+        if msg.get("role") != "tool":
+            continue
+        content = msg.get("content", "")
+        if not isinstance(content, str):
+            continue
+        if len(content) <= OLD_TOOL_RESULT_PREVIEW_CHARS_ON_413 + 50:
+            continue
+        msg["content"] = (
+            content[:OLD_TOOL_RESULT_PREVIEW_CHARS_ON_413]
+            + "...[truncated under TPM pressure]"
+        )
+    # Recent tool messages: keep more context but still cap them.
+    for i in range(cutoff, len(messages)):
+        msg = messages[i]
+        if msg.get("role") != "tool":
+            continue
+        content = msg.get("content", "")
+        if not isinstance(content, str):
+            continue
+        if len(content) <= RECENT_TOOL_RESULT_PREVIEW_CHARS_ON_413 + 50:
+            continue
+        msg["content"] = (
+            content[:RECENT_TOOL_RESULT_PREVIEW_CHARS_ON_413]
+            + "...[truncated under TPM pressure]"
         )
 
 
@@ -930,22 +982,32 @@ def run_agent():
                     ),
                 })
                 continue
-            # Transient TPM rate limit: free tier windows are per-minute,
-            # so a short sleep is usually enough for the oldest tokens
-            # to roll out. Don't retry forever - if it keeps failing,
-            # the payload is structurally too large and a code fix is
-            # needed, not a wait.
+            # Per-request TPM breach: Groq compares the single request's
+            # token count against the per-minute ceiling, so when this
+            # fires the payload itself is over budget and sleeping alone
+            # does nothing - the next request would be the same size.
+            # First retry: trim aggressively to shrink the payload.
+            # Second retry: sleep so the per-minute window rolls over,
+            # in case the aggressive trim wasn't enough on its own.
             if ("rate_limit_exceeded" in error_str
                     and "tokens per minute" in error_str.lower()
                     and rate_limit_retries < RATE_LIMIT_MAX_RETRIES):
                 rate_limit_retries += 1
-                print(
-                    f"  Hit TPM rate limit. Sleeping "
-                    f"{RATE_LIMIT_SLEEP_SECONDS}s and retrying "
-                    f"(retry {rate_limit_retries}/"
-                    f"{RATE_LIMIT_MAX_RETRIES})."
-                )
-                time.sleep(RATE_LIMIT_SLEEP_SECONDS)
+                if rate_limit_retries == 1:
+                    print(
+                        f"  Hit TPM rate limit. Aggressive trim and "
+                        f"retrying (retry {rate_limit_retries}/"
+                        f"{RATE_LIMIT_MAX_RETRIES})."
+                    )
+                    trim_message_history_aggressive(messages)
+                else:
+                    print(
+                        f"  Hit TPM rate limit again. Sleeping "
+                        f"{RATE_LIMIT_SLEEP_SECONDS}s and retrying "
+                        f"(retry {rate_limit_retries}/"
+                        f"{RATE_LIMIT_MAX_RETRIES})."
+                    )
+                    time.sleep(RATE_LIMIT_SLEEP_SECONDS)
                 continue
             print(f"  Groq error: {e}")
             return 1
