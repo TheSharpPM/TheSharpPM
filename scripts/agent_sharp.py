@@ -31,23 +31,27 @@ from groq import Groq
 
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
 TAVILY_API_KEY = os.environ.get("TAVILY_API_KEY")
-# Default to qwen/qwen3-32b. History of what was tried and discarded:
-#   - llama-3.3-70b-versatile: 12k TPM headroom is great, but tool
-#     calling is fundamentally broken on Groq for this model. It emits
+# Default to meta-llama/llama-4-scout-17b-16e-instruct. History of what
+# was tried and discarded:
+#   - qwen/qwen3-32b: reliable tool calling but 6k TPM ceiling is too
+#     tight for this workload. Typical requests sit at 6.0-6.7k, so
+#     even with aggressive trim every run is one bad iteration away
+#     from a 413. Moved off after recurring breaches.
+#   - llama-3.3-70b-versatile: 12k TPM headroom but tool calling is
+#     fundamentally broken on Groq for this model. Emits
 #     `<function=name>{json}</function>` instead of OpenAI tool_calls
 #     format, AND escapes single quotes as `\'` which is invalid JSON.
 #     Perturbed-temperature retries do not fix either - the model
 #     deterministically re-emits the same broken format. Also
 #     hallucinates URLs (example.com placeholders).
-#   - openai/gpt-oss-120b: 8k TPM on free tier, this workload hits ~9k+
-#     per request, every run rate-limited.
+#   - openai/gpt-oss-120b: 8k TPM, this workload hits ~9k+, every run
+#     rate-limited.
 #   - moonshotai/kimi-k2-instruct: not listed in Groq's available
 #     models, returns 404.
-# qwen3-32b has reliable tool calling. The 6k TPM ceiling is tight but
-# the tightened trim below (and the aggressive trim on 413 as a safety
-# net) keeps typical requests safely under 6k. Override with AGENT_MODEL
-# env var.
-MODEL = os.environ.get("AGENT_MODEL", "qwen/qwen3-32b")
+# llama-4-scout has 30k TPM (5x headroom over qwen3) and Llama 4 uses
+# native OpenAI tool_calls format, not the broken <function=> tags of
+# Llama 3. Override with AGENT_MODEL env var.
+MODEL = os.environ.get("AGENT_MODEL", "meta-llama/llama-4-scout-17b-16e-instruct")
 
 AGENT_DIR = Path("agent")
 INDEX_FILE = AGENT_DIR / "index.json"
