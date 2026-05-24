@@ -832,13 +832,13 @@ def execute_tool(name, args):
 # stub to stay within the model's per-request token budget. The agent
 # does not need to re-read old tool dumps - it builds up understanding
 # turn by turn - so truncating older results is structurally safe.
-KEEP_RECENT_MESSAGES = 3
-OLD_TOOL_RESULT_PREVIEW_CHARS = 100
+KEEP_RECENT_MESSAGES = 4
+OLD_TOOL_RESULT_PREVIEW_CHARS = 200
 # Even the most recent tool results get capped, because a single
-# fetch_article or web_search dump can blow the 6k TPM budget on its
-# own. The cap is generous enough that the model still has working
-# context to write an editorial from.
-RECENT_TOOL_RESULT_CAP_CHARS = 1500
+# fetch_article or web_search dump can otherwise dominate the request.
+# 3000 chars is roughly the working memory the agent needs to keep
+# track of what it just fetched without re-fetching the same URLs.
+RECENT_TOOL_RESULT_CAP_CHARS = 3000
 
 # Tighter window applied after a 413 TPM error. Used to shrink the
 # payload below the per-request token cap before the next retry, since
@@ -958,6 +958,11 @@ def run_agent():
     RETRY_TEMPERATURES = [1.0, 0.4, 1.1]
     schema_retries = 0
     rate_limit_retries = 0
+    # If the model returns assistant text without any tool call, we nudge
+    # it back into the tool loop once. Cap at 1 to avoid an infinite
+    # ping-pong of "you must call a tool" -> "I am a language model".
+    NO_TOOL_CALL_MAX_NUDGES = 1
+    no_tool_call_nudges = 0
     for iteration in range(1, MAX_ITERATIONS + 1):
         print(f"[iter {iteration}]")
         # On the first turn, force the agent to actually call a tool.
@@ -1061,6 +1066,28 @@ def run_agent():
         if not tool_calls:
             if message.content:
                 print(f"  Agent said: {message.content[:300]}")
+            # The agent sometimes drops into prose mode just shy of
+            # publishing - "Here's a summary of what I found..." - which
+            # leaves a perfectly good run unpublished. Nudge it back
+            # into the tool loop once before giving up.
+            if no_tool_call_nudges < NO_TOOL_CALL_MAX_NUDGES:
+                no_tool_call_nudges += 1
+                print(
+                    f"  No tool call. Nudging the agent back to "
+                    f"publish_edition (nudge "
+                    f"{no_tool_call_nudges}/{NO_TOOL_CALL_MAX_NUDGES})."
+                )
+                messages.append({
+                    "role": "user",
+                    "content": (
+                        "You returned text but no tool call. Your only "
+                        "way to finish the run is to call publish_edition "
+                        "with the fields populated from the research you "
+                        "have already done. Do not respond with prose - "
+                        "emit exactly one publish_edition tool call now."
+                    ),
+                })
+                continue
             print("  Agent produced no tool calls. Stopping.")
             return 1
 
