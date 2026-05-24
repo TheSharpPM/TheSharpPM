@@ -31,27 +31,29 @@ from groq import Groq
 
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
 TAVILY_API_KEY = os.environ.get("TAVILY_API_KEY")
-# Default to meta-llama/llama-4-scout-17b-16e-instruct. History of what
-# was tried and discarded:
+# Default to openai/gpt-oss-120b. History of what was tried and
+# discarded:
 #   - qwen/qwen3-32b: reliable tool calling but 6k TPM ceiling is too
 #     tight for this workload. Typical requests sit at 6.0-6.7k, so
-#     even with aggressive trim every run is one bad iteration away
-#     from a 413. Moved off after recurring breaches.
+#     every run is one bad iteration away from a 413 even with the
+#     aggressive trim below.
 #   - llama-3.3-70b-versatile: 12k TPM headroom but tool calling is
 #     fundamentally broken on Groq for this model. Emits
 #     `<function=name>{json}</function>` instead of OpenAI tool_calls
 #     format, AND escapes single quotes as `\'` which is invalid JSON.
-#     Perturbed-temperature retries do not fix either - the model
-#     deterministically re-emits the same broken format. Also
-#     hallucinates URLs (example.com placeholders).
-#   - openai/gpt-oss-120b: 8k TPM, this workload hits ~9k+, every run
-#     rate-limited.
+#     Perturbed-temperature retries do not fix - deterministic bad
+#     output. Also hallucinates URLs (example.com placeholders).
+#   - meta-llama/llama-4-scout-17b-16e-instruct: 30k TPM headroom but
+#     tool calling also broken. Emits a generic
+#     `[{"name":..., "parameters":...}]` list instead of OpenAI
+#     tool_calls format, AND has the same `\'` invalid-JSON escape
+#     habit as Llama 3. Entire Llama family unusable on Groq for this.
 #   - moonshotai/kimi-k2-instruct: not listed in Groq's available
 #     models, returns 404.
-# llama-4-scout has 30k TPM (5x headroom over qwen3) and Llama 4 uses
-# native OpenAI tool_calls format, not the broken <function=> tags of
-# Llama 3. Override with AGENT_MODEL env var.
-MODEL = os.environ.get("AGENT_MODEL", "meta-llama/llama-4-scout-17b-16e-instruct")
+# gpt-oss-120b has OpenAI-native tool calling format (it is the OpenAI
+# Open weights model). 8k TPM is enough now that the trim below caps
+# typical requests around 6.7k. Override with AGENT_MODEL env var.
+MODEL = os.environ.get("AGENT_MODEL", "openai/gpt-oss-120b")
 
 AGENT_DIR = Path("agent")
 INDEX_FILE = AGENT_DIR / "index.json"
