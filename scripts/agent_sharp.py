@@ -31,20 +31,23 @@ from groq import Groq
 
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
 TAVILY_API_KEY = os.environ.get("TAVILY_API_KEY")
-# Default to llama-3.3-70b-versatile. History of what was tried:
-#   - qwen/qwen3-32b: works but its 6k TPM ceiling is right on top of
-#     this workload's typical request size (~5.8-6.1k). One bad day
-#     and the run fails with 413 "request too large" before the agent
-#     can even start trimming. Moved off after recurring breaches.
-#   - openai/gpt-oss-120b: 8k TPM, this workload hits ~9k+, every run
-#     rate-limited.
+# Default to qwen/qwen3-32b. History of what was tried and discarded:
+#   - llama-3.3-70b-versatile: 12k TPM headroom is great, but tool
+#     calling is fundamentally broken on Groq for this model. It emits
+#     `<function=name>{json}</function>` instead of OpenAI tool_calls
+#     format, AND escapes single quotes as `\'` which is invalid JSON.
+#     Perturbed-temperature retries do not fix either - the model
+#     deterministically re-emits the same broken format. Also
+#     hallucinates URLs (example.com placeholders).
+#   - openai/gpt-oss-120b: 8k TPM on free tier, this workload hits ~9k+
+#     per request, every run rate-limited.
 #   - moonshotai/kimi-k2-instruct: not listed in Groq's available
 #     models, returns 404.
-# llama-3.3-70b-versatile has 12k TPM (2x headroom over qwen3) and the
-# historical malformed <function=...> tag issue is covered by the
-# perturbed-temperature retry loop in RETRY_TEMPERATURES below. Override
-# with AGENT_MODEL env var.
-MODEL = os.environ.get("AGENT_MODEL", "llama-3.3-70b-versatile")
+# qwen3-32b has reliable tool calling. The 6k TPM ceiling is tight but
+# the tightened trim below (and the aggressive trim on 413 as a safety
+# net) keeps typical requests safely under 6k. Override with AGENT_MODEL
+# env var.
+MODEL = os.environ.get("AGENT_MODEL", "qwen/qwen3-32b")
 
 AGENT_DIR = Path("agent")
 INDEX_FILE = AGENT_DIR / "index.json"
@@ -823,8 +826,13 @@ def execute_tool(name, args):
 # stub to stay within the model's per-request token budget. The agent
 # does not need to re-read old tool dumps - it builds up understanding
 # turn by turn - so truncating older results is structurally safe.
-KEEP_RECENT_MESSAGES = 4
-OLD_TOOL_RESULT_PREVIEW_CHARS = 150
+KEEP_RECENT_MESSAGES = 3
+OLD_TOOL_RESULT_PREVIEW_CHARS = 100
+# Even the most recent tool results get capped, because a single
+# fetch_article or web_search dump can blow the 6k TPM budget on its
+# own. The cap is generous enough that the model still has working
+# context to write an editorial from.
+RECENT_TOOL_RESULT_CAP_CHARS = 1500
 
 # Tighter window applied after a 413 TPM error. Used to shrink the
 # payload below the per-request token cap before the next retry, since
@@ -836,16 +844,18 @@ RECENT_TOOL_RESULT_PREVIEW_CHARS_ON_413 = 500
 
 
 def trim_message_history(messages):
-    """In-place: truncate content of old tool messages to save tokens.
+    """In-place: truncate content of tool messages to save tokens.
 
-    Leaves system prompt, user turn, and the last KEEP_RECENT_MESSAGES
-    untouched. For older tool-role messages, replaces the JSON content
-    with a short preview plus a marker so the model knows that detail
-    is no longer available.
+    Leaves system prompt and user turn untouched. For older tool-role
+    messages (anything older than KEEP_RECENT_MESSAGES), replaces the
+    JSON content with a short preview plus a marker. For recent tool
+    messages, applies a softer cap so a single oversized tool dump
+    cannot single-handedly breach the per-request TPM ceiling.
     """
-    if len(messages) <= 2 + KEEP_RECENT_MESSAGES:
+    if len(messages) <= 2:
         return
-    cutoff = len(messages) - KEEP_RECENT_MESSAGES
+    cutoff = max(2, len(messages) - KEEP_RECENT_MESSAGES)
+    # Older tool messages: stub them down hard.
     for i in range(2, cutoff):
         msg = messages[i]
         if msg.get("role") != "tool":
@@ -857,6 +867,18 @@ def trim_message_history(messages):
             content[:OLD_TOOL_RESULT_PREVIEW_CHARS]
             + "...[older tool result truncated for token budget; "
             "re-fetch if you need this content again]"
+        )
+    # Recent tool messages: cap them, but more generously.
+    for i in range(cutoff, len(messages)):
+        msg = messages[i]
+        if msg.get("role") != "tool":
+            continue
+        content = msg.get("content", "")
+        if not isinstance(content, str) or len(content) <= RECENT_TOOL_RESULT_CAP_CHARS + 50:
+            continue
+        msg["content"] = (
+            content[:RECENT_TOOL_RESULT_CAP_CHARS]
+            + "...[recent tool result capped for token budget]"
         )
 
 
