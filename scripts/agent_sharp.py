@@ -100,6 +100,13 @@ MAX_ALSO_WORTH_TITLE_CHARS = 300
 # Used by the publish gate to refuse premature or ungrounded publishes.
 TOOL_CALL_COUNTS = {}
 
+# Per-run cache of URLs the agent has already attempted to fetch.
+# Maps url -> 1-line note about the previous outcome. Used by
+# execute_tool to short-circuit duplicate fetch_article calls so the
+# agent cannot burn its iteration budget re-fetching the same URLs
+# after the sliding-window trim forgets the earlier result.
+FETCHED_URLS = {}
+
 # Substrings that signal fabricated / placeholder content. The publish gate
 # refuses to publish anything containing these.
 PLACEHOLDER_INDICATORS = [
@@ -796,7 +803,7 @@ ROUTINE:
 6. Write editorial: P1 hook (name a specific article + author/company, sharp observation), P2 synthesis (connect 3+ pieces, take position), P3 implication for Staff/Senior PMs.
 7. Call publish_edition. Run ends.
 
-Budget: <=14 tool calls before publish. If publish_edition is rejected, fix the specific issue named and call again.
+Budget: <=14 tool calls before publish. If publish_edition is rejected, fix the specific issue named and call again. Never re-fetch a URL you already fetched in this run: the dispatcher will refuse with "duplicate_fetch". Pick a different URL or proceed to publish with what you have.
 
 Stop: publish_edition must be called exactly once and accepted.
 """
@@ -819,12 +826,41 @@ def execute_tool(name, args):
     fn = TOOL_DISPATCH.get(name)
     if not fn:
         return {"error": f"unknown tool: {name}"}
+    # Short-circuit duplicate fetch_article calls. The sliding-window
+    # trim eventually replaces older tool results with stubs, which
+    # causes the agent to forget it already fetched a URL and try it
+    # again. Returning a sharp refusal here is cheaper than letting it
+    # burn an iteration on a duplicate fetch.
+    if name == "fetch_article":
+        url = args.get("url", "")
+        if url and url in FETCHED_URLS:
+            return {
+                "error": (
+                    "duplicate_fetch: you have already fetched this "
+                    "URL in this run. Do not fetch it again. Use the "
+                    "earlier result, or pick a different URL, or "
+                    "proceed to publish_edition with what you have."
+                ),
+                "previous_outcome": FETCHED_URLS[url],
+                "url": url,
+            }
     try:
-        return fn(**args)
+        result = fn(**args)
     except TypeError as e:
         return {"error": f"bad args for {name}: {e}"}
     except Exception as e:
         return {"error": f"tool {name} failed: {e}"}
+    # Record the URL after a fetch attempt so future calls to the same
+    # URL short-circuit. Mark errors distinctly so the model knows not
+    # to keep retrying a broken URL either.
+    if name == "fetch_article":
+        url = args.get("url", "")
+        if url:
+            if isinstance(result, dict) and result.get("error"):
+                FETCHED_URLS[url] = f"errored: {str(result.get('error'))[:120]}"
+            else:
+                FETCHED_URLS[url] = "fetched successfully"
+    return result
 
 
 # Sliding-window cap: keep system + user + this many of the most recent
