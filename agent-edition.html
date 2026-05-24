@@ -431,7 +431,7 @@
         document.getElementById('edition-content').innerHTML = '<div class="loading">No edition specified.</div>';
     } else {
         document.getElementById('edition-date').textContent = formatDate(date, true);
-        fetch('agent/' + encodeURIComponent(date) + '.json')
+        fetch('agent/' + encodeURIComponent(date) + '.json', { cache: 'no-store' })
             .then(function(r) {
                 if (!r.ok) throw new Error('not found');
                 return r.json();

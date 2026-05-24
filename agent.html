@@ -251,7 +251,7 @@
         });
     }
 
-    fetch('agent/index.json')
+    fetch('agent/index.json', { cache: 'no-store' })
         .then(function(r) { return r.json(); })
         .then(function(data) {
             var editions = (data && data.editions) || [];

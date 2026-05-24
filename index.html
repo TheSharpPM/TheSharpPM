@@ -724,7 +724,7 @@
  
     document.getElementById('search').addEventListener('input', applyFilters);
  
-    fetch('data.json')
+    fetch('data.json', { cache: 'no-store' })
         .then(function(r) { return r.json(); })
         .then(function(data) {
             allItems = data.items || [];
