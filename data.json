@@ -1,7 +1,124 @@
 {
-  "updated": "2026-05-24T07:51:46.860710+00:00",
-  "total": 403,
+  "updated": "2026-05-25T13:48:42.223491+00:00",
+  "total": 417,
   "items": [
+    {
+      "title": "Shifting Timelines: Why the Next Wave of Copper Discoveries Starts with Bureaucracy",
+      "url": "https://medium.com/@reinaldo-engle/shifting-timelines-why-the-next-wave-of-copper-discoveries-starts-with-bureaucracy-7808d2c9b69c?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-05-25T13:33:45+00:00",
+      "summary": "The article examines British Columbia's new 40‑to‑140‑day framework for granting mining exploration permits, aiming to create predictability for miners while navigating bureaucratic hurdles. It highlights how streamlined permitting could accelerate copper discovery timelines and influence strategic decisions for companies like NovaRed.",
+      "tags": [
+        "Product Strategy",
+        "Leadership",
+        "Stakeholders"
+      ]
+    },
+    {
+      "title": "Why Governments Are Thinking About AI All Wrong",
+      "url": "https://medium.com/insightful-data-stories/why-governments-are-thinking-about-ai-all-wrong-6d44edf26adf?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-05-25T13:14:50+00:00",
+      "summary": "The article argues that governments often misinterpret AI's role by overlooking three critical blind spots: the pace of technological change, the socioeconomic impact on citizens, and the necessity for agile policy frameworks. It suggests that correcting these gaps is essential for shaping effective AI governance that aligns with market dynamics and user needs.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Leadership"
+      ]
+    },
+    {
+      "title": "Why Your Retention Rate Is Lying to You And How Cohort Analysis Reveals Product-Market Fit",
+      "url": "https://medium.com/@ragento.ai/why-your-retention-rate-is-lying-to-you-and-how-cohort-analysis-reveals-product-market-fit-b78aaaadbec1?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-05-25T12:46:49+00:00",
+      "summary": "The article explains how raw retention metrics can be misleading because they conflate new and returning users, masking true product-market fit. By using cohort analysis to track user behavior over time, product teams can uncover genuine retention trends, identify churn drivers, and make data‑driven decisions to improve long‑term growth.",
+      "tags": [
+        "Retention",
+        "Metrics",
+        "Product Strategy"
+      ]
+    },
+    {
+      "title": "How the engineer behind Claude Cowork actually uses Claude | Felix Rieseberg (Anthropic)",
+      "url": "https://www.lennysnewsletter.com/p/how-the-engineer-behind-claude-cowork",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-05-25T12:03:53+00:00",
+      "summary": "Felix Rieseberg from Anthropic demonstrates practical applications of Claude, using it to generate 3D house walkthroughs from floor plans, automate promise tracking, and develop a low-cost $20 hardware companion. These use cases illustrate how generative AI can streamline design workflows, improve project accountability, and extend AI capabilities to edge devices, offering product teams concrete ideas for integrating AI into their own offerings.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Productivity"
+      ]
+    },
+    {
+      "title": "My Love-Hate Relationship with LLMs (And the System I Hacked to Use Them Without Killing Myself)",
+      "url": "https://medium.com/@reutmalovani/my-love-hate-relationship-with-llms-and-the-system-i-hacked-to-use-them-without-killing-myself-3269d2662ada?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-05-25T10:59:55+00:00",
+      "summary": "The author shares a candid evaluation of three leading large language models—ChatGPT, Claude, and Gemini—highlighting each one's quirks and strengths. They also describe a custom workflow they built to integrate these models into their daily work without overwhelming their capacity, offering insights on practical, sustainable LLM usage for product teams.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Productivity"
+      ]
+    },
+    {
+      "title": "📈 Why AI bills rise as costs fall",
+      "url": "https://www.exponentialview.co/p/data-to-start-your-week-one-ai-task-many-bills",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-05-25T07:00:52+00:00",
+      "summary": "The article highlights a paradox where AI spending is increasing even as the underlying infrastructure costs decline, driven by expanding use cases and competitive pressures. For product managers, this signals the need to balance investment in AI capabilities with careful cost‑benefit analysis and strategic prioritization.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Metrics"
+      ]
+    },
+    {
+      "title": "Predicting AI job exposure",
+      "url": "https://www.ben-evans.com/benedictevans/2026/5/24/ai-job-exposure",
+      "source": "Benedict Evans",
+      "type": "trend",
+      "date": "2026-05-24T20:35:51+00:00",
+      "summary": "The author argues that attempting to quantify AI exposure for specific jobs, companies, and industries is fundamentally flawed because the evolution of roles, surrounding variables, and the nature of work are too uncertain to measure reliably. Consequently, predictive scoring and charting of AI impact are likely to be speculative rather than actionable.",
+      "tags": [
+        "AI Strategy",
+        "Metrics",
+        "Product Strategy"
+      ]
+    },
+    {
+      "title": "The AI paradox: More automation, more humans, more work | Dan Shipper",
+      "url": "https://www.lennysnewsletter.com/p/the-ai-paradox-dan-shipper",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-05-24T12:31:49+00:00",
+      "summary": "The article argues that as AI automation advances, the need for human involvement—especially product managers and designers—will actually increase, because AI agents require guidance, oversight, and creative input. It highlights that future work will revolve around AI platforms like Codex and Claude, moving beyond simple CLI tools, and emphasizes the strategic role of humans in steering AI-driven workflows.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Product Culture"
+      ]
+    },
+    {
+      "title": "🔮 Exponential View #575: AI’s math breakthrough and its creative limits",
+      "url": "https://www.exponentialview.co/p/ev-575",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-05-24T02:44:54+00:00",
+      "summary": "The article discusses a recent mathematical breakthrough in AI that expands its capabilities but also highlights fundamental creative limitations. It urges product leaders to focus on higher-level problem solving and strategic vision rather than getting bogged down in routine model maintenance.",
+      "tags": [
+        "AI Strategy",
+        "AI Tools",
+        "Product Strategy"
+      ]
+    },
     {
       "title": "What It Means to Be Part of a Zero-to-One Team",
       "url": "https://medium.com/@seeyoung22/what-it-means-to-be-part-of-a-zero-to-one-team-df2dcc5ee3e0?source=rss------product_management-5",
@@ -120,6 +237,32 @@
       ]
     },
     {
+      "title": "Prove your impact with these  product operations KPIs",
+      "url": "https://www.productledalliance.com/prove-your-impact-with-these-product-operations-kpis/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-05-22T15:00:35+00:00",
+      "summary": "The article emphasizes the importance of defining clear product operations KPIs to make the value of product ops visible to the organization. It guides product managers on selecting and tracking metrics that demonstrate impact on efficiency, cross‑functional alignment, and business outcomes.",
+      "tags": [
+        "Metrics",
+        "Product Strategy",
+        "Productivity"
+      ]
+    },
+    {
+      "title": "LLMTest",
+      "url": "https://www.producthunt.com/products/llmtest-2",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-05-22T08:28:23+00:00",
+      "summary": "The article advises product teams to select appropriate large language models (LLMs) for their applications and to implement fallback mechanisms to maintain reliability. It emphasizes thoughtful LLM integration as a key factor for user satisfaction and product success.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "AI Strategy"
+      ]
+    },
+    {
       "title": "FxPro — Trade with Confidence. Trade with Precision.",
       "url": "https://medium.com/@maalmo2029/fxpro-trade-with-confidence-trade-with-precision-26c7328729c4?source=rss------product_management-5",
       "source": "Medium PM",
@@ -156,6 +299,32 @@
         "Product Strategy",
         "Retention",
         "User Research"
+      ]
+    },
+    {
+      "title": "Website Product Owner",
+      "url": "https://remoteOK.com/remote-jobs/remote-website-product-owner-ryder-system-inc-1132039",
+      "source": "Remote OK",
+      "type": "job",
+      "date": "2026-05-22T02:46:02+00:00",
+      "summary": "The role oversees the vision, development, and delivery of complex features on Ryder's corporate website, translating high‑level epics into actionable user stories and ensuring alignment with business goals. The Product Owner collaborates cross‑functionally, leads Agile ceremonies, and communicates progress to stakeholders to bring digital projects from concept to market.",
+      "tags": [
+        "Product Strategy",
+        "Leadership",
+        "Prioritization"
+      ]
+    },
+    {
+      "title": "own.page",
+      "url": "https://www.producthunt.com/products/own-page",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-05-21T18:24:54+00:00",
+      "summary": "The article introduces own.page, a tool that lets users quickly create personal websites using customizable bento‑tile layouts. It emphasizes ease of setup and flexibility, making it ideal for professionals who want a polished online presence without extensive development effort.",
+      "tags": [
+        "Product Design",
+        "Productivity",
+        "Growth"
       ]
     },
     {
@@ -826,6 +995,19 @@
       "summary": "Product teams are leveraging multilingual AI to automate localization, enabling simultaneous launches in over 100 markets. This approach cuts time-to-market and costs while eliminating extensive engineering effort.",
       "tags": [
         "AI Tools",
+        "Product Strategy",
+        "Growth"
+      ]
+    },
+    {
+      "title": "Product Manager",
+      "url": "https://remoteOK.com/remote-jobs/remote-product-manager-cosuno-1131589",
+      "source": "Remote OK",
+      "type": "job",
+      "date": "2026-05-14T14:00:05+00:00",
+      "summary": "The role focuses on owning and evolving the subcontractor marketplace, leveraging AI to introduce features like intelligent tender recommendations and automated bidding support. The PM will analyze user behavior, market trends, and product metrics to identify growth opportunities and drive strategic initiatives within a small, high-impact team.",
+      "tags": [
+        "AI Strategy",
         "Product Strategy",
         "Growth"
       ]
