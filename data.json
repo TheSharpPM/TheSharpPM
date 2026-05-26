@@ -1,7 +1,81 @@
 {
-  "updated": "2026-05-25T13:48:42.223491+00:00",
-  "total": 417,
+  "updated": "2026-05-26T08:30:03.949662+00:00",
+  "total": 424,
   "items": [
+    {
+      "title": "Prompt engineering is the admission of ergonomic failure",
+      "url": "https://guillaume-besson.medium.com/prompt-engineering-is-the-admission-of-ergonomic-failure-15a672a700a8?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-05-26T07:49:24+00:00",
+      "summary": "The article argues that treating prompt engineering as a specialized future skill masks fundamental ergonomic shortcomings in AI product design, leading teams to rely on workarounds instead of creating intuitive interfaces. It urges product managers to focus on built‑in usability and user‑centered workflows rather than expecting users to master complex prompts.",
+      "tags": [
+        "AI Strategy",
+        "Product Design",
+        "User Research"
+      ]
+    },
+    {
+      "title": "Raw Ethiopian Opal Pendant Necklace, Natural Rough Opal Birthstone Jewelry, Uncut Fire Opal Cluster…",
+      "url": "https://medium.com/@skgemsnbeads/raw-ethiopian-opal-pendant-necklace-natural-rough-opal-birthstone-jewelry-uncut-fire-opal-cluster-1df3e19a1b9f?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-05-26T07:28:07+00:00",
+      "summary": "The article showcases a raw Ethiopian opal pendant necklace, emphasizing its natural rough opal, birthstone qualities, and uncut fire opal cluster design. For a product manager, it highlights the importance of unique material sourcing, storytelling around product authenticity, and positioning niche jewelry in an online marketplace.",
+      "tags": [
+        "Product Design",
+        "Growth",
+        "Competitive Analysis"
+      ]
+    },
+    {
+      "title": "Why winnable enterprise deals stall in the middle and how PMM can fix it",
+      "url": "https://medium.com/@mohana.karthick/why-winnable-enterprise-deals-stall-in-the-middle-and-how-pmm-can-fix-it-a064eb4ef637?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-05-26T04:50:26+00:00",
+      "summary": "The article explains why promising enterprise{}{}{}",
+      "tags": []
+    },
+    {
+      "title": "Ferrari Luce",
+      "url": "https://www.producthunt.com/products/ferrari-luce-2",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-05-26T03:59:54+00:00",
+      "summary": "The article introduces the Ferrari Luce, the first electric vehicle from Ferrari, created in collaboration with LoveFrom Discussion. It highlights the strategic shift toward electrification in luxury performance cars and outlines the design and technology innovations aimed at preserving Ferrari's brand identity while embracing sustainability.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Growth"
+      ]
+    },
+    {
+      "title": "Foursquare Had the Answer in Its Data All Along",
+      "url": "https://medium.com/@aryan1999varma/foursquare-had-the-answer-in-its-data-all-along-d98fa6910a66?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-05-26T01:47:12+00:00",
+      "summary": "The article examines how Foursquare leveraged its extensive location data to uncover hidden insights that drove product decisions, highlighting common pitfalls like misreading signals and failing to ask the right questions. It underscores the importance of rigorous data analysis and iterative correction to align product strategy with actual user behavior.",
+      "tags": [
+        "Data",
+        "Product Strategy",
+        "Metrics"
+      ]
+    },
+    {
+      "title": "🎙️ How I AI: How the engineer behind Claude Cowork actually uses Claude Cowork & What launched at Google I/O 2026",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-the-engineer-behind",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-05-25T15:02:59+00:00",
+      "summary": "The article outlines how the engineer behind Claude Cowork leverages the tool in daily workflows, highlighting practical AI integration techniques. It also recaps the major announcements from Google I/O 2026, focusing on new AI-powered features that could impact product development.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "AI Tools"
+      ]
+    },
     {
       "title": "Shifting Timelines: Why the Next Wave of Copper Discoveries Starts with Bureaucracy",
       "url": "https://medium.com/@reinaldo-engle/shifting-timelines-why-the-next-wave-of-copper-discoveries-starts-with-bureaucracy-7808d2c9b69c?source=rss------product_management-5",
@@ -438,6 +512,19 @@
         "AI Strategy",
         "Product Design",
         "User Research"
+      ]
+    },
+    {
+      "title": "blokdots 3.0",
+      "url": "https://www.producthunt.com/products/blokdots",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-05-20T17:07:27+00:00",
+      "summary": "The article introduces blokdots 3.0, a new hardware‑based sketching platform that lets teams quickly prototype ideas on physical devices. It highlights how the tool streamlines the early design process, improves cross‑functional communication, and accelerates feedback loops for product development.",
+      "tags": [
+        "Product Design",
+        "Productivity",
+        "Stakeholders"
       ]
     },
     {
