@@ -1,7 +1,111 @@
 {
-  "updated": "2026-05-26T08:30:03.949662+00:00",
-  "total": 424,
+  "updated": "2026-05-27T08:41:28.562231+00:00",
+  "total": 432,
   "items": [
+    {
+      "title": "AI’s $250 Billion Question: What If The Moat Protects Nothing?",
+      "url": "https://medium.com/@jaisingh.darshana/ais-250-billion-question-what-if-the-moat-protects-nothing-c0e43b66c901?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-05-27T08:31:00+00:00",
+      "summary": "The article argues that Big Tech's massive $250 billion annual spend on AI is aimed at defending a product category that may not yet be real, questioning the sustainability of such investments. It challenges product leaders to rethink assumptions about AI moats and consider whether the current focus truly creates lasting value.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Competitive Analysis"
+      ]
+    },
+    {
+      "title": "The Only AI-Agent Metric That Matters: Cost per Retained Accepted Unit",
+      "url": "https://medium.com/@PopovOnline/the-only-ai-agent-metric-that-matters-cost-per-retained-accepted-unit-871b4187d63a?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-05-27T08:09:51+00:00",
+      "summary": "The article argues that traditional activity metrics like token count or task completions don't reflect true productivity for AI agents. Instead, it proposes using unit economics—specifically Cost per Retained Accepted Unit—as the key measure to evaluate and prioritize AI agent development and deployment.",
+      "tags": [
+        "AI Strategy",
+        "Metrics",
+        "Product Strategy"
+      ]
+    },
+    {
+      "title": "I’m Not a Reader. But Inspired Made Me Take Notes.",
+      "url": "https://medium.com/@ananya.terdal/im-not-a-reader-but-inspired-made-me-take-notes-d5f02c705b29?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-05-27T08:03:13+00:00",
+      "summary": "The author reflects on their uneasy relationship with reading and how the platform Inspired motivated them to start taking notes, highlighting the impact of digital tools on personal learning habits. For product managers, this underscores the importance of designing experiences that lower friction and encourage knowledge capture.",
+      "tags": [
+        "AI Tools",
+        "Product Culture",
+        "Product Design"
+      ]
+    },
+    {
+      "title": "Getting Allocation Out of the Spreadsheet",
+      "url": "https://pranav7khatal.medium.com/cutting-case-allocation-time-from-60-mins-to-seconds-ux-case-study-679594f5efa0?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-05-27T07:23:14+00:00",
+      "summary": "The article describes how Moneyboxx streamlined its loan case allocation process, reducing the time required from 60 minutes to just seconds by moving away from manual spreadsheet methods. It outlines the implementation steps, technology choices, and the resulting efficiency gains for the product team.",
+      "tags": [
+        "Product Strategy",
+        "Productivity",
+        "Data"
+      ]
+    },
+    {
+      "title": "Essential books for product builders—part 1",
+      "url": "https://www.lennysnewsletter.com/p/essential-books-for-product-builderspart",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-05-26T15:25:52+00:00",
+      "summary": "The article curates a list of 36 timeless books that aim to improve the skills of product builders, covering topics from leadership and personal growth to practical product methodology. It serves as a reading roadmap for product managers seeking to deepen their expertise and become more effective leaders and innovators.",
+      "tags": [
+        "Leadership",
+        "Product Culture",
+        "Product Strategy"
+      ]
+    },
+    {
+      "title": "Archi-Flow",
+      "url": "https://www.producthunt.com/products/archi-flow",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-05-26T14:14:01+00:00",
+      "summary": "Archi-Flow is a visualization tool that lets product teams map out cloud architectures and run live traffic simulations to see how changes affect performance in real time. This capability helps stakeholders quickly evaluate design decisions, identify bottlenecks, and align technical roadmaps with business goals.",
+      "tags": [
+        "Product Strategy",
+        "Platform Strategy",
+        "Productivity"
+      ]
+    },
+    {
+      "title": "Is Technology Good? - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "url": "https://www.producttalk.org/is-technology-good-all-things-product-podcast-with-teresa-torres-petra-wille/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-05-26T13:00:48+00:00",
+      "summary": "In this episode, Teresa Torres and Petra Wille reflect on the broader impact of technology—from the internet to AI—questioning whether these advances have ultimately helped or hurt society. They explore the ethical responsibilities of product teams and highlight the need for deeper reflection and responsible decision‑making in product development.",
+      "tags": [
+        "AI Strategy",
+        "Product Culture",
+        "Leadership"
+      ]
+    },
+    {
+      "title": "Nvidia Earnings, The AI Stack, Nvidia’s New Reporting",
+      "url": "https://stratechery.com/2026/nvidia-earnings-the-ai-stack-nvidias-new-reporting/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-05-26T10:00:00+00:00",
+      "summary": "Nvidia’s latest earnings report now separates revenue from hyperscalers—where it faces commoditization pressures—from other customers, where it controls the full AI stack. This shift highlights Nvidia’s strategic focus on maintaining end‑to‑end value and differentiating its offerings beyond the commodity hardware segment.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Competitive Analysis"
+      ]
+    },
     {
       "title": "Prompt engineering is the admission of ergonomic failure",
       "url": "https://guillaume-besson.medium.com/prompt-engineering-is-the-admission-of-ergonomic-failure-15a672a700a8?source=rss------product_management-5",
