@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-27T08:41:28.562231+00:00",
+  "updated": "2026-05-27T10:13:53.260027+00:00",
   "total": 432,
   "items": [
     {
@@ -138,8 +138,12 @@
       "source": "Medium Strategy",
       "type": "article",
       "date": "2026-05-26T04:50:26+00:00",
-      "summary": "The article explains why promising enterprise{}{}{}",
-      "tags": []
+      "summary": "The article examines why mid-funnel enterprise deals lose momentum even when the opportunity looked winnable, pointing to buying-committee misalignment, missing leadership buy-in, and unclear next steps. It argues product marketing has a direct role in fixing this through persona-specific messaging and equipping sales with the right late-stage assets.",
+      "tags": [
+        "Stakeholders",
+        "Communication",
+        "Growth"
+      ]
     },
     {
       "title": "Ferrari Luce",
@@ -537,8 +541,12 @@
       "source": "Stratechery",
       "type": "trend",
       "date": "2026-05-21T10:00:00+00:00",
-      "summary": "Summary not available.",
-      "tags": []
+      "summary": "Stratechery interview with Parallel founder (and former Twitter CEO) Parag Agrawal on how content economics break down when AI agents, not humans, consume the web, and how Parallel's marketplace approach aims to compensate creators based on the value their content delivers to agents. For PMs, it reframes ad-supported and subscription models for an agentic web.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Competitive Analysis"
+      ]
     },
     {
       "title": "EP 102 The Future-Proof PM: AI Skills & How to Develop Them",
@@ -1222,7 +1230,7 @@
       "source": "Stratechery",
       "type": "trend",
       "date": "2026-05-14T10:00:00+00:00",
-      "summary": "The interview explores how the current compute shortage reshapes Aggregation Theory, influencing the economics of platforms and the rollout of consumer AI services. It also examines strategic implications for product{{}{{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}",
+      "summary": "Ben Thompson, interviewed at the MoffettNathanson conference, argues that the current compute shortage is reshaping Aggregation Theory and the economics of consumer AI rollouts. For product strategists the takeaway is that platform power and AI service availability are increasingly constrained by infrastructure scarcity rather than software innovation.",
       "tags": [
         "AI Strategy",
         "Product Strategy",
@@ -2716,8 +2724,12 @@
       "source": "Product-Led Alliance",
       "type": "event",
       "date": "2026-05-01T13:05:15+00:00",
-      "summary": "Summary not available.",
-      "tags": []
+      "summary": "A roundup of 75+ stats from Product-Led Alliance's 2026 State of Product Management Report (run with ProductPlan, ~250 respondents in Q4 2025), covering strategy alignment, prioritization ownership, AI tool adoption, and roadmap discipline by org maturity. Useful as a benchmark snapshot for PMs comparing their team's practices against industry norms.",
+      "tags": [
+        "Metrics",
+        "Product Culture",
+        "Productivity"
+      ]
     },
     {
       "title": "The 1:00 AM Pivot: How TruMarked.in Was Built in 5 Days for $0",
