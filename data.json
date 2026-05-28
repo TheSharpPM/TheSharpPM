@@ -1,7 +1,131 @@
 {
-  "updated": "2026-05-27T10:13:53.260027+00:00",
-  "total": 432,
+  "updated": "2026-05-28T08:43:56.422406+00:00",
+  "total": 445,
   "items": [
+    {
+      "title": "The shoe sellers of Nazare, Portugal",
+      "url": "https://medium.com/@dhivyasriram/the-shoe-sellers-of-nazare-portugal-9d47a506510d?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-05-28T07:53:34+00:00",
+      "summary": "The article recounts a personal travel experience in March 2023, when the author and a friend visited Barcelona and Portugal during a career transition period. It reflects on the moments and observations made during the trip, including a birthday celebration and encounters with local shoe sellers in Nazaré, Portugal.",
+      "tags": [
+        "Product Culture"
+      ]
+    },
+    {
+      "title": "Transitioning Into Product Management Roles — Day 2",
+      "url": "https://medium.com/@infinityosmo/transitioning-into-product-management-roles-day-2-8ab9311926fb?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-05-28T07:52:28+00:00",
+      "summary": "The article reflects on the challenges of moving into product management, emphasizing that the biggest hurdle isn’t acquiring knowledge once, but maintaining consistent, ongoing learning. It advises aspiring PMs to adopt a habit of regular skill development to succeed in the role.",
+      "tags": [
+        "Career",
+        "Product Strategy",
+        "Growth"
+      ]
+    },
+    {
+      "title": "Market Feedback Is the Best Strategy Consultant",
+      "url": "https://medium.com/@komentalai/market-feedback-is-the-best-strategy-consultant-8c1af5ae8212?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-05-28T06:11:06+00:00",
+      "summary": "The article shares insights from building the AI startup SmartShelf AI, emphasizing that direct market feedback outperforms traditional strategic consulting. It highlights the importance of iterating based on real customer signals to shape product direction and business models.",
+      "tags": [
+        "AI Strategy",
+        "User Research",
+        "Product Strategy"
+      ]
+    },
+    {
+      "title": "The Hardest Part of AI Isn’t the Model - It’s the Handoff",
+      "url": "https://medium.com/@rian.whitlow/the-hardest-part-of-ai-isnt-the-model-it-s-the-handoff-8cd5e6062d99?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-05-27T21:20:22+00:00",
+      "summary": "The article argues that AI projects often stumble not due to weak models but because the surrounding workflows and handoff processes are poorly designed. It stresses the need for clear integration plans, cross‑functional collaboration, and robust operational procedures to ensure AI delivers real business value.",
+      "tags": [
+        "AI Strategy",
+        "Product Design",
+        "Stakeholders"
+      ]
+    },
+    {
+      "title": "🔮 Why AI isn’t showing up on your bottom line",
+      "url": "https://www.exponentialview.co/p/why-ai-isnt-showing-up-on-your-bottom-line",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-05-27T20:24:34+00:00",
+      "summary": "The article presents a framework for evaluating AI initiatives by linking them directly to measurable business outcomes, helping product managers prioritize projects that truly impact revenue and cost savings. It emphasizes the need to define clear value propositions, establish accountability, and continuously monitor performance to ensure AI efforts translate into bottom‑line results.",
+      "tags": [
+        "AI Strategy",
+        "Metrics",
+        "Product Strategy"
+      ]
+    },
+    {
+      "title": "The Leaky Bucket You Keep Filling",
+      "url": "https://www.productcoalition.com/p/the-leaky-bucket-you-keep-filling",
+      "source": "Product Coalition",
+      "type": "article",
+      "date": "2026-05-27T18:49:43+00:00",
+      "summary": "The article highlights a common mismatch where product teams heavily invest in acquiring new users while neglecting existing customers, leading to unnoticed churn. It urges managers to shift focus toward retaining current users to sustain growth and maximize ROI.",
+      "tags": [
+        "Retention",
+        "Growth",
+        "Product Strategy"
+      ]
+    },
+    {
+      "title": "Compartment",
+      "url": "https://www.producthunt.com/products/compartment",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-05-27T16:01:54+00:00",
+      "summary": "Compartment offers a secure platform for sharing applications built with AI agents, addressing concerns around data privacy and intellectual property when distributing AI-driven solutions. The article highlights its potential to streamline collaboration among product teams while maintaining compliance and control over AI assets.",
+      "tags": [
+        "AI Strategy",
+        "Product Design",
+        "Security"
+      ]
+    },
+    {
+      "title": "Growati",
+      "url": "https://www.producthunt.com/products/growati",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-05-27T13:18:56+00:00",
+      "summary": "Growati is an{autopilot} solution that streamlines YouTube post-production by automating editing, captioning, and thumbnail creation, allowing creators to focus on content while the platform handles routine tasks. The tool promises faster turnaround times, consistent branding, and reduced manual effort, positioning itself as a productivity boost for video creators and agencies alike.\n\n(Note: The original article is a discussion thread, so details are drawn from the community conversation about its features and potential impact.)\n\n(If needed, replace the placeholder with the exact autopilot description from the source.)",
+      "tags": []
+    },
+    {
+      "title": "The Codex feature that works while you sleep",
+      "url": "https://www.lennysnewsletter.com/p/the-codex-feature-that-works-while",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-05-27T12:03:47+00:00",
+      "summary": "The article explains Codex's new /goal feature, showcasing a live demo and three practical use cases. It also introduces a 6-part framework for crafting actionable goals that run automatically, even while users sleep, highlighting how it can streamline planning and execution for product teams.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Productivity"
+      ]
+    },
+    {
+      "title": "The SpaceX IPO and Data Centers in Space",
+      "url": "https://stratechery.com/2026/the-spacex-ipo-and-data-centers-in-space/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-05-27T10:00:00+00:00",
+      "summary": "The article argues that while a traditional financial model can't currently justify a SpaceX IPO, the concept of deploying data centers in space presents a plausible future revenue stream. This potential use case could reshape the valuation narrative and open new strategic opportunities for the company.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Growth"
+      ]
+    },
     {
       "title": "AI’s $250 Billion Question: What If The Moat Protects Nothing?",
       "url": "https://medium.com/@jaisingh.darshana/ais-250-billion-question-what-if-the-moat-protects-nothing-c0e43b66c901?source=rss------product_strategy-5",
@@ -55,6 +179,19 @@
       ]
     },
     {
+      "title": "Product Manager Retail Lending &amp; Enablement",
+      "url": "https://remoteOK.com/remote-jobs/remote-product-manager-retail-lending-amp-enablement-rbc-1132348",
+      "source": "Remote OK",
+      "type": "job",
+      "date": "2026-05-26T18:44:41+00:00",
+      "summary": "The role leads the end‑to‑end product lifecycle for non‑card retail lending offerings across Caribbean banks, shaping strategy, policies, and new product launches while coordinating sales training and external partnerships. It also drives test‑and‑learn initiatives and negotiates with dealers and agents to expand market reach.",
+      "tags": [
+        "Product Strategy",
+        "Growth",
+        "Stakeholders"
+      ]
+    },
+    {
       "title": "Essential books for product builders—part 1",
       "url": "https://www.lennysnewsletter.com/p/essential-books-for-product-builderspart",
       "source": "Lenny's Newsletter",
@@ -81,6 +218,19 @@
       ]
     },
     {
+      "title": "Product management  skills framework",
+      "url": "https://www.productledalliance.com/product-management-skills-framework/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-05-26T13:09:55+00:00",
+      "summary": "The article outlines a structured framework for defining and developing product management competencies across all organizational levels, helping PMs align their skills with business objectives. It serves as a guide for building consistent standards, career pathways, and performance metrics within product teams.",
+      "tags": [
+        "Product Strategy",
+        "Product Culture",
+        "Career"
+      ]
+    },
+    {
       "title": "Is Technology Good? - All Things Product Podcast with Teresa Torres & Petra Wille",
       "url": "https://www.producttalk.org/is-technology-good-all-things-product-podcast-with-teresa-torres-petra-wille/",
       "source": "Product Talk",
@@ -90,6 +240,19 @@
       "tags": [
         "AI Strategy",
         "Product Culture",
+        "Leadership"
+      ]
+    },
+    {
+      "title": "The rise of the Super IC:  Why AI-native organizations are betting on builders over managers",
+      "url": "https://www.productledalliance.com/the-rise-of-the-super-ic-builders-over-managers/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-05-26T12:00:47+00:00",
+      "summary": "The article argues that AI-native companies are shifting focus from traditional hierarchy to empowering high-performing individual contributors—'Super ICs'—who can rapidly prototype and ship AI-driven features. By emphasizing building over managing, these firms aim to accelerate innovation cycles and stay ahead in a competitive AI market.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
         "Leadership"
       ]
     },
