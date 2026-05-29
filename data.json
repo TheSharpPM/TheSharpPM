@@ -1,7 +1,137 @@
 {
-  "updated": "2026-05-28T08:43:56.422406+00:00",
-  "total": 445,
+  "updated": "2026-05-29T08:42:35.830714+00:00",
+  "total": 456,
   "items": [
+    {
+      "title": "Engineering Isn’t Often the Problem; You need to touch grass",
+      "url": "https://medium.com/@ayowale247/engineering-isnt-often-the-problem-you-need-to-touch-grass-09a96dc426b4?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-05-29T08:27:07+00:00",
+      "summary": "The article argues that engineering challenges are rarely the root cause of product setbacks; instead, teams often overlook broader contextual factors such as market fit, user behavior, and strategic alignment. It encourages product leaders to step back, engage with real users and the market ('touch grass'), and prioritize holistic problem‑solving over purely technical fixes.",
+      "tags": [
+        "Product Strategy",
+        "Leadership",
+        "User Research"
+      ]
+    },
+    {
+      "title": "Software Delivery Models: How to Choose the Right One Without Wasting Time, Budget, or Control",
+      "url": "https://medium.com/@kamil.machalica1/software-delivery-models-how-to-choose-the-right-one-without-wasting-time-budget-or-control-43f54fa5c7aa?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-05-29T07:56:18+00:00",
+      "summary": "The article outlines how selecting the appropriate software delivery model impacts a SaaS team's speed, cost efficiency, and governance. It provides a framework for evaluating options to avoid overruns and loss of control, helping product managers align delivery choices with business goals.",
+      "tags": [
+        "Product Strategy",
+        "Growth",
+        "Prioritization"
+      ]
+    },
+    {
+      "title": "People Don’t Buy Products. They Buy These 3 Things",
+      "url": "https://medium.com/write-a-catalyst/people-dont-buy-products-they-buy-these-3-things-1316f7bb53d8?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-05-29T04:09:54+00:00",
+      "summary": "The article explains that purchases are driven by three core motivations: eliminating a problem, saving effort, or evoking a desired feeling. Product managers should focus on framing their offerings around these value drivers to better resonate with customers and drive adoption.",
+      "tags": [
+        "Product Strategy",
+        "Growth",
+        "User Research"
+      ]
+    },
+    {
+      "title": "Discovery: When We Replaced Users With Dashboards",
+      "url": "https://www.productcoalition.com/p/discovery-when-we-replaced-users",
+      "source": "Product Coalition",
+      "type": "article",
+      "date": "2026-05-29T00:54:06+00:00",
+      "summary": "The article traces how product teams moved from direct user interviews—originally done with clipboard surveys—to relying on dashboards and AI‑driven analytics, highlighting the trade‑offs in empathy and insight. It warns that over‑automation can strip away nuanced user feedback, urging product managers to rebalance data visualizations with real user interaction.",
+      "tags": [
+        "AI Strategy",
+        "User Research",
+        "Product Design"
+      ]
+    },
+    {
+      "title": "Claude Opus 4.8 is here. Is it as good as they say?",
+      "url": "https://www.lennysnewsletter.com/p/claude-opus-48-is-here-is-it-as-good",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-05-28T21:35:07+00:00",
+      "summary": "The article provides a quick first‑look at Claude Opus 4.8, highlighting its most impressive capabilities—such as improved context handling and smoother language generation—while also pointing out areas where it underperforms, like occasional factual inaccuracies and limited customization. For product managers, the piece offers insight into how the new model could enhance AI‑driven features and where additional safeguards may be needed before integration.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "AI Tools"
+      ]
+    },
+    {
+      "title": "The Feature Graveyard Nobody Talks About",
+      "url": "https://www.productcoalition.com/p/user-stories-the-conversation-we",
+      "source": "Product Coalition",
+      "type": "article",
+      "date": "2026-05-28T16:00:52+00:00",
+      "summary": "The article examines how feature deprecation conversations, once a collaborative effort to retire low-value features, have degenerated into a bureaucratic compliance process. It highlights the negative impact on product efficiency and morale, and shares tactics practitioners are using to restore meaningful dialogue and strategic decision‑making around feature retirement.",
+      "tags": [
+        "Product Strategy",
+        "Leadership",
+        "Product Culture"
+      ]
+    },
+    {
+      "title": "The Chaos in Your Product Backlogs Is Costing You Revenue",
+      "url": "https://medium.com/@paulcrosby/the-chaos-in-your-product-backlogs-is-costing-you-revenue-28d5345956e2?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-05-28T14:01:01+00:00",
+      "summary": "The article explains how disorganized product backlogs create bottlenecks, obscure priorities, and lead to missed market opportunities, ultimately reducing revenue. It offers a framework for cleaning up backlogs, aligning stakeholders, and using data-driven prioritization to restore product velocity and financial performance.",
+      "tags": [
+        "Product Strategy",
+        "Prioritization",
+        "Metrics"
+      ]
+    },
+    {
+      "title": "Building Lorikeet: How AI Humility and a Dual-Agent Architecture Are Redefining Customer Support",
+      "url": "https://www.producttalk.org/building-lorikeet-how-ai-humility-and-a-dual-agent-architecture-are-redefining-customer-support/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-05-28T13:00:44+00:00",
+      "summary": "The episode explores the development of Lorikeet, an AI-powered customer support system that emphasizes humility by recognizing its limits and gracefully deferring when it cannot assist. Jamie Hall and Xharmagne Carandang discuss the dual-agent architecture that enables this behavior and the strategic product decisions behind building trustworthy, reliable AI interactions.",
+      "tags": [
+        "AI Strategy",
+        "AI Tools",
+        "Product Design"
+      ]
+    },
+    {
+      "title": "RabbitTravel",
+      "url": "https://www.producthunt.com/products/rabbittravel",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-05-28T10:34:41+00:00",
+      "summary": "RabbitTravel offers an AI‑driven platform that automates travel itinerary creation, integrating user preferences, budget constraints, and real‑time data to streamline planning. The solution targets both casual travelers and business users, promising faster decisions and higher satisfaction through personalized recommendations.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "User Research"
+      ]
+    },
+    {
+      "title": "An Interview with Eric Seufert About Models and Ads, and AI’s Upside for Humanity",
+      "url": "https://stratechery.com/2026/an-interview-with-eric-seufert-about-models-and-ads-and-ais-upside-for-humanity/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-05-28T10:00:00+00:00",
+      "summary": "In this interview, Eric Seufert explains how generative AI models are built and why Meta's foundational models are crucial for advancing the ecosystem. He also argues that insights from advertising can drive better user experiences and foster an optimistic outlook on AI's impact on humanity.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Growth"
+      ]
+    },
     {
       "title": "The shoe sellers of Nazare, Portugal",
       "url": "https://medium.com/@dhivyasriram/the-shoe-sellers-of-nazare-portugal-9d47a506510d?source=rss------product_management-5",
@@ -462,6 +592,19 @@
         "AI Strategy",
         "AI Tools",
         "Product Strategy"
+      ]
+    },
+    {
+      "title": "Sinalytica",
+      "url": "https://www.producthunt.com/products/sinalytica",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-05-23T20:37:22+00:00",
+      "summary": "The piece reflects on reviving the Lovable software on a Windows 98 environment, highlighting the challenges and insights of supporting legacy platforms. It offers product managers a perspective on the value of backward compatibility and the strategic trade‑offs involved in catering to niche, nostalgic user segments.",
+      "tags": [
+        "Product Strategy",
+        "Platform Strategy",
+        "Growth"
       ]
     },
     {
