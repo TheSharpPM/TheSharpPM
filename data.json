@@ -1,7 +1,111 @@
 {
-  "updated": "2026-05-29T08:42:35.830714+00:00",
-  "total": 456,
+  "updated": "2026-05-30T07:44:48.092188+00:00",
+  "total": 466,
   "items": [
+    {
+      "title": "Where the return on AI investment lives",
+      "url": "https://medium.com/@RaxRoshan/where-the-return-on-ai-investment-lives-f0e32ed01bc0?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-05-30T07:30:31+00:00",
+      "summary": "The article explains that AI investments deliver measurable returns primarily within specific value pools that are defined by the nature of the work rather than the technology itself. It emphasizes identifying those work patterns and aligning AI initiatives accordingly to maximize impact.",
+      "tags": [
+        "AI Strategy",
+        "Metrics",
+        "Product Strategy"
+      ]
+    },
+    {
+      "title": "Stop Adding AI to Everything: Why Most AI Features are Actually Bad UX",
+      "url": "https://medium.com/@ayanforu18/stop-adding-ai-to-everything-why-most-ai-features-are-actually-bad-ux-5aa685796c57?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-05-30T06:39:32+00:00",
+      "summary": "The article argues that indiscriminately adding AI features often harms user experience, urging product teams to evaluate AI's true value and relevance before integration. It emphasizes a disciplined, user-centered approach to AI, recommending that product managers prioritize meaningful, problem‑solving AI over hype‑driven features.",
+      "tags": [
+        "AI Strategy",
+        "Product Design",
+        "User Research"
+      ]
+    },
+    {
+      "title": "Sheeple - the inherent duality of an anti-brand",
+      "url": "https://medium.com/@jameseasley001/sheeple-the-duality-of-an-anti-brand-8207f635b18b?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-05-29T20:14:04+00:00",
+      "summary": "The article explores the paradox of creating an anti‑brand that deliberately rejects conventional marketing while inevitably participating in the same systems due to limited resources. It highlights the tension between staying true to a disruptive identity and the practical need to engage with the market, offering insights for product leaders on managing brand authenticity versus growth pressures.",
+      "tags": [
+        "Product Strategy",
+        "Leadership",
+        "Product Culture"
+      ]
+    },
+    {
+      "title": "“No screen, no UX”: a costly assumption in automation",
+      "url": "https://medium.com/swlh/no-screen-no-ux-a-costly-assumption-in-automation-f05c2448aee0?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-05-29T17:05:46+00:00",
+      "summary": "The article argues that removing traditional screens doesn't eliminate the need for a user experience; instead, the experience shifts to less visible, higher‑stakes components of automated systems, which still require thoughtful design. Ignoring this can lead to costly oversights in product development and automation implementation.",
+      "tags": [
+        "AI Strategy",
+        "Product Design",
+        "Leadership"
+      ]
+    },
+    {
+      "title": "Live with Azeem: AI & ROI",
+      "url": "https://www.exponentialview.co/p/live-with-azeem-ai-and-roi",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-05-29T17:00:57+00:00",
+      "summary": "The recorded session with Azeem Azhar explores how organizations can measure the return on investment of AI initiatives, emphasizing the importance of aligning AI projects with clear business outcomes and robust data pipelines. It offers practical guidance for product teams on prioritizing AI features that drive measurable value.",
+      "tags": [
+        "AI Strategy",
+        "Metrics",
+        "Product Strategy"
+      ]
+    },
+    {
+      "title": "2026.22: Luceing Their Mind",
+      "url": "https://stratechery.com/2026/luceing-their-mind/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-05-29T17:00:00+00:00",
+      "summary": "This week’s Stratechery roundup examines the backlash against Luce, explores monetization models for AI-generated answers, and discusses trends in social mobility in China that could affect market dynamics. The pieces offer product leaders insights into managing public perception, designing revenue streams for AI services, and anticipating macro‑economic shifts that impact growth opportunities.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Growth"
+      ]
+    },
+    {
+      "title": "In-Flow Accessibility:  Prevent Backlogs, Increase Velocity [OnDemand]",
+      "url": "https://www.productledalliance.com/in-flow-accessibility-prevent-backlogs-increase-velocity-ondemand/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-05-29T15:03:37+00:00",
+      "summary": "The session teaches development leaders how to integrate accessibility practices into their current workflows, enabling early detection of issues and preventing costly post‑launch fixes. By embedding accessibility from the start, teams can reduce backlog, maintain higher velocity, and improve overall product quality.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Product Culture"
+      ]
+    },
+    {
+      "title": "Product Labs 2026 | October",
+      "url": "https://www.productledalliance.com/product-labs-2026-october/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-05-29T08:50:58+00:00",
+      "summary": "The October 2026 issue of Product Labs highlights emerging trends in product development, focusing on integrating AI-driven insights into product strategy and enhancing cross-functional collaboration. It also offers practical frameworks for prioritizing initiatives and measuring impact to drive growth and user retention.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Metrics"
+      ]
+    },
     {
       "title": "Engineering Isn’t Often the Problem; You need to touch grass",
       "url": "https://medium.com/@ayowale247/engineering-isnt-often-the-problem-you-need-to-touch-grass-09a96dc426b4?source=rss------product_management-5",
@@ -77,6 +181,19 @@
       "tags": [
         "Product Strategy",
         "Leadership",
+        "Product Culture"
+      ]
+    },
+    {
+      "title": "Openstatus MCP Health Checker",
+      "url": "https://www.producthunt.com/products/openstatus-2",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-05-28T14:14:25+00:00",
+      "summary": "The Openstatus MCP Health Checker is a monitoring tool designed to track the health and performance of MCP servers, providing real-time status updates and alerts. It helps product teams quickly identify issues, reduce downtime, and maintain reliable service for users.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
         "Product Culture"
       ]
     },
@@ -1203,6 +1320,19 @@
         "Stakeholders",
         "Product Strategy",
         "Leadership"
+      ]
+    },
+    {
+      "title": "Exstats",
+      "url": "https://www.producthunt.com/products/exstats",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-05-18T08:45:37+00:00",
+      "summary": "Exstats is a platform that consolidates tracking of your own browser extensions alongside competitors' offerings in a single dashboard. It aims to streamline monitoring and analysis, helping product teams stay informed about market movements and feature gaps.",
+      "tags": [
+        "Product Strategy",
+        "Competitive Analysis",
+        "Productivity"
       ]
     },
     {
