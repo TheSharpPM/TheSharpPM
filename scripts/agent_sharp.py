@@ -157,6 +157,70 @@ LAZY_WHY_PHRASES = [
     "this resource provides",
 ]
 
+# Domains accepted as must_read sources. Built from FEEDS plus the two
+# major platforms where most PM/strategy writing lives (Medium and
+# Substack) and a small set of high-signal publications. Anything
+# outside this set is rejected at publish time, so the agent cannot
+# elevate a vendor blog or SEO content farm to must_read just because
+# web_search returned it.
+TRUSTED_SOURCE_DOMAINS = {
+    # In-feed sources
+    "lennysnewsletter.com",
+    "reforge.com",
+    "svpg.com",
+    "mindtheproduct.com",
+    "blackboxofpm.com",
+    "producttalk.org",
+    "ben-evans.com",
+    "stratechery.com",
+    "exponentialview.co",
+    "firstround.com",
+    # Platforms where most PM writing lives
+    "medium.com",
+    "substack.com",
+    # High-signal publications
+    "hbr.org",
+    "every.to",
+    "platformer.news",
+    "casey.news",
+    "theverge.com",
+    "wired.com",
+    "techcrunch.com",
+    "theinformation.com",
+}
+
+# Path patterns that mark a URL as vendor marketing rather than an
+# editorial article. Reject must_reads matching these even when the
+# domain happens to be in TRUSTED_SOURCE_DOMAINS.
+VENDOR_URL_PATH_PATTERNS = [
+    "/platform/",
+    "/product/",
+    "/pricing/",
+    "/demo/",
+    "/features/",
+    "/integrations/",
+    "/solutions/",
+    "/signup/",
+    "/sign-up/",
+]
+
+
+def _is_trusted_source(url):
+    """Return True if the URL's hostname is in TRUSTED_SOURCE_DOMAINS,
+    treating subdomains (e.g. user.substack.com, user.medium.com) as
+    matching their parent domain."""
+    try:
+        parsed = urlparse(url)
+    except Exception:
+        return False
+    host = (parsed.hostname or "").lower()
+    if host.startswith("www."):
+        host = host[4:]
+    for trusted in TRUSTED_SOURCE_DOMAINS:
+        if host == trusted or host.endswith("." + trusted):
+            return True
+    return False
+
 
 # ── FEEDS ─────────────────────────────────────────────────────────────────────
 
@@ -534,6 +598,82 @@ def tool_publish_edition(headline_theme, editorial, must_reads,
             )
         }
 
+    # Gate 5b: must_read sources must be from the trusted whitelist, and
+    # must not be vendor marketing pages even when the domain is trusted.
+    # Stops vendor product pages and SEO content farms from being
+    # elevated to must_reads.
+    for mr in mr_list:
+        if not isinstance(mr, dict):
+            continue
+        url = str(mr.get("url", "")).strip()
+        if not url:
+            continue
+        if not _is_trusted_source(url):
+            return {
+                "error": (
+                    f"Refusing to publish: must_read URL '{url[:120]}' is "
+                    f"from a domain outside the trusted source list. "
+                    f"must_reads must come only from: "
+                    f"{', '.join(sorted(TRUSTED_SOURCE_DOMAINS))}. "
+                    f"If web_search returned a piece from elsewhere, you may "
+                    f"still use it as context for the editorial, but pick "
+                    f"must_reads from trusted domains only. Swap this item "
+                    f"for one from a trusted source and call publish_edition "
+                    f"again."
+                )
+            }
+        try:
+            path = (urlparse(url).path or "").lower()
+        except Exception:
+            path = ""
+        for pattern in VENDOR_URL_PATH_PATTERNS:
+            if pattern in path:
+                return {
+                    "error": (
+                        f"Refusing to publish: must_read URL '{url[:120]}' "
+                        f"looks like a vendor marketing page (path contains "
+                        f"'{pattern}'). Pick an actual editorial article, "
+                        f"not a product, platform, or pricing page. Swap "
+                        f"this item and call publish_edition again."
+                    )
+                }
+
+    # Gate 5c: contrarian is required and must not duplicate a must_read.
+    # The contrarian's job is to challenge the editorial thesis, so it
+    # cannot be the same URL as one of the supporting must_reads.
+    if not contrarian or not isinstance(contrarian, dict):
+        return {
+            "error": (
+                "Refusing to publish: contrarian is missing. Every edition "
+                "needs one contrarian item: a piece that pushes back on or "
+                "complicates the editorial's main thesis. Pick a piece from "
+                "your research that disagrees with where you landed, and "
+                "include it with title, url, source, and a 2-3 sentence note."
+            )
+        }
+    contrarian_url = str(contrarian.get("url", "")).strip()
+    if not contrarian_url:
+        return {
+            "error": (
+                "Refusing to publish: contrarian.url is empty. Provide a "
+                "real article URL from your research."
+            )
+        }
+    mr_urls = {
+        str(mr.get("url", "")).strip()
+        for mr in mr_list if isinstance(mr, dict)
+    }
+    if contrarian_url in mr_urls:
+        return {
+            "error": (
+                f"Refusing to publish: contrarian.url '{contrarian_url[:120]}' "
+                f"is the same as one of your must_reads. The contrarian must "
+                f"be a DIFFERENT piece that challenges your editorial thesis. "
+                f"Pick another article from your research and call "
+                f"publish_edition again."
+            )
+        }
+
     # Gate 6: each "why" must be opinionated, not descriptive.
     for mr in mr_list:
         if not isinstance(mr, dict):
@@ -755,7 +895,7 @@ TOOL_DECLARATIONS = [
                 },
                 "contrarian": {
                     "type": "object",
-                    "description": "Optional pick that pushes back on the week's narrative.",
+                    "description": "REQUIRED pick that challenges the editorial thesis. Must be a different URL from every must_read.",
                     "properties": {
                         "title": {"type": "string"},
                         "url": {"type": "string"},
@@ -797,6 +937,10 @@ SYSTEM_PROMPT = """You are the editor of Agent Sharp, a weekly editorial dispatc
 
 HARD RULES (publish_edition will reject and you must retry):
 - Every URL/title/source comes verbatim from a fetch_feeds, web_search, or fetch_article result in this conversation. No invented sources, no placeholders.
+- must_reads ONLY from these trusted domains: lennysnewsletter.com, reforge.com, svpg.com, mindtheproduct.com, blackboxofpm.com, producttalk.org, ben-evans.com, stratechery.com, exponentialview.co, firstround.com, medium.com, substack.com, hbr.org, every.to, platformer.news, casey.news, theverge.com, wired.com, techcrunch.com, theinformation.com. Subdomains count (e.g. user.substack.com).
+- Vendor product/marketing pages are NEVER must_reads, even on trusted domains. Reject URLs whose path contains /platform/, /product/, /pricing/, /demo/, /features/, /integrations/, /solutions/, /signup/.
+- If web_search returns a piece from an untrusted domain, you may use it as context for the editorial, but DO NOT cite it as a must_read.
+- contrarian is REQUIRED, not optional. Pick a piece that challenges your editorial thesis. Its URL must be DIFFERENT from every must_read.
 - Call publish_edition only after >=6 research tool calls (fetch_feeds + web_search + fetch_article combined).
 - Editorial: 250-500 words, exactly 3 paragraphs. NEVER meta-narrative ("we'll explore", "in this edition", "our must-reads include"). The editorial IS the take, not a TOC.
 - must_reads "why": OPINION. Never "this article provides", "comprehensive overview", "highlights". React, don't describe.
@@ -807,7 +951,7 @@ ROUTINE:
 2. fetch_feeds broadly, then with topic filters as a theme emerges.
 3. fetch_article on items that look important; web_search for context.
 4. Pick ONE opinionated theme grounded in articles you actually read.
-5. Pick 3-5 must_reads, optional contrarian, write 3-5 key_takeaways, 1-3 pm_homework.
+5. Pick 3-5 must_reads (trusted domains only), one contrarian (different URL), write 3-5 key_takeaways, 1-3 pm_homework.
 6. Write editorial: P1 hook (name a specific article + author/company, sharp observation), P2 synthesis (connect 3+ pieces, take position), P3 implication for Staff/Senior PMs.
 7. Call publish_edition. Run ends.
 
