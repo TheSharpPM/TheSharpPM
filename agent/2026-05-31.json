@@ -1,40 +1,45 @@
 {
   "edition": "2026-05-31",
-  "headline_theme": "AI Humility Is the New Product Discipline",
-  "editorial": "Lenny Rachitsky’s latest Community Wisdom roundup flags a growing blind spot: interviewers are already being duped by AI‑generated answers, and product orgs are scrambling to spot the fakes. At the same time, ProductTalk’s deep‑dive into Lorikeet shows a team that decided the cure isn’t “more AI” but “less presumptuous AI.” The dual‑agent architecture – a primary assistant that answers, and a humility layer that says “I’m not sure” and hands off to a human – is the only model that survived real‑world support tickets without blowing up the escalation queue.\n\nBoth pieces converge on a single insight: the era of AI as an unstoppable sidekick is over. When the assistant can’t reliably self‑audit, the product collapses into a liability. The Crosschq AI Interview Agent is a commercial illustration of the same problem – it promises seamless candidate screening while silently feeding hiring managers fabricated confidence. The market is rushing to embed AI everywhere, but the only sustainable path is to build humility into the core. That means explicit uncertainty signals, transparent hand‑offs, and a governance loop that treats AI as a teammate you can’t trust blindly.\n\nFor senior and staff PMs, the mandate is clear: stop treating AI as a feature and start treating it as a risk. Audit every AI touchpoint for uncertainty handling, set measurable thresholds for hand‑off rates, and institutionalize a “human‑in‑the‑loop” KPI. Build product roadmaps that allocate sprint capacity to humility‑engineering, not just feature velocity. In a world where AI can fake a résumé, the only competitive moat is honest, auditable assistance.",
+  "headline_theme": "AI Hype Is a Distraction, Not a Differentiator",
+  "editorial": "Benedict Evans’ latest Lenny’s Newsletter episode, \"A rational conversation on where AI is actually going,\" cuts through the noise by insisting that AI is a \"1997 moment\"—big, but bounded. He warns product leaders that the real question isn’t \"What percent of my feature can be automated?\" but \"Is this a task or a job?\" The same point is echoed in Mind the Product’s \"The 2026 AI product strategy guide: How to plan, budget, and build without buying into the hype,\" which shows dozens of teams squandering budget on shiny models that never move the needle. Both pieces agree: the AI bandwagon is full of glitter, but the substance that actually moves users and revenue sits elsewhere.\n\nWhen you stitch these observations together with Ben Thompson’s classic Stratechery essay on product management, a clear pattern emerges. The fundamentals—jobs‑to‑be‑done, risk mitigation, and relentless validation—haven’t changed a hair. AI merely adds a new set of tools to the existing toolbox, not a new playbook. The temptation to re‑brand every roadmap as \"AI‑first\" is a shortcut that erodes rigor. If you treat AI as a differentiator without a clear ROI, you end up with feature bloat, longer cycles, and a false sense of progress. The smarter move is to lock AI behind a strict hypothesis test: does it shave half a second off a core flow, cut a manual step, or unlock a new market segment? If the answer is no, keep the AI out of the release.\n\nFor senior and staff PMs, the implication is stark: stop chasing AI for its own sake and start demanding evidence. Audit every AI‑related initiative against a profit‑or‑customer‑impact metric before green‑lighting. Re‑allocate the saved budget to deeper customer research, experimentation, or improving core experiences. In a landscape where the hype bubble may burst—as Ben Thompson warns in his contrarian \"Agents Over Bubbles\" piece—your team’s resilience will come from disciplined product thinking, not from riding the next AI fad.",
   "key_takeaways": [
-    "AI humility isn’t a nice‑to‑have; it’s the only way to keep escalation costs under control.",
-    "Detecting AI‑generated content in hiring is now a product problem, not just an HR one.",
-    "Dual‑agent architectures turn uncertainty into a feature, not a bug.",
-    "Every AI‑enabled workflow needs a measurable hand‑off KPI."
+    "AI is a tool, not a product strategy; treat it like any other technology investment.",
+    "Core PM fundamentals still dominate; the hype doesn’t rewrite the rules.",
+    "Every AI initiative needs a concrete ROI hypothesis before it reaches the roadmap.",
+    "Budgeting for AI without measurable outcomes is a recipe for waste."
   ],
   "must_reads": [
     {
-      "source": "ProductTalk",
-      "title": "Building Lorikeet: How AI Humility and a Dual-Agent Architecture Are Redefining Customer Support",
-      "url": "https://www.producttalk.org/building-lorikeet-how-ai-humility-and-a-dual-agent-architecture-are-redefining-customer-support/",
-      "why": "Lorikeet proves that a modest humility layer can slash escalation volume by 40% and keep customers from being handed a bot that pretends to know everything."
+      "source": "Lenny's Newsletter",
+      "title": "A rational conversation on where AI is actually going",
+      "url": "https://www.lennysnewsletter.com/p/a-rational-conversation-on-where",
+      "why": "Evans demystifies AI by declaring it a \"1997 moment\"—big but limited—and forces PMs to ask whether a task is truly a job before betting on automation."
     },
     {
-      "source": "Lenny’s Newsletter",
-      "title": "Community Wisdom: Catching people using AI during an interview, org design when everything lives in one person’s head, when to rename your product, from nurse to health‑tech PM, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-catching-people",
-      "why": "Rachitsky’s roundup surfaces the first real‑world evidence that interview fraud is already happening, forcing PMs to bake detection into recruiting tools before brand damage spreads."
+      "source": "Mind the Product",
+      "title": "The 2026 AI product strategy guide: How to plan, budget, and build without buying into the hype",
+      "url": "https://www.mindtheproduct.com/the-2026-ai-product-strategy-huide-how-to-plan-budget-and-build-without-buying-into-the-hype",
+      "why": "The guide pulls no punches, showing how unchecked AI enthusiasm drains budgets while delivering negligible user value."
     },
     {
-      "source": "Crosschq",
-      "title": "AI Interview Agent",
-      "url": "https://www.crosschq.com/platform/ai-interview-agent",
-      "why": "Crosschq’s product launch shows how quickly vendors are monetizing AI in hiring, but it also highlights the ethical vacuum when confidence scores are presented without uncertainty flags."
+      "source": "Stratechery",
+      "title": "Product Management – Stratechery",
+      "url": "https://stratechery.com/concept/product-management",
+      "why": "Thompson reminds us that jobs‑to‑be‑done, risk management, and validation remain the backbone of PM, regardless of AI’s flashiness."
     }
   ],
-  "contrarian": null,
+  "contrarian": {
+    "note": "Thompson argues the AI spending surge is a bubble poised to burst, challenging the view that AI can be safely integrated with modest budgets.",
+    "source": "Stratechery",
+    "title": "Agents Over Bubbles",
+    "url": "https://stratechery.com/2026/agents-over-bubbles"
+  },
   "also_worth": [],
   "pm_homework": [
-    "Audit every AI‑driven feature for an explicit ‘I don’t know’ response and set a target hand‑off rate.",
-    "Add a weekly metric: % of AI‑generated outputs flagged for human review.",
-    "Run a quick experiment: replace one high‑volume bot answer with a humility‑first version and measure impact on user satisfaction."
+    "Audit every AI‑related roadmap item against a concrete ROI hypothesis; kill the ones that don’t pass.",
+    "Reallocate freed budget to deep user research or improving core flows that have proven impact.",
+    "Create a one‑page AI‑risk register for your team, tracking data, compliance, and performance uncertainties."
   ],
-  "generated_at": "2026-05-31T10:31:31.114954+00:00",
+  "generated_at": "2026-05-31T16:50:48.813993+00:00",
   "model_used": "openai/gpt-oss-120b"
 }
