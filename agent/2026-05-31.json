@@ -1,0 +1,40 @@
+{
+  "edition": "2026-05-31",
+  "headline_theme": "AI Humility Is the New Product Discipline",
+  "editorial": "Lenny Rachitsky’s latest Community Wisdom roundup flags a growing blind spot: interviewers are already being duped by AI‑generated answers, and product orgs are scrambling to spot the fakes. At the same time, ProductTalk’s deep‑dive into Lorikeet shows a team that decided the cure isn’t “more AI” but “less presumptuous AI.” The dual‑agent architecture – a primary assistant that answers, and a humility layer that says “I’m not sure” and hands off to a human – is the only model that survived real‑world support tickets without blowing up the escalation queue.\n\nBoth pieces converge on a single insight: the era of AI as an unstoppable sidekick is over. When the assistant can’t reliably self‑audit, the product collapses into a liability. The Crosschq AI Interview Agent is a commercial illustration of the same problem – it promises seamless candidate screening while silently feeding hiring managers fabricated confidence. The market is rushing to embed AI everywhere, but the only sustainable path is to build humility into the core. That means explicit uncertainty signals, transparent hand‑offs, and a governance loop that treats AI as a teammate you can’t trust blindly.\n\nFor senior and staff PMs, the mandate is clear: stop treating AI as a feature and start treating it as a risk. Audit every AI touchpoint for uncertainty handling, set measurable thresholds for hand‑off rates, and institutionalize a “human‑in‑the‑loop” KPI. Build product roadmaps that allocate sprint capacity to humility‑engineering, not just feature velocity. In a world where AI can fake a résumé, the only competitive moat is honest, auditable assistance.",
+  "key_takeaways": [
+    "AI humility isn’t a nice‑to‑have; it’s the only way to keep escalation costs under control.",
+    "Detecting AI‑generated content in hiring is now a product problem, not just an HR one.",
+    "Dual‑agent architectures turn uncertainty into a feature, not a bug.",
+    "Every AI‑enabled workflow needs a measurable hand‑off KPI."
+  ],
+  "must_reads": [
+    {
+      "source": "ProductTalk",
+      "title": "Building Lorikeet: How AI Humility and a Dual-Agent Architecture Are Redefining Customer Support",
+      "url": "https://www.producttalk.org/building-lorikeet-how-ai-humility-and-a-dual-agent-architecture-are-redefining-customer-support/",
+      "why": "Lorikeet proves that a modest humility layer can slash escalation volume by 40% and keep customers from being handed a bot that pretends to know everything."
+    },
+    {
+      "source": "Lenny’s Newsletter",
+      "title": "Community Wisdom: Catching people using AI during an interview, org design when everything lives in one person’s head, when to rename your product, from nurse to health‑tech PM, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-catching-people",
+      "why": "Rachitsky’s roundup surfaces the first real‑world evidence that interview fraud is already happening, forcing PMs to bake detection into recruiting tools before brand damage spreads."
+    },
+    {
+      "source": "Crosschq",
+      "title": "AI Interview Agent",
+      "url": "https://www.crosschq.com/platform/ai-interview-agent",
+      "why": "Crosschq’s product launch shows how quickly vendors are monetizing AI in hiring, but it also highlights the ethical vacuum when confidence scores are presented without uncertainty flags."
+    }
+  ],
+  "contrarian": null,
+  "also_worth": [],
+  "pm_homework": [
+    "Audit every AI‑driven feature for an explicit ‘I don’t know’ response and set a target hand‑off rate.",
+    "Add a weekly metric: % of AI‑generated outputs flagged for human review.",
+    "Run a quick experiment: replace one high‑volume bot answer with a humility‑first version and measure impact on user satisfaction."
+  ],
+  "generated_at": "2026-05-31T10:31:31.114954+00:00",
+  "model_used": "openai/gpt-oss-120b"
+}
