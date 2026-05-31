@@ -83,6 +83,14 @@ PM_HOMEWORK_MAX = 3
 # iteration 3-5 with a single article.
 MIN_RESEARCH_CALLS = 6
 
+# Upper bound after which the agent loop starts actively pushing the
+# model to publish. Without this, gpt-oss-120b will gladly burn the
+# full MAX_ITERATIONS budget on research, especially when the dedup
+# cache refuses re-fetches, and never call publish_edition. At this
+# threshold we inject a user message demanding publish_edition; on the
+# next iteration we also pin tool_choice to publish_edition.
+FORCE_PUBLISH_AT_RESEARCH_CALLS = 8
+
 # Per-field hard caps on what publish_edition will accept. Defence
 # against an LLM prompt-injected into emitting absurdly large strings
 # that bloat the JSON file and inflate every later read_memory call.
@@ -999,12 +1007,28 @@ def run_agent():
     # ping-pong of "you must call a tool" -> "I am a language model".
     NO_TOOL_CALL_MAX_NUDGES = 1
     no_tool_call_nudges = 0
+    # Set to True after we inject the "stop researching, publish now"
+    # nudge. Used to force tool_choice to publish_edition on the next
+    # iteration so the model cannot keep stalling on more research.
+    force_publish_next = False
+    force_publish_nudged = False
     for iteration in range(1, MAX_ITERATIONS + 1):
         print(f"[iter {iteration}]")
         # On the first turn, force the agent to actually call a tool.
         # Without this, the model sometimes skips straight to a
         # fabricated publish_edition with example.com URLs.
-        tool_choice = "required" if iteration == 1 else "auto"
+        if iteration == 1:
+            tool_choice = "required"
+        elif force_publish_next:
+            # Pin the next tool call to publish_edition. Resets after
+            # the call so a single rejected publish still has retries.
+            tool_choice = {
+                "type": "function",
+                "function": {"name": "publish_edition"},
+            }
+            force_publish_next = False
+        else:
+            tool_choice = "auto"
         # Use perturbed temperature on retries; baseline 0.7 otherwise.
         if schema_retries > 0 and schema_retries <= len(RETRY_TEMPERATURES):
             current_temp = RETRY_TEMPERATURES[schema_retries - 1]
@@ -1150,6 +1174,35 @@ def run_agent():
         if published:
             print("\nDone.")
             return 0
+
+        # If the agent has done enough research but is still spinning,
+        # inject a user message demanding publish_edition next and pin
+        # tool_choice so the next request must produce that call. Fires
+        # once per run.
+        research_calls = (
+            TOOL_CALL_COUNTS.get("fetch_feeds", 0)
+            + TOOL_CALL_COUNTS.get("web_search", 0)
+            + TOOL_CALL_COUNTS.get("fetch_article", 0)
+        )
+        if (not force_publish_nudged
+                and research_calls >= FORCE_PUBLISH_AT_RESEARCH_CALLS):
+            force_publish_nudged = True
+            force_publish_next = True
+            print(
+                f"  Research budget reached ({research_calls} calls). "
+                f"Forcing publish_edition on next iteration."
+            )
+            messages.append({
+                "role": "user",
+                "content": (
+                    f"You have made {research_calls} research tool calls "
+                    f"(min required: {MIN_RESEARCH_CALLS}). Stop researching. "
+                    f"Do NOT call fetch_feeds, web_search, fetch_article, "
+                    f"or read_memory again. Your next and only tool call "
+                    f"must be publish_edition, populated from what you "
+                    f"have already fetched."
+                ),
+            })
 
     print(f"\nERROR: agent hit max iterations ({MAX_ITERATIONS}) without publishing.")
     return 1
