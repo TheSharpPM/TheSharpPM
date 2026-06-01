@@ -115,6 +115,14 @@ TOOL_CALL_COUNTS = {}
 # after the sliding-window trim forgets the earlier result.
 FETCHED_URLS = {}
 
+# Per-run log of every tool result that came back, kept verbatim and
+# uncapped. Used by the publish gate to check that every percentage or
+# multiplier the editorial cites can be found in at least one tool
+# result - blocks the model from inventing stats like "40% reduction"
+# or "300% headcount" that never appear in the sources. Lives separate
+# from the message history so the sliding-window trim does not erase it.
+TOOL_RESULTS_LOG = []
+
 # Substrings that signal fabricated / placeholder content. The publish gate
 # refuses to publish anything containing these.
 PLACEHOLDER_INDICATORS = [
@@ -147,14 +155,35 @@ META_NARRATIVE_PHRASES = [
 ]
 
 # Phrases that signal a "why" field is descriptive instead of opinionated.
+# Aggressive list: the cost of a false positive is one retry (bounded by
+# MAX_PUBLISH_REJECTS), the cost of a false negative is a "why" that
+# reads like a Goodreads summary.
 LAZY_WHY_PHRASES = [
     "comprehensive overview",
     "provides an overview",
     "this article highlights",
     "this article provides",
     "this article discusses",
+    "this article shows",
+    "this article explains",
+    "this article offers",
+    "this piece highlights",
+    "this piece provides",
+    "this piece shows",
     "this guide provides",
     "this resource provides",
+    "shows how",
+    "demonstrates",
+    "showcases",
+    "highlights how",
+    "a great example",
+    "valuable insight",
+    "valuable insights",
+    "i appreciate",
+    "i think",
+    "i find",
+    "real-world playbook",
+    "real world playbook",
 ]
 
 # Domains accepted as must_read sources. Built from FEEDS plus the two
@@ -220,6 +249,39 @@ def _is_trusted_source(url):
         if host == trusted or host.endswith("." + trusted):
             return True
     return False
+
+
+# Regex for percentages and Nx multipliers the editorial might claim.
+# 4-digit years (1900-2099) are explicitly exempted: "in 2026" is a
+# date reference, not a stat that needs grounding.
+_NUMERIC_CLAIM_RE = re.compile(
+    r"\b(\d{1,3}(?:[.,]\d+)?%|\d+(?:\.\d+)?x|\d+(?:\.\d+)?×)",
+    re.IGNORECASE,
+)
+
+
+def _ungrounded_numeric_claims(editorial):
+    """Return a list of numeric claims (percentages, Nx multipliers)
+    that appear in the editorial but not verbatim in any tool result
+    captured during this run. Empty list means everything is grounded.
+    """
+    if not isinstance(editorial, str) or not editorial:
+        return []
+    claims = _NUMERIC_CLAIM_RE.findall(editorial)
+    if not claims:
+        return []
+    haystack = "\n".join(TOOL_RESULTS_LOG)
+    ungrounded = []
+    seen = set()
+    for claim in claims:
+        norm = claim.strip().lower()
+        if norm in seen:
+            continue
+        seen.add(norm)
+        # Match case-insensitively; the haystack is mixed-case JSON.
+        if norm not in haystack.lower():
+            ungrounded.append(claim)
+    return ungrounded
 
 
 # ── FEEDS ─────────────────────────────────────────────────────────────────────
@@ -568,6 +630,25 @@ def tool_publish_edition(headline_theme, editorial, must_reads,
                 f"three paragraphs (hook anchored in a specific article, "
                 f"synthesis across 3+ pieces, implication for PMs). Rewrite "
                 f"and call publish_edition again."
+            )
+        }
+
+    # Gate 3b: numeric claims in editorial must be grounded in tool
+    # results. Catches the LLM fabricating stats like "40% reduction"
+    # or "300% headcount increase" that never appear in any source.
+    # 4-digit years are exempt via the regex.
+    ungrounded = _ungrounded_numeric_claims(editorial)
+    if ungrounded:
+        return {
+            "error": (
+                f"Refusing to publish: editorial contains numeric claim(s) "
+                f"{ungrounded} that do not appear in any tool result from "
+                f"this run. Every percentage and multiplier in the editorial "
+                f"must come verbatim from an article you actually fetched or "
+                f"a search result you saw. Either (a) remove the unsupported "
+                f"number, (b) rewrite the sentence without the stat, or "
+                f"(c) fetch_article the source that has it. Do not invent "
+                f"statistics. Call publish_edition again."
             )
         }
 
@@ -943,7 +1024,8 @@ HARD RULES (publish_edition will reject and you must retry):
 - contrarian is REQUIRED, not optional. Pick a piece that challenges your editorial thesis. Its URL must be DIFFERENT from every must_read.
 - Call publish_edition only after >=6 research tool calls (fetch_feeds + web_search + fetch_article combined).
 - Editorial: 250-500 words, exactly 3 paragraphs. NEVER meta-narrative ("we'll explore", "in this edition", "our must-reads include"). The editorial IS the take, not a TOC.
-- must_reads "why": OPINION. Never "this article provides", "comprehensive overview", "highlights". React, don't describe.
+- Every percentage or Nx multiplier in the editorial MUST appear verbatim in a tool result you received this run. Do NOT invent stats like "40% reduction" or "300% headcount" - the gate will reject and you will have to rewrite. If you do not have a real number, write the sentence without one.
+- must_reads "why": OPINION, not description. NEVER use: "this article provides/shows/highlights/discusses", "shows how", "demonstrates", "showcases", "a great example", "valuable insight", "I appreciate/think/find", "real-world playbook". React to what the piece argues - agree, disagree, or call out what a Staff PM should DO about it.
 - must_reads: 3-5 items. key_takeaways: 3-5. pm_homework: 1-3.
 
 ROUTINE:
@@ -1012,6 +1094,16 @@ def execute_tool(name, args):
                 FETCHED_URLS[url] = f"errored: {str(result.get('error'))[:120]}"
             else:
                 FETCHED_URLS[url] = "fetched successfully"
+    # Log every tool result verbatim into TOOL_RESULTS_LOG so the
+    # publish-time numeric grounding gate can check that any
+    # percentage/multiplier in the editorial actually appears in the
+    # research the agent did. Skip publish_edition's own result -
+    # circular and pointless.
+    if name != "publish_edition":
+        try:
+            TOOL_RESULTS_LOG.append(json.dumps(result, ensure_ascii=False))
+        except Exception:
+            pass
     return result
 
 
@@ -1156,6 +1248,14 @@ def run_agent():
     # iteration so the model cannot keep stalling on more research.
     force_publish_next = False
     force_publish_nudged = False
+    # Bound on how many times publish_edition can be rejected by gates
+    # before we give up. Each quality gate (whitelist, contrarian,
+    # numeric grounding, lazy why, etc.) returns a "Refusing to publish"
+    # error and asks for a retry. If calibration is wrong they could
+    # loop forever. Capping at 4 lets the model fix 3 distinct issues
+    # in sequence before we abort the run.
+    MAX_PUBLISH_REJECTS = 4
+    publish_rejects = 0
     for iteration in range(1, MAX_ITERATIONS + 1):
         print(f"[iter {iteration}]")
         # On the first turn, force the agent to actually call a tool.
@@ -1314,6 +1414,25 @@ def run_agent():
                     and result.get("status") == "published"):
                 published = True
                 print(f"  [published] {result.get('file')}")
+            # Count publish_edition rejections from quality gates so we
+            # can bail out instead of looping forever if calibration is
+            # off. The gates all use "Refusing to publish" prefix.
+            if (tc.function.name == "publish_edition"
+                    and isinstance(result, dict)
+                    and str(result.get("error", "")).startswith("Refusing to publish")):
+                publish_rejects += 1
+                print(
+                    f"  Publish rejected by quality gate "
+                    f"({publish_rejects}/{MAX_PUBLISH_REJECTS})."
+                )
+                if publish_rejects >= MAX_PUBLISH_REJECTS:
+                    print(
+                        f"\nERROR: publish_edition rejected "
+                        f"{publish_rejects} times. Aborting to avoid an "
+                        f"infinite retry loop. Last error: "
+                        f"{str(result.get('error',''))[:300]}"
+                    )
+                    return 1
 
         if published:
             print("\nDone.")
