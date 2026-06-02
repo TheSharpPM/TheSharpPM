@@ -1,7 +1,33 @@
 {
-  "updated": "2026-06-01T10:17:37.144581+00:00",
-  "total": 474,
+  "updated": "2026-06-02T09:08:56.623384+00:00",
+  "total": 476,
   "items": [
+    {
+      "title": "🎙️ How I AI: Codex Goals explained & Claude Opus 4.8 review & Building an iPhone app with zero technical skills",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-codex-goals-explained-and",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-06-01T15:01:46+00:00",
+      "summary": "The episode breaks down the objectives behind the new Codex AI models and provides an in‑depth review of Claude Opus 4.8, highlighting its capabilities and limitations. It also walks listeners through creating an iPhone app without any coding experience, showcasing practical no‑code tools and workflows.",
+      "tags": [
+        "AI Strategy",
+        "AI Tools",
+        "Product Strategy"
+      ]
+    },
+    {
+      "title": "Building an iPhone app with zero technical skills | Bryce Rattner Keithley",
+      "url": "https://www.lennysnewsletter.com/p/building-an-iphone-app-with-zero",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-06-01T12:04:51+00:00",
+      "summary": "The article details how talent leader Bryce Rattner Keithley, with no technical background, leveraged AI tools to create and launch a fitness iPhone app, including AI-generated animal exercise videos. It showcases a step‑by‑step, low‑code approach that product managers can use to prototype and ship apps quickly without deep engineering resources.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Product Design"
+      ]
+    },
     {
       "title": "A rational conversation on where AI is actually going | Benedict Evans",
       "url": "https://www.lennysnewsletter.com/p/a-rational-conversation-on-where",
