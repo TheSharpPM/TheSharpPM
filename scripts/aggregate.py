@@ -166,6 +166,21 @@ def analyse(title, content):
  
 # ── FETCH FEEDS ───────────────────────────────────────────────────────────────
  
+def _fallback_summary(content):
+    """Used when every LLM in the fallback chain is rate-limited or
+    errored. Builds a passable summary from the RSS entry's own text
+    so the item still ends up in data.json instead of being dropped
+    on the floor. The whole point: a bad provider day should not mean
+    a silent zero-content commit."""
+    snippet = (content or "").strip()
+    if not snippet:
+        return "Summary unavailable - LLM provider rate-limited."
+    snippet = snippet[:280].rstrip()
+    if len(snippet) == 280:
+        snippet += "..."
+    return snippet + " (auto-generated fallback - LLM provider rate-limited)"
+
+
 def fetch_feed(feed_config, existing_urls):
     items = []
     try:
@@ -202,14 +217,19 @@ def fetch_feed(feed_config, existing_urls):
 
             print("  -> " + title[:60] + "...")
             result = analyse(title, content)
- 
-            # If API returns None, every candidate model is exhausted — stop this feed
+
+            # If every LLM in the fallback chain is rate-limited, do
+            # NOT drop the item. Add it with a fallback summary derived
+            # from the RSS-provided text so the site keeps moving on
+            # bad provider days. The summary is clearly marked so we
+            # can re-run analysis later if we want.
             if result[0] is None:
-                print("  Stopping feed: all models exhausted.")
-                break
- 
-            summary, tags = result
- 
+                print("  LLM exhausted - using RSS fallback summary.")
+                summary = _fallback_summary(content)
+                tags = []
+            else:
+                summary, tags = result
+
             items.append({
                 "title": title,
                 "url": url,
@@ -219,10 +239,10 @@ def fetch_feed(feed_config, existing_urls):
                 "summary": summary,
                 "tags": tags,
             })
- 
+
     except Exception as e:
         print("  Error reading " + feed_config["source"] + ": " + str(e))
- 
+
     return items
  
 # ── MAIN ──────────────────────────────────────────────────────────────────────
@@ -247,14 +267,13 @@ def main():
     # Existing URLs to avoid duplicates
     existing_urls = {item["url"] for item in existing_items}
  
-    # Fetch new articles
+    # Fetch new articles. Even if every LLM model in the fallback
+    # chain is exhausted, we keep iterating feeds: items get added
+    # with a fallback RSS-derived summary rather than being dropped.
+    # This stops the silent zero-content commit pattern we saw when
+    # OpenRouter's free tier was globally rate-limited.
     new_items = []
-    all_candidates = {MODEL, *FALLBACK_MODELS}
     for feed in FEEDS:
-        # Stop early if every candidate model has been exhausted
-        if all_candidates and _exhausted_models >= all_candidates:
-            print("All models exhausted — skipping remaining feeds.\n")
-            break
         print("Feed: " + feed["source"])
         items = fetch_feed(feed, existing_urls)
         new_items.extend(items)
