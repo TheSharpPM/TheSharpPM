@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-03T18:07:33.511723+00:00",
+  "updated": "2026-06-03T18:31:07.777986+00:00",
   "total": 494,
   "items": [
     {
@@ -9,7 +9,11 @@
       "type": "article",
       "date": "2026-06-03T17:39:00+00:00",
       "summary": "On why smart teams stop thinking together and what quietly breaks when they do. Continue reading on Medium » (auto-generated fallback - LLM provider rate-limited)",
-      "tags": []
+      "tags": [
+        "Communication",
+        "Product Culture",
+        "Leadership"
+      ]
     },
     {
       "title": "What was wrong with YouTube Ads",
@@ -18,7 +22,11 @@
       "type": "article",
       "date": "2026-06-03T17:37:42+00:00",
       "summary": "User Pain Point &amp; Churn Risk: Continue reading on Medium » (auto-generated fallback - LLM provider rate-limited)",
-      "tags": []
+      "tags": [
+        "User Research",
+        "Retention",
+        "Growth"
+      ]
     },
     {
       "title": "IFS: Account Executive - Net New | Copperleaf | France",
@@ -27,7 +35,9 @@
       "type": "job",
       "date": "2026-06-03T17:26:48+00:00",
       "summary": "Headquarters: Paris, France URL: http://ifs.com Company Description IFS is a billion-dollar revenue company with 7000+ employees on all continents. Our leading AI technology is the backbone of our award-winning enterprise software solutions, enabling our customers to be their bes... (auto-generated fallback - LLM provider rate-limited)",
-      "tags": []
+      "tags": [
+        "Career"
+      ]
     },
     {
       "title": "Lodgify: Senior Data Engineer",
@@ -36,7 +46,10 @@
       "type": "job",
       "date": "2026-06-03T17:26:48+00:00",
       "summary": "Headquarters: Spain URL: http://lodgify.com ⭐ Who we are &nbsp; Lodgify is a fast-growing scale-up company leading the vacation rental industry. Backed by $30M in funding, our platform empowers property owners and managers worldwide to efficiently manage and grow their business t... (auto-generated fallback - LLM provider rate-limited)",
-      "tags": []
+      "tags": [
+        "Career",
+        "Data"
+      ]
     },
     {
       "title": "💸 Does pricing shrink or expand markets?",
@@ -45,7 +58,11 @@
       "type": "trend",
       "date": "2026-06-03T17:07:06+00:00",
       "summary": "Companies are having to pay for tokens. Is this a good thing or a not? (auto-generated fallback - LLM provider rate-limited)",
-      "tags": []
+      "tags": [
+        "Pricing",
+        "AI Strategy",
+        "Growth"
+      ]
     },
     {
       "title": "The Day Our Product Portfolio Broke",
@@ -54,7 +71,11 @@
       "type": "article",
       "date": "2026-06-03T14:01:07+00:00",
       "summary": "I was in a regulatory meeting with a medical device company &#x2014; call it MedDev Corp &#x2014; when the FDA examiner asked a question that exposed&#x2026; Continue reading on Medium » (auto-generated fallback - LLM provider rate-limited)",
-      "tags": []
+      "tags": [
+        "Product Strategy",
+        "Compliance",
+        "Risk Management"
+      ]
     },
     {
       "title": "How agentic AI is transforming  healthcare delivery",
@@ -63,16 +84,24 @@
       "type": "event",
       "date": "2026-06-03T14:00:18+00:00",
       "summary": "Discover how agentic AI is impacting healthcare delivery. Plus the ethical and data governance policies required to make it work. (auto-generated fallback - LLM provider rate-limited)",
-      "tags": []
+      "tags": [
+        "AI Strategy",
+        "AI Tools",
+        "Compliance"
+      ]
     },
     {
-      "title": "Se o cliente churnar amanhã, você ainda construiria essa feature?",
+      "title": "If your customer churned tomorrow, would you still build that feature?",
       "url": "https://medium.com/@doug.g.s.jr/se-o-cliente-churnar-amanh%C3%A3-voc%C3%AA-ainda-construiria-essa-feature-0ae0c82fa8d6?source=rss------product_strategy-5",
       "source": "Medium Strategy",
       "type": "article",
       "date": "2026-06-03T13:01:01+00:00",
-      "summary": "Todo gestor de produto em SaaS B2B tem uma hist&#xf3;ria parecida: cliente estrat&#xe9;gico pede uma feature espec&#xed;fica, promete renovar se voc&#xea;&#x2026; Continue reading on Medium » (auto-generated fallback - LLM provider rate-limited)",
-      "tags": []
+      "summary": "The author challenges B2B SaaS PMs to apply a churn-test to roadmap decisions: every time a strategic customer demands a specific feature in exchange for renewal, ask whether the team would still build it if the customer left tomorrow. The piece argues this filter exposes how much single-account leverage is distorting the broader product roadmap.",
+      "tags": [
+        "Retention",
+        "Prioritization",
+        "Stakeholders"
+      ]
     },
     {
       "title": "What I Learned from the Recent Wave of Package Hacks (And Is Cowork Immune?)",
@@ -81,7 +110,11 @@
       "type": "article",
       "date": "2026-06-03T13:00:29+00:00",
       "summary": "Share this article | Listen to this article ($) I love being a builder. I feel like I have a new superpower and I can&apos;t get enough of it. I enjoy tinkering with my Claude Code workflows to make my days more effortless. I&apos;m having a blast building (auto-generated fallback - LLM provider rate-limited)",
-      "tags": []
+      "tags": [
+        "Security",
+        "Risk Management",
+        "Engineering Velocity"
+      ]
     },
     {
       "title": "Gemini Omni: Clone yourself with AI in under 15 minutes",
@@ -90,7 +123,11 @@
       "type": "article",
       "date": "2026-06-03T12:04:09+00:00",
       "summary": "Watch now | &#127897;&#65039; Testing Google&#8217;s Gemini Omni avatar feature live&#8212;I scan a QR code, clone my face, and ship a hype reel (auto-generated fallback - LLM provider rate-limited)",
-      "tags": []
+      "tags": [
+        "AI Tools",
+        "AI Strategy",
+        "Productivity"
+      ]
     },
     {
       "title": "The Nvidia AI PC, Project Solara, Microsoft AI",
@@ -99,7 +136,11 @@
       "type": "trend",
       "date": "2026-06-03T10:00:00+00:00",
       "summary": "The Nvidia AI PC feels like a relic of another AI era; Microsoft's vision for devices at Build was much more compelling. (auto-generated fallback - LLM provider rate-limited)",
-      "tags": []
+      "tags": [
+        "AI Strategy",
+        "Competitive Analysis",
+        "Hardware Differentiation"
+      ]
     },
     {
       "title": "Procurement - All Things Product Podcast with Teresa Torres & Petra Wille",
@@ -108,7 +149,11 @@
       "type": "article",
       "date": "2026-06-02T13:00:08+00:00",
       "summary": "Listen to this episode on: Spotify | Apple Podcasts Teresa is cranky &#x2014; and honestly? She has every right to be. In this episode, Teresa and Petra go on a deeply relatable rant about the absurdity of modern corporate procurement processes. Teresa is simultaneously juggling (auto-generated fallback - LLM provider rate-limited)",
-      "tags": []
+      "tags": [
+        "Stakeholders",
+        "Prioritization",
+        "Communication"
+      ]
     },
     {
       "title": "The Google Capital Company",
@@ -117,7 +162,11 @@
       "type": "trend",
       "date": "2026-06-02T10:00:00+00:00",
       "summary": "Google has issued equity to Berkshire Hathaway in a deal that signals far more demand and a future where capital is the ultimate commodity. (auto-generated fallback - LLM provider rate-limited)",
-      "tags": []
+      "tags": [
+        "Competitive Analysis",
+        "Platform Strategy",
+        "AI Strategy"
+      ]
     },
     {
       "title": "Onboarding doesn't teach users your product  – it teaches them whether your product is worth learning",
@@ -126,7 +175,11 @@
       "type": "event",
       "date": "2026-06-02T08:23:46+00:00",
       "summary": "Onboarding is a pitch. Make sure yours lands. (auto-generated fallback - LLM provider rate-limited)",
-      "tags": []
+      "tags": [
+        "User Research",
+        "Growth",
+        "Product Design"
+      ]
     },
     {
       "title": "🎙️ How I AI: Codex Goals explained & Claude Opus 4.8 review & Building an iPhone app with zero technical skills",
@@ -148,7 +201,11 @@
       "type": "article",
       "date": "2026-06-01T14:02:45+00:00",
       "summary": "When the price tag becomes the product conversation nobody wants to have. (auto-generated fallback - LLM provider rate-limited)",
-      "tags": []
+      "tags": [
+        "Pricing",
+        "Product Strategy",
+        "Growth"
+      ]
     },
     {
       "title": "🔥 We checked. Again. Still no bubble.",
@@ -157,7 +214,10 @@
       "type": "trend",
       "date": "2026-06-01T13:06:36+00:00",
       "summary": "A customer-led boom with a few fraying edges. (auto-generated fallback - LLM provider rate-limited)",
-      "tags": []
+      "tags": [
+        "AI Strategy",
+        "Competitive Analysis"
+      ]
     },
     {
       "title": "Building an iPhone app with zero technical skills | Bryce Rattner Keithley",
@@ -426,7 +486,10 @@
       "type": "trend",
       "date": "2026-05-28T22:35:07+00:00",
       "summary": "Safety-first walking navigation to walk the safest routes Discussion | Link (auto-generated fallback - LLM provider rate-limited)",
-      "tags": []
+      "tags": [
+        "Product Design",
+        "User Research"
+      ]
     },
     {
       "title": "Claude Opus 4.8 is here. Is it as good as they say?",
@@ -615,7 +678,11 @@
       "type": "trend",
       "date": "2026-05-27T13:18:56+00:00",
       "summary": "Growati is an{autopilot} solution that streamlines YouTube post-production by automating editing, captioning, and thumbnail creation, allowing creators to focus on content while the platform handles routine tasks. The tool promises faster turnaround times, consistent branding, and reduced manual effort, positioning itself as a productivity boost for video creators and agencies alike.\n\n(Note: The original article is a discussion thread, so details are drawn from the community conversation about its features and potential impact.)\n\n(If needed, replace the placeholder with the exact autopilot description from the source.)",
-      "tags": []
+      "tags": [
+        "AI Tools",
+        "Automation",
+        "Productivity"
+      ]
     },
     {
       "title": "The Codex feature that works while you sleep",
@@ -6144,7 +6211,10 @@
       "type": "trend",
       "date": "2026-04-09T07:16:19+00:00",
       "summary": "Agent memory you can trust Discussion | Link (auto-generated fallback - LLM provider rate-limited)",
-      "tags": []
+      "tags": [
+        "AI Tools",
+        "AI Strategy"
+      ]
     },
     {
       "title": "Advice Line with Steve Ells of Chipotle",
