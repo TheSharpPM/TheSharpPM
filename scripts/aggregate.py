@@ -1,9 +1,11 @@
 import feedparser
+import html
 import json
 import os
 import re
 import requests
 import sys
+import unicodedata
 from datetime import datetime, timezone, timedelta
 from time import mktime, sleep
 
@@ -73,8 +75,17 @@ FEEDS = [
 # ── LANGUAGE FILTER ───────────────────────────────────────────────────────────
  
 def is_english(text):
-    non_ascii = sum(1 for c in text if ord(c) > 127)
-    return non_ascii <= 3
+    """Reject titles that look non-English. Count only Letter-category
+    non-ASCII chars (accented Latin, Cyrillic, CJK, etc.) and treat
+    emoji, dashes, curly quotes and other typographic symbols as
+    neutral. PT/ES/FR/DE titles typically carry multiple diacritics
+    and get rejected; English titles with a single emoji or a foreign
+    name (Müller, Søren) still pass."""
+    letter_non_ascii = sum(
+        1 for c in (text or "")
+        if ord(c) > 127 and unicodedata.category(c).startswith("L")
+    )
+    return letter_non_ascii <= 1
  
 # ── ANALYSE WITH AI ───────────────────────────────────────────────────────────
 
@@ -170,15 +181,16 @@ def _fallback_summary(content):
     """Used when every LLM in the fallback chain is rate-limited or
     errored. Builds a passable summary from the RSS entry's own text
     so the item still ends up in data.json instead of being dropped
-    on the floor. The whole point: a bad provider day should not mean
-    a silent zero-content commit."""
+    on the floor. A bad provider day should not mean a silent
+    zero-content commit. No marker text appended - we used to but it
+    showed up on the live site and looked like noise."""
     snippet = (content or "").strip()
     if not snippet:
-        return "Summary unavailable - LLM provider rate-limited."
+        return "Summary unavailable."
     snippet = snippet[:280].rstrip()
     if len(snippet) == 280:
         snippet += "..."
-    return snippet + " (auto-generated fallback - LLM provider rate-limited)"
+    return snippet
 
 
 def fetch_feed(feed_config, existing_urls):
@@ -212,6 +224,11 @@ def fetch_feed(feed_config, existing_urls):
             elif hasattr(entry, "content"):
                 content = entry.content[0].value
 
+            # Decode HTML entities (&apos;, &#8217;, &#x2014;, &nbsp;, ...)
+            # BEFORE stripping tags - some RSS feeds escape both. Without
+            # this step the fallback summaries that go straight to the
+            # site keep the raw entity garbage.
+            content = html.unescape(content)
             content = re.sub(r"<[^>]+>", " ", content)
             content = re.sub(r"\s+", " ", content).strip()
 
@@ -221,14 +238,17 @@ def fetch_feed(feed_config, existing_urls):
             # If every LLM in the fallback chain is rate-limited, do
             # NOT drop the item. Add it with a fallback summary derived
             # from the RSS-provided text so the site keeps moving on
-            # bad provider days. The summary is clearly marked so we
-            # can re-run analysis later if we want.
+            # bad provider days. Tag the item with is_fallback=True so
+            # we can later run a "refresh stale fallback summaries"
+            # pass with the LLM once quotas reset.
             if result[0] is None:
                 print("  LLM exhausted - using RSS fallback summary.")
                 summary = _fallback_summary(content)
                 tags = []
+                is_fallback = True
             else:
                 summary, tags = result
+                is_fallback = False
 
             items.append({
                 "title": title,
@@ -238,6 +258,7 @@ def fetch_feed(feed_config, existing_urls):
                 "date": date,
                 "summary": summary,
                 "tags": tags,
+                "is_fallback": is_fallback,
             })
 
     except Exception as e:

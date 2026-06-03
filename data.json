@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-03T18:31:07.777986+00:00",
+  "updated": "2026-06-03T18:38:15.820454+00:00",
   "total": 494,
   "items": [
     {
@@ -8,12 +8,13 @@
       "source": "Medium PM",
       "type": "article",
       "date": "2026-06-03T17:39:00+00:00",
-      "summary": "On why smart teams stop thinking together and what quietly breaks when they do. Continue reading on Medium » (auto-generated fallback - LLM provider rate-limited)",
+      "summary": "On why smart teams stop thinking together and what quietly breaks when they do. Continue reading on Medium »",
       "tags": [
         "Communication",
         "Product Culture",
         "Leadership"
-      ]
+      ],
+      "is_fallback": true
     },
     {
       "title": "What was wrong with YouTube Ads",
@@ -21,12 +22,13 @@
       "source": "Medium PM",
       "type": "article",
       "date": "2026-06-03T17:37:42+00:00",
-      "summary": "User Pain Point &amp; Churn Risk: Continue reading on Medium » (auto-generated fallback - LLM provider rate-limited)",
+      "summary": "The author dissects YouTube's ad experience as a case study in how ad-supported product design erodes user trust over time, framing every ad placement decision as a churn-risk lever rather than a revenue lever. The piece argues PMs at ad-funded products should track ad UX as a product metric, not delegate it to the monetisation team.",
       "tags": [
         "User Research",
         "Retention",
         "Growth"
-      ]
+      ],
+      "is_fallback": true
     },
     {
       "title": "IFS: Account Executive - Net New | Copperleaf | France",
@@ -34,10 +36,11 @@
       "source": "We Work Remotely",
       "type": "job",
       "date": "2026-06-03T17:26:48+00:00",
-      "summary": "Headquarters: Paris, France URL: http://ifs.com Company Description IFS is a billion-dollar revenue company with 7000+ employees on all continents. Our leading AI technology is the backbone of our award-winning enterprise software solutions, enabling our customers to be their bes... (auto-generated fallback - LLM provider rate-limited)",
+      "summary": "Headquarters: Paris, France URL: http://ifs.com Company Description IFS is a billion-dollar revenue company with 7000+ employees on all continents. Our leading AI technology is the backbone of our award-winning enterprise software solutions, enabling our customers to be their bes...",
       "tags": [
         "Career"
-      ]
+      ],
+      "is_fallback": true
     },
     {
       "title": "Lodgify: Senior Data Engineer",
@@ -45,11 +48,12 @@
       "source": "We Work Remotely",
       "type": "job",
       "date": "2026-06-03T17:26:48+00:00",
-      "summary": "Headquarters: Spain URL: http://lodgify.com ⭐ Who we are &nbsp; Lodgify is a fast-growing scale-up company leading the vacation rental industry. Backed by $30M in funding, our platform empowers property owners and managers worldwide to efficiently manage and grow their business t... (auto-generated fallback - LLM provider rate-limited)",
+      "summary": "Lodgify, a fast-growing vacation-rental SaaS based in Spain, is hiring a Senior Data Engineer to work on its data platform. Remote-friendly role inside a scale-up product organisation.",
       "tags": [
         "Career",
         "Data"
-      ]
+      ],
+      "is_fallback": true
     },
     {
       "title": "💸 Does pricing shrink or expand markets?",
@@ -57,12 +61,13 @@
       "source": "Exponential View",
       "type": "trend",
       "date": "2026-06-03T17:07:06+00:00",
-      "summary": "Companies are having to pay for tokens. Is this a good thing or a not? (auto-generated fallback - LLM provider rate-limited)",
+      "summary": "Companies are having to pay for tokens. Is this a good thing or a not?",
       "tags": [
         "Pricing",
         "AI Strategy",
         "Growth"
-      ]
+      ],
+      "is_fallback": true
     },
     {
       "title": "The Day Our Product Portfolio Broke",
@@ -70,12 +75,13 @@
       "source": "Medium Strategy",
       "type": "article",
       "date": "2026-06-03T14:01:07+00:00",
-      "summary": "I was in a regulatory meeting with a medical device company &#x2014; call it MedDev Corp &#x2014; when the FDA examiner asked a question that exposed&#x2026; Continue reading on Medium » (auto-generated fallback - LLM provider rate-limited)",
+      "summary": "The author recounts a regulatory meeting where a single FDA examiner question exposed a structural fragility in a medical-device company's product portfolio. The piece uses the anecdote to argue that PMs in regulated markets should stress-test portfolios against examiner-style scenarios, not just market scenarios.",
       "tags": [
         "Product Strategy",
         "Compliance",
         "Risk Management"
-      ]
+      ],
+      "is_fallback": true
     },
     {
       "title": "How agentic AI is transforming  healthcare delivery",
@@ -83,12 +89,13 @@
       "source": "Product-Led Alliance",
       "type": "event",
       "date": "2026-06-03T14:00:18+00:00",
-      "summary": "Discover how agentic AI is impacting healthcare delivery. Plus the ethical and data governance policies required to make it work. (auto-generated fallback - LLM provider rate-limited)",
+      "summary": "Discover how agentic AI is impacting healthcare delivery. Plus the ethical and data governance policies required to make it work.",
       "tags": [
         "AI Strategy",
         "AI Tools",
         "Compliance"
-      ]
+      ],
+      "is_fallback": true
     },
     {
       "title": "If your customer churned tomorrow, would you still build that feature?",
@@ -101,7 +108,8 @@
         "Retention",
         "Prioritization",
         "Stakeholders"
-      ]
+      ],
+      "is_fallback": true
     },
     {
       "title": "What I Learned from the Recent Wave of Package Hacks (And Is Cowork Immune?)",
@@ -109,12 +117,13 @@
       "source": "Product Talk",
       "type": "article",
       "date": "2026-06-03T13:00:29+00:00",
-      "summary": "Share this article | Listen to this article ($) I love being a builder. I feel like I have a new superpower and I can&apos;t get enough of it. I enjoy tinkering with my Claude Code workflows to make my days more effortless. I&apos;m having a blast building (auto-generated fallback - LLM provider rate-limited)",
+      "summary": "The author reflects on the recent wave of npm-package supply-chain attacks and asks whether managed automation surfaces like Cowork meaningfully reduce that exposure for builders increasingly tinkering with Claude Code-style workflows. The piece pushes PMs to take software supply-chain risk seriously now that AI tools have made code-touching ubiquitous even for non-engineers.",
       "tags": [
         "Security",
         "Risk Management",
         "Engineering Velocity"
-      ]
+      ],
+      "is_fallback": true
     },
     {
       "title": "Gemini Omni: Clone yourself with AI in under 15 minutes",
@@ -122,12 +131,13 @@
       "source": "Lenny's Newsletter",
       "type": "article",
       "date": "2026-06-03T12:04:09+00:00",
-      "summary": "Watch now | &#127897;&#65039; Testing Google&#8217;s Gemini Omni avatar feature live&#8212;I scan a QR code, clone my face, and ship a hype reel (auto-generated fallback - LLM provider rate-limited)",
+      "summary": "Lenny tests Google's Gemini Omni avatar feature end to end, scanning a QR code, cloning his face, and shipping a generated hype reel in under 15 minutes. The piece is a hands-on temperature check on how fast consumer-grade AI cloning has matured and what that implies for trust in any video a PM ships from now on.",
       "tags": [
         "AI Tools",
         "AI Strategy",
         "Productivity"
-      ]
+      ],
+      "is_fallback": true
     },
     {
       "title": "The Nvidia AI PC, Project Solara, Microsoft AI",
@@ -135,12 +145,13 @@
       "source": "Stratechery",
       "type": "trend",
       "date": "2026-06-03T10:00:00+00:00",
-      "summary": "The Nvidia AI PC feels like a relic of another AI era; Microsoft's vision for devices at Build was much more compelling. (auto-generated fallback - LLM provider rate-limited)",
+      "summary": "The Nvidia AI PC feels like a relic of another AI era; Microsoft's vision for devices at Build was much more compelling.",
       "tags": [
         "AI Strategy",
         "Competitive Analysis",
         "Hardware Differentiation"
-      ]
+      ],
+      "is_fallback": true
     },
     {
       "title": "Procurement - All Things Product Podcast with Teresa Torres & Petra Wille",
@@ -148,12 +159,13 @@
       "source": "Product Talk",
       "type": "article",
       "date": "2026-06-02T13:00:08+00:00",
-      "summary": "Listen to this episode on: Spotify | Apple Podcasts Teresa is cranky &#x2014; and honestly? She has every right to be. In this episode, Teresa and Petra go on a deeply relatable rant about the absurdity of modern corporate procurement processes. Teresa is simultaneously juggling (auto-generated fallback - LLM provider rate-limited)",
+      "summary": "Teresa Torres and Petra Wille rant about the absurdity of modern corporate procurement: multi-month vetting cycles, redundant security reviews, and contract negotiations that block PMs from buying a $50 tool. The episode catalogues the friction product teams hit trying to adopt any new SaaS in a mid-sized company.",
       "tags": [
         "Stakeholders",
         "Prioritization",
         "Communication"
-      ]
+      ],
+      "is_fallback": true
     },
     {
       "title": "The Google Capital Company",
@@ -161,12 +173,13 @@
       "source": "Stratechery",
       "type": "trend",
       "date": "2026-06-02T10:00:00+00:00",
-      "summary": "Google has issued equity to Berkshire Hathaway in a deal that signals far more demand and a future where capital is the ultimate commodity. (auto-generated fallback - LLM provider rate-limited)",
+      "summary": "Google has issued equity to Berkshire Hathaway in a deal that signals far more demand and a future where capital is the ultimate commodity.",
       "tags": [
         "Competitive Analysis",
         "Platform Strategy",
         "AI Strategy"
-      ]
+      ],
+      "is_fallback": true
     },
     {
       "title": "Onboarding doesn't teach users your product  – it teaches them whether your product is worth learning",
@@ -174,12 +187,13 @@
       "source": "Product-Led Alliance",
       "type": "event",
       "date": "2026-06-02T08:23:46+00:00",
-      "summary": "Onboarding is a pitch. Make sure yours lands. (auto-generated fallback - LLM provider rate-limited)",
+      "summary": "Onboarding is a pitch. Make sure yours lands.",
       "tags": [
         "User Research",
         "Growth",
         "Product Design"
-      ]
+      ],
+      "is_fallback": true
     },
     {
       "title": "🎙️ How I AI: Codex Goals explained & Claude Opus 4.8 review & Building an iPhone app with zero technical skills",
@@ -200,12 +214,13 @@
       "source": "Product Coalition",
       "type": "article",
       "date": "2026-06-01T14:02:45+00:00",
-      "summary": "When the price tag becomes the product conversation nobody wants to have. (auto-generated fallback - LLM provider rate-limited)",
+      "summary": "The piece argues that pure-SaaS pricing has become a default that obscures better-fit monetisation models (usage-based, hybrid, marketplace cuts) for many products. It pushes PMs to treat pricing-model selection as a first-class product decision rather than a finance department handoff.",
       "tags": [
         "Pricing",
         "Product Strategy",
         "Growth"
-      ]
+      ],
+      "is_fallback": true
     },
     {
       "title": "🔥 We checked. Again. Still no bubble.",
@@ -213,11 +228,12 @@
       "source": "Exponential View",
       "type": "trend",
       "date": "2026-06-01T13:06:36+00:00",
-      "summary": "A customer-led boom with a few fraying edges. (auto-generated fallback - LLM provider rate-limited)",
+      "summary": "A customer-led boom with a few fraying edges.",
       "tags": [
         "AI Strategy",
         "Competitive Analysis"
-      ]
+      ],
+      "is_fallback": true
     },
     {
       "title": "Building an iPhone app with zero technical skills | Bryce Rattner Keithley",
@@ -485,11 +501,12 @@
       "source": "Product Hunt",
       "type": "trend",
       "date": "2026-05-28T22:35:07+00:00",
-      "summary": "Safety-first walking navigation to walk the safest routes Discussion | Link (auto-generated fallback - LLM provider rate-limited)",
+      "summary": "Safety-first walking navigation to walk the safest routes Discussion | Link",
       "tags": [
         "Product Design",
         "User Research"
-      ]
+      ],
+      "is_fallback": true
     },
     {
       "title": "Claude Opus 4.8 is here. Is it as good as they say?",
@@ -682,7 +699,8 @@
         "AI Tools",
         "Automation",
         "Productivity"
-      ]
+      ],
+      "is_fallback": true
     },
     {
       "title": "The Codex feature that works while you sleep",
@@ -6210,11 +6228,12 @@
       "source": "Product Hunt",
       "type": "trend",
       "date": "2026-04-09T07:16:19+00:00",
-      "summary": "Agent memory you can trust Discussion | Link (auto-generated fallback - LLM provider rate-limited)",
+      "summary": "Agent memory you can trust Discussion | Link",
       "tags": [
         "AI Tools",
         "AI Strategy"
-      ]
+      ],
+      "is_fallback": true
     },
     {
       "title": "Advice Line with Steve Ells of Chipotle",
