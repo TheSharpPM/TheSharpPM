@@ -1,7 +1,133 @@
 {
-  "updated": "2026-06-03T09:26:35.602905+00:00",
-  "total": 476,
+  "updated": "2026-06-03T18:07:33.511723+00:00",
+  "total": 494,
   "items": [
+    {
+      "title": "The Silence That Kills Products",
+      "url": "https://ma7moudalaa.medium.com/the-wall-nobody-sees-aa16064e9f3a?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-06-03T17:39:00+00:00",
+      "summary": "On why smart teams stop thinking together and what quietly breaks when they do. Continue reading on Medium » (auto-generated fallback - LLM provider rate-limited)",
+      "tags": []
+    },
+    {
+      "title": "What was wrong with YouTube Ads",
+      "url": "https://medium.com/@sadigova.turan/what-was-wrong-with-youtube-ads-e17186e606ee?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-06-03T17:37:42+00:00",
+      "summary": "User Pain Point &amp; Churn Risk: Continue reading on Medium » (auto-generated fallback - LLM provider rate-limited)",
+      "tags": []
+    },
+    {
+      "title": "IFS: Account Executive - Net New | Copperleaf | France",
+      "url": "https://weworkremotely.com/remote-jobs/ifs-account-executive-net-new-copperleaf-france",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-06-03T17:26:48+00:00",
+      "summary": "Headquarters: Paris, France URL: http://ifs.com Company Description IFS is a billion-dollar revenue company with 7000+ employees on all continents. Our leading AI technology is the backbone of our award-winning enterprise software solutions, enabling our customers to be their bes... (auto-generated fallback - LLM provider rate-limited)",
+      "tags": []
+    },
+    {
+      "title": "Lodgify: Senior Data Engineer",
+      "url": "https://weworkremotely.com/remote-jobs/lodgify-senior-data-engineer",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-06-03T17:26:48+00:00",
+      "summary": "Headquarters: Spain URL: http://lodgify.com ⭐ Who we are &nbsp; Lodgify is a fast-growing scale-up company leading the vacation rental industry. Backed by $30M in funding, our platform empowers property owners and managers worldwide to efficiently manage and grow their business t... (auto-generated fallback - LLM provider rate-limited)",
+      "tags": []
+    },
+    {
+      "title": "💸 Does pricing shrink or expand markets?",
+      "url": "https://www.exponentialview.co/p/does-pricing-shrink-or-expand-markets",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-06-03T17:07:06+00:00",
+      "summary": "Companies are having to pay for tokens. Is this a good thing or a not? (auto-generated fallback - LLM provider rate-limited)",
+      "tags": []
+    },
+    {
+      "title": "The Day Our Product Portfolio Broke",
+      "url": "https://medium.com/@paulcrosby/the-day-our-product-portfolio-broke-888fc3bb7344?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-06-03T14:01:07+00:00",
+      "summary": "I was in a regulatory meeting with a medical device company &#x2014; call it MedDev Corp &#x2014; when the FDA examiner asked a question that exposed&#x2026; Continue reading on Medium » (auto-generated fallback - LLM provider rate-limited)",
+      "tags": []
+    },
+    {
+      "title": "How agentic AI is transforming  healthcare delivery",
+      "url": "https://www.productledalliance.com/how-agentic-ai-is-transforming-healthcare-delivery/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-06-03T14:00:18+00:00",
+      "summary": "Discover how agentic AI is impacting healthcare delivery. Plus the ethical and data governance policies required to make it work. (auto-generated fallback - LLM provider rate-limited)",
+      "tags": []
+    },
+    {
+      "title": "Se o cliente churnar amanhã, você ainda construiria essa feature?",
+      "url": "https://medium.com/@doug.g.s.jr/se-o-cliente-churnar-amanh%C3%A3-voc%C3%AA-ainda-construiria-essa-feature-0ae0c82fa8d6?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-06-03T13:01:01+00:00",
+      "summary": "Todo gestor de produto em SaaS B2B tem uma hist&#xf3;ria parecida: cliente estrat&#xe9;gico pede uma feature espec&#xed;fica, promete renovar se voc&#xea;&#x2026; Continue reading on Medium » (auto-generated fallback - LLM provider rate-limited)",
+      "tags": []
+    },
+    {
+      "title": "What I Learned from the Recent Wave of Package Hacks (And Is Cowork Immune?)",
+      "url": "https://www.producttalk.org/package-hacks-cowork/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-06-03T13:00:29+00:00",
+      "summary": "Share this article | Listen to this article ($) I love being a builder. I feel like I have a new superpower and I can&apos;t get enough of it. I enjoy tinkering with my Claude Code workflows to make my days more effortless. I&apos;m having a blast building (auto-generated fallback - LLM provider rate-limited)",
+      "tags": []
+    },
+    {
+      "title": "Gemini Omni: Clone yourself with AI in under 15 minutes",
+      "url": "https://www.lennysnewsletter.com/p/gemini-omni-clone-yourself-with-ai",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-06-03T12:04:09+00:00",
+      "summary": "Watch now | &#127897;&#65039; Testing Google&#8217;s Gemini Omni avatar feature live&#8212;I scan a QR code, clone my face, and ship a hype reel (auto-generated fallback - LLM provider rate-limited)",
+      "tags": []
+    },
+    {
+      "title": "The Nvidia AI PC, Project Solara, Microsoft AI",
+      "url": "https://stratechery.com/2026/the-nvidia-ai-pc-project-solara-microsoft-ai/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-06-03T10:00:00+00:00",
+      "summary": "The Nvidia AI PC feels like a relic of another AI era; Microsoft's vision for devices at Build was much more compelling. (auto-generated fallback - LLM provider rate-limited)",
+      "tags": []
+    },
+    {
+      "title": "Procurement - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "url": "https://www.producttalk.org/procurement-all-things-product-podcast-with-teresa-torres-petra-wille/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-06-02T13:00:08+00:00",
+      "summary": "Listen to this episode on: Spotify | Apple Podcasts Teresa is cranky &#x2014; and honestly? She has every right to be. In this episode, Teresa and Petra go on a deeply relatable rant about the absurdity of modern corporate procurement processes. Teresa is simultaneously juggling (auto-generated fallback - LLM provider rate-limited)",
+      "tags": []
+    },
+    {
+      "title": "The Google Capital Company",
+      "url": "https://stratechery.com/2026/the-google-capital-company/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-06-02T10:00:00+00:00",
+      "summary": "Google has issued equity to Berkshire Hathaway in a deal that signals far more demand and a future where capital is the ultimate commodity. (auto-generated fallback - LLM provider rate-limited)",
+      "tags": []
+    },
+    {
+      "title": "Onboarding doesn't teach users your product  – it teaches them whether your product is worth learning",
+      "url": "https://www.productledalliance.com/onboarding-teaches-users-whether-your-product-is-worth-it/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-06-02T08:23:46+00:00",
+      "summary": "Onboarding is a pitch. Make sure yours lands. (auto-generated fallback - LLM provider rate-limited)",
+      "tags": []
+    },
     {
       "title": "🎙️ How I AI: Codex Goals explained & Claude Opus 4.8 review & Building an iPhone app with zero technical skills",
       "url": "https://www.lennysnewsletter.com/p/how-i-ai-codex-goals-explained-and",
@@ -14,6 +140,24 @@
         "AI Tools",
         "Product Strategy"
       ]
+    },
+    {
+      "title": "Your Product Isn't Just SaaS: Monetisation's Other Faces",
+      "url": "https://www.productcoalition.com/p/your-product-isnt-just-saas-monetisations",
+      "source": "Product Coalition",
+      "type": "article",
+      "date": "2026-06-01T14:02:45+00:00",
+      "summary": "When the price tag becomes the product conversation nobody wants to have. (auto-generated fallback - LLM provider rate-limited)",
+      "tags": []
+    },
+    {
+      "title": "🔥 We checked. Again. Still no bubble.",
+      "url": "https://www.exponentialview.co/p/still-no-bubble",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-06-01T13:06:36+00:00",
+      "summary": "A customer-led boom with a few fraying edges. (auto-generated fallback - LLM provider rate-limited)",
+      "tags": []
     },
     {
       "title": "Building an iPhone app with zero technical skills | Bryce Rattner Keithley",
@@ -274,6 +418,15 @@
         "User Research",
         "Product Design"
       ]
+    },
+    {
+      "title": "Walkable",
+      "url": "https://www.producthunt.com/products/walkable-2",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-05-28T22:35:07+00:00",
+      "summary": "Safety-first walking navigation to walk the safest routes Discussion | Link (auto-generated fallback - LLM provider rate-limited)",
+      "tags": []
     },
     {
       "title": "Claude Opus 4.8 is here. Is it as good as they say?",
@@ -5983,6 +6136,15 @@
         "Competitive Analysis",
         "Product Strategy"
       ]
+    },
+    {
+      "title": "Spectron",
+      "url": "https://www.producthunt.com/products/surrealdb",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-04-09T07:16:19+00:00",
+      "summary": "Agent memory you can trust Discussion | Link (auto-generated fallback - LLM provider rate-limited)",
+      "tags": []
     },
     {
       "title": "Advice Line with Steve Ells of Chipotle",
