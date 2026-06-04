@@ -1,7 +1,63 @@
 {
-  "updated": "2026-06-03T18:38:15.820454+00:00",
-  "total": 494,
+  "updated": "2026-06-04T08:47:01.418748+00:00",
+  "total": 499,
   "items": [
+    {
+      "title": "Claude in Chrome for Product Managers: Complete Setup Guide + Real PM Workflows (2026)",
+      "url": "https://medium.com/all-about-claude/claude-in-chrome-for-product-managers-complete-setup-guide-real-pm-workflows-2026-0cd9c6da9301?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-06-04T08:07:52+00:00",
+      "summary": "The article walks product managers through the step-by-step installation of Claude in Chrome, highlighting the configurations that proved most effective for daily PM tasks. It also shares real-world workflows that boosted productivity and details a critical failure that almost led to uninstalling the extension, offering lessons on what to avoid.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Productivity"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "I Spent Months Talking About AI Prototyping. I Was Solving the Wrong Problem.",
+      "url": "https://medium.com/design-bootcamp/i-spent-months-talking-about-ai-prototyping-i-was-solving-the-wrong-problem-d99e7ee3568c?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-06-04T07:35:11+00:00",
+      "summary": "The article reflects on the common missteps in AI prototyping, explaining how focusing on building flashy demos often distracts from validating real user problems and integration challenges. It offers practical guidance for product managers on aligning AI prototypes with clear business goals, data readiness, and measurable outcomes before investing heavily.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Productivity"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "How Product Leaders Build Flexible Product Roadmaps That Drive Business Growth",
+      "url": "https://medium.com/@mandarchiplunkar/how-product-leaders-build-flexible-product-roadmaps-that-drive-business-growth-a4204dd813cf?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-06-04T05:23:38+00:00",
+      "summary": "The article debunks the myth that product roadmaps must be fully predictive from the start, emphasizing instead the need for flexibility and iterative planning. It outlines how product leaders create adaptable roadmaps that align with shifting market conditions and business objectives, enabling sustained growth. Practical frameworks for balancing long‑term vision with short‑term adjustments are provided to help teams stay responsive while driving results.",
+      "tags": [
+        "Product Strategy",
+        "Growth",
+        "Prioritization"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Boxes.dev",
+      "url": "https://www.producthunt.com/products/boxes-dev",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-04T01:25:01+00:00",
+      "summary": "Boxes.dev lets teams deploy Claude Code and Codex models in their own cloud infrastructure, giving full control over data residency, latency, and customization. This enables product managers to integrate advanced LLM capabilities while addressing security, compliance, and cost considerations specific to their product stack.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Platform Strategy"
+      ],
+      "is_fallback": false
+    },
     {
       "title": "The Silence That Kills Products",
       "url": "https://ma7moudalaa.medium.com/the-wall-nobody-sees-aa16064e9f3a?source=rss------product_management-5",
@@ -68,6 +124,20 @@
         "Growth"
       ],
       "is_fallback": true
+    },
+    {
+      "title": "Curata",
+      "url": "https://www.producthunt.com/products/curata-3",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-03T15:27:22+00:00",
+      "summary": "Curata is a collaborative platform that lets AI agents and humans work together in a shared workspace, streamlining idea exchange and joint task execution. The tool aims to boost productivity and foster seamless human‑AI collaboration across teams.",
+      "tags": [
+        "AI Tools",
+        "Productivity",
+        "Collaboration"
+      ],
+      "is_fallback": false
     },
     {
       "title": "The Day Our Product Portfolio Broke",
