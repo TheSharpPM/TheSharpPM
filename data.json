@@ -1,7 +1,133 @@
 {
-  "updated": "2026-06-04T08:47:01.418748+00:00",
-  "total": 499,
+  "updated": "2026-06-05T08:43:12.909054+00:00",
+  "total": 508,
   "items": [
+    {
+      "title": "Good research is simple, so why are we so bad at it?",
+      "url": "https://jamiehorne.medium.com/good-research-is-simple-so-why-are-we-so-bad-at-it-7cb71d1283ce?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-06-05T08:27:19+00:00",
+      "summary": "The article argues that effective research should be straightforward, yet many teams struggle to execute it well. It emphasizes that solid research is essential for identifying valuable product opportunities and guiding development decisions.",
+      "tags": [
+        "User Research",
+        "Product Strategy",
+        "Leadership"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Good research is simple, so why are we so bad at it?",
+      "url": "https://jamiehorne.medium.com/good-research-is-simple-so-why-are-we-so-bad-at-it-7cb71d1283ce?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-06-05T08:27:19+00:00",
+      "summary": "The article argues that while AI simplifies product development, effective research—especially user research—is essential to identify valuable features and avoid wasted effort. It highlights common pitfalls that teams face in conducting simple, actionable research and offers guidance on improving research practices to drive better product decisions.",
+      "tags": [
+        "Product Strategy",
+        "User Research",
+        "AI Tools"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Financial acumen is key to product leadership",
+      "url": "https://jamiehorne.medium.com/financial-acumen-is-key-to-product-leadership-9b10305368cb?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-06-05T08:23:40+00:00",
+      "summary": "Effective product leadership hinges on strong financial literacy, enabling leaders to gauge market dynamics, cost structures, and revenue implications of their decisions. By integrating economic insights into product strategy, leaders can prioritize initiatives that drive sustainable growth and profitability.",
+      "tags": [
+        "Product Strategy",
+        "Leadership",
+        "Metrics"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Financial acumen is key to product leadership",
+      "url": "https://jamiehorne.medium.com/financial-acumen-is-key-to-product-leadership-9b10305368cb?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-06-05T08:23:40+00:00",
+      "summary": "The article argues that product leaders must master financial fundamentals to make better decisions, emphasizing the need to understand revenue models, cost structures, and market economics. By integrating financial insights with product strategy, managers can align priorities, justify investments, and drive sustainable growth.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Leadership"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Agent Browser Shield",
+      "url": "https://www.producthunt.com/products/agent-browser-shield",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-04T20:50:10+00:00",
+      "summary": "Agent Browser Shield introduces mechanisms to prevent prompt injection attacks and reduce token consumption for AI-powered browser agents, enhancing security and cost efficiency. This tool enables product teams to deploy safer, more scalable AI browsing functionalities without compromising performance.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Security"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Product-Led Summit Amsterdam, 2026",
+      "url": "https://www.productledalliance.com/product-led-summit-amsterdam-2026/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-06-04T14:01:50+00:00",
+      "summary": "The Product-Led Summit Amsterdam 2026 recordings feature sessions with industry leaders from Adidas, Heineken, and Booking.com, sharing insights on driving growth through product-led strategies. Attendees can learn practical approaches to scaling products, aligning teams, and leveraging data-driven decisions to enhance user experiences.",
+      "tags": [
+        "Product Strategy",
+        "Growth",
+        "Leadership"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Agentic AI is rewriting the  product manager's job description",
+      "url": "https://www.productledalliance.com/agentic-ai-is-rewriting-the-product-managers-job-description/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-06-04T14:00:03+00:00",
+      "summary": "New research outlines a framework showing how Agentic AI will reshape product management, automating routine decision‑making and enabling deeper data‑driven insights. Case studies from leading companies illustrate how PMs will shift toward orchestrating AI‑augmented workflows, focusing on strategic alignment and stakeholder communication.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Leadership"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Leni",
+      "url": "https://www.producthunt.com/products/leni",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-04T11:54:13+00:00",
+      "summary": "Leni is positioned as the most accurate AI-driven tool for investors, offering data-driven insights and predictive analytics to enhance investment decisions. The discussion highlights its potential to streamline research, reduce bias, and improve portfolio performance, making it a valuable asset for product teams targeting finance professionals.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Data"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "An Interview with Microsoft CEO Satya Nadella About Finding Core Competencies",
+      "url": "https://stratechery.com/2026/an-interview-with-microsoft-ceo-satya-nadella-about-finding-core-competencies/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-06-04T10:00:00+00:00",
+      "summary": "In this interview, Satya Nadella discusses Microsoft’s evolving AI strategy, emphasizing the company’s core competencies in cloud services, partnerships with OpenAI, and the vision for a new agentic platform. He also touches on capital allocation, software integration, and how these elements shape Microsoft’s role in the AI landscape.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Platform Strategy"
+      ],
+      "is_fallback": false
+    },
     {
       "title": "Claude in Chrome for Product Managers: Complete Setup Guide + Real PM Workflows (2026)",
       "url": "https://medium.com/all-about-claude/claude-in-chrome-for-product-managers-complete-setup-guide-real-pm-workflows-2026-0cd9c6da9301?source=rss------product_management-5",
