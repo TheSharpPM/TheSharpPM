@@ -1,7 +1,105 @@
 {
-  "updated": "2026-06-05T08:43:12.909054+00:00",
-  "total": 508,
+  "updated": "2026-06-06T07:44:48.865427+00:00",
+  "total": 516,
   "items": [
+    {
+      "title": "Telegram Is the Login",
+      "url": "https://medium.com/@sahand.sorouri/telegram-is-the-login-607344ca55c3?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-06-06T07:31:19+00:00",
+      "summary": "The article describes how the author created a task manager that users begin using directly within a chat interface, bypassing traditional sign‑up flows by leveraging Telegram as the authentication and interaction platform. This approach demonstrates a novel product strategy that reduces friction, improves onboarding, and capitalizes on existing messaging ecosystems.",
+      "tags": [
+        "Product Strategy",
+        "Productivity",
+        "Platform Strategy"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "The Next Battle Isn’t for Clicks. It’s for Recommendations.",
+      "url": "https://medium.com/gptalk/the-next-battle-isnt-for-clicks-it-s-for-recommendations-00bf316c23df?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-06-06T06:43:20+00:00",
+      "summary": "The article argues that while analytics can still track purchases, they increasingly fail to capture the underlying decision-making process behind those purchases. It emphasizes the growing importance of recommendation systems as the next competitive frontier, urging product managers to prioritize AI-driven recommendation engines to influence user choices rather than just measure clicks.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Data"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "The lie of “UX design”: the blind spot hiding your biggest competitive edge",
+      "url": "https://medium.com/design-bootcamp/the-lie-of-ux-design-the-blind-spot-hiding-your-biggest-competitive-edge-ff848caa592c?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-06-05T17:31:46+00:00",
+      "summary": "The article argues that conflating UI and UX dilutes a company’s ability to leverage true user experience as a competitive advantage. It urges product teams to treat experience design as a strategic discipline distinct from mere interface work, enabling deeper differentiation and stronger market positioning.",
+      "tags": [
+        "Product Design",
+        "Competitive Analysis",
+        "Growth"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "2026.23: Power Shifts",
+      "url": "https://stratechery.com/2026/power-shifts/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-06-05T17:00:00+00:00",
+      "summary": "This week’s Stratechery roundup highlights major power shifts, including Google and Microsoft’s evolving AI strategies, the rise of YouTubers as influential content creators in Hollywood, and strategic implications of the NBA Finals' media deals. The article offers insights on how these trends reshape competitive dynamics and product positioning in tech and entertainment.",
+      "tags": [
+        "AI Strategy",
+        "Competitive Analysis",
+        "Product Strategy"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Confessions of a Product Guru: Trust Behavior, Not Words",
+      "url": "https://medium.com/@pchoi007/confessions-of-a-product-guru-trust-behavior-not-words-3b05513c133f?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-06-05T16:10:06+00:00",
+      "summary": "The article argues that product managers should prioritize observing actual customer behavior over relying on statements from focus groups or other feedback mechanisms. It emphasizes integrating behavioral data into product strategy to make more reliable decisions.",
+      "tags": [
+        "Product Strategy",
+        "User Research",
+        "Leadership"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "From CPO to founder:  Highs, lows, and lessons learned",
+      "url": "https://www.productledalliance.com/from-cpo-to-founder-highs-lows-and-lessons-learned/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-06-05T15:00:07+00:00",
+      "summary": "The article chronicles a Chief Product Officer's transition to entrepreneurship, highlighting the excitement of shaping a product vision and the challenges of securing funding and scaling a new venture. It shares practical insights on navigating the emotional rollercoaster of startup life, from product development to investor relations, offering lessons for product leaders considering a founder path.",
+      "tags": [
+        "Leadership",
+        "Career",
+        "Product Strategy"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Career strategies for early stage PMs | Product Labs",
+      "url": "https://www.productledalliance.com/career-strategies-for-early-stage-pms-product-labs/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-06-05T11:05:17+00:00",
+      "summary": "The article outlines practical steps early-stage product managers can take to accelerate their careers, including building cross-functional credibility, mastering data-driven decision making, and actively seeking mentorship. It emphasizes the importance of delivering measurable impact, iterating on product hypotheses, and positioning oneself as a strategic partner within the organization.",
+      "tags": [
+        "Career",
+        "Product Strategy",
+        "Leadership"
+      ],
+      "is_fallback": false
+    },
     {
       "title": "Good research is simple, so why are we so bad at it?",
       "url": "https://jamiehorne.medium.com/good-research-is-simple-so-why-are-we-so-bad-at-it-7cb71d1283ce?source=rss------product_management-5",
@@ -69,6 +167,20 @@
         "AI Tools",
         "Product Strategy",
         "Security"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Manus Shopify Connector",
+      "url": "https://www.producthunt.com/products/manus-shopify-connector",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-04T15:34:33+00:00",
+      "summary": "The Manus Shopify Connector enables teams to create and administer Shopify storefronts directly through a chat interface, streamlining store setup and ongoing management. This tool centralizes e‑commerce operations, reducing context switching and accelerating time‑to‑market for new product launches.",
+      "tags": [
+        "Product Strategy",
+        "Platform Strategy",
+        "Growth"
       ],
       "is_fallback": false
     },
