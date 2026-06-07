@@ -1,7 +1,91 @@
 {
-  "updated": "2026-06-06T07:44:48.865427+00:00",
-  "total": 516,
+  "updated": "2026-06-07T08:21:53.558386+00:00",
+  "total": 525,
   "items": [
+    {
+      "title": "In Defence of the Right-Brain Leader",
+      "url": "https://medium.com/@alex_86019/in-defence-of-the-right-brain-leader-ece84d9f66e8?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-06-07T07:41:00+00:00",
+      "summary": "The article argues that leaders who rely on intuition, storytelling, and creative thinking—traits traditionally linked to the right brain—bring essential balance to data‑driven product environments. It encourages product managers to value and integrate these less formal, human‑centric approaches alongside structured frameworks.",
+      "tags": [
+        "Leadership",
+        "Product Culture",
+        "Product Strategy"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "5 Affordable Amazon Desk Setup Products That Feel Surprisingly Premium",
+      "url": "https://medium.com/@shashankshshu13/5-affordable-amazon-desk-setup-products-that-feel-surprisingly-premium-785b32905918?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-06-07T07:11:19+00:00",
+      "summary": "The article highlights five cost-effective accessories and furniture items available on Amazon that can elevate a desk setup to look premium without a large budget. It offers practical recommendations that help product managers create a professional and motivating workspace, which can boost focus and productivity.",
+      "tags": [
+        "Product Design",
+        "Productivity",
+        "Growth"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "🔮 The AI boom is becoming an entrepreneurship boom #577",
+      "url": "https://www.exponentialview.co/p/ev-577",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-06-07T03:21:28+00:00",
+      "summary": "The article highlights how the current AI explosion is spawning a wave of new entrepreneurial ventures, with innovators like Bryan Johnson leading the charge. It notes emerging trends such as AI-driven hardware (e.g., camping chips) and the push toward more advanced, multimodal AI systems.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Growth"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "🧠 Community Wisdom: Bootstrapping vs. raising funding, building the roadmap of your vibe-coded app, AI agents and data integrity, your first project as an APM, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-bootstrapping-vs",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-06-06T17:14:54+00:00",
+      "summary": "The article shares community insights on choosing bootstrapping versus seeking investment, crafting a product roadmap for a vibe‑coded app, leveraging AI agents while ensuring data integrity, and tackling an APM's first project. It also touches on strategies for growth, stakeholder alignment, and effective product management practices.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Growth"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Reasoning through complex problems",
+      "url": "https://jamiehorne.medium.com/reasoning-through-complex-problems-2ef1f6855c50?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-06-06T13:15:21+00:00",
+      "summary": "The article discusses the critical importance of tackling ambiguous, multi-dimensional problems and highlights that current AI systems still fall short in delivering robust reasoning capabilities for such challenges. It underscores the need for product managers to develop frameworks and tools that augment human problem‑solving while strategically integrating AI where it can add value.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Prioritization"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "How to kill a bad idea without upsetting anyone",
+      "url": "https://jamiehorne.medium.com/how-to-kill-a-bad-idea-without-upsetting-anyone-cd161e826cef?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-06-06T13:14:21+00:00",
+      "summary": "The article advises that the most effective way to dismiss a flawed concept is to treat it with genuine seriousness, allowing you to evaluate its flaws objectively and discuss its shortcomings without personal offense. By openly examining the idea's merits and limitations, you can reach a consensus to move on while preserving team morale.",
+      "tags": [
+        "Product Strategy",
+        "Leadership",
+        "Communication"
+      ],
+      "is_fallback": false
+    },
     {
       "title": "Telegram Is the Login",
       "url": "https://medium.com/@sahand.sorouri/telegram-is-the-login-607344ca55c3?source=rss------product_management-5",
@@ -27,6 +111,20 @@
         "AI Strategy",
         "Product Strategy",
         "Data"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Territory Business Development Manager USMC",
+      "url": "https://remoteOK.com/remote-jobs/remote-territory-business-development-manager-usmc-shield-ai-1132918",
+      "source": "Remote OK",
+      "type": "job",
+      "date": "2026-06-06T06:00:46+00:00",
+      "summary": "Shield AI is hiring a Business Development Manager to expand its autonomous systems portfolio within the US Marine Corps, focusing on delivering AI-driven aircraft and software solutions that address operational challenges for warfighters. The role will drive growth by aligning product capabilities with military needs, managing stakeholder relationships, and advancing the company's deep‑tech mission across global operations.",
+      "tags": [
+        "AI Strategy",
+        "Growth",
+        "Product Strategy"
       ],
       "is_fallback": false
     },
@@ -153,6 +251,20 @@
         "AI Strategy",
         "Product Strategy",
         "Leadership"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "CabinLink",
+      "url": "https://www.producthunt.com/products/cabinlink",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-04T21:23:43+00:00",
+      "summary": "The article outlines CabinLink, a product that visualizes real-time flight paths using cabin Wi‑Fi data, enabling airlines to monitor connectivity performance and enhance passenger experience. It discusses the strategic integration of this AI‑driven map into existing airline platforms to drive operational insights and differentiate the service offering.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Data"
       ],
       "is_fallback": false
     },
@@ -5402,6 +5514,20 @@
         "Product Strategy",
         "Career"
       ]
+    },
+    {
+      "title": "Wave",
+      "url": "https://www.producthunt.com/products/wave-16",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-04-19T08:50:31+00:00",
+      "summary": "Wave offers a voice-to-text solution that lets users choose between local processing for privacy or cloud processing for higher accuracy. The flexibility addresses different user preferences and regulatory concerns, opening opportunities for integration into diverse products.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Product Culture"
+      ],
+      "is_fallback": false
     },
     {
       "title": "🔮 Exponential View #570: Inside Jensen Huang’s worldview",
