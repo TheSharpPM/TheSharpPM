@@ -91,6 +91,18 @@ MIN_RESEARCH_CALLS = 6
 # next iteration we also pin tool_choice to publish_edition.
 FORCE_PUBLISH_AT_RESEARCH_CALLS = 8
 
+# Allowed values for target_audience on publish_edition. Editorial P3
+# is written specifically for the chosen seniority level. The agent
+# must rotate: cannot repeat the same value as either of the last two
+# editions (enforced by gate). Read order intentional - puts the more
+# common Staff/Senior on the list with Lead/Principal so editorial can
+# alternate without going off-canon.
+TARGET_AUDIENCES = ["Senior PM", "Staff PM", "Lead/Principal PM"]
+# How many of the most recent editions' target_audience values are
+# blocked from re-use on the next edition. With 3 levels and a lookback
+# of 2, the rotation is forced into the third unused level each week.
+TARGET_AUDIENCE_LOOKBACK = 2
+
 # Per-field hard caps on what publish_edition will accept. Defence
 # against an LLM prompt-injected into emitting absurdly large strings
 # that bloat the JSON file and inflate every later read_memory call.
@@ -524,6 +536,7 @@ def tool_read_memory(weeks=4):
             summaries.append({
                 "date": ed.get("edition"),
                 "headline_theme": ed.get("headline_theme"),
+                "target_audience": ed.get("target_audience"),
                 "editorial_excerpt": (ed.get("editorial") or "")[:400],
                 "must_reads": [
                     {"title": mr.get("title"), "why": mr.get("why")}
@@ -535,9 +548,39 @@ def tool_read_memory(weeks=4):
     return {"count": len(summaries), "editions": summaries}
 
 
+def _recent_target_audiences():
+    """Return the target_audience values of the most recent editions
+    (up to TARGET_AUDIENCE_LOOKBACK). Used by the publish gate to block
+    re-using the same audience two editions in a row. Older editions
+    that pre-date the field return None and are skipped."""
+    if not INDEX_FILE.exists():
+        return []
+    try:
+        index = json.loads(INDEX_FILE.read_text(encoding="utf-8"))
+    except Exception:
+        return []
+    recent = []
+    for meta in index.get("editions", [])[:TARGET_AUDIENCE_LOOKBACK]:
+        date = str(meta.get("date", ""))
+        if not re.match(r"^\d{4}-\d{2}-\d{2}$", date):
+            continue
+        f = AGENT_DIR / f"{date}.json"
+        if not f.exists():
+            continue
+        try:
+            ed = json.loads(f.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        ta = ed.get("target_audience")
+        if ta:
+            recent.append(ta)
+    return recent
+
+
 def tool_publish_edition(headline_theme, editorial, must_reads,
                          key_takeaways, pm_homework,
-                         contrarian=None, also_worth=None):
+                         contrarian=None, also_worth=None,
+                         target_audience=None):
     """Save the edition to disk and update the index. Ends the run."""
 
     # Gate 1: the agent must have actually gathered material before publishing.
@@ -755,6 +798,41 @@ def tool_publish_edition(headline_theme, editorial, must_reads,
             )
         }
 
+    # Gate 5d: target_audience must be one of the allowed seniority
+    # levels and must NOT match either of the last TARGET_AUDIENCE_LOOKBACK
+    # editions. Forces P3 to rotate audience across weeks instead of
+    # always landing on Staff/Senior PM.
+    if not target_audience or not isinstance(target_audience, str):
+        return {
+            "error": (
+                f"Refusing to publish: target_audience is missing. Pick "
+                f"one of: {', '.join(TARGET_AUDIENCES)}. Use read_memory "
+                f"to see what the last {TARGET_AUDIENCE_LOOKBACK} editions "
+                f"used and pick a different level so the dispatch rotates "
+                f"who P3 speaks to."
+            )
+        }
+    if target_audience not in TARGET_AUDIENCES:
+        return {
+            "error": (
+                f"Refusing to publish: target_audience '{target_audience}' "
+                f"is not in the allowed set. Must be exactly one of: "
+                f"{', '.join(TARGET_AUDIENCES)}."
+            )
+        }
+    recent_ta = _recent_target_audiences()
+    if target_audience in recent_ta:
+        return {
+            "error": (
+                f"Refusing to publish: target_audience '{target_audience}' "
+                f"was used in one of the last {TARGET_AUDIENCE_LOOKBACK} "
+                f"editions ({recent_ta}). Pick a different level so the "
+                f"dispatch rotates. Available options not in recent "
+                f"history: "
+                f"{[ta for ta in TARGET_AUDIENCES if ta not in recent_ta]}."
+            )
+        }
+
     # Gate 6: each "why" must be opinionated, not descriptive.
     for mr in mr_list:
         if not isinstance(mr, dict):
@@ -833,6 +911,7 @@ def tool_publish_edition(headline_theme, editorial, must_reads,
     edition = {
         "edition": date,
         "headline_theme": headline_theme,
+        "target_audience": target_audience,
         "editorial": editorial,
         "key_takeaways": kt_list,
         "must_reads": mr_list,
@@ -944,9 +1023,14 @@ TOOL_DECLARATIONS = [
                     "type": "string",
                     "description": "5-12 word provocative headline.",
                 },
+                "target_audience": {
+                    "type": "string",
+                    "description": "Required. The PM seniority level paragraph 3 of the editorial speaks to. Must be one of: 'Senior PM', 'Staff PM', 'Lead/Principal PM'. Use read_memory to see what the last two editions used; the gate rejects re-using either.",
+                    "enum": ["Senior PM", "Staff PM", "Lead/Principal PM"],
+                },
                 "editorial": {
                     "type": "string",
-                    "description": "250-500 words, 3 paragraphs (hook/synthesis/implication). See system prompt.",
+                    "description": "250-500 words, 3 paragraphs (hook/synthesis/implication). P3 is addressed specifically to the target_audience level. See system prompt.",
                 },
                 "key_takeaways": {
                     "type": "array",
@@ -1024,6 +1108,7 @@ HARD RULES (publish_edition will reject and you must retry):
 - contrarian is REQUIRED, not optional. Pick a piece that challenges your editorial thesis. Its URL must be DIFFERENT from every must_read.
 - Call publish_edition only after >=6 research tool calls (fetch_feeds + web_search + fetch_article combined).
 - Editorial: 250-500 words, exactly 3 paragraphs. NEVER meta-narrative ("we'll explore", "in this edition", "our must-reads include"). The editorial IS the take, not a TOC.
+- target_audience is REQUIRED. Pick one of: "Senior PM", "Staff PM", "Lead/Principal PM". Paragraph 3 of the editorial speaks SPECIFICALLY to that seniority level (its leverage points, its stakeholders, its decisions). The gate REJECTS re-using the same target_audience as either of the last two editions - check read_memory output and pick a level not used recently. Rotate so the dispatch hits different audiences across weeks.
 - Every percentage or Nx multiplier in the editorial MUST appear verbatim in a tool result you received this run. Do NOT invent stats like "40% reduction" or "300% headcount" - the gate will reject and you will have to rewrite. If you do not have a real number, write the sentence without one.
 - must_reads "why": OPINION, not description. NEVER use: "this article provides/shows/highlights/discusses", "shows how", "demonstrates", "showcases", "a great example", "valuable insight", "I appreciate/think/find", "real-world playbook". React to what the piece argues - agree, disagree, or call out what a Staff PM should DO about it.
 - must_reads: 3-5 items. key_takeaways: 3-5. pm_homework: 1-3.
@@ -1034,7 +1119,7 @@ ROUTINE:
 3. fetch_article on items that look important; web_search for context.
 4. Pick ONE opinionated theme grounded in articles you actually read.
 5. Pick 3-5 must_reads (trusted domains only), one contrarian (different URL), write 3-5 key_takeaways, 1-3 pm_homework.
-6. Write editorial: P1 hook (name a specific article + author/company, sharp observation), P2 synthesis (connect 3+ pieces, take position), P3 implication for Staff/Senior PMs.
+6. Write editorial: P1 hook (name a specific article + author/company, sharp observation), P2 synthesis (connect 3+ pieces, take position), P3 implication for the chosen target_audience - speak to their specific leverage, stakeholders, and decisions (a Senior PM's daily reality is different from a Lead/Principal's).
 7. Call publish_edition. Run ends.
 
 Budget: <=14 tool calls before publish. If publish_edition is rejected, fix the specific issue named and call again. Never re-fetch a URL you already fetched in this run: the dispatcher will refuse with "duplicate_fetch". Pick a different URL or proceed to publish with what you have.
