@@ -1,7 +1,119 @@
 {
-  "updated": "2026-06-07T08:21:53.558386+00:00",
-  "total": 525,
+  "updated": "2026-06-08T09:21:27.055588+00:00",
+  "total": 533,
   "items": [
+    {
+      "title": "How Automated WhatsApp to Shopify Listing Saved an Online Fashion Store from Monotonous Tasks",
+      "url": "https://medium.com/@pranuthanjali2005/how-automated-whatsapp-to-shopify-listing-saved-an-online-fashion-store-from-monotonous-tasks-3ba188affb25?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-06-08T09:02:02+00:00",
+      "summary": "Luvvih leveraged iNextLabs' AI-powered WhatsApp automation to automatically sync their apparel catalogue with Shopify, eliminating manual entry and reducing operational friction. This integration streamlined inventory management, freed up staff to focus on higher-value activities, and accelerated time‑to‑market for new fashion items.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Productivity"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "From dashboards to agents:  The new era of product operations",
+      "url": "https://www.productledalliance.com/from-dashboards-to-agents-the-new-era-of-product-operations/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-06-08T07:00:03+00:00",
+      "summary": "The article explains how product operations are moving away from static dashboards toward AI-driven, real‑time agent systems that can proactively surface insights and automate tasks. It highlights the benefits of this shift for speed, accuracy, and cross‑functional coordination, offering guidance for teams to adopt AI-native workflows.",
+      "tags": [
+        "AI Tools",
+        "Product Operations",
+        "Product Strategy"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Why AI Agents Need Dashboards Before They Need More Autonomy",
+      "url": "https://medium.com/@harshdeep18894/why-ai-agents-need-dashboards-before-they-need-more-autonomy-d56cb756d51e?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-06-08T03:26:55+00:00",
+      "summary": "Deploying AI agents in production is more challenging than building them because teams must detect failures and diagnose root causes. Effective dashboards that surface agent performance, error signals, and decision traces are essential before increasing autonomy. Investing in observability tools will enable faster iteration and safer scaling of AI-driven products.",
+      "tags": [
+        "AI Strategy",
+        "AI Tools",
+        "Metrics"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "The Success That Killed Success: Product Cannibalization",
+      "url": "https://www.productcoalition.com/p/the-success-that-killed-success-product",
+      "source": "Product Coalition",
+      "type": "article",
+      "date": "2026-06-08T00:04:51+00:00",
+      "summary": "The article explains how{ } product teams often preemptively cannibalize their own successful offerings to stay ahead of market disruption, turning a cash cow into a strategic liability. It outlines the signals that indicate when to retire or evolve a product, and offers a framework for balancing short-term revenue with long-term innovation.",
+      "tags": [
+        "Product Strategy",
+        "Growth",
+        "Prioritization"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Claude Artifact Player",
+      "url": "https://www.producthunt.com/products/claude-artifact-player",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-07T20:25:19+00:00",
+      "summary": "The article introduces Claude Artifact Player, a tool that enables product teams to execute Claude AI artifacts on local machines, facilitating offline development and testing. This capability streamlines integration of AI features into products while reducing reliance on external services.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Productivity"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "What Product Management Means in the Age of AI",
+      "url": "https://medium.com/@prasanna.5187/what-product-management-means-in-the-age-of-ai-1fd7a002fc25?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-06-07T16:44:10+00:00",
+      "summary": "The article outlines how product management has shifted from a specialized role to a central function as AI becomes integral to product development. It emphasizes the need for product managers to incorporate AI understanding into their decision‑making, strategy, and team leadership to stay competitive in the evolving market.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Leadership"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Tamadoggo",
+      "url": "https://www.producthunt.com/products/tamadoggo",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-07T16:39:30+00:00",
+      "summary": "Tamadoggo is a living journal that captures a pet's daily activities and health data, leveraging AI to generate insights for owners. The platform aims to enhance pet care by turning routine observations into actionable recommendations, creating a continuous feedback loop for both users and veterinarians.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "User Research"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Father of the iPod and iPhone on building taste, judgment, and creativity in the AI era | Tony Fadell",
+      "url": "https://www.lennysnewsletter.com/p/father-of-the-ipod-and-iphone-on",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-06-07T12:31:29+00:00",
+      "summary": "Tony Fadell, the creator of the iPod, iPhone, and Nest, discusses how to cultivate taste, judgment, and creativity when building products in the AI era. He emphasizes balancing opinion with data, the importance of marketing, his \"three generations\" rule for product iteration, and why AI-powered experiences will still require intuitive screen interfaces.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Leadership"
+      ],
+      "is_fallback": false
+    },
     {
       "title": "In Defence of the Right-Brain Leader",
       "url": "https://medium.com/@alex_86019/in-defence-of-the-right-brain-leader-ece84d9f66e8?source=rss------product_management-5",
