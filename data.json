@@ -1,7 +1,175 @@
 {
-  "updated": "2026-06-08T09:21:27.055588+00:00",
-  "total": 533,
+  "updated": "2026-06-09T08:31:33.529686+00:00",
+  "total": 545,
   "items": [
+    {
+      "title": "What My AI Agents Actually Cost and the Unit Economics That Say If They’re Worth It",
+      "url": "https://medium.com/@PopovOnline/what-my-ai-agents-actually-cost-and-the-unit-economics-that-say-if-theyre-worth-it-ce31692c4ed6?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-06-09T08:07:33+00:00",
+      "summary": "The article breaks down the real-world costs of running AI agents, revealing a personal spend of $31,640.50 in a single month and detailing the unit economics needed to determine profitability. It provides a framework for product managers to calculate ROI, evaluate cost structures, and make data‑driven decisions about scaling AI‑powered features.",
+      "tags": [
+        "AI Strategy",
+        "Metrics",
+        "Product Strategy"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "The Document That Didn’t Ring True",
+      "url": "https://medium.com/@alex_86019/the-document-that-didnt-ring-true-e6271d5aa4ff?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-06-09T08:01:03+00:00",
+      "summary": "The author critiques a seemingly polished “{strategy}” document that failed::  :  : :  :  :  :  :   :   :  :       :  :   :   :  :  : : : :  : :.",
+      "tags": [
+        "Product Strategy",
+        "Communication",
+        "Stakeholders"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Hire Top App Development Companies in Washington",
+      "url": "https://medium.com/@edwardmarshall278_88352/hire-top-app-development-companies-in-washington-7f96a79b26f2?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-06-09T07:42:05+00:00",
+      "summary": "The article outlines how enterprise leaders can identify and partner with leading app development firms in Washington's competitive tech corridor, emphasizing criteria such as technical expertise, portfolio relevance, and cultural fit. It provides a step-by-step framework for evaluating vendors, negotiating contracts, and managing the collaboration to ensure project success.",
+      "tags": [
+        "Product Strategy",
+        "Stakeholders",
+        "Competitive Analysis"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "YouTube’s First Product Had Zero Users (Literally)",
+      "url": "https://medium.com/@aryan1999varma/youtubes-first-product-had-zero-users-literally-e5f9d204f085?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-06-09T05:00:14+00:00",
+      "summary": "The article recounts how YouTube's founders, three ex‑PayPal engineers, launched the platform in 2005 with essentially no initial user base, highlighting the humble beginnings and rapid pivot from a simple video sharing experiment to a global product. It underscores the importance of validating ideas quickly, iterating based on early feedback, and scaling aggressively once traction appears.",
+      "tags": [
+        "Product Strategy",
+        "Growth",
+        "Product Culture"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "AgentOS",
+      "url": "https://www.producthunt.com/products/agentos-run-agents-like-a-company",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-08T21:45:38+00:00",
+      "summary": "AgentOS provides a unified control layer that lets product teams orchestrate multiple AI agents, assign tasks, and manage workspaces from a single interface. This centralization streamlines workflow coordination, reduces friction in AI integration, and enables faster iteration on AI-powered features.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Product Design"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "NudgeFile",
+      "url": "https://www.producthunt.com/products/nudgefile",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-08T15:31:56+00:00",
+      "summary": "NudgeFile is an AI-powered solution that automatically organizes, renames, and manages files, reducing manual effort and minimizing errors. For product managers, it offers a scalable way to improve team productivity and data hygiene without requiring extensive user training.",
+      "tags": [
+        "AI Tools",
+        "Productivity",
+        "Product Strategy"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "🎙️ How I AI: Gemini Omni: Clone yourself with AI in under 15 minutes & Shopping with Claude",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-gemini-omni-clone-yourself",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-06-08T15:01:21+00:00",
+      "summary": "The episode explores Gemini Omni, an AI tool that can quickly create a personal AI clone for various tasks, and Claude-powered shopping assistants that enhance the e‑commerce experience. It highlights practical use cases and tips for product teams looking to integrate these AI capabilities into their offerings.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Growth"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "How to create a product localization  strategy for global markets",
+      "url": "https://www.productledalliance.com/how-to-create-a-product-localization-strategy/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-06-08T14:31:00+00:00",
+      "summary": "A product localization strategy tailors your offering to the language, cultural nuances, and expectations of each target market, ensuring smoother entry and higher adoption rates. It outlines how to assess market needs, adapt content and features, and coordinate cross‑functional teams to deliver a culturally resonant experience.",
+      "tags": [
+        "Product Strategy",
+        "Growth",
+        "Stakeholders"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Technical Product Manager",
+      "url": "https://remoteOK.com/remote-jobs/remote-technical-product-manager-worth-ai-1133012",
+      "source": "Remote OK",
+      "type": "job",
+      "date": "2026-06-08T14:00:11+00:00",
+      "summary": "The role calls for a Technical Product Manager at Worth AI to drive the development of a platform that automates onboarding and risk assessment for financial institutions. The candidate will work cross‑functionally with engineering, sales, and customers to translate complex technical ideas into user‑centric solutions, define the product roadmap, and scale the offering in a fast‑moving environment.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Leadership"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Shopping with Claude: How to find quality brands, automate returns, and buy things that last 100 years | Nicole Ruiz",
+      "url": "https://www.lennysnewsletter.com/p/shopping-with-claude",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-06-08T12:03:27+00:00",
+      "summary": "Nicole Ruiz demonstrates how she leverages Claude, an AI assistant, to discover durable, high-quality brands, streamline the returns process for defective items, and reduce administrative overhead. This enables her to allocate more time to personal priorities, illustrating AI's impact on everyday shopping efficiency.",
+      "tags": [
+        "AI Tools",
+        "Productivity",
+        "User Research"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Integration prioritization  scorecard",
+      "url": "https://www.productledalliance.com/integration-prioritization-scorecard-framework/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-06-08T11:16:29+00:00",
+      "summary": "The article introduces a template scorecard designed to prioritize integration requests by evaluating factors such as business impact, engineering effort, and alignment with strategic goals. It helps product managers make data‑driven decisions on what integrations to build, when to schedule them, and why they matter.",
+      "tags": [
+        "Prioritization",
+        "Product Strategy",
+        "Metrics"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Google Buys Compute From SpaceX, Broadcom’s Outlook, Apple’s AI Politics",
+      "url": "https://stratechery.com/2026/google-buys-compute-from-spacex-broadcoms-outlook-apples-ai-politics/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-06-08T10:00:00+00:00",
+      "summary": "Google has secured a partnership with SpaceX to source compute hardware, signaling a strategic push into advanced AI infrastructure. Meanwhile, Broadcom's strong earnings outlook and upcoming Apple announcements at WWDC are expected to further boost Nvidia's market position, highlighting broader industry momentum in AI.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Competitive Analysis"
+      ],
+      "is_fallback": false
+    },
     {
       "title": "How Automated WhatsApp to Shopify Listing Saved an Online Fashion Store from Monotonous Tasks",
       "url": "https://medium.com/@pranuthanjali2005/how-automated-whatsapp-to-shopify-listing-saved-an-online-fashion-store-from-monotonous-tasks-3ba188affb25?source=rss------product_management-5",
