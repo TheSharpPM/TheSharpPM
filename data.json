@@ -1,7 +1,133 @@
 {
-  "updated": "2026-06-10T08:50:25.975463+00:00",
-  "total": 559,
+  "updated": "2026-06-11T09:11:54.985425+00:00",
+  "total": 568,
   "items": [
+    {
+      "title": "Deep Dive: Evals-Driven CI/CD",
+      "url": "https://amyrmahdy.medium.com/deep-dive-evals-driven-ci-cd-d4c7db3d8663?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-06-11T07:31:52+00:00",
+      "summary": "The article examines how integrating evaluation-driven continuous integration and deployment (CI/CD) can eliminate manual bottlenecks, like a CTO's sole review, in fast-paced engineering teams. It highlights leveraging automated evals to accelerate releases, improve reliability, and free senior leaders to focus on higher‑level strategy.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Productivity"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Deep Dive: Why and How Betting Tables?",
+      "url": "https://amyrmahdy.medium.com/deep-dive-why-and-how-betting-tables-9cc19489007c?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-06-11T07:31:13+00:00",
+      "summary": "The article critiques traditional roadmaps as overpromised commitments and argues that agile sprint planning often turns into a negotiation of points rather than focused delivery. It introduces betting tables as a decision‑making framework that aligns teams around shared outcomes, prioritizes work based on measurable impact, and reduces the political frictions of sprint planning.",
+      "tags": [
+        "Product Strategy",
+        "Prioritization",
+        "Stakeholders"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "The PM and PMM Divorce: Who Owns the Story Now?",
+      "url": "https://www.productcoalition.com/p/the-pm-and-pmm-divorce-who-owns-the",
+      "source": "Product Coalition",
+      "type": "article",
+      "date": "2026-06-11T02:37:33+00:00",
+      "summary": "The article traces the historical split between product managers (PMs) and product marketing managers (PMMs), showing how responsibilities for the product narrative have become fragmented. It argues that this division leads to incomplete storytelling and suggests re-aligning ownership to ensure a cohesive product message.",
+      "tags": [
+        "Product Strategy",
+        "Stakeholders",
+        "Communication"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "SpatialChat",
+      "url": "https://www.producthunt.com/products/spatialchat",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-10T18:13:58+00:00",
+      "summary": "The update introduces new spatial audio and interactive layout features to SpatialChat, enhancing user immersion and collaboration during virtual meetings. Product managers can leverage these capabilities to improve engagement metrics and differentiate the platform in the competitive virtual conferencing market.",
+      "tags": [
+        "Product Strategy",
+        "AI Tools",
+        "Growth"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Uber’s Simple Mode is a good step. But it’s not the right problem for Nigeria.",
+      "url": "https://iwalola.medium.com/ubers-simple-mode-is-a-good-step-but-it-s-not-the-right-problem-for-nigeria-4c6e7d2b69f9?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-06-10T14:50:00+00:00",
+      "summary": "Uber Nigeria launched Simple Mode, a simplified app interface aimed at elderly users with larger text and reduced features. While the effort shows attention to user experience, it may not address the core challenges of the Nigerian market, such as connectivity constraints and broader accessibility needs.",
+      "tags": [
+        "Product Strategy",
+        "User Research",
+        "Growth"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "When the problem isn’t the interface",
+      "url": "https://medium.com/@ghimpeteanuangi/when-the-problem-isnt-the-interface-434268d7431e?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-06-10T14:19:07+00:00",
+      "summary": "A case study reveals that a platform handling 70,000 certifications faced complaints about its user experience, but the root cause was not the interface itself. The investigation shows that underlying data quality, workflow constraints, and stakeholder expectations were driving the perceived UX issues, underscoring the need for product managers to look beyond surface design when diagnosing problems.",
+      "tags": [
+        "Product Design",
+        "User Research",
+        "Product Strategy"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Most Package Hacks Get in the Same Way: How I Block Common Entry Points",
+      "url": "https://www.producttalk.org/package-hacks-installer-settings/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-06-10T13:00:45+00:00",
+      "summary": "The article explains how most supply‑chain package hacks exploit a handful of common entry points, and shows that product teams can significantly reduce exposure by applying a few key configuration settings. By proactively hardening these vectors, managers can protect their platforms without needing major architectural overhauls, turning a security concern into a manageable operational practice.",
+      "tags": [
+        "Product Strategy",
+        "Leadership",
+        "Risk"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "CrustRecruiter",
+      "url": "https://www.producthunt.com/products/crustdata-2",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-10T11:49:14+00:00",
+      "summary": "The article introduces CrustRecruiter, a tool that leverages Claude to act as a personalized recruiter, mirroring the hiring intuition and preferences of the user. It explains how the AI can streamline candidate sourcing, screening, and communication, allowing product teams to focus on higher‑level strategic hiring decisions.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Growth"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Fable 5, Anthropic Alignment, AI Tiers",
+      "url": "https://stratechery.com/2026/fable-5-anthropic-alignment-ai-tiers/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-06-10T10:00:00+00:00",
+      "summary": "Fable 5, the public release of Anthropic's Mythos model, demonstrates impressive capabilities but raises concerns about the standards it sets for AI alignment and safety. Product managers need to weigh the trade‑offs between rapid feature rollout and responsible AI governance when integrating such powerful tools into their products.",
+      "tags": [
+        "AI Strategy",
+        "AI Tools",
+        "Product Strategy"
+      ],
+      "is_fallback": false
+    },
     {
       "title": "I Understood What a Branch Was.",
       "url": "https://medium.com/design-bootcamp/i-understood-what-a-branch-was-fd76a6c95c47?source=rss------product_management-5",
