@@ -1,7 +1,119 @@
 {
-  "updated": "2026-06-11T09:11:54.985425+00:00",
-  "total": 568,
+  "updated": "2026-06-12T08:57:58.393108+00:00",
+  "total": 577,
   "items": [
+    {
+      "title": "Quality Management in Manufacturing: How Manufacturers Reduce Defects and Improve Product Quality…",
+      "url": "https://medium.com/@dmexprooperations/quality-management-in-manufacturing-how-manufacturers-reduce-defects-and-improve-product-quality-4132c71a0f5f?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-06-12T08:36:51+00:00",
+      "summary": "The article discusses how modern manufacturers implement quality management systems to systematically reduce defects and enhance product quality, emphasizing the impact on customer satisfaction and regulatory compliance. It outlines strategies such as statistical process control, continuous improvement, and cross‑functional collaboration to drive consistent quality outcomes.",
+      "tags": [
+        "Product Strategy",
+        "Metrics",
+        "Product Culture"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "I Thought Building a Real Estate Marketplace Was About the Tech. I Was Wrong.",
+      "url": "https://medium.com/@bestclasifiedscript/i-thought-building-a-real-estate-marketplace-was-about-the-tech-i-was-wrong-f3fd19e17f9f?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-06-12T08:32:01+00:00",
+      "summary": "The article explains that the biggest challenges for real estate marketplaces stem from market dynamics, trust, and network effects rather than technical implementation. Successful platforms must focus on building liquidity, fostering user confidence, and aligning incentives across buyers, sellers, and agents. Overcoming these non‑technical hurdles is essential for sustainable growth.",
+      "tags": [
+        "Product Strategy",
+        "Growth",
+        "Competitive Analysis"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Bob's CLI",
+      "url": "https://www.producthunt.com/products/bob-s-cli",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-12T03:34:56+00:00",
+      "summary": "Bob's CLI is a local-first AI-powered command line interface that assists developers with coding tasks, learning from individual usage to personalize its suggestions. By running entirely on the user's machine, it offers privacy and offline capability while continuously adapting to each developer's style and preferences.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Productivity"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Renaissance Learning North America: Account Manager II",
+      "url": "https://weworkremotely.com/remote-jobs/renaissance-learning-north-america-account-manager-ii",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-06-11T21:45:28+00:00",
+      "summary": "Renaissance Learning is hiring an Account Manager II to support its K‑12 education technology platform, which powers personalized learning for over a third of U.S. schools and 100+ countries. The role will focus on managing client relationships, driving adoption of the suite of analytics and learning tools, and collaborating across teams to ensure educators achieve measurable student growth.",
+      "tags": [
+        "Product Strategy",
+        "Growth",
+        "Stakeholders"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Harari and the Power of Product Narratives | Richard Faint",
+      "url": "https://medium.com/@richardfaint065/harari-and-the-power-of-product-narratives-richard-faint-6ab6958efbc5?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-06-11T18:27:35+00:00",
+      "summary": "The article explains that customers purchase products based on compelling narratives that promise improvements to their work, status, confidence, or future, rather than isolated features. It emphasizes the role of product leaders in crafting and communicating these stories to drive adoption and loyalty.",
+      "tags": [
+        "Product Strategy",
+        "Leadership",
+        "Product Design"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Beyond Black Box Scores: How Musubi Trains Custom AI for Trust and Safety Teams",
+      "url": "https://www.producttalk.org/beyond-black-box-scores-how-musubi-trains-custom-ai-for-trust-and-safety-teams/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-06-11T13:00:49+00:00",
+      "summary": "The episode examines how Musubi builds bespoke AI moderation models to replace unreliable off‑the‑shelf scores, reducing reliance on costly and psychologically taxing human review. Teresa Torres explores the product strategy, data pipelines, and trust‑safety considerations behind creating custom, transparent AI that aligns with organizational risk thresholds.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Leadership"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Why PhysicsWallah’s Fintech Push Shows Edtech Is Searching for a Second Revenue Engine",
+      "url": "https://medium.com/@harshdeep18894/why-physicswallahs-fintech-push-shows-edtech-is-searching-for-a-second-revenue-engine-9d179e0663d2?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-06-11T11:23:29+00:00",
+      "summary": "PhysicsWallah’s announcement signals that its core ed‑tech model is reaching saturation, prompting the company to explore fintech services as a new growth pillar. For product managers, this underscores the need to diversify revenue streams and integrate financial products that complement the learning experience.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Growth"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "An Interview with Ben Bajarin About Apple, AI, and Compute",
+      "url": "https://stratechery.com/2026/an-interview-with-ben-bajarin-about-apple-ai-and-compute/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-06-11T10:00:00+00:00",
+      "summary": "Ben Bajarin discusses Apple's direction at WWDC, emphasizing how the company is positioning itself within the rapidly evolving AI compute landscape. He highlights Apple's focus on integrating AI capabilities into its hardware and software ecosystem to maintain competitive advantage and deliver seamless user experiences.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Leadership"
+      ],
+      "is_fallback": false
+    },
     {
       "title": "Deep Dive: Evals-Driven CI/CD",
       "url": "https://amyrmahdy.medium.com/deep-dive-evals-driven-ci-cd-d4c7db3d8663?source=rss------product_management-5",
@@ -373,6 +485,20 @@
         "AI Tools",
         "Product Strategy",
         "Product Design"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Firma.dev",
+      "url": "https://www.producthunt.com/products/firma-dev",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-08T15:48:32+00:00",
+      "summary": "Firma.dev offers an API that lets developers embed e‑signature functionality directly into their applications, charging roughly 3¢ per envelope. This low‑cost, pay‑per‑use model can streamline document workflows and open new revenue streams for products that need signing capabilities without building their own infrastructure.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Growth"
       ],
       "is_fallback": false
     },
