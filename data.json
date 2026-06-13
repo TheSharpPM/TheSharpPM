@@ -1,7 +1,97 @@
 {
-  "updated": "2026-06-12T08:57:58.393108+00:00",
-  "total": 577,
+  "updated": "2026-06-13T08:21:00.260528+00:00",
+  "total": 586,
   "items": [
+    {
+      "title": "Google Project Aristotle",
+      "url": "https://medium.com/@sanchib888/google-project-aristotle-052104eba6ee?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-06-13T08:09:00+00:00",
+      "summary": "Why the best teams aren’t made of the best people — and what actually makes teams work Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Where Great Products Begin: The Story Behind Product Design",
+      "url": "https://medium.com/@NebiyatH/where-great-products-begin-the-story-behind-product-design-4d50e5ecbf85?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-06-13T07:51:17+00:00",
+      "summary": "Every product starts with excitement. Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "NomNak",
+      "url": "https://www.producthunt.com/products/nomnak",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-12T19:35:34+00:00",
+      "summary": "Find restaurants through people you trust Discussion | Link",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "2026.24: Hey Siri, Tell Me a Fable",
+      "url": "https://stratechery.com/2026/hey-siri-tell-me-a-fable/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-06-12T17:00:00+00:00",
+      "summary": "The best Stratechery content from the week of June 8, 2026, including Apple finally shipping Intelligence, Anthropic's fable, and the future of European industry.",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Accessibility Resolution Playbook",
+      "url": "https://www.productledalliance.com/accessibility-resolution-playbook/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-06-12T14:55:16+00:00",
+      "summary": "Download the Accessibility Resolution Playbook: a practical guide to fixing digital accessibility issues faster, preventing them from coming back, and building a process your team can repeat.",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "My CEO’s One-Sentence Rule for What to Build Next (I’ve Used It Every Sprint Since)",
+      "url": "https://medium.com/@speed_enginner/my-ceos-one-sentence-rule-for-what-to-build-next-i-ve-used-it-every-sprint-since-49ab58113355?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-06-12T14:01:03+00:00",
+      "summary": "It deleted half our roadmap in one meeting. The half that survived is the only half that ever moved a number. Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "What are the different types of  product roadmap?",
+      "url": "https://www.productledalliance.com/how-can-you-choose-the-right-product-roadmap-for-your-team/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-06-12T11:30:00+00:00",
+      "summary": "Finding the right roadmap can be tricky as it depends on your product, your team, and who is going to be viewing your roadmap. To simplify things here’s some guidance on how to select the right product roadmap for your team.",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Avatars in ElevenCreative",
+      "url": "https://www.producthunt.com/products/avatars-in-elevencreative",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-12T10:07:28+00:00",
+      "summary": "A dedicated entry point for talking-head video Discussion | Link",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Nearcut: Product Manager",
+      "url": "https://weworkremotely.com/remote-jobs/nearcut-product-manager",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-06-12T09:12:55+00:00",
+      "summary": "Headquarters: Berlin, Germany URL: https://nearcut.com/ Location Europe, fully remote The role We are looking for a proactive Product Manager to help us scale our capacity to solve meaningful client problems. You'll be joining our dynamic product team as one of two full-time PMs",
+      "tags": [],
+      "is_fallback": true
+    },
     {
       "title": "Quality Management in Manufacturing: How Manufacturers Reduce Defects and Improve Product Quality…",
       "url": "https://medium.com/@dmexprooperations/quality-management-in-manufacturing-how-manufacturers-reduce-defects-and-improve-product-quality-4132c71a0f5f?source=rss------product_management-5",
