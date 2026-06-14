@@ -1,7 +1,133 @@
 {
-  "updated": "2026-06-13T08:21:00.260528+00:00",
-  "total": 586,
+  "updated": "2026-06-14T08:44:59.187796+00:00",
+  "total": 596,
   "items": [
+    {
+      "title": "How to Disagree Well in a Hierarchy",
+      "url": "https://medium.com/@alex_86019/how-to-disagree-well-in-a-hierarchy-d5ba760002f1?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-06-14T08:06:00+00:00",
+      "summary": "The article explains how senior professionals develop the crucial but rarely taught skill of constructive disagreement within hierarchical structures. It offers practical techniques for voicing dissent respectfully, ensuring ideas are heard without damaging relationships or authority dynamics.",
+      "tags": [
+        "Leadership",
+        "Communication",
+        "Product Culture"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "The Anatomy of Vision, Mission and a binding force that builds your Compass.",
+      "url": "https://medium.com/@praveen.sunkara8634/the-anatomy-of-vision-mission-and-a-binding-force-that-builds-your-compass-5a932a74dbf7?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-06-14T07:33:17+00:00",
+      "summary": "The article breaks down how vision, mission, and a unifying force combine to create a strategic compass for product teams. It explains the roles each component plays in guiding decision‑making and aligning stakeholders around a shared purpose. By articulating these elements clearly, product leaders can steer development toward long‑term impact.",
+      "tags": [
+        "Product Strategy",
+        "Leadership",
+        "Product Culture"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Slashy",
+      "url": "https://www.producthunt.com/products/slashy-3",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-14T04:38:45+00:00",
+      "summary": "Slashy is an AI-driven assistant that automates email composition and management, allowing users to delegate routine email tasks to the AI. For product managers, the tool highlights opportunities to integrate AI into productivity workflows and improve user engagement by reducing friction in communication.",
+      "tags": [
+        "AI Tools",
+        "Productivity",
+        "Product Strategy"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "🔮 Exponential View #578: Fable & time to pause AI; iPhone vs babies; gene therapy, bad CEOs & Chinese Gen Z++",
+      "url": "https://www.exponentialview.co/p/ev-578",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-06-14T03:30:55+00:00",
+      "summary": "The article explores the rapid escalation of AI hype, urging product leaders to pause and assess long‑term implications before overcommitting resources. It also draws parallels between the disruptive impact of the iPhone on consumer behavior and emerging trends such as gene therapy, while highlighting pitfalls of bad CEO decisions and shifting preferences of Chinese Gen Z.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Leadership"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "🧠 Community Wisdom: How AI is changing product operating models, tracking work stress with Whoop, whether you need a portfolio of AI side projects, marketing for tiny teams, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-how-ai-is-changing",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-06-13T20:54:15+00:00",
+      "summary": "The article explores how AI is reshaping product operating models and introduces tools like Whoop for monitoring work stress. It also discusses the value of maintaining a portfolio of AI side projects, strategies for marketing with small teams, and other product leadership insights.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Leadership"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Cloudback for Linear",
+      "url": "https://www.producthunt.com/products/cloudback",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-13T19:00:47+00:00",
+      "summary": "Cloudback introduces automated backup and restore capabilities for Linear workspaces, ensuring that teams can securely preserve their project data and quickly recover from accidental deletions or data loss. The feature integrates directly into Linear, offering a seamless experience for users to schedule backups and initiate restores without leaving the platform.",
+      "tags": [
+        "Product Strategy",
+        "Productivity",
+        "Platform Strategy"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "AI Innovation Explained: How the Fuzzy Front End Turns Product Ideas Into Smart Business Bets",
+      "url": "https://medium.com/data-and-beyond/ai-innovation-explained-how-the-fuzzy-front-end-turns-product-ideas-into-smart-business-bets-ff7acae5651f?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-06-13T18:59:59+00:00",
+      "summary": "The article outlines how applying a structured fuzzy front end (FFE) to AI initiatives helps product teams translate vague concepts into well‑defined business cases and prioritized portfolios. By using FFE techniques, managers can make smarter, data‑driven decisions that align AI ideas with strategic goals and measurable outcomes.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Metrics"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "The Architecture Is the Product",
+      "url": "https://medium.com/@LakshmiNarayana_U/the-architecture-is-the-product-2b970ac5c657?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-06-13T13:26:29+00:00",
+      "summary": "The article explores how dissecting a modest $50 AI script analyzer reveals essential principles for architecting AI solutions across diverse domains. It underscores that the underlying architecture, rather than just the model, determines scalability, adaptability, and product success in AI development.",
+      "tags": [
+        "AI Strategy",
+        "AI Tools",
+        "Product Strategy"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "‼️ A blueprint for managed decline",
+      "url": "https://www.exponentialview.co/p/would-anyone-vote-for-01-growth",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-06-13T10:42:44+00:00",
+      "summary": "The article draws parallels between Piketty’s economic insights and George Orwell’s allegory to illustrate how organizations can intentionally manage decline rather than fight it futilely. It highlights strategic steps—recognizing unsustainable growth, redefining success metrics, and reallocating resources—to transition smoothly toward a leaner, more sustainable operational model.",
+      "tags": [
+        "Product Strategy",
+        "Leadership",
+        "Metrics"
+      ],
+      "is_fallback": false
+    },
     {
       "title": "Google Project Aristotle",
       "url": "https://medium.com/@sanchib888/google-project-aristotle-052104eba6ee?source=rss------product_management-5",
@@ -131,6 +257,20 @@
         "AI Tools",
         "Product Strategy",
         "Productivity"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Product Manager",
+      "url": "https://remoteOK.com/remote-jobs/remote-product-manager-padsplit-1133393",
+      "source": "Remote OK",
+      "type": "job",
+      "date": "2026-06-12T03:26:07+00:00",
+      "summary": "PadSplit seeks a Product Manager to lead the Supply Growth pod, creating and executing a roadmap that speeds up new property activations and scales marketplace supply. The role blends product, sales, marketing, and support functions, requiring strong user research, data analysis, and executive communication to drive measurable KPI improvements.",
+      "tags": [
+        "Growth",
+        "Product Strategy",
+        "Metrics"
       ],
       "is_fallback": false
     },
