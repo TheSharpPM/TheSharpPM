@@ -1501,7 +1501,11 @@ def run_agent():
                 print(f"  [published] {result.get('file')}")
             # Count publish_edition rejections from quality gates so we
             # can bail out instead of looping forever if calibration is
-            # off. The gates all use "Refusing to publish" prefix.
+            # off. The gates all use "Refusing to publish" prefix. Also
+            # re-pin tool_choice to publish_edition on the next
+            # iteration so the agent cannot drift back to research
+            # after a rejection - it must fix the publish call.
+            # MAX_PUBLISH_REJECTS bounds the loop.
             if (tc.function.name == "publish_edition"
                     and isinstance(result, dict)
                     and str(result.get("error", "")).startswith("Refusing to publish")):
@@ -1518,6 +1522,7 @@ def run_agent():
                         f"{str(result.get('error',''))[:300]}"
                     )
                     return 1
+                force_publish_next = True
 
         if published:
             print("\nDone.")
