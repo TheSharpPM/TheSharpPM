@@ -1,7 +1,81 @@
 {
-  "updated": "2026-06-14T08:44:59.187796+00:00",
-  "total": 596,
+  "updated": "2026-06-15T10:56:05.825560+00:00",
+  "total": 604,
   "items": [
+    {
+      "title": "Customer Interviews and A/B Testing: A Practical Guide for UK Product Managers",
+      "url": "https://medium.com/@Bosplan/customer-interviews-and-a-b-testing-a-practical-guide-for-uk-product-managers-c457a61a586f?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-06-15T10:47:51+00:00",
+      "summary": "Introduction Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Build an AI product to improve Netflix recommendations. So what do you do?",
+      "url": "https://medium.com/@likithaeslavath/build-an-ai-product-to-improve-netflix-recommendations-so-what-do-you-do-5c5c124ac067?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-06-15T10:41:46+00:00",
+      "summary": "You’re in the interview. The PM across the table just asked you to design an AI product for Netflix. Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Anthropic’s Safety Superpower",
+      "url": "https://stratechery.com/2026/anthropics-safety-superpower/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-06-15T10:00:00+00:00",
+      "summary": "Anthropic's belief in its own commitment to safety gives the company license to aggressively favor its business and even challenge the U.S. government.",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "A dissection of Higgsfield’s initial conversion funnel",
+      "url": "https://medium.com/@jualonsopo/a-dissection-of-higgsfields-initial-conversion-funnel-ce9790596b9d?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-06-15T07:50:19+00:00",
+      "summary": "The same tactics as Temu, but with silk gloves. A dissection — lever by lever — of how I almost paid several hundred euros without… Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Category Life Cycle Strategy: How to Win at Every Market Stage",
+      "url": "https://medium.com/activated-thinker/category-life-cycle-strategy-how-to-win-at-every-market-stage-3949628053f1?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-06-15T03:48:58+00:00",
+      "summary": "Why Most Brands Fail by Ignoring Category Life Cycles Continue reading on Activated Thinker »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "The hidden pattern behind successful products | Mark Pincus (founder of Zynga)",
+      "url": "https://www.lennysnewsletter.com/p/the-common-pattern-behind-successful",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-06-14T12:31:44+00:00",
+      "summary": "Mark Pincus argues that founders often trust their instincts but miss the mark with their ideas, introducing the \"Proven, Better, New\" framework to evaluate product concepts against what already works, what can be improved, and truly novel solutions. He emphasizes disciplined testing and realistic market validation, lessons he now shares with his children to instill pragmatic product thinking.",
+      "tags": [
+        "Product Strategy",
+        "Leadership",
+        "Product Culture"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Why Your Next Pivot Costs More Than You Think",
+      "url": "https://www.productcoalition.com/p/the-pivot-tax-what-changing-direction",
+      "source": "Product Coalition",
+      "type": "article",
+      "date": "2026-06-14T12:21:59+00:00",
+      "summary": "Five Hidden Costs of Changing Direction That Never Make It Onto the Spreadsheet",
+      "tags": [],
+      "is_fallback": true
+    },
     {
       "title": "How to Disagree Well in a Hierarchy",
       "url": "https://medium.com/@alex_86019/how-to-disagree-well-in-a-hierarchy-d5ba760002f1?source=rss------product_management-5",
@@ -371,6 +445,16 @@
         "Stakeholders"
       ],
       "is_fallback": false
+    },
+    {
+      "title": "Synopsule",
+      "url": "https://www.producthunt.com/products/synopsule",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-11T07:12:07+00:00",
+      "summary": "On device private AI meeting transcripts Discussion | Link",
+      "tags": [],
+      "is_fallback": true
     },
     {
       "title": "The PM and PMM Divorce: Who Owns the Story Now?",
@@ -885,6 +969,16 @@
         "Metrics"
       ],
       "is_fallback": false
+    },
+    {
+      "title": "PandaProbe Cloud",
+      "url": "https://www.producthunt.com/products/pandaprobe-cloud",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-08T01:39:21+00:00",
+      "summary": "agent engineering, fully managed. Discussion | Link",
+      "tags": [],
+      "is_fallback": true
     },
     {
       "title": "The Success That Killed Success: Product Cannibalization",
@@ -7787,19 +7881,6 @@
         "AI Tools",
         "Growth",
         "Product Strategy"
-      ]
-    },
-    {
-      "title": "VideoOS by Jupitrr AI",
-      "url": "https://www.producthunt.com/products/jupitrr",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-03-17T01:34:49+00:00",
-      "summary": "The article introduces VideoOS by Jupitrr AI, an integrated platform that streamlines video creation, editing, and distribution for product teams. It emphasizes how the tool can accelerate content workflows, improve collaboration, and enable data-driven decisions on video performance.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Productivity"
       ]
     }
   ]
