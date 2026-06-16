@@ -1,7 +1,117 @@
 {
-  "updated": "2026-06-15T10:56:05.825560+00:00",
-  "total": 604,
+  "updated": "2026-06-16T10:11:36.181938+00:00",
+  "total": 615,
   "items": [
+    {
+      "title": "Fox Buys Roku, The Problem With Fox’s Smart Strategy, Streaming That Works",
+      "url": "https://stratechery.com/2026/fox-buys-roku-the-problem-with-foxs-smart-strategy-streaming-that-works/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-06-16T10:00:00+00:00",
+      "summary": "Fox's acquisition of Roku has sparked market backlash, as analysts see the move as a risky shift from content licensing to leveraging streaming distribution assets. The deal could turn Fox into a rent-seeker, extracting more value from rights holders without clear strategic benefits for consumers.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Competitive Analysis"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Why Pure Usage Pricing is Failing AI Companies (And Why Tiers are Winning)",
+      "url": "https://medium.com/@saaslogicmarketing/why-pure-usage-pricing-is-failing-ai-companies-and-why-tiers-are-winning-7f719de05f1d?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-06-16T09:50:52+00:00",
+      "summary": "The article argues that pure usage-based pricing models are underperforming for AI SaaS businesses because they create unpredictable revenue and discourage adoption, especially for high‑value features. It recommends shifting to tiered pricing structures that balance predictability, value perception, and scalability, enabling clearer positioning and better alignment with customer needs.",
+      "tags": [
+        "AI Strategy",
+        "Pricing",
+        "Product Strategy"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "A transformation journey: Building a globally distributed, high-performing IT team",
+      "url": "https://medium.com/@volvogroup/a-transformation-journey-building-a-globally-distributed-high-performing-it-team-c9551017ca82?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-06-16T09:31:00+00:00",
+      "summary": "In the fast-evolving world of automotive technology, innovation does not happen in isolation. At Volvo Group, North America, our software… Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Architecting the Portfolio: A B2B Guide to Sourcing 120mm, 240mm, and 360mm AIO Dimensions",
+      "url": "https://medium.com/@linengcooling9/architecting-the-portfolio-a-b2b-guide-to-sourcing-120mm-240mm-and-360mm-aio-dimensions-42c4e84749a6?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-06-16T09:05:56+00:00",
+      "summary": "For PC hardware brand owners, international distributors, and e-commerce sellers, building a liquid cooling product line is a balancing… Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "3 ways product teams  get Arabic localization wrong",
+      "url": "https://www.productledalliance.com/3-ways-product-teams-get-arabic-localization-wrong/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-06-16T07:55:47+00:00",
+      "summary": "Flipping your UI to RTL is not localization. Here's what actually is.",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Mongoose: Head of Marketing, Product & GTM",
+      "url": "https://weworkremotely.com/remote-jobs/mongoose-head-of-marketing-product-gtm",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-06-15T20:31:20+00:00",
+      "summary": "Headquarters: Buffalo / Atlanta / Austin / Boston / Chicago / Denver / Los Angeles / New York City / Oakland / Portland / San Francisco / Seattle / Philadelphia As Vice President of Marketing, you will ensure that Marketing is a strategic growth partner embedded in how this busin...",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "🎙️ How I AI: Claude Fable 5 review & How Braintrust uses AI agents, evals, and CI to ship better software",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-claude-fable-5-review-and",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-06-15T15:01:32+00:00",
+      "summary": "The episode reviews Claude Fable 5, highlighting its new capabilities for generating reliable code suggestions and contextual reasoning. It also examines how Braintrust leverages AI agents, evaluation frameworks, and continuous integration to accelerate software delivery and improve product quality.",
+      "tags": [
+        "AI Tools",
+        "AI Strategy",
+        "Product Strategy"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "📈 Data to start your week",
+      "url": "https://www.exponentialview.co/p/data-to-start-your-week-15-june-2026",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-06-15T14:36:13+00:00",
+      "summary": "The brief highlights three trending topics: ongoing AI developments alongside widespread tech job cuts, China’s rapid progress in nuclear energy positioning it as a global leader, and emerging concerns linking GLP-1 weight‑loss drugs to cancer risks. For product leaders, the piece underscores the need to monitor AI workforce impacts, evaluate geopolitical shifts in energy tech, and stay vigilant about health‑related regulatory and safety issues in related product categories.",
+      "tags": [
+        "AI Strategy",
+        "Competitive Analysis",
+        "Product Strategy"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "How Braintrust uses AI agents, evals, and CI to ship better software | Ankur Goyal",
+      "url": "https://www.lennysnewsletter.com/p/how-braintrust-uses-ai-agents-evals",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-06-15T12:04:03+00:00",
+      "summary": "Ankur Goyal explains how Braintrust leverages AI agents, automated evaluation frameworks, and continuous integration to streamline software development, treating evals like modern PRDs that embed product taste at scale. This approach helps the team ship higher‑quality features faster while maintaining consistency across distributed work.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Product Design"
+      ],
+      "is_fallback": false
+    },
     {
       "title": "Customer Interviews and A/B Testing: A Practical Guide for UK Product Managers",
       "url": "https://medium.com/@Bosplan/customer-interviews-and-a-b-testing-a-practical-guide-for-uk-product-managers-c457a61a586f?source=rss------product_management-5",
@@ -201,6 +311,16 @@
         "Metrics"
       ],
       "is_fallback": false
+    },
+    {
+      "title": "Releasely",
+      "url": "https://www.producthunt.com/products/releasely",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-13T08:50:58+00:00",
+      "summary": "Three changelogs from every release -for indie SaaS founders Discussion | Link",
+      "tags": [],
+      "is_fallback": true
     },
     {
       "title": "Google Project Aristotle",
@@ -1780,6 +1900,16 @@
         "Product Strategy",
         "Metrics"
       ]
+    },
+    {
+      "title": "Tendlet",
+      "url": "https://www.producthunt.com/products/tendlet",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-05-30T21:46:04+00:00",
+      "summary": "Know, plan, and share care for pets and plants Discussion | Link",
+      "tags": [],
+      "is_fallback": true
     },
     {
       "title": "🧠 Community Wisdom: Catching people using AI during an interview, org design when everything lives in one person’s head, when to rename your product, from nurse to health-tech PM, and more",
