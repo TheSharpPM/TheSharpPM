@@ -1,7 +1,101 @@
 {
-  "updated": "2026-06-16T10:11:36.181938+00:00",
-  "total": 615,
+  "updated": "2026-06-17T09:32:34.222848+00:00",
+  "total": 625,
   "items": [
+    {
+      "title": "How AI Products Actually Get Better: Map of Levers",
+      "url": "https://parthtiwary.medium.com/how-ai-products-actually-get-better-map-of-levers-6ee9c5e8a25f?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-06-17T09:02:23+00:00",
+      "summary": "The article outlines a framework of levers that product teams can manipulate to continuously improve AI-driven products, emphasizing strategic prioritization over hype. It guides Product Managers on aligning AI capabilities with user needs, measuring impact, and iterating responsibly.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Metrics"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Cross-Functional Team Alignment: How Product Design Teams Stay Connected Without Meeting Overload",
+      "url": "https://medium.muz.li/cross-functional-team-alignment-how-product-design-teams-stay-connected-without-meeting-overload-a2814d4c555f?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-06-17T08:49:37+00:00",
+      "summary": "The article outlines strategies for product design teams to maintain alignment and collaboration while avoiding excessive meetings, emphasizing asynchronous communication, shared design systems, and clear documentation. By leveraging tools like shared boards, regular design reviews, and concise syncs, teams can stay connected, make faster decisions, and keep momentum without meeting fatigue.",
+      "tags": [],
+      "is_fallback": false
+    },
+    {
+      "title": "What Separates Great Product Managers from Everyone Else?",
+      "url": "https://medium.com/@sohag933/what-separates-great-product-managers-from-everyone-else-03e82a4681dc?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-06-17T05:29:46+00:00",
+      "summary": "The article argues that top Product Managers differentiate themselves by moving beyond static frameworks and roadmaps, emphasizing deep customer insight, iterative experimentation, and cross-functional influence. It highlights the importance of strategic thinking, stakeholder alignment, and a data-driven mindset to drive product impact.",
+      "tags": [
+        "Product Strategy",
+        "Leadership",
+        "Product Culture"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Why Voice AI in India Needs Hinglish, Context, and Workflow Fit More Than Perfect Speech…",
+      "url": "https://medium.com/@harshdeep18894/why-voice-ai-in-india-needs-hinglish-context-and-workflow-fit-more-than-perfect-speech-5b45c42b90ff?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-06-17T04:18:05+00:00",
+      "summary": "The article argues that successful Voice AI in India must support Hinglish, understand conversational context, and integrate seamlessly into users' existing workflows, rather than focusing solely on flawless speech recognition. It highlights WhatsApp as the de‑facto voice AI platform for Indian users, illustrating the importance of meeting native linguistic habits and practical usage patterns.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "User Research"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "The DIKW Problem: Product Teams Drown in Dashboards but Starve for Judgement",
+      "url": "https://www.productcoalition.com/p/the-metric-that-ate-product-management",
+      "source": "Product Coalition",
+      "type": "article",
+      "date": "2026-06-16T21:43:17+00:00",
+      "summary": "The article explains how product teams often overload themselves with raw data visualizations (dashboards) but lack the higher-level judgement needed to turn that data into actionable decisions, as highlighted by the DIKW (Data‑Information‑Knowledge‑Wisdom) pyramid. It urges PMs to focus on converting information into insights and wisdom through context, interpretation, and strategic framing rather than merely accumulating more dashboards.",
+      "tags": [
+        "Data",
+        "Product Strategy",
+        "Metrics"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Organizational Change is Exhausting - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "url": "https://www.producttalk.org/organizational-change-is-exhausting-all-things-product-podcast-with-teresa-torres-petra-wille/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-06-16T13:00:14+00:00",
+      "summary": "In this episode, Teresa Torres and Petra Wille discuss how forced organizational change drains energy and why focusing on people and processes often yields little impact. They propose a shift toward aligning on outcomes, empowering autonomous teams, and fostering a culture of continuous learning to drive sustainable product improvements.",
+      "tags": [
+        "Leadership",
+        "Product Culture",
+        "Stakeholders"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Chief Product Officer Virtual 2026",
+      "url": "https://www.productledalliance.com/chief-product-officer-virtual-2026/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-06-16T12:41:18+00:00",
+      "summary": "The Chief Product Officer Virtual 2026 event focuses on emerging trends in product leadership, including AI integration, cross-functional collaboration, and data-driven decision making. Attendees will explore strategies for scaling product teams, driving growth, and aligning product roadmaps with business objectives.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Leadership"
+      ],
+      "is_fallback": false
+    },
     {
       "title": "Fox Buys Roku, The Problem With Fox’s Smart Strategy, Streaming That Works",
       "url": "https://stratechery.com/2026/fox-buys-roku-the-problem-with-foxs-smart-strategy-streaming-that-works/",
@@ -51,6 +145,20 @@
       "is_fallback": true
     },
     {
+      "title": "Mirlo",
+      "url": "https://www.producthunt.com/products/mirlo",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-16T08:44:36+00:00",
+      "summary": "Mirlo aims to create a social platform focused on authentic interactions by removing likes and algorithmic feeds, encouraging users to engage in genuine conversations. This approach positions the product as a counter‑trend to attention‑driven networks, requiring careful strategy around user acquisition, retention, and community moderation.",
+      "tags": [
+        "Product Strategy",
+        "User Research",
+        "Product Culture"
+      ],
+      "is_fallback": false
+    },
+    {
       "title": "3 ways product teams  get Arabic localization wrong",
       "url": "https://www.productledalliance.com/3-ways-product-teams-get-arabic-localization-wrong/",
       "source": "Product-Led Alliance",
@@ -59,6 +167,20 @@
       "summary": "Flipping your UI to RTL is not localization. Here's what actually is.",
       "tags": [],
       "is_fallback": true
+    },
+    {
+      "title": "Senior Product Manager",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-product-manager-distru-1133455",
+      "source": "Remote OK",
+      "type": "job",
+      "date": "2026-06-16T06:00:04+00:00",
+      "summary": "Distru, the leading ERP for the cannabis industry, powers $3B in annual sales and recently launched Distru Commerce, a B2B marketplace that merges internal operations with wholesale sales. The company is now embedding AI throughout its platform to enhance compliance, supply‑chain efficiency, and future growth.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Growth"
+      ],
+      "is_fallback": false
     },
     {
       "title": "Mongoose: Head of Marketing, Product & GTM",
@@ -2416,6 +2538,20 @@
         "Platform Strategy",
         "Productivity"
       ]
+    },
+    {
+      "title": "Docfarm",
+      "url": "https://www.producthunt.com/products/docfarm",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-05-26T13:42:32+00:00",
+      "summary": "Docfarm is a platform that lets teams host, share, and monitor all AI-generated assets in a centralized hub, improving visibility and collaboration across projects. It provides tracking features that help product managers assess usage, quality, and impact of AI outputs, enabling better decision‑making and iteration.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Product Culture"
+      ],
+      "is_fallback": false
     },
     {
       "title": "Product management  skills framework",
