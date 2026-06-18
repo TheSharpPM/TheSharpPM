@@ -1,7 +1,119 @@
 {
-  "updated": "2026-06-17T09:32:34.222848+00:00",
-  "total": 625,
+  "updated": "2026-06-18T09:40:29.799052+00:00",
+  "total": 633,
   "items": [
+    {
+      "title": "What is Ailing? Is it the Product? or Sales?",
+      "url": "https://sankha-perera.medium.com/what-is-ailing-is-it-the-product-or-sales-c4b73122bed9?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-06-18T09:21:36+00:00",
+      "summary": "The article explores the common dilemma early‑stage founders face: whether declining performance is due to product flaws or sales execution. It offers a framework to diagnose the root cause by examining product‑market fit, customer feedback, and sales processes, helping founders prioritize improvements.",
+      "tags": [
+        "Product Strategy",
+        "Growth",
+        "Prioritization"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Nobody Objected. Nobody Used It.",
+      "url": "https://medium.com/@notes.people.org/nobody-objected-nobody-used-it-fd520fc0ed9a?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-06-18T08:57:34+00:00",
+      "summary": "The article describes a case where a team developed a customer feedback collection system that, despite being built, saw no adoption because no stakeholders raised objections or engaged with it. It highlights the importance of actively validating demand and aligning product initiatives with user needs before investing resources.",
+      "tags": [
+        "User Research",
+        "Product Strategy",
+        "Stakeholders"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "How ChatGPT Made Chegg’s 79-Million-Answer Moat Worthless in Five Months?",
+      "url": "https://asksia-ai.medium.com/how-chatgpt-made-cheggs-79-million-answer-moat-worthless-in-five-months-675f3cc48fde?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-06-18T07:51:08+00:00",
+      "summary": "The article examines how ChatGPT quickly eroded Chegg's massive repository of 79 million answered questions, demonstrating that generative AI can render large, static knowledge bases obsolete within months. It highlights the urgent need for product managers to rethink content strategies, focus on AI integration, and build defensible, dynamic value propositions.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Growth"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Why AI Models Are Becoming a Commodity (And What to Build Instead)",
+      "url": "https://angelina-yang.medium.com/why-ai-models-are-becoming-a-commodity-and-what-to-build-instead-e33d2f69e73f?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-06-18T01:01:01+00:00",
+      "summary": "The article argues that AI models are turning into commodities, reducing their value as a source of competitive advantage. Product managers should shift focus from building proprietary models to creating differentiated applications, data assets, and user experiences that leverage these ubiquitous models.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Retool",
+      "url": "https://www.producthunt.com/products/retool",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-17T16:53:04+00:00",
+      "summary": "Retool is a low-code platform that enables product teams to quickly build internal tools and applications across various environments, while providing governance features to maintain security and compliance. For product managers, it offers a way to accelerate development cycles, reduce reliance on engineering resources, and ensure consistent oversight of data and user access across the organization.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Platform Strategy"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "How to design AI agent loops: schedules, goals, and subagents in Claude Code and Codex",
+      "url": "https://www.lennysnewsletter.com/p/how-to-design-ai-agent-loops-schedules",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-06-17T12:04:04+00:00",
+      "summary": "The article breaks down the different types of AI agent loops—heartbeats, cron schedules, goal‑oriented loops, and sub‑agents—explaining how they can be orchestrated in Claude Code and Codex to automate repetitive development tasks. It demonstrates live builds where autonomous agents handle PR workflows, reducing manual oversight and speeding up delivery cycles.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Productivity"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "🔮 Is AI immune to groupthink?",
+      "url": "https://www.exponentialview.co/p/is-ai-immune-to-groupthink",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-06-17T11:16:04+00:00",
+      "summary": "The article examines how AI councils—groups of AI models used for decision‑making—can fall prey to groupthink, mirroring human biases when their outputs are stress‑tested against each other. It highlights the need for robust evaluation frameworks and diverse model ensembles to ensure AI recommendations remain objective and reliable.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Metrics"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "The State of Fable, The Jailbreak Problem, SpaceX Acquires Cursor",
+      "url": "https://stratechery.com/2026/the-state-of-fable-the-jailbreak-problem-spacex-acquires-cursor/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-06-17T10:00:00+00:00",
+      "summary": "The article briefly comments on the current perception of Anthropic's Fable, suggesting that while the administration's view may be inaccurate, the responsibility ultimately lies with Anthropic. It also hints at broader industry movements like the 'jailbreak' problem and SpaceX's acquisition of the AI tool Cursor.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Competitive Analysis"
+      ],
+      "is_fallback": false
+    },
     {
       "title": "How AI Products Actually Get Better: Map of Levers",
       "url": "https://parthtiwary.medium.com/how-ai-products-actually-get-better-map-of-levers-6ee9c5e8a25f?source=rss------product_management-5",
@@ -93,6 +205,20 @@
         "AI Strategy",
         "Product Strategy",
         "Leadership"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Honestly",
+      "url": "https://www.producthunt.com/products/honestly",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-16T10:10:37+00:00",
+      "summary": "The article aggregates authentic user feedback from Reddit and TikTok to reveal candid opinions about your product, highlighting both praise and pain points. Analyzing this raw sentiment can guide product improvements, identify unmet needs, and inform roadmap prioritization. Leveraging these platforms as real-time research channels helps you stay aligned with your audience and iterate faster.",
+      "tags": [
+        "User Research",
+        "Product Strategy",
+        "Growth"
       ],
       "is_fallback": false
     },
@@ -8134,19 +8260,6 @@
         "AI Tools",
         "Product Strategy",
         "Risk Management"
-      ]
-    },
-    {
-      "title": "Ghostwriter",
-      "url": "https://www.producthunt.com/products/ghostwriter-5",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-03-20T05:27:03+00:00",
-      "summary": "Ghostwriter is an AI-powered assistant that helps users craft and schedule posts for LinkedIn and X, streamlining content creation and publishing workflows. It aims to boost engagement and reach by providing on‑demand writing support and analytics for social media managers.",
-      "tags": [
-        "AI Tools",
-        "Growth",
-        "Product Strategy"
       ]
     }
   ]
