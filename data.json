@@ -1,7 +1,133 @@
 {
-  "updated": "2026-06-18T09:40:29.799052+00:00",
-  "total": 633,
+  "updated": "2026-06-19T09:54:18.308374+00:00",
+  "total": 643,
   "items": [
+    {
+      "title": "You Tokenized the Asset. Now What?",
+      "url": "https://medium.com/@taherpittalvala/you-tokenized-the-asset-now-what-fb810d4b1db4?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-06-19T09:26:01+00:00",
+      "summary": "The article discusses how 2026 marks a turning point for digital assets, with clearer regulations and growing institutional interest driving tokenization of real-world assets. For product managers, this signals an urgent need to design platforms that can handle tokenized assets securely, integrate with emerging compliance frameworks, and unlock new revenue streams.",
+      "tags": [
+        "Product Strategy",
+        "Platform Strategy",
+        "Growth"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "EP104 Why Your A/B Test Winners Disappear After Launch",
+      "url": "https://www.productcoalition.com/p/ep104-why-your-ab-test-winners-disappear",
+      "source": "Product Coalition",
+      "type": "article",
+      "date": "2026-06-19T09:01:30+00:00",
+      "summary": "Andrea Bronzini explains why A/B test winners often fade after launch, highlighting the shortcomings of conventional testing methods and the role of statistical noise. He also presents new tools and approaches to make more reliable growth decisions and sustain improvements.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Growth"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "How Leesa Fazal Supports Sustainable Business Growth Through Strategic Project Management",
+      "url": "https://medium.com/@leesa-fazal/how-leesa-fazal-supports-sustainable-business-growth-through-strategic-project-management-17f33e1dcc02?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-06-19T08:45:01+00:00",
+      "summary": "The article explains how Leesa Fazal leverages strategic project management to drive sustainable business growth, emphasizing the importance of aligning projects with long‑term objectives and stakeholder expectations. It highlights practical frameworks for prioritizing initiatives, measuring impact, and fostering a culture of continuous improvement.",
+      "tags": [
+        "Product Strategy",
+        "Leadership",
+        "Growth"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Mutter AI Dictation",
+      "url": "https://www.producthunt.com/products/mutter-ai-dictation",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-19T05:41:54+00:00",
+      "summary": "Mutter AI Dictation allows users to speak their ideas aloud and receive a refined, written version, streamlining the transition from raw thoughts to polished content. This tool can accelerate brainstorming sessions, documentation, and communication for product teams.",
+      "tags": [
+        "AI Tools",
+        "Productivity",
+        "Communication"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "The Question Every UX Researcher Dreads: “What Impact Did This Research Have?”",
+      "url": "https://medium.com/@alisoneakin/the-question-every-ux-researcher-dreads-what-impact-did-this-research-have-025aebf38b30?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-06-19T03:12:24+00:00",
+      "summary": "The article explains how the author created an AI-driven agent that automatically links UX research activities to business outcomes, making the often‑tangible impact of research visible in metrics and decision‑making. It provides a practical framework for product teams to demonstrate research value and integrate insights into product strategy.",
+      "tags": [
+        "User Research",
+        "Metrics",
+        "Product Strategy"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "How Zepto Can Expand into Pet Grooming: A Mobile Van Marketplace Strategy",
+      "url": "https://medium.com/@anujsrivastava2509/how-zepto-can-expand-into-pet-grooming-a-mobile-van-marketplace-strategy-4ee4e5234303?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-06-19T02:33:54+00:00",
+      "summary": "The article proposes that Zepto leverage its mobile van network to create a marketplace for on-demand pet grooming services, tapping into a growing pet care market and differentiating its brand. It outlines a product strategy that includes partner onboarding, location-based scheduling, and a revenue-sharing model, while highlighting the need for pilot testing and metrics to assess adoption and profitability.",
+      "tags": [
+        "Product Strategy",
+        "Growth",
+        "AI Tools"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Staff Product Manager Product Information Management",
+      "url": "https://remoteOK.com/remote-jobs/remote-staff-product-manager-product-information-management-highlevel-1133598",
+      "source": "Remote OK",
+      "type": "job",
+      "date": "2026-06-18T14:00:03+00:00",
+      "summary": "HighLevel is an AI-powered business operating system that consolidates conversations, automation, and intelligence for agencies, entrepreneurs, and SMBs, enabling them to scale and reduce operational complexity. The platform processes billions of API calls and messages daily, leveraging massive distributed data and microservices to deliver a unified infrastructure that drives significant ecosystem value.",
+      "tags": [
+        "AI Strategy",
+        "Platform Strategy",
+        "Product Strategy"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "QuackScreen",
+      "url": "https://www.producthunt.com/products/quackscreen",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-18T13:03:49+00:00",
+      "summary": "QuackScreen is a MacBook utility that captures screenshots, allows drag‑and‑drop editing, and enables easy sharing directly from the notch area. It streamlines visual communication for teams, reducing context switches and speeding up feedback loops.",
+      "tags": [
+        "Productivity",
+        "Product Design",
+        "Growth"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "An Interview with Michael Morton About E-Commerce in the Age of AI",
+      "url": "https://stratechery.com/2026/an-interview-with-michael-morton-about-e-commerce-in-the-age-of-ai/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-06-18T10:00:00+00:00",
+      "summary": "Michael Morton discusses how AI is reshaping e‑commerce, highlighting the difficulty of testing extreme scenarios, the trade‑offs between distribution and referral models, and emerging opportunities in grocery and autonomous vehicle delivery. He emphasizes the strategic implications for product teams navigating AI‑driven logistics and customer experience.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Growth"
+      ],
+      "is_fallback": false
+    },
     {
       "title": "What is Ailing? Is it the Product? or Sales?",
       "url": "https://sankha-perera.medium.com/what-is-ailing-is-it-the-product-or-sales-c4b73122bed9?source=rss------product_management-5",
@@ -177,6 +303,20 @@
         "Data",
         "Product Strategy",
         "Metrics"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Product Manager",
+      "url": "https://remoteOK.com/remote-jobs/remote-product-manager-ripjar-1133665",
+      "source": "Remote OK",
+      "type": "job",
+      "date": "2026-06-16T19:25:59+00:00",
+      "summary": "Ripjar, founded by ex‑GCHQ experts, offers AI‑native intelligence tools that help governments, banks, and enterprises detect and prevent serious financial crime in real time. The platform processes hundreds of millions of records daily, empowering users to combat money laundering, terrorist financing, and other illicit activities at scale.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Data"
       ],
       "is_fallback": false
     },
