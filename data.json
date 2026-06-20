@@ -1,7 +1,119 @@
 {
-  "updated": "2026-06-19T09:54:18.308374+00:00",
-  "total": 643,
+  "updated": "2026-06-20T08:56:52.865250+00:00",
+  "total": 653,
   "items": [
+    {
+      "title": "Stop Fixing Screens. Start Fixing Decisions",
+      "url": "https://medium.com/@hamdan.joa/stop-fixing-screens-start-fixing-decisions-3a52dbb28cde?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-06-20T08:32:11+00:00",
+      "summary": "The article argues that product teams waste effort polishing screens while the real bottleneck lies in suboptimal decision-making processes. By shifting focus from cosmetic tweaks to improving how decisions are made—through better frameworks, data, and cross‑functional alignment—teams can drive more meaningful product outcomes.",
+      "tags": [
+        "Product Strategy",
+        "Leadership",
+        "Decision Making"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "The First Version of Your Product Is Built Long Before Development Starts",
+      "url": "https://medium.com/@navyashreebc/the-first-version-of-your-product-is-built-long-before-development-starts-46a2df8d679a?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-06-20T07:17:40+00:00",
+      "summary": "The article explains that the real work of product creation happens during the decision‑making phase, where the product's vision, requirements, and roadmap are defined before any code is written. It emphasizes the importance of rigorous planning, stakeholder alignment, and strategic prioritization to ensure the subsequent development phase executes efficiently.",
+      "tags": [
+        "Product Strategy",
+        "Prioritization",
+        "Stakeholders"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "How I Developed a Product Strategy for Ryzly V2: A Product Management Case Study",
+      "url": "https://medium.com/@ayodeleboluwatife50/how-i-developed-a-product-strategy-for-ryzly-v2-a-product-management-case-study-793f89c45726?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-06-20T06:44:56+00:00",
+      "summary": "The article walks through the author's step‑by‑step approach to crafting the product strategy for Ryzly V2, covering market analysis, user research, prioritization frameworks, and roadmap creation. It highlights how cross‑functional stakeholder alignment and data‑driven decisions shaped the feature set and positioning of the new version.",
+      "tags": [
+        "Product Strategy",
+        "Stakeholders",
+        "Product Design"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Too Many Doors to the Same Room",
+      "url": "https://medium.com/@nasirmaan/too-many-doors-to-the-same-room-ebd01a0d7c46?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-06-20T03:41:39+00:00",
+      "summary": "At the Databricks summit, the author observed a company repeatedly creating redundant entry points to the same problem, leading to inefficiencies. By consolidating these 'doors' into a single streamlined approach, the team not only corrected the mistake but also unlocked greater scalability and faster decision‑making.",
+      "tags": [
+        "Product Strategy",
+        "Product Design",
+        "Product Culture"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "2026.25: The Stuff of Myth(os)",
+      "url": "https://stratechery.com/2026/the-stuff-of-mythos/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-06-19T17:00:00+00:00",
+      "summary": "This week's Stratechery roundup highlights Anthropic's latest moves in foundation model development, the transformative impact of AI on e-commerce business models, and a surprisingly data‑driven analysis of the NBA Finals' viewership surge. For product managers, the pieces underscore how generative AI is reshaping platform strategy and competitive dynamics, and they suggest new metrics for evaluating AI‑enabled consumer experiences.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Competitive Analysis"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Mercury Insurance Services: Senior Software Engineer",
+      "url": "https://weworkremotely.com/remote-jobs/mercury-insurance-services-senior-software-engineer",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-06-19T16:50:05+00:00",
+      "summary": "Mercury Insurance is hiring a Senior Software Engineer to design, develop, and maintain complex systems while leading agile teams and mentoring junior engineers. The role emphasizes high-quality delivery, cross-functional collaboration, and contributes to the company's award-winning culture and growth.",
+      "tags": [
+        "Leadership",
+        "Product Strategy",
+        "Team Management"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "blended.io: (Senior) Full-Stack Engineer (Remote)",
+      "url": "https://weworkremotely.com/remote-jobs/blended-io-senior-full-stack-engineer-remote",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-06-19T16:50:05+00:00",
+      "summary": "blended.io is a Berlin-based tech studio that creates cross‑platform digital products and services for startups and corporates, emphasizing robust engineering, performance, security, and scalability. They are hiring a (Senior) Full‑Stack Engineer to collaborate with senior engineers and designers on web, mobile, automotive, watch, and TV experiences. The role offers remote work and the chance to contribute to end‑to‑end product development across hardware and software touchpoints.",
+      "tags": [
+        "Product Design",
+        "Platform Strategy",
+        "Growth"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "How Indeed built an AI product  that users love",
+      "url": "https://www.productledalliance.com/how-indeed-built-an-ai-product-that-users-love/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-06-19T15:00:43+00:00",
+      "summary": "Indeed spent eight months developing an AI-powered product, culminating in a single launch that resonated strongly with users. The rollout highlighted three key lessons: aligning AI capabilities with real user needs, iterating quickly based on feedback, and measuring impact to drive continuous improvement. These takeaways offer a blueprint for product teams aiming to create AI solutions that deliver tangible value.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Product Design"
+      ],
+      "is_fallback": false
+    },
     {
       "title": "You Tokenized the Asset. Now What?",
       "url": "https://medium.com/@taherpittalvala/you-tokenized-the-asset-now-what-fb810d4b1db4?source=rss------product_management-5",
@@ -73,6 +185,20 @@
       "is_fallback": false
     },
     {
+      "title": "pumaDB",
+      "url": "https://www.producthunt.com/products/pumadb",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-19T02:39:34+00:00",
+      "summary": "pumaDB is a lightweight, hosted memory layer designed to store and retrieve contextual information for AI agents, enabling faster and more efficient knowledge handling. It aims to simplify integration of persistent memory into AI applications, improving agent performance and scalability.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Product Design"
+      ],
+      "is_fallback": false
+    },
+    {
       "title": "How Zepto Can Expand into Pet Grooming: A Mobile Van Marketplace Strategy",
       "url": "https://medium.com/@anujsrivastava2509/how-zepto-can-expand-into-pet-grooming-a-mobile-van-marketplace-strategy-4ee4e5234303?source=rss------product_strategy-5",
       "source": "Medium Strategy",
@@ -83,6 +209,20 @@
         "Product Strategy",
         "Growth",
         "AI Tools"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Slackbot’s MCP Client",
+      "url": "https://www.producthunt.com/products/slack",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-18T19:14:40+00:00",
+      "summary": "The article introduces Slackbot’s MCP (Multi-Channel Presence) client, which enables users to interact with over 20 integrated applications directly within Slack, supporting real-time multiplayer collaboration. This tool streamlines workflows by centralizing app functionalities, reducing context switching, and fostering coordinated teamwork across teams.",
+      "tags": [
+        "AI Tools",
+        "Productivity",
+        "Collaboration"
       ],
       "is_fallback": false
     },
