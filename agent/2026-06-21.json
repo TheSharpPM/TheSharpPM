@@ -1,0 +1,46 @@
+{
+  "edition": "2026-06-21",
+  "headline_theme": "AI Agents Elevate, Don't Replace PMs",
+  "target_audience": "Staff PM",
+  "editorial": "Lenny Rachitsky’s recent piece on designing Claude Code loops makes clear why most teams still drown in manual triage. He shows that even a sophisticated agent needs a human‑crafted schedule and explicit sub‑goals, otherwise it spews output that no one can act on. The same author’s review of Claude Fable 5 reinforces the point: agents can draft specs or even snippets of code, but they hallucinate enough to wreck a sprint if left unchecked. Together with Reforge’s “Moving To Higher Ground” essay, which argues that AI is stripping away low‑value PM chores while inflating the premium on strategic judgment, a pattern emerges – the role isn’t vanishing, it’s being re‑weighted.\n\nThe synthesis is simple. Automation is no longer a future promise; it’s already pruning the daily grind of status updates, template‑driven roadmaps, and basic prioritization matrices. Reforge notes that as these chores disappear, the remaining work – setting vision, weighing trade‑offs, and rallying cross‑functional teams – becomes dramatically scarcer and thus more valuable. But the Lenny pieces also warn that agents bring their own failure modes: ambiguous prompts, hidden biases, and outright fabrications. The only way to reap the speed gains without collateral damage is to embed validation loops, treat AI output as a hypothesis, and keep the human in the decision loop. The contrarian view from Wired’s “AI agents won’t replace product managers, they’ll just make them busier” argues that the net workload will rise because managers will spend more time policing bots, but that claim underestimates how disciplined process redesign can flip the equation.\n\nStaff PMs, this is your moment to lead the redesign. Your leverage lies in the intersection of strategy and execution – you can dictate where agents add value and where they must be barred. Start by auditing any recurring, rule‑based task in your team’s cadence and prototype an AI assistant for it, then build a strict validation checklist before any output reaches engineering or leadership. Communicate the experiment’s guardrails clearly, and use the data to champion a scalable, human‑first AI workflow across the org.",
+  "key_takeaways": [
+    "Routine PM tasks are already being automated, not just in theory.",
+    "Strategic judgment becomes the premium skill as low‑value work disappears.",
+    "AI agents hallucinate; validation loops are non‑negotiable.",
+    "Process redesign, not tool adoption, determines net productivity gains."
+  ],
+  "must_reads": [
+    {
+      "source": "lennysnewsletter.com",
+      "title": "How to design AI agent loops: schedules, goals, and subagents in Claude Code and Codex",
+      "url": "https://www.lennysnewsletter.com/p/how-to-design-ai-agent-loops-schedules",
+      "why": "Rachitsky proves that without a human‑crafted loop, agents drown teams in noise, so PMs must own the schedule and goal hierarchy."
+    },
+    {
+      "source": "lennysnewsletter.com",
+      "title": "Claude Fable 5 review & how Braintrust uses AI agents, evals, and CI to ship better software",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-claude-fable-5-review-and",
+      "why": "The review spotlights hallucination risk, reminding PMs that AI‑generated specs need the same rigor as any other deliverable."
+    },
+    {
+      "source": "reforge.com",
+      "title": "Moving To Higher Ground: Product Management In The Age of AI",
+      "url": "https://www.reforge.com/blog/ai-impact-product-management",
+      "why": "The essay argues the function won’t disappear; instead, the core strategic layer becomes the decisive competitive edge."
+    }
+  ],
+  "contrarian": {
+    "note": "Challenges the thesis that agents free up capacity, claiming they shift work to oversight.",
+    "source": "wired.com",
+    "title": "AI agents won’t replace product managers, they’ll just make them busier",
+    "url": "https://www.wired.com/story/ai-agents-product-managers-busy"
+  },
+  "also_worth": [],
+  "pm_homework": [
+    "Audit one recurring, rule‑based task and prototype an AI assistant for it.",
+    "Create a validation checklist for any AI‑generated output before it reaches stakeholders.",
+    "Run a 30‑minute alignment session with engineering to define guardrails for the experiment."
+  ],
+  "generated_at": "2026-06-21T11:33:23.617354+00:00",
+  "model_used": "openai/gpt-oss-120b"
+}

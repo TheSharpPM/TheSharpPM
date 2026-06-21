@@ -1,6 +1,11 @@
 {
   "editions": [
     {
+      "date": "2026-06-21",
+      "headline_theme": "AI Agents Elevate, Don't Replace PMs",
+      "file": "agent/2026-06-21.json"
+    },
+    {
       "date": "2026-06-15",
       "headline_theme": "AI Agents Speed Up, But At What Cost?",
       "file": "agent/2026-06-15.json"
@@ -36,5 +41,5 @@
       "file": "agent/2026-05-03.json"
     }
   ],
-  "updated_at": "2026-06-15T12:55:48.822752+00:00"
+  "updated_at": "2026-06-21T11:33:23.617650+00:00"
 }
