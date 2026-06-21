@@ -1,7 +1,101 @@
 {
-  "updated": "2026-06-20T08:56:52.865250+00:00",
-  "total": 653,
+  "updated": "2026-06-21T09:32:46.584959+00:00",
+  "total": 663,
   "items": [
+    {
+      "title": "How to Coach Junior People Doing Work Above Their Pay Grade",
+      "url": "https://medium.com/@alex_86019/how-to-coach-junior-people-doing-work-above-their-pay-grade-176bf3c4e844?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-06-21T09:01:02+00:00",
+      "summary": "The article discusses how product leaders can effectively coach junior team members who are taking on responsibilities beyond their seniority or compensation level. It offers practical strategies for setting clear expectations, providing mentorship, and ensuring that such contributors receive appropriate recognition and growth opportunities without burning out. By aligning coaching with both individual development and organizational goals, managers can turn these situations into win‑wins for talent retention and product delivery.",
+      "tags": [
+        "Leadership",
+        "Product Culture",
+        "Growth"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Project Management vs Product Management",
+      "url": "https://medium.com/@dev.mukharjee2021/project-management-vs-product-management-acafa2126608?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-06-21T08:34:46+00:00",
+      "summary": "The article clarifies the distinct roles of project management and product management, emphasizing that while project managers focus on timelines, resources, and execution, product managers are responsible for vision, market fit, and the product lifecycle. Understanding these differences helps teams align responsibilities and drive better outcomes.",
+      "tags": [
+        "Product Strategy",
+        "Leadership",
+        "Prioritization"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "🔮 Product eats the AI company; the bitter lesson prevails; Fable 5 as CEO, undersea diplomacy & jellyfish sleep++ #579",
+      "url": "https://www.exponentialview.co/p/ev-579",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-06-21T03:12:26+00:00",
+      "summary": "The article argues that successful AI ventures must prioritize product excellence over tech hype, echoing the \"bitter lesson\" that raw compute alone won’t create lasting value. It highlights recent moves like Fable 5’s CEO transition and emerging trends in undersea diplomacy and novel AI applications, underscoring the need for disciplined product strategy and cross‑functional leadership.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Leadership"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Agent 37",
+      "url": "https://www.producthunt.com/products/agent-37-38",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-20T19:03:23+00:00",
+      "summary": "Give every customer their own Hermes or OpenClaw agent Discussion | Link",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "300 Million Users — and 7 in 10 Never Pay",
+      "url": "https://medium.com/@ashwalgowda5/300-million-users-and-7-in-10-never-pay-aebebb84569f?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-06-20T17:55:51+00:00",
+      "summary": "The article analyzes Disney+ Hotstar's user funnel, highlighting that while the platform boasts 300 million users, 70% never convert to paying subscribers. It offers insights on leveraging free-tier engagement to foster paid loyalty through strategic product and growth tactics.",
+      "tags": [
+        "Growth",
+        "Product Strategy",
+        "Retention"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "To Make Research Change Decisions, Stop Delivering Reports",
+      "url": "https://jonnyjiangphd.medium.com/to-make-research-change-decisions-stop-delivering-reports-63b133c3490b?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-06-20T17:40:48+00:00",
+      "summary": "The article argues that product research often fails to drive decisions because insights are presented as static reports instead of persuasive arguments integrated into the decision‑making process. To create impact, researchers should embed findings directly into discussions, tailor narratives to stakeholders, and make insights actionable rather than merely delivering documents.",
+      "tags": [
+        "Product Strategy",
+        "User Research",
+        "Communication"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "🧠 Community Wisdom: Fractional CPO compensation, free e-signature tools, why some users pay but never use your product, sharing Claude Code context across a team, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-fractional-cpo-compensation",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-06-20T15:53:05+00:00",
+      "summary": "The article shares community insights on topics relevant to product managers, including how to structure fractional CPO compensation, recommendations for free e‑signature tools, reasons why users may pay without ever using a product, and best practices for sharing Claude code context across teams. It also highlights additional tips and resources to improve product workflows and team collaboration.",
+      "tags": [
+        "Product Strategy",
+        "Product Design",
+        "Product Culture"
+      ],
+      "is_fallback": false
+    },
     {
       "title": "Stop Fixing Screens. Start Fixing Decisions",
       "url": "https://medium.com/@hamdan.joa/stop-fixing-screens-start-fixing-decisions-3a52dbb28cde?source=rss------product_management-5",
@@ -13,6 +107,20 @@
         "Product Strategy",
         "Leadership",
         "Decision Making"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Product Manager",
+      "url": "https://remoteOK.com/remote-jobs/remote-product-manager-cambridge-spark-1133737",
+      "source": "Remote OK",
+      "type": "job",
+      "date": "2026-06-20T08:09:54+00:00",
+      "summary": "The article outlines a Product Manager position within the Product and Technology department, based remotely in the UK with occasional travel to London. It highlights the role's focus on driving product vision, coordinating cross‑functional teams, and delivering customer‑centric solutions.",
+      "tags": [
+        "Product Strategy",
+        "Leadership",
+        "Growth"
       ],
       "is_fallback": false
     },
@@ -41,6 +149,20 @@
         "Product Strategy",
         "Stakeholders",
         "Product Design"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Growth Product Manager",
+      "url": "https://remoteOK.com/remote-jobs/remote-growth-product-manager-altaml-1133729",
+      "source": "Remote OK",
+      "type": "job",
+      "date": "2026-06-20T06:00:08+00:00",
+      "summary": "The Growth Product Manager at Brilliant Harvest will own the onboarding and activation journey for newly signed heavy equipment dealers, turning them into self-sufficient and reference customers. The role blends growth tactics with deep field research, translating customer success insights into scalable product features and feedback loops that drive activation and retention.",
+      "tags": [
+        "Growth",
+        "Product Strategy",
+        "Retention"
       ],
       "is_fallback": false
     },
@@ -211,6 +333,16 @@
         "AI Tools"
       ],
       "is_fallback": false
+    },
+    {
+      "title": "Grok by SpaceXAI for Word",
+      "url": "https://www.producthunt.com/products/grok-by-spacexai-for-word",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-18T20:55:25+00:00",
+      "summary": "Draft, restructure & tighten wording from panel inside Word Discussion | Link",
+      "tags": [],
+      "is_fallback": true
     },
     {
       "title": "Slackbot’s MCP Client",
