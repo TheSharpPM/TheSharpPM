@@ -1,7 +1,105 @@
 {
-  "updated": "2026-06-21T09:32:46.584959+00:00",
-  "total": 663,
+  "updated": "2026-06-22T11:04:31.568582+00:00",
+  "total": 670,
   "items": [
+    {
+      "title": "Shipping Fast Is Not a Substitute for Product Validation",
+      "url": "https://medium.com/@nadkarnigaurav/shipping-fast-is-not-a-substitute-for-product-validation-e918015db682?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-06-22T10:52:56+00:00",
+      "summary": "The article argues that accelerating development cycles is valuable only when product teams have a clear understanding of the problem they're solving. Without rigorous validation, faster shipping can amplify mistakes rather than deliver meaningful outcomes. It emphasizes the need for disciplined discovery before scaling velocity.",
+      "tags": [
+        "Product Strategy",
+        "Product Design",
+        "Prioritization"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Shipping Fast Is Not a Substitute for Product Validation",
+      "url": "https://medium.com/@nadkarnigaurav/shipping-fast-is-not-a-substitute-for-product-validation-e918015db682?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-06-22T10:52:56+00:00",
+      "summary": "The article argues that accelerating shipping speed is meaningless without first validating product ideas, emphasizing the need for rigorous product validation before development. It stresses that teams should prioritize confirming customer needs and problem fit to ensure that faster delivery translates into real value.",
+      "tags": [
+        "Product Strategy",
+        "Product Design",
+        "Metrics"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "The art and science of setting priorities",
+      "url": "https://medium.com/@kagreig/the-art-and-science-of-setting-priorities-87cec7009ecc?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-06-22T10:36:29+00:00",
+      "summary": "The article argues that traditional scoring systems for backlog prioritization are overly mathematical and suggests moving to a more intuitive, funnel-based approach. It emphasizes balancing data-driven insights with practical judgment to streamline decision-making for product teams.",
+      "tags": [
+        "Prioritization",
+        "Product Strategy",
+        "Leadership"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Apple Price Increases, Apple Intelligence and the E.U.",
+      "url": "https://stratechery.com/2026/apple-price-increases-apple-intelligence-and-the-e-u/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-06-22T10:00:00+00:00",
+      "summary": "Apple announced price hikes across its product lineup while also revealing that its new AI assistant, Apple Intelligence, will not be launched in the European Union due to regulatory concerns. The move highlights the trade‑off between monetization and navigating EU AI rules, forcing product teams to adjust rollout strategies and pricing models.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Competitive Analysis"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "The Relationship the System Never Showed You",
+      "url": "https://medium.muz.li/the-relationship-the-system-never-showed-you-10d4fda86485?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-06-22T09:34:42+00:00",
+      "summary": "The article shares a design case study revealing how unnoticed user behavior can unintentionally disrupt personalized experiences like Spotify Wrapped. It highlights the importance of anticipating edge cases and testing UI interactions to maintain trust and delight in data-driven features.",
+      "tags": [
+        "Product Design",
+        "User Research",
+        "Growth"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Cloudflare Temporary Accounts",
+      "url": "https://www.producthunt.com/products/cloudflare",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-22T03:39:10+00:00",
+      "summary": "The article discusses Cloudflare's introduction of temporary accounts that allow agents to deploy services before completing the full signup process, aiming to streamline onboarding and reduce friction. This feature is positioned to improve early user experience and accelerate adoption by letting prospects trial core functionality instantly.",
+      "tags": [
+        "Product Strategy",
+        "Growth",
+        "User Research"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Building the most AI-pilled engineering team in the world | Fiona Fung (Manager of the Claude Code and Cowork Teams)",
+      "url": "https://www.lennysnewsletter.com/p/building-the-most-ai-pilled-engineering",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-06-21T12:31:43+00:00",
+      "summary": "Fiona Fung discusses how she builds an engineering team that fully embraces AI, integrating agents into daily workflows while preserving the team's culture. She shares strategies for navigating blurred roles, fostering collaboration, and scaling AI-driven productivity across the Claude Code and Cowork teams.",
+      "tags": [
+        "AI Strategy",
+        "Product Culture",
+        "Leadership"
+      ],
+      "is_fallback": false
+    },
     {
       "title": "How to Coach Junior People Doing Work Above Their Pay Grade",
       "url": "https://medium.com/@alex_86019/how-to-coach-junior-people-doing-work-above-their-pay-grade-176bf3c4e844?source=rss------product_management-5",
@@ -2386,6 +2484,20 @@
         "Productivity"
       ],
       "is_fallback": true
+    },
+    {
+      "title": "Skybridge",
+      "url": "https://www.producthunt.com/products/skybridge",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-03T10:19:34+00:00",
+      "summary": "Skybridge is an open‑source full‑stack React framework designed to accelerate the development of MCP (multi‑channel platform) applications. It offers integrated tooling, pre‑built components, and deployment pipelines to help product teams ship features faster while maintaining consistency across channels.",
+      "tags": [
+        "Product Strategy",
+        "Product Design",
+        "Productivity"
+      ],
+      "is_fallback": false
     },
     {
       "title": "The Nvidia AI PC, Project Solara, Microsoft AI",
@@ -8659,19 +8771,6 @@
         "Product Design",
         "AI Tools",
         "Productivity"
-      ]
-    },
-    {
-      "title": "Plurai",
-      "url": "https://www.producthunt.com/products/plurai",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-03-23T09:57:44+00:00",
-      "summary": "The article discusses Plurai's Vibe‑train evaluation framework and its customizable guardrails, enabling teams to align AI behavior with specific product use cases. By tailoring these controls, product managers can ensure safer, more relevant AI outputs while maintaining flexibility for rapid iteration.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Risk Management"
       ]
     }
   ]
