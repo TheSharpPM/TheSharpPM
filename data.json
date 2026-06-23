@@ -1,7 +1,107 @@
 {
-  "updated": "2026-06-22T11:04:31.568582+00:00",
-  "total": 670,
+  "updated": "2026-06-23T09:01:04.488373+00:00",
+  "total": 678,
   "items": [
+    {
+      "title": "Stop Obsessing Over Churn. Fix This Metric First.",
+      "url": "https://medium.com/@seo_12249/stop-obsessing-over-churn-fix-this-metric-first-481ce33ec4ab?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-06-23T07:44:19+00:00",
+      "summary": "The article argues that churn is merely a symptom of deeper product issues and that founders often mistake it for the root cause, leading to wasted time and resources. It advises product managers to identify and address the underlying metric driving churn before focusing on churn reduction itself.",
+      "tags": [
+        "Metrics",
+        "Product Strategy",
+        "Leadership"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "I Gave My AI Skills a Memory and a Pair of Hands",
+      "url": "https://medium.com/all-about-claude/i-gave-my-ai-skills-a-memory-and-a-pair-of-hands-656af414719c?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-06-23T07:38:48+00:00",
+      "summary": "The article details how the author transformed an open-source AI prompt library into an interactive teammate that retains past decisions, visualizes its reasoning, and avoids silent actions. This new capability enhances collaboration and transparency for product teams.",
+      "tags": [
+        "AI Tools",
+        "Product Culture",
+        "Product Strategy"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "The AI Era Demands Delight: Why Utility is No Longer a Product Moat",
+      "url": "https://medium.com/@raphaellondner/the-ai-era-demands-delight-why-utility-is-no-longer-a-product-moat-76e5d452ac88?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-06-23T06:24:31+00:00",
+      "summary": "The article argues that as AI makes basic functionality ubiquitous, product leaders must focus on creating emotional connections to differentiate their offerings. By engineering delight and memorable experiences, companies can drive higher retention, revenue, and referrals despite the commoditization of utility.",
+      "tags": [
+        "Product Strategy",
+        "Retention",
+        "Product Culture"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "SPARK Matrix™ Insights: Benchmarking the Global Product Management Platforms Market",
+      "url": "https://medium.com/@gargiben954/spark-matrix-insights-benchmarking-the-global-product-management-platforms-market-e34321d7dbf6?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-06-23T06:23:10+00:00",
+      "summary": "QKS Group’s Product Management Platforms market offers an in-depth evaluation of the global ecosystem, highlighting emerging technology… Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "HotkeyClash",
+      "url": "https://www.producthunt.com/products/hotkeyclash",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-23T05:50:06+00:00",
+      "summary": "Find where your Mac keyboard shortcuts clash Discussion | Link",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "🎙️ How I AI: How to write AI agent loops in Claude Code and Codex + How Claude Mythos found a 15-year-old bug in Mozilla Firefox",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-to-write-ai-agent-loops",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-06-22T15:02:37+00:00",
+      "summary": "The episode walks product leaders through practical techniques for building AI agent loops using Claude Code and Codex, highlighting how these tools can automate decision-making and improve user experiences. It also shares a case study where Claude Mythos identified a 15‑year‑old bug in Mozilla Firefox, illustrating the power of AI for uncovering hidden technical debt.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Product Culture"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Bluerails Discovery",
+      "url": "https://www.producthunt.com/products/bluerails-discovery",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-22T14:12:05+00:00",
+      "summary": "The rails AI agents use to find and pay you Discussion | Link",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "How Claude Mythos found a 15-year-old bug in Mozilla Firefox | Brian Grinstead",
+      "url": "https://www.lennysnewsletter.com/p/how-claude-mythos-found-a-15-year",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-06-22T12:03:06+00:00",
+      "summary": "The episode explains how the Claude Mythos system leveraged a goal‑loop methodology to uncover a 15‑year‑old vulnerability in Mozilla Firefox, highlighting the blend of AI-driven detection with human expertise. For product managers, it showcases the importance of integrating AI tools into security workflows and measuring their impact through concrete fix counts and cycle times.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Metrics"
+      ],
+      "is_fallback": false
+    },
     {
       "title": "Shipping Fast Is Not a Substitute for Product Validation",
       "url": "https://medium.com/@nadkarnigaurav/shipping-fast-is-not-a-substitute-for-product-validation-e918015db682?source=rss------product_management-5",
