@@ -1,7 +1,161 @@
 {
-  "updated": "2026-06-23T09:01:04.488373+00:00",
-  "total": 678,
+  "updated": "2026-06-24T08:49:18.245049+00:00",
+  "total": 690,
   "items": [
+    {
+      "title": "Overcome Template Thinking: Unlock Your Team’s Full Potential With AI",
+      "url": "https://medium.com/@nikovasan/overcome-template-thinking-unlock-your-teams-full-potential-with-ai-d884bd696b9d?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-06-24T07:45:36+00:00",
+      "summary": "The article explains that AI adoption stalls when teams default to using only familiar, limited features—a habit called \"template thinking.\" It proposes strategies for product managers to broaden AI usage across workflows, encouraging experimentation and cross‑functional collaboration to fully unlock AI's potential.",
+      "tags": [
+        "AI Strategy",
+        "Product Culture",
+        "Leadership"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Why Product Managers Make Surprisingly Good Parents",
+      "url": "https://medium.com/@vaamica/why-product-managers-make-surprisingly-good-parents-d57a765579ae?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-06-24T07:31:42+00:00",
+      "summary": "The article draws parallels between product management and parenting, showing how skills like stakeholder management, prioritization, and data-driven decision making translate into effective parenting. It highlights how PMs' focus on iteration, empathy, and clear communication can help navigate the unpredictable challenges of raising children.",
+      "tags": [
+        "Product Strategy",
+        "Leadership",
+        "Prioritization"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Why Custom Math Models Are the New Battleground for iGaming Operators",
+      "url": "https://medium.com/@edwardliu_58187/why-custom-math-models-are-the-new-battleground-for-igaming-operators-735e3dfa469c?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-06-24T06:28:36+00:00",
+      "summary": "The article argues that iGaming operators can no longer rely on sheer game volume or larger bonuses to stand out; instead, they must invest in bespoke mathematical models to personalize player experiences and optimize profitability. Custom models become a critical competitive advantage, enabling operators to fine‑tune odds, promotions, and risk management in ways that generic solutions cannot.",
+      "tags": [
+        "Product Strategy",
+        "Competitive Analysis",
+        "Data"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Ruby",
+      "url": "https://www.producthunt.com/products/ruby-7",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-24T05:43:46+00:00",
+      "summary": "The article emphasizes the importance of asking better, more insightful questions during live calls to drive clearer understanding and more effective decision‑making. It suggests practical techniques for framing questions that uncover user needs, surface risks, and align stakeholders, ultimately improving meeting outcomes and product direction.",
+      "tags": [
+        "Communication",
+        "Leadership",
+        "Product Culture"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Behind Every Great Product is a PM Managing Chaos",
+      "url": "https://medium.com/@sohag933/behind-every-great-product-is-a-pm-managing-chaos-33d8cb7b2c1b?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-06-24T03:41:40+00:00",
+      "summary": "The article reveals that effective product management goes beyond roadmaps and feature launches, focusing on orchestrating chaos, aligning stakeholders, and making swift decisions amid uncertainty. It emphasizes the PM's role in turning ambiguity into clear priorities and maintaining momentum toward product success.",
+      "tags": [
+        "Product Strategy",
+        "Leadership",
+        "Productivity"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Must-Have Web Content Accessibility Checklist",
+      "url": "https://www.productledalliance.com/must-have-web-content-accessibility-checklist/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-06-23T14:37:51+00:00",
+      "summary": "The article provides a concise, actionable checklist to help product teams navigate web accessibility standards and embed inclusive design into their workflows. By following this framework, product managers can ensure their products meet compliance requirements and deliver a better experience for all users.",
+      "tags": [
+        "AI Strategy",
+        "Product Design",
+        "Product Culture"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Creating Experiences - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "url": "https://www.producttalk.org/creating-experiences-all-things-product-podcast-with-teresa-torres-petra-wille/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-06-23T13:00:23+00:00",
+      "summary": "In this episode, Teresa Torres and Petra Wille discuss how to design memorable experiences, not just events, and share practical methods for product teams to apply experience design principles. They highlight the importance of intentional storytelling, user empathy, and iterative prototyping to create impactful product experiences.",
+      "tags": [
+        "Product Strategy",
+        "User Research",
+        "Product Design"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "The new inner game: Your unfair advantage in the age of AI",
+      "url": "https://www.lennysnewsletter.com/p/the-new-inner-game-your-unfair-advantage",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-06-23T12:45:59+00:00",
+      "summary": "The article presents a playbook for leveraging AI as a personal competitive edge, emphasizing mindset shifts and practical tactics to thrive amid the massive disruption AI brings to work. It guides product managers on adopting AI‑enhanced decision‑making, continuous learning, and strategic positioning to turn the upheaval into a sustainable advantage.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "Leadership"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "How product managers improve relevance  in AI-powered recommendation systems",
+      "url": "https://www.productledalliance.com/how-product-managers-improve-relevance-in-ai-powered-recommendation-systems/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-06-23T11:04:40+00:00",
+      "summary": "The article explains the \"relevance gap\" in AI-powered recommendation systems, showing how focusing solely on metrics can lead to poor user experiences. It offers product managers practical steps to align relevance metrics with real user satisfaction, ensuring recommendations feel personalized and valuable.",
+      "tags": [
+        "AI Strategy",
+        "Metrics",
+        "Product Strategy"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Memory Chips and China, Microsoft and Chinese Models",
+      "url": "https://stratechery.com/2026/memory-chips-and-china-microsoft-and-chinese-models/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-06-23T10:00:00+00:00",
+      "summary": "The article warns that the leading memory chip manufacturers may face backlash for enabling Chinese memory producers, potentially reshaping the competitive landscape. Meanwhile, Microsoft has strong incentives to adopt Chinese AI models, highlighting strategic tensions in technology sourcing and AI partnerships.",
+      "tags": [
+        "AI Strategy",
+        "Competitive Analysis",
+        "Product Strategy"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Biology Research Expert — $65 $95 hour",
+      "url": "https://remoteOK.com/remote-jobs/remote-biology-research-expert-65-95-hour-24-mag-1133980",
+      "source": "Remote OK",
+      "type": "job",
+      "date": "2026-06-23T08:19:19+00:00",
+      "summary": "A part‑time consulting role is open for experts in biology and life sciences to support remote projects that involve experimental design, data analysis, and scientific reporting. The consultant will review scientific scenarios, evaluate outputs, provide structured feedback, and ensure high‑quality execution of biology‑focused workflows.",
+      "tags": [
+        "Data",
+        "Product Strategy",
+        "Stakeholders"
+      ],
+      "is_fallback": false
+    },
     {
       "title": "Stop Obsessing Over Churn. Fix This Metric First.",
       "url": "https://medium.com/@seo_12249/stop-obsessing-over-churn-fix-this-metric-first-481ce33ec4ab?source=rss------product_management-5",
@@ -63,6 +217,20 @@
       "summary": "Find where your Mac keyboard shortcuts clash Discussion | Link",
       "tags": [],
       "is_fallback": true
+    },
+    {
+      "title": "Crewdle AI",
+      "url": "https://www.producthunt.com/products/crewdle",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-22T15:45:08+00:00",
+      "summary": "Crewdle AI aggregates a wide range of business AI tools into a single platform, eliminating the need for multiple subscriptions. This unified access streamlines workflow and reduces costs, enabling product teams to experiment and integrate AI capabilities more efficiently.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Productivity"
+      ],
+      "is_fallback": false
     },
     {
       "title": "🎙️ How I AI: How to write AI agent loops in Claude Code and Codex + How Claude Mythos found a 15-year-old bug in Mozilla Firefox",
