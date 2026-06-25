@@ -1,7 +1,119 @@
 {
-  "updated": "2026-06-24T08:49:18.245049+00:00",
-  "total": 690,
+  "updated": "2026-06-25T08:56:03.653347+00:00",
+  "total": 701,
   "items": [
+    {
+      "title": "How to Reduce Software Development Costs: 4 Proven Ways",
+      "url": "https://medium.com/@pragmaticcoders/how-to-reduce-software-development-costs-4-proven-ways-b81313034d00?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-06-25T07:57:54+00:00",
+      "summary": "The article outlines four actionable strategies to lower software development expenses, such as tightening scope definition, automating repetitive tasks, leveraging open‑source components, and adopting more efficient development processes. It highlights how these tactics can improve team productivity and reduce waste, delivering higher ROI for product initiatives.",
+      "tags": [
+        "Product Strategy",
+        "Productivity",
+        "Metrics"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "The Real Difference Between a $5K Designer and a $50K Designer",
+      "url": "https://medium.muz.li/the-real-difference-between-a-5k-designer-and-a-50k-designer-9ae98214b2ae?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-06-25T06:54:04+00:00",
+      "summary": "The article argues that the true value of a high-cost designer lies not in polish or fancy animations, but in their ability to deeply understand the core problem and boldly address it. This problem‑solving mindset distinguishes a $50K designer from a $5K one.",
+      "tags": [
+        "Product Design",
+        "Leadership",
+        "Product Strategy"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Freshers Are Not Junior Seniors: Why Entry-Level Hiring Assessment Needs a Different Logic",
+      "url": "https://medium.com/@pmishra_89980/freshers-are-not-junior-seniors-why-entry-level-hiring-assessment-needs-a-different-logic-7073812d2802?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-06-25T06:45:58+00:00",
+      "summary": "The article argues that entry‑level candidates should not be assessed using the same criteria as senior hires, as their potential and skill sets differ fundamentally. It proposes a distinct evaluation framework that focuses on learning ability, cultural fit, and growth potential rather than senior‑level performance metrics.",
+      "tags": [
+        "Hiring",
+        "Product Strategy",
+        "Leadership"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Observational Instinct Over Credentials: The Kunal Shah Playbook",
+      "url": "https://medium.com/@simran2002vaidya/observational-instinct-over-credentials-the-kunal-shah-playbook-83d69b902017?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-06-25T05:54:58+00:00",
+      "summary": "The article dissects Kunal Shah’s playbook, emphasizing the power of observational instincts and real‑world insights over formal credentials when building and scaling products. It uses Meta’s $900 million investment in CRED as a case study to illustrate how deep market understanding, user behavior observation, and strategic positioning drive massive growth and valuation.",
+      "tags": [
+        "Product Strategy",
+        "Growth",
+        "Leadership"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Rimini Street: Sr. Support Engineer, EBS",
+      "url": "https://weworkremotely.com/remote-jobs/rimini-street-sr-support-engineer-ebs",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-06-24T22:25:04+00:00",
+      "summary": "Rimini Street is hiring a Sr. Support Engineer for its EBS portfolio, focusing on delivering mission‑critical support and managed services for Oracle, SAP, and VMware applications. The role emphasizes leveraging the company's Agentic AI ERP solutions to improve client outcomes, lower costs, and free resources for strategic initiatives.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Product Culture"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Origami Risk: Technical Partnerships Manager",
+      "url": "https://weworkremotely.com/remote-jobs/origami-risk-technical-partnerships-manager",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-06-24T22:25:04+00:00",
+      "summary": "The Technical Partnerships Manager will design and scale the technical infrastructure of Origami Risk’s third‑party ecosystem within the Origami Marketplace, driving new paid partnership programs and revenue forecasts. The role blends commercial acumen with partnership engineering to unlock meaningful growth opportunities through premium marketplace collaborations.",
+      "tags": [
+        "Growth",
+        "Stakeholders",
+        "Product Strategy"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "GLM 5.2: why I’m replacing Opus in Claude Code with this new model",
+      "url": "https://www.lennysnewsletter.com/p/glm-52-why-im-replacing-opus-in-claude",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-06-24T12:03:52+00:00",
+      "summary": "The article explores the author's experience swapping Opus for the open-weight GLM‑5.2 model in Claude Code, detailing its performance across code audits, UI redesigns, and a 45‑minute autonomous bug‑hunting session using Cursor. The author highlights the model's efficiency, noting it completed the tasks for just $3.36, suggesting a cost‑effective alternative for AI‑assisted development workflows.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Productivity"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "My Vibe Coding Adventure, The App and the Experience, Ten Takeaways",
+      "url": "https://stratechery.com/2026/my-vibe-coding-adventure-the-app-and-the-experience-ten-takeaways/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-06-24T10:00:00+00:00",
+      "summary": "The article chronicles the author’s hands‑on journey building a personal “vibe coding” app, highlighting practical insights from design through deployment. It distills ten key takeaways—including the importance of rapid prototyping, user‑centered feedback loops, and aligning technical choices with long‑term usage goals—that can guide product managers in creating habit‑forming tools.",
+      "tags": [
+        "Product Strategy",
+        "Product Design",
+        "Growth"
+      ],
+      "is_fallback": false
+    },
     {
       "title": "Overcome Template Thinking: Unlock Your Team’s Full Potential With AI",
       "url": "https://medium.com/@nikovasan/overcome-template-thinking-unlock-your-teams-full-potential-with-ai-d884bd696b9d?source=rss------product_management-5",
@@ -69,6 +181,20 @@
         "Product Strategy",
         "Leadership",
         "Productivity"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Associate Product Manager",
+      "url": "https://remoteOK.com/remote-jobs/remote-associate-product-manager-caretalk-health-1133979",
+      "source": "Remote OK",
+      "type": "job",
+      "date": "2026-06-23T20:07:02+00:00",
+      "summary": "A remote, full-time Associate Product Manager position has been posted, targeting candidates in the United States. The role is listed on LinkedIn and includes standard job details such as title, location, and employment type.",
+      "tags": [
+        "Career",
+        "Product Strategy",
+        "Leadership"
       ],
       "is_fallback": false
     },
@@ -155,6 +281,16 @@
         "Stakeholders"
       ],
       "is_fallback": false
+    },
+    {
+      "title": "BrowserBash",
+      "url": "https://www.producthunt.com/products/browserbash",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-23T07:54:57+00:00",
+      "summary": "CLI that turns plain-English into real browser tests Discussion | Link",
+      "tags": [],
+      "is_fallback": true
     },
     {
       "title": "Stop Obsessing Over Churn. Fix This Metric First.",
@@ -1521,6 +1657,16 @@
         "Product Design"
       ],
       "is_fallback": false
+    },
+    {
+      "title": "Oxlo.ai",
+      "url": "https://www.producthunt.com/products/oxlo-ai",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-11T14:37:08+00:00",
+      "summary": "Scale across AI models without scaling your bill Discussion | Link",
+      "tags": [],
+      "is_fallback": true
     },
     {
       "title": "Beyond Black Box Scores: How Musubi Trains Custom AI for Trust and Safety Teams",
