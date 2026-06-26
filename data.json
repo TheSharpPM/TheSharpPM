@@ -1,7 +1,117 @@
 {
-  "updated": "2026-06-25T08:56:03.653347+00:00",
-  "total": 701,
+  "updated": "2026-06-26T08:57:25.531906+00:00",
+  "total": 713,
   "items": [
+    {
+      "title": "The Anatomy of Incompetence: Why Toxic Leadership Accrues an Operational Governance Tax",
+      "url": "https://medium.com/@christopher.reepsr/the-anatomy-of-incompetence-why-toxic-leadership-accrues-an-operational-governance-tax-7c849f0a20d2?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-06-26T08:34:58+00:00",
+      "summary": "By Christopher Reep Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "The History of Innovation Cycles",
+      "url": "https://medium.com/@jerrygrzegorzek/the-history-of-innovation-cycles-90532cb91479?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-06-26T08:06:30+00:00",
+      "summary": "The foundational premise of modern capitalist economics is not equilibrium, but constant, turbulent disruption. This concept was famously… Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "AI Isn’t Free: The Product Manager’s Guide to AI Economics",
+      "url": "https://medium.com/design-bootcamp/ai-isnt-free-the-product-manager-s-guide-to-ai-economics-811587d55d47?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-06-26T07:37:30+00:00",
+      "summary": "Every product roadmap today seems to contain the same item: “Add AI.” Continue reading on Bootcamp »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Aurora",
+      "url": "https://www.producthunt.com/products/aurora-21",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-26T05:37:09+00:00",
+      "summary": "Mac notch command center for productivity with tool access Discussion | Link",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Backlog Management Explained: How Product Teams Prioritize Work That Matters",
+      "url": "https://hardikgp.medium.com/backlog-management-explained-how-product-teams-prioritize-work-that-matters-5d2f7b2b770e?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-06-26T03:38:34+00:00",
+      "summary": "Learn how product backlogs, prioritization techniques, backlog refinement, and continuous planning help modern software teams focus on the… Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Is This Okay? How Override Labs Built a Safety-First AI Consent Coach for Teen Boys",
+      "url": "https://www.producttalk.org/is-this-okay-how-override-labs-built-a-safety-first-ai-consent-coach-for-teen-boys/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-06-25T13:00:46+00:00",
+      "summary": "Listen to this episode on: Spotify | Apple Podcasts What if AI could help prevent sexual assault before it happens — without tracking users, judging them, or handing them a verdict? In this episode of Just Now Possible , Teresa Torres talks with Priya Nakra (Founder and Product L...",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "🔮 The state of the AI economy",
+      "url": "https://www.exponentialview.co/p/the-state-of-the-ai-economy",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-06-25T11:18:49+00:00",
+      "summary": "We've reconstructed the AI economy from the bottom up",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Mobile accessibility at velocity:  Test smarter, ship faster [OnDemand]",
+      "url": "https://www.productledalliance.com/mobile-accessibility-at-velocity-ondemand/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-06-25T11:02:18+00:00",
+      "summary": "Mobile accessibility doesn't work like web. Watch this OnDemand webinar to get practical frameworks and a live demo of the Mobile Testing Suite.",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "An Interview with Figma CEO Dylan Field About Design and AI",
+      "url": "https://stratechery.com/2026/an-interview-with-figma-ceo-dylan-field-about-design-and-ai/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-06-25T10:00:00+00:00",
+      "summary": "An interview with Figma CEO Dylan Field about building Figma, and why he believes AI gives the company a tailwind.",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "LockIn MCP",
+      "url": "https://www.producthunt.com/products/lockin-mcp",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-25T09:35:32+00:00",
+      "summary": "Let AI block distractions for you when you need to lock in Discussion | Link",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "The Hidden Tax on Every Product Decision",
+      "url": "https://www.productcoalition.com/p/the-fine-print-that-cost-a-fortune",
+      "source": "Product Coalition",
+      "type": "article",
+      "date": "2026-06-25T09:30:53+00:00",
+      "summary": "Every Product Team Knows the Cost of Building. Almost None Know the Cost of Getting It Wrong.",
+      "tags": [],
+      "is_fallback": true
+    },
     {
       "title": "How to Reduce Software Development Costs: 4 Proven Ways",
       "url": "https://medium.com/@pragmaticcoders/how-to-reduce-software-development-costs-4-proven-ways-b81313034d00?source=rss------product_management-5",
@@ -85,6 +195,16 @@
         "Product Strategy"
       ],
       "is_fallback": false
+    },
+    {
+      "title": "Principal Product Manager Acquisition Products",
+      "url": "https://remoteOK.com/remote-jobs/remote-principal-product-manager-acquisition-products-butterflymx-1134023",
+      "source": "Remote OK",
+      "type": "job",
+      "date": "2026-06-24T22:00:03+00:00",
+      "summary": "Our Mission: ButterflyMX is on a mission to empower people to automate property access, operations, and security from a single platform. Our products are installed in more than 20,000+ multifamily, commercial, gated communities, and student-housing properties worldwide, including...",
+      "tags": [],
+      "is_fallback": true
     },
     {
       "title": "GLM 5.2: why I’m replacing Opus in Claude Code with this new model",
