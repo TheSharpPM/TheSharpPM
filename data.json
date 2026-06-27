@@ -1,7 +1,71 @@
 {
-  "updated": "2026-06-26T08:57:25.531906+00:00",
-  "total": 713,
+  "updated": "2026-06-27T08:15:42.224645+00:00",
+  "total": 723,
   "items": [
+    {
+      "title": "Product Managers as Philosopher III: Agency vs Structure — Why Metrics Construct Reality",
+      "url": "https://medium.com/@akerkebexultan/product-managers-as-philosopher-iii-agency-vs-structure-why-metrics-construct-reality-4b7190e8e299?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-06-27T07:57:08+00:00",
+      "summary": "Determinism vs Free Will: AARRR Will Trap You. NSM Won’t Save You. Here’s What Will. Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Reimagining WalletHub",
+      "url": "https://medium.com/@guptais6/reimagining-wallethub-b568ffe0a8a8?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-06-27T07:47:29+00:00",
+      "summary": "WalletHub’s biggest opportunity isn’t design. It’s telling people who it’s for. Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Own the Niche, Rent the Rest",
+      "url": "https://medium.com/@jonschdev/own-the-niche-rent-the-rest-85daa7d76369?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-06-27T04:07:06+00:00",
+      "summary": "Building the whole stack feels like a moat. The numbers say it’s mostly overhead in disguise — and the companies running away with this… Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "The Future Product Organization: AI, Product, Engineering, and Business in the Same Room",
+      "url": "https://medium.com/@prasanna.5187/the-future-product-organization-ai-product-engineering-and-business-in-the-same-room-393bb264d2c3?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-06-27T02:32:37+00:00",
+      "summary": "Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "2026.26: Summer Vibes",
+      "url": "https://stratechery.com/2026/summer-vibes/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-06-26T17:00:00+00:00",
+      "summary": "The best Stratechery content from the week of June 22, 2026, including a vibe coding adventure, Apple in Europe, and a midsummer mailbag.",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "EP105 What happens when your users become the builders?",
+      "url": "https://www.productcoalition.com/p/ep105-what-happens-when-your-users",
+      "source": "Product Coalition",
+      "type": "article",
+      "date": "2026-06-26T09:00:57+00:00",
+      "summary": "In this episode, Saurabh Sharma discusses how enterprise AI products are reshaping product management by turning users into builders, enabling them to create custom workflows and primitives. He highlights the challenges of evolving roadmaps and managing AI agents, and offers guidance on designing AI-driven product experiences that boost engagement and efficiency.",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": false
+    },
     {
       "title": "The Anatomy of Incompetence: Why Toxic Leadership Accrues an Operational Governance Tax",
       "url": "https://medium.com/@christopher.reepsr/the-anatomy-of-incompetence-why-toxic-leadership-accrues-an-operational-governance-tax-7c849f0a20d2?source=rss------product_management-5",
@@ -43,12 +107,42 @@
       "is_fallback": true
     },
     {
+      "title": "RetroMac",
+      "url": "https://www.producthunt.com/products/retromac",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-26T04:24:48+00:00",
+      "summary": "Turn your Mac into a time machine. Discussion | Link",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
       "title": "Backlog Management Explained: How Product Teams Prioritize Work That Matters",
       "url": "https://hardikgp.medium.com/backlog-management-explained-how-product-teams-prioritize-work-that-matters-5d2f7b2b770e?source=rss------product_strategy-5",
       "source": "Medium Strategy",
       "type": "article",
       "date": "2026-06-26T03:38:34+00:00",
       "summary": "Learn how product backlogs, prioritization techniques, backlog refinement, and continuous planning help modern software teams focus on the… Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Kerendia Task Force",
+      "url": "https://remoteOK.com/remote-jobs/remote-kerendia-task-force-bayer-1134145",
+      "source": "Remote OK",
+      "type": "job",
+      "date": "2026-06-25T19:17:49+00:00",
+      "summary": "At Bayer we’re visionaries, driven to solve the world’s toughest challenges and striving for a world where ,Health for all, Hunger for none’ is no longer a dream, but a real possibility. We’re doing it with energy, curiosity and sheer dedication, always learning from unique persp...",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "hh2",
+      "url": "https://remoteOK.com/remote-jobs/remote-hh2-biztech-1134146",
+      "source": "Remote OK",
+      "type": "job",
+      "date": "2026-06-25T15:06:30+00:00",
+      "summary": "Civalgo is your all-in-one construction management solution, designed by industry experts to streamline project planning, resource allocation, and daily reporting. Simplify your operations, enhance team collaboration, and boost productivity with our intuitive, real-time platform....",
       "tags": [],
       "is_fallback": true
     },
@@ -3762,6 +3856,16 @@
         "Product Culture",
         "Leadership"
       ]
+    },
+    {
+      "title": "Epilogue. Write novels, scripts & poetry",
+      "url": "https://www.producthunt.com/products/epilogue-book-writing-app",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-05-26T12:25:59+00:00",
+      "summary": "The professional book writing app built for serious authors Discussion | Link",
+      "tags": [],
+      "is_fallback": true
     },
     {
       "title": "The rise of the Super IC:  Why AI-native organizations are betting on builders over managers",
