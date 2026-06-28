@@ -1,7 +1,77 @@
 {
-  "updated": "2026-06-27T08:15:42.224645+00:00",
-  "total": 723,
+  "updated": "2026-06-28T08:47:35.267020+00:00",
+  "total": 730,
   "items": [
+    {
+      "title": "Why the Slowest Part of Your Delivery System Controls Everything",
+      "url": "https://medium.com/@richardfaint065/why-the-slowest-part-of-your-delivery-system-controls-everything-04650322545c?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-06-28T07:54:27+00:00",
+      "summary": "Software organisations love optimisation. We optimise sprint ceremonies, backlog refinement, deployment pipelines. We optimise the colour… Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "What Building an Inventory Management System Taught Me About Product Thinking in the Age of AI",
+      "url": "https://medium.com/@aniruddharora19/what-building-an-inventory-management-system-taught-me-about-product-thinking-in-the-age-of-ai-890c82c1f145?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-06-28T07:48:01+00:00",
+      "summary": "Why AI will write more software than ever before — but great Product Managers will still decide what deserves to exist. Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "What Building an Inventory Management System Taught Me About Product Thinking in the Age of AI",
+      "url": "https://medium.com/@aniruddharora19/what-building-an-inventory-management-system-taught-me-about-product-thinking-in-the-age-of-ai-890c82c1f145?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-06-28T07:48:01+00:00",
+      "summary": "Why AI will write more software than ever before — but great Product Managers will still decide what deserves to exist. Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Service Design Pyramid: Turning Research Insights into Actionable Product Strategy",
+      "url": "https://medium.com/@mehrvarzuxui/service-design-pyramid-turning-research-insights-into-actionable-product-strategy-551178df7254?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-06-28T07:34:18+00:00",
+      "summary": "Before creating personas, user flows, or UI screens, product teams need to make sense of the research they have collected. Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "🔮 Fifty years of Moore’s Law wasn’t fast enough for AI #580",
+      "url": "https://www.exponentialview.co/p/ev-580",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-06-28T02:14:28+00:00",
+      "summary": "Plus: The frontier is already agentic; unlocking innovation; new drugs, food apps without food & Chinese AI job market++",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "🧠 Community Wisdom: Beating a career slump, adding more structure to an established team, questions for new-team 1:1s, the evolving shape of the growth role, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-beating-a-career",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-06-27T17:09:06+00:00",
+      "summary": "Community Wisdom 191",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Lyto",
+      "url": "https://www.producthunt.com/products/lyto",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-27T15:17:01+00:00",
+      "summary": "\"One AI agent across your browser, tools, and messages \" Discussion | Link",
+      "tags": [],
+      "is_fallback": true
+    },
     {
       "title": "Product Managers as Philosopher III: Agency vs Structure — Why Metrics Construct Reality",
       "url": "https://medium.com/@akerkebexultan/product-managers-as-philosopher-iii-agency-vs-structure-why-metrics-construct-reality-4b7190e8e299?source=rss------product_management-5",
