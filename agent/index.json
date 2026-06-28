@@ -1,6 +1,11 @@
 {
   "editions": [
     {
+      "date": "2026-06-28",
+      "headline_theme": "Open‑Weight LLMs Flip the Cost Equation",
+      "file": "agent/2026-06-28.json"
+    },
+    {
       "date": "2026-06-21",
       "headline_theme": "AI Agents Elevate, Don't Replace PMs",
       "file": "agent/2026-06-21.json"
@@ -41,5 +46,5 @@
       "file": "agent/2026-05-03.json"
     }
   ],
-  "updated_at": "2026-06-21T11:33:23.617650+00:00"
+  "updated_at": "2026-06-28T11:29:50.589312+00:00"
 }

@@ -1,0 +1,45 @@
+{
+  "edition": "2026-06-28",
+  "headline_theme": "Open‑Weight LLMs Flip the Cost Equation",
+  "target_audience": "Senior PM",
+  "editorial": "Lenny Rachitsky’s hands‑on teardown of GLM 5.2 proves the hype about open‑weight models isn’t a gimmick – a 45‑minute autonomous bug‑hunt across a Next.js codebase cost just $3.36, roughly six million tokens. The numbers force a rethink: why should product teams keep paying premium per‑token fees for closed‑source models when a community‑driven alternative can deliver comparable results for pennies?\n\nThe shift Ben Thompson describes as the “Inference Shift” in his latest Stratechery column dovetails with the SVPG mantra that “build to learn” trumps “build to ship.” When inference, not training, becomes the dominant cost driver, the economics of experimentation tilt dramatically toward cheap, repeatable loops. Open‑weight models give teams the leverage to run dozens of discovery experiments without blowing the budget, while still retaining the fidelity needed for code‑centric tasks. The old playbook of racing to ship a feature before the market reacts is obsolete; the real competitive edge now lies in iterating at a fraction of the cost and keeping the vendor lock‑in at bay.\n\nFor Senior PMs, the action plan is immediate: carve out a token‑budget slice in your sprint budget and treat each $3‑ish AI run as a micro‑experiment you can report on in your sprint review. Pair with engineers to instrument cost‑vs‑value dashboards, then use those numbers to convince stakeholders that a cheap AI probe can surface a critical bug or a design prototype faster than a $10k proprietary API call. Align the sandbox with your OKRs, embed the findings into your roadmap grooming, and make the low‑cost AI results a first‑class artifact when you negotiate scope with leadership.",
+  "key_takeaways": [
+    "Open‑weight LLMs can deliver production‑grade code insights for under $5 per experiment.",
+    "The industry’s cost focus has moved from model training to inference, making token pricing the new runway metric.",
+    "Discovery‑first frameworks like “build to learn” are the only way to turn cheap AI runs into sustainable product advantage."
+  ],
+  "must_reads": [
+    {
+      "source": "Lenny's Newsletter",
+      "title": "GLM 5.2: why I’m replacing Opus in Claude Code with this new model",
+      "url": "https://www.lennysnewsletter.com/p/glm-5.2-why-im-replacing-opus-in-claude",
+      "why": "Rachitsky’s live audit shatters the myth that open models are too flaky for production – the $3.36 bill for a full‑stack bug‑hunt proves they’re already cost‑effective enough to become a default discovery engine."
+    },
+    {
+      "source": "Stratechery",
+      "title": "The Inference Shift",
+      "url": "https://stratechery.com/2026/the-inference-shift/",
+      "why": "Thompson frames the industry’s pivot to inference‑cost dominance, giving product leaders a macro lens that explains why token‑price arbitrage now drives strategic decisions."
+    },
+    {
+      "source": "SVPG",
+      "title": "Build To Learn FAQ",
+      "url": "https://www.svpg.com/build-to-learn-faq/",
+      "why": "Cagan and the SVPG team remind us that discovery‑first thinking is the only way to harness cheap AI loops without drowning in feature‑bloat."
+    }
+  ],
+  "contrarian": {
+    "note": "The video argues that speed alone is a poor metric, challenging my claim that cheap AI loops automatically translate into faster outcomes.",
+    "title": "Why the ‘fail fast’ approach is no longer effective for product teams ft ...",
+    "url": "https://www.youtube.com/watch?v=zm6jG0JbDdc",
+    "source": null
+  },
+  "also_worth": [],
+  "pm_homework": [
+    "Set up a token‑budget dashboard that tracks cost per discovery experiment and shares it with engineering leadership.",
+    "Run a pilot: pick one upcoming feature hypothesis and validate it with an open‑weight model experiment under $10.",
+    "Draft a governance brief outlining security, compliance, and vendor‑independence criteria for adopting open‑weight models across your org."
+  ],
+  "generated_at": "2026-06-28T11:29:50.588996+00:00",
+  "model_used": "openai/gpt-oss-120b"
+}
