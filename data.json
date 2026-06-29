@@ -1,7 +1,63 @@
 {
-  "updated": "2026-06-28T08:47:35.267020+00:00",
-  "total": 730,
+  "updated": "2026-06-29T09:59:28.692047+00:00",
+  "total": 736,
   "items": [
+    {
+      "title": "Tool$",
+      "url": "https://dwayne-phillips.medium.com/tool-5e435111dad0?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-06-29T09:37:03+00:00",
+      "summary": "The article introduces Tool$, a new platform aimed at helping product teams consolidate and monetize their internal tooling. It outlines how the solution streamlines tool discovery, reduces duplication, and creates revenue streams from existing assets, positioning it as a strategic advantage for product managers looking to optimize resources.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Revenue"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Si no lo comunicas, no existe",
+      "url": "https://manuarjo.medium.com/si-no-lo-comunicas-no-existe-4604b4a05991?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-06-29T08:52:01+00:00",
+      "summary": "The article emphasizes that a product strategy is useless if it isn't clearly communicated to the team and stakeholders. It shares the author's experience of having strong strategies that failed because no one understood them, highlighting the need for transparent and continuous communication.",
+      "tags": [
+        "Communication",
+        "Product Strategy",
+        "Leadership"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Don’t Innovate Around Personas. Innovate Around Situations.",
+      "url": "https://medium.com/@daverothschild/dont-innovate-around-personas-innovate-around-situations-76d7aa0274b5?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-06-29T05:04:04+00:00",
+      "summary": "The article argues that while personas are useful for visualizing customers, product teams should focus on the specific situations—contextual challenges and burdens—that users face, as these drive real innovation. By centering design and development around situational insights, teams can create more targeted and effective solutions.",
+      "tags": [
+        "Product Strategy",
+        "User Research",
+        "Product Design"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "OpenAI Codex lead on the new shape of product work | Andrew Ambrosino",
+      "url": "https://www.lennysnewsletter.com/p/openai-codex-lead-on-the-new-shape",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-06-28T12:31:54+00:00",
+      "summary": "Andrew Ambrosino discusses how OpenAI’s Codex is lowering development costs and reshaping product workflows, emphasizing the growing importance of design taste in differentiating products. He also previews upcoming features of the Codex desktop app that aim to boost developer productivity and streamline the creation process.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Productivity"
+      ],
+      "is_fallback": false
+    },
     {
       "title": "Why the Slowest Part of Your Delivery System Controls Everything",
       "url": "https://medium.com/@richardfaint065/why-the-slowest-part-of-your-delivery-system-controls-everything-04650322545c?source=rss------product_management-5",
@@ -197,6 +253,20 @@
       "is_fallback": true
     },
     {
+      "title": "ClinePass",
+      "url": "https://www.producthunt.com/products/cline-4",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-25T22:55:24+00:00",
+      "summary": "ClinePass enables teams to run top open-weight AI models directly within the Cline Discussion platform, streamlining the integration of advanced machine learning capabilities into product workflows. This tool helps product managers experiment with and deploy AI features faster, reducing reliance on external services and accelerating iteration cycles.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Platform Strategy"
+      ],
+      "is_fallback": false
+    },
+    {
       "title": "Kerendia Task Force",
       "url": "https://remoteOK.com/remote-jobs/remote-kerendia-task-force-bayer-1134145",
       "source": "Remote OK",
@@ -369,6 +439,20 @@
       "summary": "Our Mission: ButterflyMX is on a mission to empower people to automate property access, operations, and security from a single platform. Our products are installed in more than 20,000+ multifamily, commercial, gated communities, and student-housing properties worldwide, including...",
       "tags": [],
       "is_fallback": true
+    },
+    {
+      "title": "Ad Reframe",
+      "url": "https://www.producthunt.com/products/outpaint-com-ad-reframe",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-24T14:14:23+00:00",
+      "summary": "The piece outlines a workflow for transforming user‑generated content (UGC) ads into formats suitable for TV discussion panels, emphasizing the need for streamlined editing, branding consistency, and cross‑channel distribution. It highlights how product teams can leverage automation and collaboration tools to repurpose organic ad content efficiently, driving broader reach and engagement across traditional media.",
+      "tags": [
+        "Product Strategy",
+        "AI Tools",
+        "Growth"
+      ],
+      "is_fallback": false
     },
     {
       "title": "GLM 5.2: why I’m replacing Opus in Claude Code with this new model",
