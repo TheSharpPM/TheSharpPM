@@ -1,7 +1,87 @@
 {
-  "updated": "2026-06-29T09:59:28.692047+00:00",
-  "total": 736,
+  "updated": "2026-06-30T08:55:46.621165+00:00",
+  "total": 746,
   "items": [
+    {
+      "title": "The Blurring Lines of Product Design: What Happens When Your Role Expands Beyond the Screen",
+      "url": "https://stephanieochan.medium.com/the-blurring-lines-of-product-design-what-happens-when-your-role-expands-beyond-the-screen-4b85cc9257c5?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-06-30T08:43:26+00:00",
+      "summary": "From pixels to proposals. How running my own product company changed the way I see design, stakeholders, and the future of our field. Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "On building for users whose job you aren’t doing",
+      "url": "https://medium.com/@halecolin1/on-building-for-users-whose-job-you-arent-doing-3b3eff7d9130?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-06-30T08:32:51+00:00",
+      "summary": "Two Users Told Me What A/B Testing Couldn’t . Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "The App You Already Have Is the Starting Point, Not the Obstacle",
+      "url": "https://medium.com/@FinClip/the-app-you-already-have-is-the-starting-point-not-the-obstacle-c8f6047fa044?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-06-30T07:58:35+00:00",
+      "summary": "Most super app projects fail before they ship — not because the idea is wrong, but because they start with a rebuild instead of a… Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "The Difference Between Engineering Judgment and Product Judgment",
+      "url": "https://medium.com/@taylorallis52/the-difference-between-engineering-judgment-and-product-judgment-d21c75672b16?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-06-29T20:30:30+00:00",
+      "summary": "What Sun Microsystems and Project Blackbox taught me about building products in the age of AI Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "🎙️ How I AI: GLM-5.2 review & How Gusto built a new product line with Claude Code",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-glm-52-review-and-how-gusto",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-06-29T15:02:35+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "📈 Data to start your week",
+      "url": "https://www.exponentialview.co/p/data-to-start-your-week-29-june-2026",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-06-29T12:42:25+00:00",
+      "summary": "China's young guns, confidence in AI & faster than ever to $1 million",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "No Figma. No Jira. No docs. How Gusto built a new product line with Claude Code | Eddie Kim (CTO)",
+      "url": "https://www.lennysnewsletter.com/p/no-figma-no-jira-no-docs-how-gusto",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-06-29T12:03:38+00:00",
+      "summary": "Watch now | 🎙️ Eddie Kim, the CTO of Gusto, shows how a 5-person team shipped a full AI product line in 10 weeks using Claude Code, a perma-Zoom, and zero documentation",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Summer Break: Week of June 29",
+      "url": "https://stratechery.com/2026/summer-break-week-of-june-29/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-06-29T10:00:00+00:00",
+      "summary": "Stratechery is on summer break the week of June 29. There will be no Weekly Article or Updates. The next Update will be on Monday, July 6. Dithering, Sharp Tech, and Sharp China will also return the week of July 6. Greatest of All Talk and Asianometry will continue to publish. Th...",
+      "tags": [],
+      "is_fallback": true
+    },
     {
       "title": "Tool$",
       "url": "https://dwayne-phillips.medium.com/tool-5e435111dad0?source=rss------product_management-5",
@@ -735,6 +815,16 @@
         "Productivity"
       ],
       "is_fallback": false
+    },
+    {
+      "title": "Foresight by Lightning Rod",
+      "url": "https://www.producthunt.com/products/training-data-generator",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-22T15:28:19+00:00",
+      "summary": "Predict anything with AI Discussion | Link",
+      "tags": [],
+      "is_fallback": true
     },
     {
       "title": "🎙️ How I AI: How to write AI agent loops in Claude Code and Codex + How Claude Mythos found a 15-year-old bug in Mozilla Firefox",
@@ -1679,6 +1769,16 @@
       "type": "article",
       "date": "2026-06-15T07:50:19+00:00",
       "summary": "The same tactics as Temu, but with silk gloves. A dissection — lever by lever — of how I almost paid several hundred euros without… Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Load Nova",
+      "url": "https://www.producthunt.com/products/load-nova",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-15T06:16:58+00:00",
+      "summary": "An AI co-pilot and dashboard built for dispatcher speed Discussion | Link",
       "tags": [],
       "is_fallback": true
     },
