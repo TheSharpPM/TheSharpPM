@@ -14,6 +14,7 @@ import feedparser
 import ipaddress
 import json
 import os
+import random
 import re
 import requests
 import socket
@@ -60,7 +61,7 @@ INDEX_FILE = AGENT_DIR / "index.json"
 
 MAX_ITERATIONS = 15          # safety cap on agent turns
 MAX_ARTICLE_CHARS = 2500     # truncate article fetches
-MAX_FEED_ITEMS = 10          # cap feed payload per tool call
+MAX_FEED_ITEMS = 15          # cap feed payload per tool call; needs to be >= len(FEEDS) so every source has a shot when shuffled
 MAX_FEED_SUMMARY_CHARS = 200 # cap each feed item's summary
 
 # How long to sleep on a transient rate_limit_exceeded (TPM) error
@@ -102,6 +103,14 @@ TARGET_AUDIENCES = ["Senior PM", "Staff PM", "Lead/Principal PM"]
 # blocked from re-use on the next edition. With 3 levels and a lookback
 # of 2, the rotation is forced into the third unused level each week.
 TARGET_AUDIENCE_LOOKBACK = 2
+
+# How many of the most recent editions' hook_source values are blocked
+# from re-use. hook_source is the publisher whose article opens P1 of
+# the editorial. Without this rotation Lenny's Newsletter defaults to
+# opening every dispatch because it sits at feed index 0 and publishes
+# the most content per week. Lookback 2 forces P1 to rotate across at
+# least 3 publishers.
+HOOK_SOURCE_LOOKBACK = 2
 
 # Per-field hard caps on what publish_edition will accept. Defence
 # against an LLM prompt-injected into emitting absurdly large strings
@@ -334,9 +343,18 @@ def tool_fetch_feeds(topics=None, max_per_feed=2):
     """Return recent entries from curated feeds, optionally filtered by topic keywords."""
     max_per_feed = max(1, min(int(max_per_feed or 2), 5))
     topics_lower = [t.lower() for t in (topics or [])]
+
+    # Shuffle the feed order each call so no single publisher (Lenny's
+    # sits at index 0) always ends up at the top of what the agent
+    # sees. Without this, the P1 hook of the editorial defaults to
+    # whoever is highest in FEEDS - hence the "opens with Lenny's
+    # again" pattern we saw.
+    shuffled_feeds = list(FEEDS)
+    random.shuffle(shuffled_feeds)
+
     items = []
 
-    for feed in FEEDS:
+    for feed in shuffled_feeds:
         try:
             parsed = feedparser.parse(feed["url"])
             for entry in parsed.entries[:max_per_feed]:
@@ -537,6 +555,7 @@ def tool_read_memory(weeks=4):
                 "date": ed.get("edition"),
                 "headline_theme": ed.get("headline_theme"),
                 "target_audience": ed.get("target_audience"),
+                "hook_source": ed.get("hook_source"),
                 "editorial_excerpt": (ed.get("editorial") or "")[:400],
                 "must_reads": [
                     {"title": mr.get("title"), "why": mr.get("why")}
@@ -577,10 +596,38 @@ def _recent_target_audiences():
     return recent
 
 
+def _recent_hook_sources():
+    """Return the hook_source values (lowercased for case-insensitive
+    comparison) of the most recent editions, up to HOOK_SOURCE_LOOKBACK.
+    Editions that pre-date the field are silently skipped."""
+    if not INDEX_FILE.exists():
+        return []
+    try:
+        index = json.loads(INDEX_FILE.read_text(encoding="utf-8"))
+    except Exception:
+        return []
+    recent = []
+    for meta in index.get("editions", [])[:HOOK_SOURCE_LOOKBACK]:
+        date = str(meta.get("date", ""))
+        if not re.match(r"^\d{4}-\d{2}-\d{2}$", date):
+            continue
+        f = AGENT_DIR / f"{date}.json"
+        if not f.exists():
+            continue
+        try:
+            ed = json.loads(f.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        hs = ed.get("hook_source")
+        if hs:
+            recent.append(str(hs).strip().lower())
+    return recent
+
+
 def tool_publish_edition(headline_theme, editorial, must_reads,
                          key_takeaways, pm_homework,
                          contrarian=None, also_worth=None,
-                         target_audience=None):
+                         target_audience=None, hook_source=None):
     """Save the edition to disk and update the index. Ends the run."""
 
     # Gate 1: the agent must have actually gathered material before publishing.
@@ -833,6 +880,51 @@ def tool_publish_edition(headline_theme, editorial, must_reads,
             )
         }
 
+    # Gate 5e: hook_source must be present, must correspond to a source
+    # in must_reads or contrarian (agent can't invent one), and must
+    # NOT match any of the last HOOK_SOURCE_LOOKBACK editions. Forces
+    # rotation of which publisher opens P1 across weeks.
+    if not hook_source or not isinstance(hook_source, str):
+        return {
+            "error": (
+                "Refusing to publish: hook_source is missing. Provide "
+                "the source name (e.g. \"Lenny's Newsletter\", "
+                "\"Stratechery\") of the article that opens paragraph 1 "
+                "of the editorial. It must exactly match the 'source' "
+                "field of one of your must_reads or the contrarian."
+            )
+        }
+    hook_source_norm = hook_source.strip().lower()
+    known_sources = [
+        str(mr.get("source", "")).strip().lower()
+        for mr in mr_list if isinstance(mr, dict)
+    ]
+    if isinstance(contrarian, dict):
+        known_sources.append(str(contrarian.get("source", "")).strip().lower())
+    if hook_source_norm not in known_sources:
+        return {
+            "error": (
+                f"Refusing to publish: hook_source '{hook_source}' does "
+                f"not match any source in must_reads or contrarian. The "
+                f"article that opens P1 must be one of the items you "
+                f"picked. Set hook_source to match the 'source' string "
+                f"of that item exactly. Available sources: "
+                f"{sorted(set(s for s in known_sources if s))}."
+            )
+        }
+    recent_hs = _recent_hook_sources()
+    if hook_source_norm in recent_hs:
+        return {
+            "error": (
+                f"Refusing to publish: hook_source '{hook_source}' "
+                f"opened one of the last {HOOK_SOURCE_LOOKBACK} editions "
+                f"({recent_hs}). Anchor P1 in a different publisher "
+                f"this week - the dispatch should rotate which source "
+                f"gets the opening spot. Pick a must_read or contrarian "
+                f"from a different source and rewrite P1 to hook off it."
+            )
+        }
+
     # Gate 6: each "why" must be opinionated, not descriptive.
     for mr in mr_list:
         if not isinstance(mr, dict):
@@ -912,6 +1004,7 @@ def tool_publish_edition(headline_theme, editorial, must_reads,
         "edition": date,
         "headline_theme": headline_theme,
         "target_audience": target_audience,
+        "hook_source": hook_source,
         "editorial": editorial,
         "key_takeaways": kt_list,
         "must_reads": mr_list,
@@ -1028,6 +1121,10 @@ TOOL_DECLARATIONS = [
                     "description": "Required. The PM seniority level paragraph 3 of the editorial speaks to. Must be one of: 'Senior PM', 'Staff PM', 'Lead/Principal PM'. Use read_memory to see what the last two editions used; the gate rejects re-using either.",
                     "enum": ["Senior PM", "Staff PM", "Lead/Principal PM"],
                 },
+                "hook_source": {
+                    "type": "string",
+                    "description": "Required. The source name of the article whose hook opens paragraph 1 of the editorial (e.g. 'Lenny\\'s Newsletter', 'Stratechery', 'SVPG'). Must exactly match the 'source' field of one of your must_reads or the contrarian. The gate rejects re-using the same hook_source as either of the last two editions - check read_memory and pick a different publisher this week.",
+                },
                 "editorial": {
                     "type": "string",
                     "description": "250-500 words, 3 paragraphs (hook/synthesis/implication). P3 is addressed specifically to the target_audience level. See system prompt.",
@@ -1109,6 +1206,7 @@ HARD RULES (publish_edition will reject and you must retry):
 - Call publish_edition only after >=6 research tool calls (fetch_feeds + web_search + fetch_article combined).
 - Editorial: 250-500 words, exactly 3 paragraphs. NEVER meta-narrative ("we'll explore", "in this edition", "our must-reads include"). The editorial IS the take, not a TOC.
 - target_audience is REQUIRED. Pick one of: "Senior PM", "Staff PM", "Lead/Principal PM". Paragraph 3 of the editorial speaks SPECIFICALLY to that seniority level (its leverage points, its stakeholders, its decisions). The gate REJECTS re-using the same target_audience as either of the last two editions - check read_memory output and pick a level not used recently. Rotate so the dispatch hits different audiences across weeks.
+- hook_source is REQUIRED. It is the exact 'source' string of the article that opens P1 of the editorial. Must appear in your must_reads or contrarian. The gate REJECTS re-using the same hook_source as either of the last two editions - Lenny's Newsletter cannot open three weeks running. Check read_memory and deliberately pick a P1 anchor from a source that has NOT opened recently. If your best hook naturally comes from a repeat source, promote a different article to the opener slot even if you keep the original as must_read #2 or #3.
 - Every percentage or Nx multiplier in the editorial MUST appear verbatim in a tool result you received this run. Do NOT invent stats like "40% reduction" or "300% headcount" - the gate will reject and you will have to rewrite. If you do not have a real number, write the sentence without one.
 - must_reads "why": OPINION, not description. NEVER use: "this article provides/shows/highlights/discusses", "shows how", "demonstrates", "showcases", "a great example", "valuable insight", "I appreciate/think/find", "real-world playbook". React to what the piece argues - agree, disagree, or call out what a Staff PM should DO about it.
 - must_reads: 3-5 items. key_takeaways: 3-5. pm_homework: 1-3.
