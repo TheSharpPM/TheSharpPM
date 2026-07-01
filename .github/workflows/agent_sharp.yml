@@ -35,6 +35,15 @@ jobs:
           TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
         run: python scripts/agent_sharp.py
 
+      # Regenerate the RSS feed from agent/index.json + edition JSONs so
+      # external automation (Zapier, Publer, Buffer) can watch it and
+      # cross-post to the Sharp PM LinkedIn Page. Runs even if the agent
+      # step failed - rebuilding the feed off the existing editions is
+      # harmless and keeps the feed current.
+      - name: Generate RSS feed
+        if: always()
+        run: python scripts/generate_feed.py
+
       - name: Commit and push edition
         uses: stefanzweifel/git-auto-commit-action@b863ae1933cb653a53c021fe36dbb774e1fb9403  # v5
         with:
