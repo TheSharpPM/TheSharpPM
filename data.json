@@ -1,7 +1,131 @@
 {
-  "updated": "2026-06-30T08:55:46.621165+00:00",
-  "total": 746,
+  "updated": "2026-07-01T09:17:09.374854+00:00",
+  "total": 760,
   "items": [
+    {
+      "title": "The Art of Saying No to Good Opportunities to Keep the Great Ones",
+      "url": "https://medium.com/@alfininfo/the-art-of-saying-no-to-good-opportunities-to-keep-the-great-ones-99266d79cbbd?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-07-01T08:21:57+00:00",
+      "summary": "Productivity isn’t about doing more things; it’s about doing the right things exceptionally well. Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Why Performance Management Software Backfires When Employees Feel Watched",
+      "url": "https://medium.com/@pmishra_89980/why-performance-management-software-backfires-when-employees-feel-watched-b57730711cb2?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-07-01T08:07:26+00:00",
+      "summary": "Performance management software is built to improve clarity, accountability, and feedback. Yet employees may experience it as something… Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Why Do Customers Need Help?",
+      "url": "https://medium.com/@profshinseki/why-do-customers-need-help-04361440f75d?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-07-01T03:02:16+00:00",
+      "summary": "Why Me? Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Are We Adding AI Because It Matters, or Because We Feel Pressured?",
+      "url": "https://medium.com/ubuntu-ai/are-we-adding-ai-because-it-matters-or-because-we-feel-pressured-6df67631eb54?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-07-01T01:32:09+00:00",
+      "summary": "Working in the AI world since the early days has given me the chance to see a few trends emerging. Initially, AI was the unicorn that no… Continue reading on Open Source AI »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Sonnet 5 review: I ran 64 generations to find out if it's worth it",
+      "url": "https://www.lennysnewsletter.com/p/sonnet-5-review-i-ran-64-generations",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-06-30T23:22:23+00:00",
+      "summary": "The author created a live \"How I AI Bench\" using Claude Code and conducted a rigorous test of five frontier AI models across 64 blind prototype generations, PRDs, and agent voice evaluations. The findings revealed unexpected performance differences, helping product managers decide which models merit further investment.",
+      "tags": [
+        "AI Tools",
+        "Product Strategy",
+        "Metrics"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Great Products, Bad Companies",
+      "url": "https://www.svpg.com/great-products-bad-companies/",
+      "source": "SVPG",
+      "type": "article",
+      "date": "2026-06-30T23:09:59+00:00",
+      "summary": "I have long argued that great products are what powers great companies. And while I still believe that great products are necessary for great companies, it’s become quite clear over the years that great products are not sufficient. In fact, as counter-intuitive as this sounds, I",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Fortis Games: Staff Product Manager",
+      "url": "https://weworkremotely.com/remote-jobs/fortis-games-staff-product-manager",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-06-30T20:34:28+00:00",
+      "summary": "Headquarters: Remote - Romania Who we are At Fortis Games we aspire to make great games that bring people together while redefining how game companies work. We believe in building a sense of belonging through our games, their communities, and how we operate and treat each other.",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Accuweather Careers: Product Manager, Climate Services",
+      "url": "https://weworkremotely.com/remote-jobs/accuweather-careers-product-manager-climate-services",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-06-30T20:32:38+00:00",
+      "summary": "Headquarters: State College, PA Launched in January 2022, AccuWeather's ClimateReady™ Risk Mitigation, is designed to help companies, municipalities, and organizations worldwide prepare for the impact of climate change. This offering leverages AccuWeather’s superior insights to a...",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "How top PMs increase their leverage with AI",
+      "url": "https://www.lennysnewsletter.com/p/how-top-pms-increase-their-leverage",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-06-30T13:31:39+00:00",
+      "summary": "A framework for getting the most out of AI in your day-to-day-work",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "AI-Shaped Problems - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "url": "https://www.producttalk.org/ai-shaped-problems-all-things-product-podcast-with-teresa-torres-petra-wille/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-06-30T13:00:17+00:00",
+      "summary": "Listen to this episode on: Spotify | Apple Podcasts Think you don't have big enough problems for AI to help with? Think again. In this episode, Petra and Teresa tackle one of the most common blockers people face when starting out with AI: not knowing where to begin. It&",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Wins 3.4 — Snap Island for Mac",
+      "url": "https://www.producthunt.com/products/wins-2",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-30T12:57:43+00:00",
+      "summary": "Snap, switch, and arrange Mac windows from the notch Discussion | Link",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Launch week lies:  How product teams can spot churn before the dashboard does",
+      "url": "https://www.productledalliance.com/spot-churn-before-the-dashboard-does/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-06-30T12:00:18+00:00",
+      "summary": "Launch week looks great – until you check who stayed.",
+      "tags": [],
+      "is_fallback": true
+    },
     {
       "title": "The Blurring Lines of Product Design: What Happens When Your Role Expands Beyond the Screen",
       "url": "https://stephanieochan.medium.com/the-blurring-lines-of-product-design-what-happens-when-your-role-expands-beyond-the-screen-4b85cc9257c5?source=rss------product_management-5",
@@ -49,6 +173,16 @@
       "type": "article",
       "date": "2026-06-29T15:02:35+00:00",
       "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Physiotherapist UK",
+      "url": "https://remoteOK.com/remote-jobs/remote-physiotherapist-uk-healthhero-1134319",
+      "source": "Remote OK",
+      "type": "job",
+      "date": "2026-06-29T14:51:14+00:00",
+      "summary": "About Us HealthHero brings together human expertise and digital convenience together to deliver digital-first, integrated care that is revolutionising the healthcare industry. We are leaders in our market and have excellent feedback and great CQC ratings. We also focus on making",
       "tags": [],
       "is_fallback": true
     },
@@ -245,6 +379,16 @@
       "type": "article",
       "date": "2026-06-27T02:32:37+00:00",
       "summary": "Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Mark by Airtop",
+      "url": "https://www.producthunt.com/products/airtop",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-26T19:21:13+00:00",
+      "summary": "Vibe automation for solo marketers Discussion | Link",
       "tags": [],
       "is_fallback": true
     },
