@@ -1,6 +1,11 @@
 {
   "editions": [
     {
+      "date": "2026-07-01",
+      "headline_theme": "AI Hype Meets Organizational Reality",
+      "file": "agent/2026-07-01.json"
+    },
+    {
       "date": "2026-06-28",
       "headline_theme": "Open‑Weight LLMs Flip the Cost Equation",
       "file": "agent/2026-06-28.json"
@@ -46,5 +51,5 @@
       "file": "agent/2026-05-03.json"
     }
   ],
-  "updated_at": "2026-06-28T11:29:50.589312+00:00"
+  "updated_at": "2026-07-01T19:20:09.759663+00:00"
 }
