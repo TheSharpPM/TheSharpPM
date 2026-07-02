@@ -1,7 +1,37 @@
 {
-  "updated": "2026-07-01T09:17:09.374854+00:00",
-  "total": 760,
+  "updated": "2026-07-02T08:39:24.002266+00:00",
+  "total": 764,
   "items": [
+    {
+      "title": "I realized that  alone isn’t",
+      "url": "https://medium.com/@mohammadadeeb5071/i-realized-that-alone-isnt-7786d62b8443?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-07-02T07:47:04+00:00",
+      "summary": "When I started my career, I believed that if my work looked good, 𝗼𝗽𝗽𝗼𝗿𝘁𝘂𝗻𝗶𝘁𝗶𝗲𝘀 would naturally follow. Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "How Data-Driven Sellers are Mining High-Margin Niches in Smart Appliances",
+      "url": "https://medium.com/@heavenho666/how-data-driven-sellers-are-mining-high-margin-niches-in-smart-appliances-a5684fd55745?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-07-02T03:04:25+00:00",
+      "summary": "In the highly competitive world of cross-border e-commerce, the era of blindly following macro trends is over. Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "PixFit",
+      "url": "https://www.producthunt.com/products/pixfit",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-07-01T19:00:03+00:00",
+      "summary": "Turn 1 creative into every ad format, instantly Discussion | Link",
+      "tags": [],
+      "is_fallback": true
+    },
     {
       "title": "The Art of Saying No to Good Opportunities to Keep the Great Ones",
       "url": "https://medium.com/@alfininfo/the-art-of-saying-no-to-good-opportunities-to-keep-the-great-ones-99266d79cbbd?source=rss------product_management-5",
@@ -83,6 +113,16 @@
       "type": "job",
       "date": "2026-06-30T20:32:38+00:00",
       "summary": "Headquarters: State College, PA Launched in January 2022, AccuWeather's ClimateReady™ Risk Mitigation, is designed to help companies, municipalities, and organizations worldwide prepare for the impact of climate change. This offering leverages AccuWeather’s superior insights to a...",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Chief Financial Officer",
+      "url": "https://remoteOK.com/remote-jobs/remote-chief-financial-officer-hospitable-com-1134320",
+      "source": "Remote OK",
+      "type": "job",
+      "date": "2026-06-30T18:48:25+00:00",
+      "summary": "TLDR; We build software for short-term rentals to rent themselves, with a state-of-the-art product and user experience. We have crafted an Applicant Handbook, which we highly recommend you check out, where you can find out more about the company, culture, how we recruit, what we",
       "tags": [],
       "is_fallback": true
     },
@@ -379,6 +419,16 @@
       "type": "article",
       "date": "2026-06-27T02:32:37+00:00",
       "summary": "Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Macro",
+      "url": "https://www.producthunt.com/products/macro-workspace",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-26T19:41:09+00:00",
+      "summary": "Unifies your work into one app with shared memory Discussion | Link",
       "tags": [],
       "is_fallback": true
     },
@@ -9794,19 +9844,6 @@
         "User Research",
         "Product Strategy",
         "Retention"
-      ]
-    },
-    {
-      "title": "Building Banani: How a Canvas-First AI Designer Is Raising the Floor on Product Design",
-      "url": "https://www.producttalk.org/building-banani-how-a-canvas-first-ai-designer-is-raising-the-floor-on-product-design/",
-      "source": "Product Talk",
-      "type": "article",
-      "date": "2026-04-02T13:00:59+00:00",
-      "summary": "Banani is an AI design platform democratizing UX design by providing a simple, canvas-first interface accessible to anyone. This is particularly valuable for resource-constrained teams and early-stage startups who often lack dedicated designers, allowing them to rapidly iterate on designs and improve user experiences without requiring extensive design expertise.",
-      "tags": [
-        "Product Design",
-        "AI Tools",
-        "Productivity"
       ]
     }
   ]
