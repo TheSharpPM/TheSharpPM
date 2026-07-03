@@ -1,7 +1,77 @@
 {
-  "updated": "2026-07-02T08:39:24.002266+00:00",
-  "total": 764,
+  "updated": "2026-07-03T08:26:56.382786+00:00",
+  "total": 771,
   "items": [
+    {
+      "title": "Güven Sermayesi",
+      "url": "https://medium.com/@melihtalu/g%C3%BCven-sermayesi-697b991780e6?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-07-03T07:36:20+00:00",
+      "summary": "Pazar analizi yaparken, finansal projeksiyonları incelerken ya da bir ürünün yol haritasını çizerken önümüzde hep somut rakamlar durur… Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Meine Erfahrungen mit Projektmanagement Vorlagen: Lohnt sich das Profi-Paket wirklich?",
+      "url": "https://medium.com/@tnaumann531/meine-erfahrungen-mit-projektmanagement-vorlagen-lohnt-sich-das-profi-paket-wirklich-4a6acd916123?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-07-03T07:31:48+00:00",
+      "summary": "Wer kennt es nicht? Man startet ein neues Projekt voller Energie, doch schon nach wenigen Tagen versinkt alles im digitalen Chaos. Ohne… Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "The Stablecoin Endgame: Traditional Banks vs. Tech-Web3 Giants",
+      "url": "https://medium.com/@claireli_79034/the-stablecoin-endgame-traditional-banks-vs-tech-web3-giants-21b0eb98c9e8?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-07-03T06:05:12+00:00",
+      "summary": "The recent rollout of Open USD (OUSD) by a powerhouse coalition including Stripe, Google, Visa, and BlackRock is a defining moment for… Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Roadmaps rarely get prioritized by data alone.",
+      "url": "https://medium.com/@gopinathumakanthan/roadmaps-rarely-get-prioritized-by-data-alone-ecb9274815bb?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-07-03T03:20:15+00:00",
+      "summary": "They’re prioritized by confidence, then justified with data. Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Vox",
+      "url": "https://www.producthunt.com/products/vox-5",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-07-03T00:08:51+00:00",
+      "summary": "Talk to GitHub Copilot out loud Discussion | Link",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Tamamon",
+      "url": "https://www.producthunt.com/products/tamamon-a-tiny-desktop-pet-that-grows",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-07-02T13:57:06+00:00",
+      "summary": "A desktop pet that grows as you code with Claude Code Discussion | Link",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Product operations guide to removing bottlenecks:  3 practitioners share what works",
+      "url": "https://www.productledalliance.com/product-operations-guide-to-removing-bottlenecks-3-practitioners-share-what-works/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-07-02T08:48:12+00:00",
+      "summary": "Bottlenecks rarely announce themselves. They build quietly through misaligned goals, unclear decision rights, and bloated processes. Here's how three product practitioners found and fixed them.",
+      "tags": [],
+      "is_fallback": true
+    },
     {
       "title": "I realized that  alone isn’t",
       "url": "https://medium.com/@mohammadadeeb5071/i-realized-that-alone-isnt-7786d62b8443?source=rss------product_management-5",
