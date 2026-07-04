@@ -1,7 +1,77 @@
 {
-  "updated": "2026-07-03T08:26:56.382786+00:00",
-  "total": 771,
+  "updated": "2026-07-04T08:09:20.857539+00:00",
+  "total": 781,
   "items": [
+    {
+      "title": "Architecture of Blind Spots: Why Predictive Algorithms Lose to Reality\n​Modern software is designed…",
+      "url": "https://medium.com/@energoconsalt.cch/architecture-of-blind-spots-why-predictive-algorithms-lose-to-reality-modern-software-is-designed-b77147a3541d?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-07-04T08:05:17+00:00",
+      "summary": "Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Governed AI Agents: Turning MCP Tool Access into Auditable Enterprise Workflows",
+      "url": "https://oleg-dubetcky.medium.com/governed-ai-agents-turning-mcp-tool-access-into-auditable-enterprise-workflows-64220a98f32b?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-07-04T07:44:55+00:00",
+      "summary": "The developer community is rightly celebrating the Model Context Protocol (MCP) as an open standard, MCP elegantly solves the integration… Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Budgeting Platform Uncertainty: The New Product Management Problem",
+      "url": "https://medium.com/@dhineshkumarganesan_90533/budgeting-platform-uncertainty-the-new-product-management-problem-ed7cdf99b9d3?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-07-03T17:13:01+00:00",
+      "summary": "What three evenings building an edge Kubernetes platform with agentic AI taught me about why autonomy doesn’t eliminate engineering effort… Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "How to escape the alignment trap  and start shipping faster",
+      "url": "https://www.productledalliance.com/how-to-escape-the-alignment-trap-and-start-shipping-faster/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-07-03T15:00:51+00:00",
+      "summary": "Consensus feels safe, but it's costing you velocity.",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Beyond AI Hype: 5 SaaS Opportunities Worth Building Before 2027",
+      "url": "https://medium.com/@AdebayoWrites1/beyond-ai-hype-5-saas-opportunities-worth-building-before-2027-8b94c3b6652f?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-07-03T14:51:15+00:00",
+      "summary": "The next generation of successful SaaS products won't come from chasing AI trends. They'll come from solving overlooked business problems… Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "What is product-led  go-to-market (GTM)?",
+      "url": "https://www.productledalliance.com/mastering-product-led-gtm/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-07-03T11:00:00+00:00",
+      "summary": "With product-led GTM, potential customers interact directly with the product, often through freemium models or free trials, allowing them to experience its value before making a purchase decision.",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "EP106 AI as a Powerful Teammate in Product Management",
+      "url": "https://www.productcoalition.com/p/ep106-ai-as-a-powerful-teammate-in",
+      "source": "Product Coalition",
+      "type": "article",
+      "date": "2026-07-03T09:00:28+00:00",
+      "summary": "Summary In this episode, Jay Stansell interviews Dave West from Scrum.org about the evolving role of AI in product management. They explore how AI acts as a teammate, its limitations, and its impact",
+      "tags": [],
+      "is_fallback": true
+    },
     {
       "title": "Güven Sermayesi",
       "url": "https://medium.com/@melihtalu/g%C3%BCven-sermayesi-697b991780e6?source=rss------product_management-5",
@@ -29,6 +99,16 @@
       "type": "article",
       "date": "2026-07-03T06:05:12+00:00",
       "summary": "The recent rollout of Open USD (OUSD) by a powerhouse coalition including Stripe, Google, Visa, and BlackRock is a defining moment for… Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Product Manager Solar Inverters",
+      "url": "https://remoteOK.com/remote-jobs/remote-product-manager-solar-inverters-tmeic-corporation-americas-1134410",
+      "source": "Remote OK",
+      "type": "job",
+      "date": "2026-07-03T06:00:04+00:00",
+      "summary": "General Role Description Develop and execute solar inverter product line strategies over 1-2 year rolling time frames in the context of the Mid-Range Plan (3-5 years), managing the assigned portfolio and associated product development process from idea generation through product",
       "tags": [],
       "is_fallback": true
     },
@@ -3369,6 +3449,16 @@
       "is_fallback": false
     },
     {
+      "title": "CentryAI",
+      "url": "https://www.producthunt.com/products/centryai",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-04T14:40:47+00:00",
+      "summary": "Subscription tracker built by someone who forgot 11 of them Discussion | Link",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
       "title": "Product-Led Summit Amsterdam, 2026",
       "url": "https://www.productledalliance.com/product-led-summit-amsterdam-2026/",
       "source": "Product-Led Alliance",
@@ -3629,6 +3719,16 @@
         "AI Strategy",
         "Productivity"
       ],
+      "is_fallback": true
+    },
+    {
+      "title": "PhoneDeck",
+      "url": "https://www.producthunt.com/products/phonedeck",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-03T10:23:56+00:00",
+      "summary": "Turn your iPhone into a free Mac controller Discussion | Link",
+      "tags": [],
       "is_fallback": true
     },
     {
