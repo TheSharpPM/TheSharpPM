@@ -1,7 +1,67 @@
 {
-  "updated": "2026-07-04T08:09:20.857539+00:00",
-  "total": 781,
+  "updated": "2026-07-05T08:23:17.031163+00:00",
+  "total": 788,
   "items": [
+    {
+      "title": "The difference between good work and work that influences decisions",
+      "url": "https://medium.com/@oshinchawla/the-difference-between-good-work-and-work-that-influences-decisions-89a370d8500d?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-07-05T08:07:08+00:00",
+      "summary": "In the age of AI, good storytelling often makes the difference between information and influence. Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Turning Cancellations Into a Revenue System",
+      "url": "https://medium.com/@anandvadakan2000/turning-cancellations-into-a-revenue-system-f430bd47247f?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-07-05T07:31:19+00:00",
+      "summary": "A concept focused on transforming food delivery order cancellations into a structured revenue recovery system. It aims to reduce waste and… Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "AI Doesn’t Replace Decisions. It Redesigns Them.",
+      "url": "https://medium.com/@karthik_prdmgr/ai-doesnt-replace-decisions-it-redesigns-them-ca73744e30d3?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-07-05T03:55:03+00:00",
+      "summary": "Why the future of AI product design is about decision architecture, not automation. Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "🧠 Community Wisdom: Quarterly planning and AI, cash vs. equity comp, paying for interview exercises, AI-powered outbound, compliance startup opportunities, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-quarterly-planning",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-07-04T16:58:47+00:00",
+      "summary": "Community Wisdom 192",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "CircleChat",
+      "url": "https://www.producthunt.com/products/circlechat",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-07-04T16:05:42+00:00",
+      "summary": "Give your AI agents a slack, a task board, and a boss Discussion | Link",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "The Person Behind the Delivery: A Product Thinking Journey",
+      "url": "https://medium.com/@kashreen13/the-person-behind-the-delivery-a-product-thinking-journey-619035ed95e5?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-07-04T10:58:08+00:00",
+      "summary": "Every time I order food, I wonder about the person who delivers it. So I decided to actually dig into their problems and think about it… Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
     {
       "title": "Architecture of Blind Spots: Why Predictive Algorithms Lose to Reality\n​Modern software is designed…",
       "url": "https://medium.com/@energoconsalt.cch/architecture-of-blind-spots-why-predictive-algorithms-lose-to-reality-modern-software-is-designed-b77147a3541d?source=rss------product_management-5",
@@ -19,6 +79,16 @@
       "type": "article",
       "date": "2026-07-04T07:44:55+00:00",
       "summary": "The developer community is rightly celebrating the Model Context Protocol (MCP) as an open standard, MCP elegantly solves the integration… Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Endl",
+      "url": "https://www.producthunt.com/products/endl",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-07-03T19:10:29+00:00",
+      "summary": "A global operating account for fiat, stablecoins, and cards. Discussion | Link",
       "tags": [],
       "is_fallback": true
     },
