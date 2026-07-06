@@ -1,7 +1,67 @@
 {
-  "updated": "2026-07-05T08:23:17.031163+00:00",
-  "total": 788,
+  "updated": "2026-07-06T09:26:55.774231+00:00",
+  "total": 794,
   "items": [
+    {
+      "title": "Beyond the Raids: Building the Digital Infrastructure for Food Safety",
+      "url": "https://medium.com/@ajinkyaakant/beyond-the-raids-building-the-digital-infrastructure-for-food-safety-2a359e664af2?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-07-06T09:13:18+00:00",
+      "summary": "How one man’s crackdown on food adulteration exposed a systemic failure and the design-led solution to fix it. Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "From Vercel to a Mini IDP: A PM’s Hands-On Journey with Backstage, Docker and Kubernetes",
+      "url": "https://mertgursoy.medium.com/from-vercel-to-a-mini-idp-a-pms-hands-on-journey-with-backstage-docker-and-kubernetes-30dec7ad966b?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-07-06T08:51:20+00:00",
+      "summary": "Building a mini Internal Developer Platform from scratch. The story of moving from “I know it” to “I built it, I lived it.” Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Can IT projects as an Investment be evaluated as an Investment?",
+      "url": "https://medium.com/@Flyingkite29/can-it-projects-as-an-investment-be-evaluated-as-an-investment-1b7786efb3c6?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-07-06T08:37:31+00:00",
+      "summary": "Yes, IT Project is an Investment and can be evaluated equivalently, and maybe even Price/Earning, PE Ratio can be used (augmented). Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "I Thought I Had a Great Startup Idea, then Fable 5 Pointed Out Everything I Missed.",
+      "url": "https://medium.com/@pixellensdesign/i-thought-i-had-a-great-startup-idea-then-fable-5-pointed-out-everything-i-missed-9c162f746467?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-07-06T07:34:33+00:00",
+      "summary": "I spent months researching a product I believed in and was about to finally start designing screens, and then I asked AI to review my PRD… Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "CodeMote",
+      "url": "https://www.producthunt.com/products/codemote-remote-control-for-any-ai",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-07-05T13:39:06+00:00",
+      "summary": "Claude Code, Codex, any CLI agent. Driven from your iPhone Discussion | Link",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "🔮 Exponential View #591: Never skilling; tricking OpenClaw; screwworm & progress; synth cells, tungsten & AI superforecasters++",
+      "url": "https://www.exponentialview.co/p/ev-591",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-07-05T08:21:58+00:00",
+      "summary": "“You cut straight through the noise.” — Miguel O., a paying subscriber",
+      "tags": [],
+      "is_fallback": true
+    },
     {
       "title": "The difference between good work and work that influences decisions",
       "url": "https://medium.com/@oshinchawla/the-difference-between-good-work-and-work-that-influences-decisions-89a370d8500d?source=rss------product_management-5",
@@ -767,6 +827,16 @@
       "type": "job",
       "date": "2026-06-25T19:17:49+00:00",
       "summary": "At Bayer we’re visionaries, driven to solve the world’s toughest challenges and striving for a world where ,Health for all, Hunger for none’ is no longer a dream, but a real possibility. We’re doing it with energy, curiosity and sheer dedication, always learning from unique persp...",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Sunrise",
+      "url": "https://www.producthunt.com/products/sunrise-5",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-25T18:39:17+00:00",
+      "summary": "A real planner for Google Tasks Discussion | Link",
       "tags": [],
       "is_fallback": true
     },
@@ -10071,19 +10141,6 @@
         "AI Tools",
         "Product Design",
         "Productivity"
-      ]
-    },
-    {
-      "title": "Let's Read Continuous Discovery Habits Together (April 2026)",
-      "url": "https://www.producttalk.org/cdh-book-club-april-2026/",
-      "source": "Product Talk",
-      "type": "article",
-      "date": "2026-04-06T13:00:16+00:00",
-      "summary": "This article announces a community read-along of the book 'Continuous Discovery Habits', offering monthly reading guides with key concepts and video resources. For Product Managers, this signals a valuable opportunity to deepen their understanding of ongoing user research and iterative product development practices. Participating can provide structured learning and community support for implementing these habits.",
-      "tags": [
-        "User Research",
-        "Product Strategy",
-        "Retention"
       ]
     }
   ]
