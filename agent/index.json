@@ -1,6 +1,11 @@
 {
   "editions": [
     {
+      "date": "2026-07-07",
+      "headline_theme": "Experiments Without Discipline Drain Teams",
+      "file": "agent/2026-07-07.json"
+    },
+    {
       "date": "2026-07-01",
       "headline_theme": "AI Hype Meets Organizational Reality",
       "file": "agent/2026-07-01.json"
@@ -51,5 +56,5 @@
       "file": "agent/2026-05-03.json"
     }
   ],
-  "updated_at": "2026-07-01T19:20:09.759663+00:00"
+  "updated_at": "2026-07-07T10:46:48.596813+00:00"
 }

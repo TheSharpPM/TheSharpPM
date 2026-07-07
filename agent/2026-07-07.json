@@ -1,0 +1,49 @@
+{
+  "edition": "2026-07-07",
+  "headline_theme": "Experiments Without Discipline Drain Teams",
+  "target_audience": "Staff PM",
+  "hook_source": "Reforge",
+  "editorial": "Reforge’s \"Good Experiment, Bad Experiment\" cuts through the noise with a single, unforgiving truth: not every test deserves a slot in the roadmap. Over a decade of A/Bs has taught me that teams drown not because data is scarce, but because they lose sight of the hypothesis that justified the test in the first place. The real cost is not a few extra clicks—it’s the erosion of focus that bleeds velocity and morale.\n\nTwo recent Product Talk pieces reinforce that warning. In the podcast \"Organizational Change is Exhausting,\" Teresa Torres and Petra Wille map how relentless pivots turn well‑meaning experiments into another source of fatigue, draining energy before any insight surfaces. Their companion \"Let's Read Continuous Discovery Habits Together\" reminds us that disciplined discovery is the upstream filter that keeps the experiment pipeline healthy. When discovery rituals break, experiments become noisy distractions rather than decision‑enablers, inflating the hidden cost of change‑fatigue that both authors describe.\n\nStaff PMs sit at the crossroads of strategy and execution, wielding enough authority to shape roadmaps while still answering to senior leadership. Your lever is the experiment charter: a concise hypothesis, a single success metric, and a hard budget limit before you click “launch.” Guard your team’s bandwidth by saying no to tests that lack a clear decision point, and institutionalize a bi‑weekly discovery sync to surface high‑impact hypotheses before they become experiments. When a test finally runs, tie its outcome directly to a product decision; otherwise you’re merely adding to the burnout chart that Torres and Wille warned us about.",
+  "key_takeaways": [
+    "Quality of experiments beats quantity every time.",
+    "Unchecked change cycles turn data collection into fatigue.",
+    "Discovery habits are the upstream filter that keeps tests meaningful."
+  ],
+  "must_reads": [
+    {
+      "pull_quote": "When done right, experimentation is a critical tool to move your business and your understanding of customers forward.",
+      "source": "Reforge",
+      "title": "Good Experiment, Bad Experiment",
+      "url": "https://www.reforge.com/blog/good-experiment-bad-experiment",
+      "why": "I agree that the discipline of framing hypotheses is the single most valuable skill for a Staff PM; without it, experiments become vanity metrics."
+    },
+    {
+      "pull_quote": "Organizational change is exhausting for product teams, draining energy and focus.",
+      "source": "Product Talk",
+      "title": "Organizational Change is Exhausting - All Things Product Podcast",
+      "url": "https://www.producttalk.org/organizational-change-is-exhausting-all-things-product-podcast-with-teresa-torres-petra-wille/",
+      "why": "This piece forces Staff PMs to confront the hidden cost of constant pivots and to protect their teams from experiment overload."
+    },
+    {
+      "pull_quote": "Continuous discovery habits keep the pipeline of worthwhile experiments full and relevant.",
+      "source": "Product Talk",
+      "title": "Let's Read Continuous Discovery Habits Together (July 2026)",
+      "url": "https://www.producttalk.org/cdh-book-club-july-2026/",
+      "why": "Embedding discovery rituals is the antidote to the fatigue highlighted by Torres; Staff PMs should institutionalize them to feed high‑impact tests."
+    }
+  ],
+  "contrarian": {
+    "note": "Lenny argues that a curated bundle of AI tools will magically solve experimentation bottlenecks, but tools without disciplined processes just add noise.",
+    "source": "Lenny's Newsletter",
+    "title": "Product Pass drop: Canva, ElevenLabs, Manus, Factory, Amp, Railway, Framer—now free with your paid subscription",
+    "url": "https://www.lennysnewsletter.com/p/product-pass-drop-canva-elevenlabs"
+  },
+  "also_worth": [],
+  "pm_homework": [
+    "Draft an experiment charter template that forces a hypothesis, success metric, and budget before any test is approved.",
+    "Audit the past quarter’s experiments: cut any that lack a clear decision outcome.",
+    "Introduce a bi‑weekly discovery sync to surface new hypotheses before they become experiments."
+  ],
+  "generated_at": "2026-07-07T10:46:48.596482+00:00",
+  "model_used": "openai/gpt-oss-120b"
+}
