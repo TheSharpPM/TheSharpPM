@@ -1,7 +1,107 @@
 {
-  "updated": "2026-07-06T09:26:55.774231+00:00",
-  "total": 794,
+  "updated": "2026-07-07T08:46:42.068491+00:00",
+  "total": 802,
   "items": [
+    {
+      "title": "Inside Agoda (Travel-tech): Architecture, AI, and Growth",
+      "url": "https://creativerohit.medium.com/inside-agoda-travel-tech-architecture-ai-and-growth-ba2a1d5c0d17?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-07-07T08:01:59+00:00",
+      "summary": "Agoda is the Asia-focused online travel agency inside Booking Holdings (alongside Booking.com, Priceline, and Kayak). What makes it a… Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "The Kitchen, Not the Chef",
+      "url": "https://medium.com/@murungima/the-kitchen-not-the-chef-9eb48139edc5?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-07-07T07:15:39+00:00",
+      "summary": "Everyone obsesses over the model. The pipeline that feeds it is where production ML systems actually live or die Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Why AI Changes Product Requirements",
+      "url": "https://medium.com/@karthik_prdmgr/why-ai-changes-product-requirements-36c49f96cf87?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-07-07T05:26:42+00:00",
+      "summary": "Designing PRDs for systems that learn, reason, and collaborate. Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "What Problem Are You Solving?",
+      "url": "https://medium.com/@profshinseki/what-problem-are-you-solving-c66cc3c59d8c?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-07-07T04:16:01+00:00",
+      "summary": "I Thought I Was Prepared Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "🎙️ How I AI: Sonnet 5 review & How to run autonomous coding agents from your phone",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-sonnet-5-review-and-how",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-07-06T15:01:17+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "The PM's personal positioning  framework",
+      "url": "https://www.productledalliance.com/the-pms-personal-positioning-framework/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-07-06T14:25:10+00:00",
+      "summary": "Clarify your strengths, your value, and your next career move.",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "📈 Data to start your week",
+      "url": "https://www.exponentialview.co/p/data-to-start-your-week-6-july-2026",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-07-06T13:44:31+00:00",
+      "summary": "The coming supply shock; extreme heat; baby bust & growth boom++",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Let's Read Continuous Discovery Habits Together (July 2026)",
+      "url": "https://www.producttalk.org/cdh-book-club-july-2026/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-07-06T13:00:02+00:00",
+      "summary": "Continuous Discovery Habits turned five this year. And to celebrate we are reading the book together. Each month, I am releasing an in-depth reading guide that includes: The chapters we will be reading A preview of the most important concepts we'll be learning about Short videos",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "How I run autonomous coding agents from my phone with OpenAI Symphony + Linear | Alessio Fanelli (Kernel Labs)",
+      "url": "https://www.lennysnewsletter.com/p/how-i-run-autonomous-coding-agents",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-07-06T12:03:37+00:00",
+      "summary": "Watch now | 🎙️ Alessio Fanelli shows his Symphony + Linear setup for running parallel coding agents from his phone, then demos Codex hunting underpriced Pokémon cards in real time",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "AI Emaily",
+      "url": "https://www.producthunt.com/products/ai-emaily-unified-ai-inbox",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-07-06T09:37:56+00:00",
+      "summary": "Your AI inbox that writes like you + replies on autopilot Discussion | Link",
+      "tags": [],
+      "is_fallback": true
+    },
     {
       "title": "Beyond the Raids: Building the Digital Infrastructure for Food Safety",
       "url": "https://medium.com/@ajinkyaakant/beyond-the-raids-building-the-digital-infrastructure-for-food-safety-2a359e664af2?source=rss------product_strategy-5",
@@ -2201,6 +2301,16 @@
         "Product Strategy"
       ],
       "is_fallback": false
+    },
+    {
+      "title": "Dupely",
+      "url": "https://www.producthunt.com/products/dupely",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-15T13:22:36+00:00",
+      "summary": "Search for the same product but better prices Discussion | Link",
+      "tags": [],
+      "is_fallback": true
     },
     {
       "title": "How Braintrust uses AI agents, evals, and CI to ship better software | Ankur Goyal",
@@ -10103,44 +10213,6 @@
       "tags": [
         "AI Strategy",
         "Competitive Analysis"
-      ]
-    },
-    {
-      "title": "The North Star That Wasn't",
-      "url": "https://www.productcoalition.com/p/the-north-star-that-wasnt",
-      "source": "Product Coalition",
-      "type": "article",
-      "date": "2026-04-07T14:10:12+00:00",
-      "summary": "The article critiques the over-reliance on a single 'North Star Metric,' warning that it can lead to narrow optimization and strategic blindness. Product Managers should instead balance a primary goal with complementary counter-metrics to ensure sustainable growth and overall product health.",
-      "tags": [
-        "Growth",
-        "Metrics"
-      ]
-    },
-    {
-      "title": "FOMO - All Things Product Podcast with Teresa Torres & Petra Wille",
-      "url": "https://www.producttalk.org/fomo-all-things-product-podcast-with-teresa-torres-petra-wille/",
-      "source": "Product Talk",
-      "type": "article",
-      "date": "2026-04-07T13:00:35+00:00",
-      "summary": "This podcast episode addresses the overwhelming nature of the rapidly evolving AI landscape for product professionals. It acknowledges the excitement of new AI tools while highlighting the challenge of staying current without experiencing burnout. The conversation likely offers strategies for navigating this constant influx of information and prioritizing impactful AI adoption.",
-      "tags": [
-        "AI Strategy",
-        "AI Tools",
-        "Product Strategy"
-      ]
-    },
-    {
-      "title": "Flixier Edit by Transcript",
-      "url": "https://www.producthunt.com/products/flixier",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-04-07T12:35:00+00:00",
-      "summary": "Flixier has launched a transcript-based video editing feature that allows users to edit video by editing text, automatically cutting or rearranging footage to match the modified transcript. The feature dramatically lowers the barrier to video editing for non-technical creators. For PMs in content or media products, this is a compelling example of how AI can unlock new user segments by abstracting away technical complexity.",
-      "tags": [
-        "AI Tools",
-        "Product Design",
-        "Productivity"
       ]
     }
   ]
