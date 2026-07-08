@@ -1,7 +1,91 @@
 {
-  "updated": "2026-07-07T08:46:42.068491+00:00",
-  "total": 802,
+  "updated": "2026-07-08T07:55:34.009003+00:00",
+  "total": 803,
   "items": [
+    {
+      "title": "The Strategy of Metrics: Choosing KPIs, Designing Dashboards, and Leading with Vision",
+      "url": "https://medium.com/@sivavishnu0705/the-strategy-of-metrics-choosing-kpis-designing-dashboards-and-leading-with-vision-c3e776d94bb2?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-07-08T07:06:11+00:00",
+      "summary": "Design type-safe KPIs, balance data with intuition, and build clear, actionable dashboards without overwhelming stakeholders. Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Product Development Strategy for Sustainable Business Growth and Market Success",
+      "url": "https://medium.com/@muditastrataegis01/product-development-strategy-for-sustainable-business-growth-and-market-success-5933355dd4da?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-07-08T06:22:48+00:00",
+      "summary": "A well-defined product development strategy is the foundation of creating innovative products that meet customer expectations and achieve… Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "On-Device Field Extraction by Verify",
+      "url": "https://www.producthunt.com/products/veryfi",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-07-07T22:16:44+00:00",
+      "summary": "Secure on-device extraction even if you're offline Discussion | Link",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Knowledge Atlas by Fini",
+      "url": "https://www.producthunt.com/products/fini-2",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-07-07T13:22:43+00:00",
+      "summary": "The self-learning knowledge base that improves itself Discussion | Link",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "How tech workers are feeling in 2026: a workforce splitting in two",
+      "url": "https://www.lennysnewsletter.com/p/how-tech-workers-are-feeling-in-2026",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-07-07T13:04:22+00:00",
+      "summary": "The 2026 tech worker sentiment survey reveals a clear divide: a growing segment of employees feels optimistic and engaged, while another sizable group reports burnout, uncertainty, and disengagement. The split is driven by disparities in remote work flexibility, AI tool adoption, and perceived career growth opportunities, prompting companies to rethink talent strategies and internal communication.",
+      "tags": [
+        "Leadership",
+        "Retention",
+        "Product Culture"
+      ],
+      "is_fallback": false
+    },
+    {
+      "title": "Stepping Into Leadership - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "url": "https://www.producttalk.org/stepping-into-leadership-all-things-product-podcast-with-teresa-torres-petra-wille/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-07-07T13:00:28+00:00",
+      "summary": "Listen to this episode on: Spotify | Apple Podcasts Every product manager wants to move into leadership — but nobody wants to hire a leader without leadership experience. So how do you break the cycle? In this episode, Teresa and Petra unpack the practical, often-overlooked ways",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "How to build an operating system for a startup:  Lessons from scaling 0 → 30+ employees",
+      "url": "https://www.productledalliance.com/how-to-build-an-operating-system-for-a-startup/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-07-07T12:00:08+00:00",
+      "summary": "What nobody tells you about scaling a startup sustainably.",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "A Script for Mark Zuckerberg",
+      "url": "https://stratechery.com/2026/a-script-for-mark-zuckerberg/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-07-07T10:00:00+00:00",
+      "summary": "A script for what Mark Zuckerberg should say on Meta's next earnings call.",
+      "tags": [],
+      "is_fallback": true
+    },
     {
       "title": "Inside Agoda (Travel-tech): Architecture, AI, and Growth",
       "url": "https://creativerohit.medium.com/inside-agoda-travel-tech-architecture-ai-and-growth-ba2a1d5c0d17?source=rss------product_management-5",
@@ -10124,95 +10208,6 @@
         "AI Strategy",
         "Competitive Analysis",
         "Product Strategy"
-      ]
-    },
-    {
-      "title": "Spectron",
-      "url": "https://www.producthunt.com/products/surrealdb",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-04-09T07:16:19+00:00",
-      "summary": "Agent memory you can trust Discussion | Link",
-      "tags": [
-        "AI Tools",
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Advice Line with Steve Ells of Chipotle",
-      "url": "#",
-      "source": "How I Built This",
-      "type": "podcast",
-      "date": "2026-04-09T07:10:00+00:00",
-      "summary": "In this Advice Line episode, Guy Raz speaks with Steve Ells, founder of Chipotle, about the strategic decisions that turned a single burrito restaurant into a global fast-casual empire. The episode explores the product decisions, pivots, and persistence required to build a category-defining business. Essential listening for PMs who want to understand how consumer products achieve mass adoption and cultural relevance.",
-      "tags": [
-        "Leadership",
-        "Product Culture",
-        "Growth"
-      ]
-    },
-    {
-      "title": "How quantum computing is transforming  data centers and energy",
-      "url": "https://www.productledalliance.com/how-quantum-computing-is-transforming-data-centers-and-energy/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-04-08T14:00:07+00:00",
-      "summary": "This piece explores how quantum computing is beginning to influence data center architecture and energy efficiency, with early use cases emerging in optimisation problems that classical computers struggle with. For most PMs, quantum computing remains distant from day-to-day product decisions, but understanding the trajectory helps anticipate platform shifts that could reshape cloud infrastructure costs over the next decade.",
-      "tags": [
-        "AI Strategy",
-        "Platform Strategy",
-        "Data"
-      ]
-    },
-    {
-      "title": "Product Roadmaps: How the Best Product Teams Plan for Uncertainty",
-      "url": "https://www.producttalk.org/product-roadmaps/",
-      "source": "Product Talk",
-      "type": "article",
-      "date": "2026-04-08T13:00:26+00:00",
-      "summary": "This article highlights the pitfalls of poorly constructed product roadmaps, exemplified by a scenario where prioritization was arbitrary and lacked a clear rationale. It underscores the need for a more robust and strategic approach to roadmap planning, especially when navigating uncertainty. For Product Managers, this emphasizes the importance of data-driven prioritization and stakeholder alignment, moving beyond simple feature lists.",
-      "tags": [
-        "Stakeholders",
-        "Product Strategy",
-        "Prioritization"
-      ]
-    },
-    {
-      "title": "I built a custom Slack inbox. It was easier than you'd think. | Yash Tekriwal (Clay)",
-      "url": "https://www.lennysnewsletter.com/p/i-built-a-custom-slack-inbox-it-was",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-04-08T12:03:47+00:00",
-      "summary": "Yash Tekriwal from Clay shares how he used AI agents to reduce 150+ daily Slack notifications to ~30 actionable items by building a custom digest and Kanban dashboard. The system categorises messages into action-required, need-to-read, and FYI buckets automatically. A practical example of how PMs can use AI tools to reclaim focus and reduce notification fatigue without waiting for their company to solve it.",
-      "tags": [
-        "AI Tools",
-        "Productivity"
-      ]
-    },
-    {
-      "title": "🔮 Where we’re taking Exponential View next",
-      "url": "https://www.exponentialview.co/p/exponential-view-greg-williams",
-      "source": "Exponential View",
-      "type": "trend",
-      "date": "2026-04-08T11:31:15+00:00",
-      "summary": "The article outlines the strategic roadmap for Exponential View, focusing on scaling its research studio by selecting an editorial platform that balances depth, flexibility, and audience engagement. The plan emphasizes iterative content experiments, tighter integration with data-driven insights, and expanding collaborative authoring tools to enhance the publication's influence in the tech‑future discourse.",
-      "tags": [
-        "Platform Strategy",
-        "Growth",
-        "User Research"
-      ]
-    },
-    {
-      "title": "Anthropic's New Model, The Mythos Wolf, Glasswing and Alignment",
-      "url": "https://stratechery.com/2026/anthropics-new-model-the-mythos-wolf-glasswing-and-alignment/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-04-08T10:00:00+00:00",
-      "summary": "Ben Thompson analyses Anthropic's latest model release in the context of the broader AI alignment debate and competitive dynamics among frontier AI labs. He examines how safety-focused positioning affects product strategy and market perception for companies like Anthropic. Essential reading for PMs tracking the AI landscape and thinking about how foundation model choices affect their product roadmap.",
-      "tags": [
-        "AI Strategy",
-        "Competitive Analysis"
       ]
     }
   ]
