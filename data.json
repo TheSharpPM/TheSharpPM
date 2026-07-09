@@ -1,7 +1,77 @@
 {
-  "updated": "2026-07-08T07:55:34.009003+00:00",
-  "total": 803,
+  "updated": "2026-07-09T08:50:43.970237+00:00",
+  "total": 801,
   "items": [
+    {
+      "title": "Automation roadmaps don’t fail in month three",
+      "url": "https://medium.com/@vlad.koval/automation-roadmaps-dont-fail-in-month-three-fd66c5610610?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-07-09T08:46:30+00:00",
+      "summary": "Most teams that attempt an AI automation roadmap don’t fail because they picked the wrong tool or underestimated complexity. They fail in… Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "AI Governance Is a Product Discipline — David Yosuanto",
+      "url": "https://medium.com/@davidyosuanto/ai-governance-is-a-product-discipline-david-yosuanto-9ee3ae127d96?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-07-09T03:09:15+00:00",
+      "summary": "AI capability ships in days, while governance frameworks take months to draft. That asymmetry creates a fundamental product problem. When… Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "AI Governance Is a Product Discipline — David Yosuanto",
+      "url": "https://medium.com/@davidyosuanto/ai-governance-is-a-product-discipline-david-yosuanto-78c213516d01?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-07-09T03:06:53+00:00",
+      "summary": "AI capability ships in days, while governance frameworks take months to draft. That asymmetry creates a fundamental product problem. When… Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "What a harness is and how to build one with Claude Agent SDK",
+      "url": "https://www.lennysnewsletter.com/p/what-a-harness-is-and-how-to-build",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-07-08T12:03:35+00:00",
+      "summary": "Listen now | 🎙️ I built a custom Claude Agent SDK harness to automate Sentry bug triage, saved the \"dear agent, please fix this\" prompt forever, and show you exactly how to build your own",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Product management is leveling up:  The new playbook from the Product-Led Summit",
+      "url": "https://www.productledalliance.com/product-management-is-leveling-up-the-new-playbook-from-the-product-led-summit/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-07-08T12:00:07+00:00",
+      "summary": "The classic product formula just got rewritten by AI.",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "XBOX Cuts; Bundling and the Internet Solvent; Transaction, Coordination, and Sunk Costs",
+      "url": "https://stratechery.com/2026/xbox-cuts-bundling-and-the-internet-solvent-transaction-coordination-and-sunk-costs/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-07-08T10:00:00+00:00",
+      "summary": "Microsoft's Xbox division is conducting big layoffs, as the company deals with abject failure of its Game Pass strategy.",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Just Ask by SEORCE",
+      "url": "https://www.producthunt.com/products/seorce",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-07-08T09:13:36+00:00",
+      "summary": "Talk to your SEO & AI Visibility data on WhatsApp. Discussion | Link",
+      "tags": [],
+      "is_fallback": true
+    },
     {
       "title": "The Strategy of Metrics: Choosing KPIs, Designing Dashboards, and Leading with Vision",
       "url": "https://medium.com/@sivavishnu0705/the-strategy-of-metrics-choosing-kpis-designing-dashboards-and-leading-with-vision-c3e776d94bb2?source=rss------product_strategy-5",
@@ -1601,6 +1671,16 @@
         "Growth"
       ],
       "is_fallback": false
+    },
+    {
+      "title": "Timbal AI",
+      "url": "https://www.producthunt.com/products/timbal-ai",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-22T09:20:29+00:00",
+      "summary": "Build AI agents, workflows, and apps in one stack Discussion | Link",
+      "tags": [],
+      "is_fallback": true
     },
     {
       "title": "Cloudflare Temporary Accounts",
@@ -10081,133 +10161,6 @@
         "AI Strategy",
         "Platform Strategy",
         "Competitive Analysis"
-      ]
-    },
-    {
-      "title": "Anamap",
-      "url": "https://www.producthunt.com/products/anamap",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-04-10T06:11:15+00:00",
-      "summary": "Anamap is a market research and competitive intelligence tool that uses AI to map competitive landscapes and identify whitespace opportunities automatically. It targets product and strategy teams who need structured competitive analysis without manually monitoring dozens of sources. A useful addition to the PM toolkit for teams doing regular competitive reviews or market entry assessments.",
-      "tags": [
-        "Competitive Analysis",
-        "AI Tools",
-        "Product Strategy"
-      ]
-    },
-    {
-      "title": "Ikes 3",
-      "url": "https://www.producthunt.com/products/ikes",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-04-10T05:49:15+00:00",
-      "summary": "Ikes 3 is an idea storage application designed to help users quickly capture fleeting thoughts before they disappear. The discussion focuses on its potential as a simple, low-friction tool for personal knowledge management and how it could integrate into broader productivity workflows.",
-      "tags": [
-        "Product Strategy",
-        "Productivity",
-        "Growth"
-      ]
-    },
-    {
-      "title": "Okta: Principal Product Manager, LogIn",
-      "url": "https://weworkremotely.com/remote-jobs/okta-principal-product-manager-login",
-      "source": "We Work Remotely",
-      "type": "job",
-      "date": "2026-04-09T20:34:35+00:00",
-      "summary": "This job posting highlights the critical role of a Principal Product Manager focused on login experiences, specifically within Okta's Auth0 platform. The position emphasizes ownership of a high-impact area – the 'front door' for millions of users – and requires defining secure, customizable, and performant authentication flows that balance security with a seamless user experience for major brands. It's a technically focused role demanding expertise in building secure-by-design authentication solutions.",
-      "tags": [
-        "Product Design"
-      ]
-    },
-    {
-      "title": "Signifyd: Senior Product Manager, Identity & Intelligence Platform",
-      "url": "https://weworkremotely.com/remote-jobs/signifyd-senior-product-manager-identity-intelligence-platform",
-      "source": "We Work Remotely",
-      "type": "job",
-      "date": "2026-04-09T20:34:08+00:00",
-      "summary": "Signifyd is looking for a Senior PM to lead their Identity and Intelligence Platform, focusing on fraud prevention and identity verification at scale. The role sits at the intersection of machine learning, data products, and financial security. A strong opportunity for PMs interested in trust and safety infrastructure.",
-      "tags": [
-        "Career",
-        "Data",
-        "Stakeholders"
-      ]
-    },
-    {
-      "title": "Carrum Health: Staff Applied AI Product Engineer",
-      "url": "https://weworkremotely.com/remote-jobs/carrum-health-staff-applied-ai-product-engineer",
-      "source": "We Work Remotely",
-      "type": "job",
-      "date": "2026-04-09T20:33:52+00:00",
-      "summary": "Carrum Health is hiring a Staff Applied AI Product Engineer to build AI-powered features for their healthcare navigation platform, with a focus on matching patients to the right providers. The role blends product thinking with hands-on ML engineering, making it unusual in the PM job market. Relevant for technically-oriented PMs exploring hybrid product-engineering roles in health tech.",
-      "tags": [
-        "Career",
-        "AI Tools",
-        "Leadership"
-      ]
-    },
-    {
-      "title": "Voodoo: Product Specialist Intern - Product",
-      "url": "https://weworkremotely.com/remote-jobs/voodoo-product-specialist-intern-product",
-      "source": "We Work Remotely",
-      "type": "job",
-      "date": "2026-04-09T20:33:22+00:00",
-      "summary": "Voodoo, one of Europe's leading mobile gaming companies, is offering a Product Specialist internship focused on game product management and player engagement metrics. The role provides exposure to mobile gaming growth loops, A/B testing at scale, and monetisation strategy. A strong entry point for aspiring PMs interested in consumer mobile and gaming.",
-      "tags": [
-        "Career",
-        "Growth",
-        "Metrics"
-      ]
-    },
-    {
-      "title": "Doordash Usa: Staff Product Manager, People Product",
-      "url": "https://weworkremotely.com/remote-jobs/doordash-usa-staff-product-manager-people-product",
-      "source": "We Work Remotely",
-      "type": "job",
-      "date": "2026-04-09T20:32:51+00:00",
-      "summary": "DoorDash is hiring a Staff PM for their People Product team, focused on building internal tools and experiences that support the company's workforce operations. The role sits at the intersection of HR technology and platform product management, requiring a PM who can navigate complex stakeholder landscapes and build products for internal users at scale. A strong opportunity for PMs interested in enterprise or internal tooling at a high-growth company.",
-      "tags": [
-        "Career",
-        "Stakeholders",
-        "Leadership"
-      ]
-    },
-    {
-      "title": "Commercial vs Internal Products",
-      "url": "https://www.svpg.com/commercial-vs-internal-products/",
-      "source": "SVPG",
-      "type": "article",
-      "date": "2026-04-09T19:52:26+00:00",
-      "summary": "Marty Cagan examines the fundamental differences between building commercial products for paying customers and internal tools for employees, arguing that the constraints, incentives, and success metrics are so different they require distinct PM skill sets. Internal products often lack the forcing function of market competition, which leads to lower quality and slower iteration. A useful framework for PMs transitioning between these contexts.",
-      "tags": [
-        "Product Strategy",
-        "Product Culture"
-      ]
-    },
-    {
-      "title": "Rosentic",
-      "url": "https://www.producthunt.com/products/rosentic",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-04-09T10:25:31+00:00",
-      "summary": "The article discusses a technique for detecting conflicts between coding agents before merging their changes, helping teams identify and resolve issues early in the development cycle. Implementing such pre-merge checks can improve code quality, reduce integration bugs, and streamline the collaboration workflow.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Product Culture"
-      ]
-    },
-    {
-      "title": "An Interview with New York Times CEO Meredith Kopit Levien About Betting on Humans With Expertise",
-      "url": "https://stratechery.com/2026/an-interview-with-new-york-times-ceo-meredith-kopit-levien-about-betting-on-humans-with-expertise/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-04-09T10:00:00+00:00",
-      "summary": "The NYT CEO discusses the company's strategy of doubling down on human expertise and trusted journalism as a competitive moat against AI-generated content. She argues that in a world of abundant AI content, scarcity of credible human expertise becomes the premium product. PMs in media or content-adjacent products will find this a valuable case study in differentiation strategy.",
-      "tags": [
-        "AI Strategy",
-        "Competitive Analysis",
-        "Product Strategy"
       ]
     }
   ]
