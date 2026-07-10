@@ -1,7 +1,117 @@
 {
-  "updated": "2026-07-09T08:50:43.970237+00:00",
-  "total": 801,
+  "updated": "2026-07-10T08:47:04.818324+00:00",
+  "total": 809,
   "items": [
+    {
+      "title": "Too much output, too little attention",
+      "url": "https://medium.com/@raqueladsantos/too-much-output-too-little-attention-ffb6a5b7c8c7?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-07-10T08:45:33+00:00",
+      "summary": "It was just one page. It had taken half of my previous week. It was the conclusion of a business case a director had asked me for. I… Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Who is a product builder?",
+      "url": "https://medium.com/@Praiseogolo/who-is-a-product-builder-363159e07f54?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-07-10T07:54:04+00:00",
+      "summary": "Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Experience Redesign for a Premium Recommerce Platform",
+      "url": "https://medium.com/@poonamjrn.ux/experience-redesign-for-a-premium-recommerce-platform-328c5ef3c2c7?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-07-10T04:05:54+00:00",
+      "summary": "A strategic redesign project exploring opportunities to improve usability and conversion of a luxury e-commerce and resale mobile app Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "“Use Cases, Capabilities, and Solutions — Oh My!”",
+      "url": "https://medium.com/@parkenal/use-cases-capabilities-and-solutions-oh-my-e9dc4a7af724?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-07-10T01:35:11+00:00",
+      "summary": "Moving Beyond the Backlog to Uncover True Needs That Drive Lasting Impact Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "GPT-5.6 Sol vs. Claude Fable: Why OpenAI’s new model crushes my benchmark",
+      "url": "https://www.lennysnewsletter.com/p/gpt-56-sol-vs-claude-fable-why-openais",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-07-09T17:33:57+00:00",
+      "summary": "Watch now | 🎙️GPT 5.6-Sol beats Fable on prototypes, PRDs, and browser use in my 5-category How I AI benchmark, and here's exactly where each model earns its spot.",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Ways to think about token pricing",
+      "url": "https://www.ben-evans.com/benedictevans/2026/7/9/ways-to-think-about-token-pricing",
+      "source": "Benedict Evans",
+      "type": "trend",
+      "date": "2026-07-09T14:15:51+00:00",
+      "summary": "AI is in a supply crunch today, but what happens when we come out of it? How and where will supply, demand, price, capacity and capex get back into equilibrium? Today, model labs can name their price, but why won’t they end up as low-margin commodity infrastructure?",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "AI pricing is broken:  4 experts reframe the issue",
+      "url": "https://www.productledalliance.com/ai-pricing-is-broken-4-experts-reframe-the-issue/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-07-09T14:00:03+00:00",
+      "summary": "Discover four perspectives on AI monetization from leading product management experts. Learn how to price AI features and build a pricing strategy that scales.",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "From COVID Pivot to AI World Building: How Snapbar Reinvented the Photo Experience",
+      "url": "https://www.producttalk.org/from-covid-pivot-to-ai-world-building-how-snapbar-reinvented-the-photo-experience/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-07-09T13:00:43+00:00",
+      "summary": "Listen to this episode on: Spotify | Apple Podcasts What does it take to reinvent a 14-year-old company—not once, but twice? In this episode of Just Now Possible , Teresa Torres talks with Sam Eitzen (Co-founder & CEO), Joe Eitzen (Co-founder & CPO), and Patrick Ellis",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Adam Mosseri: AI is a tailwind for authenticity",
+      "url": "https://www.lennysnewsletter.com/p/adam-mosseri-ai-is-a-tailwind-for",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-07-09T12:32:21+00:00",
+      "summary": "Listen now | Instagram’s Adam Mosseri on the new product team structure in 2026, the rise of the “product staff” role, and the hiring traits that matter most today",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "Muse Image, Grok 4.5, Alex Karp on CNBC",
+      "url": "https://stratechery.com/2026/muse-image-grok-4-5-alex-karp-on-cnbc/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-07-09T10:00:00+00:00",
+      "summary": "The battle for verifiable data is increasingly defining the AI race, from Meta to Grok to the frontier labs.",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "The Product Management Salary  Survey 2026",
+      "url": "https://www.productledalliance.com/the-product-management-salary-survey-2026/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-07-09T09:52:44+00:00",
+      "summary": "Wish product management salary information was transparent? Help us figure out the salary benchmarks for PMs. Now’s your chance to have your say.",
+      "tags": [],
+      "is_fallback": true
+    },
     {
       "title": "Automation roadmaps don’t fail in month three",
       "url": "https://medium.com/@vlad.koval/automation-roadmaps-dont-fail-in-month-three-fd66c5610610?source=rss------product_management-5",
@@ -9,6 +119,16 @@
       "type": "article",
       "date": "2026-07-09T08:46:30+00:00",
       "summary": "Most teams that attempt an AI automation roadmap don’t fail because they picked the wrong tool or underestimated complexity. They fail in… Continue reading on Medium »",
+      "tags": [],
+      "is_fallback": true
+    },
+    {
+      "title": "ChatCut",
+      "url": "https://www.producthunt.com/products/chatcut-ai-video-editor",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-07-09T06:50:16+00:00",
+      "summary": "Your AI video editor - in ChatGPT, desktop, and web Discussion | Link",
       "tags": [],
       "is_fallback": true
     },
@@ -10110,57 +10230,6 @@
         "AI Tools",
         "Leadership",
         "Career"
-      ]
-    },
-    {
-      "title": "2026.15: Myth and Mythos",
-      "url": "https://stratechery.com/2026/myth-and-mythos/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-04-10T17:00:00+00:00",
-      "summary": "Ben Thompson explores how dominant tech narratives shape product strategy and competitive dynamics in the AI era, drawing parallels between mythological storytelling and modern platform wars. He argues that companies which control the prevailing narrative gain strategic leverage well beyond their actual technical capabilities. Essential context for PMs navigating AI-driven market shifts and positioning decisions.",
-      "tags": [
-        "AI Strategy",
-        "Platform Strategy",
-        "Competitive Analysis"
-      ]
-    },
-    {
-      "title": "The fall of the house of product:  A heartfelt goodbye",
-      "url": "https://www.productledalliance.com/the-fall-of-the-house-of-product-a-heartfelt-goodbye/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-04-10T15:00:36+00:00",
-      "summary": "A reflective piece marking the end of an era in product-led growth thinking, arguing that the original vision of PLG has been diluted into a marketing buzzword. The author calls for a return to first principles: building products so good that they sell themselves. A thought-provoking read for PMs questioning whether their PLG motion is genuine or performative.",
-      "tags": [
-        "Product Strategy",
-        "Growth",
-        "Product Culture"
-      ]
-    },
-    {
-      "title": "The financial blind spot that gets product managers fired",
-      "url": "https://www.productcoalition.com/p/the-number-your-board-asks-first",
-      "source": "Product Coalition",
-      "type": "article",
-      "date": "2026-04-10T14:13:40+00:00",
-      "summary": "Many product managers excel at product metrics like NPS and activation rates but are dangerously unaware of the financial metrics boards actually care about — particularly LTV-to-CAC ratio and payback period. The author argues this blind spot is one of the leading reasons experienced PMs get cut in budget reviews. PMs who want to be taken seriously at the executive level need to own their product's financial narrative.",
-      "tags": [
-        "Stakeholders",
-        "Metrics"
-      ]
-    },
-    {
-      "title": "💸 Mythos and the mispricing of everything",
-      "url": "https://www.exponentialview.co/p/mythos-and-the-mispricing-of-everything",
-      "source": "Exponential View",
-      "type": "trend",
-      "date": "2026-04-10T13:35:48+00:00",
-      "summary": "Azeem Azhar argues that financial markets are systematically mispricing AI companies because traditional valuation frameworks fail to account for the compounding, non-linear nature of AI-driven value creation. He draws parallels with previous technological transitions where incumbents were undervalued before markets recalibrated. For PMs at AI-native companies, this has implications for how to communicate product value to investors and boards.",
-      "tags": [
-        "AI Strategy",
-        "Platform Strategy",
-        "Competitive Analysis"
       ]
     }
   ]
