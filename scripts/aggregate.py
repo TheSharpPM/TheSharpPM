@@ -64,6 +64,16 @@ FEEDS = [
     {"url": "https://www.mindtheproduct.com/feed/podcast/", "source": "Mind the Product Podcast", "type": "podcast"},
     {"url": "https://feeds.simplecast.com/4MvgQ73R", "source": "Masters of Scale", "type": "podcast"},
     {"url": "https://rss.art19.com/how-i-built-this", "source": "How I Built This", "type": "podcast"},
+
+    # Additional podcasts (broaden the pool - the base 4 above have
+    # been producing near-zero items; several of these are on more
+    # active PM/tech circuits).
+    {"url": "https://feeds.simplecast.com/qc7NJdlL", "source": "Product Thinking", "type": "podcast"},
+    {"url": "https://feeds.transistor.fm/acquired", "source": "Acquired", "type": "podcast"},
+    {"url": "https://feeds.megaphone.fm/thetwentyminutevc", "source": "20VC", "type": "podcast"},
+    {"url": "https://feeds.blubrry.com/feeds/thisisproductmanagement.xml", "source": "This Is Product Management", "type": "podcast"},
+    {"url": "https://feeds.simplecast.com/JGE3yC0V", "source": "a16z Podcast", "type": "podcast"},
+    {"url": "https://rss.art19.com/tim-ferriss-show", "source": "The Tim Ferriss Show", "type": "podcast"},
  
     # Videos (YouTube RSS)
     {"url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCJXGnMEFEpKKBqAVBpTSoQQ", "source": "Y Combinator", "type": "video"},
