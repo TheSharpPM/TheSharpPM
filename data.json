@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-10T08:47:04.818324+00:00",
+  "updated": "2026-07-10T11:56:38.525893+00:00",
   "total": 809,
   "items": [
     {
@@ -9,7 +9,9 @@
       "type": "article",
       "date": "2026-07-10T08:45:33+00:00",
       "summary": "It was just one page. It had taken half of my previous week. It was the conclusion of a business case a director had asked me for. I… Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "Product Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -19,7 +21,9 @@
       "type": "article",
       "date": "2026-07-10T07:54:04+00:00",
       "summary": "Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "Product Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -29,7 +33,10 @@
       "type": "article",
       "date": "2026-07-10T04:05:54+00:00",
       "summary": "A strategic redesign project exploring opportunities to improve usability and conversion of a luxury e-commerce and resale mobile app Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "Platform Strategy",
+        "User Research"
+      ],
       "is_fallback": true
     },
     {
@@ -39,7 +46,9 @@
       "type": "article",
       "date": "2026-07-10T01:35:11+00:00",
       "summary": "Moving Beyond the Backlog to Uncover True Needs That Drive Lasting Impact Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "Prioritization"
+      ],
       "is_fallback": true
     },
     {
@@ -49,7 +58,11 @@
       "type": "article",
       "date": "2026-07-09T17:33:57+00:00",
       "summary": "Watch now | 🎙️GPT 5.6-Sol beats Fable on prototypes, PRDs, and browser use in my 5-category How I AI benchmark, and here's exactly where each model earns its spot.",
-      "tags": [],
+      "tags": [
+        "AI Tools",
+        "AI Strategy",
+        "Product Design"
+      ],
       "is_fallback": true
     },
     {
@@ -59,7 +72,10 @@
       "type": "trend",
       "date": "2026-07-09T14:15:51+00:00",
       "summary": "AI is in a supply crunch today, but what happens when we come out of it? How and where will supply, demand, price, capacity and capex get back into equilibrium? Today, model labs can name their price, but why won’t they end up as low-margin commodity infrastructure?",
-      "tags": [],
+      "tags": [
+        "AI Strategy",
+        "Pricing"
+      ],
       "is_fallback": true
     },
     {
@@ -69,7 +85,10 @@
       "type": "event",
       "date": "2026-07-09T14:00:03+00:00",
       "summary": "Discover four perspectives on AI monetization from leading product management experts. Learn how to price AI features and build a pricing strategy that scales.",
-      "tags": [],
+      "tags": [
+        "Pricing",
+        "AI Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -79,7 +98,10 @@
       "type": "article",
       "date": "2026-07-09T13:00:43+00:00",
       "summary": "Listen to this episode on: Spotify | Apple Podcasts What does it take to reinvent a 14-year-old company—not once, but twice? In this episode of Just Now Possible , Teresa Torres talks with Sam Eitzen (Co-founder & CEO), Joe Eitzen (Co-founder & CPO), and Patrick Ellis",
-      "tags": [],
+      "tags": [
+        "AI Strategy",
+        "Leadership"
+      ],
       "is_fallback": true
     },
     {
@@ -89,7 +111,10 @@
       "type": "article",
       "date": "2026-07-09T12:32:21+00:00",
       "summary": "Listen now | Instagram’s Adam Mosseri on the new product team structure in 2026, the rise of the “product staff” role, and the hiring traits that matter most today",
-      "tags": [],
+      "tags": [
+        "AI Strategy",
+        "Career"
+      ],
       "is_fallback": true
     },
     {
@@ -99,7 +124,9 @@
       "type": "trend",
       "date": "2026-07-09T10:00:00+00:00",
       "summary": "The battle for verifiable data is increasingly defining the AI race, from Meta to Grok to the frontier labs.",
-      "tags": [],
+      "tags": [
+        "AI Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -109,7 +136,9 @@
       "type": "event",
       "date": "2026-07-09T09:52:44+00:00",
       "summary": "Wish product management salary information was transparent? Help us figure out the salary benchmarks for PMs. Now’s your chance to have your say.",
-      "tags": [],
+      "tags": [
+        "Career"
+      ],
       "is_fallback": true
     },
     {
@@ -119,7 +148,11 @@
       "type": "article",
       "date": "2026-07-09T08:46:30+00:00",
       "summary": "Most teams that attempt an AI automation roadmap don’t fail because they picked the wrong tool or underestimated complexity. They fail in… Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "AI Strategy",
+        "Automation",
+        "Product Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -129,7 +162,10 @@
       "type": "trend",
       "date": "2026-07-09T06:50:16+00:00",
       "summary": "Your AI video editor - in ChatGPT, desktop, and web Discussion | Link",
-      "tags": [],
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
       "is_fallback": true
     },
     {
@@ -139,7 +175,10 @@
       "type": "article",
       "date": "2026-07-09T03:09:15+00:00",
       "summary": "AI capability ships in days, while governance frameworks take months to draft. That asymmetry creates a fundamental product problem. When… Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "AI Strategy",
+        "Risk Management"
+      ],
       "is_fallback": true
     },
     {
@@ -149,7 +188,10 @@
       "type": "article",
       "date": "2026-07-09T03:06:53+00:00",
       "summary": "AI capability ships in days, while governance frameworks take months to draft. That asymmetry creates a fundamental product problem. When… Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "AI Strategy",
+        "Risk Management"
+      ],
       "is_fallback": true
     },
     {
@@ -159,7 +201,10 @@
       "type": "article",
       "date": "2026-07-08T12:03:35+00:00",
       "summary": "Listen now | 🎙️ I built a custom Claude Agent SDK harness to automate Sentry bug triage, saved the \"dear agent, please fix this\" prompt forever, and show you exactly how to build your own",
-      "tags": [],
+      "tags": [
+        "AI Tools",
+        "Platform Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -169,7 +214,9 @@
       "type": "event",
       "date": "2026-07-08T12:00:07+00:00",
       "summary": "The classic product formula just got rewritten by AI.",
-      "tags": [],
+      "tags": [
+        "AI Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -179,7 +226,9 @@
       "type": "trend",
       "date": "2026-07-08T10:00:00+00:00",
       "summary": "Microsoft's Xbox division is conducting big layoffs, as the company deals with abject failure of its Game Pass strategy.",
-      "tags": [],
+      "tags": [
+        "Product Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -189,7 +238,9 @@
       "type": "trend",
       "date": "2026-07-08T09:13:36+00:00",
       "summary": "Talk to your SEO & AI Visibility data on WhatsApp. Discussion | Link",
-      "tags": [],
+      "tags": [
+        "AI Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -199,7 +250,10 @@
       "type": "article",
       "date": "2026-07-08T07:06:11+00:00",
       "summary": "Design type-safe KPIs, balance data with intuition, and build clear, actionable dashboards without overwhelming stakeholders. Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "Metrics",
+        "Stakeholders"
+      ],
       "is_fallback": true
     },
     {
@@ -209,7 +263,9 @@
       "type": "article",
       "date": "2026-07-08T06:22:48+00:00",
       "summary": "A well-defined product development strategy is the foundation of creating innovative products that meet customer expectations and achieve… Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "Growth"
+      ],
       "is_fallback": true
     },
     {
@@ -219,7 +275,9 @@
       "type": "trend",
       "date": "2026-07-07T22:16:44+00:00",
       "summary": "Secure on-device extraction even if you're offline Discussion | Link",
-      "tags": [],
+      "tags": [
+        "Hardware Differentiation"
+      ],
       "is_fallback": true
     },
     {
@@ -229,7 +287,9 @@
       "type": "trend",
       "date": "2026-07-07T13:22:43+00:00",
       "summary": "The self-learning knowledge base that improves itself Discussion | Link",
-      "tags": [],
+      "tags": [
+        "Product Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -253,7 +313,9 @@
       "type": "article",
       "date": "2026-07-07T13:00:28+00:00",
       "summary": "Listen to this episode on: Spotify | Apple Podcasts Every product manager wants to move into leadership — but nobody wants to hire a leader without leadership experience. So how do you break the cycle? In this episode, Teresa and Petra unpack the practical, often-overlooked ways",
-      "tags": [],
+      "tags": [
+        "Leadership"
+      ],
       "is_fallback": true
     },
     {
@@ -263,7 +325,9 @@
       "type": "event",
       "date": "2026-07-07T12:00:08+00:00",
       "summary": "What nobody tells you about scaling a startup sustainably.",
-      "tags": [],
+      "tags": [
+        "Product Culture"
+      ],
       "is_fallback": true
     },
     {
@@ -273,7 +337,9 @@
       "type": "trend",
       "date": "2026-07-07T10:00:00+00:00",
       "summary": "A script for what Mark Zuckerberg should say on Meta's next earnings call.",
-      "tags": [],
+      "tags": [
+        "Product Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -283,7 +349,9 @@
       "type": "article",
       "date": "2026-07-07T08:01:59+00:00",
       "summary": "Agoda is the Asia-focused online travel agency inside Booking Holdings (alongside Booking.com, Priceline, and Kayak). What makes it a… Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "Growth"
+      ],
       "is_fallback": true
     },
     {
@@ -293,7 +361,9 @@
       "type": "article",
       "date": "2026-07-07T07:15:39+00:00",
       "summary": "Everyone obsesses over the model. The pipeline that feeds it is where production ML systems actually live or die Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "Product Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -303,7 +373,9 @@
       "type": "article",
       "date": "2026-07-07T05:26:42+00:00",
       "summary": "Designing PRDs for systems that learn, reason, and collaborate. Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "AI Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -313,7 +385,9 @@
       "type": "article",
       "date": "2026-07-07T04:16:01+00:00",
       "summary": "I Thought I Was Prepared Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "Product Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -323,7 +397,9 @@
       "type": "article",
       "date": "2026-07-06T15:01:17+00:00",
       "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
-      "tags": [],
+      "tags": [
+        "AI Tools"
+      ],
       "is_fallback": true
     },
     {
@@ -333,7 +409,10 @@
       "type": "event",
       "date": "2026-07-06T14:25:10+00:00",
       "summary": "Clarify your strengths, your value, and your next career move.",
-      "tags": [],
+      "tags": [
+        "Career",
+        "Competitive Analysis"
+      ],
       "is_fallback": true
     },
     {
@@ -343,7 +422,9 @@
       "type": "trend",
       "date": "2026-07-06T13:44:31+00:00",
       "summary": "The coming supply shock; extreme heat; baby bust & growth boom++",
-      "tags": [],
+      "tags": [
+        "Growth"
+      ],
       "is_fallback": true
     },
     {
@@ -353,7 +434,9 @@
       "type": "article",
       "date": "2026-07-06T13:00:02+00:00",
       "summary": "Continuous Discovery Habits turned five this year. And to celebrate we are reading the book together. Each month, I am releasing an in-depth reading guide that includes: The chapters we will be reading A preview of the most important concepts we'll be learning about Short videos",
-      "tags": [],
+      "tags": [
+        "Product Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -363,7 +446,9 @@
       "type": "article",
       "date": "2026-07-06T12:03:37+00:00",
       "summary": "Watch now | 🎙️ Alessio Fanelli shows his Symphony + Linear setup for running parallel coding agents from his phone, then demos Codex hunting underpriced Pokémon cards in real time",
-      "tags": [],
+      "tags": [
+        "AI Tools"
+      ],
       "is_fallback": true
     },
     {
@@ -373,7 +458,9 @@
       "type": "trend",
       "date": "2026-07-06T09:37:56+00:00",
       "summary": "Your AI inbox that writes like you + replies on autopilot Discussion | Link",
-      "tags": [],
+      "tags": [
+        "AI Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -383,7 +470,9 @@
       "type": "article",
       "date": "2026-07-06T09:13:18+00:00",
       "summary": "How one man’s crackdown on food adulteration exposed a systemic failure and the design-led solution to fix it. Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "Product Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -393,7 +482,9 @@
       "type": "article",
       "date": "2026-07-06T08:51:20+00:00",
       "summary": "Building a mini Internal Developer Platform from scratch. The story of moving from “I know it” to “I built it, I lived it.” Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "Platform Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -403,7 +494,9 @@
       "type": "article",
       "date": "2026-07-06T08:37:31+00:00",
       "summary": "Yes, IT Project is an Investment and can be evaluated equivalently, and maybe even Price/Earning, PE Ratio can be used (augmented). Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "Product Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -413,7 +506,9 @@
       "type": "article",
       "date": "2026-07-06T07:34:33+00:00",
       "summary": "I spent months researching a product I believed in and was about to finally start designing screens, and then I asked AI to review my PRD… Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "AI Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -423,7 +518,9 @@
       "type": "trend",
       "date": "2026-07-05T13:39:06+00:00",
       "summary": "Claude Code, Codex, any CLI agent. Driven from your iPhone Discussion | Link",
-      "tags": [],
+      "tags": [
+        "AI Tools"
+      ],
       "is_fallback": true
     },
     {
@@ -433,7 +530,9 @@
       "type": "trend",
       "date": "2026-07-05T08:21:58+00:00",
       "summary": "“You cut straight through the noise.” — Miguel O., a paying subscriber",
-      "tags": [],
+      "tags": [
+        "AI Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -443,7 +542,9 @@
       "type": "article",
       "date": "2026-07-05T08:07:08+00:00",
       "summary": "In the age of AI, good storytelling often makes the difference between information and influence. Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "Communication"
+      ],
       "is_fallback": true
     },
     {
@@ -453,7 +554,9 @@
       "type": "article",
       "date": "2026-07-05T07:31:19+00:00",
       "summary": "A concept focused on transforming food delivery order cancellations into a structured revenue recovery system. It aims to reduce waste and… Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "Product Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -463,7 +566,11 @@
       "type": "article",
       "date": "2026-07-05T03:55:03+00:00",
       "summary": "Why the future of AI product design is about decision architecture, not automation. Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "AI Strategy",
+        "Automation",
+        "Product Design"
+      ],
       "is_fallback": true
     },
     {
@@ -473,7 +580,11 @@
       "type": "article",
       "date": "2026-07-04T16:58:47+00:00",
       "summary": "Community Wisdom 192",
-      "tags": [],
+      "tags": [
+        "AI Strategy",
+        "Career",
+        "Community"
+      ],
       "is_fallback": true
     },
     {
@@ -483,7 +594,10 @@
       "type": "trend",
       "date": "2026-07-04T16:05:42+00:00",
       "summary": "Give your AI agents a slack, a task board, and a boss Discussion | Link",
-      "tags": [],
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
       "is_fallback": true
     },
     {
@@ -493,7 +607,9 @@
       "type": "article",
       "date": "2026-07-04T10:58:08+00:00",
       "summary": "Every time I order food, I wonder about the person who delivers it. So I decided to actually dig into their problems and think about it… Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "Product Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -503,7 +619,9 @@
       "type": "article",
       "date": "2026-07-04T08:05:17+00:00",
       "summary": "Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "Product Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -513,7 +631,11 @@
       "type": "article",
       "date": "2026-07-04T07:44:55+00:00",
       "summary": "The developer community is rightly celebrating the Model Context Protocol (MCP) as an open standard, MCP elegantly solves the integration… Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "AI Strategy",
+        "AI Tools",
+        "Compliance"
+      ],
       "is_fallback": true
     },
     {
@@ -523,7 +645,9 @@
       "type": "trend",
       "date": "2026-07-03T19:10:29+00:00",
       "summary": "A global operating account for fiat, stablecoins, and cards. Discussion | Link",
-      "tags": [],
+      "tags": [
+        "Product Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -533,7 +657,10 @@
       "type": "article",
       "date": "2026-07-03T17:13:01+00:00",
       "summary": "What three evenings building an edge Kubernetes platform with agentic AI taught me about why autonomy doesn’t eliminate engineering effort… Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "AI Strategy",
+        "Platform Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -543,7 +670,10 @@
       "type": "event",
       "date": "2026-07-03T15:00:51+00:00",
       "summary": "Consensus feels safe, but it's costing you velocity.",
-      "tags": [],
+      "tags": [
+        "Engineering Velocity",
+        "Stakeholders"
+      ],
       "is_fallback": true
     },
     {
@@ -553,7 +683,9 @@
       "type": "article",
       "date": "2026-07-03T14:51:15+00:00",
       "summary": "The next generation of successful SaaS products won't come from chasing AI trends. They'll come from solving overlooked business problems… Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "AI Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -563,7 +695,9 @@
       "type": "event",
       "date": "2026-07-03T11:00:00+00:00",
       "summary": "With product-led GTM, potential customers interact directly with the product, often through freemium models or free trials, allowing them to experience its value before making a purchase decision.",
-      "tags": [],
+      "tags": [
+        "Pricing"
+      ],
       "is_fallback": true
     },
     {
@@ -573,7 +707,10 @@
       "type": "article",
       "date": "2026-07-03T09:00:28+00:00",
       "summary": "Summary In this episode, Jay Stansell interviews Dave West from Scrum.org about the evolving role of AI in product management. They explore how AI acts as a teammate, its limitations, and its impact",
-      "tags": [],
+      "tags": [
+        "AI Strategy",
+        "Career"
+      ],
       "is_fallback": true
     },
     {
@@ -583,7 +720,9 @@
       "type": "article",
       "date": "2026-07-03T07:36:20+00:00",
       "summary": "Pazar analizi yaparken, finansal projeksiyonları incelerken ya da bir ürünün yol haritasını çizerken önümüzde hep somut rakamlar durur… Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "Product Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -593,7 +732,9 @@
       "type": "article",
       "date": "2026-07-03T07:31:48+00:00",
       "summary": "Wer kennt es nicht? Man startet ein neues Projekt voller Energie, doch schon nach wenigen Tagen versinkt alles im digitalen Chaos. Ohne… Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "Product Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -603,7 +744,9 @@
       "type": "article",
       "date": "2026-07-03T06:05:12+00:00",
       "summary": "The recent rollout of Open USD (OUSD) by a powerhouse coalition including Stripe, Google, Visa, and BlackRock is a defining moment for… Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "Product Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -613,7 +756,9 @@
       "type": "job",
       "date": "2026-07-03T06:00:04+00:00",
       "summary": "General Role Description Develop and execute solar inverter product line strategies over 1-2 year rolling time frames in the context of the Mid-Range Plan (3-5 years), managing the assigned portfolio and associated product development process from idea generation through product",
-      "tags": [],
+      "tags": [
+        "Career"
+      ],
       "is_fallback": true
     },
     {
@@ -623,7 +768,10 @@
       "type": "article",
       "date": "2026-07-03T03:20:15+00:00",
       "summary": "They’re prioritized by confidence, then justified with data. Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "Prioritization",
+        "Product Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -633,7 +781,9 @@
       "type": "trend",
       "date": "2026-07-03T00:08:51+00:00",
       "summary": "Talk to GitHub Copilot out loud Discussion | Link",
-      "tags": [],
+      "tags": [
+        "AI Tools"
+      ],
       "is_fallback": true
     },
     {
@@ -643,7 +793,9 @@
       "type": "trend",
       "date": "2026-07-02T13:57:06+00:00",
       "summary": "A desktop pet that grows as you code with Claude Code Discussion | Link",
-      "tags": [],
+      "tags": [
+        "AI Tools"
+      ],
       "is_fallback": true
     },
     {
@@ -653,7 +805,9 @@
       "type": "event",
       "date": "2026-07-02T08:48:12+00:00",
       "summary": "Bottlenecks rarely announce themselves. They build quietly through misaligned goals, unclear decision rights, and bloated processes. Here's how three product practitioners found and fixed them.",
-      "tags": [],
+      "tags": [
+        "Product Culture"
+      ],
       "is_fallback": true
     },
     {
@@ -663,7 +817,9 @@
       "type": "article",
       "date": "2026-07-02T07:47:04+00:00",
       "summary": "When I started my career, I believed that if my work looked good, 𝗼𝗽𝗽𝗼𝗿𝘁𝘂𝗻𝗶𝘁𝗶𝗲𝘀 would naturally follow. Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "Career"
+      ],
       "is_fallback": true
     },
     {
@@ -673,7 +829,9 @@
       "type": "article",
       "date": "2026-07-02T03:04:25+00:00",
       "summary": "In the highly competitive world of cross-border e-commerce, the era of blindly following macro trends is over. Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "Competitive Analysis"
+      ],
       "is_fallback": true
     },
     {
@@ -683,7 +841,9 @@
       "type": "trend",
       "date": "2026-07-01T19:00:03+00:00",
       "summary": "Turn 1 creative into every ad format, instantly Discussion | Link",
-      "tags": [],
+      "tags": [
+        "Product Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -693,7 +853,9 @@
       "type": "article",
       "date": "2026-07-01T08:21:57+00:00",
       "summary": "Productivity isn’t about doing more things; it’s about doing the right things exceptionally well. Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "Productivity"
+      ],
       "is_fallback": true
     },
     {
@@ -703,7 +865,9 @@
       "type": "article",
       "date": "2026-07-01T08:07:26+00:00",
       "summary": "Performance management software is built to improve clarity, accountability, and feedback. Yet employees may experience it as something… Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "Product Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -713,7 +877,9 @@
       "type": "article",
       "date": "2026-07-01T03:02:16+00:00",
       "summary": "Why Me? Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "Product Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -723,7 +889,9 @@
       "type": "article",
       "date": "2026-07-01T01:32:09+00:00",
       "summary": "Working in the AI world since the early days has given me the chance to see a few trends emerging. Initially, AI was the unicorn that no… Continue reading on Open Source AI »",
-      "tags": [],
+      "tags": [
+        "AI Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -747,7 +915,9 @@
       "type": "article",
       "date": "2026-06-30T23:09:59+00:00",
       "summary": "I have long argued that great products are what powers great companies. And while I still believe that great products are necessary for great companies, it’s become quite clear over the years that great products are not sufficient. In fact, as counter-intuitive as this sounds, I",
-      "tags": [],
+      "tags": [
+        "Product Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -757,7 +927,9 @@
       "type": "job",
       "date": "2026-06-30T20:34:28+00:00",
       "summary": "Headquarters: Remote - Romania Who we are At Fortis Games we aspire to make great games that bring people together while redefining how game companies work. We believe in building a sense of belonging through our games, their communities, and how we operate and treat each other.",
-      "tags": [],
+      "tags": [
+        "Career"
+      ],
       "is_fallback": true
     },
     {
@@ -767,7 +939,10 @@
       "type": "job",
       "date": "2026-06-30T20:32:38+00:00",
       "summary": "Headquarters: State College, PA Launched in January 2022, AccuWeather's ClimateReady™ Risk Mitigation, is designed to help companies, municipalities, and organizations worldwide prepare for the impact of climate change. This offering leverages AccuWeather’s superior insights to a...",
-      "tags": [],
+      "tags": [
+        "Career",
+        "Risk Management"
+      ],
       "is_fallback": true
     },
     {
@@ -777,7 +952,10 @@
       "type": "job",
       "date": "2026-06-30T18:48:25+00:00",
       "summary": "TLDR; We build software for short-term rentals to rent themselves, with a state-of-the-art product and user experience. We have crafted an Applicant Handbook, which we highly recommend you check out, where you can find out more about the company, culture, how we recruit, what we",
-      "tags": [],
+      "tags": [
+        "Career",
+        "Product Design"
+      ],
       "is_fallback": true
     },
     {
@@ -787,7 +965,9 @@
       "type": "article",
       "date": "2026-06-30T13:31:39+00:00",
       "summary": "A framework for getting the most out of AI in your day-to-day-work",
-      "tags": [],
+      "tags": [
+        "AI Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -797,7 +977,9 @@
       "type": "article",
       "date": "2026-06-30T13:00:17+00:00",
       "summary": "Listen to this episode on: Spotify | Apple Podcasts Think you don't have big enough problems for AI to help with? Think again. In this episode, Petra and Teresa tackle one of the most common blockers people face when starting out with AI: not knowing where to begin. It&",
-      "tags": [],
+      "tags": [
+        "AI Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -807,7 +989,9 @@
       "type": "trend",
       "date": "2026-06-30T12:57:43+00:00",
       "summary": "Snap, switch, and arrange Mac windows from the notch Discussion | Link",
-      "tags": [],
+      "tags": [
+        "Product Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -817,7 +1001,10 @@
       "type": "event",
       "date": "2026-06-30T12:00:18+00:00",
       "summary": "Launch week looks great – until you check who stayed.",
-      "tags": [],
+      "tags": [
+        "Metrics",
+        "Retention"
+      ],
       "is_fallback": true
     },
     {
@@ -827,7 +1014,10 @@
       "type": "article",
       "date": "2026-06-30T08:43:26+00:00",
       "summary": "From pixels to proposals. How running my own product company changed the way I see design, stakeholders, and the future of our field. Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "Product Design",
+        "Stakeholders"
+      ],
       "is_fallback": true
     },
     {
@@ -837,7 +1027,9 @@
       "type": "article",
       "date": "2026-06-30T08:32:51+00:00",
       "summary": "Two Users Told Me What A/B Testing Couldn’t . Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "Product Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -847,7 +1039,9 @@
       "type": "article",
       "date": "2026-06-30T07:58:35+00:00",
       "summary": "Most super app projects fail before they ship — not because the idea is wrong, but because they start with a rebuild instead of a… Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "Product Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -857,7 +1051,9 @@
       "type": "article",
       "date": "2026-06-29T20:30:30+00:00",
       "summary": "What Sun Microsystems and Project Blackbox taught me about building products in the age of AI Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "AI Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -867,7 +1063,9 @@
       "type": "article",
       "date": "2026-06-29T15:02:35+00:00",
       "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
-      "tags": [],
+      "tags": [
+        "AI Tools"
+      ],
       "is_fallback": true
     },
     {
@@ -877,7 +1075,9 @@
       "type": "job",
       "date": "2026-06-29T14:51:14+00:00",
       "summary": "About Us HealthHero brings together human expertise and digital convenience together to deliver digital-first, integrated care that is revolutionising the healthcare industry. We are leaders in our market and have excellent feedback and great CQC ratings. We also focus on making",
-      "tags": [],
+      "tags": [
+        "Career"
+      ],
       "is_fallback": true
     },
     {
@@ -887,7 +1087,9 @@
       "type": "trend",
       "date": "2026-06-29T12:42:25+00:00",
       "summary": "China's young guns, confidence in AI & faster than ever to $1 million",
-      "tags": [],
+      "tags": [
+        "AI Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -897,7 +1099,11 @@
       "type": "article",
       "date": "2026-06-29T12:03:38+00:00",
       "summary": "Watch now | 🎙️ Eddie Kim, the CTO of Gusto, shows how a 5-person team shipped a full AI product line in 10 weeks using Claude Code, a perma-Zoom, and zero documentation",
-      "tags": [],
+      "tags": [
+        "AI Strategy",
+        "AI Tools",
+        "Communication"
+      ],
       "is_fallback": true
     },
     {
@@ -907,7 +1113,9 @@
       "type": "trend",
       "date": "2026-06-29T10:00:00+00:00",
       "summary": "Stratechery is on summer break the week of June 29. There will be no Weekly Article or Updates. The next Update will be on Monday, July 6. Dithering, Sharp Tech, and Sharp China will also return the week of July 6. Greatest of All Talk and Asianometry will continue to publish. Th...",
-      "tags": [],
+      "tags": [
+        "Product Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -973,7 +1181,9 @@
       "type": "article",
       "date": "2026-06-28T07:54:27+00:00",
       "summary": "Software organisations love optimisation. We optimise sprint ceremonies, backlog refinement, deployment pipelines. We optimise the colour… Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "Prioritization"
+      ],
       "is_fallback": true
     },
     {
@@ -983,7 +1193,9 @@
       "type": "article",
       "date": "2026-06-28T07:48:01+00:00",
       "summary": "Why AI will write more software than ever before — but great Product Managers will still decide what deserves to exist. Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "AI Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -993,7 +1205,9 @@
       "type": "article",
       "date": "2026-06-28T07:48:01+00:00",
       "summary": "Why AI will write more software than ever before — but great Product Managers will still decide what deserves to exist. Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "AI Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -1003,7 +1217,10 @@
       "type": "article",
       "date": "2026-06-28T07:34:18+00:00",
       "summary": "Before creating personas, user flows, or UI screens, product teams need to make sense of the research they have collected. Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "Product Strategy",
+        "User Research"
+      ],
       "is_fallback": true
     },
     {
@@ -1013,7 +1230,9 @@
       "type": "trend",
       "date": "2026-06-28T02:14:28+00:00",
       "summary": "Plus: The frontier is already agentic; unlocking innovation; new drugs, food apps without food & Chinese AI job market++",
-      "tags": [],
+      "tags": [
+        "AI Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -1023,7 +1242,11 @@
       "type": "article",
       "date": "2026-06-27T17:09:06+00:00",
       "summary": "Community Wisdom 191",
-      "tags": [],
+      "tags": [
+        "Career",
+        "Community",
+        "Growth"
+      ],
       "is_fallback": true
     },
     {
@@ -1033,7 +1256,10 @@
       "type": "trend",
       "date": "2026-06-27T15:17:01+00:00",
       "summary": "\"One AI agent across your browser, tools, and messages \" Discussion | Link",
-      "tags": [],
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
       "is_fallback": true
     },
     {
@@ -1043,7 +1269,10 @@
       "type": "article",
       "date": "2026-06-27T07:57:08+00:00",
       "summary": "Determinism vs Free Will: AARRR Will Trap You. NSM Won’t Save You. Here’s What Will. Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "Growth",
+        "Metrics"
+      ],
       "is_fallback": true
     },
     {
@@ -1053,7 +1282,9 @@
       "type": "article",
       "date": "2026-06-27T07:47:29+00:00",
       "summary": "WalletHub’s biggest opportunity isn’t design. It’s telling people who it’s for. Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "Product Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -1063,7 +1294,9 @@
       "type": "article",
       "date": "2026-06-27T04:07:06+00:00",
       "summary": "Building the whole stack feels like a moat. The numbers say it’s mostly overhead in disguise — and the companies running away with this… Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "Product Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -1073,7 +1306,9 @@
       "type": "article",
       "date": "2026-06-27T02:32:37+00:00",
       "summary": "Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "Product Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -1083,7 +1318,9 @@
       "type": "trend",
       "date": "2026-06-26T19:41:09+00:00",
       "summary": "Unifies your work into one app with shared memory Discussion | Link",
-      "tags": [],
+      "tags": [
+        "Product Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -1093,7 +1330,9 @@
       "type": "trend",
       "date": "2026-06-26T19:21:13+00:00",
       "summary": "Vibe automation for solo marketers Discussion | Link",
-      "tags": [],
+      "tags": [
+        "Automation"
+      ],
       "is_fallback": true
     },
     {
@@ -1103,7 +1342,9 @@
       "type": "trend",
       "date": "2026-06-26T17:00:00+00:00",
       "summary": "The best Stratechery content from the week of June 22, 2026, including a vibe coding adventure, Apple in Europe, and a midsummer mailbag.",
-      "tags": [],
+      "tags": [
+        "Product Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -1127,7 +1368,10 @@
       "type": "article",
       "date": "2026-06-26T08:34:58+00:00",
       "summary": "By Christopher Reep Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "Leadership",
+        "Risk Management"
+      ],
       "is_fallback": true
     },
     {
@@ -1137,7 +1381,9 @@
       "type": "article",
       "date": "2026-06-26T08:06:30+00:00",
       "summary": "The foundational premise of modern capitalist economics is not equilibrium, but constant, turbulent disruption. This concept was famously… Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "Product Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -1147,7 +1393,10 @@
       "type": "article",
       "date": "2026-06-26T07:37:30+00:00",
       "summary": "Every product roadmap today seems to contain the same item: “Add AI.” Continue reading on Bootcamp »",
-      "tags": [],
+      "tags": [
+        "AI Strategy",
+        "Product Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -1157,7 +1406,9 @@
       "type": "trend",
       "date": "2026-06-26T05:37:09+00:00",
       "summary": "Mac notch command center for productivity with tool access Discussion | Link",
-      "tags": [],
+      "tags": [
+        "Productivity"
+      ],
       "is_fallback": true
     },
     {
@@ -1167,7 +1418,9 @@
       "type": "trend",
       "date": "2026-06-26T04:24:48+00:00",
       "summary": "Turn your Mac into a time machine. Discussion | Link",
-      "tags": [],
+      "tags": [
+        "Product Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -1177,7 +1430,9 @@
       "type": "article",
       "date": "2026-06-26T03:38:34+00:00",
       "summary": "Learn how product backlogs, prioritization techniques, backlog refinement, and continuous planning help modern software teams focus on the… Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "Prioritization"
+      ],
       "is_fallback": true
     },
     {
@@ -1201,7 +1456,9 @@
       "type": "job",
       "date": "2026-06-25T19:17:49+00:00",
       "summary": "At Bayer we’re visionaries, driven to solve the world’s toughest challenges and striving for a world where ,Health for all, Hunger for none’ is no longer a dream, but a real possibility. We’re doing it with energy, curiosity and sheer dedication, always learning from unique persp...",
-      "tags": [],
+      "tags": [
+        "Career"
+      ],
       "is_fallback": true
     },
     {
@@ -1211,7 +1468,9 @@
       "type": "trend",
       "date": "2026-06-25T18:39:17+00:00",
       "summary": "A real planner for Google Tasks Discussion | Link",
-      "tags": [],
+      "tags": [
+        "Product Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -1221,7 +1480,11 @@
       "type": "job",
       "date": "2026-06-25T15:06:30+00:00",
       "summary": "Civalgo is your all-in-one construction management solution, designed by industry experts to streamline project planning, resource allocation, and daily reporting. Simplify your operations, enhance team collaboration, and boost productivity with our intuitive, real-time platform....",
-      "tags": [],
+      "tags": [
+        "Career",
+        "Platform Strategy",
+        "Productivity"
+      ],
       "is_fallback": true
     },
     {
@@ -1231,7 +1494,10 @@
       "type": "article",
       "date": "2026-06-25T13:00:46+00:00",
       "summary": "Listen to this episode on: Spotify | Apple Podcasts What if AI could help prevent sexual assault before it happens — without tracking users, judging them, or handing them a verdict? In this episode of Just Now Possible , Teresa Torres talks with Priya Nakra (Founder and Product L...",
-      "tags": [],
+      "tags": [
+        "AI Strategy",
+        "Privacy"
+      ],
       "is_fallback": true
     },
     {
@@ -1241,7 +1507,9 @@
       "type": "trend",
       "date": "2026-06-25T11:18:49+00:00",
       "summary": "We've reconstructed the AI economy from the bottom up",
-      "tags": [],
+      "tags": [
+        "AI Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -1251,7 +1519,9 @@
       "type": "event",
       "date": "2026-06-25T11:02:18+00:00",
       "summary": "Mobile accessibility doesn't work like web. Watch this OnDemand webinar to get practical frameworks and a live demo of the Mobile Testing Suite.",
-      "tags": [],
+      "tags": [
+        "Engineering Velocity"
+      ],
       "is_fallback": true
     },
     {
@@ -1261,7 +1531,11 @@
       "type": "trend",
       "date": "2026-06-25T10:00:00+00:00",
       "summary": "An interview with Figma CEO Dylan Field about building Figma, and why he believes AI gives the company a tailwind.",
-      "tags": [],
+      "tags": [
+        "AI Strategy",
+        "Career",
+        "Product Design"
+      ],
       "is_fallback": true
     },
     {
@@ -1271,7 +1545,9 @@
       "type": "trend",
       "date": "2026-06-25T09:35:32+00:00",
       "summary": "Let AI block distractions for you when you need to lock in Discussion | Link",
-      "tags": [],
+      "tags": [
+        "AI Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -1281,7 +1557,9 @@
       "type": "article",
       "date": "2026-06-25T09:30:53+00:00",
       "summary": "Every Product Team Knows the Cost of Building. Almost None Know the Cost of Getting It Wrong.",
-      "tags": [],
+      "tags": [
+        "Product Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -1375,7 +1653,11 @@
       "type": "job",
       "date": "2026-06-24T22:00:03+00:00",
       "summary": "Our Mission: ButterflyMX is on a mission to empower people to automate property access, operations, and security from a single platform. Our products are installed in more than 20,000+ multifamily, commercial, gated communities, and student-housing properties worldwide, including...",
-      "tags": [],
+      "tags": [
+        "Career",
+        "Growth",
+        "Platform Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -1595,7 +1877,9 @@
       "type": "trend",
       "date": "2026-06-23T07:54:57+00:00",
       "summary": "CLI that turns plain-English into real browser tests Discussion | Link",
-      "tags": [],
+      "tags": [
+        "Product Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -1647,7 +1931,9 @@
       "type": "article",
       "date": "2026-06-23T06:23:10+00:00",
       "summary": "QKS Group’s Product Management Platforms market offers an in-depth evaluation of the global ecosystem, highlighting emerging technology… Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "Platform Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -1657,7 +1943,9 @@
       "type": "trend",
       "date": "2026-06-23T05:50:06+00:00",
       "summary": "Find where your Mac keyboard shortcuts clash Discussion | Link",
-      "tags": [],
+      "tags": [
+        "Product Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -1681,7 +1969,9 @@
       "type": "trend",
       "date": "2026-06-22T15:28:19+00:00",
       "summary": "Predict anything with AI Discussion | Link",
-      "tags": [],
+      "tags": [
+        "AI Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -1705,7 +1995,10 @@
       "type": "trend",
       "date": "2026-06-22T14:12:05+00:00",
       "summary": "The rails AI agents use to find and pay you Discussion | Link",
-      "tags": [],
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
       "is_fallback": true
     },
     {
@@ -1799,7 +2092,10 @@
       "type": "trend",
       "date": "2026-06-22T09:20:29+00:00",
       "summary": "Build AI agents, workflows, and apps in one stack Discussion | Link",
-      "tags": [],
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
       "is_fallback": true
     },
     {
@@ -1879,7 +2175,9 @@
       "type": "trend",
       "date": "2026-06-20T19:03:23+00:00",
       "summary": "Give every customer their own Hermes or OpenClaw agent Discussion | Link",
-      "tags": [],
+      "tags": [
+        "Product Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -2169,7 +2467,9 @@
       "type": "trend",
       "date": "2026-06-18T20:55:25+00:00",
       "summary": "Draft, restructure & tighten wording from panel inside Word Discussion | Link",
-      "tags": [],
+      "tags": [
+        "Product Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -2361,7 +2661,11 @@
       "type": "article",
       "date": "2026-06-17T08:49:37+00:00",
       "summary": "The article outlines strategies for product design teams to maintain alignment and collaboration while avoiding excessive meetings, emphasizing asynchronous communication, shared design systems, and clear documentation. By leveraging tools like shared boards, regular design reviews, and concise syncs, teams can stay connected, make faster decisions, and keep momentum without meeting fatigue.",
-      "tags": [],
+      "tags": [
+        "Communication",
+        "Product Design",
+        "Stakeholders"
+      ],
       "is_fallback": false
     },
     {
@@ -2497,7 +2801,9 @@
       "type": "article",
       "date": "2026-06-16T09:31:00+00:00",
       "summary": "In the fast-evolving world of automotive technology, innovation does not happen in isolation. At Volvo Group, North America, our software… Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "Product Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -2507,7 +2813,9 @@
       "type": "article",
       "date": "2026-06-16T09:05:56+00:00",
       "summary": "For PC hardware brand owners, international distributors, and e-commerce sellers, building a liquid cooling product line is a balancing… Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "Hardware Differentiation"
+      ],
       "is_fallback": true
     },
     {
@@ -2531,7 +2839,9 @@
       "type": "event",
       "date": "2026-06-16T07:55:47+00:00",
       "summary": "Flipping your UI to RTL is not localization. Here's what actually is.",
-      "tags": [],
+      "tags": [
+        "Product Culture"
+      ],
       "is_fallback": true
     },
     {
@@ -2555,7 +2865,10 @@
       "type": "job",
       "date": "2026-06-15T20:31:20+00:00",
       "summary": "Headquarters: Buffalo / Atlanta / Austin / Boston / Chicago / Denver / Los Angeles / New York City / Oakland / Portland / San Francisco / Seattle / Philadelphia As Vice President of Marketing, you will ensure that Marketing is a strategic growth partner embedded in how this busin...",
-      "tags": [],
+      "tags": [
+        "Career",
+        "Growth"
+      ],
       "is_fallback": true
     },
     {
@@ -2593,7 +2906,9 @@
       "type": "trend",
       "date": "2026-06-15T13:22:36+00:00",
       "summary": "Search for the same product but better prices Discussion | Link",
-      "tags": [],
+      "tags": [
+        "Product Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -2617,7 +2932,9 @@
       "type": "article",
       "date": "2026-06-15T10:47:51+00:00",
       "summary": "Introduction Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "Career"
+      ],
       "is_fallback": true
     },
     {
@@ -2627,7 +2944,10 @@
       "type": "article",
       "date": "2026-06-15T10:41:46+00:00",
       "summary": "You’re in the interview. The PM across the table just asked you to design an AI product for Netflix. Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "AI Strategy",
+        "Career"
+      ],
       "is_fallback": true
     },
     {
@@ -2637,7 +2957,9 @@
       "type": "trend",
       "date": "2026-06-15T10:00:00+00:00",
       "summary": "Anthropic's belief in its own commitment to safety gives the company license to aggressively favor its business and even challenge the U.S. government.",
-      "tags": [],
+      "tags": [
+        "AI Tools"
+      ],
       "is_fallback": true
     },
     {
@@ -2647,7 +2969,9 @@
       "type": "article",
       "date": "2026-06-15T07:50:19+00:00",
       "summary": "The same tactics as Temu, but with silk gloves. A dissection — lever by lever — of how I almost paid several hundred euros without… Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "Growth"
+      ],
       "is_fallback": true
     },
     {
@@ -2657,7 +2981,10 @@
       "type": "trend",
       "date": "2026-06-15T06:16:58+00:00",
       "summary": "An AI co-pilot and dashboard built for dispatcher speed Discussion | Link",
-      "tags": [],
+      "tags": [
+        "AI Strategy",
+        "Metrics"
+      ],
       "is_fallback": true
     },
     {
@@ -2667,7 +2994,9 @@
       "type": "article",
       "date": "2026-06-15T03:48:58+00:00",
       "summary": "Why Most Brands Fail by Ignoring Category Life Cycles Continue reading on Activated Thinker »",
-      "tags": [],
+      "tags": [
+        "Product Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -2691,7 +3020,9 @@
       "type": "article",
       "date": "2026-06-14T12:21:59+00:00",
       "summary": "Five Hidden Costs of Changing Direction That Never Make It Onto the Spreadsheet",
-      "tags": [],
+      "tags": [
+        "Product Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -2827,7 +3158,9 @@
       "type": "trend",
       "date": "2026-06-13T08:50:58+00:00",
       "summary": "Three changelogs from every release -for indie SaaS founders Discussion | Link",
-      "tags": [],
+      "tags": [
+        "Product Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -2837,7 +3170,9 @@
       "type": "article",
       "date": "2026-06-13T08:09:00+00:00",
       "summary": "Why the best teams aren’t made of the best people — and what actually makes teams work Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "Product Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -2847,7 +3182,9 @@
       "type": "article",
       "date": "2026-06-13T07:51:17+00:00",
       "summary": "Every product starts with excitement. Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "Product Design"
+      ],
       "is_fallback": true
     },
     {
@@ -2857,7 +3194,9 @@
       "type": "trend",
       "date": "2026-06-12T19:35:34+00:00",
       "summary": "Find restaurants through people you trust Discussion | Link",
-      "tags": [],
+      "tags": [
+        "Product Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -2867,7 +3206,9 @@
       "type": "trend",
       "date": "2026-06-12T17:00:00+00:00",
       "summary": "The best Stratechery content from the week of June 8, 2026, including Apple finally shipping Intelligence, Anthropic's fable, and the future of European industry.",
-      "tags": [],
+      "tags": [
+        "AI Tools"
+      ],
       "is_fallback": true
     },
     {
@@ -2877,7 +3218,9 @@
       "type": "event",
       "date": "2026-06-12T14:55:16+00:00",
       "summary": "Download the Accessibility Resolution Playbook: a practical guide to fixing digital accessibility issues faster, preventing them from coming back, and building a process your team can repeat.",
-      "tags": [],
+      "tags": [
+        "Product Culture"
+      ],
       "is_fallback": true
     },
     {
@@ -2887,7 +3230,9 @@
       "type": "article",
       "date": "2026-06-12T14:01:03+00:00",
       "summary": "It deleted half our roadmap in one meeting. The half that survived is the only half that ever moved a number. Continue reading on Medium »",
-      "tags": [],
+      "tags": [
+        "Product Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -2897,7 +3242,9 @@
       "type": "event",
       "date": "2026-06-12T11:30:00+00:00",
       "summary": "Finding the right roadmap can be tricky as it depends on your product, your team, and who is going to be viewing your roadmap. To simplify things here’s some guidance on how to select the right product roadmap for your team.",
-      "tags": [],
+      "tags": [
+        "Product Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -2907,7 +3254,9 @@
       "type": "trend",
       "date": "2026-06-12T10:07:28+00:00",
       "summary": "A dedicated entry point for talking-head video Discussion | Link",
-      "tags": [],
+      "tags": [
+        "Product Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -2917,7 +3266,9 @@
       "type": "job",
       "date": "2026-06-12T09:12:55+00:00",
       "summary": "Headquarters: Berlin, Germany URL: https://nearcut.com/ Location Europe, fully remote The role We are looking for a proactive Product Manager to help us scale our capacity to solve meaningful client problems. You'll be joining our dynamic product team as one of two full-time PMs",
-      "tags": [],
+      "tags": [
+        "Career"
+      ],
       "is_fallback": true
     },
     {
@@ -3011,7 +3362,9 @@
       "type": "trend",
       "date": "2026-06-11T14:37:08+00:00",
       "summary": "Scale across AI models without scaling your bill Discussion | Link",
-      "tags": [],
+      "tags": [
+        "AI Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -3091,7 +3444,10 @@
       "type": "trend",
       "date": "2026-06-11T07:12:07+00:00",
       "summary": "On device private AI meeting transcripts Discussion | Link",
-      "tags": [],
+      "tags": [
+        "AI Strategy",
+        "Hardware Differentiation"
+      ],
       "is_fallback": true
     },
     {
@@ -3367,7 +3723,9 @@
       "type": "trend",
       "date": "2026-06-09T10:00:00+00:00",
       "summary": "Summary not available.",
-      "tags": [],
+      "tags": [
+        "Product Strategy"
+      ],
       "is_fallback": false
     },
     {
@@ -3615,7 +3973,9 @@
       "type": "trend",
       "date": "2026-06-08T01:39:21+00:00",
       "summary": "agent engineering, fully managed. Discussion | Link",
-      "tags": [],
+      "tags": [
+        "Product Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -3989,7 +4349,9 @@
       "type": "trend",
       "date": "2026-06-04T14:40:47+00:00",
       "summary": "Subscription tracker built by someone who forgot 11 of them Discussion | Link",
-      "tags": [],
+      "tags": [
+        "Pricing"
+      ],
       "is_fallback": true
     },
     {
@@ -4262,7 +4624,9 @@
       "type": "trend",
       "date": "2026-06-03T10:23:56+00:00",
       "summary": "Turn your iPhone into a free Mac controller Discussion | Link",
-      "tags": [],
+      "tags": [
+        "Product Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -4460,7 +4824,9 @@
       "type": "trend",
       "date": "2026-05-30T21:46:04+00:00",
       "summary": "Know, plan, and share care for pets and plants Discussion | Link",
-      "tags": [],
+      "tags": [
+        "Product Strategy"
+      ],
       "is_fallback": true
     },
     {
@@ -5016,7 +5382,9 @@
       "type": "trend",
       "date": "2026-05-26T12:25:59+00:00",
       "summary": "The professional book writing app built for serious authors Discussion | Link",
-      "tags": [],
+      "tags": [
+        "Communication"
+      ],
       "is_fallback": true
     },
     {

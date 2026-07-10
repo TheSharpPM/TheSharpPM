@@ -9,6 +9,8 @@ import unicodedata
 from datetime import datetime, timezone, timedelta
 from time import mktime, sleep
 
+from tag_inference import infer_tags
+
 # ── CONFIG ────────────────────────────────────────────────────────────────────
 
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
@@ -238,13 +240,14 @@ def fetch_feed(feed_config, existing_urls):
             # If every LLM in the fallback chain is rate-limited, do
             # NOT drop the item. Add it with a fallback summary derived
             # from the RSS-provided text so the site keeps moving on
-            # bad provider days. Tag the item with is_fallback=True so
-            # we can later run a "refresh stale fallback summaries"
-            # pass with the LLM once quotas reset.
+            # bad provider days. Tag with keyword inference so the item
+            # still lands in useful tag buckets on the site, and mark
+            # is_fallback=True so a future job can re-run LLM analysis
+            # over these when quotas reset.
             if result[0] is None:
-                print("  LLM exhausted - using RSS fallback summary.")
+                print("  LLM exhausted - using RSS fallback summary + keyword tags.")
                 summary = _fallback_summary(content)
-                tags = []
+                tags = infer_tags(title, content, feed_config["type"])
                 is_fallback = True
             else:
                 summary, tags = result
