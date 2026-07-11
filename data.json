@@ -1,7 +1,91 @@
 {
-  "updated": "2026-07-10T11:56:38.525893+00:00",
-  "total": 809,
+  "updated": "2026-07-11T07:38:36.023363+00:00",
+  "total": 819,
   "items": [
+    {
+      "title": "Why AI Makes Big Companies More Confidently Wrong",
+      "url": "https://medium.com/@jacky0305/why-ai-makes-big-companies-more-confidently-wrong-d5b41135becc?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-07-11T07:20:18+00:00",
+      "summary": "How the speed of AI-generated work creates a new class of organizational failure Continue reading on Medium »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Building FindCoffeeMate Taught Me More About Product Engineering Than Any Course",
+      "url": "https://medium.com/@binaykumardas96/building-findcoffeemate-taught-me-more-about-product-engineering-than-any-course-7672cb0b8a55?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-07-11T07:06:33+00:00",
+      "summary": "When I started my career, I thought being a good engineer meant one thing: Continue reading on Medium »",
+      "tags": [
+        "Career"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Real Estate App Development: The 2026 Playbook for Founders",
+      "url": "https://techcirkle.medium.com/real-estate-app-development-the-2026-playbook-for-founders-acf307b28fc4?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-07-11T06:15:58+00:00",
+      "summary": "If you are planning a real estate app, the reference points in your head are probably Zillow, Rightmove, or a local property portal. That… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "On-Demand App Development: The 2026 Business Guide",
+      "url": "https://techcirkle.medium.com/on-demand-app-development-the-2026-business-guide-fe19cc0ddcdb?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-07-11T06:15:50+00:00",
+      "summary": "What Makes an On-Demand App Different From a Standard Mobile App Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "2026.28: XBOX On the Rocks",
+      "url": "https://stratechery.com/2026/xbox-on-the-rocks/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-07-10T17:00:00+00:00",
+      "summary": "The best Stratechery content from the week of July 6, 2026, including a word from Mark Zuckerberg*, pulling the plug on XBOX, and toilet talk.",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "How to create outcome-based roadmaps  (with examples)",
+      "url": "https://www.productledalliance.com/how-to-create-outcome-based-roadmaps/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-07-10T14:00:00+00:00",
+      "summary": "Outcome-based roadmaps are strategic plans focused on results and goals (rather than specific features). Learn more about these popular roadmaps.",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "How Bitcoin Rewired a Classic Computer Science Problem",
+      "url": "https://a16z.simplecast.com/episodes/how-bitcoin-rewired-a-classic-computer-science-problem-0_lm073b",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-07-10T10:00:00+00:00",
+      "summary": "We're excited to share a special feed drop from The a16z Crypto Show. In the first episode of First Principles: The Scientific Roots of Blockchain Technology, Tim Roughgarden and Ittai Abraham trace the decades of computer science research that laid the foundation for modern bloc...",
+      "tags": [
+        "Product Culture"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Too much output, too little attention",
       "url": "https://medium.com/@raqueladsantos/too-much-output-too-little-attention-ffb6a5b7c8c7?source=rss------product_management-5",
@@ -9,6 +93,18 @@
       "type": "article",
       "date": "2026-07-10T08:45:33+00:00",
       "summary": "It was just one page. It had taken half of my previous week. It was the conclusion of a business case a director had asked me for. I… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "San Fran Sim",
+      "url": "https://www.producthunt.com/products/san-fran-sim",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-07-10T08:07:45+00:00",
+      "summary": "A startup tycoon game Discussion | Link",
       "tags": [
         "Product Strategy"
       ],
@@ -114,6 +210,18 @@
       "tags": [
         "AI Strategy",
         "Career"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
+      "url": "https://a16z.simplecast.com/episodes/mark-zuckerberg-priscilla-chan-how-ai-will-help-cure-disease-J_rYFGCM",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-07-09T10:00:00+00:00",
+      "summary": "As part of our summer replay series, we're revisiting one of our favorite conversations from the past year. Mark Zuckerberg and Dr. Priscilla Chan join Ben Horowitz, Vineeta Agarwala, and Erik Torenberg to discuss the Chan Zuckerberg Initiative's ambitious effort to help cure, pr...",
+      "tags": [
+        "AI Strategy"
       ],
       "is_fallback": true
     },
@@ -1937,6 +2045,19 @@
       "is_fallback": true
     },
     {
+      "title": "Effects SDK",
+      "url": "https://www.producthunt.com/products/effects-sdk",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-23T06:17:54+00:00",
+      "summary": "AI video & audio effects SDK for real-time apps Discussion | Link",
+      "tags": [
+        "AI Strategy",
+        "Platform Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
       "title": "HotkeyClash",
       "url": "https://www.producthunt.com/products/hotkeyclash",
       "source": "Product Hunt",
@@ -2095,6 +2216,18 @@
       "tags": [
         "AI Strategy",
         "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Walt Disney Company",
+      "url": "https://www.acquired.fm/episodes/the-walt-disney-company",
+      "source": "Acquired",
+      "type": "podcast",
+      "date": "2026-06-22T05:54:28+00:00",
+      "summary": "The Walt Disney Company is the most successful enterprise ever created for monetizing human nostalgia. Today it’s the king of global entertainment, holding the intellectual property rights to the childhood memories of billions of people (including, likely, all of you) and is a re...",
+      "tags": [
+        "Product Culture"
       ],
       "is_fallback": true
     },
@@ -6270,6 +6403,18 @@
         "Product Strategy",
         "Product Culture"
       ]
+    },
+    {
+      "title": "Vanguard",
+      "url": "https://www.acquired.fm/episodes/vanguard",
+      "source": "Acquired",
+      "type": "podcast",
+      "date": "2026-05-18T03:26:52+00:00",
+      "summary": "Vanguard is the most effective vehicle ever created for participating in the fruits of American capitalism. Today it’s the single largest equity owner of the majority of corporations in the S&P 500, on behalf of 50 million clients (including, likely, many of you). And yet Vanguar...",
+      "tags": [
+        "Growth"
+      ],
+      "is_fallback": true
     },
     {
       "title": "We Tried to Build a Better Link-in-Bio. The Category Wouldn’t Let Us.",
@@ -10572,32 +10717,6 @@
         "AI Strategy",
         "Leadership",
         "Product Culture"
-      ]
-    },
-    {
-      "title": "🔮 Exponential View #569: When the future is uncertain, what do you teach?",
-      "url": "https://www.exponentialview.co/p/ev-569",
-      "source": "Exponential View",
-      "type": "trend",
-      "date": "2026-04-12T03:17:38+00:00",
-      "summary": "The article discusses adapting to rapidly changing environments and the importance of leveraging AI tools to stay ahead.",
-      "tags": [
-        "AI Tools",
-        "User Research",
-        "Product Strategy"
-      ]
-    },
-    {
-      "title": "Community Wisdom: Vibe coding as a team sport, teaching interviewers to surface real signal, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-vibe-coding-as-a",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-04-11T19:36:51+00:00",
-      "summary": "A curated collection of insights from Lenny's Slack community covering practical topics including using AI-assisted coding collaboratively, improving interview signal quality, and making leadership offsites more effective. Community members share first-hand experiences and frameworks that go beyond theory. Useful for PMs looking for peer-tested approaches to common team challenges.",
-      "tags": [
-        "AI Tools",
-        "Leadership",
-        "Career"
       ]
     }
   ]
