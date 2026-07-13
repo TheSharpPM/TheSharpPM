@@ -1475,30 +1475,36 @@ def run_agent():
             )
         except Exception as e:
             error_str = str(e)
-            # Groq does its own validation on tool calls and returns 400
-            # / tool_use_failed before the model gets a chance to react.
-            # Two flavours: JSON-Schema mismatch on arguments, and
-            # malformed function-tag emission from the model. In both
-            # cases, feed the error back as a user message and let the
-            # agent retry with a perturbed temperature, instead of
-            # crashing the whole run.
-            if "tool_use_failed" in error_str and schema_retries < 3:
+            # Groq validation errors that we treat as recoverable:
+            # - tool_use_failed: schema mismatch on arguments or
+            #   malformed function-tag emission
+            # - output_parse_failed: the model wrote raw chain-of-thought
+            #   text instead of emitting a tool call at all (gpt-oss-120b
+            #   sometimes leaks reasoning as prose)
+            # Both get the same treatment: feed the error back as a
+            # user message and let the agent retry with a perturbed
+            # temperature, instead of crashing the whole run.
+            recoverable_errors = ("tool_use_failed", "output_parse_failed")
+            if (any(k in error_str for k in recoverable_errors)
+                    and schema_retries < 3):
                 schema_retries += 1
                 print(
-                    f"  Groq rejected tool call. Asking agent to retry "
+                    f"  Groq rejected model output. Asking agent to retry "
                     f"(retry {schema_retries}/3, temp -> "
                     f"{RETRY_TEMPERATURES[schema_retries - 1]})."
                 )
                 messages.append({
                     "role": "user",
                     "content": (
-                        "Your previous tool call was rejected by the API. "
-                        "It was either malformed (function tag syntax) or "
-                        "did not match the tool's JSON schema. Re-read "
-                        "the tool definitions carefully (required fields, "
-                        "expected counts, types) and try again, emitting "
-                        "exactly one well-formed tool call. Error from "
-                        f"the API: {error_str[:600]}"
+                        "Your previous response was rejected by the API. "
+                        "Either your tool call was malformed / did not "
+                        "match the tool's JSON schema, OR you wrote "
+                        "reasoning as prose instead of emitting a tool "
+                        "call. Do NOT think out loud - emit exactly one "
+                        "well-formed tool call now, with no surrounding "
+                        "text. Re-read the tool definitions if needed "
+                        "(required fields, expected counts, types). "
+                        f"Error from the API: {error_str[:600]}"
                     ),
                 })
                 continue
