@@ -1,7 +1,143 @@
 {
-  "updated": "2026-07-13T08:43:24.751660+00:00",
-  "total": 814,
+  "updated": "2026-07-14T07:35:51.454384+00:00",
+  "total": 813,
   "items": [
+    {
+      "title": "The Product Mindset #1: The Product Is Not the Code",
+      "url": "https://medium.com/@maheshwaran.kumar.17/the-product-mindset-1-the-product-is-not-the-code-f1c533285b94?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-07-14T07:14:11+00:00",
+      "summary": "Why great products begin with understanding problems—not writing software. Continue reading on Medium »",
+      "tags": [
+        "Communication",
+        "Product Culture"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Code Worked. But It Didn’t Help Anyone",
+      "url": "https://mdraselmia15.medium.com/the-code-worked-but-it-didnt-help-anyone-858680844d04?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-07-14T07:00:38+00:00",
+      "summary": "Building Klassy Missy’s Regimen changed how I think about software engineering, product development,and what “working software\" really… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Portero",
+      "url": "https://www.producthunt.com/products/portero",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-07-14T03:50:15+00:00",
+      "summary": "Know exactly what's running on every port of your Mac Discussion | Link",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Data Company That Actually Sells You Your Rolodex",
+      "url": "https://medium.com/@aryan1999varma/the-data-company-that-actually-sells-you-your-rolodex-2046944e5146?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-07-14T02:45:23+00:00",
+      "summary": "A first-year analyst gets handed a desk, two monitors, and a keyboard with keys labeled things like GO, MENU, and HELP in colors nobody… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "What Makes People Come Back to an AI Feature",
+      "url": "https://medium.com/@ic-eight/what-makes-people-come-back-to-an-ai-feature-b795566755a8?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-07-14T02:24:28+00:00",
+      "summary": "Lately I’ve been using a few different AI Lens-style features — the kind that let you point a camera at something and get a response back… Continue reading on Medium »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🎙️ How I AI: GPT-5.6 review, How a solo builder runs 24/7 local AI, and What an agent harness is and how to build one",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-gpt-56-review-how-a-solo",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-07-13T15:02:17+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+      "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "This solo builder runs 24/7 local AI on his own hardware | Alex Finn",
+      "url": "https://www.lennysnewsletter.com/p/this-solo-builder-runs-247-local",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-07-13T12:05:20+00:00",
+      "summary": "Watch now | 🎙️ Alex Finn breaks down his five-computer local AI setup, the Claude Code build-and-review loop that ships features while he sleeps, and why unlimited local intelligence beats a $20 subscription",
+      "tags": [
+        "AI Strategy",
+        "AI Tools",
+        "Hardware Differentiation"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "📈 Data to start your week",
+      "url": "https://www.exponentialview.co/p/data-to-start-your-week-13-july-2026",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-07-13T11:46:30+00:00",
+      "summary": "A new scaling law; AI job fears fade; Dementia in retreat++",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Flyout",
+      "url": "https://www.producthunt.com/products/flyout",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-07-13T10:10:46+00:00",
+      "summary": "Rich-text notes that fly out from your Mac's screen edge Discussion | Link",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Apple Sues OpenAI, Apple’s Real Problem",
+      "url": "https://stratechery.com/2026/apple-sues-openai-apples-real-problem/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-07-13T10:00:00+00:00",
+      "summary": "Apple is suing AI for stealing trade secrets; there is one guilty employee, but this mostly feels like lashing out.",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Before Blockchains, There Was State Machine Replication",
+      "url": "https://a16z.simplecast.com/episodes/before-blockchains-there-was-state-machine-replication-gGXd4DoC",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-07-13T10:00:00+00:00",
+      "summary": "Every blockchain today relies on replication techniques first developed in the 1980s by researchers who weren't thinking about cryptocurrencies at all. In this episode, Tim Roughgarden speaks with MIT professor and Turing Award winner Barbara Liskov, one of the pioneers of progra...",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Good Software Does More Than Show You the Data",
       "url": "https://medium.com/@ministryofbits/good-software-does-more-than-show-you-the-data-0b45b3369402?source=rss------product_management-5",
@@ -10522,161 +10658,6 @@
         "Product Culture",
         "AI Tools",
         "Productivity"
-      ]
-    },
-    {
-      "title": "Consent Isn’t a Checkbox: Rethinking User Choice in Digital Products",
-      "url": "https://medium.com/@Kreativeps/consent-isnt-a-checkbox-rethinking-user-choice-in-digital-products-b63552443472?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-04-15T06:01:02+00:00",
-      "summary": "Consent in digital products has been reduced to cookie banners that users dismiss without reading, creating a gap between legal compliance and genuine user autonomy. The author argues for designing consent as a meaningful experience that gives users real control and builds trust over time. PMs should treat consent design as a product quality issue, not just a legal requirement.",
-      "tags": [
-        "Product Design",
-        "User Research",
-        "Product Culture"
-      ]
-    },
-    {
-      "title": "Listen: Not all AI agents are created equal",
-      "url": "https://www.lennysnewsletter.com/p/listen-not-all-ai-agents-are-created",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-04-15T03:45:04+00:00",
-      "summary": "The article emphasizes that AI agents vary significantly in capability, suitability, and performance, so product managers must assess them based on specific use cases rather than treating them as interchangeable. Choosing the right AI agent requires evaluating factors like domain expertise, integration ease, and measurable outcomes to ensure it aligns with product goals.",
-      "tags": [
-        "AI Strategy",
-        "AI Tools",
-        "Product Strategy"
-      ]
-    },
-    {
-      "title": "MiniAi",
-      "url": "https://www.producthunt.com/products/miniai",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-04-15T00:44:36+00:00",
-      "summary": "MiniAi is a compact AI assistant designed for everyday tasks, positioning itself as a lightweight alternative to larger models for quick queries and personal productivity. The product targets users who find full-featured AI assistants overwhelming for routine tasks. An interesting case study in how AI products are being segmented by use case intensity rather than capability.",
-      "tags": [
-        "AI Tools",
-        "Productivity",
-        "Product Strategy"
-      ]
-    },
-    {
-      "title": "Payra: Product Lead - Data Products",
-      "url": "https://weworkremotely.com/remote-jobs/payra-product-lead-data-products",
-      "source": "We Work Remotely",
-      "type": "job",
-      "date": "2026-04-14T21:55:55+00:00",
-      "summary": "Payra is hiring a Product Lead for Data Products, a role focused on building data infrastructure and analytics products for their platform. The position requires experience bridging technical data teams and business stakeholders, with a strong emphasis on defining data product strategy. A good opportunity for PMs with a data background looking to own a strategic function at a growing fintech.",
-      "tags": [
-        "Career",
-        "Data",
-        "Leadership"
-      ]
-    },
-    {
-      "title": "Why Travel Platforms Keep Missing Their Most Valuable User",
-      "url": "https://notbythebook.medium.com/why-travel-platforms-keep-missing-their-most-valuable-user-98e424b1754d?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-04-14T20:45:43+00:00",
-      "summary": "Travel platforms consistently optimise for price-sensitive travelers while overlooking frequent business and premium travellers who generate disproportionate revenue. The author argues that most platforms' features are built for the wrong user segment, leading to churn among their most valuable customers. PMs in marketplace or platform businesses will recognise this pattern of optimising for volume at the expense of value.",
-      "tags": [
-        "User Research",
-        "Product Strategy",
-        "Growth"
-      ]
-    },
-    {
-      "title": "Astra",
-      "url": "https://www.producthunt.com/products/astra-5",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-04-14T19:25:24+00:00",
-      "summary": "Astra is an AI-powered assistant designed for complex research and multi-step reasoning tasks, positioning itself above general-purpose chatbots for professional use cases. The product targets knowledge workers who need deeper analysis rather than quick answers. Interesting to watch as AI assistants increasingly segment by task complexity and domain expertise.",
-      "tags": [
-        "AI Tools",
-        "Productivity",
-        "Product Strategy"
-      ]
-    },
-    {
-      "title": "Claude Code Routines",
-      "url": "https://www.producthunt.com/products/claude",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-04-14T16:45:51+00:00",
-      "summary": "Claude Code Routines is a new feature from Anthropic that allows developers to create reusable, shareable automation sequences within Claude Code, enabling teams to standardise common workflows like code review, documentation generation, and test writing. This represents a shift from individual AI assistance toward team-level AI workflow management. PMs evaluating AI development tools should note how standardised routines could accelerate onboarding and reduce variance in AI-assisted code quality.",
-      "tags": [
-        "AI Tools",
-        "Productivity",
-        "Product Strategy"
-      ]
-    },
-    {
-      "title": "When AI Becomes Invisible, Trust Becomes Strategy",
-      "url": "https://medium.com/@suhanikhandelwal/when-ai-becomes-invisible-trust-becomes-strategy-9344b5e3ae68?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-04-14T14:47:09+00:00",
-      "summary": "As AI capabilities become embedded invisibly into products, users stop perceiving them as AI features and start expecting them as baseline product behaviour. This shift means that trust becomes the primary competitive differentiator for AI-powered products. PMs should design AI features with an explicit trust strategy, not just a capability roadmap.",
-      "tags": [
-        "AI Strategy",
-        "Product Design",
-        "Product Culture"
-      ]
-    },
-    {
-      "title": "When 'Viable' Stopped Being Enough",
-      "url": "https://www.productcoalition.com/p/when-viable-stopped-being-enough",
-      "source": "Product Coalition",
-      "type": "article",
-      "date": "2026-04-14T14:16:46+00:00",
-      "summary": "The article argues that simply launching a minimal viable product (MVP) is no longer sufficient for long-term product success. It highlights a shift towards prioritizing viability – ensuring a product can sustain itself and grow – over rapid, initial releases. Product Managers should focus on building a product that's not just functional but also has a clear path to profitability and user retention, rather than solely chasing speed of delivery.",
-      "tags": [
-        "Growth",
-        "Product Strategy"
-      ]
-    },
-    {
-      "title": "Product Work Is Relationship Work - All Things Product Podcast with Teresa Torres & Petra Wille",
-      "url": "https://www.producttalk.org/product-work-is-relationship-work-all-things-product-podcast-with-teresa-torres-petra-wille/",
-      "source": "Product Talk",
-      "type": "article",
-      "date": "2026-04-14T13:00:06+00:00",
-      "summary": "Teresa Torres and Petra Wille explain that product management is fundamentally about building relationships—understanding stakeholders, aligning teams, and continuously learning from users—rather than just generating ideas or specs. Even as AI streamlines idea generation, the core value of a product manager lies in facilitation, negotiation, and empathy to ensure the right problems are solved.",
-      "tags": [
-        "AI Strategy",
-        "Stakeholders",
-        "User Research"
-      ]
-    },
-    {
-      "title": "Not all AI agents are created equal",
-      "url": "https://www.lennysnewsletter.com/p/not-all-ai-agents-are-created-equal",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-04-14T12:46:08+00:00",
-      "summary": "The article introduces a framework that classifies AI agents by their capabilities, integration depth, and business impact, helping product managers prioritize which agent initiatives to pursue first. By aligning agent types with strategic goals and resource constraints, product teams can focus on high‑value use cases and avoid overengineering less effective solutions.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Prioritization"
-      ]
-    },
-    {
-      "title": "OpenAI’s Memos, Frontier, Amazon and Anthropic",
-      "url": "https://stratechery.com/2026/openais-memos-frontier-amazon-and-anthropic/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-04-14T10:00:00+00:00",
-      "summary": "Ben Thompson analyses leaked OpenAI internal memos alongside Amazon's deepening partnership with Anthropic and what it means for the frontier model landscape. He argues that competitive dynamics between AI labs are increasingly shaped by compute access and distribution partnerships rather than model quality alone. Essential context for PMs evaluating which AI providers to build on.",
-      "tags": [
-        "AI Strategy",
-        "Competitive Analysis",
-        "Platform Strategy"
       ]
     }
   ]
