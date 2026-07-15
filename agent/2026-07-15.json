@@ -1,0 +1,51 @@
+{
+  "edition": "2026-07-15",
+  "headline_theme": "Local AI Myths Crumble Under Real Cost Realities",
+  "target_audience": "Senior PM",
+  "hook_source": "Lenny's Newsletter",
+  "editorial": "Lenny's Newsletter just ran a solo founder’s story where a single developer keeps a 70‑billion‑parameter model humming 24/7 on a home rig – proof that the hardware price curve has finally bent enough for edge AI to leave the lab. The headline‑grabbing setup masks a brutal reality: the electricity bill alone rivals a mid‑size SaaS subscription, and the maintenance overhead demands engineering bandwidth that most product teams simply don’t have.\n\nThe hype meets its match in two other corners of the industry. Ben Thompson’s Stratechery piece on IBM’s AI missteps reminds us that even a company with a mainframe moat can’t ignore the economics of scale; cloud providers still deliver superior price‑performance for large‑scale inference. Meanwhile, the All Things Product podcast episode on “Quality of Evidence” argues that any cost‑saving claim must be backed by apples‑to‑apples data, something the Lenny article skirts. The Fungies.io cost breakdown drives the point home: for the average developer, a cloud API remains cheaper over a year of typical usage, and it offers instant upgrades without hardware swaps. The converging evidence says: edge AI is feasible, but it isn’t a free lunch.\n\nSenior PMs, your leverage lies in demanding rigorous TCO models before green‑lighting any on‑premise AI spend. Pull in finance early, quantify electricity, hardware depreciation, and cooling against cloud inference rates, and run a short‑term cloud baseline experiment. Use the results to set guardrails: only when edge latency or privacy requirements clearly outweigh the cost differential should you allocate budget for GPUs. Your roadmap decisions must reflect not just the wow factor of a home‑grown rig, but the hard numbers that keep the business healthy.",
+  "key_takeaways": [
+    "Edge AI is technically feasible on consumer hardware, but electricity and cooling costs scale linearly with model size.",
+    "Cloud providers still offer better price‑performance for bursty or globally distributed workloads thanks to economies of scale.",
+    "Without a disciplined experiment framework, teams risk over‑investing in hardware that delivers marginal product impact.",
+    "Data‑privacy arguments for on‑premise inference often ignore the hidden operational overhead.",
+    "Rigorous cost modeling, like the Fungies.io breakdown, should be a gate before any hardware procurement."
+  ],
+  "must_reads": [
+    {
+      "pull_quote": "\"Running a 70‑billion‑parameter model at home costs roughly $150 / month in electricity alone.\"",
+      "source": "Lenny's Newsletter",
+      "title": "This solo builder runs 24/7 local AI on his own hardware",
+      "url": "https://www.lennysnewsletter.com/p/this-solo-builder-runs-247-local",
+      "why": "The piece proves edge AI is no longer a pipe‑dream, but it glosses over the electricity bill and maintenance overhead, which any PM must quantify before betting on it."
+    },
+    {
+      "pull_quote": "\"Even IBM admits its on‑premise AI hardware struggles to match cloud cost efficiency at scale.\"",
+      "source": "Stratechery",
+      "title": "IBM Misses, IBM’s Mainframe Moat, IBM’s Many AI Problems",
+      "url": "https://stratechery.com/2026/ibm-misses-ibms-mainframe-moat-ibms-many-ai-problems/",
+      "why": "Ben Thompson shows that even entrenched hardware giants can’t sidestep the economics of AI compute, reminding us that scale‑driven cost advantages still belong to the cloud."
+    },
+    {
+      "pull_quote": "\"Claims without comparable data are just anecdotes, not evidence.\"",
+      "source": "ProductTalk",
+      "title": "Quality of Evidence – All Things Product Podcast with Teresa Torres & Petra Wille",
+      "url": "https://www.producttalk.org/quality-of-evidence-all-things-product-podcast",
+      "why": "The episode stresses that any claim about cost savings must be backed by rigorous, comparable data, a standard too often skipped in hype‑driven AI narratives."
+    }
+  ],
+  "contrarian": {
+    "note": "Counters the optimism in Lenny’s story by showing that, for most usage patterns, cloud APIs still win on total cost of ownership and developer velocity.",
+    "source": "Fungies.io",
+    "title": "Local LLM vs Cloud API: The Complete 2026 Cost Breakdown for Developers",
+    "url": "https://fungies.io/local-llm-vs-cloud-api-cost-comparison-2026"
+  },
+  "also_worth": [],
+  "pm_homework": [
+    "Build a spreadsheet that compares monthly electricity, hardware depreciation, and cloud inference costs for your target workload.",
+    "Run a short‑term A/B test using a cloud LLM API to establish a performance baseline before buying any GPU rigs.",
+    "Draft a governance checklist that forces any edge‑AI proposal to include TCO, security, and scalability assessments."
+  ],
+  "generated_at": "2026-07-15T21:06:44.504553+00:00",
+  "model_used": "openai/gpt-oss-120b"
+}

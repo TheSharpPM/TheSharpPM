@@ -1,6 +1,11 @@
 {
   "editions": [
     {
+      "date": "2026-07-15",
+      "headline_theme": "Local AI Myths Crumble Under Real Cost Realities",
+      "file": "agent/2026-07-15.json"
+    },
+    {
       "date": "2026-07-07",
       "headline_theme": "Experiments Without Discipline Drain Teams",
       "file": "agent/2026-07-07.json"
@@ -56,5 +61,5 @@
       "file": "agent/2026-05-03.json"
     }
   ],
-  "updated_at": "2026-07-07T10:46:48.596813+00:00"
+  "updated_at": "2026-07-15T21:06:44.504873+00:00"
 }
