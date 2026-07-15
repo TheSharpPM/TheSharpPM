@@ -176,9 +176,11 @@ META_NARRATIVE_PHRASES = [
 ]
 
 # Phrases that signal a "why" field is descriptive instead of opinionated.
-# Aggressive list: the cost of a false positive is one retry (bounded by
-# MAX_PUBLISH_REJECTS), the cost of a false negative is a "why" that
-# reads like a Goodreads summary.
+# Trimmed down to phrases that are UNAMBIGUOUSLY descriptive - "shows
+# how" and "demonstrates" on their own can introduce a strong opinion
+# ("shows how Apple's antitrust exposure changes product bets"), so
+# blocking them causes the agent to loop trying to please the gate.
+# Keep only patterns that are almost always Goodreads-summary language.
 LAZY_WHY_PHRASES = [
     "comprehensive overview",
     "provides an overview",
@@ -193,15 +195,11 @@ LAZY_WHY_PHRASES = [
     "this piece shows",
     "this guide provides",
     "this resource provides",
-    "shows how",
-    "demonstrates",
     "showcases",
-    "highlights how",
     "a great example",
     "valuable insight",
     "valuable insights",
     "i appreciate",
-    "i think",
     "i find",
     "real-world playbook",
     "real world playbook",
@@ -934,12 +932,20 @@ def tool_publish_edition(headline_theme, editorial, must_reads,
             if phrase in why_lower:
                 return {
                     "error": (
-                        f"Refusing to publish: must_read '{mr.get('title')}' "
-                        f"has a descriptive 'why' containing '{phrase}'. The "
-                        f"'why' must be opinion: state what the article gets "
-                        f"right, wrong, or what specific takeaway a Staff PM "
-                        f"should act on. Do not describe the article, react "
-                        f"to it."
+                        f"Refusing to publish: must_read "
+                        f"'{mr.get('title')}' has a descriptive 'why' "
+                        f"containing '{phrase}'. Rewrite the 'why' field "
+                        f"for THIS specific must_read only - do not touch "
+                        f"the others. Remove the phrase '{phrase}' and "
+                        f"replace with a sharp opinion. \n\n"
+                        f"BAD (descriptive): 'This article shows how "
+                        f"metrics can mislead teams.'\n"
+                        f"GOOD (opinionated): 'The author is right that "
+                        f"metric worship is the tax on lazy PM judgment "
+                        f"- but wrong to blame data teams. Fix your OKR "
+                        f"process before you blame the dashboard.'\n\n"
+                        f"React, take a position, name what a Staff PM "
+                        f"should DO. Then call publish_edition again."
                     )
                 }
 
