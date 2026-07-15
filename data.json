@@ -1,7 +1,118 @@
 {
-  "updated": "2026-07-14T07:35:51.454384+00:00",
-  "total": 813,
+  "updated": "2026-07-15T07:39:21.714304+00:00",
+  "total": 800,
   "items": [
+    {
+      "title": "Product Development Economics (1)\nGreat Products Don’t Fail Because of Technology.",
+      "url": "https://medium.com/@zhang9680/product-development-economics-1-great-products-dont-fail-because-of-technology-32efa020506c?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-07-15T07:22:42+00:00",
+      "summary": "Lessons from more than twenty years in technology product development. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Siasat PR Erigo: Mengubah Sentimen Menjadi Loyalitas Merek",
+      "url": "https://medium.com/@2400030084/siasat-pr-erigo-mengubah-sentimen-menjadi-loyalitas-merek-540bab816254?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-07-15T07:14:47+00:00",
+      "summary": "Lanskap industri fashion independen di Indonesia saat ini telah memasuki fase kompetisi yang sangat agresif, di mana medan pertempuran… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "AI Regulation Is Global Now (And Your Architecture Needs to Know)",
+      "url": "https://raftlabs.medium.com/ai-regulation-is-global-now-and-your-architecture-needs-to-know-df85fe0c3a45?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-07-15T03:21:00+00:00",
+      "summary": "15+ countries passed AI laws by 2026. EU, US, China, Canada all have requirements. Continue reading on Medium »",
+      "tags": [
+        "AI Strategy",
+        "Compliance"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Before AI Writes a Single Line of Code, It Needs Something Most Beginners Skip",
+      "url": "https://medium.com/@oluwatomisinligali/before-ai-writes-a-single-line-of-code-it-needs-something-most-beginners-skip-eb8a13f1dfdb?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-07-14T18:52:51+00:00",
+      "summary": "I Thought Building an AI App Started with Writing Code. I Was Wrong. Continue reading on Medium »",
+      "tags": [
+        "AI Strategy",
+        "Communication"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Quality of Evidence - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "url": "https://www.producttalk.org/quality-of-evidence-all-things-product-podcast-with-teresa-torres-petra-wille/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-07-14T13:00:09+00:00",
+      "summary": "Listen to this episode on: Spotify | Apple Podcasts You've got behavioral analytics, support tickets, sales call notes, and a feedback inbox that never empties. With all that data coming in, do product teams actually still need to go out and talk to users? In this episode, Petra",
+      "tags": [
+        "Metrics"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Beyond the app:  Why the real product in banking is the system behind it",
+      "url": "https://www.productledalliance.com/the-real-product-in-banking-is-the-system/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-07-14T12:00:58+00:00",
+      "summary": "Fintech product management means owning the system, not just the screen.",
+      "tags": [
+        "Product Culture"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The OpenAI Super App, ChatGPT = Codex, Whither Chat",
+      "url": "https://stratechery.com/2026/the-openai-super-app-chatgpt-codex-whither-chat/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-07-14T10:00:00+00:00",
+      "summary": "OpenAI has refashioned Codex as the new ChatGPT; is the company abandoning the chat category they pioneered?",
+      "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Is AI a Bubble? | Gavin Baker on Data Centers, GPUs, and the AI Economy",
+      "url": "https://a16z.simplecast.com/episodes/is-ai-a-bubble-gavin-baker-on-data-centers-gpus-and-the-ai-economy-HMRKhpqK",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-07-14T10:00:00+00:00",
+      "summary": "As part of our summer replay series, we're revisiting one of the standout conversations from Runtime, a16z's conference on AI infrastructure and the future of computing. Gavin Baker, Managing Partner and CIO of Atreides Management, joins David George to examine the biggest questi...",
+      "tags": [
+        "AI Strategy",
+        "Hardware Differentiation"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "ccshare",
+      "url": "https://www.producthunt.com/products/ccshare",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-07-14T08:43:39+00:00",
+      "summary": "multiplayer claude code Discussion | Link",
+      "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "The Product Mindset #1: The Product Is Not the Code",
       "url": "https://medium.com/@maheshwaran.kumar.17/the-product-mindset-1-the-product-is-not-the-code-f1c533285b94?source=rss------product_management-5",
@@ -60,6 +171,20 @@
       "summary": "Lately I’ve been using a few different AI Lens-style features — the kind that let you point a camera at something and get a response back… Continue reading on Medium »",
       "tags": [
         "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Product Manager AI",
+      "url": "https://remoteOK.com/remote-jobs/remote-product-manager-ai-yipitdata-1134770",
+      "source": "Remote OK",
+      "type": "job",
+      "date": "2026-07-13T22:00:32+00:00",
+      "summary": "About Us:YipitData is the leading market research and analytics firm for the disruptive economy and most recently raised $475M from The Carlyle Group at a valuation of over $1B. Every day, our proprietary technology analyzes billions of alternative data points to uncover actionab...",
+      "tags": [
+        "Career",
+        "AI Strategy",
+        "Communication"
       ],
       "is_fallback": true
     },
@@ -689,6 +814,19 @@
       "summary": "Secure on-device extraction even if you're offline Discussion | Link",
       "tags": [
         "Hardware Differentiation"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "New AI tools by IFTTT",
+      "url": "https://www.producthunt.com/products/ifttt",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-07-07T21:58:15+00:00",
+      "summary": "Automate with Grok, Gemini, Perplexity, and more Discussion | Link",
+      "tags": [
+        "AI Tools",
+        "AI Strategy"
       ],
       "is_fallback": true
     },
@@ -10349,315 +10487,6 @@
         "User Research",
         "Prioritization",
         "Product Strategy"
-      ]
-    },
-    {
-      "title": "I Analyzed Top Apps And Found This Common Pattern",
-      "url": "https://medium.com/@baheer224/i-analyzed-top-apps-and-found-this-common-pattern-f5af695055f8?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-04-16T04:19:51+00:00",
-      "summary": "An analysis of top-performing apps across categories reveals a common structural pattern: a tight activation loop that delivers core value within the first session and creates a natural reason to return. The author maps this pattern across consumer apps from different verticals and extracts principles applicable to any product. PMs designing onboarding and retention flows will find this a useful benchmark against best-in-class products.",
-      "tags": [
-        "Product Design",
-        "Retention",
-        "Growth"
-      ]
-    },
-    {
-      "title": "Grale",
-      "url": "https://www.producthunt.com/products/grale",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-04-16T00:43:22+00:00",
-      "summary": "The article discusses the conclusion of a debate on microplastics, summarizing key findings and implications for environmental policy and product design. It emphasizes actionable steps for companies to reduce microplastic usage and improve sustainability metrics.",
-      "tags": [
-        "Product Strategy",
-        "Data",
-        "Leadership"
-      ]
-    },
-    {
-      "title": "In Parallel",
-      "url": "https://www.producthunt.com/products/in-parallel",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-04-16T00:41:56+00:00",
-      "summary": "The article introduces \"In Parallel,\" an operating system designed to streamline execution across product teams by providing shared contexts, transparent workflows, and real-time status updates. It helps Product Managers align resources, reduce bottlenecks, and maintain focus on strategic outcomes while fostering cross‑functional collaboration.",
-      "tags": [
-        "Product Strategy",
-        "Leadership",
-        "Platform Strategy"
-      ]
-    },
-    {
-      "title": "Resend CLI 2.0",
-      "url": "https://www.producthunt.com/products/resend",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-04-15T22:14:26+00:00",
-      "summary": "Resend CLI 2.0 is a major update to the developer tool for the Resend email API, adding local development environments, improved debugging, and team collaboration features. The release reflects growing adoption of Resend as a developer-first email infrastructure layer. PMs building products with transactional email workflows will find the improved local testing capabilities particularly useful for reducing email-related bugs in production.",
-      "tags": [
-        "AI Tools",
-        "Productivity",
-        "Product Design"
-      ]
-    },
-    {
-      "title": "Zero-Visibility Finance: Building a Privacy-First Credit Card Insights Tool That Never Asks for…",
-      "url": "https://payalprakash-shah.medium.com/zero-visibility-finance-building-a-privacy-first-credit-card-insights-tool-that-never-asks-for-c46e0f51114a?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-04-15T18:06:44+00:00",
-      "summary": "This case study documents the design and build of a financial insights tool that provides credit card analysis without requiring users to share sensitive account credentials. The author explores privacy-preserving architectures and the product tradeoffs involved in building trust with users in a high-sensitivity domain. A valuable read for PMs working on fintech, data products, or any product where user data privacy is a core design constraint.",
-      "tags": [
-        "Product Design",
-        "Data",
-        "User Research"
-      ]
-    },
-    {
-      "title": "Google Gemini 3.1 Flash TTS",
-      "url": "https://www.producthunt.com/products/google-gemini-3-1-flash-tts",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-04-15T16:11:39+00:00",
-      "summary": "Google has released Gemini 3.1 Flash TTS, a fast and cost-efficient text-to-speech model with improved naturalness and multilingual support. The release signals Google's continued investment in making high-quality voice synthesis accessible at scale for developers. PMs building voice interfaces, accessibility features, or multilingual products should evaluate this against existing TTS options for quality and cost tradeoffs.",
-      "tags": [
-        "AI Tools",
-        "Product Design",
-        "Platform Strategy"
-      ]
-    },
-    {
-      "title": "Why 73% of product managers  expect generalists to define the future",
-      "url": "https://www.productledalliance.com/future-of-product-management-is-generalist/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-04-15T14:00:46+00:00",
-      "summary": "A survey of product managers reveals that the majority believe generalist PMs — those with broad skills across strategy, data, design, and engineering — will be more valuable in the AI era than specialists. The findings suggest that as AI handles more execution-layer tasks, the distinctly human skills of synthesis, communication, and judgement become the core PM differentiators. An important data point for PMs thinking about their own career development and skill investment.",
-      "tags": [
-        "Career",
-        "Leadership",
-        "AI Strategy"
-      ]
-    },
-    {
-      "title": "SocLeads 3.0",
-      "url": "https://www.producthunt.com/products/socleads",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-04-15T13:27:47+00:00",
-      "summary": "SocLeads 3.0 is a tool that automates the extraction of email addresses from social media platforms and map services based on geographic location, streamlining lead generation for sales and marketing teams. It aims to improve outreach efficiency by providing targeted contact lists with minimal manual effort.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Growth"
-      ]
-    },
-    {
-      "title": "How to Share Your AI Context and Skills Across Devices",
-      "url": "https://www.producttalk.org/how-to-share-your-ai-context-and-skills/",
-      "source": "Product Talk",
-      "type": "article",
-      "date": "2026-04-15T13:00:25+00:00",
-      "summary": "The article discusses practical methods for syncing AI-driven context and personalized skills across multiple devices, enabling seamless continuation of AI interactions. It offers guidance for leaders spearheading AI adoption on how to maintain consistent AI experiences for users regardless of the platform they switch to.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Productivity"
-      ]
-    },
-    {
-      "title": "Winning the narrative when markets move fast | GTM Labs",
-      "url": "https://www.productledalliance.com/winning-the-narrative-when-markets-move-fast-gtm-labs/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-04-15T10:42:57+00:00",
-      "summary": "In fast-moving markets, the ability to control the narrative is a strategic advantage that goes beyond product quality. This GTM Labs session explores frameworks for crafting compelling positioning that resonates with buyers even when the competitive landscape is shifting rapidly. PMs will find practical guidance on aligning messaging with market momentum rather than chasing it.",
-      "tags": [
-        "Growth",
-        "Competitive Analysis",
-        "Communication"
-      ]
-    },
-    {
-      "title": "Avoid vanity metrics: evaluating true GTM impact | GTM Labs",
-      "url": "https://www.productledalliance.com/avoid-vanity-metrics-evaluating-true-gtm-impact-gtm-labs/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-04-15T10:23:45+00:00",
-      "summary": "Many GTM teams track metrics that look good in dashboards but do not reflect real business impact. This session makes the case for replacing vanity metrics with leading indicators that connect directly to revenue and retention. For PMs, the key takeaway is building measurement frameworks that hold GTM teams accountable to outcomes, not activity.",
-      "tags": [
-        "Metrics",
-        "Growth",
-        "Product Strategy"
-      ]
-    },
-    {
-      "title": "GTM on a budget: do more with less | GTM Labs",
-      "url": "https://www.productledalliance.com/gtm-on-a-budget-do-more-with-less-gtm-labs/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-04-15T10:23:18+00:00",
-      "summary": "Resource-constrained teams can still execute high-impact GTM strategies by focusing on high-leverage channels and ruthless prioritization. The session covers how to identify the minimum viable GTM motion that drives meaningful traction without large budgets. Particularly relevant for PMs at early-stage companies or teams running lean after restructuring.",
-      "tags": [
-        "Growth",
-        "Prioritization",
-        "Product Strategy"
-      ]
-    },
-    {
-      "title": "Lifecycle metrics that drive retention & advocacy | GTM Labs",
-      "url": "https://www.productledalliance.com/lifecycle-metrics-that-drive-retention-advocacy-gtm-labs/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-04-15T10:20:00+00:00",
-      "summary": "Retention and advocacy are driven by measurable moments in the user lifecycle, not just by product quality. This session maps the key metrics that signal when users are at risk of churning or primed to become advocates, and how to act on them. PMs will take away a practical framework for instrumenting their product to surface these signals in real time.",
-      "tags": [
-        "Retention",
-        "Metrics",
-        "Growth"
-      ]
-    },
-    {
-      "title": "Turning launches into repeatable revenue moments | GTM Labs",
-      "url": "https://www.productledalliance.com/turning-launches-into-repeatable-revenue-moments-gtm-labs/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-04-15T10:16:59+00:00",
-      "summary": "Most product launches are one-off events rather than repeatable revenue drivers. This session introduces a system for designing launches that generate compounding returns by building on previous momentum. For PMs, the insight is that launch strategy should be engineered into the product lifecycle from the start, not bolted on at the end.",
-      "tags": [
-        "Product Strategy",
-        "Growth",
-        "Communication"
-      ]
-    },
-    {
-      "title": "The AI Pivot: Why Product Management is Evolving into “System Orchestration",
-      "url": "https://medium.com/@titasahmedinfo/the-ai-pivot-why-product-management-is-evolving-into-system-orchestration-c7ae1f545877?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-04-15T10:05:27+00:00",
-      "summary": "AI is fundamentally transforming product management, shifting the role from traditional oversight to system orchestration, where PMs must manage complex, AI-driven ecosystems.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy"
-      ]
-    },
-    {
-      "title": "Amazon Buys Globalstar, Delta to Add Leo, The Apple Angle",
-      "url": "https://stratechery.com/2026/amazon-buys-globalstar-delta-to-add-leo-the-apple-angle/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-04-15T10:00:00+00:00",
-      "summary": "Ben Thompson analyses Amazon's acquisition of Globalstar and its implications for the satellite connectivity market. He explores how satellite-connected devices shift the dynamics of consumer hardware and carrier relationships. A must-read for PMs thinking about connectivity as a platform and the strategic implications of satellite infrastructure becoming mainstream.",
-      "tags": [
-        "AI Strategy",
-        "Platform Strategy",
-        "Competitive Analysis"
-      ]
-    },
-    {
-      "title": "Cybersecurity & Ethical Hacking Explained - Protecting the Digital World.",
-      "url": "https://medium.com/codetodeploy/cybersecurity-ethical-hacking-explained-protecting-the-digital-world-54ab7c7a2bb1?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-04-15T09:49:21+00:00",
-      "summary": "Cybersecurity and ethical hacking guard digital systems by proactively preventing attacks, finding and fixing weaknesses, and safeguarding data worldwide. These practices keep users, businesses, and critical infrastructure safe from evolving threats. For product managers, understanding these concepts helps design more secure offerings and instill confidence in end‑users.",
-      "tags": [
-        "Product Design",
-        "Data"
-      ]
-    },
-    {
-      "title": "🔮 The classified frontier",
-      "url": "https://www.exponentialview.co/p/the-classified-frontier",
-      "source": "Exponential View",
-      "type": "trend",
-      "date": "2026-04-15T09:45:58+00:00",
-      "summary": "This edition of Exponential View examines the growing role of classified AI research in national security and defence, and how the frontier of AI capabilities is increasingly moving behind closed doors. The piece raises important questions about what this means for the pace of public AI progress and who controls the most powerful models. PMs building on AI infrastructure should understand how geopolitical dynamics are shaping foundation model development.",
-      "tags": [
-        "AI Strategy",
-        "Competitive Analysis",
-        "Platform Strategy"
-      ]
-    },
-    {
-      "title": "We Wired Up Audiences in Cinemas, Gaming Labs, and Concert Halls.",
-      "url": "https://medium.com/@insightflow-ai/we-wired-up-audiences-in-cinemas-gaming-labs-and-concert-halls-1db62cf6d796?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-04-15T09:45:07+00:00",
-      "summary": "A research team used biometric sensors to measure real-time emotional responses from audiences at cinemas, gaming labs, and concerts, generating rich data on engagement and attention. The findings reveal that peak emotional moments do not always align with what creators or product teams expect. For PMs, this is a compelling case for physiological and behavioural research methods beyond traditional surveys and analytics.",
-      "tags": [
-        "User Research",
-        "Product Design",
-        "Data"
-      ]
-    },
-    {
-      "title": "The GetAway Group’s AI Product Engineering Development Plan",
-      "url": "https://medium.com/getaway-group-tech-blog/the-getaway-groups-ai-product-engineering-development-plan-50c48917f0c9?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-04-15T09:35:00+00:00",
-      "summary": "The article argues that product teams should focus on creating the systems, habits, and decision‑making frameworks that enable rapid, compounding use of AI rather than merely adopting AI tools. By embedding AI into the product development process, organizations can achieve sustainable speed and scale in delivering AI‑powered features.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy"
-      ]
-    },
-    {
-      "title": "The Diderot Effect: Product Management’s Most Expensive Blind Spot",
-      "url": "https://medium.com/@sanskarj35/the-diderot-effect-product-managements-most-expensive-blind-spot-c60772bf4cd6?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-04-15T09:17:05+00:00",
-      "summary": "The Diderot Effect highlights how adding a single new feature to a product can subtly shift user expectations and perceived value, leading to a continuous cycle of feature requests and potentially diminishing returns. For Product Managers, this means carefully considering the long-term impact of each addition, as it can fundamentally alter user perception and create a need for constant upgrades. Ignoring this effect can result in feature bloat and a less satisfying user experience.",
-      "tags": [
-        "Product Design",
-        "User Research",
-        "Product Strategy"
-      ]
-    },
-    {
-      "title": "The Diderot Effect: Product Management’s Most Expensive Blind Spot",
-      "url": "https://medium.com/@sanskarj35/the-diderot-effect-product-managements-most-expensive-blind-spot-c60772bf4cd6?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-04-15T09:17:05+00:00",
-      "summary": "The article discusses the 'Diderot Effect,' the phenomenon where adding small, incremental features to a product can drastically increase development costs and complexity, often leading to an unsustainable product roadmap. Product Managers need to recognize that seemingly minor additions can have a disproportionately large impact on time, resources, and overall product strategy. Prioritization and strategic roadmap planning are crucial to avoid this expensive blind spot.",
-      "tags": [
-        "Product Strategy",
-        "Metrics",
-        "Prioritization"
-      ]
-    },
-    {
-      "title": "LISA Core",
-      "url": "https://www.producthunt.com/products/lisa-core-your-ai-memory-library",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-04-15T08:46:23+00:00",
-      "summary": "LISA Core is an AI memory library that allows users to store, organise, and retrieve context across AI interactions, solving the persistent context problem in current LLM-based tools. It positions itself as a personal knowledge layer that makes AI assistants more useful over time by remembering preferences, projects, and past conversations. PMs exploring AI product design will find this an interesting example of the emerging category of AI memory and personalisation infrastructure.",
-      "tags": [
-        "AI Tools",
-        "Product Design",
-        "AI Strategy"
-      ]
-    },
-    {
-      "title": "Faster learning changes how teams work",
-      "url": "https://medium.com/@shyamkiran.kotnana/faster-learning-changes-how-teams-work-78dc9871f0b6?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-04-15T08:27:15+00:00",
-      "summary": "As AI tools compress learning cycles, teams can validate assumptions and iterate on strategies faster than ever before. This creates a new challenge: organisational structures designed for slower learning loops become bottlenecks. PMs need to redesign team workflows and meeting cadences to match the pace at which insights can now be generated.",
-      "tags": [
-        "Product Culture",
-        "AI Tools",
-        "Productivity"
       ]
     }
   ]
