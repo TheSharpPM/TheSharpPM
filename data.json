@@ -1,7 +1,69 @@
 {
-  "updated": "2026-07-15T07:39:21.714304+00:00",
-  "total": 800,
+  "updated": "2026-07-16T07:48:06.622162+00:00",
+  "total": 797,
   "items": [
+    {
+      "title": "Cowork in the Browser Changed My Mondays",
+      "url": "https://medium.com/all-about-claude/cowork-in-the-browser-changed-my-mondays-7a70b4c53130?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-07-16T07:34:42+00:00",
+      "summary": "Anthropic just moved Claude Cowork off the desktop and into a browser tab. For a PM on a locked-down work laptop, that one change quietly… Continue reading on All About Claude »",
+      "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "What migration taught me about compulsory digital products that you cannot skip as a user",
+      "url": "https://medium.com/@pak.kate/what-migration-taught-me-about-compulsory-digital-products-that-you-cannot-skip-as-a-user-5d556c78f11e?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-07-16T07:16:28+00:00",
+      "summary": "When I immigrated from Kazakhstan to Adelaide, South Australia, I got some interesting insights into product management that I had never… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Why Good Products Fail (And Worse Ones Survive)",
+      "url": "https://medium.com/@veyrain.paperrain/why-good-products-fail-and-worse-ones-survive-77d76bf2888b?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-07-15T17:29:10+00:00",
+      "summary": "Quality alone has never been enough. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "IBM Misses, IBM’s Mainframe Moat, IBM’s Many AI Problems",
+      "url": "https://stratechery.com/2026/ibm-misses-ibms-mainframe-moat-ibms-many-ai-problems/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-07-15T10:00:19+00:00",
+      "summary": "IBM announced preliminary results that spooked the software market generally; this is a story, however, specifically about IBM and its mainframe franchise.",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "From the Archive: Can Anyone Catch NVIDIA? | The Future of Chips and Infrastructure",
+      "url": "https://a16z.simplecast.com/episodes/can-anyone-catch-nvidia-the-future-of-chips-and-infrastructure-zpJUqKwQ",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-07-15T10:00:00+00:00",
+      "summary": "As part of our summer replay series, we're revisiting one of our favorite conversations on the future of AI infrastructure. SemiAnalysis founder Dylan Patel joins Erin Price-Wright, Guido Appenzeller, and Erik Torenberg to examine the rapidly evolving economics of AI hardware, fr...",
+      "tags": [
+        "Hardware Differentiation",
+        "AI Strategy",
+        "Competitive Analysis"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Product Development Economics (1)\nGreat Products Don’t Fail Because of Technology.",
       "url": "https://medium.com/@zhang9680/product-development-economics-1-great-products-dont-fail-because-of-technology-32efa020506c?source=rss------product_management-5",
@@ -36,6 +98,47 @@
       "tags": [
         "AI Strategy",
         "Compliance"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Nitrosend",
+      "url": "https://www.producthunt.com/products/nitrosend",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-07-15T01:41:49+00:00",
+      "summary": "Email for AI agents. They sign up, send and reply. Discussion | Link",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Junior Contact Center Agent",
+      "url": "https://remoteOK.com/remote-jobs/remote-junior-contact-center-agent-volkswagen-group-1134886",
+      "source": "Remote OK",
+      "type": "job",
+      "date": "2026-07-14T21:26:29+00:00",
+      "summary": "Annual gross salary range: Min. 15,732€ - Max. 17,805€ (depending on experience). Volkswagen Group Services is a Volkswagen Group company oriented towards working for Group companies worldwide. We provide services in the areas of production, logistics, data engineering (IT), engi...",
+      "tags": [
+        "Career",
+        "Communication",
+        "Competitive Analysis"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "ChikitAI",
+      "url": "https://www.producthunt.com/products/chikitai",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-07-14T20:54:35+00:00",
+      "summary": "Agentic AI for Healthcare Triage and Care Automation Discussion | Link",
+      "tags": [
+        "AI Strategy",
+        "AI Tools",
+        "Automation"
       ],
       "is_fallback": true
     },
@@ -10344,149 +10447,6 @@
         "AI Strategy",
         "Product Strategy",
         "Competitive Analysis"
-      ]
-    },
-    {
-      "title": "Build to Learn vs Build to Earn",
-      "url": "https://www.svpg.com/build-to-learn-vs-build-to-earn/",
-      "source": "SVPG",
-      "type": "article",
-      "date": "2026-04-16T18:48:19+00:00",
-      "summary": "The article contrasts two product development approaches: \"Build to Learn,\" which focuses on experimentation, discovery, and gaining insights, versus \"Build to Earn,\" which emphasizes delivering predetermined features for immediate business outcomes. It argues that while the output‑driven project model remains dominant, product managers should balance learning-oriented initiatives with revenue‑focused work to sustain long‑term innovation.",
-      "tags": [
-        "Product Strategy",
-        "Product Culture",
-        "Leadership"
-      ]
-    },
-    {
-      "title": "Who Pays When the Agent Breaks?",
-      "url": "https://www.productcoalition.com/p/who-pays-when-the-agent-breaks",
-      "source": "Product Coalition",
-      "type": "article",
-      "date": "2026-04-16T14:43:39+00:00",
-      "summary": "The article explores the emerging discipline of agentic engineering, focusing on the often‑overlooked question of liability and cost when autonomous AI agents malfunction or cause damage. It highlights the need for clear contractual frameworks, insurance models, and governance policies to protect stakeholders and sustain trust in agent‑driven products.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Leadership"
-      ]
-    },
-    {
-      "title": "Building Todoist Ramble: How Doist Turned Voice Braindumps into Real-Time Task Capture",
-      "url": "https://www.producttalk.org/building-todoist-ramble-how-doist-turned-voice-braindumps-into-real-time-task-capture/",
-      "source": "Product Talk",
-      "type": "article",
-      "date": "2026-04-16T13:00:22+00:00",
-      "summary": "Doist created Ramble, a voice-to-task feature for Todoist that captures spoken thoughts in real time and converts them into structured task items. The solution leverages live audio AI to turn unstructured ramblings into actionable items instantly, improving user workflow and task capture efficiency.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Productivity"
-      ]
-    },
-    {
-      "title": "Why an MBA/PGDM with Internship is the Future of Management Education in India",
-      "url": "https://medium.com/@peopleeducationisbr/why-an-mba-pgdm-with-internship-is-the-future-of-management-education-in-india-58514344c048?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-04-16T10:31:47+00:00",
-      "summary": "This article explores how MBA programmes with integrated internships are becoming the preferred path for management education in India, offering practical experience alongside academic learning. The author argues that companies increasingly prefer candidates who have real-world exposure over those with purely theoretical backgrounds. For PMs evaluating talent pipelines or career development programmes, this signals a shift in how entry-level product talent is being trained.",
-      "tags": [
-        "Career",
-        "Leadership",
-        "Product Culture"
-      ]
-    },
-    {
-      "title": "A Spring Break Commute, Five Dollars, and the State of Multilingual Text-to-Speech",
-      "url": "https://joshmcdonald.medium.com/a-spring-break-commute-five-dollars-and-the-state-of-multilingual-text-to-speech-82bcb8bfa179?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-04-16T10:17:48+00:00",
-      "summary": "A hands-on exploration of the current state of multilingual text-to-speech technology, tested with a $5 budget during a commute. The author evaluates several TTS APIs on naturalness, language coverage, and cost, finding significant variation in quality across languages. A useful reference for PMs evaluating voice and accessibility features for multilingual products.",
-      "tags": [
-        "AI Tools",
-        "Product Design",
-        "User Research"
-      ]
-    },
-    {
-      "title": "Discovery: Where Better Products Take Shape",
-      "url": "https://medium.com/@nitin.sri2002/discovery-where-better-products-take-shape-d004163cd06f?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-04-16T10:17:37+00:00",
-      "summary": "This article argues that product discovery is not a phase but a continuous practice embedded throughout the product development lifecycle. The author outlines a framework for ongoing discovery that integrates user research, hypothesis testing, and cross-functional collaboration. For PMs looking to move beyond periodic discovery sprints to a more systematic approach, this provides actionable guidance.",
-      "tags": [
-        "User Research",
-        "Product Strategy",
-        "Prioritization"
-      ]
-    },
-    {
-      "title": "Most Businesses Choose the Wrong Marketing Agency (Here's Why)",
-      "url": "https://medium.com/@R_Abhimaan01/most-businesses-choose-the-wrong-marketing-agency-heres-why-043f12c5d0b1?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-04-16T10:04:16+00:00",
-      "summary": "Most businesses select marketing agencies based on portfolio aesthetics or price rather than strategic fit, leading to misaligned expectations and poor results. The author identifies the key questions businesses should ask before hiring an agency, focusing on understanding their target audience and measuring outcomes. PMs involved in go-to-market strategy will recognise the pattern of prioritising output over outcome in vendor selection.",
-      "tags": [
-        "Growth",
-        "Product Strategy",
-        "Communication"
-      ]
-    },
-    {
-      "title": "An Interview with F1 Driver and Venture Capitalist Nico Rosberg About the Drive to Win",
-      "url": "https://stratechery.com/2026/an-interview-with-f1-driver-and-venture-capitalist-nico-rosberg-about-the-drive-to-win/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-04-16T10:00:00+00:00",
-      "summary": "In this interview, former F1 champion Nico Rosberg shares how he cultivated a competitive mental edge and leveraged high‑performance principles to identify and seize opportunities in his transition to venture capital. He discusses the parallels between racing strategy and product leadership, emphasizing disciplined decision‑making, rapid iteration, and data‑driven risk assessment to drive growth.",
-      "tags": [
-        "Leadership",
-        "Growth",
-        "Product Strategy"
-      ]
-    },
-    {
-      "title": "Why Your Business Can't Afford to Ignore Mobile Anymore",
-      "url": "https://medium.com/@appbuildchat/why-your-business-cant-afford-to-ignore-mobile-anymore-14405f4b7932?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-04-16T09:32:47+00:00",
-      "summary": "Mobile now accounts for the majority of digital interactions across virtually every industry, yet many businesses still treat mobile as a secondary channel. The author argues that mobile-first design and strategy is no longer optional — it is the default expectation for users. PMs building consumer or B2B products should audit their mobile experience as a first-class product surface, not an afterthought.",
-      "tags": [
-        "Product Design",
-        "Product Strategy",
-        "Growth"
-      ]
-    },
-    {
-      "title": "Why Feedback Quality Declines as Start-ups Scale",
-      "url": "https://shashank-rajrukar.medium.com/why-feedback-quality-declines-as-start-ups-scale-c3f412869381?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-04-16T09:06:01+00:00",
-      "summary": "As startups grow, the signal-to-noise ratio in customer feedback deteriorates because the user base diversifies and direct access to early customers diminishes. The author identifies structural causes — sales-filtered feedback, support ticket aggregation, and executive insulation — and proposes mechanisms to preserve feedback quality at scale. A critical read for PMs at scaling companies who feel increasingly disconnected from their users.",
-      "tags": [
-        "User Research",
-        "Product Culture",
-        "Leadership"
-      ]
-    },
-    {
-      "title": "Stop Building, Start Validating: A 5-Step Guide for Founders",
-      "url": "https://medium.com/@info_69552/stop-building-start-validating-a-5-step-guide-for-founders-d8f6616f93e5?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-04-16T08:56:48+00:00",
-      "summary": "This guide challenges the default founder impulse to build first and validate later, arguing that most failed products suffer from insufficient early validation rather than poor execution. The five-step framework covers problem interviews, assumption mapping, minimum viable experiments, and success metrics definition. For PMs, it reinforces the continuous discovery mindset and provides a practical structure for de-risking new initiatives.",
-      "tags": [
-        "User Research",
-        "Prioritization",
-        "Product Strategy"
       ]
     }
   ]
