@@ -1,7 +1,71 @@
 {
-  "updated": "2026-07-16T07:48:06.622162+00:00",
-  "total": 797,
+  "updated": "2026-07-17T07:43:07.372896+00:00",
+  "total": 805,
   "items": [
+    {
+      "title": "Your AI Coding Agent Isn’t Careless. It’s Guessing. And It Never Tells You.",
+      "url": "https://medium.com/@lookmanabayomi24/your-ai-coding-agent-isnt-careless-it-s-guessing-and-it-never-tells-you-3d4ac339b806?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-07-17T07:20:13+00:00",
+      "summary": "A field guide called The AI Coding Workflow Manual shows what happens when you stop prompting and start briefing. Continue reading on Medium »",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "I Had Thousands of Agent Traces and Still Couldn’t Tell Which Sessions Failed",
+      "url": "https://medium.com/@alex_8076/i-had-thousands-of-agent-traces-and-still-couldnt-tell-which-sessions-failed-ca744dffe5ca?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-07-17T07:16:44+00:00",
+      "summary": "Every agent team I talk to hits the same wall, in roughly the same order. You ship an AI agent. It breaks in ways you didn’t expect… Continue reading on Medium »",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Best App Ideas Solve Boring Problems",
+      "url": "https://medium.com/skillstuff/the-best-app-ideas-solve-boring-problems-61cc22deccf0?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-07-17T07:11:57+00:00",
+      "summary": "Most successful apps didn’t start with revolutionary technology. Continue reading on Skill Stuff »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "O que a Trov ainda nos ensina sobre construir produtos de Seguros",
+      "url": "https://medium.com/@marinaoliveirasm/o-que-a-trov-ainda-nos-ensina-sobre-construir-produtos-de-seguros-f985f3c68ed4?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-07-16T23:45:46+00:00",
+      "summary": "Algumas empresas deixam de existir. Outras continuam influenciando a forma como uma indústria inteira pensa seus produtos. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Replay 2025: David Sacks on AI, Crypto, and America's Technology Future",
+      "url": "https://a16z.simplecast.com/episodes/replay-2025-david-sacks-on-ai-crypto-and-americas-technology-future-g9dog_eR",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-07-16T10:00:00+00:00",
+      "summary": "As part of our summer replay series, we're revisiting one of our most-discussed conversations from the past year. David Sacks joins Marc Andreessen, Ben Horowitz, and Erik Torenberg to discuss the intersection of AI, crypto, regulation, and American competitiveness. The conversat...",
+      "tags": [
+        "AI Strategy",
+        "Competitive Analysis",
+        "Compliance"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Cowork in the Browser Changed My Mondays",
       "url": "https://medium.com/all-about-claude/cowork-in-the-browser-changed-my-mondays-7a70b4c53130?source=rss------product_management-5",
@@ -23,6 +87,44 @@
       "summary": "When I immigrated from Kazakhstan to Adelaide, South Australia, I got some interesting insights into product management that I had never… Continue reading on Medium »",
       "tags": [
         "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Kimi K3",
+      "url": "https://www.producthunt.com/products/kimi-2",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-07-16T06:56:06+00:00",
+      "summary": "The world's first open 3T-class model Discussion | Link",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Operations Administrator",
+      "url": "https://remoteOK.com/remote-jobs/remote-operations-administrator-work-force-nexus-1134885",
+      "source": "Remote OK",
+      "type": "job",
+      "date": "2026-07-16T03:07:13+00:00",
+      "summary": "Posted 2:59:24 PM. Location: RemoteEmployment Type: Full-TimeExperience: 0–1 YearAbout The RoleWe are looking for a…See this and similar jobs on LinkedIn.",
+      "tags": [
+        "Career"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Product Director EdTech Digital Learning",
+      "url": "https://remoteOK.com/remote-jobs/remote-product-director-edtech-digital-learning-peopleworth-1134884",
+      "source": "Remote OK",
+      "type": "job",
+      "date": "2026-07-15T19:27:56+00:00",
+      "summary": "Intro The organisation has reached an important inflection point. It has built a proven product, established strong market traction, and is entering its next phase of growth. The challenge is no longer proving the model. The challenge is scaling it without compromising quality. T...",
+      "tags": [
+        "AI Strategy",
+        "Career",
+        "Platform Strategy"
       ],
       "is_fallback": true
     },
@@ -236,6 +338,18 @@
       "type": "article",
       "date": "2026-07-14T07:00:38+00:00",
       "summary": "Building Klassy Missy’s Regimen changed how I think about software engineering, product development,and what “working software\" really… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Pocket Screen",
+      "url": "https://www.producthunt.com/products/toybird-labs",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-07-14T06:58:59+00:00",
+      "summary": "Keep any Mac window visible in a floating mini screen Discussion | Link",
       "tags": [
         "Product Strategy"
       ],
@@ -10434,19 +10548,6 @@
         "AI Tools",
         "Product Strategy",
         "Growth"
-      ]
-    },
-    {
-      "title": "2026.16: Servers, Satellites, and Stars",
-      "url": "https://stratechery.com/2026/servers-satellites-and-stars/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-04-17T17:00:00+00:00",
-      "summary": "The weekly Stratechery roundup highlights the rising costs and strategic considerations of AI deployments, Amazon's expanding involvement with Globalstar satellite services, and insights from Nico Rosberg on leveraging racing data for investment decisions. These topics reveal how hardware infrastructure, AI economics, and data-driven insights are shaping product and platform strategies.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Competitive Analysis"
       ]
     }
   ]
