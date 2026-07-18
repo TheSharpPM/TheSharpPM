@@ -1,7 +1,93 @@
 {
-  "updated": "2026-07-17T07:43:07.372896+00:00",
-  "total": 805,
+  "updated": "2026-07-18T07:25:44.668491+00:00",
+  "total": 811,
   "items": [
+    {
+      "title": "I Upgraded My Productivity Without Buying a New Laptop—These 5 Desk Accessories Made the Biggest…",
+      "url": "https://medium.com/@shashankshshu13/i-upgraded-my-productivity-without-buying-a-new-laptop-these-5-desk-accessories-made-the-biggest-e003b551b1a3?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-07-18T07:24:08+00:00",
+      "summary": "https://link.amazon/B0btWFfl7 Continue reading on Medium »",
+      "tags": [
+        "Productivity"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Steering by Value: You Can Kill a Bet, Not Confirm One",
+      "url": "https://medium.com/@__bbak/steering-by-value-you-can-kill-a-bet-not-confirm-one-9aa424d8f61b?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-07-18T06:26:01+00:00",
+      "summary": "The first two parts of this series did demolition. The first argued that value cannot serve as a control signal, because the worth of a… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Reverse Engineering GitHub Copilot: What Every AI Product Manager Can Learn",
+      "url": "https://medium.com/@karthik_prdmgr/reverse-engineering-github-copilot-what-every-ai-product-manager-can-learn-8d381ffb3e21?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-07-18T03:53:43+00:00",
+      "summary": "Why one of the world’s most successful AI products is really a masterclass in workflow design — not just code generation. Continue reading on Medium »",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "2026.29: Mainframes and Main Characters",
+      "url": "https://stratechery.com/2026/mainframes-and-main-characters/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-07-17T17:00:00+00:00",
+      "summary": "The best Stratechery content from the week of July 13, 2026, including the end of the mainframe, the continuing adventures of OpenAI, and answering the question, \"Is Netflix Washed?\".",
+      "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "AI-first product development:  Building for humans and machines",
+      "url": "https://www.productledalliance.com/ai-first-product-development-building-for-humans-and-machines/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-07-17T15:00:36+00:00",
+      "summary": "Your product isn't just for humans anymore – build accordingly.",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Amjad Masad on Going Direct, Building Replit, and the Future of Software",
+      "url": "https://a16z.simplecast.com/episodes/amjad-masad-on-going-direct-building-replit-and-the-future-of-software-bWWNM4zx",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-07-17T10:00:00+00:00",
+      "summary": "Recorded live at the New Media Summit, Erik Torenberg sits down with Replit founder and CEO Amjad Masad to discuss founder-led storytelling, building in public, and the role of media in company building. Masad reflects on Replit’s decade-long journey, including the years before t...",
+      "tags": [
+        "Communication",
+        "Growth"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "EP107 From Founder to VP: What Changes About Product Judgment at Scale",
+      "url": "https://www.productcoalition.com/p/ep107-from-founder-to-vp-what-changes",
+      "source": "Product Coalition",
+      "type": "article",
+      "date": "2026-07-17T09:00:37+00:00",
+      "summary": "Summary",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Your AI Coding Agent Isn’t Careless. It’s Guessing. And It Never Tells You.",
       "url": "https://medium.com/@lookmanabayomi24/your-ai-coding-agent-isnt-careless-it-s-guessing-and-it-never-tells-you-3d4ac339b806?source=rss------product_management-5",
@@ -402,6 +488,18 @@
         "Career",
         "AI Strategy",
         "Communication"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Mainichi",
+      "url": "https://www.producthunt.com/products/mainichi-2",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-07-13T19:26:12+00:00",
+      "summary": "Learn Japanese, one prefecture at a time. Discussion | Link",
+      "tags": [
+        "Product Strategy"
       ],
       "is_fallback": true
     },
@@ -6093,6 +6191,18 @@
       ]
     },
     {
+      "title": "Clark",
+      "url": "https://www.producthunt.com/products/clark-agent",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-05-27T09:38:52+00:00",
+      "summary": "An AI coworker with its own cloud computer Discussion | Link",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
       "title": "AI’s $250 Billion Question: What If The Moat Protects Nothing?",
       "url": "https://medium.com/@jaisingh.darshana/ais-250-billion-question-what-if-the-moat-protects-nothing-c0e43b66c901?source=rss------product_strategy-5",
       "source": "Medium Strategy",
@@ -10510,45 +10620,6 @@
         "Product Culture"
       ],
       "is_fallback": false
-    },
-    {
-      "title": "🔮 Exponential View #570: Inside Jensen Huang’s worldview",
-      "url": "https://www.exponentialview.co/p/ev-570",
-      "source": "Exponential View",
-      "type": "trend",
-      "date": "2026-04-19T02:25:43+00:00",
-      "summary": "The article explores Jensen Huang’s perspective on future technology trends, emphasizing the rise of a Chinese tech ecosystem, geopolitical risks like Iran scenarios, and the emergence of a 'clip economy' driven by short-form video. It highlights strategic implications for product leaders in navigating global competition, regulatory uncertainty, and new content consumption habits.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Competitive Analysis"
-      ]
-    },
-    {
-      "title": "Cookunity: Product Manager - B2B",
-      "url": "https://weworkremotely.com/remote-jobs/cookunity-product-manager-b2b",
-      "source": "We Work Remotely",
-      "type": "job",
-      "date": "2026-04-18T20:30:59+00:00",
-      "summary": "CookUnity is seeking a Product Manager to drive its B2B marketplace expansion, focusing on empowering chefs and scaling the platform beyond meal delivery. The role will shape product strategy, prioritize growth initiatives, and collaborate across stakeholders to build a sustainable, chef‑centric ecosystem.",
-      "tags": [
-        "Product Strategy",
-        "Growth",
-        "Platform Strategy"
-      ]
-    },
-    {
-      "title": "🧠 Community Wisdom: Sharing Claude Code skills across the org, Why did lennysjobs.com shut down, opening an LLC for side work, AI for SMB sales, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-sharing-claude-code",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-04-18T18:38:18+00:00",
-      "summary": "The article shares a collection of community insights, including how teams are disseminating Claude AI code expertise internally, the reasons behind the shutdown of lennysjobs.com, steps for forming an LLC for side projects, and leveraging AI to boost SMB sales. It highlights practical tactics and lessons that product managers can apply to improve AI adoption, operational efficiency, and revenue growth.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Growth"
-      ]
     }
   ]
 }
