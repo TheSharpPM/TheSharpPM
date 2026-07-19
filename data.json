@@ -1,7 +1,105 @@
 {
-  "updated": "2026-07-18T07:25:44.668491+00:00",
+  "updated": "2026-07-19T07:54:16.743755+00:00",
   "total": 811,
   "items": [
+    {
+      "title": "It Was Your Manager, Not a Program",
+      "url": "https://medium.com/@thepmcode7/it-was-your-manager-not-a-program-b9d2ec8321ca?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-07-19T07:33:00+00:00",
+      "summary": "Who this is for Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Your Equity Is Not a Number",
+      "url": "https://medium.com/@thepmcode7/your-equity-is-not-a-number-b6b8aeba9fcb?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-07-19T07:25:34+00:00",
+      "summary": "Who this is for: Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "They Called Airbnb Crazy Too",
+      "url": "https://medium.com/@deepreddy/they-called-airbnb-crazy-too-161642d7b072?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-07-19T04:45:42+00:00",
+      "summary": "The idea was never crazy. It was just missing the thing that makes strangers safe to trust. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🔮 Kimi K3 surprise & AI economics; the solar paradox; AI's right to learn, cancer vaccine & junior jobs++",
+      "url": "https://www.exponentialview.co/p/ev-593",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-07-19T02:37:10+00:00",
+      "summary": "Plus: Palantir’s power, cancer vaccines and AI on iPhones",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🧠 Community Wisdom: Syncing Claude Code and Claude Design, earning trust when customers assume you vibe coded it, co-founder fallout lessons, personal CRMs, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-syncing-claude-code",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-07-18T17:04:04+00:00",
+      "summary": "Community Wisdom 194",
+      "tags": [
+        "AI Tools",
+        "Community"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "From Silicon to Chatbot: The Secret Layer Cake Powering Every AI Tool You Use",
+      "url": "https://medium.com/@reenamaritapinto/from-silicon-to-chatbot-the-secret-layer-cake-powering-every-ai-tool-you-use-400ebc68b23a?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-07-18T15:01:04+00:00",
+      "summary": "Why understanding the five layers of the AI stack will change how you think about “AI” forever Continue reading on Medium »",
+      "tags": [
+        "AI Strategy",
+        "Hardware Differentiation"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Rewisp — an ambient memory for your Mac",
+      "url": "https://www.producthunt.com/products/rewisp-an-ambient-memory-for-your-mac",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-07-18T11:45:09+00:00",
+      "summary": "See it once. Ask forever. Discussion | Link",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "BaseRT - Apple M5 Optimized",
+      "url": "https://www.producthunt.com/products/basert",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-07-18T08:15:22+00:00",
+      "summary": "6.4x faster than llama.cpp, 3.9x faster than MLX Discussion | Link",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "I Upgraded My Productivity Without Buying a New Laptop—These 5 Desk Accessories Made the Biggest…",
       "url": "https://medium.com/@shashankshshu13/i-upgraded-my-productivity-without-buying-a-new-laptop-these-5-desk-accessories-made-the-biggest-e003b551b1a3?source=rss------product_management-5",
@@ -1849,6 +1947,20 @@
       "tags": [
         "Career",
         "Risk Management"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Qventus: Senior/Lead Product Manager, Agentic AI Platform",
+      "url": "https://weworkremotely.com/remote-jobs/qventus-senior-lead-product-manager-agentic-ai-platform",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-06-30T20:31:13+00:00",
+      "summary": "Headquarters: Remote, United States On this journey for over 12 years, Qventus is leading the transformation of healthcare. We enable hospitals to focus on what matters most: patient care. Our innovative solutions harness the power of machine learning, generative AI, and behavior...",
+      "tags": [
+        "AI Strategy",
+        "Career",
+        "AI Tools"
       ],
       "is_fallback": true
     },
@@ -10502,124 +10614,6 @@
         "Product Strategy",
         "Leadership"
       ]
-    },
-    {
-      "title": "PM’s Dilemma: Go Deeper in the Domain VS Build Better Product Sense",
-      "url": "https://nidakhan333.medium.com/pms-dilemma-go-deeper-in-the-domain-vs-build-better-product-sense-af3ff5044527?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-04-20T07:26:01+00:00",
-      "summary": "The article explores the tension product managers face between diving deep into domain expertise and cultivating broader product sense. It argues that while deep knowledge can drive nuanced decisions, a strong product intuition enables faster validation and cross‑functional collaboration, and suggests balancing both through focused learning and diverse stakeholder engagement.",
-      "tags": [
-        "Product Strategy",
-        "Leadership",
-        "Prioritization"
-      ]
-    },
-    {
-      "title": "The 15-Minute Daily Habit That Connects Every Team to a Shared Truth",
-      "url": "https://medium.com/@asbjorn_17696/the-15-minute-daily-habit-that-connects-every-team-to-a-shared-truth-2cb66ae04346?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-04-20T07:24:29+00:00",
-      "summary": "The article describes a simple 15‑minute daily practice that aligns teams around a single, shared reality, helping them maintain transparency and focus as they scale Agile. By embedding this habit, organizations can avoid lengthy, heavyweight framework implementations and keep collaboration efficient and purpose‑driven.",
-      "tags": [
-        "Leadership",
-        "Communication",
-        "Product Culture"
-      ]
-    },
-    {
-      "title": "QA Crow",
-      "url": "https://www.producthunt.com/products/qa-crow",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-04-20T06:42:14+00:00",
-      "summary": "The article likens a bug backlog to a 'murder of crows,' emphasizing the importance of systematically addressing and prioritizing defects to maintain product health. It offers strategies for product managers to triage, assign ownership, and resolve bugs efficiently, turning chaos into actionable insight.",
-      "tags": [
-        "Product Strategy",
-        "Prioritization",
-        "Product Culture"
-      ]
-    },
-    {
-      "title": "Let's Barter",
-      "url": "https://www.producthunt.com/products/let-s-barter",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-04-20T06:29:41+00:00",
-      "summary": "The article explores the concept of integrating a barter system into product offerings, challenging traditional purchase models and opening new avenues for value exchange. It discusses potential benefits such as increased user engagement, differentiation in the market, and opportunities to tap into underserved customer segments.",
-      "tags": [
-        "Product Strategy",
-        "Growth",
-        "Competitive Analysis"
-      ]
-    },
-    {
-      "title": "What 100 Successful Apps Have in Common (After Studying Them for 30 Days)",
-      "url": "https://medium.com/@baheer224/what-100-successful-apps-have-in-common-after-studying-them-for-30-days-a2b3b863b3ce?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-04-20T02:46:06+00:00",
-      "summary": "The article examines a wide range of high‑performing apps, identifying a common, often overlooked design or development pattern that drives user adoption and growth. Understanding this pattern can help product managers prioritize features and roadmap decisions to replicate similar success in their own products.",
-      "tags": [
-        "Product Strategy",
-        "Growth",
-        "Product Design"
-      ]
-    },
-    {
-      "title": "We Built Netflix-Style Recommendations Without a Single LLM Call",
-      "url": "https://www.productcoalition.com/p/we-built-netflix-style-recommendations",
-      "source": "Product Coalition",
-      "type": "article",
-      "date": "2026-04-19T14:28:43+00:00",
-      "summary": "The article details how the founder of ExecReps.ai created a Netflix-like recommendation engine without relying on any large language model calls, instead using custom data pipelines, similarity algorithms, and lightweight models. The approach highlights cost-effective, privacy‑preserving techniques that deliver personalized suggestions at scale, offering valuable insights for product teams looking to build recommendation features without heavy LLM dependencies.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "AI Tools"
-      ]
-    },
-    {
-      "title": "You’re Not Failing at Building",
-      "url": "https://anggaprytn.medium.com/youre-not-failing-at-building-4e48ac6c3965?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-04-19T13:46:31+00:00",
-      "summary": "The article argues that many product teams stumble not because they can't build, but because they struggle to decide which ideas truly merit development. It emphasizes the importance of rigorous prioritization and clear criteria for determining what should exist, helping teams focus resources on high‑impact opportunities.",
-      "tags": [
-        "Product Strategy",
-        "Prioritization",
-        "Leadership"
-      ]
-    },
-    {
-      "title": "Why half of product managers are in trouble | Nikhyl Singhal (Meta, Google)",
-      "url": "https://www.lennysnewsletter.com/p/why-half-of-product-managers-are-in-trouble",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-04-19T12:31:44+00:00",
-      "summary": "Nikhyl Singhal warns that half of product managers face career risk due to rapid AI-driven changes and shifting market dynamics. He outlines the \"reinvention threshold\"—the need for PMs to acquire AI strategy and cross‑functional skills—to thrive in the chaotic next two years.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Career"
-      ]
-    },
-    {
-      "title": "Wave",
-      "url": "https://www.producthunt.com/products/wave-16",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-04-19T08:50:31+00:00",
-      "summary": "Wave offers a voice-to-text solution that lets users choose between local processing for privacy or cloud processing for higher accuracy. The flexibility addresses different user preferences and regulatory concerns, opening opportunities for integration into diverse products.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Product Culture"
-      ],
-      "is_fallback": false
     }
   ]
 }
