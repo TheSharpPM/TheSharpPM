@@ -1,6 +1,11 @@
 {
   "editions": [
     {
+      "date": "2026-07-19",
+      "headline_theme": "Feature Flags Aren’t a Shortcut, They're a Symptom",
+      "file": "agent/2026-07-19.json"
+    },
+    {
       "date": "2026-07-15",
       "headline_theme": "Local AI Myths Crumble Under Real Cost Realities",
       "file": "agent/2026-07-15.json"
@@ -61,5 +66,5 @@
       "file": "agent/2026-05-03.json"
     }
   ],
-  "updated_at": "2026-07-15T21:06:44.504873+00:00"
+  "updated_at": "2026-07-19T10:33:05.293998+00:00"
 }
