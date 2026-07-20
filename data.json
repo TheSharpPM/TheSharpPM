@@ -1,7 +1,68 @@
 {
-  "updated": "2026-07-19T07:54:16.743755+00:00",
-  "total": 811,
+  "updated": "2026-07-20T08:24:18.095092+00:00",
+  "total": 804,
   "items": [
+    {
+      "title": "High Performance Starts with People, Not Pressure",
+      "url": "https://medium.com/@digital.acutevision/high-performance-starts-with-people-not-pressure-b4ee944b1653?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-07-20T07:54:45+00:00",
+      "summary": "Walk into any successful company, and you’ll probably notice something interesting. The teams that consistently deliver great results… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Double Diamond Model for Better Problem Solving",
+      "url": "https://medium.com/@markhub24/the-double-diamond-model-for-better-problem-solving-f74da96c53f5?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-07-20T07:42:25+00:00",
+      "summary": "Discover how the Double Diamond framework helps businesses, marketers, and product teams understand problems before building better… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Invisible AI: What B2B Startups Must Learn from Apple’s WWDC 2026",
+      "url": "https://appibara.medium.com/invisible-ai-what-b2b-startups-must-learn-from-apples-wwdc-2026-89cfd8f2d025?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-07-20T06:35:06+00:00",
+      "summary": "We were promised an escape from clunky software menus and endless navigation trees. Instead, the tech industry handed us a blinking text… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "How AI Product Development Reduces Time-to-Market in 2026",
+      "url": "https://medium.com/@heimatverseservices/how-ai-product-development-reduces-time-to-market-in-2026-954a1265d5e6?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-07-20T05:59:13+00:00",
+      "summary": "Speed has become the defining factor in modern product development. In highly competitive markets, the difference between success and… Continue reading on Medium »",
+      "tags": [
+        "AI Strategy",
+        "Competitive Analysis"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Netflix CPTO on AI and the future of product and tech roles | Elizabeth Stone",
+      "url": "https://www.lennysnewsletter.com/p/netflix-cpto-on-ai-and-the-future",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-07-19T12:31:21+00:00",
+      "summary": "Elizabeth Stone, CPTO of Netflix, on managing AI-era product teams, the rise of systems thinking, and how to build excellence as an operating system",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "It Was Your Manager, Not a Program",
       "url": "https://medium.com/@thepmcode7/it-was-your-manager-not-a-program-b9d2ec8321ca?source=rss------product_management-5",
@@ -150,6 +211,18 @@
       "is_fallback": true
     },
     {
+      "title": "Deck",
+      "url": "https://www.producthunt.com/products/deck-9",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-07-17T16:41:13+00:00",
+      "summary": "The most capable AI assistant with its own inbox Discussion | Link",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
       "title": "AI-first product development:  Building for humans and machines",
       "url": "https://www.productledalliance.com/ai-first-product-development-building-for-humans-and-machines/",
       "source": "Product-Led Alliance",
@@ -247,6 +320,18 @@
         "AI Strategy",
         "Competitive Analysis",
         "Compliance"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "LayerProof Mylar",
+      "url": "https://www.producthunt.com/products/layerproof-social-content-generation",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-07-16T07:38:35+00:00",
+      "summary": "Create launch-ready motion videos for your products Discussion | Link",
+      "tags": [
+        "Product Strategy"
       ],
       "is_fallback": true
     },
@@ -10431,188 +10516,6 @@
         "Leadership",
         "Productivity",
         "Product Culture"
-      ]
-    },
-    {
-      "title": "WAMI: Why Designing a Community Isn’t Enough If No One Knows You Exist",
-      "url": "https://medium.com/@matteo.menini90/wami-why-designing-a-community-isnt-enough-if-no-one-knows-you-exist-5ff337ff1c00?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-04-21T07:31:01+00:00",
-      "summary": "The article argues that building a community alone won’t drive success unless the community is aware of the brand and can discover it. It emphasizes the need for strategic outreach, visibility tactics, and integration with product goals to ensure the community fuels growth and engagement.",
-      "tags": [
-        "Growth",
-        "Product Strategy",
-        "Community"
-      ]
-    },
-    {
-      "title": "Loomal",
-      "url": "https://www.producthunt.com/products/loomal",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-04-21T07:07:27+00:00",
-      "summary": "Loomal is building a unified identity infrastructure that enables AI agents to authenticate, authorize, and manage user data securely across multiple platforms. By providing standardized identity protocols, it simplifies the integration of AI-driven features into products while ensuring compliance and user privacy. This foundation can accelerate AI feature rollout and reduce friction for both developers and end‑users.",
-      "tags": [
-        "AI Strategy",
-        "AI Tools",
-        "Product Strategy"
-      ]
-    },
-    {
-      "title": "Why Product Management Platforms Are Becoming the Backbone of Product-Led Organizations",
-      "url": "https://medium.com/@gargiben954/why-product-management-platforms-are-becoming-the-backbone-of-product-led-organizations-8cf528df3fba?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-04-21T06:43:05+00:00",
-      "summary": "The article explains how Product Management Platforms (PMPs) are evolving into essential infrastructure for product-led companies by integrating roadmapping, analytics, and cross-functional collaboration tools. It highlights trends such as AI-driven insights, modular architectures, and the shift toward unified data layers that enable faster decision‑making and scaling.",
-      "tags": [
-        "Product Strategy",
-        "AI Tools",
-        "Platform Strategy"
-      ]
-    },
-    {
-      "title": "Pioneer",
-      "url": "https://www.producthunt.com/products/launching-pioneer",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-04-21T05:39:25+00:00",
-      "summary": "The article introduces 'Pioneer', a platform that enables rapid fine-tuning of large language models using a single prompt, drastically reducing the time and technical effort required. This capability empowers product teams to quickly adapt LLMs to specific use cases, accelerating experimentation and feature rollout.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Productivity"
-      ]
-    },
-    {
-      "title": "RankSpot",
-      "url": "https://www.producthunt.com/products/rankspot",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-04-20T18:52:54+00:00",
-      "summary": "RankSpot is an AI-powered SEO blogging platform that leverages deep competitor intelligence to generate content optimized for search rankings. By continuously analyzing rivals' strategies, it helps product teams prioritize topics and keywords that drive traffic and improve visibility.",
-      "tags": [
-        "AI Strategy",
-        "Competitive Analysis",
-        "Product Strategy"
-      ]
-    },
-    {
-      "title": "🎙️ This week on How I AI: How Intercom 2x’d their engineering velocity with Claude Code",
-      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-how-intercom",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-04-20T15:33:11+00:00",
-      "summary": "The episode explains how Intercom doubled its engineering output by integrating Claude Code, an AI coding assistant, into their development workflow. It highlights the practical steps they took, the measurable boost in deployment frequency, and the broader implications for AI-driven productivity in product teams.",
-      "tags": [
-        "AI Tools",
-        "Productivity",
-        "Engineering Velocity"
-      ]
-    },
-    {
-      "title": "PopTask v2.0",
-      "url": "https://www.producthunt.com/products/poptask",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-04-20T15:30:45+00:00",
-      "summary": "PopTask v2.0 introduces a frictionless workflow that converts a user’s thought into a task within three seconds, eliminating clicks and app switching. This rapid capture aims to boost productivity by integrating task creation directly into the user’s mental flow.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Productivity"
-      ]
-    },
-    {
-      "title": "Logic",
-      "url": "https://www.producthunt.com/products/logic-ship-an-agent",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-04-20T14:31:44+00:00",
-      "summary": "The article outlines how to build and manage large-scale fleets of autonomous agents, focusing on the architecture, orchestration, and monitoring needed for reliable operation. It discusses strategic considerations for integrating such fleets into products, including scaling, cost management, and aligning agent behavior with business goals.",
-      "tags": [
-        "AI Strategy",
-        "AI Tools",
-        "Product Strategy"
-      ]
-    },
-    {
-      "title": "📈 Data to start your week: Inside the AI boom – jobs, jargon & jittery uptime",
-      "url": "https://www.exponentialview.co/p/data-to-start-your-week-inside-the-ai-boom",
-      "source": "Exponential View",
-      "type": "trend",
-      "date": "2026-04-20T14:02:51+00:00",
-      "summary": "The article surveys the rapid expansion of AI across industries, highlighting soaring job demand, emerging jargon, and concerns about system reliability. It also notes related breakthroughs like solar energy gains, a promising cancer vaccine, and signs of an economic slowdown.",
-      "tags": [
-        "AI Strategy",
-        "AI Tools",
-        "Product Strategy"
-      ]
-    },
-    {
-      "title": "How Intercom 2x’d their engineering velocity in 9 months with Claude Code | Brian Scanlan",
-      "url": "https://www.lennysnewsletter.com/p/how-intercom-2xd-their-engineering",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-04-20T12:03:25+00:00",
-      "summary": "Brian Scanlan explains how Intercom doubled its engineering velocity in nine months by leveraging Claude Code's AI-powered coding assistance, comprehensive telemetry, and a culture that empowers engineers to ship faster. The approach combined AI tools with data-driven insights to streamline development and improve output.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Product Culture"
-      ]
-    },
-    {
-      "title": "My Jira Dashboard Looked Green. Nothing Had Shipped. So I Built 6 AI Tools.",
-      "url": "https://medium.com/product-powerhouse/my-jira-dashboard-looked-green-nothing-had-shipped-so-i-built-6-ai-tools-f61a2f73006d?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-04-20T10:43:48+00:00",
-      "summary": "The author describes how persistent green Jira dashboards masked a lack of actual product releases, prompting them to develop six lightweight AI-powered tools that surface real-time project health insights. These tools automate status detection, highlight bottlenecks, and provide actionable data, turning dashboards from deceptive morale boosters into reliable decision‑making assets.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Metrics"
-      ]
-    },
-    {
-      "title": "Stop Calling It “Human Resources”: What the Best Companies Call It Instead",
-      "url": "https://medium.com/@meethrhub/stop-calling-it-human-resources-what-the-best-companies-call-it-instead-d24cbcec7d5f?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-04-20T10:40:49+00:00",
-      "summary": "The article argues that the term 'Human Resources' is outdated and suggests that top-performing companies rebrand this function to reflect a more strategic, people‑centric focus, such as Talent Management or People Operations. It outlines how this shift aligns HR with product thinking, enhances employee experience, and drives better business outcomes.",
-      "tags": [
-        "Product Strategy",
-        "Leadership",
-        "Product Culture"
-      ]
-    },
-    {
-      "title": "Design System Challenges",
-      "url": "https://www.designsystemscollective.com/design-system-challenges-d39ef075d0e2?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-04-20T10:31:11+00:00",
-      "summary": "The article outlines how product teams can combat design system entropy by establishing clear governance, regular audits, and incremental updates to keep the component library lean and reusable. It emphasizes practical processes for maintaining consistency while allowing flexibility as products evolve.",
-      "tags": [
-        "Product Design",
-        "Platform Strategy",
-        "Productivity"
-      ]
-    },
-    {
-      "title": "TSMC Earnings, New N3 Fabs, The Nvidia Ramp",
-      "url": "https://stratechery.com/2026/tsmc-earnings-new-n3-fabs-the-nvidia-ramp/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-04-20T10:00:00+00:00",
-      "summary": "TSMC's latest earnings report reveals limited enthusiasm from its leadership regarding the AI boom, casting doubt on the company's commitment to scaling AI-focused manufacturing. This hesitancy could affect supply dynamics for advanced chips like Nvidia's N3 and broader AI hardware demand.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Leadership"
       ]
     }
   ]
