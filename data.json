@@ -1,7 +1,160 @@
 {
-  "updated": "2026-07-21T07:59:50.031684+00:00",
-  "total": 809,
+  "updated": "2026-07-22T08:01:32.322590+00:00",
+  "total": 813,
   "items": [
+    {
+      "title": "I Applied Pareto Analysis to Swiggy’s Support Ops. Three Categories Were Eating 63% of Agent Time.",
+      "url": "https://medium.com/design-bootcamp/i-applied-pareto-analysis-to-swiggys-support-ops-three-categories-were-eating-63-of-agent-time-2f823ab54ca1?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-07-22T07:43:52+00:00",
+      "summary": "A case study in why “the bot failed” is usually the wrong diagnosis, and what the data actually pointed to instead Continue reading on Bootcamp »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Saying No To Eighty Percent Of Customer Requests",
+      "url": "https://medium.com/@colelamphere/saying-no-to-eighty-percent-of-customer-requests-3910fe3b0f88?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-07-22T07:35:43+00:00",
+      "summary": "Most feature asks are symptoms of a workflow problem the customer cannot see yet Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Coinbase: Prime Sales Trader",
+      "url": "https://weworkremotely.com/remote-jobs/coinbase-prime-sales-trader",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-07-22T07:04:57+00:00",
+      "summary": "Headquarters: Remote - USA Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place t...",
+      "tags": [
+        "Career",
+        "AI Strategy",
+        "Pricing"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Stripe: Product Manager, Link - Consumer",
+      "url": "https://weworkremotely.com/remote-jobs/stripe-product-manager-link-consumer",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-07-22T07:04:52+00:00",
+      "summary": "Headquarters: SF, SEA, NY, Remote-US Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate n...",
+      "tags": [
+        "Career",
+        "AI Strategy",
+        "Communication"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Overflight",
+      "url": "https://www.producthunt.com/products/overflight-sky-radar",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-07-21T16:54:06+00:00",
+      "summary": "Identify every aircraft in your sky. Discussion | Link",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Why Physical AI Is the Next Frontier | Applied Intuition",
+      "url": "https://a16z.simplecast.com/episodes/why-physical-ai-is-the-next-frontier-applied-intuition-VEkcnJm1",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-07-21T15:00:00+00:00",
+      "summary": "Applied Intuition has spent the past decade building the software that powers intelligent machines, from passenger vehicles and trucks to defense systems, mining equipment, and industrial robots. In this conversation, Marc Andreessen and Erik Torenberg sit down with Applied Intui...",
+      "tags": [
+        "AI Strategy",
+        "Platform Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Paywall Illusion: Why Marketing Budgets Can’t Fix Bad UX",
+      "url": "https://appibara.medium.com/the-paywall-illusion-why-marketing-budgets-cant-fix-bad-ux-c570487592b8?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-07-21T14:20:52+00:00",
+      "summary": "How to sustainably boost conversion rates through user research and Calm Technology. Continue reading on Medium »",
+      "tags": [
+        "Growth",
+        "Pricing",
+        "User Research"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Bloomberg Terminal Didn’t Just Change Finance.",
+      "url": "https://medium.com/@karthik_prdmgr/bloomberg-terminal-didnt-just-change-finance-05cf033fd361?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-07-21T13:40:29+00:00",
+      "summary": "Reverse engineering one of the greatest enterprise products ever built — and why its product strategy still matters in the age of AI. Continue reading on Medium »",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Why a sabbatical can change everything",
+      "url": "https://www.lennysnewsletter.com/p/how-to-take-a-sabbatical",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-07-21T12:45:10+00:00",
+      "summary": "How to take Big Time Off",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Jam-Pod (Android)",
+      "url": "https://www.producthunt.com/products/jam-pod-android",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-07-21T12:33:36+00:00",
+      "summary": "A player for people who keep their own music collection Discussion | Link",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Tokens, credits, outcomes:  What should we actually charge for AI?",
+      "url": "https://www.productledalliance.com/tokens-credits-outcomes-what-should-we-actually-charge-for-ai/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-07-21T12:00:10+00:00",
+      "summary": "Why the default pricing unit for AI features deserves a closer look.",
+      "tags": [
+        "AI Strategy",
+        "Pricing"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Netflix Earnings, Is Netflix Washed?, Additional Notes",
+      "url": "https://stratechery.com/2026/netflix-earnings-is-netflix-washed-additional-notes/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-07-21T10:00:00+00:00",
+      "summary": "Netflix's earnings were fine, and befitting a mature company whose most exciting days are likely behind them.",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "The Hidden Cost of Every “Quick” Design Fix",
       "url": "https://medium.com/@Ciara_Hayes/the-hidden-cost-of-every-quick-design-fix-eafd4281eefe?source=rss------product_management-5",
@@ -10471,110 +10624,6 @@
         "Product Strategy",
         "Growth",
         "Competitive Analysis"
-      ]
-    },
-    {
-      "title": "Embedded Analytics Opportunity 2026 report",
-      "url": "https://www.productledalliance.com/embedded-analytics-opportunity-2026-report/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-04-23T08:00:43+00:00",
-      "summary": "The report outlines the 2026 landscape for embedded analytics, highlighting trends such as ROI justification, AI integration, and the strategic decision between buying and building solutions. It also examines operational challenges and opportunities for product teams to embed analytics as a core capability.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Data"
-      ]
-    },
-    {
-      "title": "General Compute",
-      "url": "https://www.producthunt.com/products/general-compute",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-04-22T15:18:34+00:00",
-      "summary": "The article discusses AI models deployed on a specialized inference cloud designed for ultra‑fast response times. It highlights the strategic benefits of leveraging such infrastructure to improve product performance and user experience.",
-      "tags": [
-        "AI Strategy",
-        "AI Tools",
-        "Product Strategy"
-      ]
-    },
-    {
-      "title": "The AI revolution in fintech:  Driving transformative change",
-      "url": "https://www.productledalliance.com/the-ai-revolution-in-fintech-driving-transformative-change/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-04-22T14:00:24+00:00",
-      "summary": "The article outlines how AI technologies are reshaping the fintech landscape by enhancing risk assessment, personalizing financial services, and automating operations, leading to faster product cycles and new business models. It highlights the strategic implications for product teams, emphasizing the need to adopt AI tools, adapt product roadmaps, and align cross‑functional stakeholders to stay competitive.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Growth"
-      ]
-    },
-    {
-      "title": "What Claude Design is actually good for (and why Figma isn’t dead yet)",
-      "url": "https://www.lennysnewsletter.com/p/what-claude-design-is-actually-good",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-04-22T12:04:31+00:00",
-      "summary": "The article tests Claude Design by building a landing page, presentation slides, and a bold redesign to reveal its strengths and limitations, showing where it excels compared to traditional design tools. It also discusses how upcoming GPT Image 2.0 could reshape the creation of brand assets and why Figma remains relevant despite AI advances.",
-      "tags": [
-        "AI Tools",
-        "Product Design",
-        "Product Strategy"
-      ]
-    },
-    {
-      "title": "Microsoft Copilot Health",
-      "url": "https://www.producthunt.com/products/copilot-health",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-04-22T10:34:44+00:00",
-      "summary": "Microsoft Copilot Health provides a unified interface for users to aggregate and view their personal health data, enabling easier monitoring and insights. The platform aims to centralize medical records, wearables, and wellness metrics to support proactive health management.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "User Research"
-      ]
-    },
-    {
-      "title": "John Ternus and Apple’s Hardware-Defined Future, SpaceXAI and Cursor",
-      "url": "https://stratechery.com/2026/john-ternus-and-apples-hardware-defined-future-spacexai-and-cursor/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-04-22T10:00:00+00:00",
-      "summary": "The article notes that John Ternus's promotion signals Apple’s continued focus on hardware differentiation as a core product strategy. It also highlights the strategic relevance of the SpaceX-Cursor partnership, suggesting it aligns with broader AI and hardware integration trends.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Hardware Differentiation"
-      ]
-    },
-    {
-      "title": "How PancakeSwap Built a DEX for the Other 4 Billion",
-      "url": "https://medium.com/@anirudhmakhana/how-pancakeswap-built-a-dex-for-the-other-4-billion-ff2abd58c037?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-04-22T09:42:35+00:00",
-      "summary": "The article details how PancakeSwap created a decentralized exchange (DEX) that caters to the massive, under‑served user base of roughly four billion people, focusing on low fees, fast transactions, and a user‑friendly experience. It outlines the product decisions, platform choices, and growth tactics that enabled rapid adoption in emerging markets.",
-      "tags": [
-        "Product Strategy",
-        "Growth",
-        "Platform Strategy"
-      ]
-    },
-    {
-      "title": "Your Chatbot Is About to Go Live. Have You Really Stress-Tested It?",
-      "url": "https://medium.com/@chatboq/your-chatbot-is-about-to-go-live-have-you-really-stress-tested-it-1f74544abd28?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-04-22T09:21:08+00:00",
-      "summary": "The article warns product teams that lengthy development cycles for chatbots often lead to insufficient testing before launch, which can result in poor user experiences and costly fixes. It outlines a structured stress‑testing framework—covering edge cases, performance under load, and real‑world conversation variability—to ensure reliability and alignment with business goals before going live.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Metrics"
       ]
     }
   ]
