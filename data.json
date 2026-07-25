@@ -1,7 +1,93 @@
 {
-  "updated": "2026-07-24T07:57:16.526083+00:00",
-  "total": 818,
+  "updated": "2026-07-25T07:41:56.775103+00:00",
+  "total": 820,
   "items": [
+    {
+      "title": "AI in Product Development That Works",
+      "url": "https://raftlabs.medium.com/ai-in-product-development-that-works-75d1748673e5?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-07-25T07:06:01+00:00",
+      "summary": "How product teams use AI to ship faster, reduce costs, and improve quality without creating new risks. Continue reading on Medium »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "5 Signs Your Clinic Needs Management Software",
+      "url": "https://medium.com/@infoavamed0/5-signs-your-clinic-needs-management-software-83ee9ec4de13?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-07-25T06:54:43+00:00",
+      "summary": "How to Know It’s Time to Digitize Your Healthcare Practice Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "AI Isn’t the Future of Business. It Is the Future Operating Model.",
+      "url": "https://medium.com/@karthik_prdmgr/ai-isnt-the-future-of-business-it-is-the-future-operating-model-c6bf7432e39a?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-07-25T04:44:55+00:00",
+      "summary": "Why the Companies That Win Won’t Build the Best AI Models — They’ll Build the Best Decision Systems Continue reading on Medium »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Claude Opus 5 review: this model is brilliant (but annoying)",
+      "url": "https://www.lennysnewsletter.com/p/claude-opus-5-review-this-model-is",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-07-24T17:15:25+00:00",
+      "summary": "Watch now | 🎙️ I ran Opus 5 through my seven-model benchmark, compared it with six other leading models, and came away with a verdict I genuinely didn’t expect",
+      "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "2026.30: The Copium Wars",
+      "url": "https://stratechery.com/2026/the-copium-wars/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-07-24T17:00:00+00:00",
+      "summary": "The best Stratechery content from the week of July 20, 2026 including Chinese models and frontier futures, what happened to Hugging Face, and the NBA and its second apron bet.",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Beehiiv. How a Morning Brew Engineer Took On Substack and Rebuilt Newsletter Infrastructure",
+      "url": "https://medium.com/@Khomichenko/beehiiv-how-a-morning-brew-engineer-took-on-substack-and-rebuilt-newsletter-infrastructure-018bceee8981?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-07-24T10:02:37+00:00",
+      "summary": "In 2017, Tyler Denk had a degree in mechanical engineering, $120,000 in student loans, and roughly $2.50 to his name. He was crashing in… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Sriram Krishnan on Open Source AI's Biggest Week Yet",
+      "url": "https://a16z.simplecast.com/episodes/sriram-krishnan-on-open-source-ais-biggest-week-yet-1yfA3ln5",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-07-24T10:00:00+00:00",
+      "summary": "Sriram Krishnan joins Theo Jaffee and Sofia Puccini just after concluding his tenure as Senior White House Policy Advisor on AI to discuss one of the biggest weeks yet for open-source AI. They unpack the rapid release of models including Kimi K3 and Qwen, why open models are putt...",
+      "tags": [
+        "AI Strategy",
+        "Pricing",
+        "Security"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Professional Website Maintenance Services for Businesses Across Canada",
       "url": "https://medium.com/@farazarshad2002/professional-website-maintenance-services-for-businesses-across-canada-ba3e09d1ab9d?source=rss------product_management-5",
@@ -279,6 +365,18 @@
       "tags": [
         "AI Tools",
         "Stakeholders"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "FluentDB",
+      "url": "https://www.producthunt.com/products/fluentdb-2",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-07-22T08:36:28+00:00",
+      "summary": "The AI database client for Mac Discussion | Link",
+      "tags": [
+        "AI Strategy"
       ],
       "is_fallback": true
     },
@@ -630,6 +728,18 @@
       "type": "article",
       "date": "2026-07-20T07:42:25+00:00",
       "summary": "Discover how the Double Diamond framework helps businesses, marketers, and product teams understand problems before building better… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "ShellMate",
+      "url": "https://www.producthunt.com/products/shellmate-2",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-07-20T07:15:54+00:00",
+      "summary": "The SSH workspace you'll actually enjoy using Discussion | Link",
       "tags": [
         "Product Strategy"
       ],
@@ -10590,97 +10700,6 @@
         "AI Strategy",
         "Product Strategy",
         "Competitive Analysis"
-      ]
-    },
-    {
-      "title": "Why Clear Value Propositions Matter in Web3",
-      "url": "https://medium.com/@blockrush.corp/why-clear-value-propositions-matter-in-web3-8bdda3b70641?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-04-26T04:01:01+00:00",
-      "summary": "The article argues that Web3 projects must articulate clear value propositions to drive user adoption, as the technology's potential is often obscured by technical jargon. It suggests focusing on tangible benefits and user-centric messaging to differentiate offerings and build trust in the ecosystem.",
-      "tags": [
-        "Product Strategy",
-        "Growth",
-        "User Research"
-      ]
-    },
-    {
-      "title": "Snapr",
-      "url": "https://www.producthunt.com/products/snapr-5",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-04-26T02:52:42+00:00",
-      "summary": "Snapr is an all‑in‑one app that lets users capture screenshots, record their screen, annotate, and edit videos directly within a single interface. The tool aims to streamline content creation for teams and creators, reducing the need to switch between multiple applications.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Product Design"
-      ]
-    },
-    {
-      "title": "🔮 Exponential View #571: DeepSeek shows the future, again; drones on a learning curve; solar goes up, LLM pixels & tennis robots++",
-      "url": "https://www.exponentialview.co/p/ev-571",
-      "source": "Exponential View",
-      "type": "trend",
-      "date": "2026-04-26T02:40:51+00:00",
-      "summary": "The article highlights DeepSeek's latest breakthroughs, suggesting a strategic edge for companies that can achieve more with limited compute resources. It also touches on emerging trends in drone learning, rising solar adoption, advancements in LLM efficiency, and innovative tennis robots, all pointing to opportunities for product teams to leverage AI-driven efficiencies.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Productivity"
-      ]
-    },
-    {
-      "title": "🧠 Community Wisdom: What great product leaders do differently, Claude vs. ChatGPT, receiving hard feedback two weeks into the job, tips for joining a pre-PMF startup, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-what-great-product",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-04-25T19:51:00+00:00",
-      "summary": "The article compiles insights from the product community, highlighting behaviors that set great product leaders apart, comparing Claude and ChatGPT capabilities, and offering advice on handling tough feedback early in a role. It also provides practical tips for joining a pre‑product‑market‑fit startup and other actionable product leadership guidance.",
-      "tags": [
-        "Leadership",
-        "Product Strategy",
-        "Growth"
-      ]
-    },
-    {
-      "title": "Huddle01 VMs",
-      "url": "https://www.producthunt.com/products/huddle01-cloud-2",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-04-25T18:17:26+00:00",
-      "summary": "The article introduces Huddle01 Virtual Machines, a solution that provides dedicated VM environments for agents to run discussions and collaborative sessions. It highlights how these VMs can streamline communication, improve performance, and support scaling of agent-driven interactions.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Platform Strategy"
-      ]
-    },
-    {
-      "title": "Duolingo Just Made Everything a Card — Here’s the PM Case Study",
-      "url": "https://medium.com/product-powerhouse/duolingo-just-made-everything-a-card-heres-the-pm-case-study-82694805ca13?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-04-25T14:15:13+00:00",
-      "summary": "The article examines Duolingo's new rewards interface, which adopts a card-based design to streamline user interactions and boost engagement. It breaks down how the card pattern functions behind the scenes, supporting both onboarding and retention goals while simplifying the product experience.",
-      "tags": [
-        "Product Design",
-        "Growth",
-        "Product Strategy"
-      ]
-    },
-    {
-      "title": "Prompts Are Requirements. We Forgot How To Write Them.",
-      "url": "https://medium.com/@thekuldeep/prompts-are-requirements-we-forgot-how-to-write-them-01e22a10d090?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-04-25T08:01:02+00:00",
-      "summary": "The article argues that AI hasn't eliminated the need for clear requirements; instead, it has highlighted how vague they often are. Product teams must relearn disciplined prompt writing as a core requirement‑definition skill to guide AI effectively.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Communication"
       ]
     }
   ]
