@@ -1,7 +1,81 @@
 {
-  "updated": "2026-07-25T07:41:56.775103+00:00",
-  "total": 820,
+  "updated": "2026-07-26T08:02:48.340486+00:00",
+  "total": 822,
   "items": [
+    {
+      "title": "AI Let Me Build 10x Faster. It Also Let Me Break Things 10x Faster.",
+      "url": "https://medium.com/@haseebrehman_78779/ai-let-me-build-10x-faster-it-also-let-me-break-things-10x-faster-5792c82b1311?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-07-26T07:58:27+00:00",
+      "summary": "Nobody puts this part in the pitch deck: if there’s a flaw in what you’re cloning from, you now ship it at the same speed you ship… Continue reading on Medium »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "https://usadealshub2026.blogspot.com/2026/07/large-size-strapless-bra-invisible.html",
+      "url": "https://medium.com/@bcame210/https-usadealshub2026-blogspot-com-2026-07-large-size-strapless-bra-invisible-html-8fc3baee7646?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-07-26T06:27:32+00:00",
+      "summary": "Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🔮 Copy that: The curious case of AI distillation #594",
+      "url": "https://www.exponentialview.co/p/ev-594",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-07-26T02:43:29+00:00",
+      "summary": "Copy that. Plus: China's chip chase,",
+      "tags": [
+        "AI Strategy",
+        "Hardware Differentiation"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Three Failed Redesigns and the Hard Truth About Stakeholder Buy-In",
+      "url": "https://medium.com/@NiamhOS/three-failed-redesigns-and-the-hard-truth-about-stakeholder-buy-in-5372fc4d7d43?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-07-25T22:06:01+00:00",
+      "summary": "Great design does not die from bad pixels. It dies from bad politics. Here is how to survive the room. Continue reading on Medium »",
+      "tags": [
+        "Stakeholders"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Would Your Product Survive a User Testing Session Without a Script?",
+      "url": "https://medium.com/@DeShawn-Harris/would-your-product-survive-a-user-testing-session-without-a-script-079fcdd9636a?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-07-25T22:01:01+00:00",
+      "summary": "Scripts hide the truth. When you stop telling users what to do, you finally see how they actually think. Continue reading on Medium »",
+      "tags": [
+        "User Research"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🧠 Community Wisdom: Staying on a client’s radar during pilot purgatory, pairing Linear with a discovery tool, the limits of what AI can automate, whether Techstars is worth it, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-staying-on-a-clients",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-07-25T16:01:44+00:00",
+      "summary": "Community Wisdom 194",
+      "tags": [
+        "AI Strategy",
+        "Community"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "AI in Product Development That Works",
       "url": "https://raftlabs.medium.com/ai-in-product-development-that-works-75d1748673e5?source=rss------product_management-5",
@@ -771,6 +845,19 @@
       "is_fallback": true
     },
     {
+      "title": "Openbase",
+      "url": "https://www.producthunt.com/products/openbase-2",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-07-19T16:15:50+00:00",
+      "summary": "Manage your team of AI agents by voice, from anywhere Discussion | Link",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
       "title": "Netflix CPTO on AI and the future of product and tech roles | Elizabeth Stone",
       "url": "https://www.lennysnewsletter.com/p/netflix-cpto-on-ai-and-the-future",
       "source": "Lenny's Newsletter",
@@ -1025,6 +1112,18 @@
       "summary": "Most successful apps didn’t start with revolutionary technology. Continue reading on Skill Stuff »",
       "tags": [
         "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": ">=PlayingFild",
+      "url": "https://www.producthunt.com/products/playingfild",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-07-17T06:01:35+00:00",
+      "summary": "Productivity Tool & Tab Manager that Understands Context Discussion | Link",
+      "tags": [
+        "Productivity"
       ],
       "is_fallback": true
     },
@@ -10622,84 +10721,6 @@
         "AI Tools",
         "Product Strategy",
         "Growth"
-      ]
-    },
-    {
-      "title": "Filect",
-      "url": "https://www.producthunt.com/products/filect",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-04-26T21:57:34+00:00",
-      "summary": "Filect is an AI‑powered tool that automatically categorizes, tags, and organizes digital files, making it easier for users to locate and manage documents without manual effort. For product managers, the platform showcases how AI can be integrated into everyday productivity workflows to drive user adoption and reduce friction in file management.",
-      "tags": [
-        "AI Tools",
-        "Productivity",
-        "Product Strategy"
-      ]
-    },
-    {
-      "title": "VIDEO AI ME",
-      "url": "https://www.producthunt.com/products/video-ai-me",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-04-26T20:22:53+00:00",
-      "summary": "VIDEO AI ME is a platform that lets users generate videos featuring AI-driven actors that appear and sound realistic, streamlining content creation for marketing, education, and entertainment. The tool promises faster production cycles and lower costs by eliminating the need for traditional filming and casting.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Growth"
-      ]
-    },
-    {
-      "title": "The Hardest Product Decision: When to Build for Teams",
-      "url": "https://www.productcoalition.com/p/the-hardest-product-decision-when",
-      "source": "Product Coalition",
-      "type": "article",
-      "date": "2026-04-26T14:36:48+00:00",
-      "summary": "The article recounts the founder’s journey with ExecReps.ai, highlighting the tough decision of whether to develop a product for whole teams versus individual users. It outlines the strategic considerations, trade‑offs, and impact on product roadmap that product managers must weigh when targeting collaborative workflows.",
-      "tags": [
-        "Product Strategy",
-        "Leadership",
-        "Product Design"
-      ]
-    },
-    {
-      "title": "Snapchat CEO: Why distribution has become the most important moat | Evan Spiegel",
-      "url": "https://www.lennysnewsletter.com/p/snapchat-ceo-why-distribution-is",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-04-26T12:31:49+00:00",
-      "summary": "Snapchat co‑founder Evan Spiegel explains that in the past 15 years only two consumer apps have achieved lasting scale, and most Snapchat features have been quickly copied. He argues that true defensibility now lies in hardware‑enabled distribution channels rather than product features, making distribution the primary moat for Snap.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Competitive Analysis"
-      ]
-    },
-    {
-      "title": "The Scrum-to-POM Transition Is a Role Repositioning Event",
-      "url": "https://medium.com/10-min-briefing-on-startup-tech-news/scrum-pom-transition-stefan-wolpers-d76b5f5940d0?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-04-26T08:02:10+00:00",
-      "summary": "The article argues that moving from Scrum to Product Ownership Management (POM) is less about adopting a new framework and more about redefining roles within the organization. It emphasizes that this transition reshapes responsibilities, aligns product thinking with business outcomes, and requires clear communication to ensure teams understand the new positioning.",
-      "tags": [
-        "Product Strategy",
-        "Leadership",
-        "Product Culture"
-      ]
-    },
-    {
-      "title": "Execution is cheap. Differentiation? Less so.",
-      "url": "https://medium.com/@humble_nick/execution-is-cheap-differentiation-less-so-b57987d7c9c6?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-04-26T08:01:01+00:00",
-      "summary": "The article warns product leaders against falling into the \"good enough\" mentality as AI lowers execution costs, emphasizing that merely building functional AI features won't create lasting advantage. It argues that true differentiation now requires strategic investment in unique data, user experience, and business models that leverage AI in ways competitors can't easily replicate.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Competitive Analysis"
       ]
     }
   ]
