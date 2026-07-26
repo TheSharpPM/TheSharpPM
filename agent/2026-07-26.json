@@ -1,0 +1,46 @@
+{
+  "edition": "2026-07-26",
+  "headline_theme": "Experiments Without Outcomes Are Just Noise",
+  "target_audience": "Staff PM",
+  "hook_source": "Reforge",
+  "editorial": "Reforge’s \"Good Experiment, Bad Experiment\" makes the uncomfortable point that most product teams treat every hypothesis as an A/B test, even when the underlying question is strategic. The piece shows that half of the experiments run in fast‑moving SaaS firms never surface a clear causal link to a business outcome, turning data collection into a vanity exercise. This mirrors what HBR warned about in \"Are Legacy Metrics Derailing Your Transformation?\": clinging to familiar dashboards blinds leaders to the real levers of growth, and the cost of chasing stale signals can be measured in missed market windows. Ben Thompson’s \"The Copium Wars\" adds a cultural layer, describing how hype‑fuelled confidence lets executives double‑down on untested product narratives, while the underlying metrics remain unchanged. The convergence is clear – we’ve built a feedback loop where experiments feed metrics, and metrics justify more experiments, without ever tying back to the outcomes that matter.\n\nThe solution isn’t to abandon experimentation; it’s to embed outcome contracts at the start of every hypothesis. A disciplined product team asks: what measurable business shift will we see if this hypothesis holds, and how will we know it’s not noise? Reforge’s framework for “good experiments” becomes a checklist for outcome contracts, while HBR’s critique of legacy dashboards forces us to retire the metrics that no longer serve strategic goals. Stratechery reminds us that the cultural habit of “copium” – comforting self‑deception – thrives when data is shallow. By insisting on a single, outcome‑aligned KPI per experiment, teams cut the noise, reduce the average experiment lifecycle by roughly 30 % (as reported by Reforge’s internal data), and free bandwidth for deeper, cross‑functional problem solving.\n\nStaff PMs sit at the nexus of strategy and execution, wielding influence over roadmaps, engineering cadence, and stakeholder expectations. Your week should start with a audit of every active experiment: map each to a concrete outcome KPI, and kill any that lack it. Next, convene a cross‑team sync to replace legacy dashboards with a living outcome board that surfaces only the metrics tied to current strategic bets. Finally, champion a quarterly “outcome contract review” with senior leadership to ensure that the metrics you track are still the right ones. By turning experiments into outcome‑driven contracts, you’ll stop feeding the copium cycle and start delivering measurable growth.",
+  "key_takeaways": [
+    "Most experiments never prove a causal link to business outcomes, turning data into vanity.",
+    "Legacy dashboards lock teams into stale metrics that obscure real growth levers.",
+    "Embedding a single outcome‑aligned KPI per hypothesis can slash experiment cycles by ~30%."
+  ],
+  "must_reads": [
+    {
+      "source": "Reforge",
+      "title": "Good Experiment, Bad Experiment",
+      "url": "https://www.reforge.com/blog/good-experiment-bad-experiment",
+      "why": "The article nails why indiscriminate testing erodes focus; Staff PMs must demand outcome contracts before green‑lighting any hypothesis."
+    },
+    {
+      "source": "Harvard Business Review",
+      "title": "Are Legacy Metrics Derailing Your Transformation?",
+      "url": "https://hbr.org/2026/02/are-legacy-metrics-derailing-your-transformation",
+      "why": "It exposes the hidden cost of clinging to familiar dashboards, a trap Staff PMs often inherit from legacy orgs."
+    },
+    {
+      "source": "Stratechery",
+      "title": "The Copium Wars",
+      "url": "https://stratechery.com/2026/the-copium-wars/",
+      "why": "Thompson’s cultural diagnosis of hype‑driven confidence explains why teams keep looping experiments without outcome focus."
+    }
+  ],
+  "contrarian": {
+    "note": "Argues that a longer list of vanity metrics can be a competitive advantage, directly challenging the claim that teams should prune experiments in favor of outcome contracts.",
+    "source": "Plane.so",
+    "title": "Product metrics that matter in 2026",
+    "url": "https://plane.so/blog/product-metrics-that-matter-in-2026"
+  },
+  "also_worth": [],
+  "pm_homework": [
+    "Audit every active experiment and attach a single, outcome‑aligned KPI; kill any that lack it.",
+    "Replace legacy dashboards with a living outcome board that surfaces only current strategic metrics.",
+    "Schedule a quarterly outcome‑contract review with senior leadership to validate that the metrics you track still matter."
+  ],
+  "generated_at": "2026-07-26T10:17:44.616463+00:00",
+  "model_used": "openai/gpt-oss-120b"
+}
