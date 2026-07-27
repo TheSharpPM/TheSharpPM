@@ -1,7 +1,84 @@
 {
-  "updated": "2026-07-26T08:02:48.340486+00:00",
-  "total": 822,
+  "updated": "2026-07-27T08:53:57.866675+00:00",
+  "total": 817,
   "items": [
+    {
+      "title": "The Marketplace Rewards Leaders Who Can Hold Vision Without Panic",
+      "url": "https://medium.com/@drvandanasharma/the-marketplace-rewards-leaders-who-can-hold-vision-without-panic-8fc0d496fbde?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-07-27T08:27:00+00:00",
+      "summary": "In business, the greatest competitive advantage is not louder ambition — it is the ability to remain clear when the world becomes… Continue reading on Medium »",
+      "tags": [
+        "Competitive Analysis",
+        "Platform Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Claude Cowork for Product Managers: Complete Setup Guide + Real PM Workflows (2026)",
+      "url": "https://medium.com/@mohit15856/claude-cowork-for-product-managers-complete-setup-guide-real-pm-workflows-2026-436664877fe0?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-07-27T08:23:33+00:00",
+      "summary": "Claude Code changed how technical PMs work. Cowork just did the same for everyone else. Here’s the full setup, from first install to… Continue reading on Medium »",
+      "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Wrong Map: How Netflix Redrew the Battlefield and Won",
+      "url": "https://medium.com/@apostolosvervantidis_14625/the-wrong-map-how-netflix-redrew-the-battlefield-and-won-5a8d8dd31666?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-07-27T08:01:03+00:00",
+      "summary": "It’s 10 PM. The kids are finally asleep. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Beyond the Chatbot: How AI Agents Drive B2B SaaS Revenue",
+      "url": "https://medium.com/@shakilasadiq2/beyond-the-chatbot-how-ai-agents-drive-b2b-saas-revenue-a1065b967d8a?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-07-27T07:57:22+00:00",
+      "summary": "Discover how integrating AI agents into your B2B SaaS product transforms user retention, enables value-based pricing, and unlocks new… Continue reading on Medium »",
+      "tags": [
+        "AI Strategy",
+        "AI Tools",
+        "Pricing"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Ben Horowitz: The Fight Over Open Source AI",
+      "url": "https://a16z.simplecast.com/episodes/ben-horowitz-the-fight-over-open-source-ai-RnXTUEqk",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-07-26T13:15:04+00:00",
+      "summary": "Ben Horowitz joins Theo Jaffee and Sofia Puccini to discuss one of the biggest debates in AI today: the future of open-source models. They examine the growing push to restrict open models, why Ben believes open source is critical for security, innovation, and competition, and wha...",
+      "tags": [
+        "AI Strategy",
+        "Platform Strategy",
+        "Security"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Anthropic’s first technical PM on token maxing, the jagged edge, and living in the future | Dianne Penn",
+      "url": "https://www.lennysnewsletter.com/p/anthropics-first-technical-pm-on",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-07-26T12:32:06+00:00",
+      "summary": "Listen now | Dianne Penn, Anthropic’s first PM, on the bets that made Claude dominant: the coding pivot, the eval-driven development loop, and what comes after coding is solved",
+      "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "AI Let Me Build 10x Faster. It Also Let Me Break Things 10x Faster.",
       "url": "https://medium.com/@haseebrehman_78779/ai-let-me-build-10x-faster-it-also-let-me-break-things-10x-faster-5792c82b1311?source=rss------product_management-5",
@@ -73,6 +150,31 @@
       "tags": [
         "AI Strategy",
         "Community"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "AI YC interview with Gstack agents",
+      "url": "https://www.producthunt.com/products/gstack-joins-your-meeting",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-07-25T15:43:46+00:00",
+      "summary": "AI specialists that join your Google Meet and gives feedback Discussion | Link",
+      "tags": [
+        "AI Strategy",
+        "Career"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "localskills.sh",
+      "url": "https://www.producthunt.com/products/localskills-sh",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-07-25T08:56:27+00:00",
+      "summary": "AI Skill & MCP server management for teams & enterprises Discussion | Link",
+      "tags": [
+        "AI Strategy"
       ],
       "is_fallback": true
     },
@@ -10552,175 +10654,6 @@
         "Data",
         "Product Strategy",
         "Leadership"
-      ]
-    },
-    {
-      "title": "ScreenVeil",
-      "url": "https://www.producthunt.com/products/screenveil",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-04-28T07:56:19+00:00",
-      "summary": "ScreenVeil is a tool that allows users to mask or hide sensitive information on their computer screens, helping maintain privacy during meetings, recordings, or screen sharing. It offers customizable overlays to obscure specific windows or content, catering to professionals concerned about data leakage and visual confidentiality.",
-      "tags": [
-        "Product Strategy",
-        "AI Tools",
-        "Privacy"
-      ]
-    },
-    {
-      "title": "Build To Learn FAQ",
-      "url": "https://www.svpg.com/build-to-learn-faq/",
-      "source": "SVPG",
-      "type": "article",
-      "date": "2026-04-27T21:16:33+00:00",
-      "summary": "The article differentiates ‘building to learn’ (product discovery) from ‘building to earn’ (product delivery), emphasizing that as AI lowers delivery costs, organizations must invest more in discovery to create valuable products. It advises product managers to prioritize iterative learning and validation over rapid execution to stay competitive in the AI era.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Product Culture"
-      ]
-    },
-    {
-      "title": "Monet",
-      "url": "https://www.producthunt.com/products/monet-5",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-04-27T19:45:41+00:00",
-      "summary": "Monet is a new AI-powered platform that leverages Claude and Codex to let users edit videos and design images through natural language prompts. The article explores how the tool streamlines creative workflows, reduces reliance on specialized software, and opens opportunities for product teams to integrate generative AI into content creation pipelines.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Growth"
-      ]
-    },
-    {
-      "title": "🎙️ This week on How I AI: GPT 5.5, Claude Design, and GPT Images 2.0 hands-on reviews—plus an inside look at Memelord",
-      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-gpt-55-claude",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-04-27T15:02:19+00:00",
-      "summary": "The episode reviews the latest AI releases—including GPT‑5.5, Claude’s new design features, and GPT Images 2.0—offering hands‑on performance insights and practical takeaways for product teams. It also gives a behind‑the‑scenes look at Memelord, illustrating how emerging AI tools can be integrated into product workflows.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Product Design"
-      ]
-    },
-    {
-      "title": "Product manager  job description template",
-      "url": "https://www.productledalliance.com/product-manager-job-description-template-framework/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-04-27T13:47:30+00:00",
-      "summary": "This article offers a ready-to-use product manager job description template designed to streamline hiring and attract top talent. It outlines key responsibilities, required skills, and performance expectations to help teams define the PM role clearly and hire more effectively.",
-      "tags": [
-        "Product Strategy",
-        "Product Culture",
-        "Leadership"
-      ]
-    },
-    {
-      "title": "Colir",
-      "url": "https://www.producthunt.com/products/colir",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-04-27T12:52:49+00:00",
-      "summary": "The article discusses how to create custom gradient designs that avoid the generic default look often seen in UI libraries. It offers practical tips for product designers to craft more distinctive visual experiences that align with brand identity.",
-      "tags": [
-        "Product Design",
-        "Product Strategy",
-        "Growth"
-      ]
-    },
-    {
-      "title": "From a $6.90 newsletter to $3M API: How a non-coder built Memelord | Jason Levin",
-      "url": "https://www.lennysnewsletter.com/p/from-a-690-newsletter-to-3m-api-how",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-04-27T12:03:55+00:00",
-      "summary": "Jason Levin, CEO of Memelord, explains how he grew a meme-based product from a $6.90 newsletter to a $3M API-driven business without writing code, leveraging low‑code tools and AI agents. He argues that marketers should understand coding basics to accelerate product development and that AI agents are becoming his primary user segment.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Growth"
-      ]
-    },
-    {
-      "title": "The bottleneck moved. The question is whether your systems moved with it",
-      "url": "https://medium.com/@ido_53527/the-bottleneck-moved-the-question-is-whether-your-systems-moved-with-it-79f0dfcd3b71?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-04-27T11:23:02+00:00",
-      "summary": "The article discusses how the primary bottleneck in product development has shifted to new areas, emphasizing the need for teams to adapt their processes and systems accordingly. It urges product leaders to proactively evaluate and evolve their workflows to keep pace with changing constraints.",
-      "tags": [
-        "Product Strategy",
-        "Leadership",
-        "Productivity"
-      ]
-    },
-    {
-      "title": "Idea to Prototype with AI",
-      "url": "https://medium.com/@rajklns1234/idea-to-prototype-with-ai-225e0cd534c7?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-04-27T11:15:05+00:00",
-      "summary": "The article outlines a streamlined workflow for turning ideas into functional prototypes using AI-powered tools, emphasizing rapid iteration and reduced manual effort. It guides product managers through selecting the right AI services, integrating them into the design process, and validating concepts quickly before full development.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Productivity"
-      ]
-    },
-    {
-      "title": "Why Speed Is Overrated in Design",
-      "url": "https://medium.com/@swapnilms.joshi/why-speed-is-overrated-in-design-76840859175a?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-04-27T10:26:03+00:00",
-      "summary": "The article argues that emphasizing rapid design output can mask underlying slow decision-making processes, leading teams to prioritize speed over thoughtful problem solving. For product managers, it highlights the risk of sacrificing strategic alignment and quality when speed becomes the primary metric, urging a balance between velocity and deliberate decision frameworks.",
-      "tags": [
-        "Product Strategy",
-        "Product Design",
-        "Leadership"
-      ]
-    },
-    {
-      "title": "AI Hardware, Meta Display, Redefining VR and AR",
-      "url": "https://stratechery.com/2026/ai-hardware-meta-display-redefining-vr-and-ar/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-04-27T10:00:00+00:00",
-      "summary": "The author’s hands‑on experience with Meta’s Ray‑Ban Display reveals a breakthrough in AR/VR hardware that could reshape immersive product experiences. This new form factor suggests fresh opportunities for product managers to integrate spatial computing into their roadmaps and differentiate in the market.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Product Design"
-      ]
-    },
-    {
-      "title": "I’ve Had 5 Careers. They All Made Me a Better Product Manager.",
-      "url": "https://medium.com/@obigwechinelo/ive-had-5-careers-they-all-made-me-a-better-product-manager-57a9f2b16d93?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-04-27T09:55:12+00:00",
-      "summary": "The author reflects on five distinct career paths that each contributed unique skills and perspectives, ultimately shaping a more versatile and effective product manager. By integrating lessons from varied roles, they highlight how cross‑functional experience enhances decision‑making, stakeholder communication, and product strategy.",
-      "tags": [
-        "Product Strategy",
-        "Leadership",
-        "Product Culture"
-      ]
-    },
-    {
-      "title": "Hera Launch",
-      "url": "https://www.producthunt.com/products/hera-6",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-04-27T09:33:59+00:00",
-      "summary": "The article introduces Hera Launch, a tool that leverages AI to help teams produce studio-quality launch videos quickly. It positions the platform as a way to streamline marketing and communication efforts, reducing the need for extensive video production resources.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Growth"
       ]
     }
   ]
