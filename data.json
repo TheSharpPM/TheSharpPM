@@ -1,7 +1,132 @@
 {
-  "updated": "2026-07-27T08:53:57.866675+00:00",
-  "total": 817,
+  "updated": "2026-07-28T08:05:32.086231+00:00",
+  "total": 819,
   "items": [
+    {
+      "title": "Most feature requests are symptoms, not specs",
+      "url": "https://medium.com/@colelamphere/most-feature-requests-are-symptoms-not-specs-10fa6c93da7d?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-07-28T07:38:50+00:00",
+      "summary": "We say no to most of what operators ask for, and it is the most useful product work we do Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "What Makes Engineering Companies Truly Global Today",
+      "url": "https://medium.com/@sourabhkrgup/what-makes-engineering-companies-truly-global-today-3349eab38a92?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-07-28T07:24:37+00:00",
+      "summary": "Being recognized among the Top global engineering companies involves much more than operating in multiple countries. Global engineering… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Product development — Series 1: Balancing product features, cost, and timing in new product…",
+      "url": "https://medium.com/@muditastrataegis01/product-development-series-1-balancing-product-features-cost-and-timing-in-new-product-cb3a6e7857ef?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-07-28T05:38:58+00:00",
+      "summary": "New product development is a complex process that involves several stages, from ideation to launch. Balancing product features, cost and… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Why AI Adoption Isn’t ROI — The 5-Part Canvas (2026)",
+      "url": "https://medium.com/design-bootcamp/ai-feature-roi-canvas-2026-1f0d5724043d?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-07-28T04:56:09+00:00",
+      "summary": "The three dimensions of AI ROI that every boardroom framework skips — and the feature-level worksheet that catches them. Continue reading on Bootcamp »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🎙️ How I AI: Claude Opus 5 Review + Browser use in Codex + How Cursor and a Raspberry Pi makes AI fun",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-claude-opus-5-review-browser",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-07-27T15:03:21+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+      "tags": [
+        "AI Tools",
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "📈 Data to start your week",
+      "url": "https://www.exponentialview.co/p/data-to-start-your-week-27-07-2026",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-07-27T14:15:47+00:00",
+      "summary": "Open models volume ↑ AI & productivity ↑ Kids in cities ↓",
+      "tags": [
+        "AI Strategy",
+        "Productivity"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "From zero coding background to hardware hacker: How Cursor + a Raspberry Pi makes AI fun",
+      "url": "https://www.lennysnewsletter.com/p/from-zero-coding-background-to-hardware",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-07-27T12:04:34+00:00",
+      "summary": "Watch now | 🎙️ Maddie Reese built a thermal printer anyone can message, a working Twitter pager, and a personal API using Cursor, a Raspberry Pi, and the radical idea that fun beats practical",
+      "tags": [
+        "AI Strategy",
+        "AI Tools",
+        "Hardware Differentiation"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "How to craft more effective  product problem statements",
+      "url": "https://www.productledalliance.com/problem-statements-to-anchor-product-development/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-07-27T11:24:00+00:00",
+      "summary": "A good problem statement concisely defines the key user needs and obstacles to address, without assuming specific solutions upfront. This focuses the team on the right challenges to solve versus just pushing features.",
+      "tags": [
+        "Product Culture"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Vacation: Week of July 27",
+      "url": "https://stratechery.com/2026/vacation-week-of-july-27/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-07-27T10:00:00+00:00",
+      "summary": "Stratechery is on vacation the week of July 27. There will be no Weekly Article or Updates. The next Update will be on Monday, August 3. Sharp Tech, and Greatest of All Talk will also return the week of August 3. Sharp China and Asianometry will continue to publish, and there wil...",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Steven Sinofsky: AI Doesn't Need New Rules Yet",
+      "url": "https://a16z.simplecast.com/episodes/steven-sinofsky-ai-doesnt-need-new-rules-yet-BuNOSzIn",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-07-27T10:00:00+00:00",
+      "summary": "Steven Sinofsky joins Theo Jaffee and Sofia Puccini for a conversation on AI regulation, open-source models, and what history can teach us about technological revolutions. Drawing on decades of experience leading products at Microsoft, Sinofsky argues that governments are rushing...",
+      "tags": [
+        "AI Strategy",
+        "Compliance"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "The Marketplace Rewards Leaders Who Can Hold Vision Without Panic",
       "url": "https://medium.com/@drvandanasharma/the-marketplace-rewards-leaders-who-can-hold-vision-without-panic-8fc0d496fbde?source=rss------product_management-5",
@@ -1656,6 +1781,18 @@
       "is_fallback": true
     },
     {
+      "title": "Cekura",
+      "url": "https://www.producthunt.com/products/vocera",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-07-13T14:52:23+00:00",
+      "summary": "The self-improvement loop for voice agents Discussion | Link",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
       "title": "This solo builder runs 24/7 local AI on his own hardware | Alex Finn",
       "url": "https://www.lennysnewsletter.com/p/this-solo-builder-runs-247-local",
       "source": "Lenny's Newsletter",
@@ -2257,6 +2394,19 @@
       "summary": "A well-defined product development strategy is the foundation of creating innovative products that meet customer expectations and achieve… Continue reading on Medium »",
       "tags": [
         "Growth"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Prefactor",
+      "url": "https://www.producthunt.com/products/prefactor",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-07-08T06:03:58+00:00",
+      "summary": "Evaluate your AI Agents in real-time Discussion | Link",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
       ],
       "is_fallback": true
     },
@@ -10524,136 +10674,6 @@
         "AI Strategy",
         "Product Strategy",
         "Growth"
-      ]
-    },
-    {
-      "title": "An Interview with OpenAI CEO Sam Altman and AWS CEO Matt Garman About Bedrock Managed Agents",
-      "url": "https://stratechery.com/2026/an-interview-with-openai-ceo-sam-altman-and-aws-ceo-matt-garman-about-bedrock-managed-agents/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-04-28T17:00:00+00:00",
-      "summary": "In this interview, OpenAI CEO Sam Altman and AWS CEO Matt Garman discuss their new Bedrock Managed Agents partnership, detailing how the collaboration will streamline AI deployment for developers. The conversation also touches on broader industry implications, including OpenAI's recent deal with Microsoft and its impact on AI strategy and tooling.",
-      "tags": [
-        "AI Strategy",
-        "AI Tools",
-        "Product Strategy"
-      ]
-    },
-    {
-      "title": "Your Couch-to-5K for AI",
-      "url": "https://www.lennysnewsletter.com/p/your-couch-to-5k-for-ai",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-04-28T15:31:24+00:00",
-      "summary": "The article outlines a practical, step‑by‑step framework for product teams to develop a sustainable AI development routine, likening it to a Couch‑to‑5K running plan. It emphasizes incremental learning, regular experimentation, and habit formation to embed AI capabilities into product workflows without overwhelming resources.",
-      "tags": [
-        "AI Strategy",
-        "Productivity",
-        "Growth"
-      ]
-    },
-    {
-      "title": "The $3,000 framework that quietly became table stakes",
-      "url": "https://www.productcoalition.com/p/the-post-it-note-died-for-your-sins",
-      "source": "Product Coalition",
-      "type": "article",
-      "date": "2026-04-28T14:28:07+00:00",
-      "summary": "The article traces the evolution of a $3,000 design-thinking framework that originated at Stanford and has become an unspoken standard in product development. It explains how the methodology, once a celebrated innovation, has been absorbed into everyday practice and is rarely credited by name, yet continues to shape how teams solve problems and validate ideas.",
-      "tags": [
-        "Product Design",
-        "Product Strategy",
-        "Competitive Analysis"
-      ]
-    },
-    {
-      "title": "Custom Integrations by Databox",
-      "url": "https://www.producthunt.com/products/databox",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-04-28T13:11:50+00:00",
-      "summary": "Databox introduces custom integrations that let users import data from any source without needing to write code. This feature expands the platform's flexibility, enabling product teams to consolidate disparate metrics and gain a unified view of performance. By simplifying data onboarding, it accelerates insight generation and supports more data-driven decision making.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Data"
-      ]
-    },
-    {
-      "title": "Command and Control - All Things Product Podcast with Teresa Torres & Petra Wille",
-      "url": "https://www.producttalk.org/command-and-control-all-things-product-podcast-with-teresa-torres-petra-wille/",
-      "source": "Product Talk",
-      "type": "article",
-      "date": "2026-04-28T13:00:59+00:00",
-      "summary": "Teresa Torres and Petra Wille discuss how command-and-control leadership often surfaces in uncertain times, appearing faster and safer, but may hinder effectiveness in modern product teams. They explore the true impact of this style on product outcomes and suggest more collaborative approaches for better results.",
-      "tags": [
-        "Leadership",
-        "Product Strategy",
-        "Product Culture"
-      ]
-    },
-    {
-      "title": "From shadow AI to sanctioned AI:  What product teams can learn from how enterprises actually adopt",
-      "url": "https://www.productledalliance.com/from-shadow-ai-to-sanctioned-ai-what-product-teams-can-learn-from-how-enterprises-actually-adopt/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-04-28T12:00:33+00:00",
-      "summary": "Enterprises often have employees using AI tools without official approval, creating a hidden but valuable source of product insight. Product teams should monitor this \"shadow AI\" usage to understand real needs, inform roadmap decisions, and guide the transition to sanctioned, enterprise‑grade AI solutions.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Product Culture"
-      ]
-    },
-    {
-      "title": "The Art of Writing a PRD That People Actually Read",
-      "url": "https://medium.com/@iamvishwavj/the-art-of-writing-a-prd-that-people-actually-read-4d5f4010afd7?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-04-28T11:20:23+00:00",
-      "summary": "The article outlines how to craft Product Requirement Documents (PRDs) that strike the right balance between clarity and conciseness, ensuring they are actionable and engaging for stakeholders. It provides practical guidelines for structuring content, prioritizing information, and making the PRD readable so teams can efficiently execute on product plans.",
-      "tags": [
-        "Product Strategy",
-        "Communication",
-        "Product Design"
-      ]
-    },
-    {
-      "title": "Todo empieza fuera del producto",
-      "url": "https://medium.com/think-by-shifta/todo-empieza-fuera-del-producto-610e98c7657d?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-04-28T11:06:01+00:00",
-      "summary": "The article emphasizes that effective product discovery begins beyond the product itself, encouraging Product Managers to engage with users, market trends, and cross‑functional insights before shaping features. By adopting an outward‑looking discovery process, teams can validate problems early, align on real user needs, and prioritize work that drives meaningful impact.",
-      "tags": [
-        "Product Strategy",
-        "User Research",
-        "Growth"
-      ]
-    },
-    {
-      "title": "Todo empieza fuera del producto",
-      "url": "https://medium.com/think-by-shifta/todo-empieza-fuera-del-producto-610e98c7657d?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-04-28T11:06:01+00:00",
-      "summary": "The article emphasizes that effective product discovery begins beyond the product itself, urging Product Managers to engage with users, market signals, and cross‑functional insights before shaping features. It outlines a systematic approach to uncover real problems, validate assumptions, and align teams around validated opportunities.",
-      "tags": [
-        "Product Strategy",
-        "User Research",
-        "Product Culture"
-      ]
-    },
-    {
-      "title": "The Core Promise Principle: Why Some Data Loss Kills Companies and Some Doesn’t",
-      "url": "https://medium.com/@ove.ashraf/the-core-promise-principle-why-some-data-loss-kills-companies-and-some-doesnt-a81d9e126b57?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-04-28T09:26:29+00:00",
-      "summary": "The article explains the Core Promise Principle, showing how breaches of a product's core promise—especially data loss—can either devastate a company or serve as a catalyst for growth, depending on how the organization responds. It contrasts the rapid collapse of Ma.gnolia with GitLab's resilient recovery, highlighting the importance of trust, transparent communication, and strategic handling of data incidents.",
-      "tags": [
-        "Data",
-        "Product Strategy",
-        "Leadership"
       ]
     }
   ]
