@@ -1,7 +1,105 @@
 {
-  "updated": "2026-07-28T08:05:32.086231+00:00",
-  "total": 819,
+  "updated": "2026-07-29T08:09:13.702901+00:00",
+  "total": 816,
   "items": [
+    {
+      "title": "I Built a Radiology AI Agent",
+      "url": "https://medium.com/@shreeparasnathexports/i-built-a-radiology-ai-agent-56739aa0eb11?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-07-29T08:02:43+00:00",
+      "summary": "Continue reading on Medium »",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Why Your Day-2 Email Might Be the Most Important Email You Send",
+      "url": "https://medium.com/@tabassumsiddiq/why-your-day-2-email-might-be-the-most-important-email-you-send-fde1a7c20ef2?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-07-29T07:06:54+00:00",
+      "summary": "Everyone obsesses over the welcome email. Almost nobody thinks hard about what comes next. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Why WeChat Pay Can’t Be Copied in Europe. And What That Means for Fintech",
+      "url": "https://medium.com/@and.yakush/why-wechat-pay-cant-be-copied-in-europe-and-what-that-means-for-fintech-338638dda25c?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-07-29T06:20:01+00:00",
+      "summary": "The most dramatic product expansion in financial history relied on conditions Europe doesn’t have. The lesson isn’t “build a super-app.” Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "What If We Need Less Localized Content?",
+      "url": "https://medium.com/@ic-eight/what-if-we-need-less-localized-content-c1770462ac52?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-07-29T01:35:27+00:00",
+      "summary": "This week, several localization companies were talking about the future. Phrase is moving toward “Language Intelligence.” Lokalise is… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Task Monki",
+      "url": "https://www.producthunt.com/products/task-monki",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-07-28T21:38:08+00:00",
+      "summary": "Run coding agents through the full development process Discussion | Link",
+      "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "11 products I love, free for a year—the biggest Product Pass expansion in 2 years",
+      "url": "https://www.lennysnewsletter.com/p/productpass-summer2026launch",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-07-28T15:54:24+00:00",
+      "summary": "Runway, Higgsfield, Waking Up, Brain.fm, Customer.io, Resend, Pangram, Mercury Personal, Supercut, Readwise, and Jam are joining Product Pass today, all included with Annual and Insider memberships",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Product managers need a  problem-first mindset",
+      "url": "https://www.productledalliance.com/product-managers-need-a-problem-first-mindset/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-07-28T12:00:16+00:00",
+      "summary": "Build less on instinct, and more on validated pain.",
+      "tags": [
+        "Product Culture"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Fei-Fei Li on Spatial Intelligence and Robotics",
+      "url": "https://a16z.simplecast.com/episodes/fei-fei-li-on-spatial-intelligence-and-robotics-j8HvsWJf",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-07-28T10:00:00+00:00",
+      "summary": "Last week, World Labs announced its acquisition of SceniX, bringing together two teams working on one of AI's biggest unsolved problems: how to give machines a true understanding of the physical world. Martin Casado sits down with Fei-Fei Li, co-founder and CEO of World Labs, cre...",
+      "tags": [
+        "AI Strategy",
+        "Growth"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Most feature requests are symptoms, not specs",
       "url": "https://medium.com/@colelamphere/most-feature-requests-are-symptoms-not-specs-10fa6c93da7d?source=rss------product_management-5",
@@ -10079,6 +10177,18 @@
       ]
     },
     {
+      "title": "Denovo",
+      "url": "https://www.producthunt.com/products/denovo-business-manager",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-05-04T09:24:38+00:00",
+      "summary": "Turn your vibe-coded app into paying customers Discussion | Link",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
       "title": "Your toughest competitor isn’t who you think. And AI won’t help you find it.",
       "url": "https://medium.com/@mihaela.blanaru/your-toughest-competitor-isnt-who-you-think-and-ai-won-t-help-you-find-it-47fa85cde646?source=rss------product_strategy-5",
       "source": "Medium Strategy",
@@ -10518,162 +10628,6 @@
         "AI Strategy",
         "Product Design",
         "User Research"
-      ]
-    },
-    {
-      "title": "Omada Health: Senior Product Manager",
-      "url": "https://weworkremotely.com/remote-jobs/omada-health-senior-product-manager",
-      "source": "We Work Remotely",
-      "type": "job",
-      "date": "2026-04-29T23:03:54+00:00",
-      "summary": "Omada Health seeks a Senior Product Manager to lead the development of medication prescribing features for members and care teams, focusing on the emerging GLP-1 market in virtual-first health programs. The role involves deep user research, market analysis, and rapid product execution to strengthen Omada's leadership in weight, diabetes, hypertension, and musculoskeletal care.",
-      "tags": [
-        "Product Strategy",
-        "Growth",
-        "Leadership"
-      ]
-    },
-    {
-      "title": "Risk: Senior Product Manager",
-      "url": "https://weworkremotely.com/remote-jobs/risk-senior-product-manager",
-      "source": "We Work Remotely",
-      "type": "job",
-      "date": "2026-04-29T23:03:54+00:00",
-      "summary": "RISK inc., a global iGaming company with over 1,000 employees, is hiring a Senior Product Manager in Warsaw to boost user engagement via gamification and optimize both marketing and organic acquisition funnels. The role emphasizes leveraging analytics and data-driven insights to improve retention and drive growth across their multi‑market platform.",
-      "tags": [
-        "Product Strategy",
-        "Growth",
-        "Data"
-      ]
-    },
-    {
-      "title": "Why You Should Start LATAM Expansion with Brazil, Not Spanish Markets",
-      "url": "https://medium.com/@ic-eight/why-you-should-start-latam-expansion-with-brazil-not-spanish-markets-277ab926df2f?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-04-29T19:27:08+00:00",
-      "summary": "The article argues that product teams aiming to enter the Latin American market should prioritize Brazil over Spanish-speaking countries like Mexico, citing Brazil's larger economy, digital adoption rates, and unique market dynamics. It outlines the strategic benefits of leveraging Brazil's size and growth potential as a springboard for broader LATAM expansion.",
-      "tags": [
-        "Product Strategy",
-        "Growth",
-        "Competitive Analysis"
-      ]
-    },
-    {
-      "title": "Why Your Product Management OKR Is Quietly Killing Your Team’s Motivation (And How to Fix It Before…",
-      "url": "https://medium.com/@marketing10135/why-your-product-management-okr-is-killing-team-motivation-1883f76377e5?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-04-29T14:34:04+00:00",
-      "summary": "The article explains how poorly crafted product management OKRs can demotivate teams by setting unrealistic or misaligned goals, leading to frustration during performance reviews. It offers practical steps to redesign OKRs—focusing on clear outcomes, balanced ambition, and frequent feedback—to boost motivation and drive better results.",
-      "tags": [
-        "Product Strategy",
-        "Leadership",
-        "Motivation"
-      ]
-    },
-    {
-      "title": "17 product operations voices worth  flying to Amsterdam for",
-      "url": "https://www.productledalliance.com/product-operations-voices-worth-flying-to-amsterdam-for/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-04-29T11:00:27+00:00",
-      "summary": "The article highlights the top product operations leaders who will be speaking at the upcoming Product Operations Summit in Amsterdam, offering PMs a chance to learn cutting‑edge operational strategies and network with industry experts. Attending promises valuable insights into scaling product ops, cross‑functional collaboration, and data‑driven decision making.",
-      "tags": [
-        "Product Operations",
-        "Leadership",
-        "Product Strategy"
-      ]
-    },
-    {
-      "title": "PM vs Great PM: The Difference Isn’t Execution — It’s Thinking",
-      "url": "https://medium.com/@unmeshkamble7/pm-vs-great-pm-the-difference-isnt-execution-it-s-thinking-8c046a831c7c?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-04-29T10:54:59+00:00",
-      "summary": "The article explains that the key distinction between a regular product manager and a great one lies in their strategic thinking rather than just execution skills. It emphasizes the importance of holistic product vision, critical analysis, and proactive decision‑making to drive impact.",
-      "tags": [
-        "Product Strategy",
-        "Leadership",
-        "Product Culture"
-      ]
-    },
-    {
-      "title": "The invisible engine: How product managers save your sportsbook daily",
-      "url": "https://medium.com/@altenar/the-invisible-engine-how-product-managers-save-your-sportsbook-daily-a01e95735166?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-04-29T10:47:57+00:00",
-      "summary": "The article reveals how product managers work behind the scenes to keep sportsbook platforms running smoothly, handling data integrity, odds management, risk controls, and cross‑functional coordination. Their invisible but critical work ensures a reliable betting experience and drives revenue growth.",
-      "tags": [
-        "Product Strategy",
-        "Leadership",
-        "Data"
-      ]
-    },
-    {
-      "title": "The Role of Influential Women in Building Digital Legacy",
-      "url": "https://laura-novak.medium.com/the-role-of-influential-women-in-building-digital-legacy-3d1b982d8e6b?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-04-29T10:41:07+00:00",
-      "summary": "The article highlights how influential women shape lasting digital legacies by championing inclusive innovation, mentorship, and long‑term product vision. Their leadership demonstrates the importance of building sustainable, user‑centric platforms that endure beyond immediate market success.",
-      "tags": [
-        "Leadership",
-        "Product Culture",
-        "AI Strategy"
-      ]
-    },
-    {
-      "title": "Couch to 5K Product Case Study: How a Free NHS App Outperforms Runna and Strava for Beginners",
-      "url": "https://medium.com/product-powerhouse/couch-to-5k-product-case-study-how-a-free-nhs-app-outperforms-runna-and-strava-for-beginners-9f02ec6b2649?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-04-29T10:22:06+00:00",
-      "summary": "The NHS's free Couch to 5K app demonstrates how a minimalist approach can beat premium competitors like Runna and Strava among beginner runners. By focusing on clear onboarding, low friction, and leveraging trusted public health branding, it drives higher adoption and sustained engagement. Product managers can learn the power of simplicity, strong user trust, and targeted value for a specific user segment.",
-      "tags": [
-        "Product Strategy",
-        "Product Design",
-        "Growth"
-      ]
-    },
-    {
-      "title": "Intel Earnings, Intel’s Differentiation?, Whither Terafab",
-      "url": "https://stratechery.com/2026/intel-earnings-intels-differentiation-whither-terafab/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-04-29T10:00:00+00:00",
-      "summary": "Intel reported strong earnings, driven primarily by a structural surge in demand for AI-focused CPUs rather than traditional PC or data‑center sales. The article also questions Intel's competitive edge in AI and highlights uncertainty surrounding its Terafab manufacturing strategy.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Competitive Analysis"
-      ]
-    },
-    {
-      "title": "Katkin: Senior Growth Product Manager",
-      "url": "https://weworkremotely.com/remote-jobs/katkin-senior-growth-product-manager",
-      "source": "We Work Remotely",
-      "type": "job",
-      "date": "2026-04-29T08:34:44+00:00",
-      "summary": "KatKin is a challenger DTC brand targeting the $50B global cat health market with fresh‑cooked, vet‑formulated cat food and plans to expand into a broader suite of health products and digital services for cat owners. The Senior Growth Product Manager will lead initiatives to scale the core business in the UK, drive retail expansion, and build the ecosystem of ancillary products and health‑tech solutions.",
-      "tags": [
-        "Growth",
-        "Product Strategy",
-        "Product Culture"
-      ]
-    },
-    {
-      "title": "Knowunity: Product Engineer",
-      "url": "https://weworkremotely.com/remote-jobs/knowunity-product-engineer",
-      "source": "We Work Remotely",
-      "type": "job",
-      "date": "2026-04-29T08:34:44+00:00",
-      "summary": "Knowunity is Europe's fastest-growing AI-powered learning companion, offering a social community for 18 million students and delivering hyper-personalized educational experiences. The platform uses AI to guide users, generate tailored flashcards, and prepare them for exams, aiming to democratize high-quality education worldwide. As a Product Engineer, you would help scale these AI-driven features and enhance the student learning journey.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Growth"
       ]
     }
   ]
