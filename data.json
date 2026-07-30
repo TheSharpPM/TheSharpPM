@@ -1,7 +1,80 @@
 {
-  "updated": "2026-07-29T08:09:13.702901+00:00",
-  "total": 816,
+  "updated": "2026-07-30T07:59:37.920252+00:00",
+  "total": 811,
   "items": [
+    {
+      "title": "Saying no to eighty percent of customer requests",
+      "url": "https://medium.com/@colelamphere/saying-no-to-eighty-percent-of-customer-requests-95cb93148bd4?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-07-30T07:38:55+00:00",
+      "summary": "The year we tried to build everything operators asked for nearly broke the product we already had Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "AI Is Making Developers Faster. It’s Not Making Software Better.",
+      "url": "https://medium.com/@amroar/ai-is-making-developers-faster-its-not-making-software-better-2a250941d2a7?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-07-30T07:31:46+00:00",
+      "summary": "Speed and quality are not the same thing. The industry is about to learn that the hard way. Continue reading on Medium »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Does Your Business Need a Mobile App?",
+      "url": "https://medium.com/@diliphembram121/does-your-business-need-a-mobile-app-7412e401461f?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-07-30T06:58:29+00:00",
+      "summary": "A mobile application is valuable when it improves a frequent customer or business workflow. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "FloodWatch: Building a Community-Powered Flood Intelligence Platform.",
+      "url": "https://medium.com/@sandraidoko231/floodwatch-building-a-community-powered-flood-intelligence-platform-b0196134b3e2?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-07-30T06:38:07+00:00",
+      "summary": "A Product Management Case Study Continue reading on Medium »",
+      "tags": [
+        "Platform Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Focus Room",
+      "url": "https://www.producthunt.com/products/focus-room",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-07-29T17:02:29+00:00",
+      "summary": "Turn YouTube into your personal learning platform Discussion | Link",
+      "tags": [
+        "Platform Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "AI Micro Dramas, Generative Media, and the Future of Creativity",
+      "url": "https://a16z.simplecast.com/episodes/ai-micro-dramas-generative-media-and-the-future-of-creativity-ZbK1xyzO",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-07-29T10:00:00+00:00",
+      "summary": "Justine Moore, partner at Andreessen Horowitz, joins New Economies to explore the rapid evolution of generative media and why AI-native content is reaching an inflection point. They discuss the rise of AI micro-dramas, how creators are building entirely new forms of entertainment...",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "I Built a Radiology AI Agent",
       "url": "https://medium.com/@shreeparasnathexports/i-built-a-radiology-ai-agent-56739aa0eb11?source=rss------product_management-5",
@@ -10485,149 +10558,6 @@
         "Product Strategy",
         "Leadership",
         "Prioritization"
-      ]
-    },
-    {
-      "title": "The spec is dead.  Long live the spec.",
-      "url": "https://www.productledalliance.com/why-product-specs-are-more-important-than-ever/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-05-01T07:14:03+00:00",
-      "summary": "The article discusses how AI is transforming product specifications, turning them into dynamic, AI‑driven artifacts that product managers must expertly navigate. It also highlights that judgment becomes a scarce resource in this new environment, emphasizing the need for PMs to develop strong decision‑making skills.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Product Design"
-      ]
-    },
-    {
-      "title": "How to Build a TikTok-Like App Without Wasting Time and Budget",
-      "url": "https://medium.com/activated-thinker/how-to-build-a-tiktok-like-app-without-wasting-time-and-budget-dd2058e4d4be?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-05-01T05:27:21+00:00",
-      "summary": "The article outlines a streamlined approach to developing a TikTok-style short‑form video app, emphasizing rapid prototyping, cost‑effective technology stacks, and prioritizing core features that drive user engagement. It provides product managers with a roadmap to avoid common pitfalls, leverage existing AI tools for content recommendation, and focus resources on scalability and retention.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Growth"
-      ]
-    },
-    {
-      "title": "How to Build a TikTok-Like App Without Wasting Time and Budget",
-      "url": "https://medium.com/write-a-catalyst/how-to-build-a-tiktok-like-app-without-wasting-time-and-budget-d7ddeb0cb598?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-05-01T05:24:33+00:00",
-      "summary": "The article outlines a lean approach to launching a short‑form video platform, emphasizing rapid MVP development, leveraging existing cloud services, and focusing on core features that drive user engagement while avoiding costly custom infrastructure. It provides a step‑by‑step roadmap for product managers to prioritize functionality, iterate quickly, and validate market demand before scaling.",
-      "tags": [
-        "Product Strategy",
-        "Growth",
-        "Product Design"
-      ]
-    },
-    {
-      "title": "Webpt: Principal Product Manager",
-      "url": "https://weworkremotely.com/remote-jobs/webpt-principal-product-manager",
-      "source": "We Work Remotely",
-      "type": "job",
-      "date": "2026-04-30T20:34:20+00:00",
-      "summary": "WebPT is seeking a Principal Product Manager to own and execute cross‑functional product strategies that support its growth in the EMR and billing space. The role will drive high‑impact initiatives, partner across the organization, and ensure alignment with business objectives to enhance healthcare provider workflows.",
-      "tags": [
-        "Product Strategy",
-        "Leadership",
-        "Product Design"
-      ]
-    },
-    {
-      "title": "Userwise Services: Product Manager",
-      "url": "https://weworkremotely.com/remote-jobs/userwise-services-product-manager-1",
-      "source": "We Work Remotely",
-      "type": "job",
-      "date": "2026-04-30T20:33:47+00:00",
-      "summary": "UserWise is seeking a data‑driven Product Manager to own a casual game tied to a major global IP, acting as the product’s CEO to drive daily LiveOps, balance, and player experience. The role combines product strategy, rapid iteration, and monetization insights to keep the game fresh and engaging for millions of users worldwide.",
-      "tags": [
-        "Product Strategy",
-        "Metrics",
-        "Growth"
-      ]
-    },
-    {
-      "title": "Montage",
-      "url": "https://www.producthunt.com/products/montage-3",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-04-30T15:50:23+00:00",
-      "summary": "The article introduces the Montage UI Agentic framework, which streamlines UI generation by reducing token consumption and accelerating output. It outlines how the framework leverages agentic components to automate design tasks, helping product teams deliver interfaces faster and more efficiently.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Productivity"
-      ]
-    },
-    {
-      "title": "Building AI Employees for Hospitality: How AITropos Takes Orders Where Customers Already Are",
-      "url": "https://www.producttalk.org/building-ai-employees-for-hospitality-how-aitropos-takes-orders-where-customers-already-are/",
-      "source": "Product Talk",
-      "type": "article",
-      "date": "2026-04-30T13:00:18+00:00",
-      "summary": "The episode explores how AITropos built an AI system capable of taking food orders via WhatsApp with human-like accuracy and speed, addressing challenges like natural language understanding, real-time response, and seamless integration into existing hospitality workflows. It delves into the product design decisions, data training, and operational considerations required to deploy AI employees that meet both customer expectations and business efficiency goals.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Growth"
-      ]
-    },
-    {
-      "title": "The embedded analytics  ROI paradox",
-      "url": "https://www.productledalliance.com/the-embedded-analytics-roi-paradox/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-04-30T11:00:32+00:00",
-      "summary": "Embedded analytics initiatives often boost user engagement, yet quantifying the financial return remains challenging. The article explains why this ROI paradox occurs and outlines the practices top-performing teams use to tie engagement metrics to measurable business outcomes.",
-      "tags": [
-        "Product Strategy",
-        "Metrics",
-        "Growth"
-      ]
-    },
-    {
-      "title": "The First Version (Sometimes Is the Best)",
-      "url": "https://dwayne-phillips.medium.com/the-first-version-sometimes-is-the-best-9a21963d2ec5?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-04-30T11:00:01+00:00",
-      "summary": "The article argues that launching a simple, functional first version of a product can be more effective than over‑engineering. By delivering early value, teams gather real user feedback, iterate faster, and avoid the pitfalls of sunk‑cost bias.",
-      "tags": [
-        "Product Strategy",
-        "Product Design",
-        "Growth"
-      ]
-    },
-    {
-      "title": "Amazon Earnings, Trainium and Commodity Markets, Additional Amazon Notes",
-      "url": "https://stratechery.com/2026/amazon-earnings-trainium-and-commodity-markets-additional-amazon-notes/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-04-30T10:00:00+00:00",
-      "summary": "Amazon's latest earnings show that its focus on inference workloads and AI agents is validating the investment in its custom Trainium chips, signaling a strategic shift from model training to deployment. The report also touches on developments in advertising, AI agents, and the company's pursuit of sports media rights, all of which shape its broader product and market strategy.",
-      "tags": [
-        "AI Strategy",
-        "AI Tools",
-        "Product Strategy"
-      ]
-    },
-    {
-      "title": "The Betty Crocker Paradox: Why Using AI Feels Like Cheating (And How to Fix It)",
-      "url": "https://appibara.medium.com/the-betty-crocker-paradox-why-using-ai-feels-like-cheating-and-how-to-fix-it-892dee22e158?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-04-30T09:00:09+00:00",
-      "summary": "The article argues that in the AI era, deliberately introducing \"meaningful friction\" can improve user experiences, countering the instinct to eliminate all obstacles. It explains why using AI can feel like cheating and offers strategies for product teams to integrate AI responsibly and enhance value.",
-      "tags": [
-        "AI Strategy",
-        "Product Design",
-        "User Research"
       ]
     }
   ]
