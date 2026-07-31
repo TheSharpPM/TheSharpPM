@@ -1,7 +1,107 @@
 {
-  "updated": "2026-07-30T07:59:37.920252+00:00",
-  "total": 811,
+  "updated": "2026-07-31T08:16:52.624800+00:00",
+  "total": 810,
   "items": [
+    {
+      "title": "I Tested the Best Website Monitoring Tools in 2026 — Here’s What I Found",
+      "url": "https://medium.com/@ahmetkaplan.dev/i-tested-the-best-website-monitoring-tools-in-2026-heres-what-i-found-8fe76b0eb262?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-07-31T08:06:45+00:00",
+      "summary": "Website monitoring has evolved far beyond simply checking whether a page is online. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Saying No To Eighty Percent Of Customer Requests",
+      "url": "https://medium.com/@colelamphere/saying-no-to-eighty-percent-of-customer-requests-7cf61ebe21ae?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-07-31T07:37:19+00:00",
+      "summary": "Most of them are symptoms of a workflow problem the customer cannot see. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "EBANX: Group Product Manager | Argentina",
+      "url": "https://weworkremotely.com/remote-jobs/ebanx-group-product-manager-argentina",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-07-31T07:31:02+00:00",
+      "summary": "Headquarters: Remote in Buenos Aires EBANX is one of the most successful fintechs to emerge from Latin America — and today, we are building a truly global payments company. Our mission has remained constant from day one: to unlock access and enable companies and consumers to part...",
+      "tags": [
+        "Career",
+        "Competitive Analysis",
+        "Prioritization"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Product Vision vs MVP: How to Ship Faster Without Designing a Dead-End Product",
+      "url": "https://medium.productcoalition.com/product-vision-vs-mvp-how-to-ship-faster-without-designing-a-dead-end-product-d877ab8c0c96?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-07-30T15:02:44+00:00",
+      "summary": "What I learned about scoping a first release without cutting off the product’s future, from shipping the official Albanian Volleyball… Continue reading on Product Coalition »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "From Fragmented Information to a Unified Product: Designing and Shipping the Official Albanian…",
+      "url": "https://medium.productcoalition.com/from-fragmented-information-to-a-unified-product-designing-and-shipping-the-official-albanian-03801c08741b?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-07-30T14:52:53+00:00",
+      "summary": "How I took the Albanian Volleyball Federation from a scattered, offline product to a released mobile app, while keeping the full product… Continue reading on Product Coalition »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🔮 For AI adopters, success and failure look identical — at first",
+      "url": "https://www.exponentialview.co/p/ai-adoption-j-curve",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-07-30T11:01:20+00:00",
+      "summary": "Modelling the AI J-curve",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Recognizing the product thinking  you already do",
+      "url": "https://www.productledalliance.com/recognizing-the-product-thinking-you-already-do/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-07-30T11:00:18+00:00",
+      "summary": "Discover the five core patterns of product thinking and learn how to translate your everyday skills into a successful product career.",
+      "tags": [
+        "Career"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "AI for America's Small Businesses | Lassie",
+      "url": "https://a16z.simplecast.com/episodes/ai-for-americas-small-businesses-lassie-bwImYMRh",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-07-30T10:00:00+00:00",
+      "summary": "Alex Rampell and Olivia Moore speak with Lassie cofounders Steijn Pelle and Frédéric Renken about bringing AI to one of the most overlooked parts of the economy: small businesses. Inspired by time spent working inside dental practices, Pelle and Renken set out to automate the adm...",
+      "tags": [
+        "AI Strategy",
+        "AI Tools",
+        "Automation"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Saying no to eighty percent of customer requests",
       "url": "https://medium.com/@colelamphere/saying-no-to-eighty-percent-of-customer-requests-95cb93148bd4?source=rss------product_management-5",
@@ -107,6 +207,18 @@
       "type": "article",
       "date": "2026-07-29T06:20:01+00:00",
       "summary": "The most dramatic product expansion in financial history relied on conditions Europe doesn’t have. The lesson isn’t “build a super-app.” Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Poth Labs",
+      "url": "https://www.producthunt.com/products/poth-labs",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-07-29T04:59:40+00:00",
+      "summary": "The customer brain for your company Discussion | Link",
       "tags": [
         "Product Strategy"
       ],
@@ -631,6 +743,18 @@
       "type": "article",
       "date": "2026-07-23T23:08:35+00:00",
       "summary": "A Harvard Business School case on product strategy and why challenging assumptions often matters more than building better features Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Customer.io Summer Release",
+      "url": "https://www.producthunt.com/products/customer-io",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-07-23T21:00:18+00:00",
+      "summary": "New ways to reach customers in the moments that matter Discussion | Link",
       "tags": [
         "Product Strategy"
       ],
@@ -10415,149 +10539,6 @@
         "Product Strategy",
         "Growth",
         "Leadership"
-      ]
-    },
-    {
-      "title": "The Onboarding Call That Made Us Trust a B2B Tool More Than Our Own Team.",
-      "url": "https://medium.com/@miladdevarts/the-onboarding-call-that-made-us-trust-a-b2b-tool-more-than-our-own-team-81a263a29d12?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-05-02T08:03:38+00:00",
-      "summary": "The article highlights how effective B2B onboarding calls can build stronger trust than internal teams by providing clear, expert guidance and personalized support. It outlines best practices for onboarding that help users quickly realize value and feel confident using the tool.",
-      "tags": [
-        "Product Strategy",
-        "User Research",
-        "Growth"
-      ]
-    },
-    {
-      "title": "Minimum Viable Product (MVP): What is MVP and types of MVP",
-      "url": "https://medium.com/@Karthikeyag/what-is-minimum-viable-product-and-types-of-mvp-28e0c491cad4?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-05-02T03:31:01+00:00",
-      "summary": "The article explains the concept of a Minimum Viable Product (MVP), outlining its purpose as a low‑effort version of a product used to validate assumptions and gather user feedback. It also categorizes the different types of MVPs—such as prototype, concierge, wizard of oz, and landing page—helping product managers choose the right approach for early-stage validation.",
-      "tags": [
-        "Product Strategy",
-        "Product Design",
-        "Prioritization"
-      ]
-    },
-    {
-      "title": "11 Tips to Build a Profitable Mobile App",
-      "url": "https://medium.com/@baheer224/11-tips-to-build-a-profitable-mobile-app-c47777bd0b64?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-05-02T03:24:17+00:00",
-      "summary": "The article outlines practical tactics for creating mobile apps that generate profit, emphasizing market research, user-focused design, effective monetization models, and continuous optimization. It advises product managers to prioritize core features, leverage data-driven decisions, and maintain a lean development cycle to maximize ROI.",
-      "tags": [
-        "Product Strategy",
-        "Growth",
-        "Metrics"
-      ]
-    },
-    {
-      "title": "Panels Store",
-      "url": "https://www.producthunt.com/products/panels-store",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-05-01T21:00:27+00:00",
-      "summary": "Panels Store is an online marketplace that lets users purchase DRM-free comics and start reading them instantly, eliminating access restrictions and enhancing the reading experience. This platform positions itself as a consumer-friendly alternative in the digital comics market, focusing on immediate content delivery and ownership freedom.",
-      "tags": [
-        "Product Strategy",
-        "Growth",
-        "User Research"
-      ]
-    },
-    {
-      "title": "Clover Health: Staff Product Manager, Member Experience",
-      "url": "https://weworkremotely.com/remote-jobs/clover-health-staff-product-manager-member-experience",
-      "source": "We Work Remotely",
-      "type": "job",
-      "date": "2026-05-01T20:32:33+00:00",
-      "summary": "The posting seeks a senior individual contributor to lead product strategy and execution for Clover Health's member experience across all channels. The Staff Product Manager will define direction, set metrics, form hypotheses, and drive measurable member and business outcomes while influencing cross‑functional teams.",
-      "tags": [
-        "Product Strategy",
-        "Metrics",
-        "Leadership"
-      ]
-    },
-    {
-      "title": "Pulse Games: Product Specialist",
-      "url": "https://weworkremotely.com/remote-jobs/pulse-games-product-specialist",
-      "source": "We Work Remotely",
-      "type": "job",
-      "date": "2026-05-01T20:31:24+00:00",
-      "summary": "Pulse Games is hiring a Product Specialist to drive the end-to-end development of its mobile, skill‑based games, focusing on creating engaging experiences for a global audience. The role emphasizes remote collaboration, community building, and iterative improvement to grow player bases worldwide.",
-      "tags": [
-        "Product Strategy",
-        "Growth",
-        "Product Culture"
-      ]
-    },
-    {
-      "title": "2026.18: Long-term, Peripheral & Myopic Visions",
-      "url": "https://stratechery.com/2026/long-term-peripheral-myopic-visions/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-05-01T17:00:00+00:00",
-      "summary": "This week’s Stratechery roundup highlights Amazon’s expanding AI initiatives, the evolving landscape of AR hardware, and how Beijing’s focus on myopia reflects broader health and technology trends. For product managers, the pieces underscore the importance of long‑term vision, peripheral market signals, and balancing short‑term tactics with strategic foresight.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Growth"
-      ]
-    },
-    {
-      "title": "What does a product  manager (PM) do?",
-      "url": "https://www.productledalliance.com/what-does-a-product-manager-do-exactly/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-05-01T13:30:00+00:00",
-      "summary": "A product manager crafts the product vision and strategic roadmap, aligning business objectives with user needs. They act as the central coordinator, guiding cross‑functional teams through development and launch to ensure successful delivery.",
-      "tags": [
-        "Product Strategy",
-        "Leadership",
-        "Product Design"
-      ]
-    },
-    {
-      "title": "75+ product management statistics  you need to know in 2026",
-      "url": "https://www.productledalliance.com/product-management-statistics/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-05-01T13:05:15+00:00",
-      "summary": "A roundup of 75+ stats from Product-Led Alliance's 2026 State of Product Management Report (run with ProductPlan, ~250 respondents in Q4 2025), covering strategy alignment, prioritization ownership, AI tool adoption, and roadmap discipline by org maturity. Useful as a benchmark snapshot for PMs comparing their team's practices against industry norms.",
-      "tags": [
-        "Metrics",
-        "Product Culture",
-        "Productivity"
-      ]
-    },
-    {
-      "title": "The 1:00 AM Pivot: How TruMarked.in Was Built in 5 Days for $0",
-      "url": "https://medium.com/@jagadeeshpurohith/the-1-00-am-pivot-how-trumarked-in-was-built-in-5-days-for-0-a013c86c774b?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-05-01T09:56:52+00:00",
-      "summary": "The article recounts how the founder of TruMarked.in reacted to a late-night frustration and built the entire product in just five days without any budget, highlighting rapid prototyping, lean resource use, and swift decision‑making. It offers insights into fast product validation and the importance of urgency and simplicity in early-stage development for product managers.",
-      "tags": [
-        "Product Strategy",
-        "Product Design",
-        "Growth"
-      ]
-    },
-    {
-      "title": "Remove Don’t Add",
-      "url": "https://antmurphy.medium.com/remove-dont-add-0b7198916fe3?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-05-01T09:30:11+00:00",
-      "summary": "The article, \"Remove Don’t Add,\" argues that the most critical product decisions involve deliberate inaction—choosing not to build features or pursue initiatives that don't align with core value. By focusing on removal and restraint, product teams can sharpen focus, reduce complexity, and drive stronger outcomes. It encourages leaders to embed this mindset into roadmap planning and prioritization processes.",
-      "tags": [
-        "Product Strategy",
-        "Leadership",
-        "Prioritization"
       ]
     }
   ]
