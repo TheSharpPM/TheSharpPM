@@ -1,7 +1,104 @@
 {
-  "updated": "2026-07-31T08:16:52.624800+00:00",
-  "total": 810,
+  "updated": "2026-08-01T07:54:43.187402+00:00",
+  "total": 814,
   "items": [
+    {
+      "title": "From Idea to Execution Blueprint in Exactly 60 Seconds",
+      "url": "https://medium.com/@AI_Factory_Platform/from-idea-to-execution-blueprint-in-exactly-60-seconds-3fd761093cce?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-01T07:40:59+00:00",
+      "summary": "The blank page is the most formidable obstacle in product design. When a founder or software engineer conceives a new product idea, their… Continue reading on Medium »",
+      "tags": [
+        "Product Design"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "A Florist Asked Me to Fix Her Prices. It Turned Into a Six-Week Rabbit Hole.",
+      "url": "https://kodlodev.medium.com/a-florist-asked-me-to-fix-her-prices-it-turned-into-a-six-week-rabbit-hole-8f5122960d01?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-01T07:37:35+00:00",
+      "summary": "A client reached out a while back — she runs a flower shop, WooCommerce store, maybe 200 products. Her problem sounded simple on the phone… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "📚 My non-obvious summer reading list",
+      "url": "https://www.exponentialview.co/p/my-non-obvious-summer-reading-list-2026",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-08-01T06:07:26+00:00",
+      "summary": "A bit older, a bit left field",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Strategy Is Easy. Execution Is Hard.",
+      "url": "https://medium.com/@karthik_prdmgr/strategy-is-easy-execution-is-hard-ece4e132ea22?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-08-01T01:59:14+00:00",
+      "summary": "Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "EssayKraft",
+      "url": "https://www.producthunt.com/products/essaykraft",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-07-31T18:27:31+00:00",
+      "summary": "Native essay writing app for Mac and iPad Discussion | Link",
+      "tags": [
+        "Communication"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "EP108 Why Product Teams Slow Down as Companies Scale — And What to Do About It",
+      "url": "https://www.productcoalition.com/p/ep108-why-product-teams-slow-down",
+      "source": "Product Coalition",
+      "type": "article",
+      "date": "2026-07-31T17:03:04+00:00",
+      "summary": "Summary",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "How do you decide what to build next when everything feels important?",
+      "url": "https://xenabler-digital.medium.com/how-do-you-decide-what-to-build-next-when-everything-feels-important-eb3c138f20d2?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-07-31T12:01:01+00:00",
+      "summary": "A 3-step framework for getting ruthless about priorities, before it costs you a quarter. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "How Enterprise AI Really Gets Deployed",
+      "url": "https://a16z.simplecast.com/episodes/decagons-playbook-for-building-enterprise-ai-applications-VB3G3VC1",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-07-31T10:00:00+00:00",
+      "summary": "Sarah Wang and Kimberly Tan are joined by Jesse Zhang and Ashwin Sreenivas, co-founders of Decagon, to discuss the evolution of enterprise AI agents, why the company increasingly relies on open-source models, and how it is helping some of the world’s largest companies deploy AI i...",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "I Tested the Best Website Monitoring Tools in 2026 — Here’s What I Found",
       "url": "https://medium.com/@ahmetkaplan.dev/i-tested-the-best-website-monitoring-tools-in-2026-heres-what-i-found-8fe76b0eb262?source=rss------product_management-5",
@@ -147,6 +244,18 @@
       "summary": "A Product Management Case Study Continue reading on Medium »",
       "tags": [
         "Platform Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Port22",
+      "url": "https://www.producthunt.com/products/port22",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-07-29T20:50:08+00:00",
+      "summary": "Claude Code, Codex & more on your phone Discussion | Link",
+      "tags": [
+        "AI Tools"
       ],
       "is_fallback": true
     },
@@ -10473,71 +10582,6 @@
       "tags": [
         "AI Strategy",
         "Product Strategy",
-        "Leadership"
-      ]
-    },
-    {
-      "title": "Your research is excellent. It’s answering the wrong question.",
-      "url": "https://medium.com/@mihaela.blanaru/your-research-is-excellent-its-answering-the-wrong-question-c8a1c415c65a?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-05-03T05:07:33+00:00",
-      "summary": "The article critiques how product teams often conduct thorough customer research yet still focus on the wrong problems, leading to misaligned product decisions. It emphasizes the need to reframe research questions to target core business challenges and ensure insights directly inform strategy.",
-      "tags": [
-        "User Research",
-        "Product Strategy",
-        "Leadership"
-      ]
-    },
-    {
-      "title": "🔮 Exponential View #572: AI’s moats, myths and moral loopholes",
-      "url": "https://www.exponentialview.co/p/ev-572",
-      "source": "Exponential View",
-      "type": "trend",
-      "date": "2026-05-03T02:25:52+00:00",
-      "summary": "The article recaps a recent trip to China where the author met with leading AI and robotics firms, including publicly listed foundation model companies Zhipu and MiniMax, as well as major players like Kimi, Alibaba, Xiaomi, and Bytedance. The discussions highlighted emerging AI moats, common misconceptions, and ethical gray areas, offering insights for product leaders on navigating competitive advantage and responsible AI development.",
-      "tags": [
-        "AI Strategy",
-        "Competitive Analysis",
-        "Product Strategy"
-      ]
-    },
-    {
-      "title": "How I Decided What Soolya Would Never Be",
-      "url": "https://medium.com/@madhavipadmanab/how-i-decided-what-soolya-would-never-be-70ec4d84fe6e?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-05-02T18:06:01+00:00",
-      "summary": "The article shares a product leader's framework for defining the boundaries of a product, emphasizing competitive analysis, intentional feature cuts, and steadfast product principles. It provides a practical approach for product managers to make disciplined decisions about what to exclude, ensuring focus and strategic clarity.",
-      "tags": [
-        "Competitive Analysis",
-        "Product Strategy",
-        "Prioritization"
-      ]
-    },
-    {
-      "title": "🧠 Community Wisdom: Claude Code tips for ADHD users, resources for managing up, going from corporate to startup, tiring of being your company’s AI evangelist, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-claude-code-tips",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-05-02T18:02:57+00:00",
-      "summary": "The article shares community-sourced advice for ADHD users on using Claude Code, tips for managing up within organizations, guidance on transitioning from corporate roles to startups, and coping strategies for those feeling fatigued by AI evangelism. It also includes additional resources and insights relevant to product professionals.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Leadership"
-      ]
-    },
-    {
-      "title": "Most Product Teams Are Building for a World That No Longer Exists",
-      "url": "https://medium.com/@saichithra.swaminathan/most-product-teams-are-building-for-a-world-that-no-longer-exists-4ae8014137d1?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-05-02T08:41:16+00:00",
-      "summary": "The article argues that most product teams are still planning features for a market that has shifted dramatically, leading to misaligned roadmaps and wasted resources. It urges product managers to reassess assumptions, incorporate real-time market signals, and pivot toward solving current user problems rather than outdated visions.",
-      "tags": [
-        "Product Strategy",
-        "Growth",
         "Leadership"
       ]
     }
