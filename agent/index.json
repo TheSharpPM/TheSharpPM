@@ -1,6 +1,11 @@
 {
   "editions": [
     {
+      "date": "2026-08-02",
+      "headline_theme": "AI Tools Speed Docs, Not Decisions",
+      "file": "agent/2026-08-02.json"
+    },
+    {
       "date": "2026-07-26",
       "headline_theme": "Experiments Without Outcomes Are Just Noise",
       "file": "agent/2026-07-26.json"
@@ -71,5 +76,5 @@
       "file": "agent/2026-05-03.json"
     }
   ],
-  "updated_at": "2026-07-26T10:17:44.616788+00:00"
+  "updated_at": "2026-08-02T10:40:36.132187+00:00"
 }
