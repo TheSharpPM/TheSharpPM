@@ -1,7 +1,109 @@
 {
-  "updated": "2026-08-01T07:54:43.187402+00:00",
-  "total": 814,
+  "updated": "2026-08-02T07:59:29.078366+00:00",
+  "total": 817,
   "items": [
+    {
+      "title": "Multi-Agent Systems Aren’t a Tech Decision. They’re an Organizational Redesign in Disguise.",
+      "url": "https://medium.com/@tmucb.all/multi-agent-systems-arent-a-tech-decision-they-re-an-organizational-redesign-in-disguise-07cbb492e044?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-02T07:45:13+00:00",
+      "summary": "Multi-agent AI systems are rarely just a technical engineering choice. Underneath the clean architecture diagrams, they function as an… Continue reading on Medium »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "EBANX: Product Manager | South Cone",
+      "url": "https://weworkremotely.com/remote-jobs/ebanx-product-manager-south-cone",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-08-02T07:30:49+00:00",
+      "summary": "Headquarters: Buenos Aires | Remote At EBANX , we believe barriers were made to be broken. We started our story in Curitiba, Brazil, and today we are a global company, present in more than 29 countries, with offices in Curitiba, São Paulo, Shanghai, Singapore, and Johannesburg .",
+      "tags": [
+        "Career",
+        "Competitive Analysis",
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "PURPLE Isn’t a Game Launcher. It’s NCSOFT’s Quiet Bet on the “Super-App” Model",
+      "url": "https://medium.com/@brainofcthulu/purple-isnt-a-game-launcher-it-s-ncsoft-s-quiet-bet-on-the-super-app-model-56c5e4122be0?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-08-02T06:50:45+00:00",
+      "summary": "Most people still describe PURPLE as “NCSOFT’s launcher.” Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "When the Event Ends: How Platforms Can Keep Spike-Driven Users",
+      "url": "https://medium.com/@bhavleennkaur/when-the-event-ends-how-platforms-can-keep-spike-driven-users-dc8b5bbb7ed2?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-02T06:42:48+00:00",
+      "summary": "A product case study on event-driven growth, with a practical framework for retention, using Indian OTT and news apps as examples. Continue reading on Medium »",
+      "tags": [
+        "Growth",
+        "Platform Strategy",
+        "Retention"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🔮 Leopold & exponential markets; transformative GLP-1s; runaway AI & the future of safety++ #595",
+      "url": "https://www.exponentialview.co/p/ev-595",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-08-02T03:19:05+00:00",
+      "summary": "Plus: AI agents as citizen rights, protein & longevity, nervous Europe",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "I Thought Google Wanted a Number. They Were Actually Testing My Thinking. | Part 02",
+      "url": "https://imharshal11.medium.com/i-thought-google-wanted-a-number-they-were-actually-testing-my-thinking-part-02-3f7213833913?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-08-01T18:54:48+00:00",
+      "summary": "Continuing from Part 1 Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🧠 Community Wisdom: Getting started with open source models, making a U.S. business trip worth it, preparing for a possible layoff, when marketing can’t keep up with product, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-getting-started",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-08-01T17:25:18+00:00",
+      "summary": "Community Wisdom 195",
+      "tags": [
+        "Community"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Marc Andreessen and Chris Dixon: What’s at Stake in Crypto Regulation",
+      "url": "https://a16z.simplecast.com/episodes/marc-andreessen-and-chris-dixon-whats-at-stake-in-crypto-regulation-2sleSszn",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-08-01T15:38:28+00:00",
+      "summary": "Marc Andreessen, Chris Dixon, and Robert Hackett discuss one of the most consequential policy debates facing the crypto industry: the push for comprehensive U.S. market structure legislation and what regulatory clarity could mean for innovation, financial markets, and America's t...",
+      "tags": [
+        "Compliance",
+        "Leadership"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "From Idea to Execution Blueprint in Exactly 60 Seconds",
       "url": "https://medium.com/@AI_Factory_Platform/from-idea-to-execution-blueprint-in-exactly-60-seconds-3fd761093cce?source=rss------product_management-5",
@@ -33,6 +135,18 @@
       "type": "trend",
       "date": "2026-08-01T06:07:26+00:00",
       "summary": "A bit older, a bit left field",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Capptivo",
+      "url": "https://www.producthunt.com/products/capptivo",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-08-01T04:40:38+00:00",
+      "summary": "Free open-source screen recorder & demo editor Discussion | Link",
       "tags": [
         "Product Strategy"
       ],
@@ -71,6 +185,18 @@
       "summary": "Summary",
       "tags": [
         "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Zen Whisper",
+      "url": "https://www.producthunt.com/products/zen-whisper",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-07-31T14:55:35+00:00",
+      "summary": "On-device Mac dictation that types into any app Discussion | Link",
+      "tags": [
+        "Hardware Differentiation"
       ],
       "is_fallback": true
     },
@@ -10493,97 +10619,6 @@
         "Product Strategy"
       ],
       "is_fallback": true
-    },
-    {
-      "title": "Your toughest competitor isn’t who you think. And AI won’t help you find it.",
-      "url": "https://medium.com/@mihaela.blanaru/your-toughest-competitor-isnt-who-you-think-and-ai-won-t-help-you-find-it-47fa85cde646?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-05-04T05:51:32+00:00",
-      "summary": "Many product teams focus on obvious rivals, overlooking hidden threats that stem from unconventional business models or emerging technologies. Understanding these blind‑spot competitors is crucial for shaping a resilient product strategy, and relying on AI alone won’t uncover them without deliberate analysis. Leaders must combine competitive research with cross‑functional insights to stay ahead.",
-      "tags": [
-        "Competitive Analysis",
-        "Product Strategy",
-        "AI Strategy"
-      ]
-    },
-    {
-      "title": "The Hidden Skill That Separates Good Product Managers from Great Ones",
-      "url": "https://medium.productcoalition.com/the-hidden-skill-that-separates-good-product-managers-from-great-ones-e55333427d54?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-05-04T04:33:55+00:00",
-      "summary": "The article argues that the key differentiator between good and great product managers is not a specific framework or tool, but the ability to exercise sound judgment in ambiguous situations. This involves balancing data, stakeholder input, and long‑term vision to make decisions that drive product success.",
-      "tags": [
-        "Product Strategy",
-        "Leadership",
-        "Judgment"
-      ]
-    },
-    {
-      "title": "Codex Pets",
-      "url": "https://www.producthunt.com/products/openai",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-05-04T03:02:40+00:00",
-      "summary": "Codex Pets introduces animated companion characters that integrate directly into the Codex workflow, aiming to boost user engagement and provide contextual assistance. The feature is positioned as a lightweight, gamified layer to enhance productivity and user satisfaction within the platform.",
-      "tags": [
-        "Product Design",
-        "Growth",
-        "User Research"
-      ]
-    },
-    {
-      "title": "Security Is a Feature, Not a Checkbox",
-      "url": "https://www.productcoalition.com/p/security-is-a-feature-not-a-checkbox",
-      "source": "Product Coalition",
-      "type": "article",
-      "date": "2026-05-03T14:40:52+00:00",
-      "summary": "The article recounts a solo founder’s journey building ExecReps.ai, emphasizing that security must be integrated into product design from the start rather than treated as an afterthought. It highlights concrete steps—like threat modeling, continuous testing, and transparent communication with users—to embed security as a core feature that drives trust and competitive advantage.",
-      "tags": [
-        "AI Strategy",
-        "Product Design",
-        "Leadership"
-      ]
-    },
-    {
-      "title": "Why cultivating agency matters more than cultivating skills in the AI era | Max Schoening (Head of Product, Notion)",
-      "url": "https://www.lennysnewsletter.com/p/why-cultivating-agency-matters-more",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-05-03T12:30:59+00:00",
-      "summary": "Max Schoening argues that in the AI era product teams should prioritize fostering a sense of agency—empowering users to shape outcomes—over merely teaching new technical skills. He explains how superficial \"vibe coding\" can increase output without improving quality, and shares Notion's fast, ownership-driven shipping philosophy.",
-      "tags": [
-        "Product Strategy",
-        "Leadership",
-        "Product Culture"
-      ]
-    },
-    {
-      "title": "How I Finally Stopped the \"Freelance Chaos\" and Reclaimed 10+ Hours a Week",
-      "url": "https://medium.com/@susheelapandey742/how-i-finally-stopped-the-freelance-chaos-and-reclaimed-10-hours-a-week-295250381f8d?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-05-03T08:54:15+00:00",
-      "summary": "The author describes building an all‑in‑one system that replaced scattered sticky notes with a structured Command Center, eliminating freelance workflow chaos and freeing over 10 hours weekly. The article outlines the tools, processes, and habits that enabled this productivity boost for freelancers.",
-      "tags": [
-        "Productivity",
-        "AI Tools",
-        "Product Strategy"
-      ]
-    },
-    {
-      "title": "Why Is It So Hard for Apple to Make Siri Better?",
-      "url": "https://medium.com/@vedangk1612/why-is-it-so-hard-for-apple-to-make-siri-better-8bffca9f03f2?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-05-03T08:45:00+00:00",
-      "summary": "The article explains that creating a genuinely personalized AI like Siri is technically complex, requiring deep integration of user data, contextual understanding, and continuous learning—challenges Apple faces due to privacy constraints and the need for seamless ecosystem integration. It also argues that Apple cannot simply replicate ChatGPT's model because Siri must align with Apple's hardware, software ecosystem, and brand experience, demanding a distinct approach to AI development.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Leadership"
-      ]
     }
   ]
 }
