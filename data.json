@@ -1,7 +1,95 @@
 {
-  "updated": "2026-08-02T07:59:29.078366+00:00",
-  "total": 817,
+  "updated": "2026-08-03T08:53:52.383074+00:00",
+  "total": 812,
   "items": [
+    {
+      "title": "Copiar, externalizar o hacerlo en casa",
+      "url": "https://manuarjo.medium.com/copiar-externalizar-o-hacerlo-en-casa-5d560fb76db1?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-03T08:37:04+00:00",
+      "summary": "Ante casi cualquier funcionalidad nueva tienes tres caminos: copiar lo que ya hace otro, externalizarlo a un tercero, o construirlo con tu… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Copiar, externalizar o hacerlo en casa",
+      "url": "https://manuarjo.medium.com/copiar-externalizar-o-hacerlo-en-casa-5d560fb76db1?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-08-03T08:37:04+00:00",
+      "summary": "Ante casi cualquier funcionalidad nueva tienes tres caminos: copiar lo que ya hace otro, externalizarlo a un tercero, o construirlo con tu… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Awkward Truth About Managing the Designers Who Used to Be Your Peers",
+      "url": "https://medium.com/@Baran-Ozdemir/the-awkward-truth-about-managing-the-designers-who-used-to-be-your-peers-93b22590ab40?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-03T08:20:08+00:00",
+      "summary": "Promotion does not erase history. Here is how to navigate the complex shift from coworker to leader without losing their trust or your own… Continue reading on Medium »",
+      "tags": [
+        "Product Design"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Building Product-Driven Engineering Teams: Connecting Field Insights to Product Strategy",
+      "url": "https://medium.com/@hngondoki/building-product-driven-engineering-teams-connecting-field-insights-to-product-strategy-1df71dfad028?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-08-03T07:54:51+00:00",
+      "summary": "We had a system that worked technically. But the people using it had stopped trusting it. That is the honest starting point many… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Murmell",
+      "url": "https://www.producthunt.com/products/murmell",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-08-03T02:46:50+00:00",
+      "summary": "Cloud canvas where your team and AI agents works together Discussion | Link",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "This CPO regrets that product management exists | Tom Verrilli (CPO of Whatnot)",
+      "url": "https://www.lennysnewsletter.com/p/this-cpo-regrets-that-product-management",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-08-02T12:32:02+00:00",
+      "summary": "Listen now | Tom Verrilli explains why fewer, more senior PMs doing real IC work outperform any ratio-driven org structure",
+      "tags": [
+        "Career",
+        "Leadership"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Ruby Thelot on Internet Culture, AI, and the Future of Taste",
+      "url": "https://a16z.simplecast.com/episodes/ruby-thelot-on-internet-culture-ai-and-the-future-of-taste-CvhHSpzt",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-08-02T10:46:36+00:00",
+      "summary": "Sophia Dew and Sofia Puccini are joined by Ruby Thelot, designer, artist, cyberethnographer, professor at NYU, and founder of 13101401, for a wide-ranging conversation about internet culture, AI, digital communities, and how technology is reshaping the way we relate to one anothe...",
+      "tags": [
+        "AI Strategy",
+        "Communication",
+        "Product Design"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Multi-Agent Systems Aren’t a Tech Decision. They’re an Organizational Redesign in Disguise.",
       "url": "https://medium.com/@tmucb.all/multi-agent-systems-arent-a-tech-decision-they-re-an-organizational-redesign-in-disguise-07cbb492e044?source=rss------product_management-5",
@@ -10464,161 +10552,6 @@
         "Product Strategy",
         "Competitive Analysis"
       ]
-    },
-    {
-      "title": "Segway Solved the Wrong Problem",
-      "url": "https://medium.com/@aryan1999varma/segway-solved-the-wrong-problem-f0f983b8068b?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-05-05T06:05:16+00:00",
-      "summary": "The article recounts how the engineer behind Segway misread urban mobility needs, focusing on a high‑tech solution for a problem that didn't exist. It highlights the importance for product managers to ground innovations in real user behavior, validate assumptions early, and align technology with genuine market demand.",
-      "tags": [
-        "Product Strategy",
-        "Leadership",
-        "User Research"
-      ]
-    },
-    {
-      "title": "Dina",
-      "url": "https://www.producthunt.com/products/dina",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-05-05T05:57:40+00:00",
-      "summary": "The article introduces 'Dina', a tool that transforms raw screen captures into polished videos within minutes, streamlining content creation for product teams. It highlights how this capability can accelerate stakeholder communication, improve documentation, and reduce reliance on external video production resources.",
-      "tags": [
-        "AI Tools",
-        "Productivity",
-        "Communication"
-      ]
-    },
-    {
-      "title": "7 Mistakes That Kill Mobile Apps Before Launch",
-      "url": "https://medium.com/@baheer224/7-mistakes-that-kill-mobile-apps-before-launch-aea71ca308e4?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-05-05T04:39:58+00:00",
-      "summary": "The article outlines common pre‑launch pitfalls that cause mobile apps to never reach the market, such as insufficient user research, poor product‑market fit validation, and neglecting performance or onboarding design. It emphasizes the need for rigorous testing, clear value proposition, and early stakeholder alignment to avoid costly failures before launch.",
-      "tags": [
-        "Product Strategy",
-        "User Research",
-        "Growth"
-      ]
-    },
-    {
-      "title": "🎙️ This week on How I AI: The internal AI tool that’s transforming how Stripe designs products",
-      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-the-internal",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-05-04T15:01:56+00:00",
-      "summary": "The episode highlights Stripe's internal AI platform that accelerates product design by automating research, prototyping, and data analysis, enabling teams to iterate faster and make more data-driven decisions. It discusses how the tool integrates into existing workflows, improves collaboration across stakeholders, and serves as a strategic advantage in product development.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Product Design"
-      ]
-    },
-    {
-      "title": "Let's Read Continuous Discovery Habits Together (May 2026)",
-      "url": "https://www.producttalk.org/cdh-book-club-april-2026-2/",
-      "source": "Product Talk",
-      "type": "article",
-      "date": "2026-05-04T13:00:57+00:00",
-      "summary": "The article announces a collaborative reading of the five‑year‑old book Continuous Discovery Habits, with monthly guides that outline specific chapters, highlight key concepts, and provide short videos to reinforce learning. It aims to help product teams adopt ongoing discovery practices to improve user research and product strategy.",
-      "tags": [
-        "User Research",
-        "Product Strategy",
-        "Growth"
-      ]
-    },
-    {
-      "title": "The internal AI tool that’s transforming how Stripe designs products | Owen Williams",
-      "url": "https://www.lennysnewsletter.com/p/the-internal-ai-tool-thats-transforming",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-05-04T12:03:59+00:00",
-      "summary": "Owen Williams demonstrates Protodash, an internal AI‑powered tool at Stripe that instantly converts design system components into interactive prototypes within minutes. The tool streamlines the product design workflow, enabling rapid iteration and faster validation of ideas across teams.",
-      "tags": [
-        "AI Tools",
-        "Product Design",
-        "Productivity"
-      ]
-    },
-    {
-      "title": "The Illusion of AI: The Massive Marketing Tool Targeting Us",
-      "url": "https://medium.com/@teobaek830/the-illusion-of-ai-the-massive-marketing-tool-targeting-us-0d24734c4623?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-05-04T11:17:03+00:00",
-      "summary": "The article critiques how AI is being marketed as a revolutionary intelligence while actually serving as a broad promotional device. It urges product leaders to look beyond hype and assess AI's real functional value for their customers and business goals.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "AI Tools"
-      ]
-    },
-    {
-      "title": "📈 Data to start your week: AI boom, nowhere near the ceiling",
-      "url": "https://www.exponentialview.co/p/data-to-start-your-week-compute-crunch-may-2026",
-      "source": "Exponential View",
-      "type": "trend",
-      "date": "2026-05-04T11:15:50+00:00",
-      "summary": "The article argues that the AI boom is still in its early stages, with massive growth potential as access to compute becomes a key competitive moat. Product managers should focus on securing scalable compute resources now to stay ahead of the curve.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Competitive Analysis"
-      ]
-    },
-    {
-      "title": "The Myth of Prompt Portability: Why Your AI Foundation Keeps Moving",
-      "url": "https://medium.com/@adamrgoodman/the-myth-of-prompt-portability-why-your-ai-foundation-keeps-moving-1fbfca523883?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-05-04T11:06:01+00:00",
-      "summary": "The article explains that large prompts for AI models are not easily portable across different models or updates, as underlying foundations constantly evolve, causing prompts to break or lose effectiveness. It advises product managers to treat prompts as dynamic assets, regularly testing and adapting them rather than assuming a one‑time build will remain stable.",
-      "tags": [
-        "AI Strategy",
-        "Product Design",
-        "Product Culture"
-      ]
-    },
-    {
-      "title": "Google Earnings, Meta Earnings",
-      "url": "https://stratechery.com/2026/google-earnings-meta-earnings/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-05-04T10:00:00+00:00",
-      "summary": "Wall Street praised Google's earnings because it is successfully monetizing its AI investments, potentially through partnerships like Anthropic, whereas Meta's earnings were poorly received despite strong core performance. The contrast highlights the market's focus on immediate AI-driven revenue generation over traditional product metrics.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Metrics"
-      ]
-    },
-    {
-      "title": "Omi A11Y",
-      "url": "https://www.producthunt.com/products/omi-a11y-accessibility-scanner",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-05-04T09:52:31+00:00",
-      "summary": "The Omi A11Y extension provides a web accessibility scanner that helps teams identify and fix accessibility issues directly in the browser. For product managers, it offers a practical way to integrate accessibility checks into the development workflow, ensuring compliance and improving user experience across all users.",
-      "tags": [
-        "Product Design",
-        "User Research",
-        "Productivity"
-      ]
-    },
-    {
-      "title": "Denovo",
-      "url": "https://www.producthunt.com/products/denovo-business-manager",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-05-04T09:24:38+00:00",
-      "summary": "Turn your vibe-coded app into paying customers Discussion | Link",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
     }
   ]
 }
