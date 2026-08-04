@@ -1,7 +1,131 @@
 {
-  "updated": "2026-08-03T08:53:52.383074+00:00",
-  "total": 812,
+  "updated": "2026-08-04T08:02:40.520450+00:00",
+  "total": 815,
   "items": [
+    {
+      "title": "Redesigning Google Maps: Solving the Last-Mile Parking Problem",
+      "url": "https://medium.com/@kashreen13/redesigning-google-maps-solving-the-last-mile-parking-problem-d37a3db00ca2?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-04T07:44:21+00:00",
+      "summary": "The problem Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "If Your Product Only Works for Calm Users, It’s Broken",
+      "url": "https://medium.com/design-bootcamp/if-your-product-only-works-for-calm-users-its-broken-03ce748486c0?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-04T07:32:29+00:00",
+      "summary": "The useful part of inclusive design turned out to be a test suite and five lines in a definition of done. Continue reading on Bootcamp »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Stability AI: Senior Product Engineer, Growth & Lifecycle Infrastructure - Music & Audio",
+      "url": "https://weworkremotely.com/remote-jobs/stability-ai-senior-product-engineer-growth-lifecycle-infrastructure-music-audio",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-08-04T07:30:43+00:00",
+      "summary": "Headquarters: Los Angeles, CA or Remote (United States) Stability AI is a community and mission-driven, open artificial intelligence company that cares deeply about real-world implications and applications. Our most considerable advances grow from our diversity in working across",
+      "tags": [
+        "Career",
+        "Growth",
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Marvel Went Bankrupt in 1996. The Comeback Was Built on the Characters Nobody Wanted.",
+      "url": "https://medium.com/@aryan1999varma/marvel-went-bankrupt-in-1996-the-comeback-was-built-on-the-characters-nobody-wanted-6689504b64a9?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-08-04T06:16:45+00:00",
+      "summary": "On the Friday after Christmas in 1996, a comic book company filed for Chapter 11 protection. The paperwork listed $229 million in total… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Why 90% of Custom-Built Creator Platforms Never Launch",
+      "url": "https://medium.com/startup-insider-edge/why-custom-creator-platforms-never-launch-2026-84e29ced9b1f?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-08-04T04:34:19+00:00",
+      "summary": "The Standish Group has tracked software project outcomes for three decades, across more than 50,000 projects. Their most recent findings… Continue reading on StartupInsider »",
+      "tags": [
+        "Platform Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🎙️ How I AI: ChatGPT Codex Voice + browser + Sites: an expert’s AI workflow | Nick Baumann (OpenAI)",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-chatgpt-codex-voice-browser",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-08-03T15:02:21+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+      "tags": [
+        "AI Tools",
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "📈 Data to start your week",
+      "url": "https://www.exponentialview.co/p/data-to-start-your-week-3-aug-2026",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-08-03T14:02:35+00:00",
+      "summary": "AI is blurring jobs ⬆️ GenAI entertainment ⬆️ El Niño & stability ⬇️",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Ch. 9: Identifying Hidden Assumptions",
+      "url": "https://www.producttalk.org/cdh-book-club-august-2026/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-08-03T13:00:27+00:00",
+      "summary": "Continuous Discovery Habits turns five this year. And to celebrate we are reading the book together. Each month, I am releasing an in-depth reading guide that includes: The chapters we will be reading A preview of the most important concepts we'll be learning about Short videos y...",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "ChatGPT Codex Voice + browser + Sites: an expert’s AI workflow | Nick Baumann (OpenAI)",
+      "url": "https://www.lennysnewsletter.com/p/chatgpt-codex-voice-browser-sites",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-08-03T12:04:26+00:00",
+      "summary": "Watch now | 🎙️ChatGPT Voice now manages multiple threads, reads your screen, and runs background tasks, and Nick Baumann walks me through the whole workflow live",
+      "tags": [
+        "AI Tools",
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Meta Earnings, Meta’s Timing Problems, The Financial Tail",
+      "url": "https://stratechery.com/2026/meta-earnings-metas-timing-problems-the-financial-tail/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-08-03T10:00:00+00:00",
+      "summary": "Meta's earnings were a bit disappointing; future promises about AI products were more disconcerting.",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Copiar, externalizar o hacerlo en casa",
       "url": "https://manuarjo.medium.com/copiar-externalizar-o-hacerlo-en-casa-5d560fb76db1?source=rss------product_management-5",
@@ -60,6 +184,18 @@
       "tags": [
         "AI Strategy",
         "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "ZapDigits MCP",
+      "url": "https://www.producthunt.com/products/zapdigits",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-08-02T18:39:13+00:00",
+      "summary": "The MCP server for marketing data Discussion | Link",
+      "tags": [
+        "Product Strategy"
       ],
       "is_fallback": true
     },
@@ -1348,6 +1484,18 @@
         "Career",
         "AI Strategy",
         "Communication"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Driven",
+      "url": "https://www.producthunt.com/products/driven-ai",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-07-22T02:16:19+00:00",
+      "summary": "The trusted AI investment agent, from insight to action Discussion | Link",
+      "tags": [
+        "AI Strategy"
       ],
       "is_fallback": true
     },
@@ -10430,123 +10578,6 @@
       "type": "trend",
       "date": "2026-05-06T10:00:00+00:00",
       "summary": "Microsoft announced an \"agentic\" business model that embeds AI-driven autonomous agents into its enterprise offerings, signaling a shift toward AI-augmented workflows. Apple, while promoting AI capabilities in its Mac line, is grappling with component shortages in memory and chips, highlighting supply chain risks that could affect product rollout and performance.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Competitive Analysis"
-      ]
-    },
-    {
-      "title": "Ads in ChatGPT",
-      "url": "https://www.producthunt.com/products/chatgpt",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-05-06T03:17:32+00:00",
-      "summary": "The article introduces a new feature that lets businesses create, manage, and track advertising campaigns directly within ChatGPT, providing tools for targeting, budgeting, and performance analytics. Product managers can leverage this to explore new monetization channels and integrate ad experiences into conversational interfaces.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Metrics"
-      ]
-    },
-    {
-      "title": "Freepik Didn’t Just Build a Design Library. It Built an Entire Creative Economy.",
-      "url": "https://medium.com/write-a-catalyst/freepik-didnt-just-build-a-design-library-it-built-an-entire-creative-economy-9dca2b88eaa3?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-05-05T21:11:23+00:00",
-      "summary": "Freepik evolved from a simple asset library into a full-fledged creative economy platform, developing infrastructure that supports designers, contributors, and businesses. This strategic expansion leverages network effects and monetization tools to become a central hub for creative work, positioning Freepik as a critical player in the design ecosystem.",
-      "tags": [
-        "Product Strategy",
-        "Platform Strategy",
-        "Growth"
-      ]
-    },
-    {
-      "title": "DevPass by LLM Gateway",
-      "url": "https://www.producthunt.com/products/devpass-by-llm-gateway",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-05-05T19:14:26+00:00",
-      "summary": "The article introduces DevPass, a service that provides a unified gateway to multiple coding models through three flat-rate pricing plans, simplifying access and budgeting for development teams. This approach aims to streamline AI model integration, reduce vendor lock‑in, and accelerate product development cycles.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Pricing"
-      ]
-    },
-    {
-      "title": "Why SaaS freemium playbooks don’t work in AI, and what to do instead",
-      "url": "https://www.lennysnewsletter.com/p/why-saas-freemium-playbooks-dont",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-05-05T13:03:32+00:00",
-      "summary": "The article explains that traditional SaaS freemium models fail for AI products because the value is tied to model performance and data, not just feature access. It recommends a monetization strategy focused on usage-based pricing, tiered model quality, and value‑added services to align revenue with AI outcomes.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Pricing"
-      ]
-    },
-    {
-      "title": "Taste - All Things Product Podcast with Teresa Torres & Petra Wille",
-      "url": "https://www.producttalk.org/taste-all-things-product-podcast-with-teresa-torres-petra-wille/",
-      "source": "Product Talk",
-      "type": "article",
-      "date": "2026-05-05T13:00:33+00:00",
-      "summary": "In this episode, Petra Wille and Teresa Torres explore whether \"taste\"—the ability to discern quality and make nuanced choices—is a genuine competitive advantage for humans in the AI era or merely a buzzword. They discuss how product teams can cultivate and leverage taste to differentiate their offerings amidst rapid AI-driven automation.",
-      "tags": [
-        "AI Strategy",
-        "Product Design",
-        "Leadership"
-      ]
-    },
-    {
-      "title": "What scaling AI taught me about  product leadership in e-commerce marketplaces",
-      "url": "https://www.productledalliance.com/what-scaling-ai-taught-me-about-product-leadership-in-e-commerce-marketplaces/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-05-05T11:00:31+00:00",
-      "summary": "The article shares insights from eBay's product lead on how scaling AI across e-commerce marketplaces reshaped product leadership, emphasizing the need for cross-functional alignment, data-driven decision making, and rapid experimentation. It outlines practical approaches for integrating AI responsibly, balancing speed with quality, and fostering a culture that empowers teams to own AI-driven product outcomes.",
-      "tags": [
-        "AI Strategy",
-        "Leadership",
-        "Product Strategy"
-      ]
-    },
-    {
-      "title": "How I solved supply demand (chicken egg problem)",
-      "url": "https://medium.com/@sanjanawoodi123/how-i-solved-supply-demand-chicken-egg-problem-99e7c884b476?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-05-05T10:38:43+00:00",
-      "summary": "The article describes a product manager's method for tackling noisy demand signals and supply bottlenecks, using a confidence-weighted system to predict and balance chicken egg supply and demand. It outlines a data-driven approach to identify chokepoints, prioritize interventions, and improve forecasting accuracy from the ground up.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Metrics"
-      ]
-    },
-    {
-      "title": "Designing AI Intake Agents: From Customer Ideas to Product Insights",
-      "url": "https://medium.com/pragmatic-transformation/designing-ai-intake-agents-from-customer-ideas-to-product-insights-0a2f9e0eca63?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-05-05T10:17:02+00:00",
-      "summary": "The article provides a step-by-step framework for building AI-powered intake agents that collect customer ideas via chat or voice, evaluate their alignment with the product roadmap, and automate follow‑up actions like scheduling meetings and logging insights. It highlights best practices for integrating these agents into existing workflows to turn raw feedback into actionable product insights quickly.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Product Design"
-      ]
-    },
-    {
-      "title": "Amazon’s Durability",
-      "url": "https://stratechery.com/2026/amazons-durability/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-05-05T10:01:14+00:00",
-      "summary": "The article explains that while Amazon lagged in AI during the model training phase, its sustained long‑term investments have positioned it strongly for the current AI inference era. This shift gives Amazon a competitive edge in delivering scalable AI services to customers.",
       "tags": [
         "AI Strategy",
         "Product Strategy",
