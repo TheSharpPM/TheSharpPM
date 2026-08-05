@@ -1,7 +1,160 @@
 {
-  "updated": "2026-08-04T08:02:40.520450+00:00",
-  "total": 815,
+  "updated": "2026-08-05T08:04:43.237352+00:00",
+  "total": 816,
   "items": [
+    {
+      "title": "The AI Paradox",
+      "url": "https://medium.com/@carolina.valdez/the-ai-paradox-ed5ccd3db2b7?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-05T07:51:54+00:00",
+      "summary": "Everyone is asking the same question: Continue reading on Medium »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "PiggyVest: A Product Teardown of One of Nigeria’s Most Trusted Savings Platforms",
+      "url": "https://medium.com/@Oluwapelum/piggyvest-a-product-teardown-of-one-of-nigerias-most-trusted-savings-platforms-036b766094e4?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-05T07:48:38+00:00",
+      "summary": "Managing money isn’t difficult because people don’t know they should save, it’s difficult because spending is always easier than saving. Continue reading on Medium »",
+      "tags": [
+        "Platform Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Duolingo’s New Features Aren’t About Learning",
+      "url": "https://medium.com/product-powerhouse/duolingos-new-features-aren-t-about-learning-0f93c9aa190b?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-08-05T07:41:19+00:00",
+      "summary": "Focus Mode, streak frames, calendar reminders: three small updates, one retention playbook, and what it teaches product managers Continue reading on Product Notes »",
+      "tags": [
+        "Retention"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Top 7 Product Design Companies to work with in 2026",
+      "url": "https://medium.com/@design-growth/top-7-product-design-companies-to-work-with-in-2026-aeda03c5d791?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-08-05T05:20:29+00:00",
+      "summary": "Hiring a specialized product designer is hard. Building a full product design team from scratch is even harder, especially when your… Continue reading on Medium »",
+      "tags": [
+        "Product Design",
+        "Career"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Dover MCP",
+      "url": "https://www.producthunt.com/products/dover",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-08-04T23:35:35+00:00",
+      "summary": "Run your hiring process from Claude or ChatGPT Discussion | Link",
+      "tags": [
+        "AI Tools",
+        "Career"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "X Money",
+      "url": "https://www.producthunt.com/products/x-money-2",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-08-04T20:51:31+00:00",
+      "summary": "Your money, on the world's most powerful network. Discussion | Link",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Uptalent.io: Part-Time Brand & Outreach Assistant - B2B SaaS VC (Remote)",
+      "url": "https://weworkremotely.com/remote-jobs/uptalent-io-part-time-brand-outreach-assistant-b2b-saas-vc-remote-1",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-08-04T15:18:27+00:00",
+      "summary": "Headquarters: Argentina URL: http://uptalent.io Description Part-Time Brand & Outreach Assistant – B2B SaaS VC (Remote) Schedule: ~10-20 hours/week | Flexible | Central Time Zone Preferred Type: Part-Time | Remote Industry: Venture Capital / B2B SaaS Startups A leading early-stag...",
+      "tags": [
+        "Career",
+        "Communication",
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Power Digital: Growth Marketing Manager, B2B SaaS",
+      "url": "https://weworkremotely.com/remote-jobs/power-digital-growth-marketing-manager-b2b-saas-1",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-08-04T15:18:27+00:00",
+      "summary": "Headquarters: Remote - Costa Rica URL: http://powerdigital.com Who We Are: We are a tech-enabled growth firm–at the intersection of marketing, consulting & data intelligence–igniting revenue and brand recognition for leading and emerging companies around the world. As a people-fi...",
+      "tags": [
+        "Growth",
+        "Career",
+        "Metrics"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "OpenAI's Joshua Achiam: Did We Already Reach AGI?",
+      "url": "https://a16z.simplecast.com/episodes/openais-joshua-achiam-did-we-already-reach-agi-kjP0kXD4",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-08-04T14:56:48+00:00",
+      "summary": "Theo Jaffee is joined by Joshua Achiam, Chief Futurist at OpenAI, for a conversation on AI cybersecurity, frontier model capabilities, and why he believes society may have already crossed the threshold into an AGI-era without fully recognizing it. They discuss AI's rapidly advanc...",
+      "tags": [
+        "AI Strategy",
+        "AI Tools",
+        "Security"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "What if you’re not supposed to have a long-term plan?",
+      "url": "https://www.lennysnewsletter.com/p/what-if-youre-not-supposed-to-have",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-08-04T13:02:53+00:00",
+      "summary": "The case for career emergence",
+      "tags": [
+        "Career"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "When your product is an AI agent:  The new PLG playbook",
+      "url": "https://www.productledalliance.com/when-your-product-is-an-ai-agent-the-new-plg-playbook/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-08-04T12:00:17+00:00",
+      "summary": "Enterprise AI agents don't grow like traditional SaaS products do.",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Microsoft Earnings, Microsoft vs. Meta, The Efficiency Payoff",
+      "url": "https://stratechery.com/2026/microsoft-earnings-microsoft-vs-meta-the-efficiency-payoff/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-08-04T10:00:00+00:00",
+      "summary": "Microsoft's earnings were compelling because they showed a clarity of strategy, lower costs, and a tangibility of application. The reason why is scarier.",
+      "tags": [
+        "Productivity"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Redesigning Google Maps: Solving the Last-Mile Parking Problem",
       "url": "https://medium.com/@kashreen13/redesigning-google-maps-solving-the-last-mile-parking-problem-d37a3db00ca2?source=rss------product_management-5",
@@ -10439,149 +10592,6 @@
         "Product Strategy",
         "Growth",
         "AI Tools"
-      ]
-    },
-    {
-      "title": "Memoket Gem",
-      "url": "https://www.producthunt.com/products/memoket-gem",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-05-07T04:28:59+00:00",
-      "summary": "Memoket Gem is an AI-powered wearable that continuously records and organizes daily conversations, enabling users to recall and retrieve spoken information later. For product managers, its key challenges involve ensuring privacy compliance, seamless integration with existing communication tools, and delivering a compelling user experience that balances utility with data security.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Privacy"
-      ]
-    },
-    {
-      "title": "Code with Claude: The 5 biggest updates explained",
-      "url": "https://www.lennysnewsletter.com/p/code-with-claude-the-5-biggest-updates",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-05-07T01:39:47+00:00",
-      "summary": "The article recaps the five major new features Anthropic introduced during the Code with Claude event, highlighting enhancements to Claude's coding capabilities, integration options, and developer tooling. These updates aim to streamline AI-assisted development workflows and expand the platform's utility for product teams seeking to accelerate feature delivery.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "AI Strategy"
-      ]
-    },
-    {
-      "title": "Tendem by Toloka",
-      "url": "https://www.producthunt.com/products/tendem-by-toloka",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-05-06T21:23:37+00:00",
-      "summary": "Tandem by Toloka showcases how human experts collaborate with AI systems, highlighting the importance of human-in-the-loop workflows for reliable AI outputs. The article provides insights for product managers on integrating expert feedback loops to improve model performance and user trust.",
-      "tags": [
-        "AI Strategy",
-        "Product Design",
-        "Leadership"
-      ]
-    },
-    {
-      "title": "The Post-Mortem Of Skipping Pre-Build Validation",
-      "url": "https://medium.com/@wearecapicua/the-post-mortem-of-skipping-pre-build-validation-946073ab46ac?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-05-06T16:01:01+00:00",
-      "summary": "The article outlines a feature validation framework that helps product teams verify ideas before development, reducing costly rework and post‑launch failures. By applying structured pre‑build validation, teams can prioritize work that delivers real value and avoid the need for costly post‑mortems.",
-      "tags": [
-        "Product Strategy",
-        "Prioritization",
-        "Product Design"
-      ]
-    },
-    {
-      "title": "How AI in life sciences is  reshaping healthcare",
-      "url": "https://www.productledalliance.com/how-ai-in-life-sciences-is-reshaping-healthcare/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-05-06T14:00:32+00:00",
-      "summary": "The article explains how artificial intelligence is transforming the life sciences sector by accelerating drug discovery, improving diagnostic accuracy, and enabling personalized treatment plans. For product managers, this shift highlights new opportunities to integrate AI-driven features into healthcare products, streamline development cycles, and create value through data‑rich insights.",
-      "tags": [
-        "AI Strategy",
-        "AI Tools",
-        "Product Strategy"
-      ]
-    },
-    {
-      "title": "Quests, token leaderboards, and a skills marketplace: The elite AI adoption playbook | John Kim (Sendbird)",
-      "url": "https://www.lennysnewsletter.com/p/quests-token-leaderboards-and-a-skills",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-05-06T12:03:39+00:00",
-      "summary": "Sendbird’s CEO transformed AI adoption into a gamified product experience, using quests, token-based leaderboards, and a rapid‑deployment swag store to drive engagement without additional engineering resources. The playbook shows how to embed AI incentives and a skills marketplace into the product roadmap to boost user activation and retention.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Growth"
-      ]
-    },
-    {
-      "title": "The Illusion of Progress (Activity ≠ Progress)",
-      "url": "https://sagar-awasthi.medium.com/the-illusion-of-progress-activity-progress-345bbba48e0d?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-05-06T11:31:01+00:00",
-      "summary": "The article argues that a team's activity level often gives a false sense of progress, emphasizing the need for clear metrics and outcome-focused planning rather than just busy work. It advises product managers to define tangible goals, regularly evaluate impact, and align efforts with strategic objectives to ensure real advancement.",
-      "tags": [
-        "Metrics",
-        "Product Strategy",
-        "Leadership"
-      ]
-    },
-    {
-      "title": "Saydi",
-      "url": "https://www.producthunt.com/products/saydi",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-05-06T11:17:27+00:00",
-      "summary": "Saydi offers real-time voice translation, allowing users to hear conversations instantly in their preferred language. This tool can streamline multilingual communication for product teams and customers, enhancing global reach and user experience.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Growth"
-      ]
-    },
-    {
-      "title": "The workbench",
-      "url": "https://medium.com/no-time/the-workbench-3c5fac6ff8b0?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-05-06T11:17:18+00:00",
-      "summary": "The article shares a practical, everyday tip designed to boost efficiency and effectiveness in a product manager's routine work life. By implementing this simple strategy, you can streamline tasks and free up mental bandwidth for higher‑impact activities.",
-      "tags": [
-        "Productivity",
-        "Product Culture",
-        "Leadership"
-      ]
-    },
-    {
-      "title": "What Signals Misalignment Between UX and Product Strategy?",
-      "url": "https://medium.com/@marketingtd64/what-signals-misalignment-between-ux-and-product-strategy-6232de21ea31?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-05-06T10:52:09+00:00",
-      "summary": "The article explains how divergence between user experience (UX) and product strategy can manifest through inconsistent design decisions, neglected customer feedback, and misaligned metrics. It highlights warning signs such as fragmented user journeys, conflicting priorities between design and business goals, and a lack of shared ownership, offering guidance for product managers to realign teams and maintain a cohesive vision.",
-      "tags": [
-        "Product Strategy",
-        "Product Culture",
-        "Leadership"
-      ]
-    },
-    {
-      "title": "Microsoft Earnings, Apple Earnings",
-      "url": "https://stratechery.com/2026/microsoft-earnings-apple-earnings/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-05-06T10:00:00+00:00",
-      "summary": "Microsoft announced an \"agentic\" business model that embeds AI-driven autonomous agents into its enterprise offerings, signaling a shift toward AI-augmented workflows. Apple, while promoting AI capabilities in its Mac line, is grappling with component shortages in memory and chips, highlighting supply chain risks that could affect product rollout and performance.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Competitive Analysis"
       ]
     }
   ]
