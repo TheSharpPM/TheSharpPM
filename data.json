@@ -1,7 +1,131 @@
 {
-  "updated": "2026-08-05T08:04:43.237352+00:00",
-  "total": 816,
+  "updated": "2026-08-06T08:05:23.834941+00:00",
+  "total": 818,
   "items": [
+    {
+      "title": "Nobody owns experience",
+      "url": "https://medium.com/design-bootcamp/nobody-owns-experience-a739f0daad79?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-06T07:52:03+00:00",
+      "summary": "Why modern organisations accidentally fragment the very thing they’re trying to improve Continue reading on Bootcamp »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Experience debt",
+      "url": "https://medium.com/design-bootcamp/experience-debt-d2a24e9100fc?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-06T07:51:56+00:00",
+      "summary": "The debt your customers pay, long before your organisation does Continue reading on Bootcamp »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Jumio: Customer Escalation Engineer",
+      "url": "https://weworkremotely.com/remote-jobs/jumio-customer-escalation-engineer",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-08-06T07:30:42+00:00",
+      "summary": "Headquarters: Colombia (remote) Role Purpose The Customer Escalation Engineer supports Jumio’s enterprise customers by owning complex technical issues through resolution. This person serves as a product support subject matter expert for Jumio’s web, mobile, API, and SDK-based sol...",
+      "tags": [
+        "AI Strategy",
+        "Career",
+        "Communication"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Cyrano Paradox: Why $20 AI Matchmakers Are Killing Swipe Apps (and Ruining First Dates)",
+      "url": "https://medium.com/@nguyenan04102004/the-cyrano-paradox-why-20-ai-matchmakers-are-killing-swipe-apps-and-ruining-first-dates-003ed930e5c0?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-08-05T16:27:14+00:00",
+      "summary": "By An Nguyen — August 5, 2026 Continue reading on Medium »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🔮 Seven lessons for managing AI agents",
+      "url": "https://www.exponentialview.co/p/seven-lessons-for-managing-ai-agents",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-08-05T14:10:08+00:00",
+      "summary": "Plus, an updated stack of 50+ AI tools we use at Exponential View",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Call to Adventure",
+      "url": "https://www.producttalk.org/the-call-to-adventure/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-08-05T13:00:55+00:00",
+      "summary": "Share this article In June, I returned to Product at Heart in Hamburg, Germany. I love this event. Arne Kittler and Petra Wille do such an amazing job of curating a thoughtful lineup of speakers and they obsess over the attendee experience. If you are looking for a high-quality",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Build an AI code review bot in 30 minutes with Vercel Eve",
+      "url": "https://www.lennysnewsletter.com/p/build-an-ai-code-review-bot-in-30",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-08-05T12:04:01+00:00",
+      "summary": "Watch now | 🎙️ I used Vercel Eve agents and Codex to build Merge Mommy: a PR review bot that scores risk, auto-approves the easy ones, and pings me in Slack for the rest",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Brandfetch MCP",
+      "url": "https://www.producthunt.com/products/brandfetch",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-08-05T11:55:55+00:00",
+      "summary": "Stop your AI from guessing brand logos Discussion | Link",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Google Earnings, The Frontier Case, Amazon Earnings",
+      "url": "https://stratechery.com/2026/google-earnings-the-frontier-case-amazon-earnings/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-08-05T10:00:00+00:00",
+      "summary": "Google's earnings seemed to confirm the Anthropic hedge; it was Andy Jassy who explained why their — and Amazon's — capex was justifiable.",
+      "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Three Startups Reinventing Critical Infrastructure",
+      "url": "https://a16z.simplecast.com/episodes/three-startups-reinventing-critical-infrastructure-FkRDwjit",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-08-05T10:00:00+00:00",
+      "summary": "This week, a16z American Dynamism Films premiered three short documentaries highlighting companies tackling some of America's biggest industrial challenges: Ulysses, Mariana Materials, and Radiant. Before watching those films, we're revisiting conversations with the founders behi...",
+      "tags": [
+        "Security"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "The AI Paradox",
       "url": "https://medium.com/@carolina.valdez/the-ai-paradox-ed5ccd3db2b7?source=rss------product_management-5",
@@ -71,6 +195,18 @@
       "type": "trend",
       "date": "2026-08-04T20:51:31+00:00",
       "summary": "Your money, on the world's most powerful network. Discussion | Link",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Ododok",
+      "url": "https://www.producthunt.com/products/ododok",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-08-04T20:17:00+00:00",
+      "summary": "Count every chew with your AirPods Discussion | Link",
       "tags": [
         "Product Strategy"
       ],
@@ -10475,123 +10611,6 @@
         "Product Strategy",
         "User Research",
         "Metrics"
-      ]
-    },
-    {
-      "title": "Jotform Claude App",
-      "url": "https://www.producthunt.com/products/jotform",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-05-08T07:44:00+00:00",
-      "summary": "The article introduces the Jotform Claude App, which enables users to create, modify, and analyze forms directly within the Claude discussion platform, streamlining workflow and data collection. This integration aims to enhance productivity by consolidating form management and AI-powered insights in a single interface.",
-      "tags": [
-        "AI Tools",
-        "Productivity",
-        "Product Strategy"
-      ]
-    },
-    {
-      "title": "silverorange: Digital Product Lead",
-      "url": "https://weworkremotely.com/remote-jobs/silverorange-digital-product-lead",
-      "source": "We Work Remotely",
-      "type": "job",
-      "date": "2026-05-07T18:49:00+00:00",
-      "summary": "silverorange is a Canadian design and development agency with 26 years of experience delivering user‑focused digital products for notable tech firms, non‑profits, and education providers. As a Digital Product Lead, you would drive both product outcomes and the collaborative processes that underpin them, balancing client goals with high‑impact, meaningful solutions.",
-      "tags": [
-        "Product Strategy",
-        "Product Design",
-        "Product Culture"
-      ]
-    },
-    {
-      "title": "The Planet as a Stakeholder and “User-Centric” is No Longer Enough in 2026",
-      "url": "https://medium.com/@sonacatherine/the-planet-as-a-stakeholder-and-user-centric-is-no-longer-enough-in-2026-6175fcc0bf3d?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-05-07T11:23:04+00:00",
-      "summary": "The article argues that by 2026 product managers must expand their perspective beyond traditional user-centric design to treat the planet as an equal stakeholder, integrating sustainability into every decision. It outlines how aligning product strategy with environmental impact not only meets evolving regulatory and consumer expectations but also drives long-term business resilience.",
-      "tags": [
-        "Stakeholders",
-        "Product Strategy",
-        "Leadership"
-      ]
-    },
-    {
-      "title": "APIEval-20",
-      "url": "https://www.producthunt.com/products/kushoai",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-05-07T11:03:39+00:00",
-      "summary": "APIEval-20 is an open benchmark designed to evaluate AI agents' ability to interact with and test APIs, providing standardized metrics for performance and robustness. This resource helps product managers assess AI-driven integrations and guides improvements in agent reliability for API-dependent products.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Metrics"
-      ]
-    },
-    {
-      "title": "What's stopping product teams  from shipping embedded analytics?",
-      "url": "https://www.productledalliance.com/whats-stopping-product-teams-from-shipping-embedded-analytics/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-05-07T11:00:31+00:00",
-      "summary": "The article examines why product teams often fail to ship embedded analytics, highlighting structural hurdles such as fragmented data ownership, inadequate cross‑team coordination, and limited tooling. It offers a roadmap for aligning stakeholders, establishing clear data governance, and adopting scalable AI tools to embed analytics seamlessly into products.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Stakeholders"
-      ]
-    },
-    {
-      "title": "We Have Built Over 100 Mobile Games: Why Most Cost Estimates Are Inaccurate",
-      "url": "https://medium.com/@social_46823/we-have-built-over-100-mobile-games-why-most-cost-estimates-are-inaccurate-99ed7fd93c94?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-05-07T10:22:47+00:00",
-      "summary": "The article explains why traditional cost estimates for mobile game development, like the $30,000 budget for a mid‑core RPG, often miss the mark due to hidden complexities in gameplay systems, art pipelines, and ongoing post‑launch support. It outlines a more realistic budgeting approach based on feature breakdowns, iterative development, and contingency planning for unexpected scope changes.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Metrics"
-      ]
-    },
-    {
-      "title": "Why Software Is Becoming More Important Than Hardware",
-      "url": "https://jakubjirak.medium.com/why-software-is-becoming-more-important-than-hardware-d49a45bef197?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-05-07T10:02:38+00:00",
-      "summary": "The article argues that the value shift from hardware to software is driven by the need for scalable, updatable, and data-driven experiences, making software the primary differentiator in product competitiveness. For product managers, this underscores the importance of focusing on software strategy, continuous improvement cycles, and leveraging data to enhance user value.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Competitive Analysis"
-      ]
-    },
-    {
-      "title": "An Interview with Joanna Stern About Living With AI",
-      "url": "https://stratechery.com/2026/an-interview-with-joanna-stern-about-living-with-ai/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-05-07T10:00:00+00:00",
-      "summary": "The interview with Joanna Stern explores insights from her new book on everyday interactions with AI and her venture into founding a media company. She discusses how AI reshapes user experiences, the importance of ethical design, and the strategic considerations for product leaders building AI‑enabled offerings.",
-      "tags": [
-        "AI Strategy",
-        "Product Culture",
-        "Leadership"
-      ]
-    },
-    {
-      "title": "Nexpanse: Product Manager (B2C Subscription Utilities)",
-      "url": "https://weworkremotely.com/remote-jobs/nexpanse-product-manager-b2c-subscription-utilities",
-      "source": "We Work Remotely",
-      "type": "job",
-      "date": "2026-05-07T08:59:24+00:00",
-      "summary": "The role at Nexpanse focuses on owning the B2C subscription utility product from launch, with paying users and unit economics as the primary success metric. It blends product and marketing responsibilities, requiring you to drive product‑led growth through funnel optimization, landing pages, paywalls, feature enhancements, SEO, and leveraging AI coding projects.",
-      "tags": [
-        "Product Strategy",
-        "Growth",
-        "AI Tools"
       ]
     }
   ]
