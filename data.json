@@ -1,7 +1,80 @@
 {
-  "updated": "2026-08-06T08:05:23.834941+00:00",
-  "total": 818,
+  "updated": "2026-08-07T06:36:38.087706+00:00",
+  "total": 815,
   "items": [
+    {
+      "title": "Several Open Source PIM Platforms Rolled Out Major Updates: Here’s What’s New in 2026",
+      "url": "https://medium.com/kairi-ai/several-open-source-pim-platforms-rolled-out-major-updates-heres-what-s-new-in-2026-285a30f041b5?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-07T05:53:29+00:00",
+      "summary": "From AI-powered product enrichment to faster performance, discover the biggest changes in the latest open source PIM releases Continue reading on KAIRI »",
+      "tags": [
+        "AI Strategy",
+        "Platform Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Fitts’s Law: Why the Button Is Exactly Where It Is",
+      "url": "https://waffledesigns.medium.com/fittss-law-why-the-button-is-exactly-where-it-is-33fb88ea7ad1?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-07T05:26:01+00:00",
+      "summary": "In the early 1950s, the United States Air Force had a problem it could not explain by pilot error alone. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Product That Earned Its Own Disappearance",
+      "url": "https://medium.com/@samih.yedievli/the-product-that-earned-its-own-disappearance-8f4182af1e2a?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-08-06T14:50:24+00:00",
+      "summary": "What happens when you ask a leadership question about a machine Continue reading on Medium »",
+      "tags": [
+        "Leadership"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "No Shipping Is Not Always a Missing Feature",
+      "url": "https://medium.com/@chloe777/no-shipping-is-not-always-a-missing-feature-4c0d16b41794?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-08-06T12:00:22+00:00",
+      "summary": "When a product helps people discover secondhand items, the next question often arrives immediately: Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Finding your fit in the product organization:  Builders, scalers, and force multipliers",
+      "url": "https://www.productledalliance.com/finding-your-fit-in-the-product-org/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-08-06T11:00:34+00:00",
+      "summary": "Understand the three core product archetypes to identify your natural strengths and build a more fulfilling product career.",
+      "tags": [
+        "Career"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Engine Powering Open-Source AI",
+      "url": "https://a16z.simplecast.com/episodes/how-open-source-ai-became-critical-infrastructure-3yYJbsEz",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-08-06T10:00:00+00:00",
+      "summary": "Elena Burger and Matt Bornstein are joined by Simon Mo, co-founder and CEO of Inferact, the open-source inference engine powering many of today's most advanced AI applications. Together, they explore how open-source AI evolved from a research project into critical infrastructure,...",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Nobody owns experience",
       "url": "https://medium.com/design-bootcamp/nobody-owns-experience-a739f0daad79?source=rss------product_management-5",
@@ -37,6 +110,30 @@
         "AI Strategy",
         "Career",
         "Communication"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Shieldstral",
+      "url": "https://www.producthunt.com/products/mistral-7b",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-08-06T03:49:38+00:00",
+      "summary": "Define safety at runtime for text and images Discussion | Link",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Chute",
+      "url": "https://www.producthunt.com/products/chute-better-airdrop",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-08-05T22:44:20+00:00",
+      "summary": "The fastest way to send anything to your iPhone Discussion | Link",
+      "tags": [
+        "Product Strategy"
       ],
       "is_fallback": true
     },
@@ -10468,149 +10565,6 @@
         "Stakeholders",
         "Product Strategy",
         "Communication"
-      ]
-    },
-    {
-      "title": "Why Products Fail When Teams Treat Design Like Decoration",
-      "url": "https://medium.com/write-a-catalyst/why-products-fail-when-teams-treat-design-like-decoration-b1aa35764d1d?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-05-09T06:25:54+00:00",
-      "summary": "The article argues that product failures often stem from superficial design approaches rather than deep strategic thinking, emphasizing that design should guide problem solving and decision making. It urges teams to integrate design thinking throughout product development to avoid treating aesthetics as mere decoration.",
-      "tags": [
-        "Product Design",
-        "Product Strategy",
-        "Leadership"
-      ]
-    },
-    {
-      "title": "Adject 2.0",
-      "url": "https://www.producthunt.com/products/adject",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-05-08T19:29:52+00:00",
-      "summary": "Adject 2.0 introduces an AI-powered solution that generates hyperrealistic product visuals, enabling faster iteration and more compelling presentations. This tool streamlines the design workflow, reducing reliance on external renderers and accelerating go-to-market timelines.",
-      "tags": [
-        "AI Tools",
-        "Product Design",
-        "Productivity"
-      ]
-    },
-    {
-      "title": "John Neuhart: Building What Customers Hire You For in JTBD",
-      "url": "https://medium.com/@johnneuhart/john-neuhart-building-what-customers-hire-you-for-in-jtbd-6f6b003bbbd0?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-05-08T18:55:50+00:00",
-      "summary": "The article explains how the 'Hire' concept in Jobs To Be Done (JTBD) helps teams identify the true outcomes customers are seeking, allowing product managers to prioritize features that directly solve those jobs. By framing product decisions around what customers 'hire' a solution to do, teams can align roadmaps with real user needs and drive more effective, market‑focused outcomes.",
-      "tags": [
-        "Product Strategy",
-        "User Research",
-        "Growth"
-      ]
-    },
-    {
-      "title": "2026.19: Earning & Spending",
-      "url": "https://stratechery.com/2026/earning-spending/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-05-08T17:00:00+00:00",
-      "summary": "This weekly roundup recaps key insights from Big Tech's Q1 performance, highlights a strategic conversation with Joanna Stern on tech product trends, and explores upcoming opportunities for the Boston Celtics as a brand. Product managers can extract lessons on market dynamics, content strategy, and leveraging media partnerships to drive growth.",
-      "tags": [
-        "Product Strategy",
-        "Growth",
-        "Competitive Analysis"
-      ]
-    },
-    {
-      "title": "The PM to GM shift:  From building products to leading businesses",
-      "url": "https://www.productledalliance.com/the-pm-to-gm-shift-from-building-products-to-leading-businesses/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-05-08T15:00:28+00:00",
-      "summary": "The article explains how product managers are evolving into general managers, expanding their focus from pure product development to full business leadership, including profit and loss responsibility, cross‑functional coordination, and strategic growth. It outlines the new skill sets required—such as financial acumen, people leadership, and market positioning—and offers guidance for PMs to transition successfully.",
-      "tags": [
-        "Leadership",
-        "Product Strategy",
-        "Growth"
-      ]
-    },
-    {
-      "title": "Staff.rip",
-      "url": "https://www.producthunt.com/products/staff-rip",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-05-08T13:43:30+00:00",
-      "summary": "Staff.rip helps developers translate technical code changes into clear, plain-language descriptions that can be directly used in commit messages or release notes, streamlining the communication of updates to stakeholders. By simplifying the documentation process, it accelerates shipping cycles and reduces friction between engineering and product teams.",
-      "tags": [
-        "AI Tools",
-        "Productivity",
-        "Communication"
-      ]
-    },
-    {
-      "title": "InvestorFinder",
-      "url": "https://www.producthunt.com/products/investorfinder",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-05-08T11:03:01+00:00",
-      "summary": "InvestorFinder is a platform that helps founders discover investors who have previously backed companies with similar profiles or industries. By leveraging searchable data on past investments, it streamlines the outreach process and improves the relevance of investor-founder matches.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Growth"
-      ]
-    },
-    {
-      "title": "The great ui shrink: is minimalism a design philosophy or a corporate trap?",
-      "url": "https://medium.com/design-bootcamp/the-great-ui-shrink-is-minimalism-a-design-philosophy-or-a-corporate-trap-ee8e1cfe80e1?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-05-08T10:04:45+00:00",
-      "summary": "The article critiques the current trend toward ultra‑minimalist UI design, arguing that what began as a clarity‑focused philosophy has become a revenue‑driven tactic that limits user engagement and differentiates products. It warns product managers that excessive minimalism can trap users in a bland experience, reducing value and competitive advantage.",
-      "tags": [
-        "Product Strategy",
-        "Design",
-        "Growth"
-      ]
-    },
-    {
-      "title": "Stakeholder interviews: useful questions and a practical guide to run them well",
-      "url": "https://medium.com/@hanna.smarhunova/stakeholder-interviews-useful-questions-and-a-practical-guide-to-run-them-well-f7de10656fcf?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-05-08T09:51:52+00:00",
-      "summary": "The article provides a step-by-step framework for conducting stakeholder interviews, emphasizing the need for preparation, structured questioning, and post-interview follow‑up. It includes a curated list of effective questions and practical tips to ensure interviews yield actionable insights for product decisions.",
-      "tags": [
-        "Stakeholders",
-        "Product Strategy",
-        "Communication"
-      ]
-    },
-    {
-      "title": "Human-Centered AI: The 5 Questions You Should Ask Before Deploying Any AI System",
-      "url": "https://aderayointech.medium.com/human-centered-ai-the-5-questions-you-should-ask-before-deploying-any-ai-system-2aab3eb3d11b?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-05-08T09:20:50+00:00",
-      "summary": "The article outlines a human‑centered framework for deploying AI, focusing on five critical questions that ensure ethical, practical, and user‑focused outcomes. It emphasizes aligning AI capabilities with real user needs, assessing risk and bias, planning for transparency, and establishing measurable success criteria before launch.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "User Research"
-      ]
-    },
-    {
-      "title": "Product Strategy Without Buzzwords",
-      "url": "https://barisgunduz.medium.com/product-strategy-without-buzzwords-25cf4315ac01?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-05-08T08:42:16+00:00",
-      "summary": "The article argues that product strategy is often reduced to buzzwords and vague statements, emphasizing that a solid strategy should be grounded in clear, measurable goals, deep user understanding, and a realistic assessment of market dynamics. It offers practical guidance for product managers to move beyond jargon by focusing on problem validation, prioritization frameworks, and continuous alignment with business outcomes.",
-      "tags": [
-        "Product Strategy",
-        "User Research",
-        "Metrics"
       ]
     }
   ]
