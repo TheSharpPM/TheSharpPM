@@ -1789,6 +1789,23 @@ def run_agent():
                     }
                 except Exception:
                     pass
+                # Emit a dedicated Langfuse span whose OUTPUT is the
+                # accepted edition. Langfuse LLM-as-judge evaluators
+                # can only target observations (not the trace itself),
+                # so this span is what evals filter on:
+                #   Type = SPAN AND Name = "editorial_published"
+                # Its output.editorial / output.headline_theme etc.
+                # are exactly the fields the templates reference.
+                if trace:
+                    try:
+                        trace.span(
+                            name="editorial_published",
+                            input=None,
+                            output=published_edition,
+                            metadata={"edition_date": date, "model": MODEL},
+                        )
+                    except Exception as e:
+                        print(f"  langfuse span emit failed (continuing): {e}")
             # Count publish_edition rejections from quality gates so we
             # can bail out instead of looping forever if calibration is
             # off. The gates all use "Refusing to publish" prefix. Also
