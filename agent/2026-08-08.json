@@ -1,0 +1,52 @@
+{
+  "edition": "2026-08-08",
+  "headline_theme": "AI agents amplify, don’t replace, product judgment",
+  "target_audience": "Lead/Principal PM",
+  "hook_source": "Exponential View",
+  "editorial": "Azeem Azhar’s Exponential View piece, “Seven lessons for managing AI agents,” warns that most AI assistants become data‑guzzlers, leaving PMs drowning in metrics instead of steering strategy. The same pattern shows up in Teresa Torres’s Product Talk guide, where teams spend weeks mapping five types of assumptions only to discover they’ve built a feature nobody wants. Meanwhile, a Medium post touting AI agents as a shortcut for PMs glosses over the hidden cost: every “auto‑generated insight” is a new hypothesis that still needs validation. The reality is that AI is reshaping the PM’s workload, not the decision itself – it’s a tool that amplifies the same old bias toward shipping over solving.\n\nThe synthesis is simple: AI agents excel at surface‑level pattern detection, but they can’t replace the deep, hypothesis‑driven discovery that underpins successful products. Torres’s assumption‑mapping framework reminds us that every product idea rests on at least five distinct assumptions – desirability, viability, feasibility, usability, and ethics. If an AI agent flags a “high‑impact” metric, the PM’s job is to test which of those five assumptions it actually validates. The Medium hype piece claims AI will cut research cycles by half, yet no evidence shows that teams can skip the pre‑mortem or the continuous discovery rituals that keep those assumptions honest. In short, AI shifts the bottleneck from idea generation to assumption testing.\n\nLead/Principal PMs should treat AI as a diagnostic instrument, not a decision engine. First, audit every AI‑generated recommendation against the five assumption categories and surface the underlying hypothesis. Second, embed a rapid pre‑mortem step before acting on any AI insight, ensuring ethical and feasibility risks are surfaced early. Third, champion cross‑functional “assumption review” cadences where data scientists, designers, and engineers collectively validate AI signals. By anchoring AI output to rigorous discovery practices, senior leaders keep the product compass pointed at real user needs rather than algorithmic noise.",
+  "key_takeaways": [
+    "AI agents excel at surfacing patterns but add a layer of hypotheses that still need human validation.",
+    "Every product idea rests on five core assumptions; AI insights must be mapped to them.",
+    "Hype about halving research cycles ignores the essential pre‑mortem and continuous discovery work."
+  ],
+  "must_reads": [
+    {
+      "source": "Exponential View",
+      "title": "Seven lessons for managing AI agents",
+      "url": "https://www.exponentialview.co/p/seven-lessons-for-managing-ai-agents",
+      "why": "Azhar shows that AI agents quickly become data‑hungry, forcing PMs to spend more time curating signals than making strategic calls."
+    },
+    {
+      "source": "Product Talk",
+      "title": "Ch. 9: Identifying Hidden Assumptions",
+      "url": "https://www.producttalk.org/cdh-book-club-august-2026/",
+      "why": "Torres’s framework forces teams to surface the five assumption types that AI‑generated metrics often hide, keeping discovery grounded."
+    },
+    {
+      "source": "Medium",
+      "title": "AI Agents For Product Managers",
+      "url": "https://medium.com/@bhushannemade2001/ai-agents-for-product-managers-b2dfe10adf82",
+      "why": "The article’s promise of cutting research time by half illustrates the seductive but misleading narrative that AI will replace core PM work."
+    }
+  ],
+  "contrarian": {
+    "note": "Ben Thompson argues that AI will amplify product intuition rather than replace human judgment, directly opposing the view that AI agents erode PM decision authority.",
+    "source": "Stratechery",
+    "title": "Product Management – Stratechery by Ben Thompson",
+    "url": "https://stratechery.com/concept/product-management"
+  },
+  "also_worth": [
+    {
+      "source": "Medium",
+      "title": "AI Agents For Product Managers",
+      "url": "https://medium.com/@bhushannemade2001/ai-agents-for-product-managers-b2dfe10adf82"
+    }
+  ],
+  "pm_homework": [
+    "Map each AI‑suggested insight to one of the five assumption categories and write a one‑sentence hypothesis.",
+    "Run a rapid pre‑mortem on the top three AI‑driven opportunities before committing resources.",
+    "Facilitate a cross‑functional assumption review meeting this sprint to validate AI signals."
+  ],
+  "generated_at": "2026-08-08T18:54:26.978140+00:00",
+  "model_used": "openai/gpt-oss-120b"
+}
