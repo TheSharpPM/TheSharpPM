@@ -5,3 +5,4 @@
 feedparser==6.0.12
 requests==2.34.0
 groq==1.2.0
+langfuse==2.60.0
