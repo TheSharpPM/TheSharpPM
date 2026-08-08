@@ -1,7 +1,121 @@
 {
-  "updated": "2026-08-07T06:36:38.087706+00:00",
-  "total": 815,
+  "updated": "2026-08-08T06:07:33.512415+00:00",
+  "total": 821,
   "items": [
+    {
+      "title": "Enterprise Food Delivery Platform Architecture: Advanced Engineering & Production Implementation…",
+      "url": "https://sagar-awasthi.medium.com/enterprise-food-delivery-platform-architecture-advanced-engineering-production-implementation-aa628b71e01a?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-08T05:31:01+00:00",
+      "summary": "While Part 1 detailed core microservices, schemas, state transitions, and dispatch fundamentals, Part 2 dives into production-grade… Continue reading on Medium »",
+      "tags": [
+        "Platform Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Satu Cara Berpikir, Dua Masalah Bisnis Berbeda",
+      "url": "https://medium.com/@milhamaz/satu-cara-berpikir-dua-masalah-bisnis-berbeda-faed8bfc06f2?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-08-08T05:21:01+00:00",
+      "summary": "Di tulisan sebelumnya, saya membangun peta yang menjawab satu pertanyaan: cabang mana yang terlalu bergantung pada satu customer besar… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "If I were breaking into fintech PM today, here’s where I’d actually focus",
+      "url": "https://medium.com/@ghoshadave/if-i-were-breaking-into-fintech-pm-today-heres-where-i-d-actually-focus-5b444768a132?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-08T04:41:01+00:00",
+      "summary": "It’s not a PM shortage - it’s a shortage of PMs who can hold two skills at once Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Reddit: Group Product Manager, Finance Technology",
+      "url": "https://weworkremotely.com/remote-jobs/reddit-group-product-manager-finance-technology",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-08-07T18:27:08+00:00",
+      "summary": "Headquarters: Remote URL: https://redditinc.com/ Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics the...",
+      "tags": [
+        "AI Strategy",
+        "Career",
+        "Prioritization"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "2026.32: Earnings and Learnings",
+      "url": "https://stratechery.com/2026/earnings-and-learnings/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-08-07T17:29:02+00:00",
+      "summary": "The best Stratechery content from the week of August 3, 2026, including earnings exposure, OpenAI's answer to Apple, and all about LeBron in Philly.",
+      "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Death of Chat Limits: How OpenAI Used GPT-5.6",
+      "url": "https://medium.com/@nguyenan04102004/the-death-of-chat-limits-how-openai-used-gpt-5-6-fe5de6e316ca?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-08-07T16:23:24+00:00",
+      "summary": "By An Nguyen — August 7, 2026 Continue reading on Medium »",
+      "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Demo before memo:  How Komodo shifted its PDLC from planning to prototyping",
+      "url": "https://www.productledalliance.com/how-komodo-shifted-its-pdlc-from-planning-to-prototyping/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-08-07T15:00:56+00:00",
+      "summary": "Prototype first, document later: a new rhythm for product teams.",
+      "tags": [
+        "Product Design"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Reality of AI-Powered Cyberattacks | Truffle Security & Socket",
+      "url": "https://a16z.simplecast.com/episodes/the-reality-of-ai-powered-cyberattacks-truffle-security-socket-vbyiWFXA",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-08-07T10:00:00+00:00",
+      "summary": "Joel De La Garza is joined by Dylan Ayrey, co-founder and CEO of Truffle Security, and Feross Aboukhadijeh, founder and CEO of Socket, to discuss one of the biggest shifts happening in cybersecurity: AI models are no longer just finding vulnerabilities—they're exploiting them. As...",
+      "tags": [
+        "Security",
+        "AI Strategy",
+        "Platform Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Coinbase: Forward Deployed Engineer, Compliance [Office of the CTO]",
+      "url": "https://weworkremotely.com/remote-jobs/coinbase-forward-deployed-engineer-compliance-office-of-the-cto",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-08-07T07:31:06+00:00",
+      "summary": "Headquarters: Remote - USA Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place t...",
+      "tags": [
+        "Career",
+        "Compliance",
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Several Open Source PIM Platforms Rolled Out Major Updates: Here’s What’s New in 2026",
       "url": "https://medium.com/kairi-ai/several-open-source-pim-platforms-rolled-out-major-updates-heres-what-s-new-in-2026-285a30f041b5?source=rss------product_management-5",
@@ -22,6 +136,18 @@
       "type": "article",
       "date": "2026-08-07T05:26:01+00:00",
       "summary": "In the early 1950s, the United States Air Force had a problem it could not explain by pilot error alone. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "HAR",
+      "url": "https://www.producthunt.com/products/har",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-08-06T14:56:17+00:00",
+      "summary": "Open Source harness for multi-agent coding workflows Discussion | Link",
       "tags": [
         "Product Strategy"
       ],
@@ -609,6 +735,18 @@
         "AI Strategy",
         "Communication",
         "Product Design"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "ShootClip",
+      "url": "https://www.producthunt.com/products/shootclip",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-08-02T10:43:52+00:00",
+      "summary": "Edit videos 10x faster with AI Discussion | Link",
+      "tags": [
+        "AI Strategy"
       ],
       "is_fallback": true
     },
@@ -10500,71 +10638,6 @@
         "AI Strategy",
         "Product Strategy",
         "Product Design"
-      ]
-    },
-    {
-      "title": "🔮 Exponential View #573: Are the AI labs building for an intelligence explosion?",
-      "url": "https://www.exponentialview.co/p/ev-573",
-      "source": "Exponential View",
-      "type": "trend",
-      "date": "2026-05-10T03:05:00+00:00",
-      "summary": "The article explores whether AI labs are intentionally developing systems aimed at creating an intelligence explosion, examining the strategic motivations and potential risks behind such pursuits. It also touches on related topics like upcoming Mythos events, job market shifts, fusion economics, and emerging concepts of AI personhood.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Leadership"
-      ]
-    },
-    {
-      "title": "The Gondal Framework: A Unified Theory of Product Viability",
-      "url": "https://medium.com/@talalahmadgondal/the-gondal-framework-a-unified-theory-of-product-viability-bcb8f710dd58?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-05-10T00:54:24+00:00",
-      "summary": "The article introduces the Gondal Framework, a unified theory derived from literature review and qualitative research that defines the key dimensions influencing product viability. It outlines how product managers can assess viability across market fit, technical feasibility, and business sustainability to make more informed decisions.",
-      "tags": [
-        "Product Strategy",
-        "Metrics",
-        "Product Design"
-      ]
-    },
-    {
-      "title": "🧠 Community Wisdom: What to do when non-PMs start shipping directly to production, thoughts on Claude Code’s pricing A/B test, the use of gen AI in games, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-what-to-do-when",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-05-09T18:18:35+00:00",
-      "summary": "The article discusses challenges when non‑product managers start pushing code directly to production, offering guidance on maintaining governance and cross‑functional alignment. It also reviews Claude Code’s pricing A/B test and explores the growing role of generative AI in game development, highlighting strategic considerations for product teams.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Leadership"
-      ]
-    },
-    {
-      "title": "Engagement is Dead. Long Live Intention.",
-      "url": "https://yutha.medium.com/engagement-is-dead-long-live-live-intention-60103919781c?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-05-09T11:43:32+00:00",
-      "summary": "The article argues that traditional engagement metrics are becoming obsolete in the AI-driven product landscape, urging product managers to focus on measuring user intention instead. It outlines how intent signals can guide feature prioritization, improve personalization, and drive sustainable growth in consumer apps undergoing AI transformation.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Metrics"
-      ]
-    },
-    {
-      "title": "The “Last-Minute Feature” Friction: Navigating the Gap Between Stakeholder Vision and Developer…",
-      "url": "https://medium.com/@liyu4947/the-last-minute-feature-friction-navigating-the-gap-between-stakeholder-vision-and-developer-c181511e205a?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-05-09T09:52:58+00:00",
-      "summary": "The article examines the common problem of last‑minute feature requests that emerge during the final product reveal, highlighting how misaligned stakeholder expectations and rushed developer handoffs can jeopardize delivery quality and timelines. It offers practical tactics for product managers to set clearer boundaries, improve communication, and incorporate structured validation to prevent costly rework.",
-      "tags": [
-        "Stakeholders",
-        "Product Strategy",
-        "Communication"
       ]
     }
   ]
