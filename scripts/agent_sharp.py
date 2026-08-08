@@ -27,6 +27,32 @@ from urllib.parse import urlparse
 
 from groq import Groq
 
+# Langfuse is optional. If the package is missing or credentials are
+# not configured, tracing is silently disabled - we never let telemetry
+# break a run. Local dev without keys just skips instrumentation.
+try:
+    from langfuse import Langfuse
+    _LANGFUSE_AVAILABLE = True
+except ImportError:
+    _LANGFUSE_AVAILABLE = False
+
+
+def _get_langfuse():
+    """Return a Langfuse client if package + credentials are available.
+    Returns None otherwise. Never raises - all telemetry is best-effort."""
+    if not _LANGFUSE_AVAILABLE:
+        return None
+    pk = os.environ.get("LANGFUSE_PUBLIC_KEY")
+    sk = os.environ.get("LANGFUSE_SECRET_KEY")
+    if not pk or not sk:
+        return None
+    host = os.environ.get("LANGFUSE_HOST", "https://cloud.langfuse.com")
+    try:
+        return Langfuse(public_key=pk, secret_key=sk, host=host)
+    except Exception as e:
+        print(f"  langfuse init failed (continuing without tracing): {e}")
+        return None
+
 
 # ── CONFIG ────────────────────────────────────────────────────────────────────
 
@@ -1418,6 +1444,64 @@ def run_agent():
         {"role": "user", "content": user_turn},
     ]
 
+    # Root Langfuse trace for the entire run. Every iteration's Groq
+    # call attaches as a child generation, so the dashboard shows one
+    # collapsible tree per edition.
+    langfuse = _get_langfuse()
+    trace = None
+    if langfuse:
+        try:
+            trace = langfuse.trace(
+                name="agent_sharp_run",
+                metadata={
+                    "edition_date": date,
+                    "model": MODEL,
+                    "max_iterations": MAX_ITERATIONS,
+                },
+                tags=["agent_sharp", "weekly"],
+            )
+        except Exception as e:
+            print(f"  langfuse trace init failed (continuing): {e}")
+            trace = None
+
+    # These trackers are used both by the run logic and by
+    # _finalize_trace when scoring the outcome. Declared early so the
+    # nested finalizer captures them via closure.
+    publish_rejects = 0
+    schema_retries = 0
+    iteration = 0
+
+    def _finalize_trace(outcome_name):
+        """Attach outcome + counters to the trace, score, and flush.
+        Best-effort - never raises. Safe to call at any exit point."""
+        if trace:
+            try:
+                trace.update(output={
+                    "outcome": outcome_name,
+                    "publish_rejects": publish_rejects,
+                    "schema_retries": schema_retries,
+                    "iterations_used": iteration,
+                })
+                trace.score(
+                    name="published",
+                    value=1 if outcome_name == "published" else 0,
+                )
+                trace.score(
+                    name="publish_rejects",
+                    value=publish_rejects,
+                )
+                trace.score(
+                    name="iterations_used",
+                    value=iteration,
+                )
+            except Exception as e:
+                print(f"  langfuse finalize failed (continuing): {e}")
+        if langfuse:
+            try:
+                langfuse.flush()
+            except Exception:
+                pass
+
     print(f"Agent Sharp - starting run for {date}\n")
 
     # Perturbed temperatures used on tool_use_failed retries. Cycling
@@ -1425,7 +1509,6 @@ def run_agent():
     # bad-output pattern (malformed function tags, repeated invalid
     # arguments).
     RETRY_TEMPERATURES = [1.0, 0.4, 1.1]
-    schema_retries = 0
     rate_limit_retries = 0
     # If the model returns assistant text without any tool call, we nudge
     # it back into the tool loop once. Cap at 1 to avoid an infinite
@@ -1444,7 +1527,6 @@ def run_agent():
     # loop forever. Capping at 4 lets the model fix 3 distinct issues
     # in sequence before we abort the run.
     MAX_PUBLISH_REJECTS = 4
-    publish_rejects = 0
     for iteration in range(1, MAX_ITERATIONS + 1):
         print(f"[iter {iteration}]")
         # On the first turn, force the agent to actually call a tool.
@@ -1471,6 +1553,33 @@ def run_agent():
         # the messages array from growing past the per-request TPM cap
         # as iterations stack up.
         trim_message_history(messages)
+
+        # Open a Langfuse generation for this iteration. Best-effort:
+        # any failure here does not affect the actual model call.
+        generation = None
+        if trace:
+            try:
+                generation = trace.generation(
+                    name=f"iter_{iteration}",
+                    model=MODEL,
+                    model_parameters={
+                        "temperature": current_temp,
+                        "tool_choice": (
+                            tool_choice if isinstance(tool_choice, str)
+                            else f"forced:{tool_choice.get('function', {}).get('name', '?')}"
+                        ),
+                    },
+                    input=messages,
+                    metadata={
+                        "iteration": iteration,
+                        "schema_retries": schema_retries,
+                        "publish_rejects": publish_rejects,
+                    },
+                )
+            except Exception as e:
+                print(f"  langfuse generation open failed (continuing): {e}")
+                generation = None
+
         try:
             response = client.chat.completions.create(
                 model=MODEL,
@@ -1481,6 +1590,16 @@ def run_agent():
             )
         except Exception as e:
             error_str = str(e)
+            # Log the failed call to Langfuse before falling through to
+            # the recovery logic below.
+            if generation:
+                try:
+                    generation.end(
+                        level="ERROR",
+                        status_message=error_str[:500],
+                    )
+                except Exception:
+                    pass
             # Groq validation errors that we treat as recoverable:
             # - tool_use_failed: schema mismatch on arguments or
             #   malformed function-tag emission
@@ -1542,10 +1661,39 @@ def run_agent():
                     time.sleep(RATE_LIMIT_SLEEP_SECONDS)
                 continue
             print(f"  Groq error: {e}")
+            _finalize_trace("groq_error")
             return 1
 
         message = response.choices[0].message
         tool_calls = message.tool_calls or []
+
+        # Close the Langfuse generation with the successful output +
+        # token usage. Groq exposes usage on response.usage.
+        if generation:
+            try:
+                usage_obj = getattr(response, "usage", None)
+                usage_dict = None
+                if usage_obj:
+                    usage_dict = {
+                        "input": getattr(usage_obj, "prompt_tokens", 0),
+                        "output": getattr(usage_obj, "completion_tokens", 0),
+                        "total": getattr(usage_obj, "total_tokens", 0),
+                    }
+                generation.end(
+                    output={
+                        "content": message.content,
+                        "tool_calls": [
+                            {
+                                "name": tc.function.name,
+                                "arguments": tc.function.arguments,
+                            }
+                            for tc in tool_calls
+                        ],
+                    },
+                    usage=usage_dict,
+                )
+            except Exception as e:
+                print(f"  langfuse generation close failed (continuing): {e}")
 
         assistant_msg = {"role": "assistant", "content": message.content}
         if tool_calls:
@@ -1588,6 +1736,7 @@ def run_agent():
                 })
                 continue
             print("  Agent produced no tool calls. Stopping.")
+            _finalize_trace("no_tool_call")
             return 1
 
         published = False
@@ -1631,11 +1780,13 @@ def run_agent():
                         f"infinite retry loop. Last error: "
                         f"{str(result.get('error',''))[:300]}"
                     )
+                    _finalize_trace("aborted_max_rejects")
                     return 1
                 force_publish_next = True
 
         if published:
             print("\nDone.")
+            _finalize_trace("published")
             return 0
 
         # If the agent has done enough research but is still spinning,
@@ -1668,6 +1819,7 @@ def run_agent():
             })
 
     print(f"\nERROR: agent hit max iterations ({MAX_ITERATIONS}) without publishing.")
+    _finalize_trace("max_iterations")
     return 1
 
 
