@@ -1471,17 +1471,29 @@ def run_agent():
     schema_retries = 0
     iteration = 0
 
+    # Captured when publish_edition succeeds. Copied to trace output so
+    # Langfuse LLM-as-judge evaluators can reference the editorial with
+    # a simple `{{output.editorial}}` variable, instead of digging
+    # through nested tool call arguments.
+    published_edition = {}
+
     def _finalize_trace(outcome_name):
-        """Attach outcome + counters to the trace, score, and flush.
-        Best-effort - never raises. Safe to call at any exit point."""
+        """Attach outcome + counters (and, if published, the full
+        edition) to the trace, score, and flush. Best-effort - never
+        raises. Safe to call at any exit point."""
         if trace:
             try:
-                trace.update(output={
+                output_payload = {
                     "outcome": outcome_name,
                     "publish_rejects": publish_rejects,
                     "schema_retries": schema_retries,
                     "iterations_used": iteration,
-                })
+                }
+                # Merge the published edition at top level so evals can
+                # do {{output.editorial}}, {{output.headline_theme}},
+                # {{output.must_reads}}, etc.
+                output_payload.update(published_edition)
+                trace.update(output=output_payload)
                 trace.score(
                     name="published",
                     value=1 if outcome_name == "published" else 0,
@@ -1758,6 +1770,25 @@ def run_agent():
                     and result.get("status") == "published"):
                 published = True
                 print(f"  [published] {result.get('file')}")
+                # Capture the accepted edition args for the trace
+                # output. This is what Langfuse evaluators score
+                # against. Only the fields we might want to eval are
+                # kept - skip must_reads/contrarian internals to keep
+                # the payload lean.
+                try:
+                    published_edition = {
+                        "edition_date": date,
+                        "headline_theme": args.get("headline_theme"),
+                        "editorial": args.get("editorial"),
+                        "target_audience": args.get("target_audience"),
+                        "hook_source": args.get("hook_source"),
+                        "key_takeaways": args.get("key_takeaways"),
+                        "pm_homework": args.get("pm_homework"),
+                        "must_reads": args.get("must_reads"),
+                        "contrarian": args.get("contrarian"),
+                    }
+                except Exception:
+                    pass
             # Count publish_edition rejections from quality gates so we
             # can bail out instead of looping forever if calibration is
             # off. The gates all use "Refusing to publish" prefix. Also
