@@ -1,7 +1,32 @@
 {
-  "updated": "2026-08-08T06:07:33.512415+00:00",
+  "updated": "2026-08-08T16:05:14.170647+00:00",
   "total": 821,
   "items": [
+    {
+      "title": "The 80% Problem: Why First-Time Investors on Stable Money Never Came Back",
+      "url": "https://medium.com/@siddhantmohapatra8989/the-80-problem-why-first-time-investors-on-stable-money-never-came-back-f45682eaf99b?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-08T14:50:27+00:00",
+      "summary": "How I diagnosed a “habit” problem hiding behind a “satisfaction” metric — and turned it into a PRD, an AI layer, and a live MVP. Continue reading on Medium »",
+      "tags": [
+        "AI Strategy",
+        "Metrics"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "CURE YOUR DIABETES WITH EVIDENCECURE AI",
+      "url": "https://medium.com/@rasahrarampur/cure-your-diabetes-with-evidencecure-a6dc30f59ada?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-08T14:07:07+00:00",
+      "summary": "Defeating venomous traditions and practices, And how EvidenceCure is putting up a fight against them. Continue reading on Medium »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Enterprise Food Delivery Platform Architecture: Advanced Engineering & Production Implementation…",
       "url": "https://sagar-awasthi.medium.com/enterprise-food-delivery-platform-architecture-advanced-engineering-production-implementation-aa628b71e01a?source=rss------product_management-5",
@@ -35,6 +60,32 @@
       "summary": "It’s not a PM shortage - it’s a shortage of PMs who can hold two skills at once Continue reading on Medium »",
       "tags": [
         "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Basedash Subscriptions",
+      "url": "https://www.producthunt.com/products/basedash",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-08-08T04:18:54+00:00",
+      "summary": "Subscribe to any dashboard. Delivered on schedule. Discussion | Link",
+      "tags": [
+        "Metrics",
+        "Pricing"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Toolport",
+      "url": "https://www.producthunt.com/products/conduit-12",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-08-07T20:20:13+00:00",
+      "summary": "Every tool, one port. One MCP setup for all your AI agents Discussion | Link",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
       ],
       "is_fallback": true
     },
@@ -10586,58 +10637,6 @@
         "AI Strategy",
         "Product Strategy",
         "Leadership"
-      ]
-    },
-    {
-      "title": "I Killed Our Blog and Built a Lab",
-      "url": "https://www.productcoalition.com/p/i-killed-our-blog-and-built-a-lab",
-      "source": "Product Coalition",
-      "type": "article",
-      "date": "2026-05-10T14:51:50+00:00",
-      "summary": "The founder shares how he discontinued the company blog to focus resources on developing ExecReps.ai, a new AI-driven product lab. He outlines the strategic shift, the challenges of reallocation, and the early results of concentrating on AI tools for executive recruitment.",
-      "tags": [
-        "AI Strategy",
-        "AI Tools",
-        "Product Strategy"
-      ]
-    },
-    {
-      "title": "How to build a company that withstands any era | Eric Ries, Lean Startup author",
-      "url": "https://www.lennysnewsletter.com/p/how-to-build-a-company-that-withstands",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-05-10T12:03:32+00:00",
-      "summary": "Eric Ries explains how mission-driven companies often fall short because they focus on hope rather than a repeatable, data‑driven process, and he outlines the organizational structures that enable resilience across market shifts. He also highlights why a minority of founders stay as CEOs after IPO and recommends a specific Delaware filing to protect founder control and align incentives.",
-      "tags": [
-        "Leadership",
-        "Product Strategy",
-        "Product Culture"
-      ]
-    },
-    {
-      "title": "Why More People Are Taking Emergency Preparedness Seriously?",
-      "url": "https://medium.com/@rafiqlosong123/why-more-people-are-taking-emergency-preparedness-seriously-50ee3ff2bad5?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-05-10T07:44:00+00:00",
-      "summary": "The article discusses the rising public interest in emergency preparedness amid increasing global uncertainty, highlighting how individuals are now proactively seeking tools and information to mitigate risks. It examines the drivers behind this shift, such as recent crises and heightened awareness, and suggests opportunities for businesses to develop products and services that cater to this growing demand.",
-      "tags": [
-        "Product Strategy",
-        "Growth",
-        "User Research"
-      ]
-    },
-    {
-      "title": "We Don’t Need More AI Features. We Need Better Product Thinking.",
-      "url": "https://medium.com/codetodeploy/we-dont-need-more-ai-features-we-need-better-product-thinking-e6f4486f1fb7?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-05-10T06:26:03+00:00",
-      "summary": "The article argues that merely adding AI features like chatbots does not constitute a solid product strategy; instead, teams should focus on fundamental product thinking to ensure AI adds real value. It emphasizes aligning AI initiatives with user needs, business goals, and thoughtful design rather than chasing hype.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Product Design"
       ]
     }
   ]
