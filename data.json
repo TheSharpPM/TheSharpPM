@@ -1,7 +1,80 @@
 {
-  "updated": "2026-08-08T16:05:14.170647+00:00",
-  "total": 821,
+  "updated": "2026-08-09T06:12:51.100294+00:00",
+  "total": 825,
   "items": [
+    {
+      "title": "Contact Database: Turning Scattered Information into Smarter Business Connections",
+      "url": "https://medium.com/@b2cdatabases.co/contact-database-turning-scattered-information-into-smarter-business-connections-61470f37e5ee?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-09T05:11:33+00:00",
+      "summary": "A growing business can quickly accumulate hundreds or thousands of customer and prospect records. The real challenge isn’t simply having… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Three Questions to Ask Before Trusting Any Feature Impact Analysis",
+      "url": "https://f-ahsan.medium.com/three-questions-to-ask-before-trusting-any-feature-impact-analysis-1ff03d9ad458?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-09T03:29:55+00:00",
+      "summary": "The questions that separate a real result from a hopeful story. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🔮 Agents form alliances, DeepMind’s reset & how likely is a crash? #596",
+      "url": "https://www.exponentialview.co/p/ev-596",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-08-09T02:52:30+00:00",
+      "summary": "Your Sunday briefing on how AI is colliding with markets, institutions, and culture.",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Who Says Japanese Users Need That?",
+      "url": "https://medium.com/@ic-eight/who-says-japanese-users-need-that-481ed6df14c5?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-08-08T23:39:21+00:00",
+      "summary": "Japan marketers and localization consultants repeat the same lines so often they’ve started to sound like facts. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "When Quality Becomes the Wrong Goal",
+      "url": "https://medium.com/@ic-eight/when-quality-becomes-the-wrong-goal-ac9eb7f3ec73?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-08-08T23:30:23+00:00",
+      "summary": "Early in my career, while working in-house at a global technology company, I once stayed at my desk until around 10:30 p.m. Continue reading on Medium »",
+      "tags": [
+        "Career"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🧠 Community Wisdom: Crafting outreach that reads as authentic, finding design partners, what counts as a moat when anyone can build, making a product vision stick, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-crafting-outreach",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-08-08T17:08:14+00:00",
+      "summary": "Community Wisdom 196",
+      "tags": [
+        "Community",
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "The 80% Problem: Why First-Time Investors on Stable Money Never Came Back",
       "url": "https://medium.com/@siddhantmohapatra8989/the-80-problem-why-first-time-investors-on-stable-money-never-came-back-f45682eaf99b?source=rss------product_management-5",
@@ -10611,32 +10684,6 @@
         "AI Strategy",
         "AI Tools",
         "Product Strategy"
-      ]
-    },
-    {
-      "title": "Suprbox",
-      "url": "https://www.producthunt.com/products/suprbox",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-05-10T23:08:51+00:00",
-      "summary": "Suprbox is a secure storage solution designed specifically for AI agents handling enterprise data, offering robust protection and compliance features. It aims to simplify data governance for AI-driven workflows while ensuring confidentiality and integrity across the organization.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Security"
-      ]
-    },
-    {
-      "title": "I Built What Google Just Productised. Here’s the Strategy Lesson That Actually Matters",
-      "url": "https://medium.com/@barbate.sagar/i-built-what-google-just-productised-heres-the-strategy-lesson-that-actually-matters-e79f9b351e06?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-05-10T17:36:26+00:00",
-      "summary": "The article describes how independently validating an AI primitive before it is productised by a major tech company exposes key insights into building defensible products. It highlights the strategic advantage of early validation, owning the underlying data and model, and leveraging speed to market as a differentiation factor. The piece offers practical advice for product managers on structuring AI initiatives to stay ahead of big‑tech rollouts.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Leadership"
       ]
     }
   ]
