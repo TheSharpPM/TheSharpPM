@@ -1,0 +1,48 @@
+{
+  "edition": "2026-08-09",
+  "headline_theme": "Metrics overload blinds product judgment",
+  "target_audience": "Staff PM",
+  "hook_source": "Medium",
+  "editorial": "A Medium post this week warned that 68% of users abandon tasks when faced with decision fatigue, a symptom of metric overload that turns product dashboards into noise machines. The piece shows how teams pile on funnels, activation scores, and NPS without ever tying them back to real user goals, ending up with data that paralyzes rather than informs. Across the board, the same pattern appears in Exponential View’s reminder that AI‑driven analytics flood PMs with signals, and a simple Medium guide on structuring metrics that, while tidy, still encourages endless tracking.\n\nThe problem isn’t the data itself—good metrics illuminate trade‑offs—but the habit of treating every number as a decision lever. When dashboards become exhaustive, senior stakeholders start demanding answers from every chart, stretching product cycles and diluting focus. The YouTube video I’ve linked as a contrarian makes the opposite claim: more granular metrics, it says, empower faster pivots and clearer accountability. That stance ignores the cognitive cost of parsing dozens of weekly reports and the inevitable drift toward vanity metrics. The real win is a disciplined metric framework that surfaces only the few signals that move the needle and lets the rest sit on the shelf.\n\nFor Staff PMs, the lever is ruthless triage. Pull the top‑two leading indicators for your current initiative and lock the rest behind a quarterly review. Build a “metrics charter” with engineering and design to define purpose, owner, and decision thresholds for each KPI. Then, when leadership asks for more data, you can push back with a clear cost‑benefit analysis of the additional signal. This discipline frees up bandwidth for hypothesis‑driven experiments and keeps your roadmap grounded in outcomes, not spreadsheets.",
+  "key_takeaways": [
+    "Decision fatigue kills user completion rates, and metric overload is its biggest driver.",
+    "AI‑generated dashboards amplify the signal‑to‑noise problem, forcing PMs to curate rather than decide.",
+    "More metrics do not equal better outcomes; disciplined selection of leading indicators is essential."
+  ],
+  "must_reads": [
+    {
+      "pull_quote": "",
+      "source": "Exponential View",
+      "title": "📈 Data to start your week",
+      "url": "https://www.exponentialview.co/p/data-to-start-your-week-3-aug-2026",
+      "why": "Azhar warns that AI‑driven analytics turn product teams into data‑curators, draining time from strategic thinking."
+    },
+    {
+      "pull_quote": "",
+      "source": "Medium",
+      "title": "68% of Users Abandon Tasks Due to Decision Fatigue — Here’s How to Fix It",
+      "url": "https://medium.com/@claus.nisslmueller/68-of-users-abandon-tasks-due-to-decision-fatigue-heres-how-to-fix-it",
+      "why": "The article quantifies how excessive choice points erode conversion, a direct symptom of metric bloat."
+    },
+    {
+      "pull_quote": "",
+      "source": "Medium",
+      "title": "A simple structure to think about any metrics for any product",
+      "url": "https://crawlswalksruns.medium.com/a-simple-structure-to-think-about-any-metrics-for-any-product-5c862e961554",
+      "why": "It offers a tidy taxonomy that many teams adopt uncritically, inflating the metric count without strategic gain."
+    }
+  ],
+  "contrarian": {
+    "note": "Argues that adding more granular metrics improves product outcomes, countering the call to cut back.",
+    "source": "YouTube",
+    "title": "Must-Have Metrics for Informing Your Product Strategy",
+    "url": "https://www.youtube.com/watch?v=AVhFjJ7E1xw"
+  },
+  "also_worth": [],
+  "pm_homework": [
+    "Draft a one‑page metrics charter for your current project, limiting active KPIs to two leading indicators.",
+    "Schedule a quarterly “metric purge” with engineering to retire unused dashboards."
+  ],
+  "generated_at": "2026-08-09T08:52:40.865548+00:00",
+  "model_used": "openai/gpt-oss-120b"
+}
