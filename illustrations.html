@@ -13,7 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self' https://www.google-analytics.com https://stats.g.doubleclick.net; frame-ancestors 'none'; base-uri 'self'; form-action 'self';">
     <meta name="referrer" content="strict-origin-when-cross-origin">
-    <title>Agent Sharp - The Sharp PM</title>
+    <title>Illustrations - The Sharp PM</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
     <style>
@@ -25,9 +25,7 @@
             --card: #ffffff;
             --border: #e0dbd4;
         }
-
         * { margin: 0; padding: 0; box-sizing: border-box; }
-
         body {
             background: var(--paper);
             color: var(--ink);
@@ -35,7 +33,6 @@
             font-weight: 300;
             line-height: 1.6;
         }
-
         header {
             border-bottom: 2px solid var(--ink);
             padding: 0 2rem;
@@ -44,7 +41,6 @@
             top: 0;
             z-index: 100;
         }
-
         .header-inner {
             max-width: 1200px;
             margin: 0 auto;
@@ -53,21 +49,17 @@
             justify-content: space-between;
             padding: 1rem 0;
         }
-
         .logo { text-decoration: none; display: flex; align-items: center; }
         .logo img { height: 36px; width: auto; }
-
         .header-right { display: flex; align-items: center; gap: 1.5rem; }
-
         .nav-link {
             font-size: 0.75rem;
             color: var(--muted);
             letter-spacing: 0.1em;
             text-transform: uppercase;
             text-decoration: none;
-            transition: color 0.15s;
+            padding-bottom: 2px;
         }
-
         .nav-link:hover { color: var(--ink); }
         .nav-link.active { color: var(--ink); }
         .nav-link.active::after {
@@ -77,104 +69,113 @@
             background: var(--accent);
             margin-top: 2px;
         }
-
         .hero {
-            border-bottom: 1px solid var(--border);
-            padding: 4rem 2rem 3rem;
             background: var(--ink);
             color: var(--paper);
+            padding: 3.5rem 2rem;
         }
-
-        .hero-inner { max-width: 1200px; margin: 0 auto; }
-
+        .hero-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
         .hero-label {
-            font-size: 0.7rem;
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 700;
+            font-size: 0.75rem;
             letter-spacing: 0.15em;
             text-transform: uppercase;
             color: var(--accent);
-            margin-bottom: 1rem;
+            margin-bottom: 0.75rem;
         }
-
         .hero h1 {
-            font-family: 'Space Grotesk', sans-serif;
-            font-size: clamp(2.5rem, 6vw, 4.5rem);
+            font-family: 'Playfair Display', serif;
             font-weight: 700;
-            line-height: 1.05;
-            letter-spacing: -0.03em;
-            max-width: 800px;
-            margin-bottom: 1.5rem;
+            font-size: 2.5rem;
+            line-height: 1.15;
+            margin-bottom: 0.75rem;
         }
-
-        .hero p { color: #a09890; font-size: 1rem; max-width: 600px; }
-
+        .hero p {
+            font-size: 1rem;
+            color: #d5cfc4;
+            max-width: 680px;
+        }
         main {
-            max-width: 900px;
+            max-width: 1200px;
             margin: 0 auto;
             padding: 2.5rem 2rem 4rem;
         }
-
         .section-intro {
+            font-family: 'Space Grotesk', sans-serif;
             font-size: 0.75rem;
-            color: var(--muted);
-            letter-spacing: 0.1em;
+            letter-spacing: 0.15em;
             text-transform: uppercase;
+            color: var(--muted);
             margin-bottom: 1.5rem;
-            padding-bottom: 0.75rem;
-            border-bottom: 1px solid var(--border);
         }
-
-        .edition-list {
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1.75rem;
+        }
+        .card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            text-decoration: none;
+            color: var(--ink);
             display: flex;
             flex-direction: column;
+            overflow: hidden;
+            transition: transform 0.15s, border-color 0.15s;
         }
-
-        .edition-row {
-            display: flex;
-            align-items: baseline;
-            gap: 2rem;
-            padding: 1.75rem 0;
+        .card:hover {
+            border-color: var(--ink);
+            transform: translateY(-2px);
+        }
+        .card-image {
+            width: 100%;
+            aspect-ratio: 3 / 4;
+            object-fit: cover;
+            object-position: top;
+            display: block;
+            background: var(--paper);
             border-bottom: 1px solid var(--border);
-            text-decoration: none;
-            color: inherit;
-            transition: padding 0.15s ease;
         }
-
-        .edition-row:hover { padding-left: 0.5rem; }
-
-        .edition-date {
-            font-size: 0.75rem;
-            color: var(--muted);
-            letter-spacing: 0.05em;
+        .card-body {
+            padding: 1.25rem 1.25rem 1.5rem;
+        }
+        .card-date {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 0.7rem;
+            letter-spacing: 0.1em;
             text-transform: uppercase;
-            min-width: 130px;
-            flex-shrink: 0;
-            font-weight: 500;
+            color: var(--muted);
         }
-
-        .edition-headline {
+        .card-title {
             font-family: 'Playfair Display', serif;
-            font-size: 1.35rem;
             font-weight: 700;
-            line-height: 1.3;
-            color: var(--ink);
-            transition: color 0.15s;
+            font-size: 1.15rem;
+            line-height: 1.25;
+            margin: 0.5rem 0 0.5rem;
         }
-
-        .edition-row:hover .edition-headline { color: var(--accent); }
-
+        .card-desc {
+            font-size: 0.85rem;
+            color: var(--muted);
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
         .empty {
             text-align: center;
             padding: 5rem 2rem;
             color: var(--muted);
         }
-
         .empty h3 {
             font-family: 'Playfair Display', serif;
             font-size: 1.5rem;
             margin-bottom: 0.5rem;
             color: var(--ink);
         }
-
         .loading {
             text-align: center;
             padding: 4rem;
@@ -182,7 +183,6 @@
             font-size: 0.85rem;
             letter-spacing: 0.05em;
         }
-
         footer {
             border-top: 2px solid var(--ink);
             padding: 2rem;
@@ -190,14 +190,11 @@
             font-size: 0.75rem;
             color: var(--muted);
         }
-
         footer a { color: var(--accent); text-decoration: none; }
-
         @media (max-width: 600px) {
             .hero { padding: 2.5rem 1.5rem; }
+            .hero h1 { font-size: 2rem; }
             main { padding: 1.5rem; }
-            .edition-row { flex-direction: column; gap: 0.5rem; }
-            .edition-date { min-width: 0; }
             .header-right { gap: 1rem; }
         }
     </style>
@@ -211,8 +208,8 @@
         </a>
         <div class="header-right">
             <a href="index.html" class="nav-link">Daily Digest</a>
-            <a href="agent.html" class="nav-link active">Agent Sharp</a>
-            <a href="illustrations.html" class="nav-link">Illustrations</a>
+            <a href="agent.html" class="nav-link">Agent Sharp</a>
+            <a href="illustrations.html" class="nav-link active">Illustrations</a>
             <a href="about.html" class="nav-link">About</a>
         </div>
     </div>
@@ -220,25 +217,25 @@
 
 <div class="hero">
     <div class="hero-inner">
-        <p class="hero-label">Agent Sharp - weekly dispatch</p>
-        <h1>One theme. A few reads. Every Sunday-ish.</h1>
-        <p>An AI agent reads, filters, and curates what actually matters for Product Managers each week. Opinionated. Sharp. No roundups.</p>
+        <p class="hero-label">Illustrations</p>
+        <h1>Ideas, drawn.</h1>
+        <p>Comics and infographics that turn PM and AI concepts into something you can share, save, and re-read.</p>
     </div>
 </div>
 
 <main>
-    <p class="section-intro">Past editions</p>
-    <div id="editions" class="edition-list">
-        <div class="loading">Loading editions...</div>
+    <p class="section-intro">All illustrations</p>
+    <div id="grid" class="grid">
+        <div class="loading">Loading...</div>
     </div>
 </main>
 
 <footer>
-    <p>The Sharp PM - Editorial by AI agent - <a href="https://github.com/TheSharpPM/TheSharpPM" target="_blank">GitHub</a></p>
+    <p>The Sharp PM - <a href="https://github.com/TheSharpPM/TheSharpPM" target="_blank">GitHub</a></p>
 </footer>
 
 <script>
-    var container = document.getElementById('editions');
+    var container = document.getElementById('grid');
 
     function formatDate(s) {
         if (!s) return '';
@@ -252,24 +249,36 @@
         });
     }
 
-    fetch('agent/index.json', { cache: 'no-store' })
+    function safeSlug(s) {
+        return String(s || '').replace(/[^a-z0-9\-]/gi, '');
+    }
+
+    fetch('illustrations/index.json', { cache: 'no-store' })
         .then(function(r) { return r.json(); })
         .then(function(data) {
-            var editions = (data && data.editions) || [];
-            if (editions.length === 0) {
-                container.innerHTML = '<div class="empty"><h3>First edition coming soon</h3></div>';
+            var items = (data && data.illustrations) || [];
+            if (items.length === 0) {
+                container.innerHTML = '<div class="empty"><h3>Illustrations coming soon</h3></div>';
                 return;
             }
-            container.innerHTML = editions.map(function(e) {
-                return '<a class="edition-row" href="agent-edition.html?date=' + encodeURIComponent(e.date) + '">' +
-                    '<span class="edition-date">' + formatDate(e.date) + '</span>' +
-                    '<span class="edition-headline">' + escapeHtml(e.headline_theme) + '</span>' +
-                '</a>';
+            container.innerHTML = items.map(function(it) {
+                var slug = safeSlug(it.slug);
+                var href = 'illustration-' + slug + '.html';
+                var img = 'illustrations/' + encodeURI(it.image || '');
+                return '<a class="card" href="' + escapeHtml(href) + '">' +
+                    '<img class="card-image" src="' + escapeHtml(img) + '" alt="' + escapeHtml(it.title) + '" loading="lazy">' +
+                    '<div class="card-body">' +
+                    '<span class="card-date">' + escapeHtml(formatDate(it.date)) + '</span>' +
+                    '<h2 class="card-title">' + escapeHtml(it.title) + '</h2>' +
+                    '<p class="card-desc">' + escapeHtml(it.description) + '</p>' +
+                    '</div>' +
+                    '</a>';
             }).join('');
         })
         .catch(function() {
-            container.innerHTML = '<div class="empty"><h3>No editions yet</h3><p>Check back after Sunday.</p></div>';
+            container.innerHTML = '<div class="empty"><h3>Failed to load</h3></div>';
         });
 </script>
+
 </body>
 </html>

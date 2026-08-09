@@ -1,0 +1,13 @@
+{
+  "updated_at": "2026-08-09T11:35:00+00:00",
+  "illustrations": [
+    {
+      "slug": "agentic-vs-non-agentic-ai",
+      "title": "Agentic vs Non-Agentic AI",
+      "description": "Andrew Ng's building-block analogy for AI, visualized. A non-agentic AI answers a question. An agentic AI completes a task — clarifies intent, researches, iterates, tests, and delivers.",
+      "image": "images/agentic-vs-non-agentic-ai.png",
+      "date": "2026-08-09",
+      "credit": "Inspired by Andrew Ng's building-block analogy for AI."
+    }
+  ]
+}
