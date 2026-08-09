@@ -1444,14 +1444,18 @@ def run_agent():
         {"role": "user", "content": user_turn},
     ]
 
-    # Root Langfuse trace for the entire run. Every iteration's Groq
+    # Root Langfuse span for the entire run. Every iteration's Groq
     # call attaches as a child generation, so the dashboard shows one
-    # collapsible tree per edition.
+    # collapsible tree per edition. On SDK v3 the root span carries
+    # trace-level metadata via update_trace(); trace_id is used to
+    # create scores at the trace level after the run.
     langfuse = _get_langfuse()
-    trace = None
+    root_span = None
+    trace_id = None
     if langfuse:
         try:
-            trace = langfuse.trace(
+            root_span = langfuse.start_span(name="agent_sharp_run")
+            root_span.update_trace(
                 name="agent_sharp_run",
                 metadata={
                     "edition_date": date,
@@ -1460,9 +1464,11 @@ def run_agent():
                 },
                 tags=["agent_sharp", "weekly"],
             )
+            trace_id = root_span.trace_id
         except Exception as e:
             print(f"  langfuse trace init failed (continuing): {e}")
-            trace = None
+            root_span = None
+            trace_id = None
 
     # These trackers are used both by the run logic and by
     # _finalize_trace when scoring the outcome. Declared early so the
@@ -1479,9 +1485,9 @@ def run_agent():
 
     def _finalize_trace(outcome_name):
         """Attach outcome + counters (and, if published, the full
-        edition) to the trace, score, and flush. Best-effort - never
-        raises. Safe to call at any exit point."""
-        if trace:
+        edition) to the trace, score, end the root span, and flush.
+        Best-effort - never raises. Safe to call at any exit point."""
+        if root_span:
             try:
                 output_payload = {
                     "outcome": outcome_name,
@@ -1493,21 +1499,33 @@ def run_agent():
                 # do {{output.editorial}}, {{output.headline_theme}},
                 # {{output.must_reads}}, etc.
                 output_payload.update(published_edition)
-                trace.update(output=output_payload)
-                trace.score(
+                root_span.update_trace(output=output_payload)
+            except Exception as e:
+                print(f"  langfuse trace output update failed (continuing): {e}")
+        if langfuse and trace_id:
+            try:
+                langfuse.create_score(
+                    trace_id=trace_id,
                     name="published",
                     value=1 if outcome_name == "published" else 0,
                 )
-                trace.score(
+                langfuse.create_score(
+                    trace_id=trace_id,
                     name="publish_rejects",
                     value=publish_rejects,
                 )
-                trace.score(
+                langfuse.create_score(
+                    trace_id=trace_id,
                     name="iterations_used",
                     value=iteration,
                 )
             except Exception as e:
-                print(f"  langfuse finalize failed (continuing): {e}")
+                print(f"  langfuse scoring failed (continuing): {e}")
+        if root_span:
+            try:
+                root_span.end()
+            except Exception:
+                pass
         if langfuse:
             try:
                 langfuse.flush()
@@ -1566,12 +1584,13 @@ def run_agent():
         # as iterations stack up.
         trim_message_history(messages)
 
-        # Open a Langfuse generation for this iteration. Best-effort:
-        # any failure here does not affect the actual model call.
+        # Open a Langfuse generation for this iteration as a child of
+        # the root span. Best-effort: any failure here does not affect
+        # the actual model call.
         generation = None
-        if trace:
+        if root_span:
             try:
-                generation = trace.generation(
+                generation = root_span.start_generation(
                     name=f"iter_{iteration}",
                     model=MODEL,
                     model_parameters={
@@ -1606,10 +1625,11 @@ def run_agent():
             # the recovery logic below.
             if generation:
                 try:
-                    generation.end(
+                    generation.update(
                         level="ERROR",
                         status_message=error_str[:500],
                     )
+                    generation.end()
                 except Exception:
                     pass
             # Groq validation errors that we treat as recoverable:
@@ -1680,7 +1700,8 @@ def run_agent():
         tool_calls = message.tool_calls or []
 
         # Close the Langfuse generation with the successful output +
-        # token usage. Groq exposes usage on response.usage.
+        # token usage. Groq exposes usage on response.usage. SDK v3
+        # uses usage_details= (renamed from usage=).
         if generation:
             try:
                 usage_obj = getattr(response, "usage", None)
@@ -1691,7 +1712,7 @@ def run_agent():
                         "output": getattr(usage_obj, "completion_tokens", 0),
                         "total": getattr(usage_obj, "total_tokens", 0),
                     }
-                generation.end(
+                generation.update(
                     output={
                         "content": message.content,
                         "tool_calls": [
@@ -1702,8 +1723,9 @@ def run_agent():
                             for tc in tool_calls
                         ],
                     },
-                    usage=usage_dict,
+                    usage_details=usage_dict,
                 )
+                generation.end()
             except Exception as e:
                 print(f"  langfuse generation close failed (continuing): {e}")
 
@@ -1796,14 +1818,15 @@ def run_agent():
                 #   Type = SPAN AND Name = "editorial_published"
                 # Its output.editorial / output.headline_theme etc.
                 # are exactly the fields the templates reference.
-                if trace:
+                if root_span:
                     try:
-                        trace.span(
+                        pub_span = root_span.start_span(
                             name="editorial_published",
                             input=None,
-                            output=published_edition,
                             metadata={"edition_date": date, "model": MODEL},
                         )
+                        pub_span.update(output=published_edition)
+                        pub_span.end()
                     except Exception as e:
                         print(f"  langfuse span emit failed (continuing): {e}")
             # Count publish_edition rejections from quality gates so we
