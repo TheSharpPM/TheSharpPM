@@ -1,7 +1,84 @@
 {
-  "updated": "2026-08-09T06:12:51.100294+00:00",
-  "total": 825,
+  "updated": "2026-08-10T06:38:03.211081+00:00",
+  "total": 823,
   "items": [
+    {
+      "title": "nobody tells you where Product Taste is actually built",
+      "url": "https://binarycodeverses.medium.com/nobody-tells-you-where-product-taste-is-actually-built-54acae6d7531?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-10T06:01:01+00:00",
+      "summary": "I didn’t set out to build product taste. I didn’t even know what it was until I watched the absence of it, and then, a few weeks later… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Big Five vs. 16PF vs. DISC: Which Framework Actually Predicts Job Performance?",
+      "url": "https://medium.com/@pmishra_89980/big-five-vs-16pf-vs-disc-which-framework-actually-predicts-job-performance-7ee76e5ead11?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-10T05:41:58+00:00",
+      "summary": "Three vendors present three polished reports. One uses the Big Five, another uses 16PF, and the third recommends DISC. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Disney: The Renaissance and the Empire",
+      "url": "https://www.acquired.fm/episodes/disney-the-renaissance-and-the-empire",
+      "source": "Acquired",
+      "type": "podcast",
+      "date": "2026-08-10T04:41:43+00:00",
+      "summary": "In 1984, the Walt Disney Company was worth more dead than alive. Disney Animation — the heart of Walt's famous flywheel — had stagnated for years, bleeding away talent while corporate raiders circled, salivating over offers to sell off the film library to MGM and offload the park...",
+      "tags": [
+        "AI Tools",
+        "Communication",
+        "Competitive Analysis"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The User Insights Engine: Advanced Research, Synthesis, and Behavioral Analytics AI Tools for UX…",
+      "url": "https://medium.com/@DilSalaKamina/the-user-insights-engine-advanced-research-synthesis-and-behavioral-analytics-ai-tools-for-ux-bcf6959549fb?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-08-10T04:31:03+00:00",
+      "summary": "Let’s be real, designing a product without real research just means you’re crossing your fingers and hoping for the best, all while making… Continue reading on Medium »",
+      "tags": [
+        "AI Strategy",
+        "Metrics"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Problem with Problem-First Innovation",
+      "url": "https://medium.com/@dumandal1998/the-problem-with-problem-first-innovation-346887bac1f7?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-08-09T13:46:29+00:00",
+      "summary": "For years, I have taught a simple idea in my SAFe Agilist and Product Owner/Product Manager courses: Continue reading on Medium »",
+      "tags": [
+        "Career"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The playbook for building high talent density teams | Adam Ward, Head of Talent at Cursor",
+      "url": "https://www.lennysnewsletter.com/p/the-playbook-for-building-high-talent",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-08-09T12:31:29+00:00",
+      "summary": "Listen now | Cursor’s Adam Ward on “funnel of doom” hiring, treating every hire like an executive search, and why caring is the biggest unfair advantage in recruiting",
+      "tags": [
+        "AI Tools",
+        "Career",
+        "Growth"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Contact Database: Turning Scattered Information into Smarter Business Connections",
       "url": "https://medium.com/@b2cdatabases.co/contact-database-turning-scattered-information-into-smarter-business-connections-61470f37e5ee?source=rss------product_management-5",
@@ -63,6 +140,18 @@
       "is_fallback": true
     },
     {
+      "title": "Workflo",
+      "url": "https://www.producthunt.com/products/workflo-2",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-08-08T22:35:22+00:00",
+      "summary": "Mac workspace automation that never sees your screen Discussion | Link",
+      "tags": [
+        "Automation"
+      ],
+      "is_fallback": true
+    },
+    {
       "title": "🧠 Community Wisdom: Crafting outreach that reads as authentic, finding design partners, what counts as a moat when anyone can build, making a product vision stick, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-crafting-outreach",
       "source": "Lenny's Newsletter",
@@ -97,6 +186,18 @@
       "summary": "Defeating venomous traditions and practices, And how EvidenceCure is putting up a fight against them. Continue reading on Medium »",
       "tags": [
         "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Soup CLI",
+      "url": "https://www.producthunt.com/products/soup-cli",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-08-08T07:59:19+00:00",
+      "summary": "Fine-tune an 8B LLM on a 4 GB laptop GPU Discussion | Link",
+      "tags": [
+        "AI Tools"
       ],
       "is_fallback": true
     },
@@ -10554,136 +10655,6 @@
         "AI Strategy",
         "Product Strategy",
         "Growth"
-      ]
-    },
-    {
-      "title": "Sherloq",
-      "url": "https://www.producthunt.com/products/sherloq-2",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-05-12T06:06:05+00:00",
-      "summary": "Sherloq helps product teams quickly identify LinkedIn prospects who are currently warm, enabling timely outreach and higher conversion rates. The tool integrates with LinkedIn to surface real‑time engagement signals, streamlining prospecting workflows.",
-      "tags": [
-        "AI Tools",
-        "Growth",
-        "Product Strategy"
-      ]
-    },
-    {
-      "title": "🎙️ How I AI: Quests, token leaderboards, and the elite AI adoption playbook & Notion’s spec-driven development",
-      "url": "https://www.lennysnewsletter.com/p/how-i-ai-quests-token-leaderboards",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-05-11T16:02:49+00:00",
-      "summary": "The episode explores practical AI adoption tactics, such as quest-based learning, token-based leaderboards, and a senior leadership playbook for scaling AI within organizations, while also dissecting Notion's spec-driven development approach. It offers product managers actionable frameworks for driving AI integration and improving product specs and execution.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Leadership"
-      ]
-    },
-    {
-      "title": "Del caos y la rigidez a una orquestación estratégica",
-      "url": "https://medium.com/@sssolon/del-caos-y-la-rigidez-a-una-orquestaci%C3%B3n-estrat%C3%A9gica-79c7629f352d?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-05-11T14:01:01+00:00",
-      "summary": "The article discusses how organizations oscillate between chaotic, unstructured operations and overly rigid control, and argues for a strategic orchestration approach that balances flexibility with purposeful direction. By adopting a middle ground, teams can navigate complexity while maintaining alignment and agility.",
-      "tags": [
-        "Product Strategy",
-        "Leadership",
-        "Communication"
-      ]
-    },
-    {
-      "title": "The Complete Guide to Claude Skills: Everything I Learned Building 106 of Them",
-      "url": "https://medium.com/@mohit15856/the-complete-guide-to-claude-skills-everything-i-learned-building-106-of-them-92ac68bfb2f7?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-05-11T13:58:32+00:00",
-      "summary": "The article walks product managers through the end‑to‑end process of designing, building, and maintaining Claude AI skills, sharing architectural patterns, common failure modes, and best practices gleaned from creating 106 skills. It serves as a practical guide for both novices and seasoned builders looking to scale AI-powered conversational features.",
-      "tags": [
-        "AI Strategy",
-        "Product Design",
-        "Product Culture"
-      ]
-    },
-    {
-      "title": "display.dev",
-      "url": "https://www.producthunt.com/products/display-dev",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-05-11T12:29:11+00:00",
-      "summary": "The article discusses a new feature on display.dev that allows publishing HTML generated by AI agents while keeping it secured behind company authentication mechanisms. It outlines how this capability can streamline internal workflows, maintain compliance, and enable controlled sharing of AI-generated content within an organization.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Security"
-      ]
-    },
-    {
-      "title": "Spec-driven development: The AI engineering workflow at Notion | Ryan Nystrom",
-      "url": "https://www.lennysnewsletter.com/p/spec-driven-development-the-ai-engineering",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-05-11T12:03:12+00:00",
-      "summary": "Ryan Nystrom explains Notion's spec-driven AI engineering workflow, where developers write specifications that AI agents use to generate code, enabling tasks like automated standups and PR creation from comments. This approach lets engineers focus on high-level thinking while the AI handles implementation details.",
-      "tags": [
-        "AI Strategy",
-        "AI Tools",
-        "Product Strategy"
-      ]
-    },
-    {
-      "title": "AI Accelerated Output. Now We Need to Measure System Debt",
-      "url": "https://medium.com/@chukreiev/ai-accelerated-output-now-we-need-to-measure-system-debt-fb3e9e468ced?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-05-11T11:41:00+00:00",
-      "summary": "The article warns that AI-driven productivity can lead teams to generate more decisions than they can effectively connect and validate, creating hidden system debt. It emphasizes the need for measurement frameworks to track and mitigate this debt before it undermines product quality.",
-      "tags": [
-        "AI Strategy",
-        "Metrics",
-        "Product Culture"
-      ]
-    },
-    {
-      "title": "📈⏳ The broken bargain of Moore’s Law",
-      "url": "https://www.exponentialview.co/p/the-broken-bargain-of-moores-law",
-      "source": "Exponential View",
-      "type": "trend",
-      "date": "2026-05-11T11:29:06+00:00",
-      "summary": "The article argues that Moore's Law is no longer delivering exponential performance gains as physical limits slow chip improvements and economic pressures rise, forcing product teams to rethink reliance on hardware scaling. Product managers must now prioritize software optimization, architecture decisions, and alternative technologies to sustain growth.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Metrics"
-      ]
-    },
-    {
-      "title": "What is  product-led growth (PLG)?",
-      "url": "https://www.productledalliance.com/what-is-product-led-growth/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-05-11T11:00:00+00:00",
-      "summary": "Product-led growth (PLG) puts the product itself at the core of acquisition, activation, retention, and revenue, leveraging tactics like freemium models and growth loops to drive viral, self-sustaining expansion. By designing experiences that deliver immediate value and encourage organic sharing, businesses can scale efficiently without heavy reliance on sales or marketing spend.",
-      "tags": [
-        "Growth",
-        "Product Strategy",
-        "Product Design"
-      ]
-    },
-    {
-      "title": "The Inference Shift",
-      "url": "https://stratechery.com/2026/the-inference-shift/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-05-11T10:00:00+00:00",
-      "summary": "The article argues that future agentic inference will diverge from current inference models, shifting focus away from speed as human interaction diminishes. This change will reshape compute infrastructure requirements, emphasizing different performance metrics and resource allocation strategies.",
-      "tags": [
-        "AI Strategy",
-        "AI Tools",
-        "Product Strategy"
       ]
     }
   ]
