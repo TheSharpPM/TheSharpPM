@@ -1,7 +1,145 @@
 {
-  "updated": "2026-08-10T06:38:03.211081+00:00",
-  "total": 823,
+  "updated": "2026-08-11T06:20:28.747791+00:00",
+  "total": 826,
   "items": [
+    {
+      "title": "Kodak Didn’t Miss Digital, It Sold the Cure.",
+      "url": "https://medium.com/@aryan1999varma/kodak-didnt-miss-digital-it-sold-the-cure-db01c89344f7?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-11T05:59:32+00:00",
+      "summary": "The Second Act, week five: what Fujifilm understood about its own product that Kodak never did. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Kodak Didn’t Miss Digital, It Sold the Cure.",
+      "url": "https://medium.com/@aryan1999varma/kodak-didnt-miss-digital-it-sold-the-cure-db01c89344f7?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-08-11T05:59:32+00:00",
+      "summary": "The Second Act, week five: what Fujifilm understood about its own product that Kodak never did. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Product management — the review nobody runs",
+      "url": "https://medium.com/design-bootcamp/product-management-the-review-nobody-runs-24d9c5cf9641?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-11T05:02:39+00:00",
+      "summary": "We taught a generation of PMs to write specs. We never taught them to review one, and AI is repeating the mistake. Continue reading on Bootcamp »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "How Fast the Unit of Work Keeps Changing",
+      "url": "https://medium.com/@ic-eight/how-fast-the-unit-of-work-keeps-changing-9950a4bbc674?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-08-11T04:10:21+00:00",
+      "summary": "In December 2025, I started questioning the traditional localization workflow. Why translate with AI when you could generate directly from… Continue reading on Medium »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "📈 Making sense of the AI capex logjam",
+      "url": "https://www.exponentialview.co/p/ai-capex-deployment-gap",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-08-10T17:09:58+00:00",
+      "summary": "Bought now, billed later",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Product operations  meeting template",
+      "url": "https://www.productledalliance.com/product-operations-meeting-template-framework/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-08-10T15:22:27+00:00",
+      "summary": "Run product ops meetings that actually move things forward.",
+      "tags": [
+        "Product Culture"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🎙️ How I AI: Build an AI code review bot in 30 minutes + Claude Code for normal people",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-build-an-ai-code-review",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-08-10T15:01:49+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "A Fresh Definition of The Product Role",
+      "url": "https://www.svpg.com/a-fresh-definition-of-the-product-role/",
+      "source": "SVPG",
+      "type": "article",
+      "date": "2026-08-10T12:49:18+00:00",
+      "summary": "I’m just guessing here, but I’d say over the years I’ve seen at least one hundred different definitions of the product role (i.e. product manager/product owner). I’m pretty sure that anyone reading this would have seen at least several. Part of the problem is that there are diffe...",
+      "tags": [
+        "Career",
+        "Hardware Differentiation"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Claude Code for normal people: skills, voice mode, and how to collaborate with AI",
+      "url": "https://www.lennysnewsletter.com/p/claude-code-for-normal-people-skills",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-08-10T12:01:44+00:00",
+      "summary": "Listen now | 🎙️ Grace Clarke rebuilt her service business in Claude, turning 20 hours of weekly admin into one automated pipeline for proposals, client tracking, and email",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Apple Earnings, More on Amazon’s Earnings",
+      "url": "https://stratechery.com/2026/apple-earnings-more-on-amazons-earnings/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-08-10T10:00:00+00:00",
+      "summary": "Apple's earnings (and stock) are limited not by memory but rather chip shortages; then, more on Amazon's earnings and Andy Jassy's market analysis.",
+      "tags": [
+        "Competitive Analysis",
+        "Hardware Differentiation"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Self-Improving Company | Kavak's AI Playbook",
+      "url": "https://a16z.simplecast.com/episodes/how-kavak-rebuilt-itself-around-ai-agents-alejandro-maza-ayala-lp7LuwGh",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-08-10T10:00:00+00:00",
+      "summary": "Angela Strange and Gabriel Vasquez are joined by Alejandro Maza Ayala, Chief Product & AI Officer at Kavak, to unpack how the Latin American used-car marketplace rebuilt itself around AI agents, with 96% of customer interactions and 95% of transactions now handled by agents. Alej...",
+      "tags": [
+        "AI Strategy",
+        "AI Tools",
+        "Leadership"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "nobody tells you where Product Taste is actually built",
       "url": "https://binarycodeverses.medium.com/nobody-tells-you-where-product-taste-is-actually-built-54acae6d7531?source=rss------product_management-5",
@@ -473,6 +611,18 @@
       "summary": "Define safety at runtime for text and images Discussion | Link",
       "tags": [
         "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Remix",
+      "url": "https://www.producthunt.com/products/remix-8",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-08-06T02:16:52+00:00",
+      "summary": "Figma, but on your production app. Test variants and ship. Discussion | Link",
+      "tags": [
+        "Product Design"
       ],
       "is_fallback": true
     },
@@ -2510,6 +2660,18 @@
         "AI Strategy",
         "Career",
         "Platform Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Paritok",
+      "url": "https://www.producthunt.com/products/paritok",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-07-20T08:39:12+00:00",
+      "summary": "Spend up to 85% less and run 3× longer coding agent sessions Discussion | Link",
+      "tags": [
+        "AI Tools"
       ],
       "is_fallback": true
     },
@@ -10524,136 +10686,6 @@
       "tags": [
         "Product Strategy",
         "Retention",
-        "Growth"
-      ]
-    },
-    {
-      "title": "Product Builder Myth - All Things Product Podcast with Teresa Torres & Petra Wille",
-      "url": "https://www.producttalk.org/product-builder-myth-all-things-product-podcast-with-teresa-torres-petra-wille/",
-      "source": "Product Talk",
-      "type": "article",
-      "date": "2026-05-12T13:00:15+00:00",
-      "summary": "In this episode, Teresa Torres and Petra Wille challenge the hype around the \"product builder\" movement, questioning whether it truly represents the future of product management or is merely a trendy buzzword. They explore the implications of adopting a builder mindset for product teams, emphasizing the need for strategic focus over surface-level execution. Listeners gain perspective on balancing hands‑on building with deeper product strategy and leadership responsibilities.",
-      "tags": [
-        "Product Strategy",
-        "Leadership",
-        "Product Culture"
-      ]
-    },
-    {
-      "title": "Flowsnip",
-      "url": "https://www.producthunt.com/products/flowsnip",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-05-12T12:50:36+00:00",
-      "summary": "Flowsnip is an n8n extension that lets users capture, store, and reuse snippets of workflow components directly on the canvas, streamlining automation building. This feature enhances productivity by reducing repetitive setup and encourages modular design practices for faster iteration.",
-      "tags": [
-        "Productivity",
-        "Product Design",
-        "Platform Strategy"
-      ]
-    },
-    {
-      "title": "Memdex",
-      "url": "https://www.producthunt.com/products/memdex",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-05-12T12:27:45+00:00",
-      "summary": "Memdex proposes a solution that captures AI conversation content and stores it as local, searchable memory that can be reused across sessions. This enables product teams to build more context-aware experiences and reduce repetitive prompting, improving efficiency and user satisfaction.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Productivity"
-      ]
-    },
-    {
-      "title": "The Wrong Question Is “Which AI Model Is Best?”",
-      "url": "https://medium.com/@wonderingmax/the-wrong-question-is-which-ai-model-is-best-7e74c900cc12?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-05-12T12:18:43+00:00",
-      "summary": "The article argues that product managers should stop asking which AI model is best and instead focus on defining the problem they need to solve, the value it creates for users, and the constraints of the product. By reframing the question, teams can prioritize the right data, evaluation metrics, and integration strategies rather than getting stuck on model selection.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Prioritization"
-      ]
-    },
-    {
-      "title": "Nobody Told Me These 5 Things Before I Switched to Product Management",
-      "url": "https://medium.productcoalition.com/nobody-told-me-these-5-things-before-i-switched-to-product-management-1040dd9cf1c2?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-05-12T12:13:17+00:00",
-      "summary": "The article shares five unexpected lessons the author learned when transitioning into product management, highlighting the importance of cross-functional communication, data-driven decision making, and setting realistic expectations. It also points readers to a key resource that helped clarify the role and accelerate their learning curve.",
-      "tags": [
-        "Career",
-        "Product Strategy",
-        "Leadership"
-      ]
-    },
-    {
-      "title": "The market dynamics behind product ecosystems",
-      "url": "https://paulkabon.medium.com/the-market-dynamics-behind-product-ecosystems-7977db5cb234?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-05-12T12:09:12+00:00",
-      "summary": "The article explores how shifting a flagship service like YouTube into a broader media hosting ecosystem—rebranded as ‘Google Video’—could reshape user expectations, developer partnerships, and competitive positioning. It examines the strategic trade‑offs of ecosystem integration versus platform focus, highlighting implications for product roadmaps and monetization models.",
-      "tags": [
-        "Product Strategy",
-        "Platform Strategy",
-        "Competitive Analysis"
-      ]
-    },
-    {
-      "title": "How to build trust into your AI product  before the security review kills your deal",
-      "url": "https://www.productledalliance.com/build-trust-into-your-ai-product-before-the-security-review-kills-your-deal/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-05-12T12:00:29+00:00",
-      "summary": "The article reframes the security review as an early indicator of trustworthiness rather than a final hurdle, urging product teams to embed trust principles from the start of AI development. By designing with transparency, compliance, and risk mitigation in mind, product managers can streamline security reviews and accelerate enterprise deals.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Leadership"
-      ]
-    },
-    {
-      "title": "Is Your B2B Software the Loudest Employee in the Room?",
-      "url": "https://appibara.medium.com/is-your-b2b-software-the-loudest-employee-in-the-room-a27d73d88e84?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-05-12T11:22:31+00:00",
-      "summary": "The article examines how B2B software often becomes a disruptive presence by overloading users with unnecessary features and demanding interfaces, leading to wasted time and reduced productivity. It highlights the psychological drivers behind feature bloat and offers insights on simplifying product experiences to align with real user needs.",
-      "tags": [
-        "Product Strategy",
-        "User Research",
-        "Leadership"
-      ]
-    },
-    {
-      "title": "What is a Chief Product Officer?  Responsibilities, skills, and opportunities",
-      "url": "https://www.productledalliance.com/what-is-a-chief-product-officer-the-skills-needed-for-this-emerging-career-path/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-05-12T11:00:00+00:00",
-      "summary": "The Chief Product Officer (CPO) is an executive role tasked with overseeing all product-related functions within a company, ensuring alignment with business goals. Reporting to the CEO, the CPO leads the product management team, shaping strategy, execution, and cross-functional collaboration. The position is pivotal for driving product vision, market fit, and overall company growth.",
-      "tags": [
-        "Product Strategy",
-        "Leadership",
-        "Product Culture"
-      ]
-    },
-    {
-      "title": "SpaceX and Anthropic, xAI’s Two Companies, Elon Musk and SpaceXAI’s Future",
-      "url": "https://stratechery.com/2026/spacex-and-anthropic-xais-two-companies-elon-musk-and-spacexais-future/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-05-12T10:00:00+00:00",
-      "summary": "The article discusses Elon Musk's recent deal involving Anthropic and his AI venture xAI, highlighting how the partnership underscores Musk's strategy to position his AI ventures as service providers for external companies rather than solely internal tools. It suggests that SpaceX and his broader AI initiatives will increasingly focus on B2B offerings, leveraging AI capabilities to support other businesses.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
         "Growth"
       ]
     }
