@@ -1,7 +1,119 @@
 {
-  "updated": "2026-08-11T06:20:28.747791+00:00",
-  "total": 826,
+  "updated": "2026-08-12T06:39:11.029342+00:00",
+  "total": 827,
   "items": [
+    {
+      "title": "How AI Is Transforming Content Operations and Catalog Management",
+      "url": "https://medium.com/@abi309divya/how-ai-is-transforming-content-operations-and-catalog-management-842a93109d82?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-12T06:26:37+00:00",
+      "summary": "Imagine launching hundreds of products without AI. Every product description, feature, attribute, image validation, and quality check had… Continue reading on Medium »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "85 Laws of Software Engineering",
+      "url": "https://medium.com/@denisafanasev/85-laws-of-software-engineering-dd78575f217b?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-12T06:08:58+00:00",
+      "summary": "I went back through the software engineering books I consider foundational — the ones that keep being right long after their examples… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Netflix Engagement Metrics 2026",
+      "url": "https://shailesh-sharma.medium.com/netflix-engagement-metrics-2026-9b3227284d3e?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-08-11T18:11:55+00:00",
+      "summary": "Netflix will now report engagement once a year instead of twice. Continue reading on Medium »",
+      "tags": [
+        "Metrics"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "John Neuhart on Creating Customer-Centered Cultures in Modern Organizations",
+      "url": "https://medium.com/@johnneuhart/john-neuhart-on-creating-customer-centered-cultures-in-modern-organizations-f3c6d141add5?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-08-11T14:15:56+00:00",
+      "summary": "How customer insight can connect product strategy, marketing, and Agile leadership Continue reading on Medium »",
+      "tags": [
+        "Leadership",
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "How to make people care about your startup",
+      "url": "https://www.lennysnewsletter.com/p/how-to-make-people-care-about-your",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-08-11T13:31:07+00:00",
+      "summary": "Three founder archetypes—and how to turn your origin story into a communications strategy",
+      "tags": [
+        "Communication"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Feature flags are becoming  a strategic product operations layer",
+      "url": "https://www.productledalliance.com/feature-flags-a-strategic-product-operations-layer/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-08-11T12:00:43+00:00",
+      "summary": "Flags started as an engineering safety mechanism and quietly became the control plane for how modern product teams release, experiment, and operate, but most product leaders haven't caught up.",
+      "tags": [
+        "Leadership"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Nvidia’s Risky Business",
+      "url": "https://stratechery.com/2026/nvidias-risky-business/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-08-11T10:00:00+00:00",
+      "summary": "Nvidia is finding new ways for its customers to raise money, and it's expanding the risk of the AI buildout significantly.",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The CISO Playbook for AI Agents | Datadog",
+      "url": "https://a16z.simplecast.com/episodes/the-ciso-playbook-for-ai-agents-datadog-rhAxFNQK",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-08-11T10:00:00+00:00",
+      "summary": "a16z's Joel De La Garza is joined by Emilio Escobar, Chief Information Security Officer at Datadog, to discuss what it takes to secure a company where nearly every employee is using AI and more than 4,000 engineers are working with coding agents. Rather than trying to block new t...",
+      "tags": [
+        "AI Strategy",
+        "AI Tools",
+        "Security"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "AI maturity gap: Are product teams keeping up?",
+      "url": "https://www.productledalliance.com/ai-maturity-gap-ebook/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-08-11T09:52:20+00:00",
+      "summary": "New research from 500 product leaders shows AI adoption has outpaced AI maturity. Download the report to see where the gap is widening.",
+      "tags": [
+        "AI Strategy",
+        "Leadership"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Kodak Didn’t Miss Digital, It Sold the Cure.",
       "url": "https://medium.com/@aryan1999varma/kodak-didnt-miss-digital-it-sold-the-cure-db01c89344f7?source=rss------product_management-5",
@@ -424,6 +536,18 @@
       "summary": "The best Stratechery content from the week of August 3, 2026, including earnings exposure, OpenAI's answer to Apple, and all about LeBron in Philly.",
       "tags": [
         "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Tines 3B",
+      "url": "https://www.producthunt.com/products/tines",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-08-07T16:30:03+00:00",
+      "summary": "The secure environment for agents, apps, and automations Discussion | Link",
+      "tags": [
+        "Automation"
       ],
       "is_fallback": true
     },
@@ -1224,6 +1348,18 @@
       "tags": [
         "Compliance",
         "Leadership"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "agent-manager",
+      "url": "https://www.producthunt.com/products/agent-manager",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-08-01T14:19:18+00:00",
+      "summary": "The fastest workflow for developing with AI Discussion | Link",
+      "tags": [
+        "AI Strategy"
       ],
       "is_fallback": true
     },
@@ -10556,136 +10692,6 @@
       "tags": [
         "AI Tools",
         "Product Strategy",
-        "Growth"
-      ]
-    },
-    {
-      "title": "The New Rules of Marketplace Building: What the Current Global Situation Changed Forever",
-      "url": "https://medium.com/@u1core/the-new-rules-of-marketplace-building-what-the-current-global-situation-changed-forever-59dc79ef41b9?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-05-13T19:19:18+00:00",
-      "summary": "The traditional marketplace playbook that drove the success of companies like Airbnb, Etsy, and Amazon is now obsolete due to shifts in the global environment. The article outlines new principles and tactics that modern marketplace founders must adopt to compete and scale in today's market. It emphasizes the need for adaptive product strategies that respond to changing consumer behavior, regulatory landscapes, and technological advancements.",
-      "tags": [
-        "Product Strategy",
-        "Growth",
-        "Competitive Analysis"
-      ]
-    },
-    {
-      "title": "The 16-Year-Old Nokia on My Desk Just Taught Me a Masterclass in Product Strategy",
-      "url": "https://medium.com/@subhadeepstar/the-16-year-old-nokia-on-my-desk-just-taught-me-a-masterclass-in-product-strategy-580b6f843056?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-05-13T17:03:50+00:00",
-      "summary": "The author reflects on a 16‑year‑old Nokia phone as a case study in durable, user‑focused product design and long‑term strategy. By examining its simplicity, longevity, and consistent user experience, the piece highlights lessons on building products that endure market changes and maintain brand loyalty.",
-      "tags": [
-        "Product Strategy",
-        "Leadership",
-        "Product Culture"
-      ]
-    },
-    {
-      "title": "Organizational change map  template",
-      "url": "https://www.productledalliance.com/organizational-change-map-template-framework/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-05-13T16:55:10+00:00",
-      "summary": "The Organizational Change Map template provides a structured framework for product managers to visualize and coordinate initiatives across multiple departments and timelines. It helps ensure alignment, track progress, and mitigate risks during transformation efforts.",
-      "tags": [
-        "Product Strategy",
-        "Leadership",
-        "Productivity"
-      ]
-    },
-    {
-      "title": "Behind the Scenes: Building AI-Generated Opportunity Solution Trees",
-      "url": "https://www.producttalk.org/behind-the-scenes-ai-osts/",
-      "source": "Product Talk",
-      "type": "article",
-      "date": "2026-05-13T13:00:39+00:00",
-      "summary": "The article recounts a product manager's intensive engineering sprint to create AI-generated Opportunity Solution Trees, highlighting the cross-functional effort required to blend design thinking, product strategy, and technical execution. It emphasizes the importance of aligning AI tools with product discovery processes to surface high-impact opportunities efficiently.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Product Design"
-      ]
-    },
-    {
-      "title": "The Real Challenge in Modern Project Management",
-      "url": "https://medium.com/@fortissocialbusiness/the-real-challenge-in-modern-project-management-f518961501ed?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-05-13T12:16:09+00:00",
-      "summary": "The article examines why modern projects often fail even when staffed with talented teams, highlighting issues such as unclear objectives, misaligned stakeholder expectations, and ineffective prioritization. It stresses the need for stronger leadership, clearer communication, and strategic alignment to keep projects on track.",
-      "tags": [
-        "Leadership",
-        "Prioritization",
-        "Product Strategy"
-      ]
-    },
-    {
-      "title": "What Working In UK Insurance Changed About How I See Risk",
-      "url": "https://medium.com/@nikhil2617.shinde/what-working-in-uk-insurance-changed-about-how-i-see-risk-867c95a0faa9?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-05-13T12:15:18+00:00",
-      "summary": "The author reflects on how their experience in UK insurance revealed that customers often buy policies out of uncertainty and trust rather than a clear understanding of risk. This insight emphasizes the need for product teams to simplify risk communication and design offerings that address perceived, not just actual, risk.",
-      "tags": [
-        "Product Strategy",
-        "User Research",
-        "Communication"
-      ]
-    },
-    {
-      "title": "The agile product mindset:  3 practitioners' insights",
-      "url": "https://www.productledalliance.com/the-agile-product-mindset/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-05-13T11:00:30+00:00",
-      "summary": "The article compiles insights from three agile practitioners, highlighting how an agile mindset drives continuous experimentation, user discovery, and effective prioritization of work. It emphasizes the importance of rapid learning cycles and flexible planning to deliver value, offering actionable lessons for product teams seeking to embed agility into their processes.",
-      "tags": [
-        "Product Strategy",
-        "Prioritization",
-        "Product Design"
-      ]
-    },
-    {
-      "title": "The Deployment Company, Back to the 70s, Apple and Intel",
-      "url": "https://stratechery.com/2026/the-deployment-company-back-to-the-70s-apple-and-intel/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-05-13T10:00:00+00:00",
-      "summary": "OpenAI is creating a dedicated deployment company to implement AI at scale, prompting other labs to follow suit, which underscores the need for top‑down AI integration. Meanwhile, Apple is motivated by cost and performance considerations to partner more closely with Intel.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Growth"
-      ]
-    },
-    {
-      "title": "Retention Is Not About Reminders. It Is About Continuation.",
-      "url": "https://medium.com/@dhruvsaxena220904/retention-is-not-about-reminders-it-is-about-continuation-05d14d826471?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-05-13T08:54:26+00:00",
-      "summary": "The article argues that retention issues are often mistakenly tackled with reminder notifications, whereas true retention depends on delivering seamless continuation experiences that keep users engaged. It emphasizes designing product flows that naturally embed users into ongoing value, rather than relying on sporadic alerts.",
-      "tags": [
-        "Retention",
-        "Product Strategy",
-        "Growth"
-      ]
-    },
-    {
-      "title": "How Zomato Can Improve Food Delivery Experience in Tier-1 Cities",
-      "url": "https://medium.com/@kalyanikohale99/how-zomato-can-improve-food-delivery-experience-in-tier-1-cities-7b1d9488b5fa?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-05-13T07:12:59+00:00",
-      "summary": "The article outlines a product strategy for Zomato aimed at boosting retention in Tier‑1 cities by tightening the delivery funnel, reducing friction points, and fostering habitual ordering through personalized incentives and streamlined UX. It emphasizes data‑driven experiments, cross‑functional alignment, and continuous feedback loops to sustainably grow the user base.",
-      "tags": [
-        "Product Strategy",
-        "Retention",
         "Growth"
       ]
     }
