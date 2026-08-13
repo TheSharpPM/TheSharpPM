@@ -1,7 +1,82 @@
 {
-  "updated": "2026-08-12T06:39:11.029342+00:00",
-  "total": 827,
+  "updated": "2026-08-13T06:42:20.959533+00:00",
+  "total": 829,
   "items": [
+    {
+      "title": "Testosil Review 2026: Ingredients, Benefits, Pros & Cons, Dosage & Is It Worth It?",
+      "url": "https://medium.com/@ceo.trustpickshub/testosil-review-2026-ingredients-benefits-pros-cons-dosage-is-it-worth-it-87572450ef20?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-13T06:37:01+00:00",
+      "summary": "An evidence-aware look at Testosil’s ingredients, clinical research, dosage, potential benefits, limitations, pricing, guarantee, and what… Continue reading on Medium »",
+      "tags": [
+        "Pricing"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "AI Is Creating a New Role Nobody Is Talking About: The AI Reviewer",
+      "url": "https://medium.com/codetodeploy/ai-is-creating-a-new-role-nobody-is-talking-about-the-ai-reviewer-c603bc726d03?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-13T06:35:32+00:00",
+      "summary": "We gave AI the ability to do almost everything. We forgot to figure out who checks its work. Continue reading on CodeToDeploy »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Decoding Davinci Resolve 21 : An AI implementation teardown",
+      "url": "https://aniketpattanaik.medium.com/decoding-davinci-resolve-21-an-ai-implementation-teardown-34a91d938722?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-08-13T05:10:35+00:00",
+      "summary": "A Decision Decode — reverse-engineering why Blackmagic built Resolve 21’s AI the way it did. Continue reading on Medium »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "What Your Banking App Knows About You — And Why It Won’t Tell You",
+      "url": "https://medium.com/@debasis_33479/what-your-banking-app-knows-about-you-and-why-it-wont-tell-you-2a6b1639bd85?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-08-12T12:46:10+00:00",
+      "summary": "A story about data, silence, and the 62-point problem hiding inside your phone. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Garry Tan on Taste, Agents and Founder Ambition",
+      "url": "https://a16z.simplecast.com/episodes/garry-tan-on-taste-agents-and-founder-ambition-5Wi5biPg",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-08-12T10:26:08+00:00",
+      "summary": "Anish Acharya is joined by Garry Tan, President and CEO of Y Combinator, for a conversation about how AI is rewriting the startup playbook, why founders should be more ambitious than ever, and what two decades of Silicon Valley booms, busts, and missed opportunities have taught G...",
+      "tags": [
+        "AI Strategy",
+        "Communication",
+        "Hardware Differentiation"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Anthropic’s Watermarking, How It (Probably) Works, Worse Than It Seems",
+      "url": "https://stratechery.com/2026/anthropics-watermarking-how-it-probably-works-worse-than-it-seems/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-08-12T10:00:00+00:00",
+      "summary": "Anthropic is adding watermarking in response to the E.U.'s AI law. It's a terrible idea, first and foremost for philosophical reasons.",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "How AI Is Transforming Content Operations and Catalog Management",
       "url": "https://medium.com/@abi309divya/how-ai-is-transforming-content-operations-and-catalog-management-842a93109d82?source=rss------product_management-5",
@@ -623,6 +698,18 @@
       "type": "article",
       "date": "2026-08-07T05:26:01+00:00",
       "summary": "In the early 1950s, the United States Air Force had a problem it could not explain by pilot error alone. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Swipe",
+      "url": "https://www.producthunt.com/products/swipe-9",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-08-06T20:59:53+00:00",
+      "summary": "Swipe right on your next customer Discussion | Link",
       "tags": [
         "Product Strategy"
       ],
@@ -3978,6 +4065,18 @@
         "AI Tools",
         "AI Strategy",
         "Product Design"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Assembly Studio",
+      "url": "https://www.producthunt.com/products/assembly-7",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-07-09T14:57:58+00:00",
+      "summary": "AI app builder that grows your revenue Discussion | Link",
+      "tags": [
+        "AI Strategy"
       ],
       "is_fallback": true
     },
@@ -10614,83 +10713,6 @@
       "summary": "The article lists the most important product leadership conferences happening in 2026, highlighting opportunities to learn emerging trends, network with peers, and gather actionable advice from leading product experts. Attending these events can help product managers stay ahead of industry developments and accelerate their teams' performance.",
       "tags": [
         "Leadership",
-        "Product Strategy",
-        "Growth"
-      ]
-    },
-    {
-      "title": "Using Multilingual AI to Reduce Time-to-Market for Product Launches",
-      "url": "https://www.productledalliance.com/using-multilingual-ai-to-reduce-time-to-market/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-05-14T15:47:19+00:00",
-      "summary": "Product teams are leveraging multilingual AI to automate localization, enabling simultaneous launches in over 100 markets. This approach cuts time-to-market and costs while eliminating extensive engineering effort.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Growth"
-      ]
-    },
-    {
-      "title": "Product Manager",
-      "url": "https://remoteOK.com/remote-jobs/remote-product-manager-cosuno-1131589",
-      "source": "Remote OK",
-      "type": "job",
-      "date": "2026-05-14T14:00:05+00:00",
-      "summary": "The role focuses on owning and evolving the subcontractor marketplace, leveraging AI to introduce features like intelligent tender recommendations and automated bidding support. The PM will analyze user behavior, market trends, and product metrics to identify growth opportunities and drive strategic initiatives within a small, high-impact team.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Growth"
-      ]
-    },
-    {
-      "title": "Building Rhea's Factory: How AI-Designed Enzymes Could Finally Solve Plastic Recycling",
-      "url": "https://www.producttalk.org/building-rheas-factory-how-ai-designed-enzymes-could-finally-solve-plastic-recycling/",
-      "source": "Product Talk",
-      "type": "article",
-      "date": "2026-05-14T13:00:27+00:00",
-      "summary": "The article discusses a new approach to plastic recycling that leverages AI-designed enzymes to break down polymers more efficiently than traditional mechanical and chemical methods. By using machine learning to engineer enzymes capable of degrading various plastics, the initiative aims to create a scalable, cost-effective solution that could dramatically increase recycling rates and reduce environmental impact.",
-      "tags": [
-        "AI Strategy",
-        "AI Tools",
-        "Product Strategy"
-      ]
-    },
-    {
-      "title": "An Interview with Ben Thompson at the MoffettNathanson Media, Internet & Communications Conference",
-      "url": "https://stratechery.com/2026/an-interview-with-ben-thompson-at-the-moffettnathanson-media-internet-communications-conference/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-05-14T10:00:00+00:00",
-      "summary": "Ben Thompson, interviewed at the MoffettNathanson conference, argues that the current compute shortage is reshaping Aggregation Theory and the economics of consumer AI rollouts. For product strategists the takeaway is that platform power and AI service availability are increasingly constrained by infrastructure scarcity rather than software innovation.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Competitive Analysis"
-      ]
-    },
-    {
-      "title": "https://login.dgconnect.gov.kh/realms/prd/protocol/openid-connect/auth?prompt=login&state=ND10SM_uit",
-      "url": "https://medium.com/@rjbwscyf/https-login-dgconnect-gov-kh-realms-prd-protocol-openid-connect-auth-prompt-login-state-nd10sm-uit-39c7d5d34f4e?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-05-14T07:36:09+00:00",
-      "summary": "The provided link points to a login page for dgconnect.gov.kh and does not contain any article content to summarize for product management insights.",
-      "tags": [
-        "Product Culture",
-        "Leadership"
-      ]
-    },
-    {
-      "title": "How Restaurant Automation Improves Speed, Accuracy, and Customer Experience",
-      "url": "https://medium.com/@ovenkotsoftware/how-restaurant-automation-improves-speed-accuracy-and-customer-experience-628376b19d27?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-05-14T07:29:15+00:00",
-      "summary": "The article explains how automating restaurant operations—through AI-driven ordering, kitchen display systems, and predictive analytics—boosts service speed and order accuracy while enhancing the overall customer experience. For product managers, it highlights the strategic value of integrating automation to reduce errors, increase throughput, and drive competitive differentiation in the dining sector.",
-      "tags": [
-        "AI Tools",
         "Product Strategy",
         "Growth"
       ]
