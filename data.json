@@ -1,7 +1,74 @@
 {
-  "updated": "2026-08-13T06:42:20.959533+00:00",
-  "total": 829,
+  "updated": "2026-08-14T06:38:36.624666+00:00",
+  "total": 833,
   "items": [
+    {
+      "title": "How AI Is Turning Product Managers Into Builders",
+      "url": "https://medium.com/ai-center-grow-earn-with-ai/how-ai-is-turning-product-managers-into-builders-dadfc866351c?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-14T06:11:58+00:00",
+      "summary": "Judgment, Testing, and Auditing Continue reading on AI Center — Grow & Earn with AI »",
+      "tags": [
+        "AI Strategy",
+        "Compliance"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Why Change an App That Works? Because “Working” Is Not the Same as “Safe”",
+      "url": "https://medium.com/@FinClip/why-change-an-app-that-works-because-working-is-not-the-same-as-safe-e3c95dfbb4dd?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-08-14T05:38:13+00:00",
+      "summary": "The strongest argument against evolving a standalone app into a platform is that the app already works. It’s also the argument most likely… Continue reading on Medium »",
+      "tags": [
+        "Platform Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "AI Agents Do Not Remove Management; They Expose It",
+      "url": "https://different-perspectives.medium.com/ai-agents-do-not-remove-management-they-expose-it-64dd8f909cb7?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-14T05:31:01+00:00",
+      "summary": "Automation makes unclear ownership visible faster, not less important. Continue reading on Medium »",
+      "tags": [
+        "AI Strategy",
+        "AI Tools",
+        "Automation"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The startup PM playbook:  What it really takes to build from zero",
+      "url": "https://www.productledalliance.com/the-startup-pm-playbook-build-from-zero/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-08-13T11:00:56+00:00",
+      "summary": "Building a product from scratch? Get practical frameworks for finding product-market fit, prioritizing problems, and shipping fast from trusted product leaders.",
+      "tags": [
+        "Engineering Velocity",
+        "Leadership",
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Two Ways to Sell AI: Lighthouse or Landgrab?",
+      "url": "https://a16z.simplecast.com/episodes/the-two-ways-to-sell-ai-lighthouse-or-landgrab-9C2mrr4S",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-08-13T10:00:00+00:00",
+      "summary": "Elena Burger is joined by a16z's Andy McCall and Joe Schmidt to break down two very different ways AI startups can go to market: the lighthouse and the landgrab. Should founders win a handful of marquee customers whose credibility unlocks an entire industry, or move quickly acros...",
+      "tags": [
+        "AI Strategy",
+        "Career",
+        "Pricing"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Testosil Review 2026: Ingredients, Benefits, Pros & Cons, Dosage & Is It Worth It?",
       "url": "https://medium.com/@ceo.trustpickshub/testosil-review-2026-ingredients-benefits-pros-cons-dosage-is-it-worth-it-87572450ef20?source=rss------product_management-5",
@@ -34,6 +101,19 @@
       "date": "2026-08-13T05:10:35+00:00",
       "summary": "A Decision Decode — reverse-engineering why Blackmagic built Resolve 21’s AI the way it did. Continue reading on Medium »",
       "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "ThreadPort",
+      "url": "https://www.producthunt.com/products/threadport",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-08-12T19:57:51+00:00",
+      "summary": "Move AI chats between ChatGPT, Claude & Gemini in one click Discussion | Link",
+      "tags": [
+        "AI Tools",
         "AI Strategy"
       ],
       "is_fallback": true
@@ -74,6 +154,18 @@
       "tags": [
         "AI Strategy",
         "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Chiplab",
+      "url": "https://www.producthunt.com/products/chiplab",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-08-12T08:37:19+00:00",
+      "summary": "Test firmware on a virtual chip with no hardware needed Discussion | Link",
+      "tags": [
+        "Hardware Differentiation"
       ],
       "is_fallback": true
     },
@@ -10675,45 +10767,6 @@
       "tags": [
         "Product Design",
         "Platform Strategy",
-        "Growth"
-      ]
-    },
-    {
-      "title": "2026.20: Shifting Alliances in a Changing World",
-      "url": "https://stratechery.com/2026/shifting-alliances-in-a-changing-world/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-05-15T17:00:00+00:00",
-      "summary": "The weekly Stratechery roundup covers emerging shifts in global tech power dynamics, highlighting the rise of a novel computing paradigm and Elon Musk's strategic moves. It also provides a comprehensive look at the evolving US‑China relationship and its implications for product leaders navigating geopolitical risk.",
-      "tags": [
-        "Product Strategy",
-        "Competitive Analysis",
-        "Leadership"
-      ]
-    },
-    {
-      "title": "📈 Cerebras and the IPO pop",
-      "url": "https://www.exponentialview.co/p/cerebras-and-the-ipo-pop",
-      "source": "Exponential View",
-      "type": "trend",
-      "date": "2026-05-15T09:17:16+00:00",
-      "summary": "The article discusses the recent surge in Cerebras' stock price following its IPO, attributing the rally to heightened market awareness of AI inference demand. It highlights how investors are increasingly valuing companies that can deliver high-performance AI hardware for real-time workloads, positioning Cerebras as a key player in this emerging segment.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Growth"
-      ]
-    },
-    {
-      "title": "Must-attend product events  in 2026",
-      "url": "https://www.productledalliance.com/top-product-led-events-you-must-attend/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-05-15T09:00:00+00:00",
-      "summary": "The article lists the most important product leadership conferences happening in 2026, highlighting opportunities to learn emerging trends, network with peers, and gather actionable advice from leading product experts. Attending these events can help product managers stay ahead of industry developments and accelerate their teams' performance.",
-      "tags": [
-        "Leadership",
-        "Product Strategy",
         "Growth"
       ]
     }
