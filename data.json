@@ -1,7 +1,82 @@
 {
-  "updated": "2026-08-14T06:38:36.624666+00:00",
-  "total": 833,
+  "updated": "2026-08-15T05:48:43.338975+00:00",
+  "total": 832,
   "items": [
+    {
+      "title": "The More Code I Delegate to AI, the More I Think Like a Product Manager",
+      "url": "https://medium.com/@pradeep00271/the-more-code-i-delegate-to-ai-the-more-i-think-like-a-product-manager-d1f4fc436801?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-15T05:21:01+00:00",
+      "summary": "AI agents did more than speed up my implementation. They pushed me to question customer problems, compare product choices, and decide what… Continue reading on Medium »",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "I Became a Product Manager and Also Slightly Crazy",
+      "url": "https://medium.com/@shwetadas930/i-became-a-product-manager-and-also-slightly-crazy-b7802f5beaa7?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-15T04:38:12+00:00",
+      "summary": "A confession from someone who now asks her cook to prioritise vegetables before they churn Continue reading on Medium »",
+      "tags": [
+        "Prioritization",
+        "Retention"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🔮 The market misread Google’s AI exodus",
+      "url": "https://www.exponentialview.co/p/google-deepmind-exodus-ai-cycle",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-08-15T04:31:21+00:00",
+      "summary": "We're earlier in the cycle than you may think",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "2026.33: The CapEx Train Keeps Rolling",
+      "url": "https://stratechery.com/2026/the-capex-train-keeps-rolling/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-08-14T17:00:00+00:00",
+      "summary": "The best Stratechery content from the week of August 10, 2026, including the capital constraint, AI writing, and a tale of two cities.",
+      "tags": [
+        "AI Strategy",
+        "Communication"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Vertical SaaS Moats Are Boring On Purpose",
+      "url": "https://medium.com/@colelamphere/vertical-saas-moats-are-boring-on-purpose-d2891a6b428a?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-08-14T16:29:24+00:00",
+      "summary": "The integration that took us eleven months is the reason a customer stayed after a competitor quoted half our price. Continue reading on Medium »",
+      "tags": [
+        "Competitive Analysis"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Ben Horowitz and Travis Kalanick on Building Again",
+      "url": "https://a16z.simplecast.com/episodes/ben-horowitz-and-travis-kalanick-on-building-again-o4RgblCd",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-08-14T10:00:00+00:00",
+      "summary": "Ben Horowitz, Travis Kalanick, and Erik Torenberg take the stage at Atoms' launch event for a candid fireside conversation about entrepreneurship, company building, and why Kalanick believes the next industrial revolution will be powered by AI. They revisit pivotal moments from U...",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "How AI Is Turning Product Managers Into Builders",
       "url": "https://medium.com/ai-center-grow-earn-with-ai/how-ai-is-turning-product-managers-into-builders-dadfc866351c?source=rss------product_management-5",
@@ -38,6 +113,18 @@
         "AI Strategy",
         "AI Tools",
         "Automation"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Compass Calendar",
+      "url": "https://www.producthunt.com/products/compass-calendar",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-08-13T19:31:57+00:00",
+      "summary": "The keyboard-first calendar to get organized quickly Discussion | Link",
+      "tags": [
+        "Product Strategy"
       ],
       "is_fallback": true
     },
@@ -154,6 +241,18 @@
       "tags": [
         "AI Strategy",
         "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Must-attend product events  in 2026",
+      "url": "https://www.productledalliance.com/top-product-led-events-you-must-attend/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-08-12T09:00:00+00:00",
+      "summary": "Explore the top upcoming product leadership events in 2026. Stay ahead on trends, grow your network, and gain actionable insights from top product experts.",
+      "tags": [
+        "Leadership"
       ],
       "is_fallback": true
     },
@@ -10651,123 +10750,6 @@
         "Product Strategy",
         "Competitive Analysis",
         "AI Strategy"
-      ]
-    },
-    {
-      "title": "Why the Nomad Era Is Just Beginning (For the 10% Who Actually Built It Right)",
-      "url": "https://medium.com/@dustinbalictar/why-the-nomad-era-is-just-beginning-for-the-10-who-actually-built-it-right-006c4f220840?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-05-17T05:48:12+00:00",
-      "summary": "The article argues that the remote work movement is still in its early stages, with only a small fraction of companies having truly optimized their operations for distributed teams. It highlights the strategic shifts needed—such as rethinking collaboration tools, culture, and performance metrics—to fully capitalize on the emerging nomad era.",
-      "tags": [
-        "Product Strategy",
-        "Growth",
-        "Platform Strategy"
-      ]
-    },
-    {
-      "title": "🔮 Exponential View #574: Inside Anthropic’s rocket ship; AI pluralism; love commoditized, context-maxxing & Voltaire++",
-      "url": "https://www.exponentialview.co/p/ev-574",
-      "source": "Exponential View",
-      "type": "trend",
-      "date": "2026-05-17T03:32:49+00:00",
-      "summary": "The issue dives into Anthropic’s rapid growth, highlighting its strategic positioning in the AI landscape and the broader move toward AI pluralism. It also explores emerging trends like commoditizing love, maximizing contextual intelligence, and the cultural impact of Voltaire++, offering insights for product leaders on navigating these shifts.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Leadership"
-      ]
-    },
-    {
-      "title": "🧠 Community Wisdom: Screening AI slop in hiring, Wispr Flow alternatives for voice transcription, multi-agent pipeline vs. MCP, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-screening-ai-slop",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-05-16T21:46:34+00:00",
-      "summary": "The article highlights recent community discussions on practical AI applications, including methods for screening AI-generated content in hiring processes, alternatives to Wispr Flow for voice transcription, and a comparison of multi‑agent pipelines versus the MCP framework. It offers actionable insights for product teams looking to integrate reliable AI tools and improve workflow efficiency.",
-      "tags": [
-        "AI Strategy",
-        "AI Tools",
-        "Product Strategy"
-      ]
-    },
-    {
-      "title": "Peak Design: Product Lifecycle Management (PLM) Product Data Contractor (4 months)",
-      "url": "https://weworkremotely.com/remote-jobs/peak-design-product-lifecycle-management-plm-product-data-contractor-4-months",
-      "source": "We Work Remotely",
-      "type": "job",
-      "date": "2026-05-16T20:32:08+00:00",
-      "summary": "Peak Design is hiring a temporary contractor to manage product data within its Product Lifecycle Management (PLM) system, ensuring that detailed engineering specifications and metadata for their gear are accurately captured and maintained. The role supports cross‑functional teams by providing reliable product information that underpins design decisions, production planning, and quality assurance.",
-      "tags": [
-        "Product Strategy",
-        "Product Design",
-        "Data"
-      ]
-    },
-    {
-      "title": "Cision: Product Manager (SaaS)- Part time, Fixed Term",
-      "url": "https://weworkremotely.com/remote-jobs/cision-product-manager-saas-part-time-fixed-term",
-      "source": "We Work Remotely",
-      "type": "job",
-      "date": "2026-05-16T20:32:04+00:00",
-      "summary": "Cision is hiring a part‑time, fixed‑term Product Manager for its SaaS offerings, focusing on building innovative communication solutions and driving product growth. The role emphasizes collaboration, user‑centric problem solving, and contributing to the company's mission of empowering authentic brand conversations.",
-      "tags": [
-        "Product Strategy",
-        "Growth",
-        "Leadership"
-      ]
-    },
-    {
-      "title": "Biggerpockets: Senior Product Manager",
-      "url": "https://weworkremotely.com/remote-jobs/biggerpockets-senior-product-manager",
-      "source": "We Work Remotely",
-      "type": "job",
-      "date": "2026-05-16T20:31:21+00:00",
-      "summary": "The Senior Product Manager, Marketplace will lead the development of core marketplace experiences at BiggerPockets, focusing on scalability, trust, and user engagement for a community of over 3 million real estate investors. The role involves shaping product foundations that enable learning, investing, and community interactions, aligning with the company’s mission to facilitate financial freedom through education and tools.",
-      "tags": [
-        "Product Strategy",
-        "Growth",
-        "Product Design"
-      ]
-    },
-    {
-      "title": "The business case your leadership team isn’t writing. And the one decision it would change.",
-      "url": "https://medium.com/@mihaela.blanaru/the-business-case-your-leadership-team-isnt-writing-and-the-one-decision-it-would-change-e97ef49b5d3a?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-05-16T16:55:22+00:00",
-      "summary": "The article explains how a clear, data‑driven business case is essential for turning around underperforming products, and why leaders often skip creating one. It emphasizes that presenting a concise, impact‑focused decision framework can shift leadership perception and drive decisive action.",
-      "tags": [
-        "Product Strategy",
-        "Leadership",
-        "Metrics"
-      ]
-    },
-    {
-      "title": "pixserp",
-      "url": "https://www.producthunt.com/products/pixserp",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-05-16T12:11:38+00:00",
-      "summary": "pixserp offers a single API endpoint that lets you run a large language model against live web data, returning results in ten different formats. This flexible solution simplifies integration of up-to-date web knowledge into products, enabling faster feature development and richer user experiences.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "AI Strategy"
-      ]
-    },
-    {
-      "title": "Kirki",
-      "url": "https://www.producthunt.com/products/kirki",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-05-16T11:15:00+00:00",
-      "summary": "WordPress has introduced Kirki, a freeform canvas website builder that lets users design pages with drag‑and‑drop flexibility directly within the platform. This tool expands WordPress’s native capabilities, offering a more visual, no‑code experience for creating custom layouts without needing external plugins or themes.",
-      "tags": [
-        "Product Design",
-        "Platform Strategy",
-        "Growth"
       ]
     }
   ]
