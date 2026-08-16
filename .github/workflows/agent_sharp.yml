@@ -40,6 +40,11 @@ jobs:
           LANGFUSE_PUBLIC_KEY: ${{ secrets.LANGFUSE_PUBLIC_KEY }}
           LANGFUSE_SECRET_KEY: ${{ secrets.LANGFUSE_SECRET_KEY }}
           LANGFUSE_HOST: https://cloud.langfuse.com
+          # Force line-buffered stdout so print() output flushes in
+          # real time. Without this, GHA logs only show the first few
+          # lines until the process exits (Python defaults to block-
+          # buffering when stdout is a pipe).
+          PYTHONUNBUFFERED: '1'
         run: python scripts/agent_sharp.py
 
       # Regenerate the RSS feed from agent/index.json + edition JSONs so

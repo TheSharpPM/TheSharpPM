@@ -1586,11 +1586,13 @@ def run_agent():
 
         # Open a Langfuse generation for this iteration as a child of
         # the root span. Best-effort: any failure here does not affect
-        # the actual model call.
+        # the actual model call. Langfuse v3 deprecates start_generation
+        # in favour of start_observation(as_type="generation").
         generation = None
         if root_span:
             try:
-                generation = root_span.start_generation(
+                generation = root_span.start_observation(
+                    as_type="generation",
                     name=f"iter_{iteration}",
                     model=MODEL,
                     model_parameters={
