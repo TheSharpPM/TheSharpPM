@@ -1,7 +1,95 @@
 {
-  "updated": "2026-08-15T05:48:43.338975+00:00",
+  "updated": "2026-08-16T05:51:46.158990+00:00",
   "total": 832,
   "items": [
+    {
+      "title": "Your Users Don’t Want More Features. They Want Less Work.",
+      "url": "https://medium.com/@mohibshabbar/your-users-dont-want-more-features-they-want-less-work-7b25a59a56ac?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-16T05:47:42+00:00",
+      "summary": "The best software doesn’t give people more things to do. It quietly removes things they shouldn’t have to do at all. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🔮 The curious economics of a $6 AI agent #597",
+      "url": "https://www.exponentialview.co/p/ev-597",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-08-16T05:39:19+00:00",
+      "summary": "Amazon spent some $1.8 million on a Claude project that ran unnoticed for five months. “It’s difficult to figure out how much anything [AI-related] costs”.",
+      "tags": [
+        "AI Tools",
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "PM Case Study: Vendors Don’t Need a Storefront; They Need to Remember Who Asked",
+      "url": "https://medium.com/@patriciaoko97/pm-case-study-vendors-dont-need-a-storefront-they-need-to-remember-who-asked-7ddc5146b40a?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-16T04:55:57+00:00",
+      "summary": "A product management case study for Nigerian small businesses selling on WhatsApp and why the real problem was never the shopfront Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🧠 Community Wisdom: Recovering from burnout, what Airtable’s sale says about the ceiling on a startup, keeping architecture docs up to date, running competitor analysis, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-recovering-from",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-08-15T17:01:13+00:00",
+      "summary": "Community Wisdom 197",
+      "tags": [
+        "Community",
+        "Competitive Analysis"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "From Solution to Product: What 0-to-1 Product Development Really Looks Like",
+      "url": "https://medium.com/@ashutoshjoshi4545/from-solution-to-product-what-0-to-1-product-development-really-looks-like-ff53816226cb?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-08-15T15:16:51+00:00",
+      "summary": "What building a customer-specific healthcare solution taught me about turning a solution into a repeatable product Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Temporal Technologies: Director, GTM Strategy & Analytics",
+      "url": "https://weworkremotely.com/remote-jobs/temporal-technologies-director-gtm-strategy-analytics",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-08-15T07:31:27+00:00",
+      "summary": "Headquarters: United States - Remote Opportunity About Us Temporal is an open source programming model that can simplify code, make applications more reliable, and help developers focus on the important things like delivering features faster. We are on a mission to be the reliabl...",
+      "tags": [
+        "Career",
+        "Engineering Velocity",
+        "Growth"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Different Industries YET Same SaaS Playbook",
+      "url": "https://medium.com/@zankar.bhalala16/different-industries-yet-same-saas-playbook-6331935c36c8?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-08-15T05:49:33+00:00",
+      "summary": "I analysed B2B SaaS companies across completely different industries. Their strategies are surprisingly similar. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "The More Code I Delegate to AI, the More I Think Like a Product Manager",
       "url": "https://medium.com/@pradeep00271/the-more-code-i-delegate-to-ai-the-more-i-think-like-a-product-manager-d1f4fc436801?source=rss------product_management-5",
@@ -1035,6 +1123,18 @@
       "type": "trend",
       "date": "2026-08-05T22:44:20+00:00",
       "summary": "The fastest way to send anything to your iPhone Discussion | Link",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Joy",
+      "url": "https://www.producthunt.com/products/joy-celebrate-your-wins",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-08-05T16:55:49+00:00",
+      "summary": "A Mac menu bar app that throws confetti for your wins Discussion | Link",
       "tags": [
         "Product Strategy"
       ],
@@ -3696,6 +3796,18 @@
       "tags": [
         "AI Strategy",
         "Communication"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Big Mike",
+      "url": "https://www.producthunt.com/products/big-mike",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-07-14T16:48:04+00:00",
+      "summary": "Your favorite uncle who knows sports & bets, on iMessage Discussion | Link",
+      "tags": [
+        "Product Strategy"
       ],
       "is_fallback": true
     },
@@ -10634,122 +10746,6 @@
         "AI Strategy",
         "Product Strategy",
         "Product Culture"
-      ]
-    },
-    {
-      "title": "Vanguard",
-      "url": "https://www.acquired.fm/episodes/vanguard",
-      "source": "Acquired",
-      "type": "podcast",
-      "date": "2026-05-18T03:26:52+00:00",
-      "summary": "Vanguard is the most effective vehicle ever created for participating in the fruits of American capitalism. Today it’s the single largest equity owner of the majority of corporations in the S&P 500, on behalf of 50 million clients (including, likely, many of you). And yet Vanguar...",
-      "tags": [
-        "Growth"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "We Tried to Build a Better Link-in-Bio. The Category Wouldn’t Let Us.",
-      "url": "https://rex0lux.medium.com/we-tried-to-build-a-better-link-in-bio-the-category-wouldnt-let-us-e703b5d82c3a?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-05-18T01:25:28+00:00",
-      "summary": "The article chronicles the development of EdgeURL, a Link-in-Bio service aimed at surpassing Linktree by adding native URL shortening and analytics. The team faced significant hurdles due to platform categorization constraints, which impeded their product’s launch and growth.",
-      "tags": [
-        "Product Strategy",
-        "AI Tools",
-        "Metrics"
-      ]
-    },
-    {
-      "title": "Hint Health: Senior Product Manager",
-      "url": "https://weworkremotely.com/remote-jobs/hint-health-senior-product-manager",
-      "source": "We Work Remotely",
-      "type": "job",
-      "date": "2026-05-17T20:30:41+00:00",
-      "summary": "Hint Health, the leading digital health platform for Direct Primary Care, is hiring a Senior Product Manager to drive product development across its HintOS platform, conferences, and clinic network. The role will focus on scaling solutions for thousands of clinics, enhancing member experiences, and advancing the mission of making affordable, high‑quality healthcare the new standard.",
-      "tags": [
-        "Product Strategy",
-        "Leadership",
-        "Growth"
-      ]
-    },
-    {
-      "title": "AGG Identify",
-      "url": "https://www.producthunt.com/products/agg-identify",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-05-17T18:03:02+00:00",
-      "summary": "AGG Identify is a lightweight, secure OIDC and OAuth2 provider designed to simplify authentication flows while maintaining strong security. The discussion focuses on its streamlined architecture, ease of integration, and potential to accelerate product development by handling identity management in-house.",
-      "tags": [
-        "Platform Strategy",
-        "Product Strategy",
-        "Leadership"
-      ]
-    },
-    {
-      "title": "CaseGap AI",
-      "url": "https://www.producthunt.com/products/casegap-ai",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-05-17T17:12:24+00:00",
-      "summary": "CaseGap AI leverages artificial intelligence to identify hidden revenue leaks within law firms by analyzing billing patterns, client interactions, and operational workflows. The platform then offers actionable recommendations to close these gaps, helping firms boost profitability and improve financial oversight.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Data"
-      ]
-    },
-    {
-      "title": "Can ChatGPT Show Ads Without Damaging User Trust?",
-      "url": "https://medium.com/@harshdeep18894/can-chatgpt-show-ads-without-damaging-user-trust-9e0b6345d229?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-05-17T13:54:03+00:00",
-      "summary": "The article explores how integrating advertisements into ChatGPT could affect user trust, weighing potential revenue benefits against the risk of eroding confidence in the platform. It examines strategies to balance monetization with maintaining a high-quality, trustworthy user experience.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "User Research"
-      ]
-    },
-    {
-      "title": "Why we’re at the beginning of the AI hardware boom | Caitlin Kalinowski (ex–OpenAI, Meta, Apple)",
-      "url": "https://www.lennysnewsletter.com/p/why-were-at-the-beginning-of-the",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-05-17T12:31:57+00:00",
-      "summary": "Caitlin Kalinowski explains how supply chain fragilities are delaying the robotics revolution and why consumer VR struggled, highlighting the imminent surge in AI hardware demand. Drawing on her experience at Apple, Meta, and OpenAI, she outlines lessons for building resilient AI products and positioning companies to capitalize on the upcoming hardware boom.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Leadership"
-      ]
-    },
-    {
-      "title": "AI Agents Don’t See Your Consent Banner — And That’s Disrupting a $2.4 Billion Industry",
-      "url": "https://medium.com/gptalk/ai-agents-dont-see-your-consent-banner-and-that-s-disrupting-a-2-4-billion-industry-2df93743aafe?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-05-17T07:04:42+00:00",
-      "summary": "Consent management platforms assume human users will read and act on consent banners, but AI agents bypass these prompts, threatening a $2.4 billion industry. Product managers must rethink consent flows, integrate machine‑readable signals, and ensure compliance while preserving user trust.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Compliance"
-      ]
-    },
-    {
-      "title": "The Company That Didn’t Take the SDV Bet",
-      "url": "https://owen-hill.medium.com/the-company-that-didnt-take-the-sdv-bet-47a209d1fe3e?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-05-17T06:33:29+00:00",
-      "summary": "The article examines Toyota's cautious approach to the software-defined vehicle (SDV) trend, highlighting how their reliance on traditional manufacturing strengths may cause them to miss early market leadership in vehicle software. For product managers, it underscores the risk of inertia in fast‑moving tech domains and the need to balance legacy capabilities with bold platform investments.",
-      "tags": [
-        "Product Strategy",
-        "Competitive Analysis",
-        "AI Strategy"
       ]
     }
   ]
