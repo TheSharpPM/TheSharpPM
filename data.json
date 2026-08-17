@@ -1,7 +1,68 @@
 {
-  "updated": "2026-08-16T05:51:46.158990+00:00",
-  "total": 832,
+  "updated": "2026-08-17T05:58:43.690750+00:00",
+  "total": 828,
   "items": [
+    {
+      "title": "Impact of Disruptive technologies on product development process",
+      "url": "https://medium.com/@muditastrataegis01/impact-of-disruptive-technologies-on-product-development-process-69e866d8fceb?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-08-17T05:37:56+00:00",
+      "summary": "Every technology extension has limitations if assessed from economic value addition perspective or simply utility point of view. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "We Shipped Faster After We Started Saying No to Our Own Ideas",
+      "url": "https://medium.com/@virendrapatil2902/we-shipped-faster-after-we-started-saying-no-to-our-own-ideas-debbbc569ed1?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-17T05:31:02+00:00",
+      "summary": "Two engineers came to me with a proposal. Good proposal. Clean writeup, real problem, sensible design, three weeks of work. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "What Product Managers Need to Understand: Product, Engineering, UX, and AI",
+      "url": "https://medium.com/@raylabs/what-product-managers-need-to-understand-product-engineering-ux-and-ai-299a2d9f6e49?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-17T05:23:23+00:00",
+      "summary": "Product Management can look simple from the outside. Continue reading on Medium »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "AI Can Discover More. But Can It Decide What to Kill?",
+      "url": "https://medium.com/@ic-eight/ai-can-discover-more-but-can-it-decide-what-to-kill-cf5655392b75?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-08-17T00:49:56+00:00",
+      "summary": "In the previous piece, I described an experiment: giving AI different kinds of evidence about the same product and watching what it… Continue reading on Medium »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "OpenAI’s Head of Design: This is the best time in history to be a designer | Ian Silber",
+      "url": "https://www.lennysnewsletter.com/p/openais-head-of-design-this-is-the",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-08-16T12:31:42+00:00",
+      "summary": "Listen now | OpenAI’s head of product design on why this is the best time in history to be a designer, where humans still beat AI, and how to escape the overwhelm",
+      "tags": [
+        "Product Design",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Your Users Don’t Want More Features. They Want Less Work.",
       "url": "https://medium.com/@mohibshabbar/your-users-dont-want-more-features-they-want-less-work-7b25a59a56ac?source=rss------product_management-5",
@@ -129,6 +190,18 @@
       "is_fallback": true
     },
     {
+      "title": "Chert",
+      "url": "https://www.producthunt.com/products/chert",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-08-15T04:01:04+00:00",
+      "summary": "Vapi for FaceTime: AI video agents in a few lines Discussion | Link",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
       "title": "2026.33: The CapEx Train Keeps Rolling",
       "url": "https://stratechery.com/2026/the-capex-train-keeps-rolling/",
       "source": "Stratechery",
@@ -162,6 +235,18 @@
       "summary": "Ben Horowitz, Travis Kalanick, and Erik Torenberg take the stage at Atoms' launch event for a candid fireside conversation about entrepreneurship, company building, and why Kalanick believes the next industrial revolution will be powered by AI. They revisit pivotal moments from U...",
       "tags": [
         "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "HarnessRouter Community Edition",
+      "url": "https://www.producthunt.com/products/epsilla",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-08-14T06:38:52+00:00",
+      "summary": "Open-source unified interface for agent harnesses Discussion | Link",
+      "tags": [
+        "Product Strategy"
       ],
       "is_fallback": true
     },
@@ -10602,149 +10687,6 @@
       "tags": [
         "Platform Strategy",
         "Growth",
-        "Product Culture"
-      ]
-    },
-    {
-      "title": "Thinnest AI",
-      "url": "https://www.producthunt.com/products/thinnest-ai",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-05-19T05:09:58+00:00",
-      "summary": "Thinnest AI offers a platform to create voice AI agents in over 100 languages, charging a low usage fee of ₹1.5 per minute. This enables product teams to quickly prototype multilingual voice experiences without heavy upfront investment, accelerating time-to-market and expanding global reach.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Growth"
-      ]
-    },
-    {
-      "title": "Upcoming Events - May 2026",
-      "url": "https://www.producttalk.org/upcoming-events-may-2026/",
-      "source": "Product Talk",
-      "type": "article",
-      "date": "2026-05-18T21:16:16+00:00",
-      "summary": "The announcement highlights two upcoming internal events, including a Claude Code: Show and Tell session scheduled for May 26th at 9 am PDT. Participants will showcase their favorite Claude Code workflows, fostering knowledge sharing and community engagement around AI development tools.",
-      "tags": [
-        "AI Tools",
-        "Product Culture",
-        "Productivity"
-      ]
-    },
-    {
-      "title": "🎙️ How I AI: HTML is the new Markdown: How Anthropic engineers are building with Claude Code",
-      "url": "https://www.lennysnewsletter.com/p/how-i-ai-html-is-the-new-markdown",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-05-18T15:00:52+00:00",
-      "summary": "The episode discusses Anthropic's Claude Code, which positions HTML as a more powerful alternative to Markdown for AI-assisted development, highlighting how engineers leverage this tool to streamline code generation and documentation. It explores the strategic implications for product teams looking to integrate AI-driven coding assistants into their workflows.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Product Design"
-      ]
-    },
-    {
-      "title": "Accessibility risk reduction playbook:  Closing the gap in your accessibility program",
-      "url": "https://www.productledalliance.com/accessibility-risk-reduction-playbook-closing-the-gap-in-your-accessibility-program/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-05-18T13:58:24+00:00",
-      "summary": "The playbook outlines a systematic approach to reducing accessibility risk by combining automated scanning tools with expert audits, enabling product teams to identify and prioritize issues effectively. It provides guidance on fixing problems at the source, helping to close gaps in your accessibility program and improve overall user experience.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Retention"
-      ]
-    },
-    {
-      "title": "HTML is the new Markdown: How Anthropic engineers are building with Claude Code | Thariq Shihipar",
-      "url": "https://www.lennysnewsletter.com/p/html-is-the-new-markdown-how-anthropic",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-05-18T12:02:11+00:00",
-      "summary": "The article explains how Anthropic engineers are using Claude Code to treat HTML as a modern replacement for markdown, enabling the rapid creation of micro‑apps for specification editing and living design systems. It also discusses the role of developers as \"compute allocators\" who focus on orchestrating AI resources rather than writing code line‑by‑line.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Product Design"
-      ]
-    },
-    {
-      "title": "📈 Data to start your week: The cost of tokenmaxxing",
-      "url": "https://www.exponentialview.co/p/monday-data-the-cost-of-tokenmaxxing",
-      "source": "Exponential View",
-      "type": "trend",
-      "date": "2026-05-18T10:53:34+00:00",
-      "summary": "The article explains how token maximization (“tokenmaxxing”) shifts costs from fixed infrastructure to variable usage, creating new budgeting and performance challenges for product teams. It highlights the need for careful monitoring of token consumption, cost forecasting, and strategies to mitigate token‑related anxiety while maintaining AI product quality.",
-      "tags": [
-        "AI Strategy",
-        "Metrics",
-        "Product Design"
-      ]
-    },
-    {
-      "title": "Why product managers are a bottleneck  and how product ops can fix it",
-      "url": "https://www.productledalliance.com/how-product-operations-can-unlock-ais-true-potential/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-05-18T10:44:56+00:00",
-      "summary": "The article argues that product managers are increasingly becoming bottlenecks due to overloaded responsibilities. It proposes that product ops shift from merely enforcing processes to actively curating contextual information, enabling faster decision‑making and smoother workflows.",
-      "tags": [
-        "Product Strategy",
-        "Product Ops",
-        "Leadership"
-      ]
-    },
-    {
-      "title": "Data Center Discontent, Understanding the Opposition, Fixing the Problem",
-      "url": "https://stratechery.com/2026/data-center-discontent-understanding-the-opposition-fixing-the-problem/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-05-18T10:00:00+00:00",
-      "summary": "The article outlines the common community concerns surrounding data center deployments, emphasizing that opposition often stems from perceived environmental and local impact. It controversially argues that the most effective way to resolve these disputes is through financial compensation to affected parties.",
-      "tags": [
-        "Stakeholders",
-        "Product Strategy",
-        "Leadership"
-      ]
-    },
-    {
-      "title": "Exstats",
-      "url": "https://www.producthunt.com/products/exstats",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-05-18T08:45:37+00:00",
-      "summary": "Exstats is a platform that consolidates tracking of your own browser extensions alongside competitors' offerings in a single dashboard. It aims to streamline monitoring and analysis, helping product teams stay informed about market movements and feature gaps.",
-      "tags": [
-        "Product Strategy",
-        "Competitive Analysis",
-        "Productivity"
-      ]
-    },
-    {
-      "title": "The IC Is Dead. Long Live the IC.",
-      "url": "https://medium.com/@julian.oczkowski/the-ic-is-dead-long-live-the-ic-38caf2d45f1b?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-05-18T08:35:29+00:00",
-      "summary": "The article argues that individual contributor (IC) roles are evolving rather than disappearing, emphasizing that the future of knowledge work will be defined by those who proactively adapt and continuously demonstrate impact. It highlights the need for ICs to embrace new responsibilities, visibility, and collaborative influence to remain essential in the coming decade.",
-      "tags": [
-        "Leadership",
-        "Product Culture",
-        "Productivity"
-      ]
-    },
-    {
-      "title": "How EPD Teams Must Evolve in the Age of AI",
-      "url": "https://medium.com/@shainamofficial/how-epd-teams-must-evolve-in-the-age-of-ai-ac6fc10a0673?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-05-18T08:13:33+00:00",
-      "summary": "The article discusses how Engineering, Product, and Design (EPD) teams need to transform their processes and mindsets to stay competitive as AI tools enable rapid prototyping and development by a broader range of contributors. It emphasizes adopting AI-driven workflows, redefining roles, and focusing on strategic differentiation rather than purely execution.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
         "Product Culture"
       ]
     }
