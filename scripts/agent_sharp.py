@@ -1620,6 +1620,14 @@ def run_agent():
                 tools=TOOLS,
                 tool_choice=tool_choice,
                 temperature=current_temp,
+                # Explicit output cap. Without this, Groq defaults to a
+                # value low enough that the publish_edition tool call
+                # (editorial 500 words + 5 must_reads with pull_quotes +
+                # takeaways + homework + contrarian) gets truncated
+                # mid-JSON. Symptom: tool_use_failed with an incomplete
+                # editorial string in failed_generation. 4096 fits the
+                # heaviest expected publish output with headroom.
+                max_tokens=4096,
             )
         except Exception as e:
             error_str = str(e)
