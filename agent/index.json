@@ -1,6 +1,11 @@
 {
   "editions": [
     {
+      "date": "2026-08-17",
+      "headline_theme": "Metric overload kills product clarity",
+      "file": "agent/2026-08-17.json"
+    },
+    {
       "date": "2026-08-09",
       "headline_theme": "Metrics overload blinds product judgment",
       "file": "agent/2026-08-09.json"
@@ -86,5 +91,5 @@
       "file": "agent/2026-05-03.json"
     }
   ],
-  "updated_at": "2026-08-09T08:52:40.865854+00:00"
+  "updated_at": "2026-08-17T15:12:09.342863+00:00"
 }
