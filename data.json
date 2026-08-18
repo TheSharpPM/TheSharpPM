@@ -1,7 +1,133 @@
 {
-  "updated": "2026-08-17T05:58:43.690750+00:00",
-  "total": 828,
+  "updated": "2026-08-18T05:51:31.774155+00:00",
+  "total": 830,
   "items": [
+    {
+      "title": "AI Maturity & Governance: Using AI Wisely Before Prompting",
+      "url": "https://medium.com/@marketing_57115/ai-maturity-governance-using-ai-wisely-before-prompting-7dbda9852543?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-18T05:38:36+00:00",
+      "summary": "Discover why true AI maturity isn’t about building more AI features, but about deliberate decision-making, governance, and knowing when to… Continue reading on Medium »",
+      "tags": [
+        "AI Strategy",
+        "Risk Management"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Why Product Documentation Is the First Step Before Building Any Software Product",
+      "url": "https://medium.com/@qicapp/why-product-documentation-is-the-first-step-before-building-any-software-product-53181bb1a5fd?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-18T05:22:27+00:00",
+      "summary": "Most software projects do not fail because developers cannot write code. They fail because teams start coding before they clearly… Continue reading on Medium »",
+      "tags": [
+        "Communication"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Abercrombie Deleted Everything People Hated. Sales Fell for Two More Years.",
+      "url": "https://medium.com/@aryan1999varma/abercrombie-deleted-everything-people-hated-sales-fell-for-two-more-years-cf310aeb70f3?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-08-18T04:49:26+00:00",
+      "summary": "The apology was never the strategy. The thing that actually saved the company is far less satisfying, and far more useful. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🎙️ How I AI: How a solo founder used Codex and ChatGPT to launch a fashion brand without engineers",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-a-solo-founder-used",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-08-17T15:03:16+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+      "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "📈 Data to start your week",
+      "url": "https://www.exponentialview.co/p/data-to-start-your-week-26-08-17",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-08-17T13:37:21+00:00",
+      "summary": "AI revenue update; frontier usage gap; hidden solar; China’s robot dominance++",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "MailerLite: Technical Product Manager",
+      "url": "https://weworkremotely.com/remote-jobs/mailerlite-technical-product-manager",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-08-17T12:16:59+00:00",
+      "summary": "Headquarters: Lithuania URL: https://www.mailerlite.com/company-values MailerLite is one of the fastest-growing email marketing services. We help more than 1 million businesses around the world stay in touch with their customers. Today, we are a team of more than 170 dreamers, ad...",
+      "tags": [
+        "Career",
+        "AI Strategy",
+        "Communication"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "How a solo founder used Codex and ChatGPT to launch a fashion brand without engineers | Yana Welinder",
+      "url": "https://www.lennysnewsletter.com/p/how-a-solo-founder-used-codex-and",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-08-17T12:04:02+00:00",
+      "summary": "Watch now | 🎙️From hand-drawn sketch to 3D-printed gown, Yana Welinder shows how Codex plus computer use makes previously unmanufacturable garments and full e-commerce builds possible for a solo founder",
+      "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "AI MVP Product Discovery: Validate Before You Build",
+      "url": "https://medium.com/@govindmurmu250/ai-mvp-product-discovery-validate-before-you-build-481ef797f4de?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-08-17T12:00:39+00:00",
+      "summary": "Before investing in development, validate the customer problem, essential MVP features, AI feasibility, architecture, cost, and launch… Continue reading on Medium »",
+      "tags": [
+        "AI Strategy",
+        "Leadership"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Stripe Acquiring OpenRouter, Aggregating AI?, Flipping the Business Model",
+      "url": "https://stratechery.com/2026/stripe-acquiring-openrouter-aggregating-ai-flipping-the-business-model/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-08-17T10:00:00+00:00",
+      "summary": "Stripe is reportedly acquiring OpenRouter, an implicit bet on a future market of models and the chance at Aggregation.",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Stripe’s AI Strategy: Build More, Not Less",
+      "url": "https://a16z.simplecast.com/episodes/stripes-ai-strategy-build-more-not-less-0w7FfhZZ",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-08-17T10:00:00+00:00",
+      "summary": "a16z General Partner David George is joined by Will Gaybrick, President of Product & Business at Stripe, to discuss how AI is changing the way Stripe builds products, organizes teams, and thinks about the future of internet commerce. Stripe has evolved from a payments company int...",
+      "tags": [
+        "AI Strategy",
+        "AI Tools",
+        "Platform Strategy"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Impact of Disruptive technologies on product development process",
       "url": "https://medium.com/@muditastrataegis01/impact-of-disruptive-technologies-on-product-development-process-69e866d8fceb?source=rss------product_strategy-5",
@@ -202,6 +328,18 @@
       "is_fallback": true
     },
     {
+      "title": "OpenTrade",
+      "url": "https://www.producthunt.com/products/opentrade",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-08-15T01:23:20+00:00",
+      "summary": "Open-source trading harness for Claude Code / Codex. Discussion | Link",
+      "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
       "title": "2026.33: The CapEx Train Keeps Rolling",
       "url": "https://stratechery.com/2026/the-capex-train-keeps-rolling/",
       "source": "Stratechery",
@@ -235,6 +373,18 @@
       "summary": "Ben Horowitz, Travis Kalanick, and Erik Torenberg take the stage at Atoms' launch event for a candid fireside conversation about entrepreneurship, company building, and why Kalanick believes the next industrial revolution will be powered by AI. They revisit pivotal moments from U...",
       "tags": [
         "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Meridian",
+      "url": "https://www.producthunt.com/products/meridian-16",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-08-14T08:42:54+00:00",
+      "summary": "Don't let your work go unnoticed. Get promoted! Discussion | Link",
+      "tags": [
+        "Product Strategy"
       ],
       "is_fallback": true
     },
@@ -10558,136 +10708,6 @@
         "AI Tools",
         "Productivity",
         "Platform Strategy"
-      ]
-    },
-    {
-      "title": "What launched at Google I/O 2026 (30-minute day 1 recap)",
-      "url": "https://www.lennysnewsletter.com/p/what-launched-at-google-io-2026-30",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-05-20T01:59:31+00:00",
-      "summary": "Google I/O 2026 unveiled a suite of AI‑powered developer tools, new Generative AI APIs, and tighter integration of AI into Android and Workspace. The announcements focus on accelerating product development cycles, improving user personalization, and offering programmable AI components that product teams can embed directly into their services.",
-      "tags": [
-        "AI Strategy",
-        "AI Tools",
-        "Product Strategy"
-      ]
-    },
-    {
-      "title": "TongueType for macOS",
-      "url": "https://www.producthunt.com/products/tonguetype",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-05-19T21:56:55+00:00",
-      "summary": "TongueType is a macOS application that offers local, offline dictation capabilities, eliminating the need for a cloud-based subscription. This solves privacy concerns and provides a seamless voice-to-text experience directly on the device, positioning it as a compelling alternative to subscription models.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Productivity"
-      ]
-    },
-    {
-      "title": "The Lenny and Friends Summit is back!",
-      "url": "https://www.lennysnewsletter.com/p/the-lenny-and-friends-summit-is-back",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-05-19T15:27:24+00:00",
-      "summary": "The Lenny and Friends Summit is returning on September 10th in San Francisco, with applications now open for attendees. This event offers product managers a chance to network, learn from industry leaders, and explore emerging trends in product development.",
-      "tags": [
-        "Product Culture",
-        "Stakeholders",
-        "Growth"
-      ]
-    },
-    {
-      "title": "AI Engineering - All Things Product Podcast with Teresa Torres & Petra Wille",
-      "url": "https://www.producttalk.org/ai-engineering-all-things-product-podcast-with-teresa-torres-petra-wille/",
-      "source": "Product Talk",
-      "type": "article",
-      "date": "2026-05-19T13:00:31+00:00",
-      "summary": "Teresa Torres discusses her unexpected transition from product leadership to hands‑on AI engineering, dedicating the majority of her work to building AI‑powered tools that support continuous discovery. She explains the practical challenges and benefits of integrating AI into product processes, offering insights for product managers looking to leverage AI in their own workflows.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Product Design"
-      ]
-    },
-    {
-      "title": "The data-first pivot:  A senior PM’s guide to building AI-ready ecosystems",
-      "url": "https://www.productledalliance.com/the-data-first-pivot-a-senior-pms-guide-to-building-ai-ready-ecosystems/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-05-19T12:00:30+00:00",
-      "summary": "The article advises product managers to shift focus from creating raw data lakes to developing reusable data products that can be directly leveraged by AI initiatives. It outlines a practical framework for embedding data considerations early in product design, ensuring that ecosystem components are AI-ready and can deliver measurable business value.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Data"
-      ]
-    },
-    {
-      "title": "Personal Day",
-      "url": "https://stratechery.com/2026/personal-day-3/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-05-19T10:00:00+00:00",
-      "summary": "The article provides a brief note indicating there are no new updates on the Personal Day initiative. It serves as a placeholder to inform stakeholders that the project status remains unchanged.",
-      "tags": [
-        "Product Culture",
-        "Productivity",
-        "Communication"
-      ]
-    },
-    {
-      "title": "I built and deployed a real web app in one afternoon.\nAnd, I am not a developer.",
-      "url": "https://medium.com/@priyaphadtare/i-built-and-deployed-a-real-web-app-in-one-afternoon-and-i-am-not-a-developer-25a957d36ce6?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-05-19T07:55:32+00:00",
-      "summary": "The author details how they, without a developer background, built and launched a production-ready web app in a single afternoon using Claude Code, Supabase, and Vercel. The piece highlights a minimalist tech stack and rapid deployment approach that product teams can replicate for fast validation.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Productivity"
-      ]
-    },
-    {
-      "title": "Litorale Romano, il talento si digitalizza: la nuova sfida per il territorio",
-      "url": "https://medium.com/@frdbjkkgv/litorale-romano-il-talento-si-digitalizza-la-nuova-sfida-per-il-territorio-06f7cc1eca4f?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-05-19T07:41:16+00:00",
-      "summary": "The article discusses how the Litorale Romano region is fostering digital talent to boost its local economy, highlighting initiatives that help professionals acquire new tech skills and integrate them into regional projects. It emphasizes the strategic importance of digital transformation for the territory's growth and competitiveness.",
-      "tags": [
-        "Product Strategy",
-        "Growth",
-        "Platform Strategy"
-      ]
-    },
-    {
-      "title": "The Dots That Matter",
-      "url": "https://medium.com/@f.brinkmann-design/the-dots-that-matter-8803a3918ef1?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-05-19T06:40:02+00:00",
-      "summary": "The article argues that the states most valuable to humans—such as safety, health, and wellbeing—are also the ones that require robust structural support in systems and organizations. It stresses the need for deliberate design and stabilization of these critical states to ensure sustainable outcomes.",
-      "tags": [
-        "Product Strategy",
-        "Leadership",
-        "Metrics"
-      ]
-    },
-    {
-      "title": "Vine Solved the Format, Not the Ecosystem",
-      "url": "https://medium.com/@aryan1999varma/vine-solved-the-format-not-the-ecosystem-2323933fc0b0?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-05-19T06:14:15+00:00",
-      "summary": "The article examines why Vine, once celebrated for its innovative short‑video format, ultimately failed despite its creative strengths. It argues that solving the content format alone wasn't enough; the platform ignored broader ecosystem challenges like monetization, creator incentives, and competitive pressures, leading to its internal collapse.",
-      "tags": [
-        "Platform Strategy",
-        "Growth",
-        "Product Culture"
       ]
     }
   ]
