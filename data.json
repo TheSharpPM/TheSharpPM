@@ -1,7 +1,159 @@
 {
-  "updated": "2026-08-18T05:51:31.774155+00:00",
-  "total": 830,
+  "updated": "2026-08-19T05:52:56.329098+00:00",
+  "total": 838,
   "items": [
+    {
+      "title": "Empathy Mapping: The sticky note that holds a person inside it",
+      "url": "https://waffledesigns.medium.com/empathy-mapping-the-sticky-note-that-holds-a-person-inside-it-32ca335ca892?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-19T05:26:01+00:00",
+      "summary": "You are in a meeting room. Someone has drawn a large circle on a whiteboard, divided it into four quadrants, and written “Says,” “Thinks,”… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "When AI makes “enough” impossible",
+      "url": "https://medium.com/@ghoshadave/when-ai-makes-enough-impossible-a2374f7d2b9a?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-19T04:35:56+00:00",
+      "summary": "AI is making knowledge workers faster. But faster doesn’t necessarily mean better - or happier. Continue reading on Medium »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "What I Learned Auditing 35+ Youth FinTech & Financial Literacy Apps",
+      "url": "https://medium.com/@bahriyesevval/what-i-learned-auditing-35-youth-fintech-financial-literacy-apps-e2902d6b1996?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-08-19T01:26:11+00:00",
+      "summary": "Building a financial product for younger audiences is a fascinating UX and product strategy challenge. You aren’t just designing a… Continue reading on Medium »",
+      "tags": [
+        "Compliance",
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "I tested Grok Bot, Grok 4.6, and Cursor Origin - here’s my honest take",
+      "url": "https://www.lennysnewsletter.com/p/i-tested-grok-bot-grok-46-and-cursor",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-08-18T21:30:31+00:00",
+      "summary": "Watch now | 🎙️ I tested Grok Bot, Cursor Origin, and Grok 4.6 head-to-head against my favorite models and ranked them on the Claire Index: here's what actually moved the needle",
+      "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Caspar Health: Junior Product Manager*in (alle Identitäten)",
+      "url": "https://weworkremotely.com/remote-jobs/caspar-health-junior-product-manager-in-alle-identitaten",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-08-18T20:33:18+00:00",
+      "summary": "Headquarters: Remote, Berlin What to expect Caspar Health ist führend in der digitalen Reha-Nachsorge. Wir entwickeln Lösungen, die eine moderne, datengestützte Gesundheitsversorgung ermöglichen und die Brücke zwischen Klinik und Zuhause schlagen. Unsere App bietet Patient*innen",
+      "tags": [
+        "Career",
+        "Growth",
+        "Product Design"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Medisca: Upstream Product Manager",
+      "url": "https://weworkremotely.com/remote-jobs/medisca-upstream-product-manager",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-08-18T20:31:54+00:00",
+      "summary": "Headquarters: Georgia, United States Medisca is a global company leveraging strong partnerships to serve healthcare professionals across diverse wellness disciplines. Offering extensive and essential solutions - including pharmaceutical ingredients and service, mixing technology",
+      "tags": [
+        "Career",
+        "Communication",
+        "Competitive Analysis"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Network Effects in SaaS: When Your Product Gets Better Because More People Use It",
+      "url": "https://medium.com/@atticusli/network-effects-in-saas-when-your-product-gets-better-because-more-people-use-it-7061f172b3c9?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-08-18T17:01:04+00:00",
+      "summary": "Network effects are the most powerful growth engine in technology, but most SaaS products fail to design for them. Continue reading on Medium »",
+      "tags": [
+        "Growth"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Announcing Lenny’s Jobs: The best place in the world to find, vet, and land your dream job",
+      "url": "https://www.lennysnewsletter.com/p/announcing-lennys-jobs-the-best-place",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-08-18T15:40:06+00:00",
+      "summary": "Where product managers, engineers, designers, and growth/marketing professionals discover high-quality open roles at tech companies",
+      "tags": [
+        "Growth",
+        "Product Design"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Launch ops: How to launch  when the plan keeps changing",
+      "url": "https://www.productledalliance.com/launch-ops-how-to-launch-when-the-plan-keeps-changing/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-08-18T11:38:45+00:00",
+      "summary": "The plan will change. The launch date won't. Plan accordingly.",
+      "tags": [
+        "Product Culture"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Nvidia Backs OpenAI Data Center, Anthropic News, Google Buys Spirit Airlines Data",
+      "url": "https://stratechery.com/2026/nvidia-backs-openai-data-center-anthropic-news-google-buys-spirit-airlines-data/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-08-18T10:00:00+00:00",
+      "summary": "Nvidia makes another deal, this time with a frontier lab; Anthropic's revenue continues to amaze; and maybe data finally is oil.",
+      "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "How Do You Defend Against AI That Can Hack?",
+      "url": "https://a16z.simplecast.com/episodes/how-do-you-defend-against-ai-that-can-hack-L2M2EmmY",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-08-18T10:00:00+00:00",
+      "summary": "a16z's Joel De La Garza is joined by Nick Warner of Neo and Max Pollard of Cotool to discuss what happens when cybersecurity tools built to defend against humans and malware suddenly have to contend with AI agents. As frontier models become more capable of finding and exploiting",
+      "tags": [
+        "AI Strategy",
+        "Security",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🔮 Introducing: AI Economy Research Fellowship",
+      "url": "https://www.exponentialview.co/p/ai-economy-research-fellowship-2026",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-08-18T08:53:30+00:00",
+      "summary": "Join our team to make sense of the AI economy",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "AI Maturity & Governance: Using AI Wisely Before Prompting",
       "url": "https://medium.com/@marketing_57115/ai-maturity-governance-using-ai-wisely-before-prompting-7dbda9852543?source=rss------product_management-5",
@@ -171,6 +323,18 @@
       "type": "article",
       "date": "2026-08-17T00:49:56+00:00",
       "summary": "In the previous piece, I described an experiment: giving AI different kinds of evidence about the same product and watching what it… Continue reading on Medium »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Taku AI",
+      "url": "https://www.producthunt.com/products/taku-ai",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-08-16T15:14:17+00:00",
+      "summary": "Borrow the best AI setups and make them yours. Discussion | Link",
       "tags": [
         "AI Strategy"
       ],
@@ -476,6 +640,18 @@
         "AI Strategy",
         "Career",
         "Pricing"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Deepmark",
+      "url": "https://www.producthunt.com/products/deepmark",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-08-13T08:05:11+00:00",
+      "summary": "Search your bookmarks by what's inside them, not the title Discussion | Link",
+      "tags": [
+        "Product Strategy"
       ],
       "is_fallback": true
     },
@@ -10630,84 +10806,6 @@
         "Product Strategy",
         "Platform Strategy",
         "AI Tools"
-      ]
-    },
-    {
-      "title": "Tycoon AI",
-      "url": "https://www.producthunt.com/products/tycoon-us",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-05-21T02:08:22+00:00",
-      "summary": "Tycoon AI explores how solo founders can operate fully autonomous businesses by leveraging AI agents to handle tasks ranging from product development to customer support. The article outlines the practical setup, potential efficiencies, and the strategic considerations for integrating AI as a co‑founder in a one‑person startup.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Product Culture"
-      ]
-    },
-    {
-      "title": "AI Chatbots Are UX Interfaces. So, Why Aren’t We Designing Them Like One?",
-      "url": "https://medium.com/design-bootcamp/ai-chatbots-are-ux-interfaces-so-why-arent-we-designing-them-like-one-5cd03ac6212c?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-05-21T01:12:34+00:00",
-      "summary": "The article argues that AI chatbots should be treated as primary UX interfaces, requiring the same design rigor as traditional product screens. It highlights the rapid adoption of generative AI across sectors and calls for systematic design frameworks, user research, and metrics to evaluate chatbot experiences.",
-      "tags": [
-        "AI Strategy",
-        "Product Design",
-        "User Research"
-      ]
-    },
-    {
-      "title": "blokdots 3.0",
-      "url": "https://www.producthunt.com/products/blokdots",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-05-20T17:07:27+00:00",
-      "summary": "The article introduces blokdots 3.0, a new hardware‑based sketching platform that lets teams quickly prototype ideas on physical devices. It highlights how the tool streamlines the early design process, improves cross‑functional communication, and accelerates feedback loops for product development.",
-      "tags": [
-        "Product Design",
-        "Productivity",
-        "Stakeholders"
-      ]
-    },
-    {
-      "title": "My Team of Agents: How I Get Claude to Do Tasks While I'm Away from the Computer",
-      "url": "https://www.producttalk.org/my-team-of-agents/",
-      "source": "Product Talk",
-      "type": "article",
-      "date": "2026-05-20T13:00:43+00:00",
-      "summary": "The author describes how they use Claude-powered autonomous agents to automate routine tasks, such as generating to‑do items and preparing podcast interview briefs, without being at the computer. By prompting Claude to act as a personal assistant, they streamline workflow and ensure critical actions are pre‑populated daily.",
-      "tags": [
-        "AI Tools",
-        "Productivity",
-        "Automation"
-      ]
-    },
-    {
-      "title": "Google I/O, World Models, I/O Spaghetti",
-      "url": "https://stratechery.com/2026/google-i-o-world-models-i-o-spaghetti/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-05-20T10:00:00+00:00",
-      "summary": "Google I/O showcased a pervasive integration of AI across its product suite, highlighting both innovative opportunities and potential drawbacks. The event raised questions about DeepMind's alignment with Google's broader business goals, prompting product leaders to consider strategic coherence between cutting‑edge AI research and commercial objectives.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Leadership"
-      ]
-    },
-    {
-      "title": "Second Brain for AI",
-      "url": "https://www.producthunt.com/products/second-brain-cloudflare",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-05-20T06:21:04+00:00",
-      "summary": "The article announces a free tool that adds persistent memory capabilities to AI assistants like Claude, ChatGPT, and Cursor, effectively creating a \"second brain\" for users. This enables ongoing context retention across sessions, enhancing productivity and enabling more sophisticated interactions with AI-driven workflows.",
-      "tags": [
-        "AI Tools",
-        "Productivity",
-        "Platform Strategy"
       ]
     }
   ]
