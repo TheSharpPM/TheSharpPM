@@ -1,7 +1,122 @@
 {
-  "updated": "2026-08-19T05:52:56.329098+00:00",
-  "total": 838,
+  "updated": "2026-08-20T05:53:50.832855+00:00",
+  "total": 840,
   "items": [
+    {
+      "title": "The part of product panagement nobody puts in the job description",
+      "url": "https://medium.com/@ghoshadave/the-part-of-product-panagement-nobody-puts-in-the-job-description-182d99b06854?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-20T05:41:01+00:00",
+      "summary": "You can learn every framework, master every interview question, and still struggle as a PM if you don’t learn how to lead people. Continue reading on Medium »",
+      "tags": [
+        "Career"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "We Measured the Wrong Agile Metric for 20 Years",
+      "url": "https://medium.com/@qwertyden/we-measured-the-wrong-agile-metric-for-20-years-c855ffbb0ff9?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-20T05:27:06+00:00",
+      "summary": "Most Agile organizations obsess over: Continue reading on Medium »",
+      "tags": [
+        "Metrics"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "From could to should: human-centered design as organizational decision-making",
+      "url": "https://medium.com/design-bootcamp/from-could-to-should-human-centered-design-as-organizational-decision-making-59c8574477a1?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-08-20T04:28:46+00:00",
+      "summary": "The technology changes. The questions shouldn’t. Why human-centered design is a framework for navigating uncertainty and reducing risk in… Continue reading on Bootcamp »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "How to Use AI in Product Management: 5 Real-World Lessons on AI Adoption",
+      "url": "https://medium.com/@mandarchiplunkar/how-to-use-ai-in-product-management-5-real-world-lessons-on-ai-adoption-9fc7e918a6a3?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-08-20T04:18:12+00:00",
+      "summary": "AI is no longer just a productivity tool for writing emails or summarizing meetings. Continue reading on Medium »",
+      "tags": [
+        "AI Strategy",
+        "Communication",
+        "Productivity"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Duel.com: Product Owner",
+      "url": "https://weworkremotely.com/remote-jobs/duel-com-product-owner",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-08-19T20:38:12+00:00",
+      "summary": "Headquarters: Malta Duel is a protest against everything wrong in gambling. The purest, fairest casino ever built. The Vatican of gamba. We're waging war on scammers, fake bets, and dark patterns — and we need a Product Owner who wants to burn the old playbook down. The role You",
+      "tags": [
+        "Prioritization",
+        "Career",
+        "Growth"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "E. Breuninger& Co.: Product Owner (m/w/d)  Tools & Systeme Customer Service // remote möglich",
+      "url": "https://weworkremotely.com/remote-jobs/e-breuninger-co-product-owner-m-w-d-tools-systeme-customer-service-remote-moglich",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-08-19T20:37:05+00:00",
+      "summary": "Headquarters: Stuttgart, Deutschland Unternehmensbeschreibung Fashion und Lifestyle, 6.500 Mitarbeiter:innen, 13 Department Stores, Online-Shops in Deutschland, Polen, Österreich, Belgien, Luxemburg, Spanien, Italien, Tschechien, den Niederlanden und der Schweiz, über 2.000 Marke...",
+      "tags": [
+        "Automation",
+        "Career",
+        "Stakeholders"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🫧 Is AI a bubble yet? Our five gauges say no",
+      "url": "https://www.exponentialview.co/p/is-ai-a-bubble-yet-our-five-gauges",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-08-19T12:05:40+00:00",
+      "summary": "Demand is justifying all the spending, but the spending is getting harder to unwind",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Apple Settles With E.U., U.S. App Store Fees, ATT Rules in Germany",
+      "url": "https://stratechery.com/2026/apple-settles-with-e-u-u-s-app-store-fees-att-rules-in-germany/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-08-19T10:00:00+00:00",
+      "summary": "Apple's App Store is finally facing the reality of lower fees, and the EU should be satisfied with its work; it's ok it's late.",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "How Whatnot Built a Global Marketplace",
+      "url": "https://a16z.simplecast.com/episodes/how-whatnot-built-a-global-marketplace-DoonwHjN",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-08-19T10:00:00+00:00",
+      "summary": "a16z General Partner David George is joined by Grant LaFontaine, co-founder of Whatnot, to unpack how a marketplace that started with collectibles evolved into one of the world's leading live shopping platforms. Grant traces the company's origins from selling Pokémon cards online...",
+      "tags": [
+        "AI Strategy",
+        "Platform Strategy"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Empathy Mapping: The sticky note that holds a person inside it",
       "url": "https://waffledesigns.medium.com/empathy-mapping-the-sticky-note-that-holds-a-person-inside-it-32ca335ca892?source=rss------product_management-5",
@@ -212,6 +327,18 @@
       "summary": "AI revenue update; frontier usage gap; hidden solar; China’s robot dominance++",
       "tags": [
         "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "anyCreature by Gobkit",
+      "url": "https://www.producthunt.com/products/anycreature",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-08-17T13:30:34+00:00",
+      "summary": "Summon monsters straight from your agent. Discussion | Link",
+      "tags": [
+        "Product Strategy"
       ],
       "is_fallback": true
     },
@@ -3320,6 +3447,18 @@
       "summary": "The trusted AI investment agent, from insight to action Discussion | Link",
       "tags": [
         "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Clipto MCP",
+      "url": "https://www.producthunt.com/products/clipto-ai",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-07-22T00:03:59+00:00",
+      "summary": "Let agents source clips from terabytes of your local video Discussion | Link",
+      "tags": [
+        "Product Strategy"
       ],
       "is_fallback": true
     },
@@ -10689,123 +10828,6 @@
         "Product Strategy",
         "Retention",
         "User Research"
-      ]
-    },
-    {
-      "title": "Website Product Owner",
-      "url": "https://remoteOK.com/remote-jobs/remote-website-product-owner-ryder-system-inc-1132039",
-      "source": "Remote OK",
-      "type": "job",
-      "date": "2026-05-22T02:46:02+00:00",
-      "summary": "The role oversees the vision, development, and delivery of complex features on Ryder's corporate website, translating high‑level epics into actionable user stories and ensuring alignment with business goals. The Product Owner collaborates cross‑functionally, leads Agile ceremonies, and communicates progress to stakeholders to bring digital projects from concept to market.",
-      "tags": [
-        "Product Strategy",
-        "Leadership",
-        "Prioritization"
-      ]
-    },
-    {
-      "title": "own.page",
-      "url": "https://www.producthunt.com/products/own-page",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-05-21T18:24:54+00:00",
-      "summary": "The article introduces own.page, a tool that lets users quickly create personal websites using customizable bento‑tile layouts. It emphasizes ease of setup and flexibility, making it ideal for professionals who want a polished online presence without extensive development effort.",
-      "tags": [
-        "Product Design",
-        "Productivity",
-        "Growth"
-      ]
-    },
-    {
-      "title": "A job statement is not a user story. And the difference is costing you a year of rework.",
-      "url": "https://medium.com/@mihaela.blanaru/a-job-statement-is-not-a-user-story-and-the-difference-is-costing-you-a-year-of-rework-4cae7512a5b1?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-05-21T15:58:25+00:00",
-      "summary": "The article explains that many product teams mistakenly treat job statements as user stories, leading to misaligned development work and costly rework. It clarifies the distinction and offers guidance on framing proper user stories to streamline delivery and avoid a year of unnecessary revisions.",
-      "tags": [
-        "Product Strategy",
-        "Product Design",
-        "Leadership"
-      ]
-    },
-    {
-      "title": "How AI is shaping  embedded analytics",
-      "url": "https://www.productledalliance.com/how-ai-is-shaping-embedded-analytics/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-05-21T11:00:03+00:00",
-      "summary": "Embedded analytics is being transformed by AI, though many product teams are still in the experimental phase. The article surveys global product managers, highlighting current AI-driven initiatives and outlining their planned next steps for broader adoption.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "AI Tools"
-      ]
-    },
-    {
-      "title": "An Interview with Parallel Founder Parag Agarwal About Valuing Content on the Agentic Web",
-      "url": "https://stratechery.com/2026/an-interview-with-parallel-founder-parag-agarwal-about-valuing-content-on-the-agentic-web/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-05-21T10:00:00+00:00",
-      "summary": "Stratechery interview with Parallel founder (and former Twitter CEO) Parag Agrawal on how content economics break down when AI agents, not humans, consume the web, and how Parallel's marketplace approach aims to compensate creators based on the value their content delivers to agents. For PMs, it reframes ad-supported and subscription models for an agentic web.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Competitive Analysis"
-      ]
-    },
-    {
-      "title": "EP 102 The Future-Proof PM: AI Skills & How to Develop Them",
-      "url": "https://www.productcoalition.com/p/ep-102-the-future-proof-pm-ai-skills",
-      "source": "Product Coalition",
-      "type": "article",
-      "date": "2026-05-21T09:01:21+00:00",
-      "summary": "In this episode, Beatrice Partain discusses the essential AI competencies product managers need to stay relevant, such as prompt engineering, data literacy, and ethical AI awareness. She outlines practical steps for building these skills, including hands‑on experimentation with AI tools, cross‑functional learning, and continuous upskilling to future‑proof product leadership.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Product Culture"
-      ]
-    },
-    {
-      "title": "Health Marketplace Development: Essential Features & Costs You Have to Know",
-      "url": "https://medium.com/@allclonescript/health-marketplace-development-essential-features-costs-you-have-to-know-e4d2885bb93a?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-05-21T08:00:48+00:00",
-      "summary": "The article provides a practical roadmap for health tech startups, outlining essential compliance features, development timelines, and cost estimates needed to launch a health marketplace. It also highlights key considerations for regulatory adherence and budgeting to ensure a successful product launch.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Compliance"
-      ]
-    },
-    {
-      "title": "Highlights",
-      "url": "https://medium.com/@hello.erinajewels/highlights-4e8a151b0a3b?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-05-21T07:01:04+00:00",
-      "summary": "The article presents a brief overview of recent highlights curated by ErinaJewels, pointing readers to a longer piece on Medium for full details. It serves as a teaser to engage the audience and direct them to the complete content.",
-      "tags": [
-        "Product Culture",
-        "Communication",
-        "Growth"
-      ]
-    },
-    {
-      "title": "The Evolution of Product Management Platforms: Market Trends and Future Outlook",
-      "url": "https://medium.com/@gargiben954/the-evolution-of-product-management-platforms-market-trends-and-future-outlook-d16cbaf40f34?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-05-21T06:47:15+00:00",
-      "summary": "The article examines how product management platforms are evolving, detailing current market dynamics, emerging technologies, and the competitive landscape. It also forecasts future trends, emphasizing the shift toward integrated, AI‑enhanced solutions that streamline workflows and drive strategic decision‑making.",
-      "tags": [
-        "Product Strategy",
-        "Platform Strategy",
-        "AI Tools"
       ]
     }
   ]
