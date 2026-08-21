@@ -1,7 +1,84 @@
 {
-  "updated": "2026-08-20T05:53:50.832855+00:00",
-  "total": 840,
+  "updated": "2026-08-21T05:55:21.263189+00:00",
+  "total": 837,
   "items": [
+    {
+      "title": "Your roadmap is not your strategy",
+      "url": "https://medium.com/@ghoshadave/your-roadmap-is-not-your-strategy-b8956e475980?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-21T05:46:01+00:00",
+      "summary": "A product strategy isn’t a longer list of priorities. It’s a clear answer to what matters, why it matters, and what you’re willing to do… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Your roadmap is not your strategy",
+      "url": "https://medium.com/@ghoshadave/your-roadmap-is-not-your-strategy-b8956e475980?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-08-21T05:46:01+00:00",
+      "summary": "A product strategy isn’t a longer list of priorities. It’s a clear answer to what matters, why it matters, and what you’re willing to do… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Your AI Idea Deserves More Than a Prototype. Build It to Scale",
+      "url": "https://medium.com/@michael.keller314/your-ai-idea-deserves-more-than-a-prototype-build-it-to-scale-6b63e637fb22?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-08-21T05:42:01+00:00",
+      "summary": "A promising AI idea can generate excitement in a prototype, but the real test begins when customers, data, integrations, security… Continue reading on Medium »",
+      "tags": [
+        "AI Strategy",
+        "Product Design",
+        "Security"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "ICE Scoring: The Score That Takes Thirty Seconds and Gets You Eighty Percent There",
+      "url": "https://waffledesigns.medium.com/ice-scoring-the-score-that-takes-thirty-seconds-and-gets-you-eighty-percent-there-2b0eeeb48491?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-21T05:26:01+00:00",
+      "summary": "ICE Scoring was created to be faster than RICE. That is its entire reason for existing. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "How Global Networks Are Reshaping Startup Success",
+      "url": "https://a16z.simplecast.com/episodes/how-global-networks-are-reshaping-startup-success-YCGysOkP",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-08-20T10:00:00+00:00",
+      "summary": "Elena Burger is joined by a16z’s Angela Strange and Gabriel Vasquez to discuss the rise of the \"borderless founder\": entrepreneurs who bring the networks and insights of their home markets together with the talent, capital, and speed of Silicon Valley to build global companies. A...",
+      "tags": [
+        "AI Strategy",
+        "Hardware Differentiation",
+        "Platform Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "How product leaders actually get the  C-suite rowing in the same direction",
+      "url": "https://www.productledalliance.com/how-product-leaders-get-the-c-suite-aligned/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-08-20T08:24:24+00:00",
+      "summary": "Learn how top CPOs actually get their C-suite aligned, from earning trust before metrics to building the operating model that keeps it from decaying.",
+      "tags": [
+        "Leadership",
+        "Metrics"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "The part of product panagement nobody puts in the job description",
       "url": "https://medium.com/@ghoshadave/the-part-of-product-panagement-nobody-puts-in-the-job-description-182d99b06854?source=rss------product_management-5",
@@ -49,6 +126,18 @@
         "AI Strategy",
         "Communication",
         "Productivity"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Hermai Brand API",
+      "url": "https://www.producthunt.com/products/hermai-brand-api",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-08-20T01:12:56+00:00",
+      "summary": "White label your B2B SaaS with every customer's brand Discussion | Link",
+      "tags": [
+        "Product Strategy"
       ],
       "is_fallback": true
     },
@@ -1085,6 +1174,19 @@
       "type": "article",
       "date": "2026-08-10T15:01:49+00:00",
       "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Checksum AI",
+      "url": "https://www.producthunt.com/products/checksum-ai",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-08-10T14:43:32+00:00",
+      "summary": "Your coding agent’s testing buddy Discussion | Link",
       "tags": [
         "AI Strategy",
         "AI Tools"
@@ -10685,149 +10787,6 @@
         "Product Strategy",
         "Product Design",
         "Growth"
-      ]
-    },
-    {
-      "title": "Your concept test showed consumers loved it. That’s the problem.",
-      "url": "https://medium.com/@mihaela.blanaru/your-concept-test-showed-consumers-loved-it-thats-the-problem-2a73c2fe7d54?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-05-23T05:32:51+00:00",
-      "summary": "The article argues that positive concept test results can be misleading, as they often reflect participants' enthusiasm for a prototype rather than true market demand. Product managers should complement concept testing with deeper validation methods, such as real purchase behavior and longitudinal studies, to avoid building products that users claim to love but won't actually buy.",
-      "tags": [
-        "Product Strategy",
-        "User Research",
-        "Metrics"
-      ]
-    },
-    {
-      "title": "SignalLEMO - Ai Outreach Made Simple",
-      "url": "https://www.producthunt.com/products/signallemo-ai-outreach-made-simple",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-05-23T02:56:16+00:00",
-      "summary": "SignalLEMO offers an AI-driven platform that automates lead outreach for field service contractors, streamlining prospect identification, messaging, and follow‑up to increase conversion rates. The solution promises to reduce manual effort, improve targeting accuracy, and accelerate sales cycles for service‑based businesses.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Growth"
-      ]
-    },
-    {
-      "title": "E. Breuninger& Co.: Product Owner Zendesk  Customer Service (m/w/d) // remote möglich",
-      "url": "https://weworkremotely.com/remote-jobs/e-breuninger-co-product-owner-zendesk-customer-service-m-w-d-remote-moglich",
-      "source": "We Work Remotely",
-      "type": "job",
-      "date": "2026-05-22T20:31:19+00:00",
-      "summary": "Breuninger is hiring a Product Owner for its Zendesk-powered Customer Service platform, responsible for driving technological innovation and improving the omnichannel support experience across its extensive retail network. The role focuses on defining product vision, aligning cross‑functional teams, and delivering data‑driven enhancements to boost service quality and customer satisfaction.",
-      "tags": [
-        "Product Strategy",
-        "Growth",
-        "Stakeholders"
-      ]
-    },
-    {
-      "title": "Aledade: Senior Product Analyst, Remote",
-      "url": "https://weworkremotely.com/remote-jobs/aledade-senior-product-analyst-remote",
-      "source": "We Work Remotely",
-      "type": "job",
-      "date": "2026-05-22T20:31:14+00:00",
-      "summary": "The Senior Product Analyst will support Aledade's data ingestion pipelines for payer partners, handling medical and pharmacy claims, eligibility, and care gaps data. They will collaborate with product and engineering teams on issue triage, operational support, requirements gathering for new integrations, and act as a liaison to ensure data accuracy and timeliness.",
-      "tags": [
-        "Product Strategy",
-        "Data",
-        "Stakeholders"
-      ]
-    },
-    {
-      "title": "2026.21: The Data Center Veto",
-      "url": "https://stratechery.com/2026/the-data-center-veto/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-05-22T17:12:32+00:00",
-      "summary": "This week’s Stratechery roundup highlights growing dissatisfaction with data center operations, exploring how the economics of AI agents impact cost structures and scalability. It also draws unconventional insights from slime mold behavior to inspire new approaches to distributed system design and resource allocation.",
-      "tags": [
-        "Data",
-        "AI Strategy",
-        "Product Strategy"
-      ]
-    },
-    {
-      "title": "Goodbye, Lenny's Reads!",
-      "url": "https://www.lennysnewsletter.com/p/goodbye-lennys-reads",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-05-22T15:41:05+00:00",
-      "summary": "The author announces the discontinuation of the audio newsletter experiment after a year, indicating a strategic shift away from that content format. This decision may impact audience engagement and suggests a refocus on core product offerings.",
-      "tags": [
-        "Product Strategy",
-        "Growth",
-        "Communication"
-      ]
-    },
-    {
-      "title": "Prove your impact with these  product operations KPIs",
-      "url": "https://www.productledalliance.com/prove-your-impact-with-these-product-operations-kpis/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-05-22T15:00:35+00:00",
-      "summary": "The article emphasizes the importance of defining clear product operations KPIs to make the value of product ops visible to the organization. It guides product managers on selecting and tracking metrics that demonstrate impact on efficiency, cross‑functional alignment, and business outcomes.",
-      "tags": [
-        "Metrics",
-        "Product Strategy",
-        "Productivity"
-      ]
-    },
-    {
-      "title": "LLMTest",
-      "url": "https://www.producthunt.com/products/llmtest-2",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-05-22T08:28:23+00:00",
-      "summary": "The article advises product teams to select appropriate large language models (LLMs) for their applications and to implement fallback mechanisms to maintain reliability. It emphasizes thoughtful LLM integration as a key factor for user satisfaction and product success.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "AI Strategy"
-      ]
-    },
-    {
-      "title": "FxPro — Trade with Confidence. Trade with Precision.",
-      "url": "https://medium.com/@maalmo2029/fxpro-trade-with-confidence-trade-with-precision-26c7328729c4?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-05-22T08:12:54+00:00",
-      "summary": "FxPro positions itself as a trading platform that emphasizes confidence and precision for its users, aiming to differentiate through reliable execution and robust tools. The brief highlights the brand's focus on delivering a trustworthy experience to attract and retain traders.",
-      "tags": [
-        "Product Strategy",
-        "Growth",
-        "Product Design"
-      ]
-    },
-    {
-      "title": "The two types of silence after sending a proposal",
-      "url": "https://medium.com/@briceakama7/the-two-types-of-silence-after-sending-a-proposal-c5f561eaee83?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-05-22T07:59:02+00:00",
-      "summary": "The article explains that after sending a sales proposal, silence can signal two different buyer mindsets: genuine interest with pending internal reviews, or a lost deal. Understanding which type of silence you’re facing helps salespeople tailor follow‑ups—either providing additional information and nudging decision‑makers or recognizing when to move on.",
-      "tags": [
-        "Growth",
-        "Communication",
-        "Product Strategy"
-      ]
-    },
-    {
-      "title": "Designing for Deal-Breakers: The Lens I Use Before I Touch a Roadmap",
-      "url": "https://medium.com/@mehakrgarg/designing-for-deal-breakers-the-lens-i-use-before-i-touch-a-roadmap-2e369ea792f1?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-05-22T06:17:36+00:00",
-      "summary": "The article argues that the features customers request are often not the ones that determine churn; instead, product managers should identify and prioritize deal‑breaking elements that truly affect retention. By applying a specific lens before building a roadmap, teams can focus on high‑impact improvements rather than vanity requests.",
-      "tags": [
-        "Product Strategy",
-        "Retention",
-        "User Research"
       ]
     }
   ]
