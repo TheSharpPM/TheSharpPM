@@ -1,7 +1,110 @@
 {
-  "updated": "2026-08-21T05:55:21.263189+00:00",
-  "total": 837,
+  "updated": "2026-08-22T05:50:17.818006+00:00",
+  "total": 842,
   "items": [
+    {
+      "title": "I Built 10 Small Projects Instead of One Big One — Here’s What Happened",
+      "url": "https://medium.com/codetodeploy/i-built-10-small-projects-instead-of-one-big-one-heres-what-happened-39b644a5a45e?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-22T05:33:18+00:00",
+      "summary": "For a long time, I thought the best way to get better at Python was to build something impressive. Continue reading on CodeToDeploy »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "13 Verified Remote Writing Jobs Hiring Now in August 2026",
+      "url": "https://medium.com/@earnestsherrill/13-verified-remote-writing-jobs-hiring-now-in-august-2026-941c4d187288?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-22T04:02:41+00:00",
+      "summary": "Current Remote Writing Jobs With Verified Employers, Pay, Requirements and Application Details Continue reading on Medium »",
+      "tags": [
+        "Career",
+        "Communication"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "A Product Roadmap Isn’t a To-Do List",
+      "url": "https://medium.com/@harshi.dhawan/a-product-roadmap-isnt-a-to-do-list-748b47be00f6?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-08-22T03:23:42+00:00",
+      "summary": "I used to think a product roadmap was basically a list of things a team planned to build. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Don’t Launch a Marketplace. Launch a Minimum Viable Market.",
+      "url": "https://medium.com/design-bootcamp/dont-launch-a-marketplace-launch-a-minimum-viable-market-c7c78f8ed55c?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-08-21T21:26:52+00:00",
+      "summary": "Marketplaces are notoriously difficult to kickstart. Continue reading on Bootcamp »",
+      "tags": [
+        "Platform Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "2026.34: App Snore",
+      "url": "https://stratechery.com/2026/app-snore/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-08-21T17:00:00+00:00",
+      "summary": "The best Stratechery content from the week of August 17, 2026, including Apple making compromises in the EU, Truth (Social) and reconciliation, and August fun with the Clippers and Lakers.",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Retention in the age of agents:  AI-native, not AI-replaced",
+      "url": "https://www.productledalliance.com/retention-in-the-age-of-ai-agents/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-08-21T15:00:49+00:00",
+      "summary": "Build the AI-native platform your users never want to leave.",
+      "tags": [
+        "AI Strategy",
+        "Platform Strategy",
+        "Retention"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Microsoft's Deputy CISO on Securing AI Agents",
+      "url": "https://a16z.simplecast.com/episodes/how-microsoft-is-securing-the-agentic-enterprise-aaron-zollman-j7eOe8NH",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-08-21T11:40:08+00:00",
+      "summary": "a16z's Joel De La Garza is joined by Aaron Zollman, Deputy CISO at Microsoft Gaming, to discuss how security teams can embrace AI agents without losing control. Aaron shares Microsoft's experience with OpenClaw, from the initial instinct to ban it to figuring out how to make it s...",
+      "tags": [
+        "AI Strategy",
+        "AI Tools",
+        "Security"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Pendo: Director, Customer Growth & Lifecycle",
+      "url": "https://weworkremotely.com/remote-jobs/pendo-director-customer-growth-lifecycle",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-08-21T07:30:41+00:00",
+      "summary": "Headquarters: Raleigh, NC / New York, NY / EST Remote The Team + The Role Pendo is rebuilding for the AI era, with new products, new buyers, and new ways to deliver value to customers. The Customer Growth and Lifecycle function sits at the center of that shift, helping turn custo...",
+      "tags": [
+        "AI Strategy",
+        "Career",
+        "Leadership"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Your roadmap is not your strategy",
       "url": "https://medium.com/@ghoshadave/your-roadmap-is-not-your-strategy-b8956e475980?source=rss------product_management-5",
@@ -63,6 +166,18 @@
         "AI Strategy",
         "Hardware Differentiation",
         "Platform Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "fx (by Vercel)",
+      "url": "https://www.producthunt.com/products/fx-by-vercel",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-08-20T08:24:52+00:00",
+      "summary": "Vercel's tiny, open-source coding agent Discussion | Link",
+      "tags": [
+        "AI Tools"
       ],
       "is_fallback": true
     },
@@ -716,6 +831,18 @@
       "summary": "Open-source trading harness for Claude Code / Codex. Discussion | Link",
       "tags": [
         "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Mindcase",
+      "url": "https://www.producthunt.com/products/mindcase",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-08-14T23:56:00+00:00",
+      "summary": "Extract data from anywhere on the web within minutes Discussion | Link",
+      "tags": [
+        "Product Strategy"
       ],
       "is_fallback": true
     },
@@ -10722,71 +10849,6 @@
         "AI Strategy",
         "Product Strategy",
         "Product Culture"
-      ]
-    },
-    {
-      "title": "🔮 Exponential View #575: AI’s math breakthrough and its creative limits",
-      "url": "https://www.exponentialview.co/p/ev-575",
-      "source": "Exponential View",
-      "type": "trend",
-      "date": "2026-05-24T02:44:54+00:00",
-      "summary": "The article discusses a recent mathematical breakthrough in AI that expands its capabilities but also highlights fundamental creative limitations. It urges product leaders to focus on higher-level problem solving and strategic vision rather than getting bogged down in routine model maintenance.",
-      "tags": [
-        "AI Strategy",
-        "AI Tools",
-        "Product Strategy"
-      ]
-    },
-    {
-      "title": "Sinalytica",
-      "url": "https://www.producthunt.com/products/sinalytica",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-05-23T20:37:22+00:00",
-      "summary": "The piece reflects on reviving the Lovable software on a Windows 98 environment, highlighting the challenges and insights of supporting legacy platforms. It offers product managers a perspective on the value of backward compatibility and the strategic trade‑offs involved in catering to niche, nostalgic user segments.",
-      "tags": [
-        "Product Strategy",
-        "Platform Strategy",
-        "Growth"
-      ]
-    },
-    {
-      "title": "What It Means to Be Part of a Zero-to-One Team",
-      "url": "https://medium.com/@seeyoung22/what-it-means-to-be-part-of-a-zero-to-one-team-df2dcc5ee3e0?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-05-23T06:44:36+00:00",
-      "summary": "The article explains the unique dynamics of zero-to-one teams—small, high‑impact groups that build something truly new from scratch. It highlights how members must wear multiple hats, make rapid decisions, and embrace uncertainty, offering product managers insight into navigating early-stage product development and fostering a culture of ownership and speed.",
-      "tags": [
-        "Product Strategy",
-        "Leadership",
-        "Product Culture"
-      ]
-    },
-    {
-      "title": "Design/Build For the End-User and Lowest-Resource Environment",
-      "url": "https://rahighi.medium.com/design-build-for-the-end-user-and-lowest-resource-environment-db617be78470?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-05-23T06:31:22+00:00",
-      "summary": "A leader introduced a strict constraint—designing for the end-user in the lowest-resource environment—to curb engineering over‑complexity, driving the team toward simpler, more efficient solutions. The approach highlights how purposeful limits can focus product development on real user needs and operational practicality.",
-      "tags": [
-        "Product Strategy",
-        "Leadership",
-        "Product Design"
-      ]
-    },
-    {
-      "title": "Blinkfit: Designing a 30-Minute Fitness Commerce Experience",
-      "url": "https://medium.com/@ami007muk/blinkfit-designing-a-30-minute-fitness-commerce-experience-812861de4201?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-05-23T06:10:09+00:00",
-      "summary": "The article outlines the product strategy and UX flow design for Blinkfit, a 30‑minute fitness commerce platform, detailing how the team crafted a seamless prototype to streamline user onboarding, workout selection, and checkout. It highlights key decisions around simplifying the experience to boost conversion and engagement for time‑pressed users.",
-      "tags": [
-        "Product Strategy",
-        "Product Design",
-        "Growth"
       ]
     }
   ]
