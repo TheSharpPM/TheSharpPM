@@ -546,7 +546,13 @@
         // Secure flag: site is served over HTTPS on GitHub Pages, so
         // require the browser to only send this cookie over HTTPS.
         // No-op on plain http (localhost) but harmless there.
-        document.cookie = 'selectedTags=' + JSON.stringify(tags) + '; expires=' + expires.toUTCString() + '; path=/; SameSite=Lax; Secure';
+        //
+        // encodeURIComponent, not raw JSON: tag strings come from LLM
+        // output in data.json, so one containing ';' would truncate
+        // the cookie and let the rest be read as cookie attributes.
+        // It also matches the decodeURIComponent on the read side -
+        // values written raw round-tripped only by luck.
+        document.cookie = 'selectedTags=' + encodeURIComponent(JSON.stringify(tags)) + '; expires=' + expires.toUTCString() + '; path=/; SameSite=Lax; Secure';
     }
  
     function loadTagsFromCookie() {
@@ -662,7 +668,7 @@
             var linkedinUrl = 'https://www.linkedin.com/sharing/share-offsite/?url=' + encodeURIComponent(url);
             return '<div class="card" data-url="' + urlEsc + '" style="animation-delay:' + (i * 0.05) + 's">' +
                 '<div class="card-meta">' +
-                '<span class="card-tag ' + tagClass(item.type) + '">' + tagLabel(item.type) + '</span>' +
+                '<span class="card-tag ' + tagClass(item.type) + '">' + escapeHtml(tagLabel(item.type)) + '</span>' +
                 (isNew(item.date) ? '<span class="card-new">New</span>' : '') +
                 '<span class="card-source">' + sourceEsc + '</span>' +
                 '</div>' +

@@ -43,6 +43,19 @@ def _edition_url(date):
     return f"{SITE_URL}/agent-edition.html?date={date}"
 
 
+def _safe_url(url):
+    """Return the URL if it is http(s), else '#'.
+
+    escape() neutralises quote-breakout but not the scheme, so without
+    this a javascript: or data: URL that reached an edition JSON would
+    go verbatim into an <a href> in the feed description. Mirrors the
+    safeUrl() helper the site's pages already use."""
+    trimmed = str(url or "").strip()
+    if re.match(r"^https?://", trimmed, re.IGNORECASE):
+        return trimmed
+    return "#"
+
+
 def _pub_date(edition):
     """Best-effort RFC-822 pubDate. Prefer generated_at, fall back to the
     edition date at noon UTC, then to now()."""
@@ -84,7 +97,7 @@ def _build_description(edition):
             if not isinstance(mr, dict):
                 continue
             title = escape(str(mr.get("title") or ""))
-            url = escape(str(mr.get("url") or ""), quote=True)
+            url = escape(_safe_url(mr.get("url")), quote=True)
             source = escape(str(mr.get("source") or ""))
             parts.append(f'<li><a href="{url}">{title}</a> — {source}</li>')
         parts.append("</ul>")
@@ -92,7 +105,7 @@ def _build_description(edition):
     if isinstance(contrarian, dict) and contrarian.get("url"):
         parts.append("<h3>Contrarian</h3>")
         title = escape(str(contrarian.get("title") or ""))
-        url = escape(str(contrarian.get("url") or ""), quote=True)
+        url = escape(_safe_url(contrarian.get("url")), quote=True)
         source = escape(str(contrarian.get("source") or ""))
         parts.append(f'<p><a href="{url}">{title}</a> — {source}</p>')
     link = _edition_url(edition.get("edition") or "")
