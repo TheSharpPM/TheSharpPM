@@ -1,0 +1,46 @@
+{
+  "edition": "2026-08-23",
+  "headline_theme": "When Experiments Stifle Vision",
+  "target_audience": "Lead/Principal PM",
+  "hook_source": "Product Talk",
+  "editorial": "Product Talk’s \"The Call to Adventure\" (by Gibson Biddle) reminds us that a product’s north‑star story should be the gravity that pulls every decision. Yet in today’s data‑obsessed shops, that story is drowned in a sea of A/B tests, each promising a marginal lift but delivering noise. When experiments become the default language, teams trade bold bets for incremental nudges, and the original vision fades.\n\nBenedict Evans’ \"Ways to think about token pricing\" warns that an over‑reliance on narrow metrics narrows a team’s sense of value, turning product managers into statisticians rather than strategists. SVPG’s \"Build To Learn FAQ\" reinforces this by insisting that learning loops should surface before any split‑test, insisting on hypothesis‑driven discovery over metric churn. The Information’s feature‑flag deep‑dive flips the script, claiming that disciplined flag use actually **enables** high‑stakes, fast experiments without the endless split‑testing paralysis. The tension is clear: unstructured testing erodes purpose, but a principled flag framework can preserve velocity while keeping the strategic lens intact.\n\nLead/Principal PMs, your leverage lies in setting the hypothesis charter that ties every test to the product narrative. Insist on a single, audacious hypothesis per quarter that aligns with the north‑star, and use feature flags as the safety net for that hypothesis—not as a crutch for endless variations. Communicate the story to engineering, design, and leadership, and demand hard stop criteria: if an experiment doesn’t move the needle on the declared outcome within two weeks, kill it and refocus. By curating a tight experiment portfolio and framing each test as a story chapter, you keep velocity high without sacrificing strategic cohesion.",
+  "key_takeaways": [
+    "A north‑star narrative is the antidote to metric‑driven drift.",
+    "Metrics alone can blind product leaders to true value creation.",
+    "Feature flags, when disciplined, empower bold experiments without endless split‑testing."
+  ],
+  "must_reads": [
+    {
+      "source": "Product Talk",
+      "title": "The Call to Adventure",
+      "url": "https://www.producttalk.org/the-call-to-adventure/",
+      "why": "The piece argues that without a compelling story, product teams wander aimlessly, turning every decision into a data‑driven guess."
+    },
+    {
+      "source": "SVPG",
+      "title": "Build To Learn FAQ",
+      "url": "https://www.svpg.com/build-to-learn-faq/",
+      "why": "It insists that learning loops, not surface‑level split tests, should drive roadmap cadence, underscoring the need for hypothesis‑first experiments."
+    },
+    {
+      "source": "Benedict Evans",
+      "title": "Ways to think about token pricing",
+      "url": "https://www.ben-evans.com/benedictevans/2026/7/9/ways-to-think-about-token-pricing",
+      "why": "Evans shows how metric fixation narrows product vision, a caution that resonates with today’s A/B‑testing frenzy."
+    }
+  ],
+  "contrarian": {
+    "note": "Argues that disciplined feature‑flag usage lets teams run high‑impact experiments without sacrificing speed, directly challenging the claim that experimentation must be curbed.",
+    "source": "The Information",
+    "title": "Feature Flags: The Hidden Engine Driving Rapid Product Innovation",
+    "url": "https://www.theinformation.com/articles/feature-flags-rapid-innovation"
+  },
+  "also_worth": [],
+  "pm_homework": [
+    "Write a one‑page product thesis that maps every quarterly experiment to a strategic outcome.",
+    "Select up to three high‑impact experiments and define hard stop criteria (two‑week win/loss thresholds).",
+    "Deploy feature flags for those experiments and retire any test that fails to move the needle on the thesis quickly."
+  ],
+  "generated_at": "2026-08-23T09:06:04.834978+00:00",
+  "model_used": "openai/gpt-oss-120b"
+}

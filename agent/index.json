@@ -1,6 +1,11 @@
 {
   "editions": [
     {
+      "date": "2026-08-23",
+      "headline_theme": "When Experiments Stifle Vision",
+      "file": "agent/2026-08-23.json"
+    },
+    {
       "date": "2026-08-17",
       "headline_theme": "Metric overload kills product clarity",
       "file": "agent/2026-08-17.json"
@@ -91,5 +96,5 @@
       "file": "agent/2026-05-03.json"
     }
   ],
-  "updated_at": "2026-08-17T15:12:09.342863+00:00"
+  "updated_at": "2026-08-23T09:06:04.835229+00:00"
 }
