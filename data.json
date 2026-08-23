@@ -1,7 +1,106 @@
 {
-  "updated": "2026-08-22T05:50:17.818006+00:00",
-  "total": 842,
+  "updated": "2026-08-23T05:52:36.936157+00:00",
+  "total": 850,
   "items": [
+    {
+      "title": "This Simple Website Made $180K in Two Days by Letting People Bid for the Top Spot",
+      "url": "https://medium.com/@adarsh-gupta/this-simple-website-made-180k-in-two-days-by-letting-people-bid-for-the-top-spot-76787f193a09?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-23T04:52:47+00:00",
+      "summary": "You can never copy it btw Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "STLC: What Really Happens Before a Product Reaches UAT",
+      "url": "https://medium.com/@sohag933/stlc-what-really-happens-before-a-product-reaches-uat-3c0c596460a3?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-23T04:00:27+00:00",
+      "summary": "Many people think Software Testing = Execute Test Cases + Find Bugs. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "What Did Nuvei Really Buy? A Product Growth View of the Payoneer Acquisition",
+      "url": "https://medium.com/@biancachen2033/what-did-nuvei-really-buy-a-product-growth-view-of-the-payoneer-acquisition-c52140a5d044?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-08-23T02:59:24+00:00",
+      "summary": "This article is a written companion to the second episode of my podcast, Signals Beyond the Headlines, where I explore the ideas… Continue reading on Medium »",
+      "tags": [
+        "Growth"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "From QA to Product Management: The Skills That Transfer Better Than You Think",
+      "url": "https://medium.com/@karthik_prdmgr/from-qa-to-product-management-the-skills-that-transfer-better-than-you-think-feba545f18e6?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-08-23T02:59:04+00:00",
+      "summary": "A career transition from Quality Assurance (QA) to Product Management (PM) can look like a dramatic shift. Continue reading on Medium »",
+      "tags": [
+        "Career"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🔮 Why one AI is better than four #598",
+      "url": "https://www.exponentialview.co/p/why-one-ai-is-better-than-four-598",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-08-23T02:19:40+00:00",
+      "summary": "Plus: Why isn’t jevon’s paradox showing in the statistics & why generation isn’t comprehension",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🧠 Community Wisdom: Favorite Lenny’s Product Pass tools, how AI is reshaping hiring, what to prioritize when you join a new company, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-favorite-lennys",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-08-22T19:23:07+00:00",
+      "summary": "Community Wisdom 198",
+      "tags": [
+        "AI Strategy",
+        "Career",
+        "Community"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🏦 The problem with petards",
+      "url": "https://www.exponentialview.co/p/the-problem-with-petards",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-08-22T13:23:14+00:00",
+      "summary": "How the AI industry’s apocalyptic warnings became the political case against the data centers it needs.",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Martin Casado on Where the Value Is Going in AI",
+      "url": "https://a16z.simplecast.com/episodes/martin-casado-on-where-the-value-is-going-in-ai-750ULKGM",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-08-22T10:00:00+00:00",
+      "summary": "Martin Casado joins MTS hosts Theo Jaffee and Sophia Dew to unpack where value is actually accruing in AI, why this technology cycle looks fundamentally different from previous waves, and whether the frontier labs will ultimately capture most of the market. Martin explains why AI...",
+      "tags": [
+        "AI Strategy",
+        "Growth"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "I Built 10 Small Projects Instead of One Big One — Here’s What Happened",
       "url": "https://medium.com/codetodeploy/i-built-10-small-projects-instead-of-one-big-one-heres-what-happened-39b644a5a45e?source=rss------product_management-5",
@@ -150,6 +249,18 @@
       "type": "article",
       "date": "2026-08-21T05:26:01+00:00",
       "summary": "ICE Scoring was created to be faster than RICE. That is its entire reason for existing. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Pocket by Meta",
+      "url": "https://www.producthunt.com/products/pocket-by-meta",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-08-21T03:32:59+00:00",
+      "summary": "Vibe-code games, then share them like TikToks Discussion | Link",
       "tags": [
         "Product Strategy"
       ],
@@ -1421,6 +1532,18 @@
       "tags": [
         "AI Strategy",
         "Metrics"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Pawvis",
+      "url": "https://www.producthunt.com/products/pawvis",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-08-09T23:36:50+00:00",
+      "summary": "Control your Mac via camera & train gestures, local & FOSS Discussion | Link",
+      "tags": [
+        "Product Strategy"
       ],
       "is_fallback": true
     },
@@ -10823,32 +10946,6 @@
         "AI Strategy",
         "Product Strategy",
         "Metrics"
-      ]
-    },
-    {
-      "title": "Predicting AI job exposure",
-      "url": "https://www.ben-evans.com/benedictevans/2026/5/24/ai-job-exposure",
-      "source": "Benedict Evans",
-      "type": "trend",
-      "date": "2026-05-24T20:35:51+00:00",
-      "summary": "The author argues that attempting to quantify AI exposure for specific jobs, companies, and industries is fundamentally flawed because the evolution of roles, surrounding variables, and the nature of work are too uncertain to measure reliably. Consequently, predictive scoring and charting of AI impact are likely to be speculative rather than actionable.",
-      "tags": [
-        "AI Strategy",
-        "Metrics",
-        "Product Strategy"
-      ]
-    },
-    {
-      "title": "The AI paradox: More automation, more humans, more work | Dan Shipper",
-      "url": "https://www.lennysnewsletter.com/p/the-ai-paradox-dan-shipper",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-05-24T12:31:49+00:00",
-      "summary": "The article argues that as AI automation advances, the need for human involvement—especially product managers and designers—will actually increase, because AI agents require guidance, oversight, and creative input. It highlights that future work will revolve around AI platforms like Codex and Claude, moving beyond simple CLI tools, and emphasizes the strategic role of humans in steering AI-driven workflows.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Product Culture"
       ]
     }
   ]
