@@ -1,7 +1,81 @@
 {
-  "updated": "2026-08-23T05:52:36.936157+00:00",
-  "total": 850,
+  "updated": "2026-08-24T06:02:26.786645+00:00",
+  "total": 848,
   "items": [
+    {
+      "title": "How Do You Know Your App Is Ready to Become a Platform?",
+      "url": "https://medium.com/@FinClip/how-do-you-know-your-app-is-ready-to-become-a-platform-d976e583aa4f?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-24T05:57:41+00:00",
+      "summary": "Platform readiness appears in repeated work, crowded release paths and broken customer journeys long before it appears in an architecture… Continue reading on Medium »",
+      "tags": [
+        "Platform Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "JTBD Statements: The milkshake that was never about milkshakes",
+      "url": "https://waffledesigns.medium.com/jtbd-statements-the-milkshake-that-was-never-about-milkshakes-bf17a0600636?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-24T05:26:01+00:00",
+      "summary": "A fast food chain wanted to sell more milkshakes. This is not a metaphor. It was an actual business problem, and the way it got solved… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Watching Nolan Like a Product Person",
+      "url": "https://medium.com/illumination/watching-nolan-like-a-product-person-c4e1d9fb51cb?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-08-23T17:35:30+00:00",
+      "summary": "Nolan gets three hours and a paid ticket. Your onboarding gets six seconds and one bar of network. Continue reading on ILLUMINATION »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Signal vs Noise: No is every PM’s superpower",
+      "url": "https://medium.com/@sbanerjee2300/signal-vs-noise-no-is-every-pms-superpower-748e9dbc1a75?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-08-23T17:29:50+00:00",
+      "summary": "A framework for deciding what not to build Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "How to close $100K+ enterprise deals, step by step | Jen Abel",
+      "url": "https://www.lennysnewsletter.com/p/how-to-close-100k-1m-deals-step-by",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-08-23T12:31:43+00:00",
+      "summary": "Listen now | Jen Abel returns for a third time to walk us through every step of the enterprise sales cycle—from the first cold outreach to the final contract signature",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "GitLab: AI Transformation Owner, Product & Design",
+      "url": "https://weworkremotely.com/remote-jobs/gitlab-ai-transformation-owner-product-design",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-08-23T07:30:51+00:00",
+      "summary": "Headquarters: Remote, Canada; Remote, United Kingdom; Remote, United States GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and ac...",
+      "tags": [
+        "AI Strategy",
+        "Career",
+        "Automation"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "This Simple Website Made $180K in Two Days by Letting People Bid for the Top Spot",
       "url": "https://medium.com/@adarsh-gupta/this-simple-website-made-180k-in-two-days-by-letting-people-bid-for-the-top-spot-76787f193a09?source=rss------product_management-5",
@@ -792,6 +866,18 @@
       "tags": [
         "Product Design",
         "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Tab Notes",
+      "url": "https://www.producthunt.com/products/tab-notes",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-08-16T10:41:15+00:00",
+      "summary": "Turn your browser new tab into a distraction-free notepad Discussion | Link",
+      "tags": [
+        "Product Strategy"
       ],
       "is_fallback": true
     },
@@ -6137,6 +6223,18 @@
       "is_fallback": true
     },
     {
+      "title": "Construct Computer",
+      "url": "https://www.producthunt.com/products/construct-computer",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-07-02T05:08:02+00:00",
+      "summary": "Your AI coworker gets a computer. You get your day back. Discussion | Link",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
       "title": "How Data-Driven Sellers are Mining High-Margin Niches in Smart Appliances",
       "url": "https://medium.com/@heavenho666/how-data-driven-sellers-are-mining-high-margin-niches-in-smart-appliances-a5684fd55745?source=rss------product_strategy-5",
       "source": "Medium Strategy",
@@ -10816,136 +10914,6 @@
         "Product Design",
         "Growth",
         "Competitive Analysis"
-      ]
-    },
-    {
-      "title": "Why winnable enterprise deals stall in the middle and how PMM can fix it",
-      "url": "https://medium.com/@mohana.karthick/why-winnable-enterprise-deals-stall-in-the-middle-and-how-pmm-can-fix-it-a064eb4ef637?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-05-26T04:50:26+00:00",
-      "summary": "The article examines why mid-funnel enterprise deals lose momentum even when the opportunity looked winnable, pointing to buying-committee misalignment, missing leadership buy-in, and unclear next steps. It argues product marketing has a direct role in fixing this through persona-specific messaging and equipping sales with the right late-stage assets.",
-      "tags": [
-        "Stakeholders",
-        "Communication",
-        "Growth"
-      ]
-    },
-    {
-      "title": "Ferrari Luce",
-      "url": "https://www.producthunt.com/products/ferrari-luce-2",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-05-26T03:59:54+00:00",
-      "summary": "The article introduces the Ferrari Luce, the first electric vehicle from Ferrari, created in collaboration with LoveFrom Discussion. It highlights the strategic shift toward electrification in luxury performance cars and outlines the design and technology innovations aimed at preserving Ferrari's brand identity while embracing sustainability.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Growth"
-      ]
-    },
-    {
-      "title": "Foursquare Had the Answer in Its Data All Along",
-      "url": "https://medium.com/@aryan1999varma/foursquare-had-the-answer-in-its-data-all-along-d98fa6910a66?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-05-26T01:47:12+00:00",
-      "summary": "The article examines how Foursquare leveraged its extensive location data to uncover hidden insights that drove product decisions, highlighting common pitfalls like misreading signals and failing to ask the right questions. It underscores the importance of rigorous data analysis and iterative correction to align product strategy with actual user behavior.",
-      "tags": [
-        "Data",
-        "Product Strategy",
-        "Metrics"
-      ]
-    },
-    {
-      "title": "🎙️ How I AI: How the engineer behind Claude Cowork actually uses Claude Cowork & What launched at Google I/O 2026",
-      "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-the-engineer-behind",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-05-25T15:02:59+00:00",
-      "summary": "The article outlines how the engineer behind Claude Cowork leverages the tool in daily workflows, highlighting practical AI integration techniques. It also recaps the major announcements from Google I/O 2026, focusing on new AI-powered features that could impact product development.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "AI Tools"
-      ]
-    },
-    {
-      "title": "Shifting Timelines: Why the Next Wave of Copper Discoveries Starts with Bureaucracy",
-      "url": "https://medium.com/@reinaldo-engle/shifting-timelines-why-the-next-wave-of-copper-discoveries-starts-with-bureaucracy-7808d2c9b69c?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-05-25T13:33:45+00:00",
-      "summary": "The article examines British Columbia's new 40‑to‑140‑day framework for granting mining exploration permits, aiming to create predictability for miners while navigating bureaucratic hurdles. It highlights how streamlined permitting could accelerate copper discovery timelines and influence strategic decisions for companies like NovaRed.",
-      "tags": [
-        "Product Strategy",
-        "Leadership",
-        "Stakeholders"
-      ]
-    },
-    {
-      "title": "Why Governments Are Thinking About AI All Wrong",
-      "url": "https://medium.com/insightful-data-stories/why-governments-are-thinking-about-ai-all-wrong-6d44edf26adf?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-05-25T13:14:50+00:00",
-      "summary": "The article argues that governments often misinterpret AI's role by overlooking three critical blind spots: the pace of technological change, the socioeconomic impact on citizens, and the necessity for agile policy frameworks. It suggests that correcting these gaps is essential for shaping effective AI governance that aligns with market dynamics and user needs.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Leadership"
-      ]
-    },
-    {
-      "title": "Why Your Retention Rate Is Lying to You And How Cohort Analysis Reveals Product-Market Fit",
-      "url": "https://medium.com/@ragento.ai/why-your-retention-rate-is-lying-to-you-and-how-cohort-analysis-reveals-product-market-fit-b78aaaadbec1?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-05-25T12:46:49+00:00",
-      "summary": "The article explains how raw retention metrics can be misleading because they conflate new and returning users, masking true product-market fit. By using cohort analysis to track user behavior over time, product teams can uncover genuine retention trends, identify churn drivers, and make data‑driven decisions to improve long‑term growth.",
-      "tags": [
-        "Retention",
-        "Metrics",
-        "Product Strategy"
-      ]
-    },
-    {
-      "title": "How the engineer behind Claude Cowork actually uses Claude | Felix Rieseberg (Anthropic)",
-      "url": "https://www.lennysnewsletter.com/p/how-the-engineer-behind-claude-cowork",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-05-25T12:03:53+00:00",
-      "summary": "Felix Rieseberg from Anthropic demonstrates practical applications of Claude, using it to generate 3D house walkthroughs from floor plans, automate promise tracking, and develop a low-cost $20 hardware companion. These use cases illustrate how generative AI can streamline design workflows, improve project accountability, and extend AI capabilities to edge devices, offering product teams concrete ideas for integrating AI into their own offerings.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Productivity"
-      ]
-    },
-    {
-      "title": "My Love-Hate Relationship with LLMs (And the System I Hacked to Use Them Without Killing Myself)",
-      "url": "https://medium.com/@reutmalovani/my-love-hate-relationship-with-llms-and-the-system-i-hacked-to-use-them-without-killing-myself-3269d2662ada?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-05-25T10:59:55+00:00",
-      "summary": "The author shares a candid evaluation of three leading large language models—ChatGPT, Claude, and Gemini—highlighting each one's quirks and strengths. They also describe a custom workflow they built to integrate these models into their daily work without overwhelming their capacity, offering insights on practical, sustainable LLM usage for product teams.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Productivity"
-      ]
-    },
-    {
-      "title": "📈 Why AI bills rise as costs fall",
-      "url": "https://www.exponentialview.co/p/data-to-start-your-week-one-ai-task-many-bills",
-      "source": "Exponential View",
-      "type": "trend",
-      "date": "2026-05-25T07:00:52+00:00",
-      "summary": "The article highlights a paradox where AI spending is increasing even as the underlying infrastructure costs decline, driven by expanding use cases and competitive pressures. For product managers, this signals the need to balance investment in AI capabilities with careful cost‑benefit analysis and strategic prioritization.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Metrics"
       ]
     }
   ]
