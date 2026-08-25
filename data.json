@@ -1,7 +1,141 @@
 {
-  "updated": "2026-08-24T06:02:26.786645+00:00",
-  "total": 848,
+  "updated": "2026-08-25T05:54:47.381053+00:00",
+  "total": 850,
   "items": [
+    {
+      "title": "Stop Adding Priorities: The Leadership System for Work That Can Actually Finish",
+      "url": "https://different-perspectives.medium.com/stop-adding-priorities-the-leadership-system-for-work-that-can-actually-finish-b8a45491a35c?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-25T05:31:01+00:00",
+      "summary": "A company does not need a longer list of important work. It needs a visible system for choosing what will move, what will wait, and what… Continue reading on Medium »",
+      "tags": [
+        "Leadership"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The 2-second auto-read bug: why I killed a feature that made the numbers go up",
+      "url": "https://medium.com/design-bootcamp/the-2-second-auto-read-bug-why-i-killed-a-feature-that-made-the-numbers-go-up-cb14e9144909?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-25T05:18:04+00:00",
+      "summary": "A feature pushed read-through from 22% to 61% without changing the user behavior I actually cared about. Continue reading on Bootcamp »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Best Buy Was Told to Close Its Stores. It Sold Them Instead",
+      "url": "https://medium.com/@aryan1999varma/best-buy-was-told-to-close-its-stores-it-sold-them-instead-abbd3438e6d2?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-08-25T03:33:43+00:00",
+      "summary": "Sometime around 2011, a scene started repeating itself in Best Buy aisles across America. A shopper would pick up a camera, turn it over… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "From User Needs to Business Outcomes: Where UX Ends and Product Begins",
+      "url": "https://medium.com/@harshi.dhawan/from-user-needs-to-business-outcomes-where-ux-ends-and-product-begins-ad21d1d7140c?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-08-24T16:36:01+00:00",
+      "summary": "For a long time, I thought good UX meant understanding users and creating an experience that worked for them. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🎙️ How I AI: Grok Bot + Grok 4.6—what’s great (and what’s still hype) & Lessons from spending $20,000 on Devin in one month",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-grok-bot-grok-46whats-great",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-08-24T15:02:23+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "I spent $20,000 on Devin in a month. Here’s what I learned | Ryan Carson (solo founder)",
+      "url": "https://www.lennysnewsletter.com/p/i-spent-20000-on-devin-in-a-month",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-08-24T12:04:02+00:00",
+      "summary": "Watch now | 🎙️ Solo founder Ryan Carson runs 15 concurrent Devin agents to handle engineering, customer success, and investor updates, and he uses a handwritten list to keep it all straight",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Product manager portfolio  framework",
+      "url": "https://www.productledalliance.com/product-manager-portfolio-framework/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-08-24T12:00:16+00:00",
+      "summary": "Build a portfolio that gets you hired.",
+      "tags": [
+        "Product Culture"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The AI-Native Product Summit",
+      "url": "https://www.productledalliance.com/the-ai-native-product-summit/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-08-24T11:56:14+00:00",
+      "summary": "The AI-Native Product Summit",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "📈 Data to start your week",
+      "url": "https://www.exponentialview.co/p/data-to-start-your-week-26-08-24",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-08-24T10:46:04+00:00",
+      "summary": "AI is now AI’s biggest customer; China’s coal milestone; climate change in your bloodstream++",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Autonomy and Innovation",
+      "url": "https://stratechery.com/2026/autonomy-and-innovation/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-08-24T10:00:00+00:00",
+      "summary": "Incentives favor offense when it comes to agentic cybersecurity; it's the same dynamic that will limit incumbents and fuel startups in the long run.",
+      "tags": [
+        "Security"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Why Medical AI Needs a Referee | Protege's Engy Ziedan",
+      "url": "https://a16z.simplecast.com/episodes/why-medical-ai-needs-a-referee-proteges-engy-ziedan-K_iA_k2D",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-08-24T10:00:00+00:00",
+      "summary": "Daisy Wolf and Eva Steinman are joined by Engy Ziedan, co-founder and Chief Scientific Officer of Protege, to discuss why medical AI has a measurement problem, and why scoring well on a benchmark doesn't necessarily mean a model is ready for the hospital. Engy explains why health...",
+      "tags": [
+        "AI Strategy",
+        "Metrics",
+        "Stakeholders"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "How Do You Know Your App Is Ready to Become a Platform?",
       "url": "https://medium.com/@FinClip/how-do-you-know-your-app-is-ready-to-become-a-platform-d976e583aa4f?source=rss------product_management-5",
@@ -426,6 +560,18 @@
         "AI Strategy",
         "Communication",
         "Productivity"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Destiny Rings",
+      "url": "https://www.producthunt.com/products/destiny-rings",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-08-20T02:09:37+00:00",
+      "summary": "Proximity-powered dating, social & networking Discussion | Link",
+      "tags": [
+        "Product Strategy"
       ],
       "is_fallback": true
     },
@@ -1140,6 +1286,19 @@
         "AI Strategy",
         "AI Tools",
         "Automation"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Navigara",
+      "url": "https://www.producthunt.com/products/navigara",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-08-13T22:04:24+00:00",
+      "summary": "Connect Your AI Spend Directly to Your Roadmap Discussion | Link",
+      "tags": [
+        "AI Strategy",
+        "Product Strategy"
       ],
       "is_fallback": true
     },
@@ -10771,149 +10930,6 @@
         "Product Strategy",
         "Productivity",
         "Data"
-      ]
-    },
-    {
-      "title": "Product Manager Retail Lending &amp; Enablement",
-      "url": "https://remoteOK.com/remote-jobs/remote-product-manager-retail-lending-amp-enablement-rbc-1132348",
-      "source": "Remote OK",
-      "type": "job",
-      "date": "2026-05-26T18:44:41+00:00",
-      "summary": "The role leads the end‑to‑end product lifecycle for non‑card retail lending offerings across Caribbean banks, shaping strategy, policies, and new product launches while coordinating sales training and external partnerships. It also drives test‑and‑learn initiatives and negotiates with dealers and agents to expand market reach.",
-      "tags": [
-        "Product Strategy",
-        "Growth",
-        "Stakeholders"
-      ]
-    },
-    {
-      "title": "Essential books for product builders—part 1",
-      "url": "https://www.lennysnewsletter.com/p/essential-books-for-product-builderspart",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-05-26T15:25:52+00:00",
-      "summary": "The article curates a list of 36 timeless books that aim to improve the skills of product builders, covering topics from leadership and personal growth to practical product methodology. It serves as a reading roadmap for product managers seeking to deepen their expertise and become more effective leaders and innovators.",
-      "tags": [
-        "Leadership",
-        "Product Culture",
-        "Product Strategy"
-      ]
-    },
-    {
-      "title": "Archi-Flow",
-      "url": "https://www.producthunt.com/products/archi-flow",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-05-26T14:14:01+00:00",
-      "summary": "Archi-Flow is a visualization tool that lets product teams map out cloud architectures and run live traffic simulations to see how changes affect performance in real time. This capability helps stakeholders quickly evaluate design decisions, identify bottlenecks, and align technical roadmaps with business goals.",
-      "tags": [
-        "Product Strategy",
-        "Platform Strategy",
-        "Productivity"
-      ]
-    },
-    {
-      "title": "Docfarm",
-      "url": "https://www.producthunt.com/products/docfarm",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-05-26T13:42:32+00:00",
-      "summary": "Docfarm is a platform that lets teams host, share, and monitor all AI-generated assets in a centralized hub, improving visibility and collaboration across projects. It provides tracking features that help product managers assess usage, quality, and impact of AI outputs, enabling better decision‑making and iteration.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Product Culture"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Product management  skills framework",
-      "url": "https://www.productledalliance.com/product-management-skills-framework/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-05-26T13:09:55+00:00",
-      "summary": "The article outlines a structured framework for defining and developing product management competencies across all organizational levels, helping PMs align their skills with business objectives. It serves as a guide for building consistent standards, career pathways, and performance metrics within product teams.",
-      "tags": [
-        "Product Strategy",
-        "Product Culture",
-        "Career"
-      ]
-    },
-    {
-      "title": "Is Technology Good? - All Things Product Podcast with Teresa Torres & Petra Wille",
-      "url": "https://www.producttalk.org/is-technology-good-all-things-product-podcast-with-teresa-torres-petra-wille/",
-      "source": "Product Talk",
-      "type": "article",
-      "date": "2026-05-26T13:00:48+00:00",
-      "summary": "In this episode, Teresa Torres and Petra Wille reflect on the broader impact of technology—from the internet to AI—questioning whether these advances have ultimately helped or hurt society. They explore the ethical responsibilities of product teams and highlight the need for deeper reflection and responsible decision‑making in product development.",
-      "tags": [
-        "AI Strategy",
-        "Product Culture",
-        "Leadership"
-      ]
-    },
-    {
-      "title": "Epilogue. Write novels, scripts & poetry",
-      "url": "https://www.producthunt.com/products/epilogue-book-writing-app",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-05-26T12:25:59+00:00",
-      "summary": "The professional book writing app built for serious authors Discussion | Link",
-      "tags": [
-        "Communication"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "The rise of the Super IC:  Why AI-native organizations are betting on builders over managers",
-      "url": "https://www.productledalliance.com/the-rise-of-the-super-ic-builders-over-managers/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-05-26T12:00:47+00:00",
-      "summary": "The article argues that AI-native companies are shifting focus from traditional hierarchy to empowering high-performing individual contributors—'Super ICs'—who can rapidly prototype and ship AI-driven features. By emphasizing building over managing, these firms aim to accelerate innovation cycles and stay ahead in a competitive AI market.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Leadership"
-      ]
-    },
-    {
-      "title": "Nvidia Earnings, The AI Stack, Nvidia’s New Reporting",
-      "url": "https://stratechery.com/2026/nvidia-earnings-the-ai-stack-nvidias-new-reporting/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-05-26T10:00:00+00:00",
-      "summary": "Nvidia’s latest earnings report now separates revenue from hyperscalers—where it faces commoditization pressures—from other customers, where it controls the full AI stack. This shift highlights Nvidia’s strategic focus on maintaining end‑to‑end value and differentiating its offerings beyond the commodity hardware segment.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Competitive Analysis"
-      ]
-    },
-    {
-      "title": "Prompt engineering is the admission of ergonomic failure",
-      "url": "https://guillaume-besson.medium.com/prompt-engineering-is-the-admission-of-ergonomic-failure-15a672a700a8?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-05-26T07:49:24+00:00",
-      "summary": "The article argues that treating prompt engineering as a specialized future skill masks fundamental ergonomic shortcomings in AI product design, leading teams to rely on workarounds instead of creating intuitive interfaces. It urges product managers to focus on built‑in usability and user‑centered workflows rather than expecting users to master complex prompts.",
-      "tags": [
-        "AI Strategy",
-        "Product Design",
-        "User Research"
-      ]
-    },
-    {
-      "title": "Raw Ethiopian Opal Pendant Necklace, Natural Rough Opal Birthstone Jewelry, Uncut Fire Opal Cluster…",
-      "url": "https://medium.com/@skgemsnbeads/raw-ethiopian-opal-pendant-necklace-natural-rough-opal-birthstone-jewelry-uncut-fire-opal-cluster-1df3e19a1b9f?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-05-26T07:28:07+00:00",
-      "summary": "The article showcases a raw Ethiopian opal pendant necklace, emphasizing its natural rough opal, birthstone qualities, and uncut fire opal cluster design. For a product manager, it highlights the importance of unique material sourcing, storytelling around product authenticity, and positioning niche jewelry in an online marketplace.",
-      "tags": [
-        "Product Design",
-        "Growth",
-        "Competitive Analysis"
       ]
     }
   ]
