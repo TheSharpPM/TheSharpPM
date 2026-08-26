@@ -1,7 +1,116 @@
 {
-  "updated": "2026-08-25T05:54:47.381053+00:00",
-  "total": 850,
+  "updated": "2026-08-26T05:56:16.615528+00:00",
+  "total": 849,
   "items": [
+    {
+      "title": "Design Sprints: The five days that replace three months of argument",
+      "url": "https://waffledesigns.medium.com/design-sprints-the-five-days-that-replace-three-months-of-argument-0aeda6d304cc?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-26T05:26:01+00:00",
+      "summary": "Jake Knapp was a designer at Google in 2010 when he noticed a pattern that every product team recognises but few have the vocabulary to… Continue reading on Medium »",
+      "tags": [
+        "Product Design"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Best Yoga Studio Management Software | YogaCRM",
+      "url": "https://medium.com/@yogacrmseo/best-yoga-studio-management-software-yogacrm-8d7092b254a7?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-26T05:10:39+00:00",
+      "summary": "The best yoga studio management software should make everyday tasks simple, not complicated. YogaCRM gives yoga teachers and studio owners… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "AI Didn’t Create Fragmented Services. It Made Them Impossible to Ignore.",
+      "url": "https://medium.com/@jovanavieira/ai-didnt-create-fragmented-services-it-made-them-impossible-to-ignore-258b8d32d578?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-08-25T20:47:51+00:00",
+      "summary": "How intelligent systems expose the cracks in operational ecosystems. Continue reading on Medium »",
+      "tags": [
+        "AI Strategy",
+        "Platform Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "You Didn’t Buy That Because You Wanted It.",
+      "url": "https://medium.com/write-a-catalyst/you-didnt-buy-that-because-you-wanted-it-39784f8f6fa5?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-08-25T16:14:16+00:00",
+      "summary": "You already had enough clothes. You knew your current phone worked just fine. You knew you didn’t need another bag. So why did you still… Continue reading on Write A Catalyst »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "How to figure out your next career move",
+      "url": "https://www.lennysnewsletter.com/p/how-to-figure-out-your-next-career",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-08-25T13:04:15+00:00",
+      "summary": "Six essential questions to help you navigate change",
+      "tags": [
+        "Career"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Building from zero to one:  How venture studios sequence risk before they build",
+      "url": "https://www.productledalliance.com/building-from-zero-to-one-how-venture-studios-sequence-risk-before-they-build/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-08-25T12:00:11+00:00",
+      "summary": "Market, distribution, feasibility, defensibility: the four risks venture studios test before writing a line of code, and why the order matters.",
+      "tags": [
+        "Communication"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Product management vs. product marketing:  What's the real difference?",
+      "url": "https://www.productledalliance.com/product-management-vs-product-marketing/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-08-25T10:20:03+00:00",
+      "summary": "Discover the key differences between the product manager and product marketing manager roles, and how they can work together to launch successfully.",
+      "tags": [
+        "Product Culture"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Netflix to Sell Streaming Services?, Streamers as Aggregators, Revisiting Roku",
+      "url": "https://stratechery.com/2026/netflix-to-sell-streaming-services-streamers-as-aggregators-revisiting-roku/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-08-25T10:00:00+00:00",
+      "summary": "Netflix is considering selling other streaming services, and I think it's a good idea; it's also a let-down for Netflix's original goals and potential pivots.",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The New Economics of AI | Martin Casado & Steven Sinofsky",
+      "url": "https://a16z.simplecast.com/episodes/the-new-economics-of-ai-martin-casado-steven-sinofsky-6Xew5iHr",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-08-25T10:00:00+00:00",
+      "summary": "a16z General Partners Martin Casado and Erik Torenberg are joined by Board Partner Steven Sinofsky to explore what recent breakthroughs in AI and mathematics tell us about where the technology is headed, and whether some of the basic assumptions that have governed computing for d...",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Stop Adding Priorities: The Leadership System for Work That Can Actually Finish",
       "url": "https://different-perspectives.medium.com/stop-adding-priorities-the-leadership-system-for-work-that-can-actually-finish-b8a45491a35c?source=rss------product_management-5",
@@ -1528,6 +1637,18 @@
       "is_fallback": true
     },
     {
+      "title": "Jotform AI Data Assistant",
+      "url": "https://www.producthunt.com/products/jotform",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-08-11T12:01:37+00:00",
+      "summary": "Turn form data into insights and action with AI Discussion | Link",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
       "title": "Feature flags are becoming  a strategic product operations layer",
       "url": "https://www.productledalliance.com/feature-flags-a-strategic-product-operations-layer/",
       "source": "Product-Led Alliance",
@@ -2150,6 +2271,18 @@
       "summary": "What happens when you ask a leadership question about a machine Continue reading on Medium »",
       "tags": [
         "Leadership"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "akta.pro",
+      "url": "https://www.producthunt.com/products/akta-pro",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-08-06T13:03:25+00:00",
+      "summary": "Private company data and signals API for the agent economy Discussion | Link",
+      "tags": [
+        "Product Strategy"
       ],
       "is_fallback": true
     },
@@ -10774,162 +10907,6 @@
         "AI Strategy",
         "User Research",
         "Product Strategy"
-      ]
-    },
-    {
-      "title": "The Hardest Part of AI Isn’t the Model - It’s the Handoff",
-      "url": "https://medium.com/@rian.whitlow/the-hardest-part-of-ai-isnt-the-model-it-s-the-handoff-8cd5e6062d99?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-05-27T21:20:22+00:00",
-      "summary": "The article argues that AI projects often stumble not due to weak models but because the surrounding workflows and handoff processes are poorly designed. It stresses the need for clear integration plans, cross‑functional collaboration, and robust operational procedures to ensure AI delivers real business value.",
-      "tags": [
-        "AI Strategy",
-        "Product Design",
-        "Stakeholders"
-      ]
-    },
-    {
-      "title": "🔮 Why AI isn’t showing up on your bottom line",
-      "url": "https://www.exponentialview.co/p/why-ai-isnt-showing-up-on-your-bottom-line",
-      "source": "Exponential View",
-      "type": "trend",
-      "date": "2026-05-27T20:24:34+00:00",
-      "summary": "The article presents a framework for evaluating AI initiatives by linking them directly to measurable business outcomes, helping product managers prioritize projects that truly impact revenue and cost savings. It emphasizes the need to define clear value propositions, establish accountability, and continuously monitor performance to ensure AI efforts translate into bottom‑line results.",
-      "tags": [
-        "AI Strategy",
-        "Metrics",
-        "Product Strategy"
-      ]
-    },
-    {
-      "title": "The Leaky Bucket You Keep Filling",
-      "url": "https://www.productcoalition.com/p/the-leaky-bucket-you-keep-filling",
-      "source": "Product Coalition",
-      "type": "article",
-      "date": "2026-05-27T18:49:43+00:00",
-      "summary": "The article highlights a common mismatch where product teams heavily invest in acquiring new users while neglecting existing customers, leading to unnoticed churn. It urges managers to shift focus toward retaining current users to sustain growth and maximize ROI.",
-      "tags": [
-        "Retention",
-        "Growth",
-        "Product Strategy"
-      ]
-    },
-    {
-      "title": "Compartment",
-      "url": "https://www.producthunt.com/products/compartment",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-05-27T16:01:54+00:00",
-      "summary": "Compartment offers a secure platform for sharing applications built with AI agents, addressing concerns around data privacy and intellectual property when distributing AI-driven solutions. The article highlights its potential to streamline collaboration among product teams while maintaining compliance and control over AI assets.",
-      "tags": [
-        "AI Strategy",
-        "Product Design",
-        "Security"
-      ]
-    },
-    {
-      "title": "Growati",
-      "url": "https://www.producthunt.com/products/growati",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-05-27T13:18:56+00:00",
-      "summary": "Growati is an{autopilot} solution that streamlines YouTube post-production by automating editing, captioning, and thumbnail creation, allowing creators to focus on content while the platform handles routine tasks. The tool promises faster turnaround times, consistent branding, and reduced manual effort, positioning itself as a productivity boost for video creators and agencies alike.\n\n(Note: The original article is a discussion thread, so details are drawn from the community conversation about its features and potential impact.)\n\n(If needed, replace the placeholder with the exact autopilot description from the source.)",
-      "tags": [
-        "AI Tools",
-        "Automation",
-        "Productivity"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "The Codex feature that works while you sleep",
-      "url": "https://www.lennysnewsletter.com/p/the-codex-feature-that-works-while",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-05-27T12:03:47+00:00",
-      "summary": "The article explains Codex's new /goal feature, showcasing a live demo and three practical use cases. It also introduces a 6-part framework for crafting actionable goals that run automatically, even while users sleep, highlighting how it can streamline planning and execution for product teams.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Productivity"
-      ]
-    },
-    {
-      "title": "The SpaceX IPO and Data Centers in Space",
-      "url": "https://stratechery.com/2026/the-spacex-ipo-and-data-centers-in-space/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-05-27T10:00:00+00:00",
-      "summary": "The article argues that while a traditional financial model can't currently justify a SpaceX IPO, the concept of deploying data centers in space presents a plausible future revenue stream. This potential use case could reshape the valuation narrative and open new strategic opportunities for the company.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Growth"
-      ]
-    },
-    {
-      "title": "Clark",
-      "url": "https://www.producthunt.com/products/clark-agent",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-05-27T09:38:52+00:00",
-      "summary": "An AI coworker with its own cloud computer Discussion | Link",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "AI’s $250 Billion Question: What If The Moat Protects Nothing?",
-      "url": "https://medium.com/@jaisingh.darshana/ais-250-billion-question-what-if-the-moat-protects-nothing-c0e43b66c901?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-05-27T08:31:00+00:00",
-      "summary": "The article argues that Big Tech's massive $250 billion annual spend on AI is aimed at defending a product category that may not yet be real, questioning the sustainability of such investments. It challenges product leaders to rethink assumptions about AI moats and consider whether the current focus truly creates lasting value.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Competitive Analysis"
-      ]
-    },
-    {
-      "title": "The Only AI-Agent Metric That Matters: Cost per Retained Accepted Unit",
-      "url": "https://medium.com/@PopovOnline/the-only-ai-agent-metric-that-matters-cost-per-retained-accepted-unit-871b4187d63a?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-05-27T08:09:51+00:00",
-      "summary": "The article argues that traditional activity metrics like token count or task completions don't reflect true productivity for AI agents. Instead, it proposes using unit economics—specifically Cost per Retained Accepted Unit—as the key measure to evaluate and prioritize AI agent development and deployment.",
-      "tags": [
-        "AI Strategy",
-        "Metrics",
-        "Product Strategy"
-      ]
-    },
-    {
-      "title": "I’m Not a Reader. But Inspired Made Me Take Notes.",
-      "url": "https://medium.com/@ananya.terdal/im-not-a-reader-but-inspired-made-me-take-notes-d5f02c705b29?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-05-27T08:03:13+00:00",
-      "summary": "The author reflects on their uneasy relationship with reading and how the platform Inspired motivated them to start taking notes, highlighting the impact of digital tools on personal learning habits. For product managers, this underscores the importance of designing experiences that lower friction and encourage knowledge capture.",
-      "tags": [
-        "AI Tools",
-        "Product Culture",
-        "Product Design"
-      ]
-    },
-    {
-      "title": "Getting Allocation Out of the Spreadsheet",
-      "url": "https://pranav7khatal.medium.com/cutting-case-allocation-time-from-60-mins-to-seconds-ux-case-study-679594f5efa0?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-05-27T07:23:14+00:00",
-      "summary": "The article describes how Moneyboxx streamlined its loan case allocation process, reducing the time required from 60 minutes to just seconds by moving away from manual spreadsheet methods. It outlines the implementation steps, technology choices, and the resulting efficiency gains for the product team.",
-      "tags": [
-        "Product Strategy",
-        "Productivity",
-        "Data"
       ]
     }
   ]
