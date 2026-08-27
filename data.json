@@ -1,7 +1,137 @@
 {
-  "updated": "2026-08-26T05:56:16.615528+00:00",
-  "total": 849,
+  "updated": "2026-08-27T16:31:52.895512+00:00",
+  "total": 843,
   "items": [
+    {
+      "title": "O que o mercado espera de você?AI Powered PM’s",
+      "url": "https://tatianafloren.medium.com/o-que-o-mercado-espera-de-voc%C3%AA-ai-powered-pms-b57e41d2852c?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-27T16:13:47+00:00",
+      "summary": "Como a Inteligência Artificial está mudando o papel do Product Manager — e por que julgamento humano continua sendo essencial Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Why Organizations Still Make Bad Decisions in the Age of AI",
+      "url": "https://medium.com/@kapilt/why-organizations-still-make-bad-decisions-in-the-age-of-ai-2efff6f9e127?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-27T16:03:22+00:00",
+      "summary": "We don’t have a data problem. We have an understanding problem. And AI may be making the distinction more important than ever. Continue reading on Medium »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Startup Metrics That Actually Explain Growth",
+      "url": "https://medium.com/@Ciara_Hayes/the-startup-metrics-that-actually-explain-growth-e8fb35d55863?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-08-27T13:19:31+00:00",
+      "summary": "Most founders track numbers that make them feel good. Here is how to track the ones that actually keep your company alive. Continue reading on Medium »",
+      "tags": [
+        "Growth",
+        "Metrics"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Agentic First is Not a Chatbot Product Strategy",
+      "url": "https://medium.com/@kpieper876/agentic-first-is-not-a-chatbot-product-strategy-716f8dd02526?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-08-27T13:16:01+00:00",
+      "summary": "Agentic products should start with outcomes and workflows, orchestrate across systems, and reserve humans for intentional judgment points. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Inside Cursor: The Anatomy of a Generational Startup",
+      "url": "https://a16z.simplecast.com/episodes/inside-cursor-the-anatomy-of-a-generational-startup-eVZ_egyp",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-08-27T10:00:00+00:00",
+      "summary": "a16z General Partners Martin Casado, Sarah Wang, and Matt Bornstein unpack the story of Cursor: how a small, product-obsessed team entered one of the most competitive markets in technology, took on incumbents with seemingly unbeatable advantages, and repeatedly made decisions tha...",
+      "tags": [
+        "AI Tools",
+        "Competitive Analysis",
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Databricks: AI Engineer - FDE (Forward Deployed Engineer)",
+      "url": "https://weworkremotely.com/remote-jobs/databricks-ai-engineer-fde-forward-deployed-engineer-1",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-08-27T07:31:13+00:00",
+      "summary": "Headquarters: Remote - United Kingdom AI Engineer - FDE (Forward Deployed Engineer) Req ID: CSQ427R191 Location: United Kingdom - Remote (must be based in the UK for this role) Mission The AI Forward Deployed Engineering (AI FDE) team is a highly specialized customer-facing AI te...",
+      "tags": [
+        "AI Strategy",
+        "Career",
+        "Compliance"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Databricks: AI Engineer - FDE (Forward Deployed Engineer)",
+      "url": "https://weworkremotely.com/remote-jobs/databricks-ai-engineer-fde-forward-deployed-engineer",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-08-27T07:31:00+00:00",
+      "summary": "Headquarters: Remote - India CSQ326R35 AI Engineer - FDE (Forward Deployed Engineer) Mission The AI Forward Deployed Engineering (AI FDE) team is a highly specialized customer-facing AI team at Databricks. We deliver professional services engagements to help our customers build a...",
+      "tags": [
+        "AI Strategy",
+        "Career",
+        "Compliance"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Wondering Canvas",
+      "url": "https://www.producthunt.com/products/wondering-2",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-08-27T06:40:56+00:00",
+      "summary": "Visual ChatGPT in Parallel Discussion | Link",
+      "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Apple Updates Mini and Studio, AI Computers, OpenAI Jalapeño",
+      "url": "https://stratechery.com/2026/apple-updates-mini-and-studio-ai-computers-openai-jalapeno/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-08-26T10:00:00+00:00",
+      "summary": "Apple and OpenAI have two completely different hardware announcements; both represent pressure on Nvidia.",
+      "tags": [
+        "AI Strategy",
+        "AI Tools",
+        "Hardware Differentiation"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The State of AI: Macro, Apps, and Consumer",
+      "url": "https://a16z.simplecast.com/episodes/the-state-of-ai-macro-apps-and-consumer-0SpxP4t2",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-08-26T10:00:00+00:00",
+      "summary": "Anish Acharya joins Jen Kha to break down the next frontier of AI, from the evolving model landscape and open-source AI to why the application layer, and consumer AI in particular, may be entering a new phase. Anish explains why he believes there will be multiple winners at the m...",
+      "tags": [
+        "AI Strategy",
+        "Competitive Analysis"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Design Sprints: The five days that replace three months of argument",
       "url": "https://waffledesigns.medium.com/design-sprints-the-five-days-that-replace-three-months-of-argument-0aeda6d304cc?source=rss------product_management-5",
@@ -6865,6 +6995,18 @@
       "is_fallback": false
     },
     {
+      "title": "Kira Community",
+      "url": "https://www.producthunt.com/products/kira-art",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-06-29T07:00:43+00:00",
+      "summary": "Curate moments with #hashtag Discussion | Link",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
       "title": "Don’t Innovate Around Personas. Innovate Around Situations.",
       "url": "https://medium.com/@daverothschild/dont-innovate-around-personas-innovate-around-situations-76d7aa0274b5?source=rss------product_strategy-5",
       "source": "Medium Strategy",
@@ -10688,225 +10830,6 @@
         "AI Strategy",
         "Product Strategy",
         "Growth"
-      ]
-    },
-    {
-      "title": "In-Flow Accessibility:  Prevent Backlogs, Increase Velocity [OnDemand]",
-      "url": "https://www.productledalliance.com/in-flow-accessibility-prevent-backlogs-increase-velocity-ondemand/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-05-29T15:03:37+00:00",
-      "summary": "The session teaches development leaders how to integrate accessibility practices into their current workflows, enabling early detection of issues and preventing costly post‑launch fixes. By embedding accessibility from the start, teams can reduce backlog, maintain higher velocity, and improve overall product quality.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Product Culture"
-      ]
-    },
-    {
-      "title": "Product Labs 2026 | October",
-      "url": "https://www.productledalliance.com/product-labs-2026-october/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-05-29T08:50:58+00:00",
-      "summary": "The October 2026 issue of Product Labs highlights emerging trends in product development, focusing on integrating AI-driven insights into product strategy and enhancing cross-functional collaboration. It also offers practical frameworks for prioritizing initiatives and measuring impact to drive growth and user retention.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Metrics"
-      ]
-    },
-    {
-      "title": "Engineering Isn’t Often the Problem; You need to touch grass",
-      "url": "https://medium.com/@ayowale247/engineering-isnt-often-the-problem-you-need-to-touch-grass-09a96dc426b4?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-05-29T08:27:07+00:00",
-      "summary": "The article argues that engineering challenges are rarely the root cause of product setbacks; instead, teams often overlook broader contextual factors such as market fit, user behavior, and strategic alignment. It encourages product leaders to step back, engage with real users and the market ('touch grass'), and prioritize holistic problem‑solving over purely technical fixes.",
-      "tags": [
-        "Product Strategy",
-        "Leadership",
-        "User Research"
-      ]
-    },
-    {
-      "title": "Software Delivery Models: How to Choose the Right One Without Wasting Time, Budget, or Control",
-      "url": "https://medium.com/@kamil.machalica1/software-delivery-models-how-to-choose-the-right-one-without-wasting-time-budget-or-control-43f54fa5c7aa?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-05-29T07:56:18+00:00",
-      "summary": "The article outlines how selecting the appropriate software delivery model impacts a SaaS team's speed, cost efficiency, and governance. It provides a framework for evaluating options to avoid overruns and loss of control, helping product managers align delivery choices with business goals.",
-      "tags": [
-        "Product Strategy",
-        "Growth",
-        "Prioritization"
-      ]
-    },
-    {
-      "title": "People Don’t Buy Products. They Buy These 3 Things",
-      "url": "https://medium.com/write-a-catalyst/people-dont-buy-products-they-buy-these-3-things-1316f7bb53d8?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-05-29T04:09:54+00:00",
-      "summary": "The article explains that purchases are driven by three core motivations: eliminating a problem, saving effort, or evoking a desired feeling. Product managers should focus on framing their offerings around these value drivers to better resonate with customers and drive adoption.",
-      "tags": [
-        "Product Strategy",
-        "Growth",
-        "User Research"
-      ]
-    },
-    {
-      "title": "Discovery: When We Replaced Users With Dashboards",
-      "url": "https://www.productcoalition.com/p/discovery-when-we-replaced-users",
-      "source": "Product Coalition",
-      "type": "article",
-      "date": "2026-05-29T00:54:06+00:00",
-      "summary": "The article traces how product teams moved from direct user interviews—originally done with clipboard surveys—to relying on dashboards and AI‑driven analytics, highlighting the trade‑offs in empathy and insight. It warns that over‑automation can strip away nuanced user feedback, urging product managers to rebalance data visualizations with real user interaction.",
-      "tags": [
-        "AI Strategy",
-        "User Research",
-        "Product Design"
-      ]
-    },
-    {
-      "title": "Walkable",
-      "url": "https://www.producthunt.com/products/walkable-2",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-05-28T22:35:07+00:00",
-      "summary": "Safety-first walking navigation to walk the safest routes Discussion | Link",
-      "tags": [
-        "Product Design",
-        "User Research"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Claude Opus 4.8 is here. Is it as good as they say?",
-      "url": "https://www.lennysnewsletter.com/p/claude-opus-48-is-here-is-it-as-good",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-05-28T21:35:07+00:00",
-      "summary": "The article provides a quick first‑look at Claude Opus 4.8, highlighting its most impressive capabilities—such as improved context handling and smoother language generation—while also pointing out areas where it underperforms, like occasional factual inaccuracies and limited customization. For product managers, the piece offers insight into how the new model could enhance AI‑driven features and where additional safeguards may be needed before integration.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "AI Tools"
-      ]
-    },
-    {
-      "title": "The Feature Graveyard Nobody Talks About",
-      "url": "https://www.productcoalition.com/p/user-stories-the-conversation-we",
-      "source": "Product Coalition",
-      "type": "article",
-      "date": "2026-05-28T16:00:52+00:00",
-      "summary": "The article examines how feature deprecation conversations, once a collaborative effort to retire low-value features, have degenerated into a bureaucratic compliance process. It highlights the negative impact on product efficiency and morale, and shares tactics practitioners are using to restore meaningful dialogue and strategic decision‑making around feature retirement.",
-      "tags": [
-        "Product Strategy",
-        "Leadership",
-        "Product Culture"
-      ]
-    },
-    {
-      "title": "Openstatus MCP Health Checker",
-      "url": "https://www.producthunt.com/products/openstatus-2",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-05-28T14:14:25+00:00",
-      "summary": "The Openstatus MCP Health Checker is a monitoring tool designed to track the health and performance of MCP servers, providing real-time status updates and alerts. It helps product teams quickly identify issues, reduce downtime, and maintain reliable service for users.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Product Culture"
-      ]
-    },
-    {
-      "title": "The Chaos in Your Product Backlogs Is Costing You Revenue",
-      "url": "https://medium.com/@paulcrosby/the-chaos-in-your-product-backlogs-is-costing-you-revenue-28d5345956e2?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-05-28T14:01:01+00:00",
-      "summary": "The article explains how disorganized product backlogs create bottlenecks, obscure priorities, and lead to missed market opportunities, ultimately reducing revenue. It offers a framework for cleaning up backlogs, aligning stakeholders, and using data-driven prioritization to restore product velocity and financial performance.",
-      "tags": [
-        "Product Strategy",
-        "Prioritization",
-        "Metrics"
-      ]
-    },
-    {
-      "title": "Building Lorikeet: How AI Humility and a Dual-Agent Architecture Are Redefining Customer Support",
-      "url": "https://www.producttalk.org/building-lorikeet-how-ai-humility-and-a-dual-agent-architecture-are-redefining-customer-support/",
-      "source": "Product Talk",
-      "type": "article",
-      "date": "2026-05-28T13:00:44+00:00",
-      "summary": "The episode explores the development of Lorikeet, an AI-powered customer support system that emphasizes humility by recognizing its limits and gracefully deferring when it cannot assist. Jamie Hall and Xharmagne Carandang discuss the dual-agent architecture that enables this behavior and the strategic product decisions behind building trustworthy, reliable AI interactions.",
-      "tags": [
-        "AI Strategy",
-        "AI Tools",
-        "Product Design"
-      ]
-    },
-    {
-      "title": "RabbitTravel",
-      "url": "https://www.producthunt.com/products/rabbittravel",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-05-28T10:34:41+00:00",
-      "summary": "RabbitTravel offers an AI‑driven platform that automates travel itinerary creation, integrating user preferences, budget constraints, and real‑time data to streamline planning. The solution targets both casual travelers and business users, promising faster decisions and higher satisfaction through personalized recommendations.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "User Research"
-      ]
-    },
-    {
-      "title": "An Interview with Eric Seufert About Models and Ads, and AI’s Upside for Humanity",
-      "url": "https://stratechery.com/2026/an-interview-with-eric-seufert-about-models-and-ads-and-ais-upside-for-humanity/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-05-28T10:00:00+00:00",
-      "summary": "In this interview, Eric Seufert explains how generative AI models are built and why Meta's foundational models are crucial for advancing the ecosystem. He also argues that insights from advertising can drive better user experiences and foster an optimistic outlook on AI's impact on humanity.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Growth"
-      ]
-    },
-    {
-      "title": "The shoe sellers of Nazare, Portugal",
-      "url": "https://medium.com/@dhivyasriram/the-shoe-sellers-of-nazare-portugal-9d47a506510d?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-05-28T07:53:34+00:00",
-      "summary": "The article recounts a personal travel experience in March 2023, when the author and a friend visited Barcelona and Portugal during a career transition period. It reflects on the moments and observations made during the trip, including a birthday celebration and encounters with local shoe sellers in Nazaré, Portugal.",
-      "tags": [
-        "Product Culture"
-      ]
-    },
-    {
-      "title": "Transitioning Into Product Management Roles — Day 2",
-      "url": "https://medium.com/@infinityosmo/transitioning-into-product-management-roles-day-2-8ab9311926fb?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-05-28T07:52:28+00:00",
-      "summary": "The article reflects on the challenges of moving into product management, emphasizing that the biggest hurdle isn’t acquiring knowledge once, but maintaining consistent, ongoing learning. It advises aspiring PMs to adopt a habit of regular skill development to succeed in the role.",
-      "tags": [
-        "Career",
-        "Product Strategy",
-        "Growth"
-      ]
-    },
-    {
-      "title": "Market Feedback Is the Best Strategy Consultant",
-      "url": "https://medium.com/@komentalai/market-feedback-is-the-best-strategy-consultant-8c1af5ae8212?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-05-28T06:11:06+00:00",
-      "summary": "The article shares insights from building the AI startup SmartShelf AI, emphasizing that direct market feedback outperforms traditional strategic consulting. It highlights the importance of iterating based on real customer signals to shape product direction and business models.",
-      "tags": [
-        "AI Strategy",
-        "User Research",
-        "Product Strategy"
       ]
     }
   ]
