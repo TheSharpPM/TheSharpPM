@@ -1,7 +1,80 @@
 {
-  "updated": "2026-08-27T16:31:52.895512+00:00",
+  "updated": "2026-08-28T17:32:51.075800+00:00",
   "total": 843,
   "items": [
+    {
+      "title": "Every expensive partner dispute in product development starts with the same sentence: “That’s not…",
+      "url": "https://medium.com/@mihaela.blanaru/every-expensive-partner-dispute-in-product-development-starts-with-the-same-sentence-thats-not-856a549851c3?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-08-28T17:11:10+00:00",
+      "summary": "Every expensive partner dispute in a product development programme starts with some version of the same sentence. “That is not what we… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "A product brief that needs its author in the room is not a brief. It’s a set of meeting notes.",
+      "url": "https://medium.com/@mihaela.blanaru/a-product-brief-that-needs-its-author-in-the-room-is-not-a-brief-its-a-set-of-meeting-notes-813a4581e9d6?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-08-28T17:10:31+00:00",
+      "summary": "Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Notification Design Psychology: When Alerts Help and When They Annoy",
+      "url": "https://medium.com/@atticusli/notification-design-psychology-when-alerts-help-and-when-they-annoy-1f8be3e0956c?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-28T17:01:03+00:00",
+      "summary": "Notifications sit at the intersection of attention and interruption. Behavioral science reveals why most notification strategies backfire… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "2026.35: Internet Hype and Real World Change",
+      "url": "https://stratechery.com/2026/internet-hype-and-real-world-change/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-08-28T17:00:00+00:00",
+      "summary": "The best Stratechery content from the week of August 24, 2026 including the breaker's advantage, the new battle for HDMI1, and how data center discourse ends.",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Why Most Companies Skip the Most Important Step",
+      "url": "https://yasmeenturayhi.medium.com/why-most-companies-skip-the-most-important-step-fa1b8c519df0?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-28T16:51:01+00:00",
+      "summary": "The Discovery Phase Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Infrastructure Behind the Machine Age",
+      "url": "https://a16z.simplecast.com/episodes/the-infrastructure-behind-the-machine-age-M3g5NamY",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-08-28T10:00:00+00:00",
+      "summary": "Ben Horowitz, Martin Casado, Raghu Raghuram, and Erik Torenberg discuss the launch of a16z's new Machine Age Fund and the infrastructure buildout behind AI, from chips, memory, and networking to power, cooling, and data centers. Why a dedicated fund now? The group argues that the...",
+      "tags": [
+        "Hardware Differentiation",
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "O que o mercado espera de você?AI Powered PM’s",
       "url": "https://tatianafloren.medium.com/o-que-o-mercado-espera-de-voc%C3%AA-ai-powered-pms-b57e41d2852c?source=rss------product_management-5",
@@ -100,6 +173,18 @@
       "type": "trend",
       "date": "2026-08-27T06:40:56+00:00",
       "summary": "Visual ChatGPT in Parallel Discussion | Link",
+      "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Firecrawl Developer Index",
+      "url": "https://www.producthunt.com/products/extract-by-firecrawl",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-08-26T17:33:36+00:00",
+      "summary": "A curated index of 70M+ artifacts for coding agents. Discussion | Link",
       "tags": [
         "AI Tools"
       ],
@@ -2300,6 +2385,18 @@
       "summary": "By An Nguyen — August 7, 2026 Continue reading on Medium »",
       "tags": [
         "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "SuperIntern",
+      "url": "https://www.producthunt.com/products/super-intern-4",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-08-07T15:11:44+00:00",
+      "summary": "Your email and meeting assistant, inside your chat apps Discussion | Link",
+      "tags": [
+        "Product Strategy"
       ],
       "is_fallback": true
     },
@@ -10727,110 +10824,6 @@
         "Product Strategy"
       ],
       "is_fallback": true
-    },
-    {
-      "title": "🧠 Community Wisdom: Catching people using AI during an interview, org design when everything lives in one person’s head, when to rename your product, from nurse to health-tech PM, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-catching-people",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-05-30T16:43:36+00:00",
-      "summary": "This article curates community insights covering diverse topics such as detecting AI-generated responses in interviews, structuring organizations when critical knowledge is centralized in one individual, and deciding when a product name should be changed. It also shares a career transition story from nursing to health‑tech product management and offers additional practical advice for product teams.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Career"
-      ]
-    },
-    {
-      "title": "Marqly 5.0",
-      "url": "https://www.producthunt.com/products/marqly",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-05-30T09:30:11+00:00",
-      "summary": "Marqly 5.0 is an AI-powered bookmark manager that leverages generative AI to automatically categorize, summarize, and retrieve saved content. The update focuses on improving relevance, cross-device syncing, and collaborative features to boost user productivity. This positions Marqly as a smarter knowledge‑management tool for both individual users and teams.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Productivity"
-      ]
-    },
-    {
-      "title": "Where the return on AI investment lives",
-      "url": "https://medium.com/@RaxRoshan/where-the-return-on-ai-investment-lives-f0e32ed01bc0?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-05-30T07:30:31+00:00",
-      "summary": "The article explains that AI investments deliver measurable returns primarily within specific value pools that are defined by the nature of the work rather than the technology itself. It emphasizes identifying those work patterns and aligning AI initiatives accordingly to maximize impact.",
-      "tags": [
-        "AI Strategy",
-        "Metrics",
-        "Product Strategy"
-      ]
-    },
-    {
-      "title": "Stop Adding AI to Everything: Why Most AI Features are Actually Bad UX",
-      "url": "https://medium.com/@ayanforu18/stop-adding-ai-to-everything-why-most-ai-features-are-actually-bad-ux-5aa685796c57?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-05-30T06:39:32+00:00",
-      "summary": "The article argues that indiscriminately adding AI features often harms user experience, urging product teams to evaluate AI's true value and relevance before integration. It emphasizes a disciplined, user-centered approach to AI, recommending that product managers prioritize meaningful, problem‑solving AI over hype‑driven features.",
-      "tags": [
-        "AI Strategy",
-        "Product Design",
-        "User Research"
-      ]
-    },
-    {
-      "title": "Sheeple - the inherent duality of an anti-brand",
-      "url": "https://medium.com/@jameseasley001/sheeple-the-duality-of-an-anti-brand-8207f635b18b?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-05-29T20:14:04+00:00",
-      "summary": "The article explores the paradox of creating an anti‑brand that deliberately rejects conventional marketing while inevitably participating in the same systems due to limited resources. It highlights the tension between staying true to a disruptive identity and the practical need to engage with the market, offering insights for product leaders on managing brand authenticity versus growth pressures.",
-      "tags": [
-        "Product Strategy",
-        "Leadership",
-        "Product Culture"
-      ]
-    },
-    {
-      "title": "“No screen, no UX”: a costly assumption in automation",
-      "url": "https://medium.com/swlh/no-screen-no-ux-a-costly-assumption-in-automation-f05c2448aee0?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-05-29T17:05:46+00:00",
-      "summary": "The article argues that removing traditional screens doesn't eliminate the need for a user experience; instead, the experience shifts to less visible, higher‑stakes components of automated systems, which still require thoughtful design. Ignoring this can lead to costly oversights in product development and automation implementation.",
-      "tags": [
-        "AI Strategy",
-        "Product Design",
-        "Leadership"
-      ]
-    },
-    {
-      "title": "Live with Azeem: AI & ROI",
-      "url": "https://www.exponentialview.co/p/live-with-azeem-ai-and-roi",
-      "source": "Exponential View",
-      "type": "trend",
-      "date": "2026-05-29T17:00:57+00:00",
-      "summary": "The recorded session with Azeem Azhar explores how organizations can measure the return on investment of AI initiatives, emphasizing the importance of aligning AI projects with clear business outcomes and robust data pipelines. It offers practical guidance for product teams on prioritizing AI features that drive measurable value.",
-      "tags": [
-        "AI Strategy",
-        "Metrics",
-        "Product Strategy"
-      ]
-    },
-    {
-      "title": "2026.22: Luceing Their Mind",
-      "url": "https://stratechery.com/2026/luceing-their-mind/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-05-29T17:00:00+00:00",
-      "summary": "This week’s Stratechery roundup examines the backlash against Luce, explores monetization models for AI-generated answers, and discusses trends in social mobility in China that could affect market dynamics. The pieces offer product leaders insights into managing public perception, designing revenue streams for AI services, and anticipating macro‑economic shifts that impact growth opportunities.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Growth"
-      ]
     }
   ]
 }
