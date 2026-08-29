@@ -1,7 +1,57 @@
 {
-  "updated": "2026-08-28T17:32:51.075800+00:00",
-  "total": 843,
+  "updated": "2026-08-29T11:56:45.985878+00:00",
+  "total": 844,
   "items": [
+    {
+      "title": "The Developer Skill Nobody Puts on a Resume",
+      "url": "https://medium.com/@tayfun.kendiroglu20/the-developer-skill-nobody-puts-on-a-resume-fcd22b846d3d?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-29T11:38:02+00:00",
+      "summary": "Knowing how to build things is valuable. Knowing what deserves to be built is something else entirely. Continue reading on Medium »",
+      "tags": [
+        "Career"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Virtual Data Room — Design for Privacy and Trust",
+      "url": "https://medium.com/design-bootcamp/virtual-data-room-design-for-privacy-and-trust-a43b763f7c8c?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-29T11:13:05+00:00",
+      "summary": "Overview Continue reading on Bootcamp »",
+      "tags": [
+        "Privacy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Why 1,200 AI Agents Started Working Together | Ryan Greenblatt",
+      "url": "https://a16z.simplecast.com/episodes/why-1-200-ai-agents-started-working-together-ryan-greenblatt-i7A557W2",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-08-29T10:00:00+00:00",
+      "summary": "Ryan Greenblatt, Chief Scientist at Redwood Research, joins MTS host Theo Jaffee to unpack a new independent investigation into the OpenAI Hugging Face hacking incident and what it reveals about how large groups of AI agents behave when they're allowed to coordinate. Ryan and his...",
+      "tags": [
+        "AI Tools",
+        "AI Strategy",
+        "Stakeholders"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Before You Build It: How I Decide Whether a Product Idea Is Worth Pursuing",
+      "url": "https://medium.com/@aj98bina/before-you-build-it-how-i-decide-whether-a-product-idea-is-worth-pursuing-2f66a6efbef1?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-08-28T23:18:21+00:00",
+      "summary": "The most expensive product mistakes often happen before a single line of code is written. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Every expensive partner dispute in product development starts with the same sentence: “That’s not…",
       "url": "https://medium.com/@mihaela.blanaru/every-expensive-partner-dispute-in-product-development-starts-with-the-same-sentence-thats-not-856a549851c3?source=rss------product_strategy-5",
@@ -51,6 +101,18 @@
       "is_fallback": true
     },
     {
+      "title": "Hy4 preview",
+      "url": "https://www.producthunt.com/products/hunyuan-a13b",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-08-28T16:57:52+00:00",
+      "summary": "Tencent’s 770B open model for long-horizon work Discussion | Link",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
       "title": "Why Most Companies Skip the Most Important Step",
       "url": "https://yasmeenturayhi.medium.com/why-most-companies-skip-the-most-important-step-fa1b8c519df0?source=rss------product_management-5",
       "source": "Medium PM",
@@ -72,6 +134,18 @@
       "tags": [
         "Hardware Differentiation",
         "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Staats",
+      "url": "https://www.producthunt.com/products/staats-3",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-08-28T07:12:12+00:00",
+      "summary": "Ask your coding agent how your site is doing Discussion | Link",
+      "tags": [
+        "AI Tools"
       ],
       "is_fallback": true
     },
@@ -10760,70 +10834,6 @@
         "Product Strategy",
         "Growth"
       ]
-    },
-    {
-      "title": "Gully Scorer: Bringing Professional Cricket Scoring to Every Street, Ground, and Local Tournament",
-      "url": "https://medium.com/@pabitramondal2635/gully-scorer-bringing-professional-cricket-scoring-to-every-street-ground-and-local-tournament-aa2070801da1?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-05-31T07:38:22+00:00",
-      "summary": "The article introduces Gully Scorer, a platform that democratizes professional cricket scoring by offering affordable, easy-to-use tools for street, club, and local tournament matches across India. By leveraging mobile technology and automated data capture, it aims to improve match transparency, player statistics, and fan engagement at the grassroots level.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Growth"
-      ]
-    },
-    {
-      "title": "Trade-offs Are the Job",
-      "url": "https://medium.com/@alex_86019/trade-offs-are-the-job-39c884214ecc?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-05-31T07:11:00+00:00",
-      "summary": "The article explains how a leader's approach to trade‑off decisions is revealed in a specific type of meeting, highlighting the importance of transparent prioritization and stakeholder alignment. For product managers, it underscores that mastering trade‑off discussions is central to effective product strategy and leadership.",
-      "tags": [
-        "Leadership",
-        "Prioritization",
-        "Product Strategy"
-      ]
-    },
-    {
-      "title": "🔮 Does AI make you dumb? And why our forecasts suck #576",
-      "url": "https://www.exponentialview.co/p/ev-576",
-      "source": "Exponential View",
-      "type": "trend",
-      "date": "2026-05-31T02:36:50+00:00",
-      "summary": "The episode explores how reliance on AI can erode critical thinking and why AI-generated forecasts often miss the mark due to bias, data quality, and overconfidence. It emphasizes the need for product managers to combine AI insights with human judgment and robust validation processes.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Metrics"
-      ]
-    },
-    {
-      "title": "Why Every AI Product Manager Needs a Token Economics Model",
-      "url": "https://medium.com/@birendrasingh007/why-every-ai-product-manager-needs-a-token-economics-model-af92e8fcfaaa?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-05-31T01:40:03+00:00",
-      "summary": "The article argues that AI product managers must incorporate token economics into their decision‑making because a model's technical performance alone doesn't guarantee product success. By quantifying incentives, costs, and value capture through tokens, managers can align stakeholder motivations, predict network effects, and make more informed roadmap choices.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Metrics"
-      ]
-    },
-    {
-      "title": "Tendlet",
-      "url": "https://www.producthunt.com/products/tendlet",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-05-30T21:46:04+00:00",
-      "summary": "Know, plan, and share care for pets and plants Discussion | Link",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
     }
   ]
 }
