@@ -85,10 +85,30 @@ MODEL = os.environ.get("AGENT_MODEL", "openai/gpt-oss-120b")
 AGENT_DIR = Path("agent")
 INDEX_FILE = AGENT_DIR / "index.json"
 
-MAX_ITERATIONS = 15          # safety cap on agent turns
+MAX_ITERATIONS = 15          # safety cap on productive agent turns
+# Extra API calls allowed on top of MAX_ITERATIONS for recovery paths
+# (schema retries, TPM retries, no-tool-call nudges). Without a separate
+# budget, every recovery consumed a research turn and the run could die
+# of "max iterations" having only actually researched 10 times.
+MAX_RECOVERY_ATTEMPTS = 8
+
+# Groq bills the per-minute token budget as prompt + reserved output:
+# a 413 that says "Requested 8288" against a 8000 TPM limit is counting
+# max_tokens too. A flat 4096 reserve therefore spends over half the
+# free-tier ceiling before a single message is counted, which is what
+# left these runs one fat tool result away from a 413. Reserve the
+# publish-sized budget only on turns where publish_edition can actually
+# succeed - a research turn emits a tool call of a few dozen tokens.
+MAX_TOKENS_PUBLISH = 4096
+MAX_TOKENS_RESEARCH = 1024
 MAX_ARTICLE_CHARS = 2500     # truncate article fetches
 MAX_FEED_ITEMS = 15          # cap feed payload per tool call; needs to be >= len(FEEDS) so every source has a shot when shuffled
 MAX_FEED_SUMMARY_CHARS = 200 # cap each feed item's summary
+# Per-feed HTTP timeout. feedparser.parse(url) fetches through urllib
+# with no timeout at all, so a host that accepts the TCP connection and
+# then never responds stalls the whole run. blackboxofpm.com does this
+# today, which is why every fetch_feeds call was taking ~27 minutes.
+FEED_TIMEOUT_SECONDS = 15
 
 # How long to sleep on a transient rate_limit_exceeded (TPM) error
 # before retrying. TPM windows are 60 seconds, so 65s is enough for
@@ -376,17 +396,27 @@ def _ungrounded_numeric_claims(editorial):
 
 FEEDS = [
     {"url": "https://www.lennysnewsletter.com/feed", "source": "Lenny's Newsletter"},
-    {"url": "https://www.reforge.com/blog/rss.xml", "source": "Reforge"},
     {"url": "https://www.svpg.com/articles/rss", "source": "SVPG"},
     {"url": "https://www.mindtheproduct.com/feed/", "source": "Mind the Product"},
-    {"url": "https://blackboxofpm.com/feed", "source": "Black Box of PM"},
     {"url": "https://www.producttalk.org/feed/", "source": "Product Talk"},
     {"url": "https://www.ben-evans.com/benedictevans/rss.xml", "source": "Benedict Evans"},
     {"url": "https://stratechery.com/feed/", "source": "Stratechery"},
     {"url": "https://www.exponentialview.co/feed", "source": "Exponential View"},
-    {"url": "https://www.firstround.com/review/feed.xml", "source": "First Round Review"},
     {"url": "https://hnrss.org/best?q=product+manager", "source": "Hacker News"},
 ]
+
+# Removed 2026-08-30 - all three verified dead, none serves a parseable
+# feed any more. Re-add here if they come back; the fetch loop tolerates
+# a broken feed now (logs and skips), but a dead host still costs real
+# wall clock, so they do not sit in FEEDS speculatively.
+#   - Black Box of PM (https://blackboxofpm.com/feed): host unreachable.
+#     Resolves to 10 IPs, every one of them times out on connect, so a
+#     single fetch_feeds call spent 180s here alone (10 x 15s).
+#   - Reforge (https://www.reforge.com/blog/rss.xml): HTTP 500.
+#     /blog/feed returns 200 but is an HTML page with 0 entries.
+#   - First Round Review (https://www.firstround.com/review/feed.xml):
+#     308-redirects to review.firstround.com/feed.xml, which 404s. No
+#     working feed URL found on either host.
 
 
 # ── UTILITIES ─────────────────────────────────────────────────────────────────
@@ -423,7 +453,18 @@ def tool_fetch_feeds(topics=None, max_per_feed=2):
 
     for feed in shuffled_feeds:
         try:
-            parsed = feedparser.parse(feed["url"])
+            # Fetch the bytes ourselves so the timeout above applies,
+            # then hand them to feedparser. Passing the URL straight to
+            # feedparser.parse() gives up all timeout control.
+            resp = requests.get(
+                feed["url"],
+                timeout=FEED_TIMEOUT_SECONDS,
+                headers={"User-Agent": "Mozilla/5.0 (Agent Sharp Weekly Editor)"},
+            )
+            if resp.status_code != 200:
+                print(f"  feed error ({feed['source']}): HTTP {resp.status_code}")
+                continue
+            parsed = feedparser.parse(resp.content)
             for entry in parsed.entries[:max_per_feed]:
                 title = entry.get("title", "")
                 summary = strip_html(entry.get("summary", ""))[:MAX_FEED_SUMMARY_CHARS]
@@ -1639,23 +1680,51 @@ def run_agent():
     # loop forever. Capping at 4 lets the model fix 3 distinct issues
     # in sequence before we abort the run.
     MAX_PUBLISH_REJECTS = 4
-    for iteration in range(1, MAX_ITERATIONS + 1):
-        print(f"[iter {iteration}]")
+    # Productive turns: API calls whose tool calls we actually executed.
+    # Recovery attempts (schema retry, TPM retry, no-tool-call nudge)
+    # deliberately do not count against this - they draw on
+    # MAX_RECOVERY_ATTEMPTS instead, so a couple of rate-limit blips no
+    # longer cost the agent the research it still needs to do.
+    iteration = 0
+    attempts = 0
+    max_attempts = MAX_ITERATIONS + MAX_RECOVERY_ATTEMPTS
+    while iteration < MAX_ITERATIONS and attempts < max_attempts:
+        attempts += 1
+        print(f"[iter {iteration + 1}] (attempt {attempts})")
         # On the first turn, force the agent to actually call a tool.
         # Without this, the model sometimes skips straight to a
         # fabricated publish_edition with example.com URLs.
-        if iteration == 1:
+        pinned_publish = False
+        if attempts == 1:
             tool_choice = "required"
         elif force_publish_next:
-            # Pin the next tool call to publish_edition. Resets after
-            # the call so a single rejected publish still has retries.
+            # Pin the next tool call to publish_edition. Cleared only
+            # once the call actually comes back (see below), so a
+            # schema/TPM retry does not silently drop the pin and let
+            # the agent wander back into research. A rejected publish
+            # re-arms it further down.
             tool_choice = {
                 "type": "function",
                 "function": {"name": "publish_edition"},
             }
-            force_publish_next = False
+            pinned_publish = True
         else:
             tool_choice = "auto"
+
+        # Only reserve publish-sized output when publish_edition is
+        # reachable: either it is pinned, or the agent has met the
+        # research minimum so the gate would accept a publish. Every
+        # other turn keeps ~3k more of the TPM budget for context.
+        done_research = (
+            TOOL_CALL_COUNTS.get("fetch_feeds", 0)
+            + TOOL_CALL_COUNTS.get("web_search", 0)
+            + TOOL_CALL_COUNTS.get("fetch_article", 0)
+        )
+        current_max_tokens = (
+            MAX_TOKENS_PUBLISH
+            if (pinned_publish or done_research >= MIN_RESEARCH_CALLS)
+            else MAX_TOKENS_RESEARCH
+        )
         # Use perturbed temperature on retries; baseline 0.7 otherwise.
         if schema_retries > 0 and schema_retries <= len(RETRY_TEMPERATURES):
             current_temp = RETRY_TEMPERATURES[schema_retries - 1]
@@ -1675,10 +1744,11 @@ def run_agent():
             try:
                 generation = root_span.start_observation(
                     as_type="generation",
-                    name=f"iter_{iteration}",
+                    name=f"iter_{iteration + 1}_attempt_{attempts}",
                     model=MODEL,
                     model_parameters={
                         "temperature": current_temp,
+                        "max_tokens": current_max_tokens,
                         "tool_choice": (
                             tool_choice if isinstance(tool_choice, str)
                             else f"forced:{tool_choice.get('function', {}).get('name', '?')}"
@@ -1686,8 +1756,10 @@ def run_agent():
                     },
                     input=messages,
                     metadata={
-                        "iteration": iteration,
+                        "iteration": iteration + 1,
+                        "attempt": attempts,
                         "schema_retries": schema_retries,
+                        "rate_limit_retries": rate_limit_retries,
                         "publish_rejects": publish_rejects,
                     },
                 )
@@ -1707,9 +1779,10 @@ def run_agent():
                 # (editorial 500 words + 5 must_reads with pull_quotes +
                 # takeaways + homework + contrarian) gets truncated
                 # mid-JSON. Symptom: tool_use_failed with an incomplete
-                # editorial string in failed_generation. 4096 fits the
-                # heaviest expected publish output with headroom.
-                max_tokens=4096,
+                # editorial string in failed_generation. MAX_TOKENS_PUBLISH
+                # fits the heaviest expected publish output with headroom;
+                # research turns get the smaller reserve.
+                max_tokens=current_max_tokens,
             )
         except Exception as e:
             error_str = str(e)
@@ -1791,6 +1864,18 @@ def run_agent():
         message = response.choices[0].message
         tool_calls = message.tool_calls or []
 
+        # The call came back, so both retry budgets reset. They are
+        # per-incident, not per-run: previously a rate-limit blip early
+        # on and another one much later left the run with zero budget,
+        # and the next 413 killed it outright even though every call in
+        # between had succeeded.
+        schema_retries = 0
+        rate_limit_retries = 0
+        # The publish pin has now been spent on a call that returned.
+        # Clearing it here rather than before the request means a retry
+        # keeps the pin; a gate rejection below re-arms it.
+        force_publish_next = False
+
         # Close the Langfuse generation with the successful output +
         # token usage. Groq exposes usage on response.usage. SDK v3
         # uses usage_details= (renamed from usage=).
@@ -1864,6 +1949,10 @@ def run_agent():
             print("  Agent produced no tool calls. Stopping.")
             _finalize_trace("no_tool_call")
             return 1
+
+        # We have tool calls to execute: this is a productive turn and
+        # the only thing that counts against MAX_ITERATIONS.
+        iteration += 1
 
         published = False
         for tc in tool_calls:
@@ -1981,7 +2070,17 @@ def run_agent():
                 ),
             })
 
-    print(f"\nERROR: agent hit max iterations ({MAX_ITERATIONS}) without publishing.")
+    if attempts >= max_attempts:
+        print(
+            f"\nERROR: agent burned its whole attempt budget "
+            f"({attempts}/{max_attempts}, {iteration} productive turns) "
+            f"without publishing - too many recovery retries."
+        )
+    else:
+        print(
+            f"\nERROR: agent hit max iterations ({MAX_ITERATIONS}) "
+            f"without publishing."
+        )
     _finalize_trace("max_iterations")
     return 1
 
