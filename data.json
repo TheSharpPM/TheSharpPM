@@ -1,7 +1,81 @@
 {
-  "updated": "2026-08-29T11:56:45.985878+00:00",
-  "total": 844,
+  "updated": "2026-08-30T10:43:05.519029+00:00",
+  "total": 851,
   "items": [
+    {
+      "title": "Why a16z Launched the Machine Age Fund | Jen Kha",
+      "url": "https://a16z.simplecast.com/episodes/why-a16z-launched-the-machine-age-fund-jen-kha-MopZc0wl",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-08-30T10:00:00+00:00",
+      "summary": "a16z Managing Partner and Head of Global Partnerships Jen Kha joins MTS hosts Theo Jaffee and Sophia Dew to discuss a16z's Machine Age Fund and the investment thesis behind rebuilding the physical infrastructure that powers AI. Jen explains why chips, networking, memory, cooling,...",
+      "tags": [
+        "AI Strategy",
+        "Hardware Differentiation"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "When Information Becomes Non-Local",
+      "url": "https://medium.com/@ankursaran_59645/when-information-becomes-non-local-7b7b7a9221a8?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-30T09:49:41+00:00",
+      "summary": "Article 2 of “Quantum Consciousness in AI Architecture: From Physics to Transcendence” Continue reading on Medium »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "I Vibe Coded My Entertainment Gallery Room Over the Weekend",
+      "url": "https://medium.com/towards-data-engineering/i-vibe-coded-my-entertainment-gallery-room-over-the-weekend-d3aabd2f955b?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-30T09:48:51+00:00",
+      "summary": "Dear Readers, Continue reading on Towards Data Engineering »",
+      "tags": [
+        "Data"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Architecture of Nostalgia: What Spotify Wrapped Teaches Us About Emotional Design",
+      "url": "https://medium.com/@NiamhOS/the-architecture-of-nostalgia-what-spotify-wrapped-teaches-us-about-emotional-design-8d7a8928f6bc?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-08-30T07:43:46+00:00",
+      "summary": "We think data is for logic. Spotify proved it is actually the most potent tool we have for human connection. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🔮 Unbounded self-improvement and its limits #599",
+      "url": "https://www.exponentialview.co/p/ev-599",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-08-30T02:51:35+00:00",
+      "summary": "Plus: The deceptive popularity of open-weight models & DIY compute.",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🧠 Community Wisdom: Building without clear PM requirements, selling a product before building it, pricing fast-moving B2B SaaS, a year of job hunting, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-building-without",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-08-29T18:59:48+00:00",
+      "summary": "Community Wisdom 199",
+      "tags": [
+        "Community",
+        "Pricing"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "The Developer Skill Nobody Puts on a Resume",
       "url": "https://medium.com/@tayfun.kendiroglu20/the-developer-skill-nobody-puts-on-a-resume-fcd22b846d3d?source=rss------product_management-5",
@@ -443,6 +517,18 @@
       "type": "article",
       "date": "2026-08-24T16:36:01+00:00",
       "summary": "For a long time, I thought good UX meant understanding users and creating an experience that worked for them. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Retro Y2K Theme",
+      "url": "https://www.producthunt.com/products/retro-y2k-theme-90s-web-aesthetic",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-08-24T15:35:12+00:00",
+      "summary": "Customize any website with a vintage 90s & Y2K retro theme Discussion | Link",
       "tags": [
         "Product Strategy"
       ],
@@ -1270,6 +1356,18 @@
       "type": "trend",
       "date": "2026-08-17T13:30:34+00:00",
       "summary": "Summon monsters straight from your agent. Discussion | Link",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Caplio",
+      "url": "https://www.producthunt.com/products/caplio",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-08-17T12:59:14+00:00",
+      "summary": "Find, organize, and reuse every image on your Mac Discussion | Link",
       "tags": [
         "Product Strategy"
       ],
@@ -10820,19 +10918,6 @@
         "AI Tools",
         "Product Strategy",
         "Product Design"
-      ]
-    },
-    {
-      "title": "A rational conversation on where AI is actually going | Benedict Evans",
-      "url": "https://www.lennysnewsletter.com/p/a-rational-conversation-on-where",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-05-31T12:31:43+00:00",
-      "summary": "Benedict Evans argues that AI is entering a pivotal phase comparable to the internet boom of 1997, emphasizing that the hype around massive job loss is overstated while the true value will emerge from new business models and productivity gains. He highlights the importance for product teams to focus on integrating AI to enhance user experiences and create differentiated offerings rather than just automating existing tasks.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Growth"
       ]
     }
   ]
