@@ -1,7 +1,81 @@
 {
-  "updated": "2026-08-30T10:43:05.519029+00:00",
-  "total": 851,
+  "updated": "2026-08-31T11:45:58.120983+00:00",
+  "total": 852,
   "items": [
+    {
+      "title": "I Shipped Smart AI With Zero Data. Users Noticed Immediately",
+      "url": "https://medium.com/@gmtasoftware/i-shipped-smart-ai-with-zero-data-users-noticed-immediately-843f07a7008f?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-31T10:41:40+00:00",
+      "summary": "Priya Nair’s habit-tracking app, Loopwell, launched with the feature she was proudest of: an AI engine that would learn each user’s rhythm… Continue reading on Medium »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Better Work Is Not Better Thinking — Weekly Notes for EdTech Platform Builders, August 31, 2026",
+      "url": "https://medium.com/@benjaminmeindl/better-work-is-not-better-thinking-weekly-notes-for-edtech-platform-builders-august-31-2026-6e1fb33cf23d?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-08-31T10:30:50+00:00",
+      "summary": "A grading design that favored polished submissions over measured reasoning, plus a week of trust-boundary failures in agent infrastructure Continue reading on Medium »",
+      "tags": [
+        "Platform Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Meta Settles, A Framework For Regulating Content, The Rest of Big Tech",
+      "url": "https://stratechery.com/2026/meta-settles-a-framework-for-regulating-content-the-rest-of-big-tech/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-08-31T10:00:00+00:00",
+      "summary": "Meta's settlement makes sense for all parties, but the entire sage highlights why any solution to regulating technology feels off.",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Gavin Baker: Why AI Demand Is Outrunning Compute Supply",
+      "url": "https://a16z.simplecast.com/episodes/gavin-baker-why-ai-demand-is-outrunning-compute-supply-z97oFoOG",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-08-31T10:00:00+00:00",
+      "summary": "a16z’s David George sits down with Gavin Baker to unpack the state of the AI boom, why demand for intelligence may still be dramatically underestimated, and why the outcome doesn't necessarily have to be winner-take-all. David and Gavin explore the possibility that frontier labs,...",
+      "tags": [
+        "AI Strategy",
+        "Security"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "EP–2350 FX–MIC",
+      "url": "https://www.producthunt.com/products/teenage-engineering",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-08-31T04:41:46+00:00",
+      "summary": "The programmable mic you can squeeze, shake & play Discussion | Link",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "AI’s third era: the rise of persistent AI coworkers | Tara Seshan (OpenAI’s product lead)",
+      "url": "https://www.lennysnewsletter.com/p/ais-third-era-the-rise-of-persistent",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-08-30T12:31:30+00:00",
+      "summary": "Listen now | Tara Seshan, head of Codex and ChatGPT Work at OpenAI, on why ambition is now the differentiator, steering vs. rowing, and why you need to build for where the models will be in two to three months",
+      "tags": [
+        "AI Tools",
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Why a16z Launched the Machine Age Fund | Jen Kha",
       "url": "https://a16z.simplecast.com/episodes/why-a16z-launched-the-machine-age-fund-jen-kha-MopZc0wl",
@@ -1235,6 +1309,18 @@
       "tags": [
         "Growth",
         "Product Design"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "BrandJet",
+      "url": "https://www.producthunt.com/products/brandjet-ai",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-08-18T14:52:07+00:00",
+      "summary": "Turn public buying signals into sales pipeline Discussion | Link",
+      "tags": [
+        "Product Strategy"
       ],
       "is_fallback": true
     },
@@ -10838,87 +10924,6 @@
         "Communication"
       ],
       "is_fallback": true
-    },
-    {
-      "title": "The Google Capital Company",
-      "url": "https://stratechery.com/2026/the-google-capital-company/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-06-02T10:00:00+00:00",
-      "summary": "Google has issued equity to Berkshire Hathaway in a deal that signals far more demand and a future where capital is the ultimate commodity.",
-      "tags": [
-        "Competitive Analysis",
-        "Platform Strategy",
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Onboarding doesn't teach users your product  – it teaches them whether your product is worth learning",
-      "url": "https://www.productledalliance.com/onboarding-teaches-users-whether-your-product-is-worth-it/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-06-02T08:23:46+00:00",
-      "summary": "Onboarding is a pitch. Make sure yours lands.",
-      "tags": [
-        "User Research",
-        "Growth",
-        "Product Design"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "🎙️ How I AI: Codex Goals explained & Claude Opus 4.8 review & Building an iPhone app with zero technical skills",
-      "url": "https://www.lennysnewsletter.com/p/how-i-ai-codex-goals-explained-and",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-06-01T15:01:46+00:00",
-      "summary": "The episode breaks down the objectives behind the new Codex AI models and provides an in‑depth review of Claude Opus 4.8, highlighting its capabilities and limitations. It also walks listeners through creating an iPhone app without any coding experience, showcasing practical no‑code tools and workflows.",
-      "tags": [
-        "AI Strategy",
-        "AI Tools",
-        "Product Strategy"
-      ]
-    },
-    {
-      "title": "Your Product Isn't Just SaaS: Monetisation's Other Faces",
-      "url": "https://www.productcoalition.com/p/your-product-isnt-just-saas-monetisations",
-      "source": "Product Coalition",
-      "type": "article",
-      "date": "2026-06-01T14:02:45+00:00",
-      "summary": "The piece argues that pure-SaaS pricing has become a default that obscures better-fit monetisation models (usage-based, hybrid, marketplace cuts) for many products. It pushes PMs to treat pricing-model selection as a first-class product decision rather than a finance department handoff.",
-      "tags": [
-        "Pricing",
-        "Product Strategy",
-        "Growth"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "🔥 We checked. Again. Still no bubble.",
-      "url": "https://www.exponentialview.co/p/still-no-bubble",
-      "source": "Exponential View",
-      "type": "trend",
-      "date": "2026-06-01T13:06:36+00:00",
-      "summary": "A customer-led boom with a few fraying edges.",
-      "tags": [
-        "AI Strategy",
-        "Competitive Analysis"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Building an iPhone app with zero technical skills | Bryce Rattner Keithley",
-      "url": "https://www.lennysnewsletter.com/p/building-an-iphone-app-with-zero",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-06-01T12:04:51+00:00",
-      "summary": "The article details how talent leader Bryce Rattner Keithley, with no technical background, leveraged AI tools to create and launch a fitness iPhone app, including AI-generated animal exercise videos. It showcases a step‑by‑step, low‑code approach that product managers can use to prototype and ship apps quickly without deep engineering resources.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Product Design"
-      ]
     }
   ]
 }
