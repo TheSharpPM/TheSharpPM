@@ -1,6 +1,11 @@
 {
   "editions": [
     {
+      "date": "2026-08-31",
+      "headline_theme": "Speed Isn't Enough: Rethink AI Success Metrics",
+      "file": "agent/2026-08-31.json"
+    },
+    {
       "date": "2026-08-23",
       "headline_theme": "When Experiments Stifle Vision",
       "file": "agent/2026-08-23.json"
@@ -96,5 +101,5 @@
       "file": "agent/2026-05-03.json"
     }
   ],
-  "updated_at": "2026-08-23T09:06:04.835229+00:00"
+  "updated_at": "2026-08-31T13:25:29.820279+00:00"
 }
