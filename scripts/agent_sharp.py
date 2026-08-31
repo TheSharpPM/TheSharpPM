@@ -99,7 +99,22 @@ MAX_RECOVERY_ATTEMPTS = 8
 # left these runs one fat tool result away from a 413. Reserve the
 # publish-sized budget only on turns where publish_edition can actually
 # succeed - a research turn emits a tool call of a few dozen tokens.
-MAX_TOKENS_PUBLISH = 4096
+#
+# Sized from the 19 editions actually published between 2026-05-03 and
+# 2026-08-23, measured as the full publish_edition argument payload:
+# smallest 920 tokens, median 1,022, largest 1,181. Every one of them
+# used 3 must_reads (the schema allows 5) and a 253-380 word editorial
+# (the cap is 500). The old 4096 was a theoretical worst case that has
+# never occurred - 3.5x the largest real edition - and it was spending
+# half the per-minute budget to do nothing.
+#
+# 2500 is a bit over 2x the largest edition on record. The extra margin
+# over the raw payload is deliberate: gpt-oss-120b is a reasoning model
+# and its reasoning tokens count toward the completion, and that part
+# cannot be measured from the saved editions. Confirm against
+# completion_tokens on a publish generation in Langfuse and tighten
+# further if the real figure turns out to be comfortably lower.
+MAX_TOKENS_PUBLISH = 2500
 MAX_TOKENS_RESEARCH = 1024
 MAX_ARTICLE_CHARS = 2500     # truncate article fetches
 MAX_FEED_ITEMS = 15          # cap feed payload per tool call; needs to be >= len(FEEDS) so every source has a shot when shuffled
@@ -1340,6 +1355,11 @@ TOOL_DECLARATIONS = [
 
 # Wrap declarations in the OpenAI / Groq tool envelope.
 TOOLS = [{"type": "function", "function": d} for d in TOOL_DECLARATIONS]
+# Sent instead of TOOLS on a turn where tool_choice already pins
+# publish_edition. Saves ~420 tokens of schema the model cannot use.
+PUBLISH_ONLY_TOOLS = [
+    t for t in TOOLS if t["function"]["name"] == "publish_edition"
+]
 
 
 # ── SYSTEM PROMPT ─────────────────────────────────────────────────────────────
@@ -1745,6 +1765,12 @@ def run_agent():
             if (pinned_publish or done_research >= MIN_RESEARCH_CALLS)
             else MAX_TOKENS_RESEARCH
         )
+
+        # When tool_choice pins publish_edition, the research tool
+        # schemas are dead weight the model is not allowed to use, and
+        # they still cost ~420 tokens of a budget that counts every one.
+        # Send only the schema the turn can actually call.
+        current_tools = PUBLISH_ONLY_TOOLS if pinned_publish else TOOLS
         # Use perturbed temperature on retries; baseline 0.7 otherwise.
         if schema_retries > 0 and schema_retries <= len(RETRY_TEMPERATURES):
             current_temp = RETRY_TEMPERATURES[schema_retries - 1]
@@ -1791,7 +1817,7 @@ def run_agent():
             response = client.chat.completions.create(
                 model=MODEL,
                 messages=messages,
-                tools=TOOLS,
+                tools=current_tools,
                 tool_choice=tool_choice,
                 temperature=current_temp,
                 # Explicit output cap. Without this, Groq defaults to a
