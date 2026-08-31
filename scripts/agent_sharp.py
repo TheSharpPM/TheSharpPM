@@ -1599,6 +1599,14 @@ def run_agent():
     publish_rejects = 0
     schema_retries = 0
     iteration = 0
+    attempts = 0
+    # schema_retries / rate_limit_retries reset after every successful
+    # call, because their job is to bound one incident. That makes them
+    # useless as a run-level health signal, so keep separate cumulative
+    # totals for the trace: "this run recovered from 4 rate limits" is
+    # the number worth watching week over week.
+    total_schema_retries = 0
+    total_rate_limit_retries = 0
 
     # Captured when publish_edition succeeds. Copied to trace output so
     # Langfuse LLM-as-judge evaluators can reference the editorial with
@@ -1615,8 +1623,10 @@ def run_agent():
                 output_payload = {
                     "outcome": outcome_name,
                     "publish_rejects": publish_rejects,
-                    "schema_retries": schema_retries,
+                    "schema_retries": total_schema_retries,
+                    "rate_limit_retries": total_rate_limit_retries,
                     "iterations_used": iteration,
+                    "attempts_used": attempts,
                 }
                 # Merge the published edition at top level so evals can
                 # do {{output.editorial}}, {{output.headline_theme}},
@@ -1641,6 +1651,18 @@ def run_agent():
                     trace_id=trace_id,
                     name="iterations_used",
                     value=iteration,
+                )
+                # Recovery pressure. Climbing week over week is the
+                # early warning that the TPM ceiling is being hit again.
+                langfuse.create_score(
+                    trace_id=trace_id,
+                    name="rate_limit_retries",
+                    value=total_rate_limit_retries,
+                )
+                langfuse.create_score(
+                    trace_id=trace_id,
+                    name="schema_retries",
+                    value=total_schema_retries,
                 )
             except Exception as e:
                 print(f"  langfuse scoring failed (continuing): {e}")
@@ -1685,8 +1707,6 @@ def run_agent():
     # deliberately do not count against this - they draw on
     # MAX_RECOVERY_ATTEMPTS instead, so a couple of rate-limit blips no
     # longer cost the agent the research it still needs to do.
-    iteration = 0
-    attempts = 0
     max_attempts = MAX_ITERATIONS + MAX_RECOVERY_ATTEMPTS
     while iteration < MAX_ITERATIONS and attempts < max_attempts:
         attempts += 1
@@ -1810,6 +1830,7 @@ def run_agent():
             if (any(k in error_str for k in recoverable_errors)
                     and schema_retries < 3):
                 schema_retries += 1
+                total_schema_retries += 1
                 print(
                     f"  Groq rejected model output. Asking agent to retry "
                     f"(retry {schema_retries}/3, temp -> "
@@ -1841,6 +1862,7 @@ def run_agent():
                     and "tokens per minute" in error_str.lower()
                     and rate_limit_retries < RATE_LIMIT_MAX_RETRIES):
                 rate_limit_retries += 1
+                total_rate_limit_retries += 1
                 if rate_limit_retries == 1:
                     print(
                         f"  Hit TPM rate limit. Aggressive trim and "
