@@ -114,7 +114,17 @@ MAX_RECOVERY_ATTEMPTS = 8
 # cannot be measured from the saved editions. Confirm against
 # completion_tokens on a publish generation in Langfuse and tighten
 # further if the real figure turns out to be comfortably lower.
-MAX_TOKENS_PUBLISH = 2500
+# MEASURED, do not size this from the edition payload alone. gpt-oss-120b
+# is a reasoning model and Groq counts its reasoning tokens toward the
+# completion. Run 33389922092 set this to 2500 and the publish call was
+# truncated after emitting 174 tokens of JSON: reasoning had eaten 2326
+# of the 2500, i.e. 93% of the reserve. A research turn reasons for only
+# ~380 tokens, so extrapolating from one is badly wrong.
+#
+# Real requirement = reasoning (~2300, and it is not fixed) + payload
+# (805-1041 tokens across the 19 editions published to date). 4096 is
+# the value that shipped every one of those editions.
+MAX_TOKENS_PUBLISH = 4096
 MAX_TOKENS_RESEARCH = 1024
 MAX_ARTICLE_CHARS = 2500     # truncate article fetches
 MAX_FEED_ITEMS = 15          # cap feed payload per tool call; needs to be >= len(FEEDS) so every source has a shot when shuffled
@@ -204,6 +214,18 @@ FETCHED_URLS = {}
 # or "300% headcount" that never appear in the sources. Lives separate
 # from the message history so the sliding-window trim does not erase it.
 TOOL_RESULTS_LOG = []
+
+# url -> {"title", "source"} for everything the agent has seen this run.
+# Feeds the publish-time digest that replaces the trimmed-away tool
+# dumps, so must_read URLs stay copied rather than recalled.
+SEEN_SOURCES = {}
+# Cap on how many sources the digest lists, and how much of each title
+# it keeps. Measured: 15 sources with 120-char titles cost 589 tokens on
+# a publish turn that only had 138 to spare. 10 sources at 70 chars cost
+# roughly half that. The model only needs 3 must_reads plus a contrarian,
+# so a 10-item menu is not the binding constraint.
+MAX_DIGEST_SOURCES = 10
+MAX_DIGEST_TITLE_CHARS = 70
 
 # Substrings that signal fabricated / placeholder content. The publish gate
 # refuses to publish anything containing these.
@@ -1407,6 +1429,63 @@ TOOL_DISPATCH = {
 }
 
 
+def _record_seen_sources(name, args, result):
+    """Collect (url, title, source) for anything the agent has seen.
+
+    Best-effort and never raises - a malformed tool result must not take
+    down the run. Feeds and searches carry their own titles; a direct
+    fetch_article only has the URL, so it is recorded bare.
+    """
+    try:
+        if name == "fetch_article":
+            url = args.get("url", "")
+            if url and not (isinstance(result, dict) and result.get("error")):
+                SEEN_SOURCES.setdefault(url, {"title": "", "source": ""})
+            return
+        if not isinstance(result, dict):
+            return
+        items = result.get("items") or result.get("results") or []
+        for it in items:
+            if not isinstance(it, dict):
+                continue
+            url = (it.get("url") or "").strip()
+            if not url:
+                continue
+            entry = SEEN_SOURCES.setdefault(url, {"title": "", "source": ""})
+            if not entry["title"]:
+                entry["title"] = str(it.get("title", ""))[:120]
+            if not entry["source"]:
+                entry["source"] = str(it.get("source", ""))[:60]
+    except Exception:
+        pass
+
+
+def _citable_sources_digest(limit=MAX_DIGEST_SOURCES):
+    """Compact 'here is what you actually fetched' block for publish time.
+
+    Only trusted/citable domains are listed, because must_reads may only
+    come from those - offering the model anything else just invites a
+    rejected publish.
+    """
+    lines = []
+    for url, meta in SEEN_SOURCES.items():
+        if not _is_citable_source(url):
+            continue
+        title = (meta.get("title") or "")[:MAX_DIGEST_TITLE_CHARS]
+        source = meta.get("source") or ""
+        label = f"{title} ({source})" if source else title
+        lines.append(f"- {label + ' ' if label.strip() else ''}{url}")
+        if len(lines) >= limit:
+            break
+    if not lines:
+        return ""
+    return (
+        "Sources you actually fetched this run. Copy must_read and "
+        "contrarian URLs verbatim from this list - do NOT reconstruct a "
+        "URL from memory:\n" + "\n".join(lines)
+    )
+
+
 def execute_tool(name, args):
     print(f"  -> tool: {name}({json.dumps(args, ensure_ascii=False)[:200]})")
     TOOL_CALL_COUNTS[name] = TOOL_CALL_COUNTS.get(name, 0) + 1
@@ -1447,6 +1526,16 @@ def execute_tool(name, args):
                 FETCHED_URLS[url] = f"errored: {str(result.get('error'))[:120]}"
             else:
                 FETCHED_URLS[url] = "fetched successfully"
+    # Record every (url, title, source) triple the agent has actually
+    # seen. The publish turn runs on a hard-trimmed history to fit the
+    # TPM budget, so the raw tool dumps holding these URLs are gone by
+    # then. This digest is re-injected at publish time instead: the
+    # gates check that a must_read URL is on a trusted domain but NOT
+    # that it came from real research, so without it the model would be
+    # reciting URLs from memory and a plausible-looking invented link
+    # would publish as a dead link.
+    if name in ("fetch_feeds", "web_search", "fetch_article"):
+        _record_seen_sources(name, args, result)
     # Log every tool result verbatim into TOOL_RESULTS_LOG so the
     # publish-time numeric grounding gate can check that any
     # percentage/multiplier in the editorial actually appears in the
@@ -1480,6 +1569,17 @@ RECENT_TOOL_RESULT_CAP_CHARS = 3000
 KEEP_RECENT_MESSAGES_ON_413 = 2
 OLD_TOOL_RESULT_PREVIEW_CHARS_ON_413 = 80
 RECENT_TOOL_RESULT_PREVIEW_CHARS_ON_413 = 500
+
+# Publish turns need MAX_TOKENS_PUBLISH (4096) reserved, and Groq counts
+# that against the same 8000 budget as the prompt. With the system
+# prompt (1355) and tool schemas (1099) that leaves ~1450 tokens for the
+# whole history, where a normal turn carries ~2000. So publish turns get
+# their own, tighter trim. The information the model loses here is the
+# raw tool dumps; the URLs it needs to cite come back via
+# _citable_sources_digest(), which is both smaller and more reliable.
+KEEP_RECENT_MESSAGES_ON_PUBLISH = 2
+OLD_TOOL_RESULT_PREVIEW_CHARS_ON_PUBLISH = 40
+RECENT_TOOL_RESULT_CAP_CHARS_ON_PUBLISH = 400
 
 
 def trim_message_history(messages):
@@ -1519,6 +1619,71 @@ def trim_message_history(messages):
             content[:RECENT_TOOL_RESULT_CAP_CHARS]
             + "...[recent tool result capped for token budget]"
         )
+
+
+def compact_history_for_publish(messages):
+    """Return a NEW, much shorter message list for a publish turn.
+
+    Truncating old tool results is not enough here. By the time the
+    agent is forced to publish it has ~14 assistant/tool pairs, and even
+    stubbed to 40 chars the pairs cost ~900 tokens of pure structural
+    overhead - message count, not content, becomes the binding
+    constraint. So old pairs are dropped outright rather than stubbed.
+
+    Kept: the system prompt, the opening user turn, every later user
+    message (those are the forced-publish instruction with its source
+    digest, and any retry instructions), and the last
+    KEEP_RECENT_MESSAGES_ON_PUBLISH assistant/tool exchanges.
+
+    Assistant tool_calls messages and their tool responses are dropped
+    as a unit - splitting a pair would leave a tool message with no
+    matching call and the API would reject the request.
+
+    Non-destructive: the caller keeps the full history, so a rejected
+    publish can still be retried against everything the run gathered.
+    """
+    if len(messages) <= 2:
+        return list(messages)
+    head, rest = messages[:2], messages[2:]
+
+    blocks = []
+    i = 0
+    while i < len(rest):
+        msg = rest[i]
+        if msg.get("role") == "assistant" and msg.get("tool_calls"):
+            block = [msg]
+            j = i + 1
+            while j < len(rest) and rest[j].get("role") == "tool":
+                block.append(rest[j])
+                j += 1
+            blocks.append(("pair", block))
+            i = j
+        else:
+            blocks.append(("single", [msg]))
+            i += 1
+
+    pair_positions = [k for k, (kind, _) in enumerate(blocks) if kind == "pair"]
+    keep = set(pair_positions[-KEEP_RECENT_MESSAGES_ON_PUBLISH:])
+
+    out = list(head)
+    for k, (kind, block) in enumerate(blocks):
+        if kind == "single":
+            out.extend(block)
+        elif k in keep:
+            for msg in block:
+                if msg.get("role") == "tool":
+                    content = msg.get("content", "")
+                    if (isinstance(content, str)
+                            and len(content)
+                            > RECENT_TOOL_RESULT_CAP_CHARS_ON_PUBLISH + 50):
+                        msg = dict(msg)
+                        msg["content"] = (
+                            content[:RECENT_TOOL_RESULT_CAP_CHARS_ON_PUBLISH]
+                            + "...[trimmed for the publish turn; cite URLs "
+                            "from the source list above]"
+                        )
+                out.append(msg)
+    return out
 
 
 def trim_message_history_aggressive(messages):
@@ -1782,7 +1947,17 @@ def run_agent():
         # Truncate content of older tool results before sending. Stops
         # the messages array from growing past the per-request TPM cap
         # as iterations stack up.
-        trim_message_history(messages)
+        # A pinned publish turn reserves 4096 output tokens, so its
+        # prompt has to be far smaller than a research turn's. Compact
+        # into a separate list for the request only - `messages` keeps
+        # the full history so a rejected publish can be retried against
+        # everything the run gathered.
+        if pinned_publish:
+            trim_message_history(messages)
+            request_messages = compact_history_for_publish(messages)
+        else:
+            trim_message_history(messages)
+            request_messages = messages
 
         # Open a Langfuse generation for this iteration as a child of
         # the root span. Best-effort: any failure here does not affect
@@ -1803,7 +1978,7 @@ def run_agent():
                             else f"forced:{tool_choice.get('function', {}).get('name', '?')}"
                         ),
                     },
-                    input=messages,
+                    input=request_messages,
                     metadata={
                         "iteration": iteration + 1,
                         "attempt": attempts,
@@ -1819,7 +1994,7 @@ def run_agent():
         try:
             response = client.chat.completions.create(
                 model=MODEL,
-                messages=messages,
+                messages=request_messages,
                 tools=current_tools,
                 tool_choice=tool_choice,
                 temperature=current_temp,
@@ -2134,6 +2309,10 @@ def run_agent():
                 f"  Research budget reached ({research_calls} calls). "
                 f"Forcing publish_edition on next iteration."
             )
+            # The publish turn runs on a hard-trimmed history, so hand
+            # the model the exact URLs here rather than making it recall
+            # them from tool dumps that are about to be truncated.
+            digest = _citable_sources_digest()
             messages.append({
                 "role": "user",
                 "content": (
@@ -2143,6 +2322,7 @@ def run_agent():
                     f"or read_memory again. Your next and only tool call "
                     f"must be publish_edition, populated from what you "
                     f"have already fetched."
+                    + (f"\n\n{digest}" if digest else "")
                 ),
             })
 
