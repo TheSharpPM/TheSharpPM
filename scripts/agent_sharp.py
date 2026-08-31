@@ -1355,11 +1355,6 @@ TOOL_DECLARATIONS = [
 
 # Wrap declarations in the OpenAI / Groq tool envelope.
 TOOLS = [{"type": "function", "function": d} for d in TOOL_DECLARATIONS]
-# Sent instead of TOOLS on a turn where tool_choice already pins
-# publish_edition. Saves ~420 tokens of schema the model cannot use.
-PUBLISH_ONLY_TOOLS = [
-    t for t in TOOLS if t["function"]["name"] == "publish_edition"
-]
 
 
 # ── SYSTEM PROMPT ─────────────────────────────────────────────────────────────
@@ -1766,11 +1761,19 @@ def run_agent():
             else MAX_TOKENS_RESEARCH
         )
 
-        # When tool_choice pins publish_edition, the research tool
-        # schemas are dead weight the model is not allowed to use, and
-        # they still cost ~420 tokens of a budget that counts every one.
-        # Send only the schema the turn can actually call.
-        current_tools = PUBLISH_ONLY_TOOLS if pinned_publish else TOOLS
+        # Always advertise every tool, even when tool_choice pins
+        # publish_edition. Sending only the pinned schema looks like a
+        # free ~420 tokens, but gpt-oss-120b does not reliably honour
+        # tool_choice: it will emit a research call anyway, and Groq
+        # then hard-fails the request with
+        #   "attempted to call tool 'fetch_article' which was not in
+        #    request.tools"
+        # instead of tolerating the stray call. Run 33387974862 died
+        # that way three retries in a row. With the full list the
+        # ignored pin degrades into one wasted turn, which the re-arm
+        # below then corrects. The reserve fix already leaves ~1k of
+        # headroom, so those 420 tokens are not worth the failure mode.
+        current_tools = TOOLS
         # Use perturbed temperature on retries; baseline 0.7 otherwise.
         if schema_retries > 0 and schema_retries <= len(RETRY_TEMPERATURES):
             current_temp = RETRY_TEMPERATURES[schema_retries - 1]
@@ -1862,6 +1865,26 @@ def run_agent():
                     f"(retry {schema_retries}/3, temp -> "
                     f"{RETRY_TEMPERATURES[schema_retries - 1]})."
                 )
+                # When the rejected turn was a pinned publish, say so
+                # explicitly. The generic wording let the model retry
+                # the same research call it was just refused for, three
+                # times over, instead of publishing.
+                if pinned_publish:
+                    retry_instruction = (
+                        "You are past your research budget and the only "
+                        "acceptable call is publish_edition. Do NOT call "
+                        "fetch_article, fetch_feeds, web_search or "
+                        "read_memory - emit exactly one well-formed "
+                        "publish_edition call now, populated from the "
+                        "research you have already done."
+                    )
+                else:
+                    retry_instruction = (
+                        "Do NOT think out loud - emit exactly one "
+                        "well-formed tool call now, with no surrounding "
+                        "text. Re-read the tool definitions if needed "
+                        "(required fields, expected counts, types)."
+                    )
                 messages.append({
                     "role": "user",
                     "content": (
@@ -1869,10 +1892,7 @@ def run_agent():
                         "Either your tool call was malformed / did not "
                         "match the tool's JSON schema, OR you wrote "
                         "reasoning as prose instead of emitting a tool "
-                        "call. Do NOT think out loud - emit exactly one "
-                        "well-formed tool call now, with no surrounding "
-                        "text. Re-read the tool definitions if needed "
-                        "(required fields, expected counts, types). "
+                        f"call. {retry_instruction} "
                         f"Error from the API: {error_str[:600]}"
                     ),
                 })
@@ -2098,10 +2118,18 @@ def run_agent():
             + TOOL_CALL_COUNTS.get("web_search", 0)
             + TOOL_CALL_COUNTS.get("fetch_article", 0)
         )
+        if research_calls >= FORCE_PUBLISH_AT_RESEARCH_CALLS:
+            # Re-arm the pin on every subsequent turn, not just the
+            # first time the threshold trips. gpt-oss-120b ignores
+            # tool_choice often enough that a single pin is not enough:
+            # once it slipped through with a research call, the old
+            # one-shot version never asked for publish_edition again
+            # and the run drifted to max_iterations. The nudge message
+            # itself still goes out only once.
+            force_publish_next = True
         if (not force_publish_nudged
                 and research_calls >= FORCE_PUBLISH_AT_RESEARCH_CALLS):
             force_publish_nudged = True
-            force_publish_next = True
             print(
                 f"  Research budget reached ({research_calls} calls). "
                 f"Forcing publish_edition on next iteration."
