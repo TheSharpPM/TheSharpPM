@@ -1,7 +1,117 @@
 {
-  "updated": "2026-08-31T11:45:58.120983+00:00",
-  "total": 852,
+  "updated": "2026-09-01T10:11:40.831692+00:00",
+  "total": 861,
   "items": [
+    {
+      "title": "A Billion People Use Gemini. But How Many Are Thinking Better?",
+      "url": "https://medium.com/@tohbie.adelaja/a-billion-people-use-gemini-but-how-many-are-thinking-better-db4266e136b1?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-09-01T10:04:41+00:00",
+      "summary": "If you're ready to lead with curiosity over speed, this blueprint is your wake-up call. Continue reading on Medium »",
+      "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "📈 Data to start your week",
+      "url": "https://www.exponentialview.co/p/data-to-start-your-week-01-09-26",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-09-01T10:03:24+00:00",
+      "summary": "Nvidia doubles again; AI’s cover-up habit; the $1.50 data centre bill++",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Nvidia Earnings, Dollars Per Gigawatt, Open and Hugging Face",
+      "url": "https://stratechery.com/2026/nvidia-earnings-dollars-per-gigawatt-open-and-hugging-face/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-09-01T10:00:00+00:00",
+      "summary": "Nvidia's earnings were remarking and boring — two sides of the same coin. Everything the company does is about avoiding a consolidated world.",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Daniel Litt: The Mathematician's Guide to AI",
+      "url": "https://a16z.simplecast.com/episodes/daniel-litt-the-mathematicians-guide-to-ai-TyLaUSzk",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-09-01T10:00:00+00:00",
+      "summary": "a16z’s Lisha Li sits down with Daniel Litt, Assistant Professor of Mathematics at the University of Toronto, to unpack AI's rapid progress in mathematics, what today's frontier models can actually do, and what they're still missing about the way mathematicians think. Daniel expla...",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Recording Mistakes I Notice Most Often in Product Demos",
+      "url": "https://medium.com/@morgankung.focusee/the-recording-mistakes-i-notice-most-often-in-product-demos-d9f931c534c1?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-09-01T09:32:32+00:00",
+      "summary": "I’ve watched a lot of product demos over the years — both as a founder building software and as someone who spends a lot of time thinking… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "ZoomInfo Technologies LLC: Manager, Data Platform",
+      "url": "https://weworkremotely.com/remote-jobs/zoominfo-technologies-llc-manager-data-platform",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-09-01T07:30:49+00:00",
+      "summary": "Headquarters: Remote ZoomInfo is where careers accelerate. We move fast, think boldly, and empower you to do the best work of your life. You’ll be surrounded by teammates who care deeply, challenge each other, and celebrate wins. With tools that amplify your impact and a culture",
+      "tags": [
+        "Career",
+        "AI Strategy",
+        "Data"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Can a Super App Start with Internal Teams Before Opening to Partners?",
+      "url": "https://medium.com/@FinClip/can-a-super-app-start-with-internal-teams-before-opening-to-partners-232f6debcaf8?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-09-01T06:38:42+00:00",
+      "summary": "The partner ecosystem often appears first in a super app strategy deck. Continue reading on Medium »",
+      "tags": [
+        "Platform Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🎙️ How I AI: How this PM uses Claude to handle 70% to 80% of his workday",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-this-pm-uses-claude",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-08-31T15:01:58+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+      "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "How I turned Claude into a self-improving PM assistant | Daniel Blum (PM, Melio)",
+      "url": "https://www.lennysnewsletter.com/p/how-i-turned-claude-into-a-self-improving",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-08-31T12:04:18+00:00",
+      "summary": "Listen now | 🎙️ PM Daniel Blum walks through the exact Cowork and Claude setup that manages his Notion, tracks his tasks across Slack and email, and self-improves every week without him lifting a finger",
+      "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "I Shipped Smart AI With Zero Data. Users Noticed Immediately",
       "url": "https://medium.com/@gmtasoftware/i-shipped-smart-ai-with-zero-data-users-noticed-immediately-843f07a7008f?source=rss------product_management-5",
@@ -1412,6 +1522,18 @@
       "is_fallback": true
     },
     {
+      "title": "Tovel AI",
+      "url": "https://www.producthunt.com/products/tovel-ai",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-08-18T02:18:35+00:00",
+      "summary": "From conversation to action, in three steps Discussion | Link",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
       "title": "🎙️ How I AI: How a solo founder used Codex and ChatGPT to launch a fashion brand without engineers",
       "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-a-solo-founder-used",
       "source": "Lenny's Newsletter",
@@ -1891,6 +2013,18 @@
       "type": "trend",
       "date": "2026-08-13T19:31:57+00:00",
       "summary": "The keyboard-first calendar to get organized quickly Discussion | Link",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "ARC-24 Multitrack Groovebox for iOS",
+      "url": "https://www.producthunt.com/products/arc-24-multitrack-groovebox-fro-ios",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-08-13T16:30:37+00:00",
+      "summary": "Multitrack synth, sampler, drum machine, and looper for iOS. Discussion | Link",
       "tags": [
         "Product Strategy"
       ],
@@ -10896,34 +11030,6 @@
         "Productivity"
       ],
       "is_fallback": false
-    },
-    {
-      "title": "The Nvidia AI PC, Project Solara, Microsoft AI",
-      "url": "https://stratechery.com/2026/the-nvidia-ai-pc-project-solara-microsoft-ai/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-06-03T10:00:00+00:00",
-      "summary": "The Nvidia AI PC feels like a relic of another AI era; Microsoft's vision for devices at Build was much more compelling.",
-      "tags": [
-        "AI Strategy",
-        "Competitive Analysis",
-        "Hardware Differentiation"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Procurement - All Things Product Podcast with Teresa Torres & Petra Wille",
-      "url": "https://www.producttalk.org/procurement-all-things-product-podcast-with-teresa-torres-petra-wille/",
-      "source": "Product Talk",
-      "type": "article",
-      "date": "2026-06-02T13:00:08+00:00",
-      "summary": "Teresa Torres and Petra Wille rant about the absurdity of modern corporate procurement: multi-month vetting cycles, redundant security reviews, and contract negotiations that block PMs from buying a $50 tool. The episode catalogues the friction product teams hit trying to adopt any new SaaS in a mid-sized company.",
-      "tags": [
-        "Stakeholders",
-        "Prioritization",
-        "Communication"
-      ],
-      "is_fallback": true
     }
   ]
 }
