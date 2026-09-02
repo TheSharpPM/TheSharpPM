@@ -1,7 +1,93 @@
 {
-  "updated": "2026-09-01T10:11:40.831692+00:00",
-  "total": 861,
+  "updated": "2026-09-02T09:43:06.932485+00:00",
+  "total": 852,
   "items": [
+    {
+      "title": "The Transcript Was the Easy Part",
+      "url": "https://medium.com/@shakhbanov.zurab/the-transcript-was-the-easy-part-5faaf7f26fb4?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-09-02T08:51:39+00:00",
+      "summary": "AI meeting assistants solved speech. The interesting fight is over what happens to a sentence after it’s spoken. Continue reading on Medium »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Difference Between Product and Enterprise Development",
+      "url": "https://medium.productcoalition.com/the-difference-between-product-and-enterprise-development-9fbf40ad0e41?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-09-02T08:44:32+00:00",
+      "summary": "This article continues the series on hybrid IT governance: — White Paper: The Governance Machinery for Combining Startup Agility and… Continue reading on Product Coalition »",
+      "tags": [
+        "Risk Management"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Prioritization Isn’t a Score. It’s a Trade-Off Decision.",
+      "url": "https://medium.com/@ashutoshjoshi4545/prioritization-isnt-a-score-it-s-a-trade-off-decision-34e2a8244e69?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-09-02T05:33:54+00:00",
+      "summary": "Early in my product career, I thought good prioritization meant having an ironclad spreadsheet. Continue reading on Medium »",
+      "tags": [
+        "Prioritization",
+        "Career"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Dyson CameraJet",
+      "url": "https://www.producthunt.com/products/dyson-humidifier",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-09-02T05:33:12+00:00",
+      "summary": "Precision-floss between teeth while you brush Discussion | Link",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Why Sabeer Nelli Treats Customer Confusion as a Product Signal",
+      "url": "https://nithindigitalgrowth.medium.com/why-sabeer-nelli-treats-customer-confusion-as-a-product-signal-e2a9ae7ff64d?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-09-02T05:12:22+00:00",
+      "summary": "The easiest way to respond to a confused customer is to blame the customer. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "How to turn your AI into a world-class designer",
+      "url": "https://www.lennysnewsletter.com/p/how-to-turn-your-ai-into-a-world",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-09-01T12:45:59+00:00",
+      "summary": "An end-to-end process for tapping into AI’s hidden creativity",
+      "tags": [
+        "AI Strategy",
+        "Product Design"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Activation debt:  The balance most PMs never measure",
+      "url": "https://www.productledalliance.com/activation-debt-the-balance-most-pms-never-measure/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-09-01T12:00:19+00:00",
+      "summary": "Why activation isn’t a moment; it’s an ongoing balance, and what it costs you when you treat it like an event",
+      "tags": [
+        "Growth"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "A Billion People Use Gemini. But How Many Are Thinking Better?",
       "url": "https://medium.com/@tohbie.adelaja/a-billion-people-use-gemini-but-how-many-are-thinking-better-db4266e136b1?source=rss------product_strategy-5",
@@ -4004,6 +4090,18 @@
       "summary": "Run coding agents through the full development process Discussion | Link",
       "tags": [
         "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Onset MCP",
+      "url": "https://www.producthunt.com/products/onset-io",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-07-28T21:30:24+00:00",
+      "summary": "Write and publish release notes from your AI assistant Discussion | Link",
+      "tags": [
+        "AI Strategy"
       ],
       "is_fallback": true
     },
@@ -10795,239 +10893,6 @@
         "AI Strategy",
         "Product Strategy",
         "Platform Strategy"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Claude in Chrome for Product Managers: Complete Setup Guide + Real PM Workflows (2026)",
-      "url": "https://medium.com/all-about-claude/claude-in-chrome-for-product-managers-complete-setup-guide-real-pm-workflows-2026-0cd9c6da9301?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-06-04T08:07:52+00:00",
-      "summary": "The article walks product managers through the step-by-step installation of Claude in Chrome, highlighting the configurations that proved most effective for daily PM tasks. It also shares real-world workflows that boosted productivity and details a critical failure that almost led to uninstalling the extension, offering lessons on what to avoid.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Productivity"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "I Spent Months Talking About AI Prototyping. I Was Solving the Wrong Problem.",
-      "url": "https://medium.com/design-bootcamp/i-spent-months-talking-about-ai-prototyping-i-was-solving-the-wrong-problem-d99e7ee3568c?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-06-04T07:35:11+00:00",
-      "summary": "The article reflects on the common missteps in AI prototyping, explaining how focusing on building flashy demos often distracts from validating real user problems and integration challenges. It offers practical guidance for product managers on aligning AI prototypes with clear business goals, data readiness, and measurable outcomes before investing heavily.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Productivity"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "How Product Leaders Build Flexible Product Roadmaps That Drive Business Growth",
-      "url": "https://medium.com/@mandarchiplunkar/how-product-leaders-build-flexible-product-roadmaps-that-drive-business-growth-a4204dd813cf?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-06-04T05:23:38+00:00",
-      "summary": "The article debunks the myth that product roadmaps must be fully predictive from the start, emphasizing instead the need for flexibility and iterative planning. It outlines how product leaders create adaptable roadmaps that align with shifting market conditions and business objectives, enabling sustained growth. Practical frameworks for balancing long‑term vision with short‑term adjustments are provided to help teams stay responsive while driving results.",
-      "tags": [
-        "Product Strategy",
-        "Growth",
-        "Prioritization"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Boxes.dev",
-      "url": "https://www.producthunt.com/products/boxes-dev",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-06-04T01:25:01+00:00",
-      "summary": "Boxes.dev lets teams deploy Claude Code and Codex models in their own cloud infrastructure, giving full control over data residency, latency, and customization. This enables product managers to integrate advanced LLM capabilities while addressing security, compliance, and cost considerations specific to their product stack.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Platform Strategy"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "The Silence That Kills Products",
-      "url": "https://ma7moudalaa.medium.com/the-wall-nobody-sees-aa16064e9f3a?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-06-03T17:39:00+00:00",
-      "summary": "On why smart teams stop thinking together and what quietly breaks when they do. Continue reading on Medium »",
-      "tags": [
-        "Communication",
-        "Product Culture",
-        "Leadership"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "What was wrong with YouTube Ads",
-      "url": "https://medium.com/@sadigova.turan/what-was-wrong-with-youtube-ads-e17186e606ee?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-06-03T17:37:42+00:00",
-      "summary": "The author dissects YouTube's ad experience as a case study in how ad-supported product design erodes user trust over time, framing every ad placement decision as a churn-risk lever rather than a revenue lever. The piece argues PMs at ad-funded products should track ad UX as a product metric, not delegate it to the monetisation team.",
-      "tags": [
-        "User Research",
-        "Retention",
-        "Growth"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "IFS: Account Executive - Net New | Copperleaf | France",
-      "url": "https://weworkremotely.com/remote-jobs/ifs-account-executive-net-new-copperleaf-france",
-      "source": "We Work Remotely",
-      "type": "job",
-      "date": "2026-06-03T17:26:48+00:00",
-      "summary": "Headquarters: Paris, France URL: http://ifs.com Company Description IFS is a billion-dollar revenue company with 7000+ employees on all continents. Our leading AI technology is the backbone of our award-winning enterprise software solutions, enabling our customers to be their bes...",
-      "tags": [
-        "Career"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Lodgify: Senior Data Engineer",
-      "url": "https://weworkremotely.com/remote-jobs/lodgify-senior-data-engineer",
-      "source": "We Work Remotely",
-      "type": "job",
-      "date": "2026-06-03T17:26:48+00:00",
-      "summary": "Lodgify, a fast-growing vacation-rental SaaS based in Spain, is hiring a Senior Data Engineer to work on its data platform. Remote-friendly role inside a scale-up product organisation.",
-      "tags": [
-        "Career",
-        "Data"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "💸 Does pricing shrink or expand markets?",
-      "url": "https://www.exponentialview.co/p/does-pricing-shrink-or-expand-markets",
-      "source": "Exponential View",
-      "type": "trend",
-      "date": "2026-06-03T17:07:06+00:00",
-      "summary": "Companies are having to pay for tokens. Is this a good thing or a not?",
-      "tags": [
-        "Pricing",
-        "AI Strategy",
-        "Growth"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Curata",
-      "url": "https://www.producthunt.com/products/curata-3",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-06-03T15:27:22+00:00",
-      "summary": "Curata is a collaborative platform that lets AI agents and humans work together in a shared workspace, streamlining idea exchange and joint task execution. The tool aims to boost productivity and foster seamless human‑AI collaboration across teams.",
-      "tags": [
-        "AI Tools",
-        "Productivity",
-        "Collaboration"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "The Day Our Product Portfolio Broke",
-      "url": "https://medium.com/@paulcrosby/the-day-our-product-portfolio-broke-888fc3bb7344?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-06-03T14:01:07+00:00",
-      "summary": "The author recounts a regulatory meeting where a single FDA examiner question exposed a structural fragility in a medical-device company's product portfolio. The piece uses the anecdote to argue that PMs in regulated markets should stress-test portfolios against examiner-style scenarios, not just market scenarios.",
-      "tags": [
-        "Product Strategy",
-        "Compliance",
-        "Risk Management"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "How agentic AI is transforming  healthcare delivery",
-      "url": "https://www.productledalliance.com/how-agentic-ai-is-transforming-healthcare-delivery/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-06-03T14:00:18+00:00",
-      "summary": "Discover how agentic AI is impacting healthcare delivery. Plus the ethical and data governance policies required to make it work.",
-      "tags": [
-        "AI Strategy",
-        "AI Tools",
-        "Compliance"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "If your customer churned tomorrow, would you still build that feature?",
-      "url": "https://medium.com/@doug.g.s.jr/se-o-cliente-churnar-amanh%C3%A3-voc%C3%AA-ainda-construiria-essa-feature-0ae0c82fa8d6?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-06-03T13:01:01+00:00",
-      "summary": "The author challenges B2B SaaS PMs to apply a churn-test to roadmap decisions: every time a strategic customer demands a specific feature in exchange for renewal, ask whether the team would still build it if the customer left tomorrow. The piece argues this filter exposes how much single-account leverage is distorting the broader product roadmap.",
-      "tags": [
-        "Retention",
-        "Prioritization",
-        "Stakeholders"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "What I Learned from the Recent Wave of Package Hacks (And Is Cowork Immune?)",
-      "url": "https://www.producttalk.org/package-hacks-cowork/",
-      "source": "Product Talk",
-      "type": "article",
-      "date": "2026-06-03T13:00:29+00:00",
-      "summary": "The author reflects on the recent wave of npm-package supply-chain attacks and asks whether managed automation surfaces like Cowork meaningfully reduce that exposure for builders increasingly tinkering with Claude Code-style workflows. The piece pushes PMs to take software supply-chain risk seriously now that AI tools have made code-touching ubiquitous even for non-engineers.",
-      "tags": [
-        "Security",
-        "Risk Management",
-        "Engineering Velocity"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Gemini Omni: Clone yourself with AI in under 15 minutes",
-      "url": "https://www.lennysnewsletter.com/p/gemini-omni-clone-yourself-with-ai",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-06-03T12:04:09+00:00",
-      "summary": "Lenny tests Google's Gemini Omni avatar feature end to end, scanning a QR code, cloning his face, and shipping a generated hype reel in under 15 minutes. The piece is a hands-on temperature check on how fast consumer-grade AI cloning has matured and what that implies for trust in any video a PM ships from now on.",
-      "tags": [
-        "AI Tools",
-        "AI Strategy",
-        "Productivity"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "PhoneDeck",
-      "url": "https://www.producthunt.com/products/phonedeck",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-06-03T10:23:56+00:00",
-      "summary": "Turn your iPhone into a free Mac controller Discussion | Link",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Skybridge",
-      "url": "https://www.producthunt.com/products/skybridge",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-06-03T10:19:34+00:00",
-      "summary": "Skybridge is an open‑source full‑stack React framework designed to accelerate the development of MCP (multi‑channel platform) applications. It offers integrated tooling, pre‑built components, and deployment pipelines to help product teams ship features faster while maintaining consistency across channels.",
-      "tags": [
-        "Product Strategy",
-        "Product Design",
-        "Productivity"
       ],
       "is_fallback": false
     }
