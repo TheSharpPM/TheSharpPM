@@ -1,7 +1,130 @@
 {
-  "updated": "2026-09-02T09:43:06.932485+00:00",
-  "total": 852,
+  "updated": "2026-09-03T09:50:07.023723+00:00",
+  "total": 851,
   "items": [
+    {
+      "title": "From Support Tickets to Customer Insight: How We Built Drishti",
+      "url": "https://tales.pratilipi.com/from-support-tickets-to-customer-insight-how-we-built-drishti-b4287990a8ff?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-09-03T09:16:22+00:00",
+      "summary": "A practical approach to turning individual support conversations into themes that Customer Support, Customer Success, and product teams… Continue reading on Team Pratilipi »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Smartsheet: Director of Business Planning & Strategic Initiatives - Office of the CPTO (Remote Eligible)",
+      "url": "https://weworkremotely.com/remote-jobs/smartsheet-director-of-business-planning-strategic-initiatives-office-of-the-cpto-remote-eligible",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-09-03T07:31:02+00:00",
+      "summary": "Headquarters: -REMOTE, USA- For over 20 years, Smartsheet has empowered teams to manage work seamlessly and scale solutions smarter. Now, in our most ambitious chapter yet, we are uniting human teams with AI agents. By orchestrating the work agents do best, automating manual task...",
+      "tags": [
+        "Career",
+        "Communication",
+        "Stakeholders"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Nex",
+      "url": "https://www.producthunt.com/products/nex-4",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-09-03T03:04:36+00:00",
+      "summary": "Claude Cowork for high-volume GTM workflows Discussion | Link",
+      "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Does Every New Customer Service Really Need Its Own App?",
+      "url": "https://medium.com/@FinClip/does-every-new-customer-service-really-need-its-own-app-e4ea61533e01?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-09-03T02:18:31+00:00",
+      "summary": "A driver enters a car park and finds that payment requires an app. A policyholder trying to make one claim is sent to a second application… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Product Roadmap Guide: Steps, Strategy & Free Template",
+      "url": "https://medium.com/@hateem.khan/product-roadmap-guide-steps-strategy-free-template-2cbc23d14467?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-09-02T18:15:17+00:00",
+      "summary": "Learn how to build an effective product roadmap from scratch, prioritize features, set goals, manage timelines, and use a free roadmap… Continue reading on Medium »",
+      "tags": [
+        "Prioritization",
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Get My Eval Test Harness and Run Your First Experiment",
+      "url": "https://www.producttalk.org/ai-evals-test-harness/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-09-02T13:05:45+00:00",
+      "summary": "My in-depth AI evals guide explains what evals are and how to build them. This post gives you the tool I use to run them. Here's the practical problem. To get a baseline, you have to run every input through your prompt, save each output, run every",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "AI Evals: A Hands-On Guide for Product Teams",
+      "url": "https://www.producttalk.org/ai-evals/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-09-02T13:00:59+00:00",
+      "summary": "AI evals tell you whether your AI product or workflow is any good. A hands-on guide to error analysis, the four types of evals, and your first experiment.",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Grok Bot vs. OpenClaw: How I replaced my entire agent stack",
+      "url": "https://www.lennysnewsletter.com/p/grok-bot-vs-openclaw-how-i-replaced",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-09-02T12:03:39+00:00",
+      "summary": "Watch now | 🎙️ I’ve been running Grok Bot for several weeks, and I’ve killed every OpenClaw I had. Here are the nine bots doing real work across my inbox, my kids’ school pickups, my PR queue, and my wardrobe",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Fable 5.1, Enterprise Frontier Safeguards",
+      "url": "https://stratechery.com/2026/fable-5-1-enterprise-frontier-safeguards/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-09-02T10:00:00+00:00",
+      "summary": "Fable 5.1 is out, and the hated Fable data retention policy is not just being altered, but entirely removed in the meantime. Plus, why increased caching is a win-win.",
+      "tags": [
+        "Retention"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Inside Moderna’s Personalized Cancer Vaccine",
+      "url": "https://a16z.simplecast.com/episodes/inside-modernas-personalized-cancer-vaccine-214RAv4s",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-09-02T10:00:00+00:00",
+      "summary": "a16z General Partner Jorge Conde sits down with Moderna CEO Stéphane Bancel to discuss a major milestone for mRNA technology: positive Phase 3 results from Moderna and Merck’s individualized treatment for melanoma, after more than a decade of work on personalized cancer vaccines....",
+      "tags": [
+        "Product Culture"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "The Transcript Was the Easy Part",
       "url": "https://medium.com/@shakhbanov.zurab/the-transcript-was-the-easy-part-5faaf7f26fb4?source=rss------product_management-5",
@@ -705,6 +828,18 @@
       "summary": "Market, distribution, feasibility, defensibility: the four risks venture studios test before writing a line of code, and why the order matters.",
       "tags": [
         "Communication"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "ARBR",
+      "url": "https://www.producthunt.com/products/arbr",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-08-25T11:23:26+00:00",
+      "summary": "Control Every AI Request Discussion | Link",
+      "tags": [
+        "AI Strategy"
       ],
       "is_fallback": true
     },
@@ -10727,172 +10862,6 @@
         "Career",
         "Product Strategy",
         "Leadership"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Good research is simple, so why are we so bad at it?",
-      "url": "https://jamiehorne.medium.com/good-research-is-simple-so-why-are-we-so-bad-at-it-7cb71d1283ce?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-06-05T08:27:19+00:00",
-      "summary": "The article argues that effective research should be straightforward, yet many teams struggle to execute it well. It emphasizes that solid research is essential for identifying valuable product opportunities and guiding development decisions.",
-      "tags": [
-        "User Research",
-        "Product Strategy",
-        "Leadership"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Good research is simple, so why are we so bad at it?",
-      "url": "https://jamiehorne.medium.com/good-research-is-simple-so-why-are-we-so-bad-at-it-7cb71d1283ce?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-06-05T08:27:19+00:00",
-      "summary": "The article argues that while AI simplifies product development, effective research—especially user research—is essential to identify valuable features and avoid wasted effort. It highlights common pitfalls that teams face in conducting simple, actionable research and offers guidance on improving research practices to drive better product decisions.",
-      "tags": [
-        "Product Strategy",
-        "User Research",
-        "AI Tools"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Financial acumen is key to product leadership",
-      "url": "https://jamiehorne.medium.com/financial-acumen-is-key-to-product-leadership-9b10305368cb?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-06-05T08:23:40+00:00",
-      "summary": "Effective product leadership hinges on strong financial literacy, enabling leaders to gauge market dynamics, cost structures, and revenue implications of their decisions. By integrating economic insights into product strategy, leaders can prioritize initiatives that drive sustainable growth and profitability.",
-      "tags": [
-        "Product Strategy",
-        "Leadership",
-        "Metrics"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Financial acumen is key to product leadership",
-      "url": "https://jamiehorne.medium.com/financial-acumen-is-key-to-product-leadership-9b10305368cb?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-06-05T08:23:40+00:00",
-      "summary": "The article argues that product leaders must master financial fundamentals to make better decisions, emphasizing the need to understand revenue models, cost structures, and market economics. By integrating financial insights with product strategy, managers can align priorities, justify investments, and drive sustainable growth.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Leadership"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "CabinLink",
-      "url": "https://www.producthunt.com/products/cabinlink",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-06-04T21:23:43+00:00",
-      "summary": "The article outlines CabinLink, a product that visualizes real-time flight paths using cabin Wi‑Fi data, enabling airlines to monitor connectivity performance and enhance passenger experience. It discusses the strategic integration of this AI‑driven map into existing airline platforms to drive operational insights and differentiate the service offering.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Data"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Agent Browser Shield",
-      "url": "https://www.producthunt.com/products/agent-browser-shield",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-06-04T20:50:10+00:00",
-      "summary": "Agent Browser Shield introduces mechanisms to prevent prompt injection attacks and reduce token consumption for AI-powered browser agents, enhancing security and cost efficiency. This tool enables product teams to deploy safer, more scalable AI browsing functionalities without compromising performance.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Security"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Manus Shopify Connector",
-      "url": "https://www.producthunt.com/products/manus-shopify-connector",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-06-04T15:34:33+00:00",
-      "summary": "The Manus Shopify Connector enables teams to create and administer Shopify storefronts directly through a chat interface, streamlining store setup and ongoing management. This tool centralizes e‑commerce operations, reducing context switching and accelerating time‑to‑market for new product launches.",
-      "tags": [
-        "Product Strategy",
-        "Platform Strategy",
-        "Growth"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "CentryAI",
-      "url": "https://www.producthunt.com/products/centryai",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-06-04T14:40:47+00:00",
-      "summary": "Subscription tracker built by someone who forgot 11 of them Discussion | Link",
-      "tags": [
-        "Pricing"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Product-Led Summit Amsterdam, 2026",
-      "url": "https://www.productledalliance.com/product-led-summit-amsterdam-2026/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-06-04T14:01:50+00:00",
-      "summary": "The Product-Led Summit Amsterdam 2026 recordings feature sessions with industry leaders from Adidas, Heineken, and Booking.com, sharing insights on driving growth through product-led strategies. Attendees can learn practical approaches to scaling products, aligning teams, and leveraging data-driven decisions to enhance user experiences.",
-      "tags": [
-        "Product Strategy",
-        "Growth",
-        "Leadership"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Agentic AI is rewriting the  product manager's job description",
-      "url": "https://www.productledalliance.com/agentic-ai-is-rewriting-the-product-managers-job-description/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-06-04T14:00:03+00:00",
-      "summary": "New research outlines a framework showing how Agentic AI will reshape product management, automating routine decision‑making and enabling deeper data‑driven insights. Case studies from leading companies illustrate how PMs will shift toward orchestrating AI‑augmented workflows, focusing on strategic alignment and stakeholder communication.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Leadership"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Leni",
-      "url": "https://www.producthunt.com/products/leni",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-06-04T11:54:13+00:00",
-      "summary": "Leni is positioned as the most accurate AI-driven tool for investors, offering data-driven insights and predictive analytics to enhance investment decisions. The discussion highlights its potential to streamline research, reduce bias, and improve portfolio performance, making it a valuable asset for product teams targeting finance professionals.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Data"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "An Interview with Microsoft CEO Satya Nadella About Finding Core Competencies",
-      "url": "https://stratechery.com/2026/an-interview-with-microsoft-ceo-satya-nadella-about-finding-core-competencies/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-06-04T10:00:00+00:00",
-      "summary": "In this interview, Satya Nadella discusses Microsoft’s evolving AI strategy, emphasizing the company’s core competencies in cloud services, partnerships with OpenAI, and the vision for a new agentic platform. He also touches on capital allocation, software integration, and how these elements shape Microsoft’s role in the AI landscape.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Platform Strategy"
       ],
       "is_fallback": false
     }
