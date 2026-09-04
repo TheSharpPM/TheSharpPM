@@ -1,7 +1,117 @@
 {
-  "updated": "2026-09-03T09:50:07.023723+00:00",
-  "total": 851,
+  "updated": "2026-09-04T09:43:40.985499+00:00",
+  "total": 852,
   "items": [
+    {
+      "title": "Why Your MVP Is Probably Not an MVP",
+      "url": "https://medium.com/@taherpittalvala/why-your-mvp-is-probably-not-an-mvp-9a96f8b35d92?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-09-04T09:26:00+00:00",
+      "summary": "Most founders have heard the term MVP. Minimum Viable Product. The version of your product you launch with before building everything else. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "LinkedIn Premium Needs a Career Memory",
+      "url": "https://medium.com/@divi2749/linkedin-premium-needs-a-career-memory-f031ce783827?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-09-04T08:46:56+00:00",
+      "summary": "What if LinkedIn used your professional history to improve your feed, profile, job suggestions, and career direction? Continue reading on Medium »",
+      "tags": [
+        "Career"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Can You Add Super App Capability Without Redesigning the App Customers Already Know?",
+      "url": "https://medium.com/@FinClip/can-you-add-super-app-capability-without-redesigning-the-app-customers-already-know-43e6e7e76c09?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-09-04T02:26:30+00:00",
+      "summary": "When an established company considers making its mobile app more expandable, the discussion can quickly turn into a redesign programme. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "9 Product Strategy Mistakes That Quietly Kill Great Products",
+      "url": "https://medium.com/@eastjoy68/9-product-strategy-mistakes-that-quietly-kill-great-products-ff92178a16c0?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-09-03T23:24:33+00:00",
+      "summary": "Learn the most common product strategy mistakes companies make, why they happen, and practical steps to fix them before they cost you… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "AI, tools and transformation",
+      "url": "https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation",
+      "source": "Benedict Evans",
+      "type": "trend",
+      "date": "2026-09-03T21:26:04+00:00",
+      "summary": "It’s very tempting to imagine that AI turns everyone into a tool-builder - now everyone can just ask the model to make the software they need, and apps as we know them are dead. I think that misunderstands how most people think and where software actually comes from, and more imp...",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "GPT-6 Astra",
+      "url": "https://www.producthunt.com/products/gpt-6-astra",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-09-03T20:14:40+00:00",
+      "summary": "OpenAI's most capable model for end-to-end work Discussion | Link",
+      "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "GPT-6 Astra is a banger - here’s everything I’ve built",
+      "url": "https://www.lennysnewsletter.com/p/gpt-6-astra-is-a-banger-heres-everything",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-09-03T19:34:20+00:00",
+      "summary": "Watch now | 🎙️ My hands-on GPT-6 Astra review covers real production work in Figma, Flora, and Adio, one-shot coding wins 5.6 and Fable couldn’t match, and a hardware hack I’ve chased for months",
+      "tags": [
+        "AI Tools",
+        "Hardware Differentiation",
+        "Product Design"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Inline",
+      "url": "https://www.producthunt.com/products/inline-5",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-09-03T10:39:09+00:00",
+      "summary": "A thread-based chat app for work with your team and agents Discussion | Link",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The $100B Niches Hiding Inside Payments",
+      "url": "https://a16z.simplecast.com/episodes/the-100b-niches-hiding-inside-payments-aKQoOt7o",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-09-03T10:00:00+00:00",
+      "summary": "Erik Torenberg is joined by a16z General Partner Alex Rampell and Affirm Co-Founder and CEO Max Levchin for a conversation on 25 years of fintech, from the early days of digital payments to the origins of Affirm and the next generation of agentic commerce. Max and Alex revisit wh...",
+      "tags": [
+        "Growth"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "From Support Tickets to Customer Insight: How We Built Drishti",
       "url": "https://tales.pratilipi.com/from-support-tickets-to-customer-insight-how-we-built-drishti-b4287990a8ff?source=rss------product_management-5",
@@ -10750,118 +10860,6 @@
         "Product Strategy",
         "Leadership",
         "Communication"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Telegram Is the Login",
-      "url": "https://medium.com/@sahand.sorouri/telegram-is-the-login-607344ca55c3?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-06-06T07:31:19+00:00",
-      "summary": "The article describes how the author created a task manager that users begin using directly within a chat interface, bypassing traditional sign‑up flows by leveraging Telegram as the authentication and interaction platform. This approach demonstrates a novel product strategy that reduces friction, improves onboarding, and capitalizes on existing messaging ecosystems.",
-      "tags": [
-        "Product Strategy",
-        "Productivity",
-        "Platform Strategy"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "The Next Battle Isn’t for Clicks. It’s for Recommendations.",
-      "url": "https://medium.com/gptalk/the-next-battle-isnt-for-clicks-it-s-for-recommendations-00bf316c23df?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-06-06T06:43:20+00:00",
-      "summary": "The article argues that while analytics can still track purchases, they increasingly fail to capture the underlying decision-making process behind those purchases. It emphasizes the growing importance of recommendation systems as the next competitive frontier, urging product managers to prioritize AI-driven recommendation engines to influence user choices rather than just measure clicks.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Data"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Territory Business Development Manager USMC",
-      "url": "https://remoteOK.com/remote-jobs/remote-territory-business-development-manager-usmc-shield-ai-1132918",
-      "source": "Remote OK",
-      "type": "job",
-      "date": "2026-06-06T06:00:46+00:00",
-      "summary": "Shield AI is hiring a Business Development Manager to expand its autonomous systems portfolio within the US Marine Corps, focusing on delivering AI-driven aircraft and software solutions that address operational challenges for warfighters. The role will drive growth by aligning product capabilities with military needs, managing stakeholder relationships, and advancing the company's deep‑tech mission across global operations.",
-      "tags": [
-        "AI Strategy",
-        "Growth",
-        "Product Strategy"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "The lie of “UX design”: the blind spot hiding your biggest competitive edge",
-      "url": "https://medium.com/design-bootcamp/the-lie-of-ux-design-the-blind-spot-hiding-your-biggest-competitive-edge-ff848caa592c?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-06-05T17:31:46+00:00",
-      "summary": "The article argues that conflating UI and UX dilutes a company’s ability to leverage true user experience as a competitive advantage. It urges product teams to treat experience design as a strategic discipline distinct from mere interface work, enabling deeper differentiation and stronger market positioning.",
-      "tags": [
-        "Product Design",
-        "Competitive Analysis",
-        "Growth"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "2026.23: Power Shifts",
-      "url": "https://stratechery.com/2026/power-shifts/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-06-05T17:00:00+00:00",
-      "summary": "This week’s Stratechery roundup highlights major power shifts, including Google and Microsoft’s evolving AI strategies, the rise of YouTubers as influential content creators in Hollywood, and strategic implications of the NBA Finals' media deals. The article offers insights on how these trends reshape competitive dynamics and product positioning in tech and entertainment.",
-      "tags": [
-        "AI Strategy",
-        "Competitive Analysis",
-        "Product Strategy"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Confessions of a Product Guru: Trust Behavior, Not Words",
-      "url": "https://medium.com/@pchoi007/confessions-of-a-product-guru-trust-behavior-not-words-3b05513c133f?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-06-05T16:10:06+00:00",
-      "summary": "The article argues that product managers should prioritize observing actual customer behavior over relying on statements from focus groups or other feedback mechanisms. It emphasizes integrating behavioral data into product strategy to make more reliable decisions.",
-      "tags": [
-        "Product Strategy",
-        "User Research",
-        "Leadership"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "From CPO to founder:  Highs, lows, and lessons learned",
-      "url": "https://www.productledalliance.com/from-cpo-to-founder-highs-lows-and-lessons-learned/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-06-05T15:00:07+00:00",
-      "summary": "The article chronicles a Chief Product Officer's transition to entrepreneurship, highlighting the excitement of shaping a product vision and the challenges of securing funding and scaling a new venture. It shares practical insights on navigating the emotional rollercoaster of startup life, from product development to investor relations, offering lessons for product leaders considering a founder path.",
-      "tags": [
-        "Leadership",
-        "Career",
-        "Product Strategy"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Career strategies for early stage PMs | Product Labs",
-      "url": "https://www.productledalliance.com/career-strategies-for-early-stage-pms-product-labs/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-06-05T11:05:17+00:00",
-      "summary": "The article outlines practical steps early-stage product managers can take to accelerate their careers, including building cross-functional credibility, mastering data-driven decision making, and actively seeking mentorship. It emphasizes the importance of delivering measurable impact, iterating on product hypotheses, and positioning oneself as a strategic partner within the organization.",
-      "tags": [
-        "Career",
-        "Product Strategy",
-        "Leadership"
       ],
       "is_fallback": false
     }
