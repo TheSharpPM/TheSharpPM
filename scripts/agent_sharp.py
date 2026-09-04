@@ -215,10 +215,54 @@ FETCHED_URLS = {}
 # from the message history so the sliding-window trim does not erase it.
 TOOL_RESULTS_LOG = []
 
-# url -> {"title", "source"} for everything the agent has seen this run.
-# Feeds the publish-time digest that replaces the trimmed-away tool
-# dumps, so must_read URLs stay copied rather than recalled.
+# url -> {"title", "source", "date"} for everything the agent has seen
+# this run. Feeds the publish-time digest that replaces the trimmed-away
+# tool dumps, so must_read URLs stay copied rather than recalled.
 SEEN_SOURCES = {}
+
+# url -> full article text, for every fetch_article that succeeded. Used
+# by the pull-quote gate to check a quote verbatim against the piece it
+# is attributed to. Kept separate from SEEN_SOURCES because only fetched
+# articles have a body - feed and search hits carry a summary at best.
+FETCHED_TEXT = {}
+
+# Maximum age of a cited source, in days. Only enforced when the
+# publication date was actually observed in a tool result: feeds expose
+# published_parsed, Tavily search results carry no date at all. Sources
+# with no observed date pass the gate rather than block the run, so this
+# tightens the common path without making unverifiable data fatal.
+MAX_SOURCE_AGE_DAYS = 120
+
+# Headline repetition. Content-word overlap against the last N editions'
+# headline_theme; at or above the threshold the theme counts as a repeat.
+# Lookback 4 covers roughly a month of weeklies.
+#
+# Threshold calibrated against the 21 editions published between
+# 2026-05-03 and 2026-08-31. Observed overlaps against the preceding 4
+# editions, and what each threshold would have rejected:
+#   0.50 - 1 edition  (2026-08-17 "Metric overload kills product clarity"
+#                      vs 2026-08-09 "Metrics overload blinds product
+#                      judgment")
+#   0.40 - 2 editions (adds 2026-07-26 "Experiments Without Outcomes Are
+#                      Just Noise" vs 2026-07-07 "Experiments Without
+#                      Discipline Drain Teams")
+#   0.25 - 13 editions, far too aggressive to ship
+# 0.40 takes both genuine near-duplicates at a ~10% historical reject
+# rate, one retry each, well inside MAX_PUBLISH_REJECTS.
+HEADLINE_THEME_LOOKBACK = 4
+HEADLINE_THEME_OVERLAP = 0.4
+# Words too generic to count as evidence of a repeated theme.
+HEADLINE_STOPWORDS = {
+    "a", "an", "and", "are", "as", "at", "be", "but", "by", "for", "from",
+    "how", "in", "is", "it", "its", "not", "of", "on", "or", "than", "that",
+    "the", "to", "vs", "when", "why", "with", "your", "you", "product",
+    "products", "pm", "pms",
+}
+
+# Pull quotes shorter than this are not verified. A short fragment can
+# legitimately fail an exact match after normalisation (ellipses, the
+# model tightening a clause) and is too small to misrepresent a source.
+MIN_VERIFIABLE_PULL_QUOTE_CHARS = 25
 # Cap on how many sources the digest lists, and how much of each title
 # it keeps. Measured: 15 sources with 120-char titles cost 589 tokens on
 # a publish turn that only had 138 to spare. 10 sources at 70 chars cost
@@ -427,6 +471,70 @@ def _ungrounded_numeric_claims(editorial):
         if norm not in haystack.lower():
             ungrounded.append(claim)
     return ungrounded
+
+
+def _normalize_for_match(text):
+    """Lowercase and reduce to alphanumeric words joined by single
+    spaces. Used for verbatim-ish matching against tool results, which
+    are stored as JSON strings - so the haystack has escaped newlines,
+    and the model may re-type a quote with different punctuation or
+    smart quotes. Normalising both sides makes the comparison about the
+    words, not the typography. Deliberately lenient: a false pass costs
+    nothing, a false reject burns a publish attempt.
+    """
+    if not isinstance(text, str):
+        return ""
+    return " ".join(re.findall(r"[a-z0-9]+", text.lower()))
+
+
+def _source_age_days(url):
+    """Age in days of an observed source, or None when its publication
+    date was never seen (search results, bare fetch_article)."""
+    meta = SEEN_SOURCES.get(url) or {}
+    raw = meta.get("date")
+    if not raw:
+        return None
+    try:
+        published = datetime.fromisoformat(str(raw))
+    except (TypeError, ValueError):
+        return None
+    if published.tzinfo is None:
+        published = published.replace(tzinfo=timezone.utc)
+    return (datetime.now(timezone.utc) - published).days
+
+
+def _recent_headline_themes():
+    """headline_theme of the most recent editions, up to
+    HEADLINE_THEME_LOOKBACK. Mirrors _recent_hook_sources."""
+    if not INDEX_FILE.exists():
+        return []
+    try:
+        index = json.loads(INDEX_FILE.read_text(encoding="utf-8"))
+    except Exception:
+        return []
+    themes = []
+    for meta in index.get("editions", [])[:HEADLINE_THEME_LOOKBACK]:
+        theme = str(meta.get("headline_theme", "")).strip()
+        if theme:
+            themes.append(theme)
+    return themes
+
+
+def _theme_words(theme):
+    """Content words of a headline: stopwords removed, crudely
+    singularised. Without the plural strip, "Metric overload kills
+    product clarity" and "Metrics overload blinds product judgment"
+    share only one word and read as different themes - which is the
+    exact repetition this is meant to catch.
+    """
+    words = set()
+    for w in _normalize_for_match(theme).split():
+        if len(w) > 3 and w.endswith("s") and not w.endswith("ss"):
+            w = w[:-1]
+        if w in HEADLINE_STOPWORDS or len(w) <= 2:
+            continue
+        words.add(w)
+    return words
 
 
 # ── FEEDS ─────────────────────────────────────────────────────────────────────
@@ -1151,7 +1259,109 @@ def tool_publish_edition(headline_theme, editorial, must_reads,
             )
         }
 
-    # Gate 9: per-field length caps. Truncate-as-you-go (rather than
+    # Everything the edition links out to. The gates below apply equally
+    # to must_reads and the contrarian - a fabricated or stale contrarian
+    # link is exactly as wrong as a fabricated must_read.
+    cited = [mr for mr in mr_list if isinstance(mr, dict)]
+    if isinstance(contrarian, dict):
+        cited = cited + [contrarian]
+
+    # Gate 10: citation provenance. Every cited URL must be one the
+    # agent actually saw in a tool result this run. The trusted-domain
+    # gate above only checks the domain, so a plausible-looking path
+    # invented on a real publisher's domain would otherwise sail
+    # through and ship as a dead link.
+    for item in cited:
+        url = str(item.get("url", "")).strip()
+        if not url or url in SEEN_SOURCES:
+            continue
+        return {
+            "error": (
+                f"Refusing to publish: URL '{url[:120]}' was never "
+                f"returned by fetch_feeds, web_search or fetch_article "
+                f"in this run, so it cannot be verified and may not "
+                f"exist. Do not reconstruct URLs from memory. Replace it "
+                f"with one copied verbatim from your research, then call "
+                f"publish_edition again."
+            )
+        }
+
+    # Gate 11: recency. Only fires when the publication date was actually
+    # observed (feeds expose one, search results do not), so this cannot
+    # block an edition over data the run never had.
+    for item in cited:
+        url = str(item.get("url", "")).strip()
+        age = _source_age_days(url) if url else None
+        if age is None or age <= MAX_SOURCE_AGE_DAYS:
+            continue
+        return {
+            "error": (
+                f"Refusing to publish: '{item.get('title')}' was "
+                f"published {age} days ago, over the "
+                f"{MAX_SOURCE_AGE_DAYS}-day limit for a weekly dispatch. "
+                f"Readers expect current material. Swap it for a recent "
+                f"piece from your research and call publish_edition again."
+            )
+        }
+
+    # Gate 12: pull quotes must be verbatim. Only checked against
+    # articles actually fetched with fetch_article - a feed summary is
+    # not the full text, so a quote absent from it proves nothing.
+    for item in cited:
+        quote = str(item.get("pull_quote", "") or "").strip()
+        url = str(item.get("url", "")).strip()
+        if len(quote) < MIN_VERIFIABLE_PULL_QUOTE_CHARS:
+            continue
+        body = FETCHED_TEXT.get(url)
+        if not body:
+            continue
+        if _normalize_for_match(quote) in _normalize_for_match(body):
+            continue
+        return {
+            "error": (
+                f"Refusing to publish: the pull_quote on "
+                f"'{item.get('title')}' does not appear in the article "
+                f"you fetched. A pull_quote must be copied word for word "
+                f"from the source. Either paste the exact sentence from "
+                f"the article text you retrieved, or drop the pull_quote "
+                f"field for this item. Then call publish_edition again."
+            )
+        }
+
+    # Gate 13: theme repetition. target_audience and hook_source already
+    # rotate, but nothing stopped the same argument shipping under fresh
+    # wording - three of the last five editions were about metrics.
+    new_words = _theme_words(headline_theme)
+    if new_words:
+        for previous in _recent_headline_themes():
+            previous_words = _theme_words(previous)
+            if not previous_words:
+                continue
+            # Overlap coefficient, not Jaccard: a short headline sharing
+            # most of its content words with a longer one is still the
+            # same theme, and Jaccard would dilute that away.
+            overlap = (
+                len(new_words & previous_words)
+                / min(len(new_words), len(previous_words))
+            )
+            if overlap >= HEADLINE_THEME_OVERLAP:
+                return {
+                    "error": (
+                        f"Refusing to publish: headline_theme "
+                        f"'{headline_theme}' repeats the theme of a recent "
+                        f"edition ('{previous}'). The dispatch cannot run "
+                        f"the same argument twice in "
+                        f"{HEADLINE_THEME_LOOKBACK} weeks. Use read_memory "
+                        f"to see what has already shipped, then pick a "
+                        f"genuinely different angle from your research - "
+                        f"a new thesis, not a reworded headline. Rewrite "
+                        f"the editorial to match and call publish_edition "
+                        f"again."
+                    )
+                }
+
+    # Normalisation (not a gate): per-field length caps. Truncate-as-you-go
+    # (rather than
     # reject) so a slightly verbose model still gets published, but
     # nothing can bloat the JSON file by orders of magnitude. Mutates
     # the dicts in place; the caller has already passed them in.
@@ -1440,7 +1650,13 @@ def _record_seen_sources(name, args, result):
         if name == "fetch_article":
             url = args.get("url", "")
             if url and not (isinstance(result, dict) and result.get("error")):
-                SEEN_SOURCES.setdefault(url, {"title": "", "source": ""})
+                SEEN_SOURCES.setdefault(
+                    url, {"title": "", "source": "", "date": ""}
+                )
+                # Keep the body so the pull-quote gate can verify a
+                # quote against the article it is attributed to.
+                if isinstance(result, dict) and result.get("text"):
+                    FETCHED_TEXT[url] = result["text"]
             return
         if not isinstance(result, dict):
             return
@@ -1451,11 +1667,16 @@ def _record_seen_sources(name, args, result):
             url = (it.get("url") or "").strip()
             if not url:
                 continue
-            entry = SEEN_SOURCES.setdefault(url, {"title": "", "source": ""})
+            entry = SEEN_SOURCES.setdefault(
+                url, {"title": "", "source": "", "date": ""}
+            )
             if not entry["title"]:
                 entry["title"] = str(it.get("title", ""))[:120]
             if not entry["source"]:
                 entry["source"] = str(it.get("source", ""))[:60]
+            # Only feeds carry a publication date; Tavily results do not.
+            if not entry.get("date") and it.get("date"):
+                entry["date"] = str(it.get("date"))
     except Exception:
         pass
 
@@ -1471,6 +1692,13 @@ def _citable_sources_digest(limit=MAX_DIGEST_SOURCES):
     for url, meta in SEEN_SOURCES.items():
         if not _is_citable_source(url):
             continue
+        # Same reasoning as the domain filter above: the recency gate
+        # would reject these at publish time, so leaving them on the
+        # menu only buys a wasted publish attempt. Sources with no
+        # observed date stay listed - the gate lets those through too.
+        age = _source_age_days(url)
+        if age is not None and age > MAX_SOURCE_AGE_DAYS:
+            continue
         title = (meta.get("title") or "")[:MAX_DIGEST_TITLE_CHARS]
         source = meta.get("source") or ""
         label = f"{title} ({source})" if source else title
@@ -1484,6 +1712,36 @@ def _citable_sources_digest(limit=MAX_DIGEST_SOURCES):
         "contrarian URLs verbatim from this list - do NOT reconstruct a "
         "URL from memory:\n" + "\n".join(lines)
     )
+
+
+def span_output(result):
+    """Compact a tool result for a Langfuse span output.
+
+    fetch_article returns the whole article body and fetch_feeds /
+    web_search return every item they found. Putting those on a span
+    verbatim would bloat the trace payload for no diagnostic gain -
+    what you actually want from the tree is "did it work, how much did
+    it return, how long did it take". Keep the shape and size signals
+    plus any error; drop the bulk text.
+    """
+    if not isinstance(result, dict):
+        return {"result": str(result)[:200]}
+    if result.get("error"):
+        return {"error": str(result["error"])[:300]}
+    out = {}
+    for key in ("count", "status", "file", "url", "truncated", "note"):
+        if key in result:
+            out[key] = result[key]
+    # fetch_article: report body size instead of the body itself.
+    if "text" in result:
+        out["text_chars"] = len(result.get("text") or "")
+    # fetch_feeds / web_search / read_memory all wrap their payload in
+    # a list under a tool-specific key, and only some set "count".
+    for key in ("items", "results", "editions"):
+        value = result.get(key)
+        if isinstance(value, list):
+            out.setdefault("count", len(value))
+    return out or {"keys": sorted(result)[:10]}
 
 
 def execute_tool(name, args):
@@ -2199,11 +2457,61 @@ def run_agent():
 
         published = False
         for tc in tool_calls:
+            args = {}
+            parse_error = None
             try:
                 args = json.loads(tc.function.arguments) if tc.function.arguments else {}
-                result = execute_tool(tc.function.name, args)
             except json.JSONDecodeError as e:
-                result = {"error": f"could not parse arguments: {e}"}
+                parse_error = f"could not parse arguments: {e}"
+
+            # One span per tool call, so the trace tree shows research
+            # latency and failures instead of unexplained gaps between
+            # generations. Best-effort: a tracing failure must never
+            # affect the tool call itself.
+            tool_span = None
+            if root_span:
+                try:
+                    tool_span = root_span.start_span(
+                        name=f"tool_{tc.function.name}",
+                        input=(
+                            args if parse_error is None
+                            else {"raw_arguments": (tc.function.arguments or "")[:500]}
+                        ),
+                        metadata={"iteration": iteration},
+                    )
+                except Exception as e:
+                    print(f"  langfuse tool span open failed (continuing): {e}")
+                    tool_span = None
+
+            if parse_error:
+                result = {"error": parse_error}
+            else:
+                try:
+                    result = execute_tool(tc.function.name, args)
+                except json.JSONDecodeError as e:
+                    result = {"error": f"could not parse arguments: {e}"}
+
+            if tool_span:
+                try:
+                    # Mark failures at span level so they surface in
+                    # Langfuse's error filters. Tool errors are returned
+                    # as {"error": ...}, not raised.
+                    if isinstance(result, dict) and result.get("error"):
+                        tool_span.update(
+                            level="ERROR",
+                            status_message=str(result["error"])[:500],
+                        )
+                    tool_span.update(output=span_output(result))
+                except Exception as e:
+                    print(f"  langfuse tool span close failed (continuing): {e}")
+                finally:
+                    # Always end the span. A span left unfinished shows
+                    # up in Langfuse as a dangling observation and
+                    # skews the latency on the whole trace.
+                    try:
+                        tool_span.end()
+                    except Exception:
+                        pass
 
             messages.append({
                 "role": "tool",
