@@ -33,11 +33,9 @@ RETRY_BACKOFFS = [15, 30]  # seconds to wait before retrying on provider error
 FEEDS = [
     # Articles
     {"url": "https://www.lennysnewsletter.com/feed", "source": "Lenny's Newsletter", "type": "article"},
-    {"url": "https://www.reforge.com/blog/rss.xml", "source": "Reforge", "type": "article"},
     {"url": "https://www.svpg.com/articles/rss", "source": "SVPG", "type": "article"},
     {"url": "https://productcoalition.com/feed", "source": "Product Coalition", "type": "article"},
     {"url": "https://www.mindtheproduct.com/feed/", "source": "Mind the Product", "type": "article"},
-    {"url": "https://blackboxofpm.com/feed", "source": "Black Box of PM", "type": "article"},
     {"url": "https://www.producttalk.org/feed/", "source": "Product Talk", "type": "article"},
  
     # AI Trends
@@ -54,8 +52,7 @@ FEEDS = [
     {"url": "https://weworkremotely.com/categories/remote-product-jobs.rss", "source": "We Work Remotely", "type": "job"},
     {"url": "https://www.workatastartup.com/jobs.rss?role=product", "source": "Work at a Startup", "type": "job"},
  
-    # Additional Articles
-    {"url": "https://www.firstround.com/review/feed.xml", "source": "First Round Review", "type": "article"},
+    # Additional trends
     {"url": "https://www.producthunt.com/feed", "source": "Product Hunt", "type": "trend"},
     {"url": "https://hnrss.org/best?q=product+manager", "source": "Hacker News", "type": "trend"},
  
@@ -83,6 +80,20 @@ FEEDS = [
     {"url": "https://www.mindtheproduct.com/feed/events/", "source": "Mind the Product Events", "type": "event"},
     {"url": "https://productledalliance.com/feed/", "source": "Product-Led Alliance", "type": "event"},
 ]
+
+# Removed 2026-09-05 - all three verified dead on 2026-08-30 and already
+# dropped from Agent Sharp's FEEDS on that date; they stayed here for a
+# week longer, costing a failed fetch per daily run for zero items.
+# Re-add if they come back.
+#   - Reforge (https://www.reforge.com/blog/rss.xml): HTTP 500.
+#     /blog/feed returns 200 but is an HTML page with 0 entries.
+#   - Black Box of PM (https://blackboxofpm.com/feed): host unreachable.
+#     Resolves to 10 IPs, every one of them times out on connect. This
+#     was the expensive one - the aggregator has no per-feed timeout, so
+#     it stalled on urllib's default rather than failing fast.
+#   - First Round Review (https://www.firstround.com/review/feed.xml):
+#     308-redirects to review.firstround.com/feed.xml, which 404s. No
+#     working feed URL found on either host.
  
 # ── LANGUAGE FILTER ───────────────────────────────────────────────────────────
  
