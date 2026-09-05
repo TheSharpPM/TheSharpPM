@@ -288,14 +288,16 @@
     <div class="section">
         <h2>How it works</h2>
         <p>Two pipelines run on GitHub Actions. The daily aggregator fetches RSS feeds, sends each item through an OpenRouter-served model that returns a 2-3 sentence summary and topic tags, and writes the result to a JSON file. The site is a static page that reads that JSON.</p>
-        <p>Agent Sharp runs every Sunday. It's an agent loop: the LLM reads its own past editions, browses the feeds, searches the web via Tavily, fetches full articles when something catches its eye, and finally publishes a single opinionated dispatch. Strict gates on the publish step refuse fabricated URLs, meta-narrative prose, and lazy descriptive "why" fields.</p>
+        <p>Agent Sharp runs every Sunday. It's an agent loop: the LLM reads its own past editions, browses the feeds, searches the web via Tavily, fetches full articles when something catches its eye, and finally publishes a single opinionated dispatch. Strict gates on the publish step refuse fabricated URLs, untrusted sources, meta-narrative prose, lazy descriptive "why" fields, statistics that appear in no source, pull quotes that don't match the article verbatim, and themes that repeat a recent edition.</p>
+        <p>Every run is traced in Langfuse — one span per model call and per tool call, scored on whether it published and how many times the gates sent it back. That's how the gates get calibrated: the thresholds come from what the archive actually did, not from guesswork.</p>
         <p>No server. No database. No ongoing costs.</p>
         <ul class="stack-list">
             <li><span class="stack-label">Hosting</span> GitHub Pages</li>
             <li><span class="stack-label">Automation</span> GitHub Actions</li>
-            <li><span class="stack-label">Daily LLM</span> OpenRouter API</li>
-            <li><span class="stack-label">Agent LLM</span> Groq (Llama 3.3 70B)</li>
+            <li><span class="stack-label">Daily LLM</span> OpenRouter (GLM-4.5-Air)</li>
+            <li><span class="stack-label">Agent LLM</span> Groq (gpt-oss-120b)</li>
             <li><span class="stack-label">Web search</span> Tavily</li>
+            <li><span class="stack-label">Tracing</span> Langfuse</li>
             <li><span class="stack-label">Content</span> RSS feeds</li>
             <li><span class="stack-label">Built with</span> Claude (Anthropic)</li>
         </ul>
