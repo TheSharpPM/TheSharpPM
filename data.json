@@ -1,7 +1,84 @@
 {
-  "updated": "2026-09-04T09:43:40.985499+00:00",
-  "total": 852,
+  "updated": "2026-09-05T09:14:39.539002+00:00",
+  "total": 854,
   "items": [
+    {
+      "title": "Design the Chair. But Don’t Forget the Room.",
+      "url": "https://medium.com/@mark_48113/design-the-chair-but-dont-forget-the-room-8b5de214ec38?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-09-05T09:03:41+00:00",
+      "summary": "Eero Saarinen’s rule for architecture is the sharpest product advice I’ve found. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Price on That Pricing Page Is Not the Price. It Is Your Price.",
+      "url": "https://medium.com/@fazilbaker.fb/the-price-on-that-pricing-page-is-not-the-price-it-is-your-price-13d4fc418eb4?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-09-05T07:54:47+00:00",
+      "summary": "I checked the pricing pages of three AI writing tools on the same afternoon, from the same laptop, on the same connection. Continue reading on Medium »",
+      "tags": [
+        "AI Strategy",
+        "Communication",
+        "Pricing"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "2026.36: Friction and Feedback",
+      "url": "https://stratechery.com/2026/friction-and-feedback/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-09-04T17:55:39+00:00",
+      "summary": "The best Stratechery content from the week of August 31, 2026, including the market speaking, Apple finding religion, and society losing friction.",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "How Marcel Semmler, CPO of Bauer Media Group,  is redefining product management’s role",
+      "url": "https://www.productledalliance.com/why-pms-must-become-business-builders/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-09-04T15:00:24+00:00",
+      "summary": "From managing roadmaps to owning commercial outcomes.",
+      "tags": [
+        "Leadership",
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "An Interview with OpenAI President Greg Brockman About Astra and Alignment",
+      "url": "https://stratechery.com/2026/an-interview-with-openai-president-greg-brockman-about-astra-and-alignment/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-09-04T10:00:00+00:00",
+      "summary": "An interview with OpenAI President and Co-Founder Greg Brockman about the history of OpenAI, Astra and alignment, and the weight of building the future.",
+      "tags": [
+        "AI Tools",
+        "Career",
+        "Stakeholders"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Fei Fei Li: The Race to Build World Models For AI",
+      "url": "https://a16z.simplecast.com/episodes/fei-fei-li-the-race-to-build-world-models-for-ai-tvIN7XfT",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-09-04T10:00:00+00:00",
+      "summary": "World Labs co-founders Fei-Fei Li, Justin Johnson, and Ben Mildenhall join a16z General Partner Martin Casado to discuss Atlas, their latest world model, and what it reveals about the pursuit of spatial intelligence. At the center of Atlas is what the team calls “new view predict...",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Why Your MVP Is Probably Not an MVP",
       "url": "https://medium.com/@taherpittalvala/why-your-mvp-is-probably-not-an-mvp-9a96f8b35d92?source=rss------product_management-5",
@@ -23,6 +100,18 @@
       "summary": "What if LinkedIn used your professional history to improve your feed, profile, job suggestions, and career direction? Continue reading on Medium »",
       "tags": [
         "Career"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Experiential Labs",
+      "url": "https://www.producthunt.com/products/experiential-labs",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-09-04T03:10:57+00:00",
+      "summary": "Open source AI gateway turning traffic into a better model Discussion | Link",
+      "tags": [
+        "AI Strategy"
       ],
       "is_fallback": true
     },
@@ -171,6 +260,18 @@
       "summary": "Learn how to build an effective product roadmap from scratch, prioritize features, set goals, manage timelines, and use a free roadmap… Continue reading on Medium »",
       "tags": [
         "Prioritization",
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Queuebrick",
+      "url": "https://www.producthunt.com/products/queuebrick",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-09-02T14:42:18+00:00",
+      "summary": "The Letterboxd alternative Discussion | Link",
+      "tags": [
         "Product Strategy"
       ],
       "is_fallback": true
@@ -10776,90 +10877,6 @@
         "AI Strategy",
         "Product Strategy",
         "Leadership"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "In Defence of the Right-Brain Leader",
-      "url": "https://medium.com/@alex_86019/in-defence-of-the-right-brain-leader-ece84d9f66e8?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-06-07T07:41:00+00:00",
-      "summary": "The article argues that leaders who rely on intuition, storytelling, and creative thinking—traits traditionally linked to the right brain—bring essential balance to data‑driven product environments. It encourages product managers to value and integrate these less formal, human‑centric approaches alongside structured frameworks.",
-      "tags": [
-        "Leadership",
-        "Product Culture",
-        "Product Strategy"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "5 Affordable Amazon Desk Setup Products That Feel Surprisingly Premium",
-      "url": "https://medium.com/@shashankshshu13/5-affordable-amazon-desk-setup-products-that-feel-surprisingly-premium-785b32905918?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-06-07T07:11:19+00:00",
-      "summary": "The article highlights five cost-effective accessories and furniture items available on Amazon that can elevate a desk setup to look premium without a large budget. It offers practical recommendations that help product managers create a professional and motivating workspace, which can boost focus and productivity.",
-      "tags": [
-        "Product Design",
-        "Productivity",
-        "Growth"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "🔮 The AI boom is becoming an entrepreneurship boom #577",
-      "url": "https://www.exponentialview.co/p/ev-577",
-      "source": "Exponential View",
-      "type": "trend",
-      "date": "2026-06-07T03:21:28+00:00",
-      "summary": "The article highlights how the current AI explosion is spawning a wave of new entrepreneurial ventures, with innovators like Bryan Johnson leading the charge. It notes emerging trends such as AI-driven hardware (e.g., camping chips) and the push toward more advanced, multimodal AI systems.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Growth"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "🧠 Community Wisdom: Bootstrapping vs. raising funding, building the roadmap of your vibe-coded app, AI agents and data integrity, your first project as an APM, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-bootstrapping-vs",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-06-06T17:14:54+00:00",
-      "summary": "The article shares community insights on choosing bootstrapping versus seeking investment, crafting a product roadmap for a vibe‑coded app, leveraging AI agents while ensuring data integrity, and tackling an APM's first project. It also touches on strategies for growth, stakeholder alignment, and effective product management practices.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Growth"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Reasoning through complex problems",
-      "url": "https://jamiehorne.medium.com/reasoning-through-complex-problems-2ef1f6855c50?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-06-06T13:15:21+00:00",
-      "summary": "The article discusses the critical importance of tackling ambiguous, multi-dimensional problems and highlights that current AI systems still fall short in delivering robust reasoning capabilities for such challenges. It underscores the need for product managers to develop frameworks and tools that augment human problem‑solving while strategically integrating AI where it can add value.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Prioritization"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "How to kill a bad idea without upsetting anyone",
-      "url": "https://jamiehorne.medium.com/how-to-kill-a-bad-idea-without-upsetting-anyone-cd161e826cef?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-06-06T13:14:21+00:00",
-      "summary": "The article advises that the most effective way to dismiss a flawed concept is to treat it with genuine seriousness, allowing you to evaluate its flaws objectively and discuss its shortcomings without personal offense. By openly examining the idea's merits and limitations, you can reach a consensus to move on while preserving team morale.",
-      "tags": [
-        "Product Strategy",
-        "Leadership",
-        "Communication"
       ],
       "is_fallback": false
     }
