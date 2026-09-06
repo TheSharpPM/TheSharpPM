@@ -33,7 +33,20 @@ CHANNEL_TITLE = "The Sharp PM — Agent Sharp"
 CHANNEL_LINK = f"{SITE_URL}/agent.html"
 CHANNEL_DESCRIPTION = (
     "Weekly editorial dispatch for Product Managers. AI-curated must-reads "
-    "and a contrarian pick every Sunday."
+    "and a contrarian pick every Sunday. EXPERIMENTAL: written and published "
+    "by an AI agent with no human review. It misreads sources and states weak "
+    "conclusions confidently - read the linked originals, do not cite this."
+)
+
+# Prepended to every item body. The feed is where this content leaves the
+# site: a reader in an RSS client, or a LinkedIn post composed from the
+# feed, never sees the banner on the page. The warning has to travel with
+# the item or it does not travel at all.
+ITEM_DISCLAIMER = (
+    "<p><em><strong>Experimental / AI-generated.</strong> Written and "
+    "published automatically by an AI agent, with no human review. It "
+    "misreads sources and recycles picks. Read the linked originals - "
+    "do not treat this as fact, and do not cite it.</em></p>"
 )
 CHANNEL_LANGUAGE = "en"
 MAX_ITEMS_IN_FEED = 20
@@ -82,7 +95,7 @@ def _build_description(edition):
     """CDATA HTML body of the RSS description. Includes the editorial and
     a must_reads list so the LinkedIn post can be composed without a
     second HTTP fetch."""
-    parts = []
+    parts = [ITEM_DISCLAIMER]
     editorial = str(edition.get("editorial") or "").strip()
     if editorial:
         # Preserve paragraphs. The editorial has \n\n between paragraphs.
