@@ -4,12 +4,16 @@ import json
 import os
 import re
 import requests
+import socket
 import sys
 import unicodedata
 from datetime import datetime, timezone, timedelta
+from urllib.parse import urlparse
 from time import mktime, sleep
 
 from tag_inference import infer_tags
+
+import article_cache
 
 # ── CONFIG ────────────────────────────────────────────────────────────────────
 
@@ -27,6 +31,32 @@ FALLBACK_MODELS = [
 MAX_ITEMS_PER_FEED = int(os.environ.get("MAX_ITEMS_PER_FEED", "2"))
 OUTPUT_FILE = "data.json"
 MAX_DAYS = 90
+
+# Per-feed HTTP timeout. feedparser.parse(url) fetches through urllib
+# with no timeout at all, so a host that accepts the TCP connection and
+# then goes quiet stalls the whole daily run. agent_sharp.py gained this
+# when blackboxofpm.com did exactly that; the aggregator never did, and
+# it is about to start doing far more network I/O.
+FEED_TIMEOUT_SECONDS = 15
+
+# Domains whose article bodies are worth caching for Agent Sharp. It can
+# only cite these, so fetching anything else would be daily network cost
+# for text the weekly agent may never quote. Kept as suffixes so
+# subdomains match (user.substack.com).
+CACHEABLE_DOMAIN_SUFFIXES = (
+    "ben-evans.com", "casey.news", "every.to", "exponentialview.co",
+    "firstround.com", "hbr.org", "lennysnewsletter.com", "medium.com",
+    "mindtheproduct.com", "platformer.news", "producttalk.org",
+    "reforge.com", "stratechery.com", "substack.com", "svpg.com",
+    "techcrunch.com", "theinformation.com", "theverge.com", "wired.com",
+    "arstechnica.com", "bloomberg.com", "economist.com", "forbes.com",
+    "ft.com", "news.ycombinator.com", "nytimes.com", "theatlantic.com",
+)
+
+# Ceiling on article fetches per daily run. 29 feeds x 2 items is ~58
+# candidates, roughly half of them citable, but a feed that suddenly
+# publishes a backlog must not turn the daily job into a crawler.
+MAX_ARTICLE_FETCHES_PER_RUN = 40
 REQUEST_DELAY = 1.5  # seconds to sleep after each successful API call
 RETRY_BACKOFFS = [15, 30]  # seconds to wait before retrying on provider error
  
@@ -216,6 +246,50 @@ def _fallback_summary(content):
     return snippet
 
 
+def is_cacheable(url):
+    """True when Agent Sharp could later cite this URL, so its body is
+    worth the daily fetch."""
+    try:
+        host = (urlparse(str(url)).hostname or "").lower()
+    except Exception:
+        return False
+    if not host:
+        return False
+    return any(host == d or host.endswith("." + d)
+               for d in CACHEABLE_DOMAIN_SUFFIXES)
+
+
+def cache_article_bodies(items, budget=MAX_ARTICLE_FETCHES_PER_RUN):
+    """Fetch and cache the body of each citable new item.
+
+    Best-effort throughout: this exists to save Agent Sharp an iteration
+    on Sunday, and a page that will not load today is not a reason to
+    fail the daily digest. Every failure is logged and skipped.
+
+    Returns (fetched, skipped_existing, failed).
+    """
+    fetched = skipped = failed = 0
+    for item in items:
+        if fetched >= budget:
+            print(f"  cache: fetch budget ({budget}) reached, stopping")
+            break
+        url = item.get("url")
+        if not url or not is_cacheable(url):
+            continue
+        if article_cache.get(url):
+            skipped += 1
+            continue
+        text, error = article_cache.fetch_text(url)
+        if error or not text:
+            failed += 1
+            print(f"  cache: skip {url[:70]} ({error or 'empty body'})")
+            continue
+        article_cache.put(url, text, title=item.get("title"),
+                          source=item.get("source"))
+        fetched += 1
+    return fetched, skipped, failed
+
+
 def fetch_feed(feed_config, existing_urls):
     items = []
     try:
@@ -295,6 +369,10 @@ def fetch_feed(feed_config, existing_urls):
 def main():
     print("The Sharp PM - Aggregator running\n")
 
+    # feedparser has no timeout parameter, so bound it at the socket
+    # layer. Applies to every urllib fetch feedparser makes below.
+    socket.setdefaulttimeout(FEED_TIMEOUT_SECONDS)
+
     # Fail loudly if the API key is missing, instead of letting every
     # provider call return "Bearer None" and silently producing an
     # empty / partial data.json.
@@ -346,6 +424,16 @@ def main():
     os.replace(tmp_file, OUTPUT_FILE)
 
     print("Done! " + str(len(all_items)) + " total articles saved.")
+
+    # Cache article bodies for Agent Sharp. Deliberately after data.json
+    # is written: the digest is the job, and a slow or hostile page must
+    # not be able to cost the day's content. Only new items are fetched -
+    # anything already cached is skipped.
+    print("\nCaching article bodies for Agent Sharp...")
+    removed = article_cache.prune()
+    fetched, skipped, failed = cache_article_bodies(new_items)
+    print(f"  cache: {fetched} fetched, {skipped} already cached, "
+          f"{failed} failed, {removed} expired entries pruned")
  
  
 if __name__ == "__main__":

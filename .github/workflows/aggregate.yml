@@ -47,7 +47,11 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@b863ae1933cb653a53c021fe36dbb774e1fb9403  # v5
         with:
           commit_message: "chore: update content"
-          file_pattern: data.json
+          # cache/articles carries the article bodies Agent Sharp reads on
+          # Sunday. Runners are ephemeral and the two pipelines are separate
+          # workflows, so the cache only reaches the weekly run by being
+          # committed. Staging the directory picks up pruned entries too.
+          file_pattern: data.json cache/articles
           skip_fetch: false
           push_options: '--force-with-lease'
           commit_user_name: TheSharpPM

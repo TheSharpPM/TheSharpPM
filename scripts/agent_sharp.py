@@ -27,6 +27,8 @@ from urllib.parse import urlparse
 
 from groq import Groq
 
+import article_cache
+
 # Langfuse is optional. If the package is missing or credentials are
 # not configured, tracing is silently disabled - we never let telemetry
 # break a run. Local dev without keys just skips instrumentation.
@@ -745,11 +747,8 @@ def edition_date():
 
 
 def strip_html(raw):
-    text = re.sub(r"<script[^>]*>.*?</script>", " ", raw, flags=re.DOTALL | re.IGNORECASE)
-    text = re.sub(r"<style[^>]*>.*?</style>", " ", text, flags=re.DOTALL | re.IGNORECASE)
-    text = re.sub(r"<[^>]+>", " ", text)
-    text = re.sub(r"\s+", " ", text).strip()
-    return text
+    """Shared with the daily aggregator - see scripts/article_cache.py."""
+    return article_cache.strip_html(raw)
 
 
 # ── TOOL IMPLEMENTATIONS ──────────────────────────────────────────────────────
@@ -853,46 +852,36 @@ MAX_FETCH_BYTES = 1_048_576
 
 
 def _url_is_safe_to_fetch(url):
-    """Return (ok, reason). Blocks anything that's not public http/https.
+    """Return (ok, reason). Blocks anything not public http/https.
 
-    Defends against SSRF via prompt injection: a feed snippet could
-    instruct the LLM to call fetch_article(http://169.254.169.254/...)
-    to hit the GHA runner's cloud-metadata endpoint, an internal
-    service, or a loopback address. We allow only http(s) and only to
-    DNS names that resolve to public IPs.
+    Implementation is shared with the daily aggregator so the two
+    pipelines cannot drift apart on SSRF defence - see
+    scripts/article_cache.py.
     """
-    if not isinstance(url, str) or not url.strip():
-        return False, "empty URL"
-    parsed = urlparse(url.strip())
-    if parsed.scheme not in ("http", "https"):
-        return False, f"scheme '{parsed.scheme}' not allowed (http/https only)"
-    if not parsed.hostname:
-        return False, "URL has no hostname"
-    # Resolve every address the hostname maps to. Reject if any is
-    # private, loopback, link-local, reserved or multicast. A single
-    # public A record alongside a private one is treated as unsafe -
-    # DNS rebinding pretext.
-    try:
-        infos = socket.getaddrinfo(parsed.hostname, None)
-    except socket.gaierror as e:
-        return False, f"DNS resolution failed: {e}"
-    for info in infos:
-        addr = info[4][0]
-        try:
-            ip = ipaddress.ip_address(addr)
-        except ValueError:
-            return False, f"unresolvable IP: {addr}"
-        if (ip.is_private or ip.is_loopback or ip.is_link_local
-                or ip.is_reserved or ip.is_multicast or ip.is_unspecified):
-            return False, f"hostname resolves to non-public IP {addr}"
-    return True, "ok"
+    return article_cache.url_is_safe_to_fetch(url)
 
 
 MAX_REDIRECTS = 5
 
 
 def tool_fetch_article(url):
-    """Fetch the text of a specific URL. Truncated to MAX_ARTICLE_CHARS."""
+    """Text of a URL, from the daily cache when possible.
+
+    The aggregator fetched and cleaned most citable articles hours ago
+    (see scripts/article_cache.py), so a cache hit costs no network
+    round-trip and returns text that was cleaned once, offline, rather
+    than page chrome scraped under time pressure. A miss falls through
+    to a live fetch exactly as before.
+    """
+    cached = article_cache.get(url)
+    if cached:
+        text = cached.get("text") or ""
+        return {
+            "url": url,
+            "text": text[:MAX_ARTICLE_CHARS],
+            "truncated": len(text) > MAX_ARTICLE_CHARS,
+            "from_cache": True,
+        }
     ok, reason = _url_is_safe_to_fetch(url)
     if not ok:
         return {"error": f"refusing to fetch: {reason}"}
