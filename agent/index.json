@@ -1,6 +1,11 @@
 {
   "editions": [
     {
+      "date": "2026-09-06",
+      "headline_theme": "AI Evaluation Over Hype: The New Non‑Negotiable",
+      "file": "agent/2026-09-06.json"
+    },
+    {
       "date": "2026-08-31",
       "headline_theme": "Speed Isn't Enough: Rethink AI Success Metrics",
       "file": "agent/2026-08-31.json"
@@ -101,5 +106,5 @@
       "file": "agent/2026-05-03.json"
     }
   ],
-  "updated_at": "2026-08-31T13:25:29.820279+00:00"
+  "updated_at": "2026-09-06T11:42:17.274591+00:00"
 }
