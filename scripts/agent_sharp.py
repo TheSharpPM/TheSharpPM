@@ -332,6 +332,30 @@ LAZY_WHY_PHRASES = [
     "real world playbook",
 ]
 
+# The phrase list above only catches descriptive language that carries a
+# subject ("this article provides"). The 2026-09-06 edition shipped three
+# of four must_reads whose "why" simply dropped the subject - "Provides a
+# concrete framework...", "Shows why speed metrics are misleading...",
+# "Highlights cultural resistance..." - and sailed through every phrase.
+# A why that OPENS with a summarising verb is describing the piece, not
+# reacting to it, so match the opener directly.
+#
+# Deliberately narrow. A verb mid-sentence keeps its subject and can
+# carry a real opinion ("Cagan shows how governance rots"), which is why
+# the phrase list above dropped bare "shows how" in the first place. Only
+# the sentence-initial form - optionally behind "It"/"This article" - is
+# unambiguously a summary.
+DESCRIPTIVE_WHY_OPENERS = [
+    "provides", "shows", "highlights", "explains", "discusses", "offers",
+    "describes", "outlines", "covers", "presents", "details", "illustrates",
+    "showcases", "summarises", "summarizes", "walks",
+]
+_DESCRIPTIVE_WHY_RE = re.compile(
+    r"^\s*(?:(?:it|this|the)\s+(?:article\s+|piece\s+|post\s+|guide\s+|essay\s+)?)?"
+    r"(" + "|".join(DESCRIPTIVE_WHY_OPENERS) + r")\b",
+    re.IGNORECASE,
+)
+
 # Domains accepted as must_read sources. Built from FEEDS plus the two
 # major platforms where most PM/strategy writing lives (Medium and
 # Substack) and a small set of high-signal publications. Anything
@@ -535,6 +559,155 @@ def _theme_words(theme):
             continue
         words.add(w)
     return words
+
+
+def _past_editions(limit, exclude_date=None):
+    """Load the most recent published editions in full, newest first.
+
+    _recent_headline_themes / _recent_hook_sources each re-read index.json
+    for a single field; the quality metrics need whole editions (must_read
+    urls and titles), so this loads them once.
+
+    exclude_date is not optional in practice. Those two helpers run as
+    gates, before the edition is written, so "most recent" excludes the
+    edition being judged for free. The quality metrics run AFTER the
+    index write, so without this the edition is compared against itself
+    and scores a perfect 1.0 overlap with 100% recycled citations.
+    """
+    if not INDEX_FILE.exists():
+        return []
+    try:
+        index = json.loads(INDEX_FILE.read_text(encoding="utf-8"))
+    except Exception:
+        return []
+    date_re = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+    editions = []
+    candidates = [
+        meta for meta in index.get("editions", [])
+        if str(meta.get("date", "")) != exclude_date
+    ][:limit]
+    for meta in candidates:
+        date = str(meta.get("date", ""))
+        if not date_re.match(date):
+            continue
+        edition_file = AGENT_DIR / f"{date}.json"
+        if not edition_file.exists():
+            continue
+        try:
+            editions.append(json.loads(edition_file.read_text(encoding="utf-8")))
+        except Exception:
+            continue
+    return editions
+
+
+def _cited_items(mr_list, contrarian):
+    """Every item the edition puts its name to: must_reads plus the
+    contrarian. These are the citations the metrics below judge."""
+    items = [mr for mr in (mr_list or []) if isinstance(mr, dict)]
+    if isinstance(contrarian, dict):
+        items.append(contrarian)
+    return items
+
+
+def _quality_metrics(headline_theme, editorial, mr_list, contrarian):
+    """Deterministic quality signals for an edition that passed every gate.
+
+    The gates answer "is this publishable?". These answer "is it any
+    good?" - which the trace could not previously show at all. Every
+    metric here is checkable without a second model call, and each one
+    exists because a real edition failed it while passing every gate:
+
+      sources_read_ratio  - the 2026-09-06 contrarian ("The Call to
+                            Adventure") was characterised as arguing
+                            something it does not argue, because the
+                            agent only ever saw its feed summary. Nothing
+                            requires a cited piece to have been read.
+      recycled_citations  - that same edition re-cited three pieces from
+                            the previous two weeks, including one that
+                            had been must_read #1 a fortnight earlier.
+      stats_used          - its sources carried "89% of executives ...
+                            only 6%" and "62%, up from 28%"; the
+                            editorial used none of them. The numeric gate
+                            only punishes invented stats, so writing
+                            around numbers entirely scores perfectly.
+      topic_overlap       - the headline gate compares wording, so four
+                            consecutive editions about metrics passed
+                            while sharing almost no headline words. This
+                            compares the whole edition's vocabulary.
+
+    Returns a flat dict of numbers - Langfuse scores must be numeric.
+    """
+    metrics = {}
+    items = _cited_items(mr_list, contrarian)
+    total = len(items)
+
+    # 1. How many cited pieces did the agent actually read? FETCHED_TEXT
+    #    holds only successful fetch_article bodies, so a piece known
+    #    from a feed summary or a search snippet does not count.
+    read = sum(1 for it in items if it.get("url") in FETCHED_TEXT)
+    metrics["cited_sources_read"] = read
+    metrics["cited_sources_total"] = total
+    metrics["sources_read_ratio"] = round(read / total, 3) if total else 0.0
+
+    # 2. Citations recycled from recent editions. Compared on URL where
+    #    past editions have one, falling back to normalised title so
+    #    editions written before urls were recorded still count.
+    past = _past_editions(HEADLINE_THEME_LOOKBACK, exclude_date=edition_date())
+    past_urls, past_titles = set(), set()
+    for ed in past:
+        for mr in _cited_items(ed.get("must_reads"), ed.get("contrarian")):
+            if mr.get("url"):
+                past_urls.add(mr["url"])
+            if mr.get("title"):
+                past_titles.add(_normalize_for_match(mr["title"]))
+    recycled = 0
+    for it in items:
+        if it.get("url") and it["url"] in past_urls:
+            recycled += 1
+        elif it.get("title") and _normalize_for_match(it["title"]) in past_titles:
+            recycled += 1
+    metrics["recycled_citations"] = recycled
+
+    # 3. Numbers available in the research vs numbers actually used. The
+    #    grounding gate makes inventing a stat expensive, which pushes
+    #    the model to avoid numbers altogether - this shows that cost.
+    available = set()
+    for claim in _NUMERIC_CLAIM_RE.findall("\n".join(TOOL_RESULTS_LOG)):
+        available.add(claim.strip().lower())
+    used = {c.strip().lower() for c in _NUMERIC_CLAIM_RE.findall(editorial or "")}
+    metrics["stats_available"] = len(available)
+    metrics["stats_used"] = len(used)
+
+    # 4. Vocabulary overlap across the whole edition, not just the
+    #    headline. Uses the same content-word extraction as the headline
+    #    gate so the two numbers are comparable side by side.
+    def _edition_words(theme, cited):
+        words = _theme_words(theme or "")
+        for it in cited:
+            words |= _theme_words(it.get("title") or "")
+        return words
+
+    now_words = _edition_words(headline_theme, items)
+    headline_overlap = 0.0
+    topic_overlap = 0.0
+    for ed in past:
+        prev_theme = ed.get("headline_theme") or ""
+        prev_words = _theme_words(prev_theme)
+        if now_theme_words := _theme_words(headline_theme or ""):
+            if prev_words:
+                headline_overlap = max(headline_overlap, len(
+                    now_theme_words & prev_words
+                ) / min(len(now_theme_words), len(prev_words)))
+        prev_all = _edition_words(prev_theme, _cited_items(
+            ed.get("must_reads"), ed.get("contrarian")
+        ))
+        if now_words and prev_all:
+            topic_overlap = max(topic_overlap, len(now_words & prev_all)
+                                / min(len(now_words), len(prev_all)))
+    metrics["headline_overlap"] = round(headline_overlap, 3)
+    metrics["topic_overlap"] = round(topic_overlap, 3)
+
+    return metrics
 
 
 # ── FEEDS ─────────────────────────────────────────────────────────────────────
@@ -810,8 +983,19 @@ def tool_read_memory(weeks=4):
                 "target_audience": ed.get("target_audience"),
                 "hook_source": ed.get("hook_source"),
                 "editorial_excerpt": (ed.get("editorial") or "")[:400],
+                # url included deliberately. Without it the 2026-09-06
+                # run read "3 key metrics for cybersecurity product
+                # managers" out of a past edition, reconstructed a
+                # plausible TechCrunch URL for it, and fetched a 404 -
+                # burning an iteration on a link it had invented. The
+                # prompt says every URL must come verbatim from a tool
+                # result; this makes that possible for memory too.
                 "must_reads": [
-                    {"title": mr.get("title"), "why": mr.get("why")}
+                    {
+                        "title": mr.get("title"),
+                        "url": mr.get("url"),
+                        "why": mr.get("why"),
+                    }
                     for mr in (ed.get("must_reads") or [])
                 ],
             })
@@ -1215,7 +1399,29 @@ def tool_publish_edition(headline_theme, editorial, must_reads,
     for mr in mr_list:
         if not isinstance(mr, dict):
             continue
-        why_lower = str(mr.get("why", "")).lower()
+        why_raw = str(mr.get("why", ""))
+        why_lower = why_raw.lower()
+        opener = _DESCRIPTIVE_WHY_RE.match(why_raw)
+        if opener:
+            return {
+                "error": (
+                    f"Refusing to publish: must_read "
+                    f"'{mr.get('title')}' has a 'why' that OPENS with "
+                    f"'{opener.group(1)}' - that is a summary of the piece, "
+                    f"not a reaction to it. Rewrite the 'why' field for "
+                    f"THIS specific must_read only - do not touch the "
+                    f"others. Do not start with a summarising verb "
+                    f"({', '.join(DESCRIPTIVE_WHY_OPENERS[:6])}, ...).\n\n"
+                    f"BAD (describes): 'Shows why speed metrics are "
+                    f"misleading and why evaluation matters.'\n"
+                    f"GOOD (reacts): 'Cagan is right that speed metrics "
+                    f"flatter teams into stagnation - but he lets "
+                    f"leadership off the hook. If your VP still asks for "
+                    f"velocity, no eval framework saves you.'\n\n"
+                    f"Open with your position, not the article's. Then "
+                    f"call publish_edition again."
+                )
+            }
         for phrase in LAZY_WHY_PHRASES:
             if phrase in why_lower:
                 return {
@@ -1442,7 +1648,19 @@ def tool_publish_edition(headline_theme, editorial, must_reads,
     )
     os.replace(index_tmp, INDEX_FILE)
 
-    return {"status": "published", "file": f"agent/{date}.json"}
+    # Quality metrics are computed after the write, on the edition that
+    # actually shipped. They never reach the model: the loop returns as
+    # soon as it sees status "published", so this result is appended to
+    # the history and never sent. Keeping them here rather than in
+    # run_agent means they see FETCHED_TEXT and TOOL_RESULTS_LOG while
+    # those still describe this run.
+    quality = _quality_metrics(headline_theme, editorial, mr_list, contrarian)
+
+    return {
+        "status": "published",
+        "file": f"agent/{date}.json",
+        "quality": quality,
+    }
 
 
 # ── TOOL DECLARATIONS (OpenAI / Groq function calling) ────────────────────────
@@ -2051,6 +2269,10 @@ def run_agent():
     # a simple `{{output.editorial}}` variable, instead of digging
     # through nested tool call arguments.
     published_edition = {}
+    # Deterministic quality signals for the edition that shipped, from
+    # tool_publish_edition. Scored at trace level next to the mechanical
+    # counters so a run's health and its editorial quality sit together.
+    published_quality = {}
 
     def _finalize_trace(outcome_name):
         """Attach outcome + counters (and, if published, the full
@@ -2102,6 +2324,14 @@ def run_agent():
                     name="schema_retries",
                     value=total_schema_retries,
                 )
+                # Editorial quality, not run mechanics. Prefixed so the
+                # two groups sort apart in the Langfuse scores column.
+                for metric, value in published_quality.items():
+                    langfuse.create_score(
+                        trace_id=trace_id,
+                        name=f"quality_{metric}",
+                        value=value,
+                    )
             except Exception as e:
                 print(f"  langfuse scoring failed (continuing): {e}")
         if root_span:
@@ -2384,7 +2614,21 @@ def run_agent():
             try:
                 usage_obj = getattr(response, "usage", None)
                 usage_dict = None
+                cached_tokens = None
                 if usage_obj:
+                    # Groq caches a stable prompt prefix automatically on
+                    # gpt-oss models, and cached tokens are credited back
+                    # against the TPM limit. Whether that is happening is
+                    # invisible unless prompt_tokens_details.cached_tokens
+                    # is read - so read it, and put the hit rate on the
+                    # generation. If this stays near zero across a run,
+                    # the prefix is not stable and the system prompt is
+                    # being paid for on every single call.
+                    details = getattr(usage_obj, "prompt_tokens_details", None)
+                    if details is not None:
+                        cached_tokens = getattr(details, "cached_tokens", None)
+                        if cached_tokens is None and isinstance(details, dict):
+                            cached_tokens = details.get("cached_tokens")
                     usage_dict = {
                         "input": getattr(usage_obj, "prompt_tokens", 0),
                         "output": getattr(usage_obj, "completion_tokens", 0),
@@ -2402,6 +2646,7 @@ def run_agent():
                         ],
                     },
                     usage_details=usage_dict,
+                    metadata={"cached_tokens": cached_tokens},
                 )
                 generation.end()
             except Exception as e:
@@ -2524,6 +2769,11 @@ def run_agent():
                     and result.get("status") == "published"):
                 published = True
                 print(f"  [published] {result.get('file')}")
+                published_quality = result.get("quality") or {}
+                if published_quality:
+                    print("  quality: " + ", ".join(
+                        f"{k}={v}" for k, v in published_quality.items()
+                    ))
                 # Capture the accepted edition args for the trace
                 # output. This is what Langfuse evaluators score
                 # against. Only the fields we might want to eval are
@@ -2555,7 +2805,16 @@ def run_agent():
                         pub_span = root_span.start_span(
                             name="editorial_published",
                             input=None,
-                            metadata={"edition_date": date, "model": MODEL},
+                            metadata={
+                                "edition_date": date,
+                                "model": MODEL,
+                                # On the span too, not just as trace
+                                # scores: an LLM-as-judge evaluator
+                                # targeting this observation can then see
+                                # what the deterministic checks found
+                                # instead of re-deriving it.
+                                "quality": published_quality,
+                            },
                         )
                         pub_span.update(output=published_edition)
                         pub_span.end()
