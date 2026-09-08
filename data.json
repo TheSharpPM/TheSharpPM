@@ -1,7 +1,131 @@
 {
-  "updated": "2026-09-07T09:55:09.893001+00:00",
-  "total": 848,
+  "updated": "2026-09-08T09:19:45.228745+00:00",
+  "total": 847,
   "items": [
+    {
+      "title": "Best Travel Expense Tracking App",
+      "url": "https://medium.com/@sharepay.marketing/best-travel-expense-tracking-app-945720da40d3?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-09-08T09:03:52+00:00",
+      "summary": "Best Travel Expense Tracking App: Making Group Travel Expenses Easier Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Line You Wait In",
+      "url": "https://medium.com/@plannedengineering.works/the-line-you-wait-in-8caa20e3e0a3?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-09-08T08:31:50+00:00",
+      "summary": "I’m not sure anybody opens a dating app expecting to meet the love of their life that evening. You open it the way you begin one of those… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Your Growth Chart Is Lying to You",
+      "url": "https://www.productcoalition.com/p/the-only-number-your-product-cannot",
+      "source": "Product Coalition",
+      "type": "article",
+      "date": "2026-09-08T07:56:13+00:00",
+      "summary": "Acquisition metrics flatter you. CLTV tells you whether you built a business.",
+      "tags": [
+        "Growth",
+        "Metrics"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Why 90% of Streaming Startups Fail Before Month 18",
+      "url": "https://medium.com/@streamit.tech/why-90-of-streaming-startups-fail-before-month-18-7fdd526dd4b0?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-09-08T03:41:00+00:00",
+      "summary": "90% of Streaming Startups Die Within 18 Months. Here’s the Autopsy. Streamit.tech Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "PM Case Study: Building a11yOne — From Broken Audit Workflows to One Chrome Workspace",
+      "url": "https://medium.com/@palakilvisweswaran/pm-case-study-building-a11yone-from-broken-audit-workflows-to-one-chrome-workspace-6c4849190698?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-09-08T03:05:01+00:00",
+      "summary": "One Tool. Every Accessibility Workflow. Continue reading on Medium »",
+      "tags": [
+        "Compliance"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🎙️ How I AI: GPT-6 Astra is a banger + Stripe’s AI playbook + Grok Bot vs. OpenClaw: why I replaced my entire agent stack",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-gpt-6-astra-is-a-banger",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-09-07T15:02:41+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "📈 AI revenue hit $229 billion",
+      "url": "https://www.exponentialview.co/p/ai-revenue-hit-229-billion",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-09-07T12:19:40+00:00",
+      "summary": "Plus: AI job losses drop, El Niño squeezes trade & the agentic tool gap++",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Build your own company brain: the enterprise AI playbook from Stripe’s engineering team | Sharadh Krishnamurthy",
+      "url": "https://www.lennysnewsletter.com/p/build-your-own-company-brain-the",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-09-07T12:04:19+00:00",
+      "summary": "Watch now | 🎙️ Learn how Stripe scaled AI to everyone at a complex global company by building context, governance, and a shared skills platform directly into their internal agent",
+      "tags": [
+        "AI Strategy",
+        "Platform Strategy",
+        "Risk Management"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Problem statement  template",
+      "url": "https://www.productledalliance.com/problem-statement-template-framework/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-09-07T12:00:47+00:00",
+      "summary": "Define the problem before your team argues about solutions.",
+      "tags": [
+        "Product Culture"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Can Open Source Keep AI Power From Concentrating?",
+      "url": "https://a16z.simplecast.com/episodes/can-open-source-keep-ai-power-from-concentrating-SoZe4_xf",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-09-07T10:00:00+00:00",
+      "summary": "MTS host Sophia Dew visits the Open Source AI Summit in San Francisco to ask researchers and founders across the AI stack a central question: can open source prevent AI power from concentrating in the hands of a few companies? Lukasz Kaiser, co-author of Attention Is All You Need...",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Plaid. How Developer-First Marketing Turned Bank Plumbing Into a Trusted Brand",
       "url": "https://medium.com/@Khomichenko/plaid-how-developer-first-marketing-turned-bank-plumbing-into-a-trusted-brand-b3d3fc7e8adc?source=rss------product_strategy-5",
@@ -199,6 +323,18 @@
         "AI Strategy",
         "Communication",
         "Pricing"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Jupitrr Cut",
+      "url": "https://www.producthunt.com/products/jupitrr",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-09-05T07:11:06+00:00",
+      "summary": "Open source app for recording vids with a teleprompter Discussion | Link",
+      "tags": [
+        "Product Strategy"
       ],
       "is_fallback": true
     },
@@ -1124,6 +1260,19 @@
       "date": "2026-08-27T06:40:56+00:00",
       "summary": "Visual ChatGPT in Parallel Discussion | Link",
       "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Switch",
+      "url": "https://www.producthunt.com/products/switch-11",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-08-27T04:57:54+00:00",
+      "summary": "Bring any AI agent into Slack, Teams & Discord. Open-source. Discussion | Link",
+      "tags": [
+        "AI Strategy",
         "AI Tools"
       ],
       "is_fallback": true
@@ -10586,186 +10735,6 @@
       "tags": [
         "AI Strategy",
         "AI Tools",
-        "Product Strategy"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "I Understood What a Branch Was.",
-      "url": "https://medium.com/design-bootcamp/i-understood-what-a-branch-was-fd76a6c95c47?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-06-10T07:47:04+00:00",
-      "summary": "The article reflects on the moment the author finally grasped the concept of a branch, using it as a metaphor for deeper technical literacy. It emphasizes that mastering the vocabulary is just the first step, and encourages readers to continue building on that foundation to improve their workflow and decision‑making.",
-      "tags": [
-        "AI Tools",
-        "Productivity",
-        "Product Culture"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Breaking Into Berlin Tech as a Junior Engineer",
-      "url": "https://medium.com/@akcaykamil09/breaking-into-berlin-tech-as-a-junior-engineer-cbe1a0bf338b?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-06-10T07:45:22+00:00",
-      "summary": "The article outlines ten recurring patterns that junior engineers encounter when navigating the Berlin tech scene, from initial outreach to post-offer onboarding. It highlights practical steps and mindset shifts that can help newcomers secure positions and succeed in their early careers.",
-      "tags": [
-        "Career",
-        "Growth",
-        "Product Strategy"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Product Management Case Study: ConversionAI",
-      "url": "https://medium.com/@gaiwansosa/product-management-case-study-conversionai-408f5c099f83?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-06-10T00:51:55+00:00",
-      "summary": "The case study details how ConversionAI, an AI-driven sales enablement platform, was built for mid-market SaaS firms to streamline B2B prospecting and improve conversion rates. It outlines the product vision, roadmap decisions, data collection methods, and the impact on revenue growth and sales team efficiency.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Growth"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "JMS Technical Solutions: Solutions Engineer / Network Automation Consultant (Python, Nautobot SaaS)",
-      "url": "https://weworkremotely.com/remote-jobs/jms-technical-solutions-solutions-engineer-network-automation-consultant-python-nautobot-saas-1",
-      "source": "We Work Remotely",
-      "type": "job",
-      "date": "2026-06-09T22:15:58+00:00",
-      "summary": "The role involves a client-facing Solutions Engineer who will design, implement, and support a SaaS network automation platform built on Nautobot, translating customer network challenges into API-driven automation. The position requires leading technical discussions, collaborating with customers, and delivering scalable solutions, blending software engineering with network operations. It’s a remote, full‑time contract role with compensation up to $70/hr.",
-      "tags": [
-        "Product Strategy",
-        "Platform Strategy",
-        "Leadership"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Kojo: Sales Development Representative",
-      "url": "https://weworkremotely.com/remote-jobs/kojo-sales-development-representative",
-      "source": "We Work Remotely",
-      "type": "job",
-      "date": "2026-06-09T22:15:58+00:00",
-      "summary": "Kojo is a fast‑growing construction technology startup that aims to simplify and reduce the cost of purchasing materials for commercial construction projects, a sector accounting for $10 trillion in global spend. By digitizing the procurement process, Kojo seeks to modernize an industry that has seen little innovation in decades, presenting significant product and growth opportunities for the team.",
-      "tags": [
-        "Product Strategy",
-        "Growth",
-        "Stakeholders"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Good Trails Don’t Happen by Accident. Neither Do Good Products.",
-      "url": "https://mattwallens.medium.com/good-trails-dont-happen-by-accident-neither-do-good-products-849427aa9de7?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-06-09T19:49:25+00:00",
-      "summary": "The article draws parallels between hiking and product development, emphasizing that successful trails—and successful products—require deliberate planning, continuous iteration, and responsiveness to changing conditions. It argues that product managers should treat product journeys like hikes: set clear goals, map out routes, gather feedback along the way, and adapt to obstacles to create lasting value.",
-      "tags": [
-        "Product Strategy",
-        "Leadership",
-        "Growth"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Claude Fable 5 review: what the new Mythos model gets right (and very wrong)",
-      "url": "https://www.lennysnewsletter.com/p/claude-fable-5-review-what-the-new",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-06-09T18:32:03+00:00",
-      "summary": "The article reviews Anthropic's new Claude Fable 5 (Mythos) model, highlighting its strengths such as improved contextual understanding and creativity, while pointing out significant shortcomings like inconsistent factual accuracy and higher latency. The author provides hands‑on test results and practical recommendations for product teams considering the model for real‑world applications.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Metrics"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "fort",
-      "url": "https://www.producthunt.com/products/fort-3",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-06-09T16:22:17+00:00",
-      "summary": "The article highlights a single command that can audit and automatically remediate macOS security settings, offering a rapid way to identify vulnerabilities and apply fixes. For product managers, this demonstrates the value of integrating simple, high‑impact security utilities directly into developer and user workflows to improve overall product safety and reduce maintenance overhead.",
-      "tags": [
-        "Product Strategy",
-        "Productivity",
-        "Leadership"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Essential books for product builders—part 2",
-      "url": "https://www.lennysnewsletter.com/p/essential-books-for-product-builderspart-611",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-06-09T13:11:29+00:00",
-      "summary": "The article lists 36 additional classic books that product builders should read to enhance their design, leadership, and personal growth skills. It highlights titles across strategy, creativity, and professional development, offering a curated reading roadmap for product managers aiming to deepen their expertise.",
-      "tags": [
-        "Product Strategy",
-        "Leadership",
-        "Product Culture"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Learning Together - All Things Product Podcast with Teresa Torres & Petra Wille",
-      "url": "https://www.producttalk.org/learning-together-all-things-product-podcast-with-teresa-torres-petra-wille/",
-      "source": "Product Talk",
-      "type": "article",
-      "date": "2026-06-09T13:00:28+00:00",
-      "summary": "Teresa Torres and Petra Wille discuss strategies for investing in a product team's professional development, weighing the merits of broad training programs versus self‑directed learning and hybrid approaches. They highlight how finding the right balance can boost team capability, engagement, and ultimately product outcomes.",
-      "tags": [
-        "Leadership",
-        "Product Culture",
-        "Growth"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "From vision to victory:  Build products sales can close fast",
-      "url": "https://www.productledalliance.com/build-products-sales-can-close-fast/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-06-09T12:00:22+00:00",
-      "summary": "The article emphasizes that a great product alone isn’t enough; it must be structured and positioned so that sales teams can quickly close deals. It outlines steps to align product development with sales enablement, ensuring fast time‑to‑revenue and market traction.",
-      "tags": [
-        "Product Strategy",
-        "Growth",
-        "Product Culture"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Who's speaking at Product-Led Festival  New York 2026?",
-      "url": "https://www.productledalliance.com/whos-speaking-at-product-led-festival-new-york/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-06-09T10:49:13+00:00",
-      "summary": "The article announces the lineup of product leaders who will be speaking at the interactive Product-Led Festival in New York on July 8, 2026. It encourages product professionals to attend the event to gain insights from top experts in product leadership and strategy.",
-      "tags": [
-        "Product Strategy",
-        "Leadership",
-        "Product Culture"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "The iPhone’s Last Stand",
-      "url": "https://stratechery.com/2026/the-iphones-last-stand/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-06-09T10:00:00+00:00",
-      "summary": "Summary not available.",
-      "tags": [
         "Product Strategy"
       ],
       "is_fallback": false
