@@ -1,7 +1,105 @@
 {
-  "updated": "2026-09-08T09:19:45.228745+00:00",
+  "updated": "2026-09-09T09:22:57.653131+00:00",
   "total": 847,
   "items": [
+    {
+      "title": "Kajabi. How Product Cannibalization Fueled a $2 Billion Flywheel",
+      "url": "https://medium.com/@Khomichenko/kajabi-how-product-cannibalization-fueled-a-2-billion-flywheel-bfedabda0654?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-09-09T09:09:10+00:00",
+      "summary": "A backyard sprinkler toy, a t-shirt strategy, and the month a startup discovered its ad spend was worthless. Here’s the story of Kajabi. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "I was in a 12-year relationship and it ended by email",
+      "url": "https://medium.com/@jogcaetano13/i-was-in-a-12-year-relationship-and-it-ended-by-email-e7388b065cee?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-09-09T09:01:01+00:00",
+      "summary": "When I read the announcement, the first thing I felt wasn’t consumer disappointment. It was that thing in your stomach when someone says… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Battery Management System Development India: Powering Smarter Electric Vehicles",
+      "url": "https://medium.com/@saracasolutions/battery-management-system-development-india-powering-smarter-electric-vehicles-19aaed255e7f?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-09-09T08:59:54+00:00",
+      "summary": "Introduction Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Facilitation Skills - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "url": "https://www.producttalk.org/facilitation-skills-all-things-product-with-teresa-torres-petra-wille/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-09-08T13:00:35+00:00",
+      "summary": "Listen to this episode on: Spotify | Apple Podcasts Conflict on a product team isn't a warning sign — the absence of it usually is. In this episode of All Things Product, Petra Wille and Teresa Torres tackle a question Teresa hears constantly: what should a product trio do",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "How we built Grok Bot in a month | Roman Ugarte (SpaceXAI)",
+      "url": "https://www.lennysnewsletter.com/p/how-we-built-grok-bot-in-a-month",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-09-08T12:31:49+00:00",
+      "summary": "Listen now | Roman Ugarte of SpaceXAI on going from first line of code to the world’s hottest AI product in seven weeks, and what it really takes to win in the most competitive market ever",
+      "tags": [
+        "AI Strategy",
+        "Competitive Analysis"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Building for desire,  not habit",
+      "url": "https://www.productledalliance.com/building-for-desire-not-habit/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-09-08T12:00:05+00:00",
+      "summary": "I spent years building for habit. Entertainment taught me to build for desire.",
+      "tags": [
+        "Product Culture"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Write Things Down",
+      "url": "https://stratechery.com/2026/write-things-down/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-09-08T10:00:00+00:00",
+      "summary": "Writing things down is powerful, for humans and for AI; what comes first, however, is what to write, why to do it, and actually getting things done.",
+      "tags": [
+        "Communication"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "OpenAI Researchers on the Future of Mathematical Reasoning",
+      "url": "https://a16z.simplecast.com/episodes/openai-researchers-on-the-future-of-mathematical-reasoning-Jn50EkyR",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-09-08T10:00:00+00:00",
+      "summary": "a16z Infra Partner Lisha Li sits down with OpenAI mathematicians Mehtaab Sawhney and Mark Sellke to discuss how quickly AI’s mathematical capabilities are advancing, what recent results reveal about model reasoning, and what happens when AI begins making progress on problems math...",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Best Travel Expense Tracking App",
       "url": "https://medium.com/@sharepay.marketing/best-travel-expense-tracking-app-945720da40d3?source=rss------product_management-5",
@@ -169,6 +267,18 @@
       "type": "article",
       "date": "2026-09-07T06:58:52+00:00",
       "summary": "Modular delivery can solve a real mobile problem. A regional service no longer has to wait behind a core payment release. A campaign can… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "GoModel",
+      "url": "https://www.producthunt.com/products/gomodel",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-09-06T19:52:57+00:00",
+      "summary": "Open-source OpenRouter Discussion | Link",
       "tags": [
         "Product Strategy"
       ],
@@ -726,6 +836,18 @@
       "type": "article",
       "date": "2026-09-02T05:12:22+00:00",
       "summary": "The easiest way to respond to a confused customer is to blame the customer. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "49agents IDE",
+      "url": "https://www.producthunt.com/products/49agents-ide",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-09-01T15:06:23+00:00",
+      "summary": "2D IDE for running agents across projects without fatigue Discussion | Link",
       "tags": [
         "Product Strategy"
       ],
@@ -10597,145 +10719,6 @@
         "AI Strategy",
         "Product Strategy",
         "Leadership"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Deep Dive: Evals-Driven CI/CD",
-      "url": "https://amyrmahdy.medium.com/deep-dive-evals-driven-ci-cd-d4c7db3d8663?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-06-11T07:31:52+00:00",
-      "summary": "The article examines how integrating evaluation-driven continuous integration and deployment (CI/CD) can eliminate manual bottlenecks, like a CTO's sole review, in fast-paced engineering teams. It highlights leveraging automated evals to accelerate releases, improve reliability, and free senior leaders to focus on higher‑level strategy.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Productivity"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Deep Dive: Why and How Betting Tables?",
-      "url": "https://amyrmahdy.medium.com/deep-dive-why-and-how-betting-tables-9cc19489007c?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-06-11T07:31:13+00:00",
-      "summary": "The article critiques traditional roadmaps as overpromised commitments and argues that agile sprint planning often turns into a negotiation of points rather than focused delivery. It introduces betting tables as a decision‑making framework that aligns teams around shared outcomes, prioritizes work based on measurable impact, and reduces the political frictions of sprint planning.",
-      "tags": [
-        "Product Strategy",
-        "Prioritization",
-        "Stakeholders"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Synopsule",
-      "url": "https://www.producthunt.com/products/synopsule",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-06-11T07:12:07+00:00",
-      "summary": "On device private AI meeting transcripts Discussion | Link",
-      "tags": [
-        "AI Strategy",
-        "Hardware Differentiation"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "The PM and PMM Divorce: Who Owns the Story Now?",
-      "url": "https://www.productcoalition.com/p/the-pm-and-pmm-divorce-who-owns-the",
-      "source": "Product Coalition",
-      "type": "article",
-      "date": "2026-06-11T02:37:33+00:00",
-      "summary": "The article traces the historical split between product managers (PMs) and product marketing managers (PMMs), showing how responsibilities for the product narrative have become fragmented. It argues that this division leads to incomplete storytelling and suggests re-aligning ownership to ensure a cohesive product message.",
-      "tags": [
-        "Product Strategy",
-        "Stakeholders",
-        "Communication"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "SpatialChat",
-      "url": "https://www.producthunt.com/products/spatialchat",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-06-10T18:13:58+00:00",
-      "summary": "The update introduces new spatial audio and interactive layout features to SpatialChat, enhancing user immersion and collaboration during virtual meetings. Product managers can leverage these capabilities to improve engagement metrics and differentiate the platform in the competitive virtual conferencing market.",
-      "tags": [
-        "Product Strategy",
-        "AI Tools",
-        "Growth"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Uber’s Simple Mode is a good step. But it’s not the right problem for Nigeria.",
-      "url": "https://iwalola.medium.com/ubers-simple-mode-is-a-good-step-but-it-s-not-the-right-problem-for-nigeria-4c6e7d2b69f9?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-06-10T14:50:00+00:00",
-      "summary": "Uber Nigeria launched Simple Mode, a simplified app interface aimed at elderly users with larger text and reduced features. While the effort shows attention to user experience, it may not address the core challenges of the Nigerian market, such as connectivity constraints and broader accessibility needs.",
-      "tags": [
-        "Product Strategy",
-        "User Research",
-        "Growth"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "When the problem isn’t the interface",
-      "url": "https://medium.com/@ghimpeteanuangi/when-the-problem-isnt-the-interface-434268d7431e?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-06-10T14:19:07+00:00",
-      "summary": "A case study reveals that a platform handling 70,000 certifications faced complaints about its user experience, but the root cause was not the interface itself. The investigation shows that underlying data quality, workflow constraints, and stakeholder expectations were driving the perceived UX issues, underscoring the need for product managers to look beyond surface design when diagnosing problems.",
-      "tags": [
-        "Product Design",
-        "User Research",
-        "Product Strategy"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Most Package Hacks Get in the Same Way: How I Block Common Entry Points",
-      "url": "https://www.producttalk.org/package-hacks-installer-settings/",
-      "source": "Product Talk",
-      "type": "article",
-      "date": "2026-06-10T13:00:45+00:00",
-      "summary": "The article explains how most supply‑chain package hacks exploit a handful of common entry points, and shows that product teams can significantly reduce exposure by applying a few key configuration settings. By proactively hardening these vectors, managers can protect their platforms without needing major architectural overhauls, turning a security concern into a manageable operational practice.",
-      "tags": [
-        "Product Strategy",
-        "Leadership",
-        "Risk"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "CrustRecruiter",
-      "url": "https://www.producthunt.com/products/crustdata-2",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-06-10T11:49:14+00:00",
-      "summary": "The article introduces CrustRecruiter, a tool that leverages Claude to act as a personalized recruiter, mirroring the hiring intuition and preferences of the user. It explains how the AI can streamline candidate sourcing, screening, and communication, allowing product teams to focus on higher‑level strategic hiring decisions.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Growth"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Fable 5, Anthropic Alignment, AI Tiers",
-      "url": "https://stratechery.com/2026/fable-5-anthropic-alignment-ai-tiers/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-06-10T10:00:00+00:00",
-      "summary": "Fable 5, the public release of Anthropic's Mythos model, demonstrates impressive capabilities but raises concerns about the standards it sets for AI alignment and safety. Product managers need to weigh the trade‑offs between rapid feature rollout and responsible AI governance when integrating such powerful tools into their products.",
-      "tags": [
-        "AI Strategy",
-        "AI Tools",
-        "Product Strategy"
       ],
       "is_fallback": false
     }
