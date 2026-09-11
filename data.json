@@ -1,7 +1,124 @@
 {
-  "updated": "2026-09-10T09:21:43.341941+00:00",
+  "updated": "2026-09-11T09:20:38.307905+00:00",
   "total": 844,
   "items": [
+    {
+      "title": "Your Backlog Is Becoming Executable. It Needs a Type System.",
+      "url": "https://3l.taha.one/ai-product-backlog-type-system-1b269e8a71fa?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-09-11T09:15:32+00:00",
+      "summary": "AI agents can execute product intent. The hard part is making sure they can tell evidence, assumptions, decisions, and requirements apart. Continue reading on Lead, Laugh, Learn »",
+      "tags": [
+        "AI Strategy",
+        "AI Tools",
+        "Prioritization"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Your Backlog Is Becoming Executable. It Needs a Type System.",
+      "url": "https://3l.taha.one/ai-product-backlog-type-system-1b269e8a71fa?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-09-11T09:15:32+00:00",
+      "summary": "AI agents can execute product intent. The hard part is making sure they can tell evidence, assumptions, decisions, and requirements apart. Continue reading on Lead, Laugh, Learn »",
+      "tags": [
+        "AI Strategy",
+        "AI Tools",
+        "Prioritization"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Best Expense Tracker Is the One You’ll Actually Use",
+      "url": "https://medium.com/@anvayasharma509/the-best-expense-tracker-is-the-one-youll-actually-use-b43b6fdbe2ac?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-09-11T09:13:59+00:00",
+      "summary": "I have tried every reasonable way to track my expenses. Dedicated budgeting apps. Notion templates. Spreadsheets with color-coded… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Netflix Flywheel: How Data, Not Design, Keeps 90% of Subscribers From Leaving",
+      "url": "https://medium.com/@streamit.tech/the-netflix-flywheel-how-data-not-design-keeps-90-of-subscribers-from-leaving-4ffdd9adb673?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-09-11T04:01:04+00:00",
+      "summary": "Everyone Copies Netflix’s Homepage. Nobody Copies the System Behind It. Streamit.tech Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Moji",
+      "url": "https://www.producthunt.com/products/moji-2",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-09-11T02:58:28+00:00",
+      "summary": "Open Markdown files like PDFs. Discussion | Link",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "GLYPH Immersive",
+      "url": "https://www.producthunt.com/products/glyph-immersive",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-09-10T20:57:20+00:00",
+      "summary": "a free tool for modular grid lettering Discussion | Link",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Coaching.com: Membership Coordinator",
+      "url": "https://weworkremotely.com/remote-jobs/coaching-com-membership-coordinator-1",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-09-10T19:39:20+00:00",
+      "summary": "Headquarters: United States URL: https://coaching.com Membership Coordinator GENERAL INFORMATION Department Membership Reporting to Membership Manager & Director Start Date Immediate Salary US$28,000.00/annually IS THIS YOU? Do your friends and family consistently come to you for...",
+      "tags": [
+        "Career",
+        "Communication",
+        "Platform Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The iPhone Duo, The Intelligent Personal Hub, Apple Watch Audio Intelligence",
+      "url": "https://stratechery.com/2026/the-iphone-duo-the-intelligent-personal-hub-apple-watch-audio-intelligence/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-09-10T10:00:00+00:00",
+      "summary": "Apple once again demonstrated the power of integrating hardware and software, but it's biggest AI blindspot might be its belief in the primacy of apps.",
+      "tags": [
+        "AI Strategy",
+        "Hardware Differentiation"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "How AI Is Rewriting the Power Law of Venture Capital",
+      "url": "https://a16z.simplecast.com/episodes/aram-x-jen-x-dg-draft-dXGKJks2",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-09-10T10:00:00+00:00",
+      "summary": "a16z’s Jen Kha and David George sit down with Accolade Partners’ Aram Verdiyan to discuss how AI is changing the power law of technology investing, why the largest companies can compound advantages in ways that weren’t possible before, and what that means for how investors constr...",
+      "tags": [
+        "AI Strategy",
+        "Communication",
+        "Growth"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "I Gave Google AI Studio a Product Idea.",
       "url": "https://devdeejay.medium.com/i-gave-google-ai-studio-a-product-idea-252d472e86a9?source=rss------product_management-5",
@@ -10561,114 +10678,6 @@
         "Metrics"
       ],
       "is_fallback": false
-    },
-    {
-      "title": "Releasely",
-      "url": "https://www.producthunt.com/products/releasely",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-06-13T08:50:58+00:00",
-      "summary": "Three changelogs from every release -for indie SaaS founders Discussion | Link",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Google Project Aristotle",
-      "url": "https://medium.com/@sanchib888/google-project-aristotle-052104eba6ee?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-06-13T08:09:00+00:00",
-      "summary": "Why the best teams aren’t made of the best people — and what actually makes teams work Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Where Great Products Begin: The Story Behind Product Design",
-      "url": "https://medium.com/@NebiyatH/where-great-products-begin-the-story-behind-product-design-4d50e5ecbf85?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-06-13T07:51:17+00:00",
-      "summary": "Every product starts with excitement. Continue reading on Medium »",
-      "tags": [
-        "Product Design"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "NomNak",
-      "url": "https://www.producthunt.com/products/nomnak",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-06-12T19:35:34+00:00",
-      "summary": "Find restaurants through people you trust Discussion | Link",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "2026.24: Hey Siri, Tell Me a Fable",
-      "url": "https://stratechery.com/2026/hey-siri-tell-me-a-fable/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-06-12T17:00:00+00:00",
-      "summary": "The best Stratechery content from the week of June 8, 2026, including Apple finally shipping Intelligence, Anthropic's fable, and the future of European industry.",
-      "tags": [
-        "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Accessibility Resolution Playbook",
-      "url": "https://www.productledalliance.com/accessibility-resolution-playbook/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-06-12T14:55:16+00:00",
-      "summary": "Download the Accessibility Resolution Playbook: a practical guide to fixing digital accessibility issues faster, preventing them from coming back, and building a process your team can repeat.",
-      "tags": [
-        "Product Culture"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "My CEO’s One-Sentence Rule for What to Build Next (I’ve Used It Every Sprint Since)",
-      "url": "https://medium.com/@speed_enginner/my-ceos-one-sentence-rule-for-what-to-build-next-i-ve-used-it-every-sprint-since-49ab58113355?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-06-12T14:01:03+00:00",
-      "summary": "It deleted half our roadmap in one meeting. The half that survived is the only half that ever moved a number. Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "What are the different types of  product roadmap?",
-      "url": "https://www.productledalliance.com/how-can-you-choose-the-right-product-roadmap-for-your-team/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-06-12T11:30:00+00:00",
-      "summary": "Finding the right roadmap can be tricky as it depends on your product, your team, and who is going to be viewing your roadmap. To simplify things here’s some guidance on how to select the right product roadmap for your team.",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Avatars in ElevenCreative",
-      "url": "https://www.producthunt.com/products/avatars-in-elevencreative",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-06-12T10:07:28+00:00",
-      "summary": "A dedicated entry point for talking-head video Discussion | Link",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
     }
   ]
 }
