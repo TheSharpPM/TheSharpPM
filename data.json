@@ -1,7 +1,109 @@
 {
-  "updated": "2026-09-11T09:20:38.307905+00:00",
-  "total": 844,
+  "updated": "2026-09-12T09:01:34.851994+00:00",
+  "total": 845,
   "items": [
+    {
+      "title": "Miro and Atomic Product-Market Fit",
+      "url": "https://rbefored.com/miro-and-atomic-product-market-fit-56db5f1a6d12?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-09-12T08:30:46+00:00",
+      "summary": "Miro had PMF, right? But then they just sold for a fraction of an earlier valuation. Why? How? The answer is in my Atomic PMF model. Continue reading on Delta CX Hive »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Miro and Atomic Product-Market Fit",
+      "url": "https://rbefored.com/miro-and-atomic-product-market-fit-56db5f1a6d12?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-09-12T08:30:46+00:00",
+      "summary": "Miro had PMF, right? But then they just sold for a fraction of an earlier valuation. Why? How? The answer is in my Atomic PMF model. Continue reading on Delta CX Hive »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Stop Asking What Your Agent Can Do. Ask What It Has Earned.",
+      "url": "https://medium.com/design-bootcamp/stop-asking-what-your-agent-can-do-ask-what-it-has-earned-cd1aacd0ca1f?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-09-12T08:29:50+00:00",
+      "summary": "We keep asking what AI agents can do. The harder question is what they have earned the right to do without us. Continue reading on Bootcamp »",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Discovery is a way to avoid deciding.",
+      "url": "https://medium.com/@productguyy/discovery-is-a-way-to-avoid-deciding-88d29eeb53ec?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-09-11T21:28:09+00:00",
+      "summary": "Every modern product manager has been taught the gospel of continuous discovery: Talk to users. Run interviews. Validate hypotheses. Build… Continue reading on Medium »",
+      "tags": [
+        "Career"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "GeoPro Labs Inc: Head of Operations - Shopify App Portfolio",
+      "url": "https://weworkremotely.com/remote-jobs/geopro-labs-inc-head-of-operations-shopify-app-portfolio",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-09-11T19:55:10+00:00",
+      "summary": "Headquarters: Victoria, British Columbia, Canada URL: https://geoproapp.com The opportunity I'm looking for an experienced operator to take ownership of a portfolio of three established Shopify apps with a combined ARR of approximately $1.87M. The portfolio includes: Geo:Pro: Geo...",
+      "tags": [
+        "Prioritization",
+        "Career",
+        "Communication"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "2026.37: Duo Threats",
+      "url": "https://stratechery.com/2026/duo-threats/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-09-11T17:00:00+00:00",
+      "summary": "The best Stratechery content from the week of September 7, 2026, including the arrival of the Duo, AI that benefits humanity, and closing the book on a catastrophe.",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Strong Opinions, Loosely Held",
+      "url": "https://www.svpg.com/strong-opinions-loosely-held/",
+      "source": "SVPG",
+      "type": "article",
+      "date": "2026-09-11T14:56:15+00:00",
+      "summary": "Note: This is the narrative version of a keynote talk for the Lenny & Friends Summit. Recently I was asked a question that I haven’t been able to get out of my head: “In light of all that has changed, what are the things that you used to argue were true, that you no longer... The...",
+      "tags": [
+        "Communication",
+        "Hardware Differentiation"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "What It Takes to Build a Startup | Andrew Chen & Matt Perault",
+      "url": "https://a16z.simplecast.com/episodes/what-it-takes-to-build-a-startup-andrew-chen-matt-perault-ihdfyK_8",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-09-11T10:00:00+00:00",
+      "summary": "a16z’s Matt Perault sits down with General Partner and Speedrun lead Andrew Chen on the a16z AI Policy Brief to explore what “Little Tech” actually looks like at the earliest stages, and why the realities of building a two- or three-person startup are often missing from policy de...",
+      "tags": [
+        "Compliance",
+        "AI Strategy",
+        "Platform Strategy"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Your Backlog Is Becoming Executable. It Needs a Type System.",
       "url": "https://3l.taha.one/ai-product-backlog-type-system-1b269e8a71fa?source=rss------product_management-5",
@@ -609,6 +711,18 @@
         "AI Strategy",
         "Community",
         "Pricing"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Cortex",
+      "url": "https://www.producthunt.com/products/cortex-25",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-09-05T10:05:18+00:00",
+      "summary": "Turn API specs into docs, SDKs, and MCP servers Discussion | Link",
+      "tags": [
+        "Platform Strategy"
       ],
       "is_fallback": true
     },
@@ -3053,6 +3167,18 @@
       "type": "trend",
       "date": "2026-08-14T08:42:54+00:00",
       "summary": "Don't let your work go unnoticed. Get promoted! Discussion | Link",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Youkti",
+      "url": "https://www.producthunt.com/products/youkti",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-08-14T07:50:59+00:00",
+      "summary": "Finds who's ready to buy, then tells you what to do next Discussion | Link",
       "tags": [
         "Product Strategy"
       ],
@@ -10552,132 +10678,6 @@
         "Product Strategy"
       ],
       "is_fallback": true
-    },
-    {
-      "title": "How to Disagree Well in a Hierarchy",
-      "url": "https://medium.com/@alex_86019/how-to-disagree-well-in-a-hierarchy-d5ba760002f1?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-06-14T08:06:00+00:00",
-      "summary": "The article explains how senior professionals develop the crucial but rarely taught skill of constructive disagreement within hierarchical structures. It offers practical techniques for voicing dissent respectfully, ensuring ideas are heard without damaging relationships or authority dynamics.",
-      "tags": [
-        "Leadership",
-        "Communication",
-        "Product Culture"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "The Anatomy of Vision, Mission and a binding force that builds your Compass.",
-      "url": "https://medium.com/@praveen.sunkara8634/the-anatomy-of-vision-mission-and-a-binding-force-that-builds-your-compass-5a932a74dbf7?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-06-14T07:33:17+00:00",
-      "summary": "The article breaks down how vision, mission, and a unifying force combine to create a strategic compass for product teams. It explains the roles each component plays in guiding decision‑making and aligning stakeholders around a shared purpose. By articulating these elements clearly, product leaders can steer development toward long‑term impact.",
-      "tags": [
-        "Product Strategy",
-        "Leadership",
-        "Product Culture"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Slashy",
-      "url": "https://www.producthunt.com/products/slashy-3",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-06-14T04:38:45+00:00",
-      "summary": "Slashy is an AI-driven assistant that automates email composition and management, allowing users to delegate routine email tasks to the AI. For product managers, the tool highlights opportunities to integrate AI into productivity workflows and improve user engagement by reducing friction in communication.",
-      "tags": [
-        "AI Tools",
-        "Productivity",
-        "Product Strategy"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "🔮 Exponential View #578: Fable & time to pause AI; iPhone vs babies; gene therapy, bad CEOs & Chinese Gen Z++",
-      "url": "https://www.exponentialview.co/p/ev-578",
-      "source": "Exponential View",
-      "type": "trend",
-      "date": "2026-06-14T03:30:55+00:00",
-      "summary": "The article explores the rapid escalation of AI hype, urging product leaders to pause and assess long‑term implications before overcommitting resources. It also draws parallels between the disruptive impact of the iPhone on consumer behavior and emerging trends such as gene therapy, while highlighting pitfalls of bad CEO decisions and shifting preferences of Chinese Gen Z.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Leadership"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "🧠 Community Wisdom: How AI is changing product operating models, tracking work stress with Whoop, whether you need a portfolio of AI side projects, marketing for tiny teams, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-how-ai-is-changing",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-06-13T20:54:15+00:00",
-      "summary": "The article explores how AI is reshaping product operating models and introduces tools like Whoop for monitoring work stress. It also discusses the value of maintaining a portfolio of AI side projects, strategies for marketing with small teams, and other product leadership insights.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Leadership"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Cloudback for Linear",
-      "url": "https://www.producthunt.com/products/cloudback",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-06-13T19:00:47+00:00",
-      "summary": "Cloudback introduces automated backup and restore capabilities for Linear workspaces, ensuring that teams can securely preserve their project data and quickly recover from accidental deletions or data loss. The feature integrates directly into Linear, offering a seamless experience for users to schedule backups and initiate restores without leaving the platform.",
-      "tags": [
-        "Product Strategy",
-        "Productivity",
-        "Platform Strategy"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "AI Innovation Explained: How the Fuzzy Front End Turns Product Ideas Into Smart Business Bets",
-      "url": "https://medium.com/data-and-beyond/ai-innovation-explained-how-the-fuzzy-front-end-turns-product-ideas-into-smart-business-bets-ff7acae5651f?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-06-13T18:59:59+00:00",
-      "summary": "The article outlines how applying a structured fuzzy front end (FFE) to AI initiatives helps product teams translate vague concepts into well‑defined business cases and prioritized portfolios. By using FFE techniques, managers can make smarter, data‑driven decisions that align AI ideas with strategic goals and measurable outcomes.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Metrics"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "The Architecture Is the Product",
-      "url": "https://medium.com/@LakshmiNarayana_U/the-architecture-is-the-product-2b970ac5c657?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-06-13T13:26:29+00:00",
-      "summary": "The article explores how dissecting a modest $50 AI script analyzer reveals essential principles for architecting AI solutions across diverse domains. It underscores that the underlying architecture, rather than just the model, determines scalability, adaptability, and product success in AI development.",
-      "tags": [
-        "AI Strategy",
-        "AI Tools",
-        "Product Strategy"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "‼️ A blueprint for managed decline",
-      "url": "https://www.exponentialview.co/p/would-anyone-vote-for-01-growth",
-      "source": "Exponential View",
-      "type": "trend",
-      "date": "2026-06-13T10:42:44+00:00",
-      "summary": "The article draws parallels between Piketty’s economic insights and George Orwell’s allegory to illustrate how organizations can intentionally manage decline rather than fight it futilely. It highlights strategic steps—recognizing unsustainable growth, redefining success metrics, and reallocating resources—to transition smoothly toward a leaner, more sustainable operational model.",
-      "tags": [
-        "Product Strategy",
-        "Leadership",
-        "Metrics"
-      ],
-      "is_fallback": false
     }
   ]
 }
