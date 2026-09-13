@@ -1,7 +1,94 @@
 {
-  "updated": "2026-09-12T09:01:34.851994+00:00",
-  "total": 845,
+  "updated": "2026-09-13T09:58:00.678510+00:00",
+  "total": 849,
   "items": [
+    {
+      "title": "What Companies Gain and Lose by Implementing AI: A 3–5 Year Horizon",
+      "url": "https://medium.com/@avgrudin_14459/what-companies-gain-and-lose-by-implementing-ai-a-3-5-year-horizon-6a9df322a7fe?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-09-13T09:43:40+00:00",
+      "summary": "AI lowers the cost of production. It raises the cost of trust, verification, and meaning. Continue reading on Medium »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🔮 Look up, the curve turned #601",
+      "url": "https://www.exponentialview.co/p/ev-601",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-09-13T09:35:42+00:00",
+      "summary": "On the economy, Navier–Stokes & safety concerns",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "A Shopping Cart Has to Speak the Store’s Language",
+      "url": "https://medium.com/@rentshelf/a-shopping-cart-has-to-speak-the-stores-language-fe6a84ad0ccb?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-09-13T09:35:32+00:00",
+      "summary": "What rental metadata taught us about localization beyond the visible date picker Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Good Enough Is a Strategy",
+      "url": "https://aditi-agrawal.medium.com/good-enough-is-a-strategy-b0e78b3b7ec9?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-09-13T06:49:26+00:00",
+      "summary": "I once sat in a review and argued to ship something with a feature still missing. Someone across the table told me we’d regret it. I’ve… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "&",
+      "url": "https://medium.com/@mernasamuel477/-bfd9d937a3a0?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-09-13T06:01:01+00:00",
+      "summary": "نجاح المنتجات الرقمية مش مرهون بقدرتها على لفت الانتباه Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🧠 Community Wisdom: AI basketball coaching, Jira vs. Linear, building a business case for platform teams, favorite AI use cases, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-ai-basketball-coaching",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-09-12T17:45:34+00:00",
+      "summary": "Community Wisdom 298",
+      "tags": [
+        "AI Strategy",
+        "Community",
+        "Platform Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Why Companies Are Becoming a Series of Loops | Anish Acharya on Lenny’s Podcast",
+      "url": "https://a16z.simplecast.com/episodes/why-companies-are-becoming-a-series-of-loops-anish-acharya-on-lennys-podcast-ZW9GBD70",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-09-12T10:00:00+00:00",
+      "summary": "a16z General Partner Anish Acharya joins Lenny Rachitsky on Lenny’s Podcast to discuss why fears of an AI-driven “permanent underclass” may be misplaced, how AI is changing the way companies operate, and why the opportunity may be less about replacing people and more about dramat...",
+      "tags": [
+        "AI Strategy",
+        "Productivity"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Miro and Atomic Product-Market Fit",
       "url": "https://rbefored.com/miro-and-atomic-product-market-fit-56db5f1a6d12?source=rss------product_management-5",
@@ -36,6 +123,18 @@
       "tags": [
         "AI Strategy",
         "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Resurf",
+      "url": "https://www.producthunt.com/products/resurf-2",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-09-11T21:36:08+00:00",
+      "summary": "A Personal Context App Discussion | Link",
+      "tags": [
+        "Product Strategy"
       ],
       "is_fallback": true
     },
@@ -352,6 +451,20 @@
       "summary": "Introduction Continue reading on Medium »",
       "tags": [
         "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Perplexity Hybrid Compute",
+      "url": "https://www.producthunt.com/products/perplexity-ai",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-09-09T06:18:58+00:00",
+      "summary": "Splitting AI tasks: Cloud for research, Mac for privacy Discussion | Link",
+      "tags": [
+        "AI Strategy",
+        "AI Tools",
+        "Privacy"
       ],
       "is_fallback": true
     },
@@ -10613,69 +10726,6 @@
       "summary": "Anthropic's belief in its own commitment to safety gives the company license to aggressively favor its business and even challenge the U.S. government.",
       "tags": [
         "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "A dissection of Higgsfield’s initial conversion funnel",
-      "url": "https://medium.com/@jualonsopo/a-dissection-of-higgsfields-initial-conversion-funnel-ce9790596b9d?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-06-15T07:50:19+00:00",
-      "summary": "The same tactics as Temu, but with silk gloves. A dissection — lever by lever — of how I almost paid several hundred euros without… Continue reading on Medium »",
-      "tags": [
-        "Growth"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Load Nova",
-      "url": "https://www.producthunt.com/products/load-nova",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-06-15T06:16:58+00:00",
-      "summary": "An AI co-pilot and dashboard built for dispatcher speed Discussion | Link",
-      "tags": [
-        "AI Strategy",
-        "Metrics"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Category Life Cycle Strategy: How to Win at Every Market Stage",
-      "url": "https://medium.com/activated-thinker/category-life-cycle-strategy-how-to-win-at-every-market-stage-3949628053f1?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-06-15T03:48:58+00:00",
-      "summary": "Why Most Brands Fail by Ignoring Category Life Cycles Continue reading on Activated Thinker »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "The hidden pattern behind successful products | Mark Pincus (founder of Zynga)",
-      "url": "https://www.lennysnewsletter.com/p/the-common-pattern-behind-successful",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-06-14T12:31:44+00:00",
-      "summary": "Mark Pincus argues that founders often trust their instincts but miss the mark with their ideas, introducing the \"Proven, Better, New\" framework to evaluate product concepts against what already works, what can be improved, and truly novel solutions. He emphasizes disciplined testing and realistic market validation, lessons he now shares with his children to instill pragmatic product thinking.",
-      "tags": [
-        "Product Strategy",
-        "Leadership",
-        "Product Culture"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Why Your Next Pivot Costs More Than You Think",
-      "url": "https://www.productcoalition.com/p/the-pivot-tax-what-changing-direction",
-      "source": "Product Coalition",
-      "type": "article",
-      "date": "2026-06-14T12:21:59+00:00",
-      "summary": "Five Hidden Costs of Changing Direction That Never Make It Onto the Spreadsheet",
-      "tags": [
-        "Product Strategy"
       ],
       "is_fallback": true
     }
