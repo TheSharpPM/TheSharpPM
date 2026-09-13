@@ -1,6 +1,11 @@
 {
   "editions": [
     {
+      "date": "2026-09-13",
+      "headline_theme": "Cut the AI Hype, Double Down on Rigorous Experiments",
+      "file": "agent/2026-09-13.json"
+    },
+    {
       "date": "2026-09-06",
       "headline_theme": "AI Evaluation Over Hype: The New Non‑Negotiable",
       "file": "agent/2026-09-06.json"
@@ -106,5 +111,5 @@
       "file": "agent/2026-05-03.json"
     }
   ],
-  "updated_at": "2026-09-06T11:42:17.274591+00:00"
+  "updated_at": "2026-09-13T12:45:08.617748+00:00"
 }

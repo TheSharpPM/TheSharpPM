@@ -1,0 +1,48 @@
+{
+  "edition": "2026-09-13",
+  "headline_theme": "Cut the AI Hype, Double Down on Rigorous Experiments",
+  "target_audience": "Lead/Principal PM",
+  "hook_source": "Stratechery",
+  "editorial": "Ben Thompson’s latest Stratechery memo, “2026.37: Duo Threats,” sounds the alarm that the AI market is coalescing around two megastructures, squeezing out the middle‑ground innovators. The message is crystal: if you’re not already feeling the weight of AI fatigue, you’ll soon be drowning in a sea of half‑baked features that promise miracles and deliver nothing. The memo isn’t a call to abandon AI; it’s a warning that unchecked optimism will erode trust across product, engineering, and the boardroom.\n\nThe $229 billion AI revenue figure from Exponential View’s roundup underscores why the pressure is real—money is flowing, but it’s funneled into a handful of platforms that dominate the pipeline. Meanwhile, Product Talk’s “AI Evals: A Hands‑On Guide for Product Teams” shows that the only way to sift signal from noise is a disciplined, data‑first evaluation framework. When you pair the market’s sheer scale with a robust eval process, you get a competitive edge that isn’t based on hype. The alternative, championed in Lenny’s Newsletter piece “How I AI: GPT‑6 Astra is a banger + Stripe’s AI playbook + Grok Bot,” is a glossy showcase of cutting‑edge demos that sidestep rigorous validation. That optimism is seductive, but it blinds senior product leaders to the hidden cost of churn, technical debt, and stakeholder fatigue.\n\nFor Lead/Principal PMs, the mandate is clear: you must become the gatekeeper of AI ambition. Align your roadmap with concrete ROI checkpoints, demand transparent success criteria before green‑lighting any model, and use the AI eval playbook to institutionalize post‑launch reviews. Your influence over budget allocations and cross‑functional priorities means you can halt a runaway experiment before it erodes credibility. In a landscape where two giants dominate the narrative, your disciplined stance will be the differentiator that keeps your organization moving forward, not stuck in a loop of perpetual hype.",
+  "key_takeaways": [
+    "The AI market’s $229 billion valuation masks a concentration risk that threatens mid‑size innovators.",
+    "AI fatigue is a real productivity drain; unchecked hype erodes cross‑team trust.",
+    "Rigorous evaluation frameworks like AI Evals turn noisy experiments into actionable intelligence.",
+    "Optimistic showcase pieces often skip critical validation, leading to hidden technical debt.",
+    "Lead PMs must embed ROI checkpoints and post‑launch reviews to protect organizational bandwidth."
+  ],
+  "must_reads": [
+    {
+      "source": "Stratechery",
+      "title": "2026.37: Duo Threats",
+      "url": "https://stratechery.com/2026/duo-threats/",
+      "why": "Thompson’s analysis of the emerging AI duopoly forces product leaders to confront a market that rewards scale over novelty, making blind experimentation a liability."
+    },
+    {
+      "source": "Exponential View",
+      "title": "AI revenue hit $229 billion",
+      "url": "https://www.exponentialview.co/p/ai-revenue-hit-229-billion",
+      "why": "A $229 billion AI revenue figure forces product leaders to justify every model with hard ROI, or risk being swallowed by the duopoly."
+    },
+    {
+      "source": "Product Talk",
+      "title": "AI Evals: A Hands‑On Guide for Product Teams",
+      "url": "https://www.producttalk.org/ai-evals/",
+      "why": "Product teams that adopt this framework stop treating AI experiments as guesswork and start treating them as measurable product bets."
+    }
+  ],
+  "contrarian": {
+    "note": "Celebrates rapid AI feature launches without rigorous validation, challenging the editorial’s call for disciplined experimentation.",
+    "source": "Lenny's Newsletter",
+    "title": "How I AI: GPT‑6 Astra is a banger + Stripe’s AI playbook + Grok Bot",
+    "url": "https://www.lennysnewsletter.com/p/how-i-ai-gpt-6-astra-is-a-banger"
+  },
+  "also_worth": [],
+  "pm_homework": [
+    "Audit your current AI experiment backlog and tag each with a clear, quantifiable success metric before the next sprint.",
+    "Implement a mandatory post‑mortem using the AI Evals framework for any model that moves to production this quarter.",
+    "Present a concise ROI forecast for each AI initiative to the executive team, highlighting potential fatigue costs."
+  ],
+  "generated_at": "2026-09-13T12:45:08.617514+00:00",
+  "model_used": "openai/gpt-oss-120b"
+}
