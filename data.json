@@ -1,7 +1,121 @@
 {
-  "updated": "2026-09-13T09:58:00.678510+00:00",
-  "total": 849,
+  "updated": "2026-09-14T10:17:09.815154+00:00",
+  "total": 843,
   "items": [
+    {
+      "title": "Pacing the Frontier, AI’s Digital Limits, AI Commissars",
+      "url": "https://stratechery.com/2026/pacing-the-frontier-ais-digital-limits-ai-commissars/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-09-14T10:00:00+00:00",
+      "summary": "Dario Amodei wants to pace the frontier; it's an unrealistic proposal that seems mostly geared to political control of AI.",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Greg Brockman on Why OpenAI Says We’re Entering the AGI Era",
+      "url": "https://a16z.simplecast.com/episodes/greg-brockman-on-why-openai-says-were-entering-the-agi-era-deKod42i",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-09-14T10:00:00+00:00",
+      "summary": "Ben Horowitz and Erik Torenberg sit down with OpenAI co-founder and President Greg Brockman to discuss why he believes AI has entered a new phase, what OpenAI’s latest models reveal about the path to AGI, and the safety and security challenges that come with increasingly capable",
+      "tags": [
+        "AI Strategy",
+        "AI Tools",
+        "Security"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "📈 Anthropic’s $517 billion shopping list",
+      "url": "https://www.exponentialview.co/p/monday-data-14-09-2026",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-09-14T09:52:14+00:00",
+      "summary": "Plus: $300 billion chip subsidies, no jobs; a learning slump; AI decodes bio++",
+      "tags": [
+        "AI Strategy",
+        "AI Tools",
+        "Hardware Differentiation"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Journey into Product Management",
+      "url": "https://medium.com/@olaleyefiyinfoluwa6/journey-into-product-management-1fba2579677d?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-09-14T09:44:18+00:00",
+      "summary": "The thought of pursuing it clung tightly to me, so I gave it another shot this year, and I got in. So, after several years of trying to… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Our Downloads Looked Great in the Deck. Our DAU/MAU Ratio Told the Real Story",
+      "url": "https://medium.com/@gmtasoftware/our-downloads-looked-great-in-the-deck-our-dau-mau-ratio-told-the-real-story-3ff728d05ab3?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-09-14T09:39:51+00:00",
+      "summary": "Maya Chen had the download numbers every seed-stage founder wants in a pitch deck. Ledgerly, her personal budgeting app, was adding users… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Home Depot",
+      "url": "https://www.acquired.fm/episodes/home-depot",
+      "source": "Acquired",
+      "type": "podcast",
+      "date": "2026-09-14T03:35:03+00:00",
+      "summary": "Home Depot's founding story is like an Avengers movie… if the Avengers got fired, went broke, and stacked empty paint cans ten feet high to look legitimate. After being unceremoniously fired from their previous hardware chain at ages 48 and 35, Bernie Marcus and Arthur Blank took...",
+      "tags": [
+        "Career",
+        "AI Tools",
+        "Competitive Analysis"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Slashy Assistant",
+      "url": "https://www.producthunt.com/products/slashy-3",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-09-14T02:52:46+00:00",
+      "summary": "The AI assistant that does email for you Discussion | Link",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Discovery is a way to avoid deciding.",
+      "url": "https://medium.com/analysts-corner/discovery-is-a-way-to-avoid-deciding-ee67027ba351?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-09-13T15:36:22+00:00",
+      "summary": "Every modern product manager has been taught the gospel of continuous discovery: Talk to users. Run interviews. Validate hypotheses. Build… Continue reading on Analyst’s corner »",
+      "tags": [
+        "Career"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "World Models, Robotics, and the Future of 3D AI",
+      "url": "https://a16z.simplecast.com/episodes/world-models-robotics-and-the-future-of-3d-ai-mGOuUHi0",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-09-13T10:00:00+00:00",
+      "summary": "World Labs co-founder Justin Johnson joins MTS hosts Theo Jaffee and Sophia Puccini to discuss Atlas, World Labs’ latest world model, and the broader case for AI systems that understand and interact with the physical world. Justin explains how Atlas approaches three core tasks: g...",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "What Companies Gain and Lose by Implementing AI: A 3–5 Year Horizon",
       "url": "https://medium.com/@avgrudin_14459/what-companies-gain-and-lose-by-implementing-ai-a-3-5-year-horizon-6a9df322a7fe?source=rss------product_management-5",
@@ -35,6 +149,18 @@
       "summary": "What rental metadata taught us about localization beyond the visible date picker Continue reading on Medium »",
       "tags": [
         "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Marqly 6.0",
+      "url": "https://www.producthunt.com/products/marqly",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-09-13T08:34:52+00:00",
+      "summary": "Ask your bookmarks. Bring them to your AI. Discussion | Link",
+      "tags": [
+        "AI Strategy"
       ],
       "is_fallback": true
     },
@@ -10518,216 +10644,6 @@
         "Leadership"
       ],
       "is_fallback": false
-    },
-    {
-      "title": "Honestly",
-      "url": "https://www.producthunt.com/products/honestly",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-06-16T10:10:37+00:00",
-      "summary": "The article aggregates authentic user feedback from Reddit and TikTok to reveal candid opinions about your product, highlighting both praise and pain points. Analyzing this raw sentiment can guide product improvements, identify unmet needs, and inform roadmap prioritization. Leveraging these platforms as real-time research channels helps you stay aligned with your audience and iterate faster.",
-      "tags": [
-        "User Research",
-        "Product Strategy",
-        "Growth"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Fox Buys Roku, The Problem With Fox’s Smart Strategy, Streaming That Works",
-      "url": "https://stratechery.com/2026/fox-buys-roku-the-problem-with-foxs-smart-strategy-streaming-that-works/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-06-16T10:00:00+00:00",
-      "summary": "Fox's acquisition of Roku has sparked market backlash, as analysts see the move as a risky shift from content licensing to leveraging streaming distribution assets. The deal could turn Fox into a rent-seeker, extracting more value from rights holders without clear strategic benefits for consumers.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Competitive Analysis"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Why Pure Usage Pricing is Failing AI Companies (And Why Tiers are Winning)",
-      "url": "https://medium.com/@saaslogicmarketing/why-pure-usage-pricing-is-failing-ai-companies-and-why-tiers-are-winning-7f719de05f1d?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-06-16T09:50:52+00:00",
-      "summary": "The article argues that pure usage-based pricing models are underperforming for AI SaaS businesses because they create unpredictable revenue and discourage adoption, especially for high‑value features. It recommends shifting to tiered pricing structures that balance predictability, value perception, and scalability, enabling clearer positioning and better alignment with customer needs.",
-      "tags": [
-        "AI Strategy",
-        "Pricing",
-        "Product Strategy"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "A transformation journey: Building a globally distributed, high-performing IT team",
-      "url": "https://medium.com/@volvogroup/a-transformation-journey-building-a-globally-distributed-high-performing-it-team-c9551017ca82?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-06-16T09:31:00+00:00",
-      "summary": "In the fast-evolving world of automotive technology, innovation does not happen in isolation. At Volvo Group, North America, our software… Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Architecting the Portfolio: A B2B Guide to Sourcing 120mm, 240mm, and 360mm AIO Dimensions",
-      "url": "https://medium.com/@linengcooling9/architecting-the-portfolio-a-b2b-guide-to-sourcing-120mm-240mm-and-360mm-aio-dimensions-42c4e84749a6?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-06-16T09:05:56+00:00",
-      "summary": "For PC hardware brand owners, international distributors, and e-commerce sellers, building a liquid cooling product line is a balancing… Continue reading on Medium »",
-      "tags": [
-        "Hardware Differentiation"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Mirlo",
-      "url": "https://www.producthunt.com/products/mirlo",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-06-16T08:44:36+00:00",
-      "summary": "Mirlo aims to create a social platform focused on authentic interactions by removing likes and algorithmic feeds, encouraging users to engage in genuine conversations. This approach positions the product as a counter‑trend to attention‑driven networks, requiring careful strategy around user acquisition, retention, and community moderation.",
-      "tags": [
-        "Product Strategy",
-        "User Research",
-        "Product Culture"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "3 ways product teams  get Arabic localization wrong",
-      "url": "https://www.productledalliance.com/3-ways-product-teams-get-arabic-localization-wrong/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-06-16T07:55:47+00:00",
-      "summary": "Flipping your UI to RTL is not localization. Here's what actually is.",
-      "tags": [
-        "Product Culture"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Senior Product Manager",
-      "url": "https://remoteOK.com/remote-jobs/remote-senior-product-manager-distru-1133455",
-      "source": "Remote OK",
-      "type": "job",
-      "date": "2026-06-16T06:00:04+00:00",
-      "summary": "Distru, the leading ERP for the cannabis industry, powers $3B in annual sales and recently launched Distru Commerce, a B2B marketplace that merges internal operations with wholesale sales. The company is now embedding AI throughout its platform to enhance compliance, supply‑chain efficiency, and future growth.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Growth"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Mongoose: Head of Marketing, Product & GTM",
-      "url": "https://weworkremotely.com/remote-jobs/mongoose-head-of-marketing-product-gtm",
-      "source": "We Work Remotely",
-      "type": "job",
-      "date": "2026-06-15T20:31:20+00:00",
-      "summary": "Headquarters: Buffalo / Atlanta / Austin / Boston / Chicago / Denver / Los Angeles / New York City / Oakland / Portland / San Francisco / Seattle / Philadelphia As Vice President of Marketing, you will ensure that Marketing is a strategic growth partner embedded in how this busin...",
-      "tags": [
-        "Career",
-        "Growth"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "🎙️ How I AI: Claude Fable 5 review & How Braintrust uses AI agents, evals, and CI to ship better software",
-      "url": "https://www.lennysnewsletter.com/p/how-i-ai-claude-fable-5-review-and",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-06-15T15:01:32+00:00",
-      "summary": "The episode reviews Claude Fable 5, highlighting its new capabilities for generating reliable code suggestions and contextual reasoning. It also examines how Braintrust leverages AI agents, evaluation frameworks, and continuous integration to accelerate software delivery and improve product quality.",
-      "tags": [
-        "AI Tools",
-        "AI Strategy",
-        "Product Strategy"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "📈 Data to start your week",
-      "url": "https://www.exponentialview.co/p/data-to-start-your-week-15-june-2026",
-      "source": "Exponential View",
-      "type": "trend",
-      "date": "2026-06-15T14:36:13+00:00",
-      "summary": "The brief highlights three trending topics: ongoing AI developments alongside widespread tech job cuts, China’s rapid progress in nuclear energy positioning it as a global leader, and emerging concerns linking GLP-1 weight‑loss drugs to cancer risks. For product leaders, the piece underscores the need to monitor AI workforce impacts, evaluate geopolitical shifts in energy tech, and stay vigilant about health‑related regulatory and safety issues in related product categories.",
-      "tags": [
-        "AI Strategy",
-        "Competitive Analysis",
-        "Product Strategy"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Dupely",
-      "url": "https://www.producthunt.com/products/dupely",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-06-15T13:22:36+00:00",
-      "summary": "Search for the same product but better prices Discussion | Link",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "How Braintrust uses AI agents, evals, and CI to ship better software | Ankur Goyal",
-      "url": "https://www.lennysnewsletter.com/p/how-braintrust-uses-ai-agents-evals",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-06-15T12:04:03+00:00",
-      "summary": "Ankur Goyal explains how Braintrust leverages AI agents, automated evaluation frameworks, and continuous integration to streamline software development, treating evals like modern PRDs that embed product taste at scale. This approach helps the team ship higher‑quality features faster while maintaining consistency across distributed work.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Product Design"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Customer Interviews and A/B Testing: A Practical Guide for UK Product Managers",
-      "url": "https://medium.com/@Bosplan/customer-interviews-and-a-b-testing-a-practical-guide-for-uk-product-managers-c457a61a586f?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-06-15T10:47:51+00:00",
-      "summary": "Introduction Continue reading on Medium »",
-      "tags": [
-        "Career"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Build an AI product to improve Netflix recommendations. So what do you do?",
-      "url": "https://medium.com/@likithaeslavath/build-an-ai-product-to-improve-netflix-recommendations-so-what-do-you-do-5c5c124ac067?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-06-15T10:41:46+00:00",
-      "summary": "You’re in the interview. The PM across the table just asked you to design an AI product for Netflix. Continue reading on Medium »",
-      "tags": [
-        "AI Strategy",
-        "Career"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Anthropic’s Safety Superpower",
-      "url": "https://stratechery.com/2026/anthropics-safety-superpower/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-06-15T10:00:00+00:00",
-      "summary": "Anthropic's belief in its own commitment to safety gives the company license to aggressively favor its business and even challenge the U.S. government.",
-      "tags": [
-        "AI Tools"
-      ],
-      "is_fallback": true
     }
   ]
 }
