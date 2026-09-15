@@ -1,7 +1,93 @@
 {
-  "updated": "2026-09-14T10:17:09.815154+00:00",
+  "updated": "2026-09-15T09:46:41.928592+00:00",
   "total": 843,
   "items": [
+    {
+      "title": "Customer Health Score: Formula, Examples, and 8 Best Practices",
+      "url": "https://blog.venturemagazine.net/customer-health-score-formula-examples-and-8-best-practices-8dd357ce6bec?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-09-15T09:29:00+00:00",
+      "summary": "Originally published on Pro Content Studio (procontentstudio.net). Continue reading on Venture »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Expansion Revenue in SaaS: 8 Proven Ways to Grow Faster",
+      "url": "https://blog.startupstash.com/expansion-revenue-in-saas-8-proven-ways-to-grow-faster-691b3572d24d?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-09-15T09:23:12+00:00",
+      "summary": "Originally published on Pro Content Studio (procontentstudio.net). Continue reading on Startup Stash »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "From AI Assistants to an AI-Native Product Operating System",
+      "url": "https://medium.com/@johndineshgk4u/from-ai-assistants-to-an-ai-native-product-operating-system-9101783a4be1?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-09-15T05:41:09+00:00",
+      "summary": "Why the next evolution of product management isn’t more AI tools — it’s connecting evidence, decisions, execution, outcomes, and… Continue reading on Medium »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Casper didn’t win on price or on the mattress",
+      "url": "https://medium.com/@aryan1999varma/casper-didnt-win-on-price-or-on-the-mattress-563b52b93531?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-09-15T03:54:12+00:00",
+      "summary": "Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "PeekPaste",
+      "url": "https://www.producthunt.com/products/lucidbit",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-09-15T00:44:31+00:00",
+      "summary": "Your clipboard, within reach Discussion | Link",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🎙️ How I AI: How two SpaceXAI designers use Grok Bot to do their jobs",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-two-spacexai-designers",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-09-14T15:03:48+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+      "tags": [
+        "Product Design"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "How Grok Bot designers use AI agents to build personal sites and product prototypes | John Bai & Peng Zheng",
+      "url": "https://www.lennysnewsletter.com/p/how-grok-bot-designers-use-ai-agents",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-09-14T12:04:39+00:00",
+      "summary": "Watch now (42 mins) | 🎙️ Two designers at SpaceXAI show me how they use Grok Bot to run Figma from the gym, update a portfolio with one photo, and turn shower thoughts into working prototypes",
+      "tags": [
+        "Product Design",
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Pacing the Frontier, AI’s Digital Limits, AI Commissars",
       "url": "https://stratechery.com/2026/pacing-the-frontier-ais-digital-limits-ai-commissars/",
@@ -7519,6 +7605,18 @@
       "is_fallback": false
     },
     {
+      "title": "Workshopy.io",
+      "url": "https://www.producthunt.com/products/workshopy-io",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-07-12T20:16:24+00:00",
+      "summary": "Turn a Markdown file into a live, trackable workshop Discussion | Link",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
       "title": "How tech workers actually feel about AI in 2026 | Annual AI sentiment survey (Noam Segal)",
       "url": "https://www.lennysnewsletter.com/p/how-tech-workers-actually-feel-about",
       "source": "Lenny's Newsletter",
@@ -10530,118 +10628,6 @@
         "AI Strategy",
         "Product Strategy",
         "Competitive Analysis"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "How AI Products Actually Get Better: Map of Levers",
-      "url": "https://parthtiwary.medium.com/how-ai-products-actually-get-better-map-of-levers-6ee9c5e8a25f?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-06-17T09:02:23+00:00",
-      "summary": "The article outlines a framework of levers that product teams can manipulate to continuously improve AI-driven products, emphasizing strategic prioritization over hype. It guides Product Managers on aligning AI capabilities with user needs, measuring impact, and iterating responsibly.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Metrics"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Cross-Functional Team Alignment: How Product Design Teams Stay Connected Without Meeting Overload",
-      "url": "https://medium.muz.li/cross-functional-team-alignment-how-product-design-teams-stay-connected-without-meeting-overload-a2814d4c555f?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-06-17T08:49:37+00:00",
-      "summary": "The article outlines strategies for product design teams to maintain alignment and collaboration while avoiding excessive meetings, emphasizing asynchronous communication, shared design systems, and clear documentation. By leveraging tools like shared boards, regular design reviews, and concise syncs, teams can stay connected, make faster decisions, and keep momentum without meeting fatigue.",
-      "tags": [
-        "Communication",
-        "Product Design",
-        "Stakeholders"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "What Separates Great Product Managers from Everyone Else?",
-      "url": "https://medium.com/@sohag933/what-separates-great-product-managers-from-everyone-else-03e82a4681dc?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-06-17T05:29:46+00:00",
-      "summary": "The article argues that top Product Managers differentiate themselves by moving beyond static frameworks and roadmaps, emphasizing deep customer insight, iterative experimentation, and cross-functional influence. It highlights the importance of strategic thinking, stakeholder alignment, and a data-driven mindset to drive product impact.",
-      "tags": [
-        "Product Strategy",
-        "Leadership",
-        "Product Culture"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Why Voice AI in India Needs Hinglish, Context, and Workflow Fit More Than Perfect Speech…",
-      "url": "https://medium.com/@harshdeep18894/why-voice-ai-in-india-needs-hinglish-context-and-workflow-fit-more-than-perfect-speech-5b45c42b90ff?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-06-17T04:18:05+00:00",
-      "summary": "The article argues that successful Voice AI in India must support Hinglish, understand conversational context, and integrate seamlessly into users' existing workflows, rather than focusing solely on flawless speech recognition. It highlights WhatsApp as the de‑facto voice AI platform for Indian users, illustrating the importance of meeting native linguistic habits and practical usage patterns.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "User Research"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "The DIKW Problem: Product Teams Drown in Dashboards but Starve for Judgement",
-      "url": "https://www.productcoalition.com/p/the-metric-that-ate-product-management",
-      "source": "Product Coalition",
-      "type": "article",
-      "date": "2026-06-16T21:43:17+00:00",
-      "summary": "The article explains how product teams often overload themselves with raw data visualizations (dashboards) but lack the higher-level judgement needed to turn that data into actionable decisions, as highlighted by the DIKW (Data‑Information‑Knowledge‑Wisdom) pyramid. It urges PMs to focus on converting information into insights and wisdom through context, interpretation, and strategic framing rather than merely accumulating more dashboards.",
-      "tags": [
-        "Data",
-        "Product Strategy",
-        "Metrics"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Product Manager",
-      "url": "https://remoteOK.com/remote-jobs/remote-product-manager-ripjar-1133665",
-      "source": "Remote OK",
-      "type": "job",
-      "date": "2026-06-16T19:25:59+00:00",
-      "summary": "Ripjar, founded by ex‑GCHQ experts, offers AI‑native intelligence tools that help governments, banks, and enterprises detect and prevent serious financial crime in real time. The platform processes hundreds of millions of records daily, empowering users to combat money laundering, terrorist financing, and other illicit activities at scale.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Data"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Organizational Change is Exhausting - All Things Product Podcast with Teresa Torres & Petra Wille",
-      "url": "https://www.producttalk.org/organizational-change-is-exhausting-all-things-product-podcast-with-teresa-torres-petra-wille/",
-      "source": "Product Talk",
-      "type": "article",
-      "date": "2026-06-16T13:00:14+00:00",
-      "summary": "In this episode, Teresa Torres and Petra Wille discuss how forced organizational change drains energy and why focusing on people and processes often yields little impact. They propose a shift toward aligning on outcomes, empowering autonomous teams, and fostering a culture of continuous learning to drive sustainable product improvements.",
-      "tags": [
-        "Leadership",
-        "Product Culture",
-        "Stakeholders"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Chief Product Officer Virtual 2026",
-      "url": "https://www.productledalliance.com/chief-product-officer-virtual-2026/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-06-16T12:41:18+00:00",
-      "summary": "The Chief Product Officer Virtual 2026 event focuses on emerging trends in product leadership, including AI integration, cross-functional collaboration, and data-driven decision making. Attendees will explore strategies for scaling product teams, driving growth, and aligning product roadmaps with business objectives.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Leadership"
       ],
       "is_fallback": false
     }
