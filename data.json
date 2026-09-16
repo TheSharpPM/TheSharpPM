@@ -1,7 +1,139 @@
 {
-  "updated": "2026-09-15T09:46:41.928592+00:00",
-  "total": 843,
+  "updated": "2026-09-16T09:40:25.061393+00:00",
+  "total": 847,
   "items": [
+    {
+      "title": "Fixing the Monsoon Marketplace Collapse: A Product Case Study on Uber & Rapido in India",
+      "url": "https://medium.com/@anshi230904/fixing-the-monsoon-marketplace-collapse-a-product-case-study-on-uber-rapido-in-india-482bf1593467?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-09-16T08:36:41+00:00",
+      "summary": "How a rain-soaked evening in Gurugram taught me more about two-sided marketplaces than any textbook could. Continue reading on Medium »",
+      "tags": [
+        "Platform Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Connecting Product Outcomes to Business Strategy",
+      "url": "https://romanpichler.medium.com/connecting-product-outcomes-to-business-strategy-c77568171f53?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-09-16T07:36:31+00:00",
+      "summary": "In theory, every product should create real value for a group of people and the business. But in practice, that’s not always the case… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Where Is the Real Opportunity in AI Applications? Product Insights from 50 Top Podcast Conversations",
+      "url": "https://medium.com/@huanzidage/where-is-the-real-opportunity-in-ai-applications-product-insights-from-50-top-podcast-conversations-ba88091f70f4?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-09-16T07:26:56+00:00",
+      "summary": "AI applications win where they reshape workflows, own context, reduce effort, and turn model capability into trusted outcomes. Continue reading on Medium »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Gemini 3.8 & 3.8 Live Extended Thinking",
+      "url": "https://www.producthunt.com/products/gemini-3-8-3-8-live-extended-thinking",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-09-15T18:28:06+00:00",
+      "summary": "Our most advanced Gemini Audio models yet Discussion | Link",
+      "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Delivery Isn’t Free - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "url": "https://www.producttalk.org/delivery-isnt-free-all-things-product-podcast-with-teresa-torres-petra-wille/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-09-15T13:00:58+00:00",
+      "summary": "Listen to this episode on: Spotify | Apple Podcasts Everyone's saying it: \"Now that AI makes delivery free…\" But is it? In this episode of All Things Product, Petra Wille and Teresa Torres pull apart one of the most repeated claims in product right now. They",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "60+ new creative growth ideas",
+      "url": "https://www.lennysnewsletter.com/p/60-creative-growth-ideas",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-09-15T12:45:28+00:00",
+      "summary": "How to stand out when everyone is running the same playbook",
+      "tags": [
+        "Growth"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Building one product development lifecycle  across three continents",
+      "url": "https://www.productledalliance.com/building-one-product-development-lifecycle-across-three-continents/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-09-15T12:00:45+00:00",
+      "summary": "What it takes to standardize product development without sacrificing team autonomy.",
+      "tags": [
+        "Product Culture"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The North Star Metric Was Never the Business",
+      "url": "https://www.productcoalition.com/p/the-north-star-metric-was-never-the",
+      "source": "Product Coalition",
+      "type": "article",
+      "date": "2026-09-15T11:28:34+00:00",
+      "summary": "From 2015 to today, the archive shows one number moving from KPI to rule to warning",
+      "tags": [
+        "Metrics"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "OpenAI Ads, Amazon Ads in ChatGPT, Walmart to Accept Apple Pay",
+      "url": "https://stratechery.com/2026/openai-ads-amazon-ads-in-chatgpt-walmart-to-accept-apple-pay/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-09-15T10:00:00+00:00",
+      "summary": "ChatGPT ads are working, and solve Amazon's biggest problem with chatbots. Then, Walmart finally gives in to Apple Pay, because fighting the status quo is hard.",
+      "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Age of Body Futurism | Ruby Justice Thelot",
+      "url": "https://a16z.simplecast.com/episodes/the-age-of-body-futurism-ruby-justice-thelot-ZnUXyeWf",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-09-15T10:00:00+00:00",
+      "summary": "Elena Burger sits down with academic and cyber ethnographer Ruby Justice Thelot to explore the increasingly blurry line between internet culture and the real world, and how to tell the difference between a trend that’s actually changing behavior and one that simply feels enormous...",
+      "tags": [
+        "Product Culture"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🔮 What would Adam Smith make of AI?",
+      "url": "https://www.exponentialview.co/p/adam-smith-ai",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-09-15T09:48:43+00:00",
+      "summary": "A Smithian inquiry amidst the chaos",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Customer Health Score: Formula, Examples, and 8 Best Practices",
       "url": "https://blog.venturemagazine.net/customer-health-score-formula-examples-and-8-best-practices-8dd357ce6bec?source=rss------product_management-5",
@@ -59,6 +191,19 @@
       "summary": "Your clipboard, within reach Discussion | Link",
       "tags": [
         "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Convo",
+      "url": "https://www.producthunt.com/products/convo-7",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-09-14T23:29:05+00:00",
+      "summary": "The AI copilot for people who sell Discussion | Link",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
       ],
       "is_fallback": true
     },
@@ -10516,118 +10661,6 @@
         "AI Strategy",
         "Product Strategy",
         "Growth"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "What is Ailing? Is it the Product? or Sales?",
-      "url": "https://sankha-perera.medium.com/what-is-ailing-is-it-the-product-or-sales-c4b73122bed9?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-06-18T09:21:36+00:00",
-      "summary": "The article explores the common dilemma early‑stage founders face: whether declining performance is due to product flaws or sales execution. It offers a framework to diagnose the root cause by examining product‑market fit, customer feedback, and sales processes, helping founders prioritize improvements.",
-      "tags": [
-        "Product Strategy",
-        "Growth",
-        "Prioritization"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Nobody Objected. Nobody Used It.",
-      "url": "https://medium.com/@notes.people.org/nobody-objected-nobody-used-it-fd520fc0ed9a?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-06-18T08:57:34+00:00",
-      "summary": "The article describes a case where a team developed a customer feedback collection system that, despite being built, saw no adoption because no stakeholders raised objections or engaged with it. It highlights the importance of actively validating demand and aligning product initiatives with user needs before investing resources.",
-      "tags": [
-        "User Research",
-        "Product Strategy",
-        "Stakeholders"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "How ChatGPT Made Chegg’s 79-Million-Answer Moat Worthless in Five Months?",
-      "url": "https://asksia-ai.medium.com/how-chatgpt-made-cheggs-79-million-answer-moat-worthless-in-five-months-675f3cc48fde?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-06-18T07:51:08+00:00",
-      "summary": "The article examines how ChatGPT quickly eroded Chegg's massive repository of 79 million answered questions, demonstrating that generative AI can render large, static knowledge bases obsolete within months. It highlights the urgent need for product managers to rethink content strategies, focus on AI integration, and build defensible, dynamic value propositions.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Growth"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Why AI Models Are Becoming a Commodity (And What to Build Instead)",
-      "url": "https://angelina-yang.medium.com/why-ai-models-are-becoming-a-commodity-and-what-to-build-instead-e33d2f69e73f?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-06-18T01:01:01+00:00",
-      "summary": "The article argues that AI models are turning into commodities, reducing their value as a source of competitive advantage. Product managers should shift focus from building proprietary models to creating differentiated applications, data assets, and user experiences that leverage these ubiquitous models.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "AI Tools"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Retool",
-      "url": "https://www.producthunt.com/products/retool",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-06-17T16:53:04+00:00",
-      "summary": "Retool is a low-code platform that enables product teams to quickly build internal tools and applications across various environments, while providing governance features to maintain security and compliance. For product managers, it offers a way to accelerate development cycles, reduce reliance on engineering resources, and ensure consistent oversight of data and user access across the organization.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Platform Strategy"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "How to design AI agent loops: schedules, goals, and subagents in Claude Code and Codex",
-      "url": "https://www.lennysnewsletter.com/p/how-to-design-ai-agent-loops-schedules",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-06-17T12:04:04+00:00",
-      "summary": "The article breaks down the different types of AI agent loops—heartbeats, cron schedules, goal‑oriented loops, and sub‑agents—explaining how they can be orchestrated in Claude Code and Codex to automate repetitive development tasks. It demonstrates live builds where autonomous agents handle PR workflows, reducing manual oversight and speeding up delivery cycles.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Productivity"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "🔮 Is AI immune to groupthink?",
-      "url": "https://www.exponentialview.co/p/is-ai-immune-to-groupthink",
-      "source": "Exponential View",
-      "type": "trend",
-      "date": "2026-06-17T11:16:04+00:00",
-      "summary": "The article examines how AI councils—groups of AI models used for decision‑making—can fall prey to groupthink, mirroring human biases when their outputs are stress‑tested against each other. It highlights the need for robust evaluation frameworks and diverse model ensembles to ensure AI recommendations remain objective and reliable.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Metrics"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "The State of Fable, The Jailbreak Problem, SpaceX Acquires Cursor",
-      "url": "https://stratechery.com/2026/the-state-of-fable-the-jailbreak-problem-spacex-acquires-cursor/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-06-17T10:00:00+00:00",
-      "summary": "The article briefly comments on the current perception of Anthropic's Fable, suggesting that while the administration's view may be inaccurate, the responsibility ultimately lies with Anthropic. It also hints at broader industry movements like the 'jailbreak' problem and SpaceX's acquisition of the AI tool Cursor.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Competitive Analysis"
       ],
       "is_fallback": false
     }
