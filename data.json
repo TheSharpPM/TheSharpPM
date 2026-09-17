@@ -1,7 +1,158 @@
 {
-  "updated": "2026-09-16T09:40:25.061393+00:00",
-  "total": 847,
+  "updated": "2026-09-17T09:48:44.073757+00:00",
+  "total": 846,
   "items": [
+    {
+      "title": "Nobody Wanted the Software. It Worked Perfectly.",
+      "url": "https://medium.com/@cldeal/nobody-wanted-the-software-it-worked-perfectly-11571f81cfa1?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-09-17T09:15:36+00:00",
+      "summary": "What I Learned When I Inherited a Flagship Application Almost No One Used Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "I Stopped Checking Our Competitor’s Changelog Every Morning. Here’s What I Was Actually Avoiding.",
+      "url": "https://medium.com/@marcus-veld/i-stopped-checking-our-competitors-changelog-every-morning-here-s-what-i-was-actually-avoiding-7b51af9b6454?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-09-17T09:09:15+00:00",
+      "summary": "It was the first tab I opened, before email, before Slack, every single morning for over a year. I told myself it was diligence. It was… Continue reading on Medium »",
+      "tags": [
+        "Competitive Analysis"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Why Default Settings Dictate the Success of Your Product",
+      "url": "https://medium.com/@Aryan-Ahmed/why-default-settings-dictate-the-success-of-your-product-84a57cda09e7?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-09-17T07:55:00+00:00",
+      "summary": "They aren’t just suggestions. They are the silent architects of user behavior, trust, and long-term adoption. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Typeform: AI Product Operations Lead",
+      "url": "https://weworkremotely.com/remote-jobs/typeform-ai-product-operations-lead",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-09-17T07:30:57+00:00",
+      "summary": "Headquarters: Germany (Remote) ; Ireland (Remote); Netherlands (Remote) ; Portugal (Remote) ; Spain (Remote) ; United Kingdom (Remote) Who we are Typeform is a refreshingly different form builder. We help over 150,000 businesses collect the data they need with forms, surveys, and...",
+      "tags": [
+        "Career",
+        "AI Strategy",
+        "Prioritization"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "ZoomInfo Technologies LLC: Director, Software Engineering",
+      "url": "https://weworkremotely.com/remote-jobs/zoominfo-technologies-llc-director-software-engineering",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-09-17T07:30:57+00:00",
+      "summary": "Headquarters: Remote ZoomInfo is where careers accelerate. We move fast, think boldly, and empower you to do the best work of your life. You’ll be surrounded by teammates who care deeply, challenge each other, and celebrate wins. With tools that amplify your impact and a culture",
+      "tags": [
+        "Career",
+        "Compliance",
+        "Privacy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Anyone Can Build Fast: Speed Is No Longer Your Advantage. Value Realization Is. Here Is Why",
+      "url": "https://uxmag.medium.com/anyone-can-build-fast-speed-is-no-longer-your-advantage-value-realization-is-here-is-why-32d66b360954?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-09-17T04:02:01+00:00",
+      "summary": "Speed used to be the edge. Now everyone can build fast. So, why do so few products actually get used? The answer isn’t better tools. It’s… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Pitchfire for Startups",
+      "url": "https://www.producthunt.com/products/pitchfire-for-startups",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-09-17T02:48:27+00:00",
+      "summary": "Reach investors that are aligned with you Discussion | Link",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Higgsfield API",
+      "url": "https://www.producthunt.com/products/higgsfield",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-09-16T23:58:11+00:00",
+      "summary": "One async API for 50+ generative media models Discussion | Link",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "4 New Evals and 16 Experiment Variants to Fix 1 Customer Complaint",
+      "url": "https://www.producttalk.org/4-new-evals-and-16-experiment-variants/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-09-16T13:00:36+00:00",
+      "summary": "\"That is a lot of first layer opportunities there. I wish I could click on this card and be like, 'Clean this up.'\" This was a Vistaly customer reviewing her first AI-generated opportunity solution tree . Up until this point, the feedback was extremely positive. But",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Muse review: The personal AI agent that gets consumer UX right",
+      "url": "https://www.lennysnewsletter.com/p/muse-review-the-personal-ai-agent",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-09-16T12:02:14+00:00",
+      "summary": "Watch now (38 mins) | 🎙️ I gave Meta’s Muse my calendar, my email, and my kids’ chaotic schedule, and it produced a one-shot family PDF more beautiful than anything I’ve ever made with Claude or Codex",
+      "tags": [
+        "AI Tools",
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Salesforce AI Force, Agents as UI, The Race to Headless",
+      "url": "https://stratechery.com/2026/salesforce-ai-force-agents-as-ui-the-race-to-headless/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-09-16T10:18:04+00:00",
+      "summary": "Salesforce is abandoning UI as a moat, which is a very smart move because it's disappearing for everyone.",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The AI-Native CRM",
+      "url": "https://a16z.simplecast.com/episodes/the-ai-native-crm-PM_eRvpt",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-09-16T10:00:00+00:00",
+      "summary": "a16z’s Alex Rampell and Joe Schmidt sit down with Lightfield co-founder and CEO Keith Peiris to discuss what it takes to rethink the CRM for an AI-native world, and the unusual pivot that got him there. Keith previously built Tome to 25 million users, but eventually walked away f...",
+      "tags": [
+        "AI Strategy",
+        "Communication",
+        "Pricing"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Fixing the Monsoon Marketplace Collapse: A Product Case Study on Uber & Rapido in India",
       "url": "https://medium.com/@anshi230904/fixing-the-monsoon-marketplace-collapse-a-product-case-study-on-uber-rapido-in-india-482bf1593467?source=rss------product_management-5",
@@ -10481,186 +10632,6 @@
         "AI Strategy",
         "Product Strategy",
         "Product Design"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "You Tokenized the Asset. Now What?",
-      "url": "https://medium.com/@taherpittalvala/you-tokenized-the-asset-now-what-fb810d4b1db4?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-06-19T09:26:01+00:00",
-      "summary": "The article discusses how 2026 marks a turning point for digital assets, with clearer regulations and growing institutional interest driving tokenization of real-world assets. For product managers, this signals an urgent need to design platforms that can handle tokenized assets securely, integrate with emerging compliance frameworks, and unlock new revenue streams.",
-      "tags": [
-        "Product Strategy",
-        "Platform Strategy",
-        "Growth"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "EP104 Why Your A/B Test Winners Disappear After Launch",
-      "url": "https://www.productcoalition.com/p/ep104-why-your-ab-test-winners-disappear",
-      "source": "Product Coalition",
-      "type": "article",
-      "date": "2026-06-19T09:01:30+00:00",
-      "summary": "Andrea Bronzini explains why A/B test winners often fade after launch, highlighting the shortcomings of conventional testing methods and the role of statistical noise. He also presents new tools and approaches to make more reliable growth decisions and sustain improvements.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Growth"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "How Leesa Fazal Supports Sustainable Business Growth Through Strategic Project Management",
-      "url": "https://medium.com/@leesa-fazal/how-leesa-fazal-supports-sustainable-business-growth-through-strategic-project-management-17f33e1dcc02?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-06-19T08:45:01+00:00",
-      "summary": "The article explains how Leesa Fazal leverages strategic project management to drive sustainable business growth, emphasizing the importance of aligning projects with long‑term objectives and stakeholder expectations. It highlights practical frameworks for prioritizing initiatives, measuring impact, and fostering a culture of continuous improvement.",
-      "tags": [
-        "Product Strategy",
-        "Leadership",
-        "Growth"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Mutter AI Dictation",
-      "url": "https://www.producthunt.com/products/mutter-ai-dictation",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-06-19T05:41:54+00:00",
-      "summary": "Mutter AI Dictation allows users to speak their ideas aloud and receive a refined, written version, streamlining the transition from raw thoughts to polished content. This tool can accelerate brainstorming sessions, documentation, and communication for product teams.",
-      "tags": [
-        "AI Tools",
-        "Productivity",
-        "Communication"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "FetchSandbox",
-      "url": "https://www.producthunt.com/products/fetchsandbox",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-06-19T04:12:56+00:00",
-      "summary": "FetchSandbox is a tool designed for API integration testing that records failures to help developers quickly identify breaking changes. It streamlines the debugging process, enhancing reliability and speed in continuous integration pipelines.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Productivity"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "The Question Every UX Researcher Dreads: “What Impact Did This Research Have?”",
-      "url": "https://medium.com/@alisoneakin/the-question-every-ux-researcher-dreads-what-impact-did-this-research-have-025aebf38b30?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-06-19T03:12:24+00:00",
-      "summary": "The article explains how the author created an AI-driven agent that automatically links UX research activities to business outcomes, making the often‑tangible impact of research visible in metrics and decision‑making. It provides a practical framework for product teams to demonstrate research value and integrate insights into product strategy.",
-      "tags": [
-        "User Research",
-        "Metrics",
-        "Product Strategy"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "pumaDB",
-      "url": "https://www.producthunt.com/products/pumadb",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-06-19T02:39:34+00:00",
-      "summary": "pumaDB is a lightweight, hosted memory layer designed to store and retrieve contextual information for AI agents, enabling faster and more efficient knowledge handling. It aims to simplify integration of persistent memory into AI applications, improving agent performance and scalability.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Product Design"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "How Zepto Can Expand into Pet Grooming: A Mobile Van Marketplace Strategy",
-      "url": "https://medium.com/@anujsrivastava2509/how-zepto-can-expand-into-pet-grooming-a-mobile-van-marketplace-strategy-4ee4e5234303?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-06-19T02:33:54+00:00",
-      "summary": "The article proposes that Zepto leverage its mobile van network to create a marketplace for on-demand pet grooming services, tapping into a growing pet care market and differentiating its brand. It outlines a product strategy that includes partner onboarding, location-based scheduling, and a revenue-sharing model, while highlighting the need for pilot testing and metrics to assess adoption and profitability.",
-      "tags": [
-        "Product Strategy",
-        "Growth",
-        "AI Tools"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Grok by SpaceXAI for Word",
-      "url": "https://www.producthunt.com/products/grok-by-spacexai-for-word",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-06-18T20:55:25+00:00",
-      "summary": "Draft, restructure & tighten wording from panel inside Word Discussion | Link",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Slackbot’s MCP Client",
-      "url": "https://www.producthunt.com/products/slack",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-06-18T19:14:40+00:00",
-      "summary": "The article introduces Slackbot’s MCP (Multi-Channel Presence) client, which enables users to interact with over 20 integrated applications directly within Slack, supporting real-time multiplayer collaboration. This tool streamlines workflows by centralizing app functionalities, reducing context switching, and fostering coordinated teamwork across teams.",
-      "tags": [
-        "AI Tools",
-        "Productivity",
-        "Collaboration"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Staff Product Manager Product Information Management",
-      "url": "https://remoteOK.com/remote-jobs/remote-staff-product-manager-product-information-management-highlevel-1133598",
-      "source": "Remote OK",
-      "type": "job",
-      "date": "2026-06-18T14:00:03+00:00",
-      "summary": "HighLevel is an AI-powered business operating system that consolidates conversations, automation, and intelligence for agencies, entrepreneurs, and SMBs, enabling them to scale and reduce operational complexity. The platform processes billions of API calls and messages daily, leveraging massive distributed data and microservices to deliver a unified infrastructure that drives significant ecosystem value.",
-      "tags": [
-        "AI Strategy",
-        "Platform Strategy",
-        "Product Strategy"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "QuackScreen",
-      "url": "https://www.producthunt.com/products/quackscreen",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-06-18T13:03:49+00:00",
-      "summary": "QuackScreen is a MacBook utility that captures screenshots, allows drag‑and‑drop editing, and enables easy sharing directly from the notch area. It streamlines visual communication for teams, reducing context switches and speeding up feedback loops.",
-      "tags": [
-        "Productivity",
-        "Product Design",
-        "Growth"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "An Interview with Michael Morton About E-Commerce in the Age of AI",
-      "url": "https://stratechery.com/2026/an-interview-with-michael-morton-about-e-commerce-in-the-age-of-ai/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-06-18T10:00:00+00:00",
-      "summary": "Michael Morton discusses how AI is reshaping e‑commerce, highlighting the difficulty of testing extreme scenarios, the trade‑offs between distribution and referral models, and emerging opportunities in grocery and autonomous vehicle delivery. He emphasizes the strategic implications for product teams navigating AI‑driven logistics and customer experience.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Growth"
       ],
       "is_fallback": false
     }
