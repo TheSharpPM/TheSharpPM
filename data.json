@@ -1,7 +1,143 @@
 {
-  "updated": "2026-09-17T09:48:44.073757+00:00",
-  "total": 846,
+  "updated": "2026-09-18T09:22:17.769048+00:00",
+  "total": 848,
   "items": [
+    {
+      "title": "AI Is Making Good Ideas Cheap",
+      "url": "https://medium.com/@chemalielias/ai-is-making-good-ideas-cheap-1b9a8015d630?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-09-18T08:47:23+00:00",
+      "summary": "And the more I think about it, the more I believe we’re focusing on the wrong part of that statement. Continue reading on Medium »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "CPG Consultants in Texas, USA: What Growing Consumer Brands Should Know",
+      "url": "https://medium.com/@augustvega/cpg-consultants-in-texas-usa-what-growing-consumer-brands-should-know-f40fee47a35b?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-09-18T07:34:54+00:00",
+      "summary": "Growing a consumer product brand requires more than a great product. CPG Consultants in Texas, USA, can provide strategic guidance across… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Collibra: CPS Engagement Manager",
+      "url": "https://weworkremotely.com/remote-jobs/collibra-cps-engagement-manager",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-09-18T07:30:47+00:00",
+      "summary": "Headquarters: Remote, USA Joining Collibra’s CPS Engagement team At Collibra Public Sector (CPS), our Professional Services team relies on Federal Engagement Managers to oversee the delivery of customer expectations for the services we sell, working directly with customer key pro...",
+      "tags": [
+        "Stakeholders",
+        "Career",
+        "Compliance"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "White-Label vs SaaS: Why Owning Your Source Code Matters",
+      "url": "https://myoyelabs.medium.com/white-label-vs-saas-why-owning-your-source-code-matters-868e93e5f185?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-09-18T03:30:25+00:00",
+      "summary": "On July 15, 2026, TV Time shut down. Not a struggling startup a popular, active community app with a real userbase, tracking shows and… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Price of a Slow Yes",
+      "url": "https://www.productcoalition.com/p/the-price-of-a-slow-yes",
+      "source": "Product Coalition",
+      "type": "article",
+      "date": "2026-09-17T21:20:36+00:00",
+      "summary": "Every approval chain has a weekly rate, and I have rarely seen a team work out theirs",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "VoiceChanger.Live",
+      "url": "https://www.producthunt.com/products/voicechanger-live",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-09-17T17:42:35+00:00",
+      "summary": "Sound like anime girl in realtime on your next call Discussion | Link",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Creating Aha! Builder: Concept to Code, No Engineers Required",
+      "url": "https://www.producttalk.org/creating-aha-builder-concept-to-code-no-engineers-required/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-09-17T13:00:52+00:00",
+      "summary": "Listen to this episode on: Spotify | Apple Podcasts What does it take to build an AI app builder specifically for product managers—not engineers—inside an already crowded market? In this episode of Just Now Possible, Teresa Torres talks with Brian De Haaff (CEO and Co-Founder), C...",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🧠 I do not want your brains to rot",
+      "url": "https://www.exponentialview.co/p/i-do-not-want-your-brains-to-rot",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-09-17T11:00:57+00:00",
+      "summary": "An email I sent to the team",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Product email impact report 2026",
+      "url": "https://www.productledalliance.com/product-email-impact-report/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-09-17T11:00:07+00:00",
+      "summary": "Your product runs on email - does it work? Get sending data from 400B+ emails, deliverability benchmarks, and an EU requirement most EMEA teams haven't clocked yet.",
+      "tags": [
+        "Product Culture"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "An Interview with Joanna Stern About the iPhone Duo and AI for Normal People",
+      "url": "https://stratechery.com/2026/an-interview-with-joanna-stern-about-the-iphone-duo-and-ai-for-normal-people/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-09-17T10:00:00+00:00",
+      "summary": "An Interview with Joanna Stern About the iPhone Duo and AI for Normal People",
+      "tags": [
+        "AI Strategy",
+        "Career"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Next Frontier of AI Video Is Control",
+      "url": "https://a16z.simplecast.com/episodes/the-next-frontier-of-ai-video-is-control-RmfmPBwf",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-09-17T10:00:00+00:00",
+      "summary": "a16z General Partner Jennifer Li sits down with fal co-founder Gorkem Yurtseven and Head of Engineering Batuhan Taskaya to discuss what changes when generative video becomes fast enough to run in real time. They unpack the technical work behind H3 Max, fal’s post-trained version",
+      "tags": [
+        "AI Strategy",
+        "Hardware Differentiation"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Nobody Wanted the Software. It Worked Perfectly.",
       "url": "https://medium.com/@cldeal/nobody-wanted-the-software-it-worked-perfectly-11571f81cfa1?source=rss------product_management-5",
@@ -63,6 +199,18 @@
         "Career",
         "Compliance",
         "Privacy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "cubicles.lol",
+      "url": "https://www.producthunt.com/products/cubicles-lol",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-09-17T04:26:44+00:00",
+      "summary": "A metaverse for builders, side projects, and bad driving Discussion | Link",
+      "tags": [
+        "Product Strategy"
       ],
       "is_fallback": true
     },
@@ -10492,146 +10640,6 @@
         "Product Strategy",
         "Product Design",
         "Product Culture"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Stop Fixing Screens. Start Fixing Decisions",
-      "url": "https://medium.com/@hamdan.joa/stop-fixing-screens-start-fixing-decisions-3a52dbb28cde?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-06-20T08:32:11+00:00",
-      "summary": "The article argues that product teams waste effort polishing screens while the real bottleneck lies in suboptimal decision-making processes. By shifting focus from cosmetic tweaks to improving how decisions are made—through better frameworks, data, and cross‑functional alignment—teams can drive more meaningful product outcomes.",
-      "tags": [
-        "Product Strategy",
-        "Leadership",
-        "Decision Making"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Product Manager",
-      "url": "https://remoteOK.com/remote-jobs/remote-product-manager-cambridge-spark-1133737",
-      "source": "Remote OK",
-      "type": "job",
-      "date": "2026-06-20T08:09:54+00:00",
-      "summary": "The article outlines a Product Manager position within the Product and Technology department, based remotely in the UK with occasional travel to London. It highlights the role's focus on driving product vision, coordinating cross‑functional teams, and delivering customer‑centric solutions.",
-      "tags": [
-        "Product Strategy",
-        "Leadership",
-        "Growth"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "The First Version of Your Product Is Built Long Before Development Starts",
-      "url": "https://medium.com/@navyashreebc/the-first-version-of-your-product-is-built-long-before-development-starts-46a2df8d679a?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-06-20T07:17:40+00:00",
-      "summary": "The article explains that the real work of product creation happens during the decision‑making phase, where the product's vision, requirements, and roadmap are defined before any code is written. It emphasizes the importance of rigorous planning, stakeholder alignment, and strategic prioritization to ensure the subsequent development phase executes efficiently.",
-      "tags": [
-        "Product Strategy",
-        "Prioritization",
-        "Stakeholders"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "How I Developed a Product Strategy for Ryzly V2: A Product Management Case Study",
-      "url": "https://medium.com/@ayodeleboluwatife50/how-i-developed-a-product-strategy-for-ryzly-v2-a-product-management-case-study-793f89c45726?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-06-20T06:44:56+00:00",
-      "summary": "The article walks through the author's step‑by‑step approach to crafting the product strategy for Ryzly V2, covering market analysis, user research, prioritization frameworks, and roadmap creation. It highlights how cross‑functional stakeholder alignment and data‑driven decisions shaped the feature set and positioning of the new version.",
-      "tags": [
-        "Product Strategy",
-        "Stakeholders",
-        "Product Design"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Growth Product Manager",
-      "url": "https://remoteOK.com/remote-jobs/remote-growth-product-manager-altaml-1133729",
-      "source": "Remote OK",
-      "type": "job",
-      "date": "2026-06-20T06:00:08+00:00",
-      "summary": "The Growth Product Manager at Brilliant Harvest will own the onboarding and activation journey for newly signed heavy equipment dealers, turning them into self-sufficient and reference customers. The role blends growth tactics with deep field research, translating customer success insights into scalable product features and feedback loops that drive activation and retention.",
-      "tags": [
-        "Growth",
-        "Product Strategy",
-        "Retention"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Too Many Doors to the Same Room",
-      "url": "https://medium.com/@nasirmaan/too-many-doors-to-the-same-room-ebd01a0d7c46?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-06-20T03:41:39+00:00",
-      "summary": "At the Databricks summit, the author observed a company repeatedly creating redundant entry points to the same problem, leading to inefficiencies. By consolidating these 'doors' into a single streamlined approach, the team not only corrected the mistake but also unlocked greater scalability and faster decision‑making.",
-      "tags": [
-        "Product Strategy",
-        "Product Design",
-        "Product Culture"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "2026.25: The Stuff of Myth(os)",
-      "url": "https://stratechery.com/2026/the-stuff-of-mythos/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-06-19T17:00:00+00:00",
-      "summary": "This week's Stratechery roundup highlights Anthropic's latest moves in foundation model development, the transformative impact of AI on e-commerce business models, and a surprisingly data‑driven analysis of the NBA Finals' viewership surge. For product managers, the pieces underscore how generative AI is reshaping platform strategy and competitive dynamics, and they suggest new metrics for evaluating AI‑enabled consumer experiences.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Competitive Analysis"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Mercury Insurance Services: Senior Software Engineer",
-      "url": "https://weworkremotely.com/remote-jobs/mercury-insurance-services-senior-software-engineer",
-      "source": "We Work Remotely",
-      "type": "job",
-      "date": "2026-06-19T16:50:05+00:00",
-      "summary": "Mercury Insurance is hiring a Senior Software Engineer to design, develop, and maintain complex systems while leading agile teams and mentoring junior engineers. The role emphasizes high-quality delivery, cross-functional collaboration, and contributes to the company's award-winning culture and growth.",
-      "tags": [
-        "Leadership",
-        "Product Strategy",
-        "Team Management"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "blended.io: (Senior) Full-Stack Engineer (Remote)",
-      "url": "https://weworkremotely.com/remote-jobs/blended-io-senior-full-stack-engineer-remote",
-      "source": "We Work Remotely",
-      "type": "job",
-      "date": "2026-06-19T16:50:05+00:00",
-      "summary": "blended.io is a Berlin-based tech studio that creates cross‑platform digital products and services for startups and corporates, emphasizing robust engineering, performance, security, and scalability. They are hiring a (Senior) Full‑Stack Engineer to collaborate with senior engineers and designers on web, mobile, automotive, watch, and TV experiences. The role offers remote work and the chance to contribute to end‑to‑end product development across hardware and software touchpoints.",
-      "tags": [
-        "Product Design",
-        "Platform Strategy",
-        "Growth"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "How Indeed built an AI product  that users love",
-      "url": "https://www.productledalliance.com/how-indeed-built-an-ai-product-that-users-love/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-06-19T15:00:43+00:00",
-      "summary": "Indeed spent eight months developing an AI-powered product, culminating in a single launch that resonated strongly with users. The rollout highlighted three key lessons: aligning AI capabilities with real user needs, iterating quickly based on feedback, and measuring impact to drive continuous improvement. These takeaways offer a blueprint for product teams aiming to create AI solutions that deliver tangible value.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Product Design"
       ],
       "is_fallback": false
     }
