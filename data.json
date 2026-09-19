@@ -1,7 +1,94 @@
 {
-  "updated": "2026-09-18T09:22:17.769048+00:00",
-  "total": 848,
+  "updated": "2026-09-19T09:09:19.209697+00:00",
+  "total": 850,
   "items": [
+    {
+      "title": "Your Product Team Can Show Signs of Company Decay When You Let Them. I Was so Blind.",
+      "url": "https://medium.com/illumination/your-product-team-can-show-signs-of-company-decay-when-you-let-them-i-was-so-blind-cfb2113f59f9?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-09-19T08:09:34+00:00",
+      "summary": "I blame me Continue reading on ILLUMINATION »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Working for 10 years within 5, and how you can ruin your mental health:",
+      "url": "https://medium.com/@cuteheart/working-for-10-years-within-5-and-how-you-can-ruin-your-mental-health-0c239bade6f9?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-09-19T06:43:31+00:00",
+      "summary": "Dive in to the latest way to exploit your creative mind and become a slave to the maniacal big company terror Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🚨 AI doesn’t need a mind to run amok",
+      "url": "https://www.exponentialview.co/p/ai-doesnt-need-a-mind-to-run-amok",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-09-19T06:34:04+00:00",
+      "summary": "We can see the dangers. But we can also see a practical solution.",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Databricks CEO on AI Pacing, Cyber Risk, and the Enterprise",
+      "url": "https://a16z.simplecast.com/episodes/databricks-ceo-on-ai-pacing-cyber-risk-and-the-enterprise-QM1oJt1I",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-09-18T21:37:54+00:00",
+      "summary": "Databricks co-founder and CEO Ali Ghodsi joins a16z General Partners Martin Casado and Sarah Wang for a conversation about AI risk, recursive self-improvement, cybersecurity, and what’s actually holding back enterprise adoption. Ali argues that today’s models are already capable",
+      "tags": [
+        "AI Strategy",
+        "Security"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "2026.38: Doomforce",
+      "url": "https://stratechery.com/2026/doomforce/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-09-18T17:00:00+00:00",
+      "summary": "The best Stratechery content from the week of September 14, 2026, including the view from anywhere but San Francisco, the limited potential for a pacing deal, and the Salesforce zag.",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "My Browser Tabs Describe My Job Better Than My Job Title",
+      "url": "https://medium.com/@ghcpgs/my-browser-tabs-describe-my-job-better-than-my-job-title-a6ab8589d53d?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-09-18T16:35:39+00:00",
+      "summary": "How AI, analytics, growth, and distribution expanded my role as a product designer beyond the interface. Continue reading on Medium »",
+      "tags": [
+        "Product Design",
+        "Growth",
+        "Metrics"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Instagram. How Radical Subtraction Built an Empire",
+      "url": "https://medium.com/@Khomichenko/instagram-how-radical-subtraction-built-an-empire-5688a186d264?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-09-18T15:00:42+00:00",
+      "summary": "The App That Almost Died — Until Its Founders Deleted Almost Everything Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "AI Is Making Good Ideas Cheap",
       "url": "https://medium.com/@chemalielias/ai-is-making-good-ideas-cheap-1b9a8015d630?source=rss------product_management-5",
@@ -591,6 +678,30 @@
       "type": "article",
       "date": "2026-09-14T09:39:51+00:00",
       "summary": "Maya Chen had the download numbers every seed-stage founder wants in a pitch deck. Ledgerly, her personal budgeting app, was adding users… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Lumiko",
+      "url": "https://www.producthunt.com/products/lumiko",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-09-14T07:08:16+00:00",
+      "summary": "Screen recordings that edit themselves with Auto Zoom-Pan Discussion | Link",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Doneit 3.2",
+      "url": "https://www.producthunt.com/products/doneit",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-09-14T05:59:28+00:00",
+      "summary": "Reimagined Doneit Assist, support for Siri AI, and more Discussion | Link",
       "tags": [
         "Product Strategy"
       ],
@@ -10544,102 +10655,6 @@
         "AI Strategy",
         "Product Culture",
         "Leadership"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "How to Coach Junior People Doing Work Above Their Pay Grade",
-      "url": "https://medium.com/@alex_86019/how-to-coach-junior-people-doing-work-above-their-pay-grade-176bf3c4e844?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-06-21T09:01:02+00:00",
-      "summary": "The article discusses how product leaders can effectively coach junior team members who are taking on responsibilities beyond their seniority or compensation level. It offers practical strategies for setting clear expectations, providing mentorship, and ensuring that such contributors receive appropriate recognition and growth opportunities without burning out. By aligning coaching with both individual development and organizational goals, managers can turn these situations into win‑wins for talent retention and product delivery.",
-      "tags": [
-        "Leadership",
-        "Product Culture",
-        "Growth"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Project Management vs Product Management",
-      "url": "https://medium.com/@dev.mukharjee2021/project-management-vs-product-management-acafa2126608?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-06-21T08:34:46+00:00",
-      "summary": "The article clarifies the distinct roles of project management and product management, emphasizing that while project managers focus on timelines, resources, and execution, product managers are responsible for vision, market fit, and the product lifecycle. Understanding these differences helps teams align responsibilities and drive better outcomes.",
-      "tags": [
-        "Product Strategy",
-        "Leadership",
-        "Prioritization"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "🔮 Product eats the AI company; the bitter lesson prevails; Fable 5 as CEO, undersea diplomacy & jellyfish sleep++ #579",
-      "url": "https://www.exponentialview.co/p/ev-579",
-      "source": "Exponential View",
-      "type": "trend",
-      "date": "2026-06-21T03:12:26+00:00",
-      "summary": "The article argues that successful AI ventures must prioritize product excellence over tech hype, echoing the \"bitter lesson\" that raw compute alone won’t create lasting value. It highlights recent moves like Fable 5’s CEO transition and emerging trends in undersea diplomacy and novel AI applications, underscoring the need for disciplined product strategy and cross‑functional leadership.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Leadership"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Agent 37",
-      "url": "https://www.producthunt.com/products/agent-37-38",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-06-20T19:03:23+00:00",
-      "summary": "Give every customer their own Hermes or OpenClaw agent Discussion | Link",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "300 Million Users — and 7 in 10 Never Pay",
-      "url": "https://medium.com/@ashwalgowda5/300-million-users-and-7-in-10-never-pay-aebebb84569f?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-06-20T17:55:51+00:00",
-      "summary": "The article analyzes Disney+ Hotstar's user funnel, highlighting that while the platform boasts 300 million users, 70% never convert to paying subscribers. It offers insights on leveraging free-tier engagement to foster paid loyalty through strategic product and growth tactics.",
-      "tags": [
-        "Growth",
-        "Product Strategy",
-        "Retention"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "To Make Research Change Decisions, Stop Delivering Reports",
-      "url": "https://jonnyjiangphd.medium.com/to-make-research-change-decisions-stop-delivering-reports-63b133c3490b?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-06-20T17:40:48+00:00",
-      "summary": "The article argues that product research often fails to drive decisions because insights are presented as static reports instead of persuasive arguments integrated into the decision‑making process. To create impact, researchers should embed findings directly into discussions, tailor narratives to stakeholders, and make insights actionable rather than merely delivering documents.",
-      "tags": [
-        "Product Strategy",
-        "User Research",
-        "Communication"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "🧠 Community Wisdom: Fractional CPO compensation, free e-signature tools, why some users pay but never use your product, sharing Claude Code context across a team, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-fractional-cpo-compensation",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-06-20T15:53:05+00:00",
-      "summary": "The article shares community insights on topics relevant to product managers, including how to structure fractional CPO compensation, recommendations for free e‑signature tools, reasons why users may pay without ever using a product, and best practices for sharing Claude code context across teams. It also highlights additional tips and resources to improve product workflows and team collaboration.",
-      "tags": [
-        "Product Strategy",
-        "Product Design",
-        "Product Culture"
       ],
       "is_fallback": false
     }
