@@ -1,0 +1,52 @@
+{
+  "edition": "2026-09-20",
+  "headline_theme": "AI hype vs. disciplined product work",
+  "target_audience": "Staff PM",
+  "hook_source": "Benedict Evans",
+  "editorial": "Benedict Evans’ recent column on AI tools and transformation makes a bold claim: the next wave of generative models will let product teams ship twice as fast with half the staff. The reality, however, is that most AI‑augmented workflows simply reshuffle work rather than eliminate it, and the promised velocity gains evaporate under the weight of new coordination costs.\n\nThe AI Productivity Paradox (SVPG) shows that while developers report a 20% bump in individual output, the net impact on ship frequency is flat because teams spend more time curating prompts, validating outputs, and reconciling model‑driven decisions with legacy processes. Strong Opinions, Loosely Held reminds us that opinions about AI’s magic are only as useful as the experiments that test them. Product Talk’s deep dive into a multi‑variant experiment (four new evals, sixteen variants) illustrates how even a modest hypothesis about an AI feature can explode into a combinatorial testing nightmare if you don’t anchor it in clear success metrics. In short, AI is a tool, not a shortcut; without rigorous hypothesis‑driven work, the hype becomes a distraction.\n\nStaff PMs, your leverage lies in the gate‑keeping function between vision and execution. First, freeze any AI‑related scope creep until you’ve defined a single, measurable success criterion and a minimal experiment plan. Second, audit your team’s coordination load—track the time spent on prompt engineering and model validation as a first‑class metric. Third, champion a “fail fast, learn fast” cadence: if an AI experiment doesn’t move the needle on your core metric within two sprints, archive it and reallocate resources to higher‑impact work. By treating AI as a hypothesis rather than a guarantee, you protect your roadmap from glitter and keep delivery on schedule.",
+  "key_takeaways": [
+    "AI can boost individual output but rarely translates into faster ship rates without intentional process safeguards.",
+    "Every AI claim needs a hypothesis‑driven experiment; otherwise the effort becomes hidden technical debt.",
+    "Coordination cost is the hidden tax on AI adoption—track it as a first‑class metric."
+  ],
+  "must_reads": [
+    {
+      "source": "Benedict Evans",
+      "title": "AI, tools and transformation",
+      "url": "https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation",
+      "why": "Evans paints an overly rosy picture of AI as a staffing shortcut; the article’s own examples reveal hidden coordination costs that most teams ignore."
+    },
+    {
+      "source": "SVPG",
+      "title": "The AI Productivity Paradox",
+      "url": "https://www.svpg.com/the-ai-productivity-paradox/",
+      "why": "The paradox forces PMs to confront the fact that raw productivity gains are quickly swallowed by new process friction, a reality many leaders gloss over."
+    },
+    {
+      "source": "SVPG",
+      "title": "Strong Opinions, Loosely Held",
+      "url": "https://www.svpg.com/strong-opinions-loosely-held/",
+      "why": "It reminds us that bold AI narratives must be tethered to data‑driven experiments, otherwise they become just another buzzword."
+    },
+    {
+      "source": "Product Talk",
+      "title": "4 New Evals and 16 Experiment Variants to Fix 1 Customer Complaint",
+      "url": "https://www.producttalk.org/4-new-evals-and-16-experiment-variants/",
+      "why": "Product Talk’s experiment proves that even a narrow AI hypothesis can balloon into a testing matrix, underscoring the need for disciplined experiment design before scaling."
+    }
+  ],
+  "contrarian": {
+    "note": "Lenny argues that Muse delivers a tangible UX uplift, suggesting AI can directly win customers without the heavy process overhead the editorial warns about.",
+    "source": "Lenny's Newsletter",
+    "title": "Muse review: The personal AI agent that gets consumer UX right",
+    "url": "https://www.lennysnewsletter.com/p/muse-review-the-personal-ai-agent"
+  },
+  "also_worth": [],
+  "pm_homework": [
+    "Define a single, quantifiable success metric for any AI experiment before allocating engineering time.",
+    "Measure and log the time spent on prompt engineering and model validation as a team KPI.",
+    "Set a two‑sprint deadline for AI experiments; if they don’t move the needle, de‑prioritize them."
+  ],
+  "generated_at": "2026-09-20T12:15:44.803841+00:00",
+  "model_used": "openai/gpt-oss-120b"
+}
