@@ -1,7 +1,94 @@
 {
-  "updated": "2026-09-19T09:09:19.209697+00:00",
-  "total": 850,
+  "updated": "2026-09-20T09:35:57.978155+00:00",
+  "total": 853,
   "items": [
+    {
+      "title": "Your Product Works at Home. But Will It Work in Another Country?",
+      "url": "https://starworklife.medium.com/your-product-works-at-home-but-will-it-work-in-another-country-bbf666adfc14?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-09-20T09:05:44+00:00",
+      "summary": "A product can be globally successful without being globally identical. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "A marketplace agent needs a receipt for every promise",
+      "url": "https://medium.com/@abeliankin/a-marketplace-agent-needs-a-receipt-for-every-promise-7d2d9571e5bf?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-09-20T08:44:38+00:00",
+      "summary": "A customer can agree to a plan in a chat and still have 3 unanswered questions: who is doing the work, when will it start, and what… Continue reading on Medium »",
+      "tags": [
+        "Platform Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🧠 Community Wisdom: Finding your first users before the product exists, debriefing your own interviews, what to optimize for in the early years of your career, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-finding-your-first",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-09-19T19:42:24+00:00",
+      "summary": "Community Wisdom 299",
+      "tags": [
+        "Career",
+        "Community"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "To err is human!",
+      "url": "https://www.exponentialview.co/p/to-err-is-human",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-09-19T14:45:05+00:00",
+      "summary": "Whoops!",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🔮 AI politics & the future of growth ++ #602",
+      "url": "https://www.exponentialview.co/p/ev-602",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-09-19T14:22:55+00:00",
+      "summary": "Plus: Fruit fly mines bitcoin, easy energy & AI-generated TV",
+      "tags": [
+        "AI Strategy",
+        "Growth"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "What Makes a Consumer AI Product Stick? | Josh Elman",
+      "url": "https://a16z.simplecast.com/episodes/what-makes-a-consumer-ai-product-stick-josh-elman-xHQUEG_W",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-09-19T10:00:00+00:00",
+      "summary": "a16z Partner Josh Elman joins Ollie Forsyth on New Economies to discuss the next wave of consumer AI and what separates a product people try once from one that becomes part of their everyday lives. Josh argues that getting attention has actually become easier, but getting consume...",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Answers by Context.dev",
+      "url": "https://www.producthunt.com/products/context-dev",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-09-19T08:54:55+00:00",
+      "summary": "Give it a research task + the JSON shape you want back. Discussion | Link",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Your Product Team Can Show Signs of Company Decay When You Let Them. I Was so Blind.",
       "url": "https://medium.com/illumination/your-product-team-can-show-signs-of-company-decay-when-you-let-them-i-was-so-blind-cfb2113f59f9?source=rss------product_management-5",
@@ -1652,6 +1739,18 @@
       "type": "trend",
       "date": "2026-09-05T07:11:06+00:00",
       "summary": "Open source app for recording vids with a teleprompter Discussion | Link",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Mycel",
+      "url": "https://www.producthunt.com/products/mycel",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-09-05T02:51:02+00:00",
+      "summary": "Bring one past deliverable. Mycel drafts every future one. Discussion | Link",
       "tags": [
         "Product Strategy"
       ],
@@ -10588,73 +10687,6 @@
         "AI Strategy",
         "Product Strategy",
         "Competitive Analysis"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "The Relationship the System Never Showed You",
-      "url": "https://medium.muz.li/the-relationship-the-system-never-showed-you-10d4fda86485?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-06-22T09:34:42+00:00",
-      "summary": "The article shares a design case study revealing how unnoticed user behavior can unintentionally disrupt personalized experiences like Spotify Wrapped. It highlights the importance of anticipating edge cases and testing UI interactions to maintain trust and delight in data-driven features.",
-      "tags": [
-        "Product Design",
-        "User Research",
-        "Growth"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Timbal AI",
-      "url": "https://www.producthunt.com/products/timbal-ai",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-06-22T09:20:29+00:00",
-      "summary": "Build AI agents, workflows, and apps in one stack Discussion | Link",
-      "tags": [
-        "AI Strategy",
-        "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "The Walt Disney Company",
-      "url": "https://www.acquired.fm/episodes/the-walt-disney-company",
-      "source": "Acquired",
-      "type": "podcast",
-      "date": "2026-06-22T05:54:28+00:00",
-      "summary": "The Walt Disney Company is the most successful enterprise ever created for monetizing human nostalgia. Today it’s the king of global entertainment, holding the intellectual property rights to the childhood memories of billions of people (including, likely, all of you) and is a re...",
-      "tags": [
-        "Product Culture"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Cloudflare Temporary Accounts",
-      "url": "https://www.producthunt.com/products/cloudflare",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-06-22T03:39:10+00:00",
-      "summary": "The article discusses Cloudflare's introduction of temporary accounts that allow agents to deploy services before completing the full signup process, aiming to streamline onboarding and reduce friction. This feature is positioned to improve early user experience and accelerate adoption by letting prospects trial core functionality instantly.",
-      "tags": [
-        "Product Strategy",
-        "Growth",
-        "User Research"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Building the most AI-pilled engineering team in the world | Fiona Fung (Manager of the Claude Code and Cowork Teams)",
-      "url": "https://www.lennysnewsletter.com/p/building-the-most-ai-pilled-engineering",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-06-21T12:31:43+00:00",
-      "summary": "Fiona Fung discusses how she builds an engineering team that fully embraces AI, integrating agents into daily workflows while preserving the team's culture. She shares strategies for navigating blurred roles, fostering collaboration, and scaling AI-driven productivity across the Claude Code and Cowork teams.",
-      "tags": [
-        "AI Strategy",
-        "Product Culture",
-        "Leadership"
       ],
       "is_fallback": false
     }
