@@ -1,7 +1,103 @@
 {
-  "updated": "2026-09-20T09:35:57.978155+00:00",
-  "total": 853,
+  "updated": "2026-09-21T10:23:12.297228+00:00",
+  "total": 843,
   "items": [
+    {
+      "title": "Frontier Overhangs",
+      "url": "https://stratechery.com/2026/frontier-overhangs/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-09-21T10:00:00+00:00",
+      "summary": "Pacing the frontier may be sincere, but it would also be strategically useful for the frontier labs to have time to reduce overhangs caused by model advancement.",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "When Everyone Is Right, the Technology Decision Can Still Be Wrong",
+      "url": "https://medium.com/@lekhasingh2021/when-everyone-is-right-the-technology-decision-can-still-be-wrong-599f323a338b?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-09-21T09:31:04+00:00",
+      "summary": "Why sensible decisions within individual teams can still lead to the wrong outcome for the system as a whole. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Why does planning a trip still feel like a full-time job?",
+      "url": "https://fondairena.medium.com/why-does-planning-a-trip-still-feel-like-a-full-time-job-e712fa18102a?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-09-21T09:22:16+00:00",
+      "summary": "A trip is supposed to be something you look forward to. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "We Track What We Ship. Why Don’t We Track What We Believed?",
+      "url": "https://medium.com/@johndineshgk4u/we-track-what-we-ship-why-dont-we-track-what-we-believed-17dfbaad2345?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-09-21T07:45:17+00:00",
+      "summary": "Product teams have systems for delivery, analytics and research. Continue reading on Medium »",
+      "tags": [
+        "Metrics"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Stop building products for perfection. Try this instead.",
+      "url": "https://medium.com/design-bootcamp/stop-building-products-for-perfection-try-this-instead-80da4da25575?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-09-20T12:34:06+00:00",
+      "summary": "Whether you are building a product from scratch or revamping an existing one, one piece of advice I have is to never build for perfection. Continue reading on Bootcamp »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "90 minutes of unfiltered product advice from Snap and Discord’s product chief | Peter Sellis",
+      "url": "https://www.lennysnewsletter.com/p/90-minutes-of-unfiltered-product",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-09-20T12:32:17+00:00",
+      "summary": "Peter Sellis on designing teams like terrorist organizations, riding your best people hard, and the three oxymorons of a truly great PM",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Nas, Grandmaster Caz, Steve Stoute & Ben Horowitz on Paying Hip-Hop’s Pioneers Their Due",
+      "url": "https://a16z.simplecast.com/episodes/nas-grandmaster-caz-steve-stoute-ben-horowitz-on-paying-hip-hops-pioneers-their-due-0OiuXVpk",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-09-20T10:01:39+00:00",
+      "summary": "Ben Horowitz and Erik Torenberg sit down with Nas, Grandmaster Caz, and Steve Stoute for a conversation about the Paid in Full Foundation and its mission to recognize and support the pioneers who built hip-hop. Ben, Nas, and Steve share how the foundation began, why simply giving...",
+      "tags": [
+        "Product Culture"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "SecAIQ Watch",
+      "url": "https://www.producthunt.com/products/secaiq-watch",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-09-20T09:44:03+00:00",
+      "summary": "What are your AI tools really doing on your machine? Discussion | Link",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Your Product Works at Home. But Will It Work in Another Country?",
       "url": "https://starworklife.medium.com/your-product-works-at-home-but-will-it-work-in-another-country-bbf666adfc14?source=rss------product_management-5",
@@ -10445,248 +10541,6 @@
         "AI Strategy",
         "Metrics",
         "Product Strategy"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Memory Chips and China, Microsoft and Chinese Models",
-      "url": "https://stratechery.com/2026/memory-chips-and-china-microsoft-and-chinese-models/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-06-23T10:00:00+00:00",
-      "summary": "The article warns that the leading memory chip manufacturers may face backlash for enabling Chinese memory producers, potentially reshaping the competitive landscape. Meanwhile, Microsoft has strong incentives to adopt Chinese AI models, highlighting strategic tensions in technology sourcing and AI partnerships.",
-      "tags": [
-        "AI Strategy",
-        "Competitive Analysis",
-        "Product Strategy"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Biology Research Expert — $65 $95 hour",
-      "url": "https://remoteOK.com/remote-jobs/remote-biology-research-expert-65-95-hour-24-mag-1133980",
-      "source": "Remote OK",
-      "type": "job",
-      "date": "2026-06-23T08:19:19+00:00",
-      "summary": "A part‑time consulting role is open for experts in biology and life sciences to support remote projects that involve experimental design, data analysis, and scientific reporting. The consultant will review scientific scenarios, evaluate outputs, provide structured feedback, and ensure high‑quality execution of biology‑focused workflows.",
-      "tags": [
-        "Data",
-        "Product Strategy",
-        "Stakeholders"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "BrowserBash",
-      "url": "https://www.producthunt.com/products/browserbash",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-06-23T07:54:57+00:00",
-      "summary": "CLI that turns plain-English into real browser tests Discussion | Link",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Stop Obsessing Over Churn. Fix This Metric First.",
-      "url": "https://medium.com/@seo_12249/stop-obsessing-over-churn-fix-this-metric-first-481ce33ec4ab?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-06-23T07:44:19+00:00",
-      "summary": "The article argues that churn is merely a symptom of deeper product issues and that founders often mistake it for the root cause, leading to wasted time and resources. It advises product managers to identify and address the underlying metric driving churn before focusing on churn reduction itself.",
-      "tags": [
-        "Metrics",
-        "Product Strategy",
-        "Leadership"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "I Gave My AI Skills a Memory and a Pair of Hands",
-      "url": "https://medium.com/all-about-claude/i-gave-my-ai-skills-a-memory-and-a-pair-of-hands-656af414719c?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-06-23T07:38:48+00:00",
-      "summary": "The article details how the author transformed an open-source AI prompt library into an interactive teammate that retains past decisions, visualizes its reasoning, and avoids silent actions. This new capability enhances collaboration and transparency for product teams.",
-      "tags": [
-        "AI Tools",
-        "Product Culture",
-        "Product Strategy"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "The AI Era Demands Delight: Why Utility is No Longer a Product Moat",
-      "url": "https://medium.com/@raphaellondner/the-ai-era-demands-delight-why-utility-is-no-longer-a-product-moat-76e5d452ac88?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-06-23T06:24:31+00:00",
-      "summary": "The article argues that as AI makes basic functionality ubiquitous, product leaders must focus on creating emotional connections to differentiate their offerings. By engineering delight and memorable experiences, companies can drive higher retention, revenue, and referrals despite the commoditization of utility.",
-      "tags": [
-        "Product Strategy",
-        "Retention",
-        "Product Culture"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "SPARK Matrix™ Insights: Benchmarking the Global Product Management Platforms Market",
-      "url": "https://medium.com/@gargiben954/spark-matrix-insights-benchmarking-the-global-product-management-platforms-market-e34321d7dbf6?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-06-23T06:23:10+00:00",
-      "summary": "QKS Group’s Product Management Platforms market offers an in-depth evaluation of the global ecosystem, highlighting emerging technology… Continue reading on Medium »",
-      "tags": [
-        "Platform Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Effects SDK",
-      "url": "https://www.producthunt.com/products/effects-sdk",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-06-23T06:17:54+00:00",
-      "summary": "AI video & audio effects SDK for real-time apps Discussion | Link",
-      "tags": [
-        "AI Strategy",
-        "Platform Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "HotkeyClash",
-      "url": "https://www.producthunt.com/products/hotkeyclash",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-06-23T05:50:06+00:00",
-      "summary": "Find where your Mac keyboard shortcuts clash Discussion | Link",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Crewdle AI",
-      "url": "https://www.producthunt.com/products/crewdle",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-06-22T15:45:08+00:00",
-      "summary": "Crewdle AI aggregates a wide range of business AI tools into a single platform, eliminating the need for multiple subscriptions. This unified access streamlines workflow and reduces costs, enabling product teams to experiment and integrate AI capabilities more efficiently.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Productivity"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Foresight by Lightning Rod",
-      "url": "https://www.producthunt.com/products/training-data-generator",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-06-22T15:28:19+00:00",
-      "summary": "Predict anything with AI Discussion | Link",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "🎙️ How I AI: How to write AI agent loops in Claude Code and Codex + How Claude Mythos found a 15-year-old bug in Mozilla Firefox",
-      "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-to-write-ai-agent-loops",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-06-22T15:02:37+00:00",
-      "summary": "The episode walks product leaders through practical techniques for building AI agent loops using Claude Code and Codex, highlighting how these tools can automate decision-making and improve user experiences. It also shares a case study where Claude Mythos identified a 15‑year‑old bug in Mozilla Firefox, illustrating the power of AI for uncovering hidden technical debt.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Product Culture"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Bluerails Discovery",
-      "url": "https://www.producthunt.com/products/bluerails-discovery",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-06-22T14:12:05+00:00",
-      "summary": "The rails AI agents use to find and pay you Discussion | Link",
-      "tags": [
-        "AI Strategy",
-        "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "How Claude Mythos found a 15-year-old bug in Mozilla Firefox | Brian Grinstead",
-      "url": "https://www.lennysnewsletter.com/p/how-claude-mythos-found-a-15-year",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-06-22T12:03:06+00:00",
-      "summary": "The episode explains how the Claude Mythos system leveraged a goal‑loop methodology to uncover a 15‑year‑old vulnerability in Mozilla Firefox, highlighting the blend of AI-driven detection with human expertise. For product managers, it showcases the importance of integrating AI tools into security workflows and measuring their impact through concrete fix counts and cycle times.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Metrics"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Shipping Fast Is Not a Substitute for Product Validation",
-      "url": "https://medium.com/@nadkarnigaurav/shipping-fast-is-not-a-substitute-for-product-validation-e918015db682?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-06-22T10:52:56+00:00",
-      "summary": "The article argues that accelerating development cycles is valuable only when product teams have a clear understanding of the problem they're solving. Without rigorous validation, faster shipping can amplify mistakes rather than deliver meaningful outcomes. It emphasizes the need for disciplined discovery before scaling velocity.",
-      "tags": [
-        "Product Strategy",
-        "Product Design",
-        "Prioritization"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Shipping Fast Is Not a Substitute for Product Validation",
-      "url": "https://medium.com/@nadkarnigaurav/shipping-fast-is-not-a-substitute-for-product-validation-e918015db682?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-06-22T10:52:56+00:00",
-      "summary": "The article argues that accelerating shipping speed is meaningless without first validating product ideas, emphasizing the need for rigorous product validation before development. It stresses that teams should prioritize confirming customer needs and problem fit to ensure that faster delivery translates into real value.",
-      "tags": [
-        "Product Strategy",
-        "Product Design",
-        "Metrics"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "The art and science of setting priorities",
-      "url": "https://medium.com/@kagreig/the-art-and-science-of-setting-priorities-87cec7009ecc?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-06-22T10:36:29+00:00",
-      "summary": "The article argues that traditional scoring systems for backlog prioritization are overly mathematical and suggests moving to a more intuitive, funnel-based approach. It emphasizes balancing data-driven insights with practical judgment to streamline decision-making for product teams.",
-      "tags": [
-        "Prioritization",
-        "Product Strategy",
-        "Leadership"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Apple Price Increases, Apple Intelligence and the E.U.",
-      "url": "https://stratechery.com/2026/apple-price-increases-apple-intelligence-and-the-e-u/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-06-22T10:00:00+00:00",
-      "summary": "Apple announced price hikes across its product lineup while also revealing that its new AI assistant, Apple Intelligence, will not be launched in the European Union due to regulatory concerns. The move highlights the trade‑off between monetization and navigating EU AI rules, forcing product teams to adjust rollout strategies and pricing models.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Competitive Analysis"
       ],
       "is_fallback": false
     }
