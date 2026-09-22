@@ -1,7 +1,143 @@
 {
-  "updated": "2026-09-21T10:23:12.297228+00:00",
-  "total": 843,
+  "updated": "2026-09-22T09:38:02.369509+00:00",
+  "total": 846,
   "items": [
+    {
+      "title": "New Market or New Use Case? How Fintechs Should Choose Their Next Growth Move",
+      "url": "https://medium.com/@maxineP/new-market-or-new-use-case-how-fintechs-should-choose-their-next-growth-move-0b91a0b8ab48?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-09-22T08:59:29+00:00",
+      "summary": "Among 4,658 current or prospective crypto users surveyed across 15 countries, 77% said they would open a stablecoin wallet if their… Continue reading on Medium »",
+      "tags": [
+        "Growth"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Why Manual Spreadsheets Fail on Intermittent FMLA Calculations (And How to Fix It)",
+      "url": "https://medium.com/@defhnhqf/why-manual-spreadsheets-fail-on-intermittent-fmla-calculations-and-how-to-fix-it-f48496affa26?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-09-22T08:54:42+00:00",
+      "summary": "A practical breakdown of the 480-hour rule, fluctuating schedules, and the math behind rolling 12-month lookback periods. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Your product map may not reflect how decisions move through the organisation",
+      "url": "https://medium.com/@djjoannadechnik/your-product-map-may-not-reflect-how-decisions-move-through-the-organisation-a00c4fb243f1?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-09-22T08:04:25+00:00",
+      "summary": "Why understanding users and products isn’t enough when you don’t understand how decisions actually move through an organisation. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Nobody Killed the Roadmap",
+      "url": "https://www.productcoalition.com/p/nobody-killed-the-roadmap",
+      "source": "Product Coalition",
+      "type": "article",
+      "date": "2026-09-22T08:02:02+00:00",
+      "summary": "Twelve years of product writing buried a document its own authors had already stopped defending",
+      "tags": [
+        "Communication",
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "It’s Never Been Easier to Build, and Never Been Harder to Build Something That Holds",
+      "url": "https://medium.com/@gi.inbal/its-never-been-easier-to-build-and-never-been-harder-to-build-something-that-holds-0de569be4c2e?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-09-22T07:43:55+00:00",
+      "summary": "Over the past year, I worked with Swimm on building an AI-powered platform for code understanding. Continue reading on Medium »",
+      "tags": [
+        "AI Strategy",
+        "Platform Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "AI Safety Language Is Destroying the Debate | Steven Sinofsky",
+      "url": "https://a16z.simplecast.com/episodes/ai-safety-language-is-destroying-the-debate-steven-sinofsky-p7Rb9M_7",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-09-21T18:05:35+00:00",
+      "summary": "a16z Board Partner and former Microsoft Windows president Steven Sinofsky joins Theo Jaffee and Sofia Puccini on MTS to argue that the language we use to describe AI failures is making it harder to understand what’s actually going wrong. Steven takes aim at terms like “alignment,...",
+      "tags": [
+        "AI Strategy",
+        "Compliance",
+        "Security"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🎙️ How I AI: Meta’s Muse review + How Warp ships 2,000 PRs a month with AI factories",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-metas-muse-review-how-warp",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-09-21T15:03:51+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "📈 Monday data: More AI numbers, more clarity?",
+      "url": "https://www.exponentialview.co/p/monday-data-ai-investment-brief",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-09-21T13:28:07+00:00",
+      "summary": "Companies are backing their AI claims with more numbers.",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Ch. 10: Testing Assumptions",
+      "url": "https://www.producttalk.org/ch-10-testing-assumptions/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-09-21T13:00:42+00:00",
+      "summary": "Continuous Discovery Habits* turns five this year. And to celebrate we are reading the book together. Each month, I am releasing an in-depth reading guide that includes: The chapters we will be reading A preview of the most important concepts we'll be learning about Short videos",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "How Warp ships 2,000 PRs a month with AI factories | Zach Lloyd (CEO, Warp)",
+      "url": "https://www.lennysnewsletter.com/p/how-warp-ships-2000-prs-a-month-with",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-09-21T12:04:11+00:00",
+      "summary": "Watch now (47 mins) | 🎙️ Warp CEO Zach Lloyd shows how his team turns requests from Slack, Linear, and GitHub into tracked, tested pull requests, then measures and improves its cloud-based AI software factory over time",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "AI-powered premortem  worksheet",
+      "url": "https://www.productledalliance.com/ai-powered-premortem-template-framework/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-09-21T12:00:19+00:00",
+      "summary": "Challenge your thinking and mitigate risks before they happen.",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Frontier Overhangs",
       "url": "https://stratechery.com/2026/frontier-overhangs/",
@@ -119,6 +255,18 @@
       "summary": "A customer can agree to a plan in a chat and still have 3 unanswered questions: who is doing the work, when will it start, and what… Continue reading on Medium »",
       "tags": [
         "Platform Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Fulvid",
+      "url": "https://www.producthunt.com/products/fulvid",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-09-20T04:12:19+00:00",
+      "summary": "A standalone desktop editor for Markdown and MDX Discussion | Link",
+      "tags": [
+        "Product Strategy"
       ],
       "is_fallback": true
     },
@@ -2072,6 +2220,18 @@
       "summary": "Claude Cowork for high-volume GTM workflows Discussion | Link",
       "tags": [
         "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Edyt",
+      "url": "https://www.producthunt.com/products/edyt",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-09-03T02:52:58+00:00",
+      "summary": "AI for text you can't even select. Any app on Mac & Windows Discussion | Link",
+      "tags": [
+        "AI Strategy"
       ],
       "is_fallback": true
     },
@@ -10401,146 +10561,6 @@
         "Product Strategy",
         "Product Design",
         "Growth"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Overcome Template Thinking: Unlock Your Team’s Full Potential With AI",
-      "url": "https://medium.com/@nikovasan/overcome-template-thinking-unlock-your-teams-full-potential-with-ai-d884bd696b9d?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-06-24T07:45:36+00:00",
-      "summary": "The article explains that AI adoption stalls when teams default to using only familiar, limited features—a habit called \"template thinking.\" It proposes strategies for product managers to broaden AI usage across workflows, encouraging experimentation and cross‑functional collaboration to fully unlock AI's potential.",
-      "tags": [
-        "AI Strategy",
-        "Product Culture",
-        "Leadership"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Why Product Managers Make Surprisingly Good Parents",
-      "url": "https://medium.com/@vaamica/why-product-managers-make-surprisingly-good-parents-d57a765579ae?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-06-24T07:31:42+00:00",
-      "summary": "The article draws parallels between product management and parenting, showing how skills like stakeholder management, prioritization, and data-driven decision making translate into effective parenting. It highlights how PMs' focus on iteration, empathy, and clear communication can help navigate the unpredictable challenges of raising children.",
-      "tags": [
-        "Product Strategy",
-        "Leadership",
-        "Prioritization"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Why Custom Math Models Are the New Battleground for iGaming Operators",
-      "url": "https://medium.com/@edwardliu_58187/why-custom-math-models-are-the-new-battleground-for-igaming-operators-735e3dfa469c?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-06-24T06:28:36+00:00",
-      "summary": "The article argues that iGaming operators can no longer rely on sheer game volume or larger bonuses to stand out; instead, they must invest in bespoke mathematical models to personalize player experiences and optimize profitability. Custom models become a critical competitive advantage, enabling operators to fine‑tune odds, promotions, and risk management in ways that generic solutions cannot.",
-      "tags": [
-        "Product Strategy",
-        "Competitive Analysis",
-        "Data"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Ruby",
-      "url": "https://www.producthunt.com/products/ruby-7",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-06-24T05:43:46+00:00",
-      "summary": "The article emphasizes the importance of asking better, more insightful questions during live calls to drive clearer understanding and more effective decision‑making. It suggests practical techniques for framing questions that uncover user needs, surface risks, and align stakeholders, ultimately improving meeting outcomes and product direction.",
-      "tags": [
-        "Communication",
-        "Leadership",
-        "Product Culture"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Behind Every Great Product is a PM Managing Chaos",
-      "url": "https://medium.com/@sohag933/behind-every-great-product-is-a-pm-managing-chaos-33d8cb7b2c1b?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-06-24T03:41:40+00:00",
-      "summary": "The article reveals that effective product management goes beyond roadmaps and feature launches, focusing on orchestrating chaos, aligning stakeholders, and making swift decisions amid uncertainty. It emphasizes the PM's role in turning ambiguity into clear priorities and maintaining momentum toward product success.",
-      "tags": [
-        "Product Strategy",
-        "Leadership",
-        "Productivity"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Associate Product Manager",
-      "url": "https://remoteOK.com/remote-jobs/remote-associate-product-manager-caretalk-health-1133979",
-      "source": "Remote OK",
-      "type": "job",
-      "date": "2026-06-23T20:07:02+00:00",
-      "summary": "A remote, full-time Associate Product Manager position has been posted, targeting candidates in the United States. The role is listed on LinkedIn and includes standard job details such as title, location, and employment type.",
-      "tags": [
-        "Career",
-        "Product Strategy",
-        "Leadership"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Must-Have Web Content Accessibility Checklist",
-      "url": "https://www.productledalliance.com/must-have-web-content-accessibility-checklist/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-06-23T14:37:51+00:00",
-      "summary": "The article provides a concise, actionable checklist to help product teams navigate web accessibility standards and embed inclusive design into their workflows. By following this framework, product managers can ensure their products meet compliance requirements and deliver a better experience for all users.",
-      "tags": [
-        "AI Strategy",
-        "Product Design",
-        "Product Culture"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Creating Experiences - All Things Product Podcast with Teresa Torres & Petra Wille",
-      "url": "https://www.producttalk.org/creating-experiences-all-things-product-podcast-with-teresa-torres-petra-wille/",
-      "source": "Product Talk",
-      "type": "article",
-      "date": "2026-06-23T13:00:23+00:00",
-      "summary": "In this episode, Teresa Torres and Petra Wille discuss how to design memorable experiences, not just events, and share practical methods for product teams to apply experience design principles. They highlight the importance of intentional storytelling, user empathy, and iterative prototyping to create impactful product experiences.",
-      "tags": [
-        "Product Strategy",
-        "User Research",
-        "Product Design"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "The new inner game: Your unfair advantage in the age of AI",
-      "url": "https://www.lennysnewsletter.com/p/the-new-inner-game-your-unfair-advantage",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-06-23T12:45:59+00:00",
-      "summary": "The article presents a playbook for leveraging AI as a personal competitive edge, emphasizing mindset shifts and practical tactics to thrive amid the massive disruption AI brings to work. It guides product managers on adopting AI‑enhanced decision‑making, continuous learning, and strategic positioning to turn the upheaval into a sustainable advantage.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "Leadership"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "How product managers improve relevance  in AI-powered recommendation systems",
-      "url": "https://www.productledalliance.com/how-product-managers-improve-relevance-in-ai-powered-recommendation-systems/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-06-23T11:04:40+00:00",
-      "summary": "The article explains the \"relevance gap\" in AI-powered recommendation systems, showing how focusing solely on metrics can lead to poor user experiences. It offers product managers practical steps to align relevance metrics with real user satisfaction, ensuring recommendations feel personalized and valuable.",
-      "tags": [
-        "AI Strategy",
-        "Metrics",
-        "Product Strategy"
       ],
       "is_fallback": false
     }
