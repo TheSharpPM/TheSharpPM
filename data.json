@@ -1,7 +1,144 @@
 {
-  "updated": "2026-09-22T09:38:02.369509+00:00",
+  "updated": "2026-09-23T09:43:23.401210+00:00",
   "total": 846,
   "items": [
+    {
+      "title": "I Gave 3 AI Agents One Job. They Finished It While I Went On Coffee Run.",
+      "url": "https://medium.com/titansoft-engineering/i-gave-3-ai-agents-one-job-they-finished-it-while-i-went-on-coffee-run-a361bb582cb3?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-09-23T08:48:14+00:00",
+      "summary": "Overview: How Kelvin Yap, a Product Manager at Titansoft, built a three-agent AI system — Researcher, Critic, Writer — using OpenClaw… Continue reading on T.8ytes by Titansoft »",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Squarespace: Senior Product Director, Client Engagement Group",
+      "url": "https://weworkremotely.com/remote-jobs/squarespace-senior-product-director-client-engagement-group",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-09-23T07:31:13+00:00",
+      "summary": "Headquarters: Remote, United States At Squarespace, we empower our product teams to solve hard problems in ways that our customers love and strengthen our business. As Senior Director of Product for the Client Engagement Group (CEG), you will lead the product strategy and executi...",
+      "tags": [
+        "Career",
+        "Product Strategy",
+        "Competitive Analysis"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Opus 5.5 vs. GPT-6 Sol: which model won my blind taste test?",
+      "url": "https://www.lennysnewsletter.com/p/opus-55-vs-gpt-6-sol-which-model",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-09-22T23:12:49+00:00",
+      "summary": "Watch now (39 mins) | 🎙️ I ran blind evaluations across writing, frontend prototypes, long-running agentic tasks, SVGs, coding, and video editing, then put Opus 5.5 through Barbie Bench",
+      "tags": [
+        "AI Tools",
+        "Communication",
+        "Product Design"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Get Started With Claude: A Practical AI Toolkit for Product Managers",
+      "url": "https://medium.com/@arushi09rana/get-started-with-claude-a-practical-ai-toolkit-for-product-managers-a18a8c261158?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-09-22T21:07:49+00:00",
+      "summary": "Every day, Product Managers spend hours doing work around the product instead of thinking about the product. Continue reading on Medium »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "I left Claude for months. Opus 5.5 is why I'm back",
+      "url": "https://www.lennysnewsletter.com/p/i-left-claude-for-months-opus-55",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-09-22T19:06:40+00:00",
+      "summary": "Watch now (25 mins) | 🎙️ I abandoned Claude for months because it drove me insane. Opus 5.5 changed that, and I'll show you exactly where it's earning a spot back in my stack for frontend, SVGs, and agentic tasks",
+      "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Jev State",
+      "url": "https://www.producthunt.com/products/jev-state",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-09-22T18:53:46+00:00",
+      "summary": "Turn AI conversations into tests and runnable code Discussion | Link",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Is It an Engagement Problem, or a Decision Problem?",
+      "url": "https://medium.com/@XAbhii/is-it-an-engagement-problem-or-a-decision-problem-d78cbaf438cf?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-09-22T16:14:46+00:00",
+      "summary": "Two products, eight years apart, where I read the same situation wrong. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Trash Can Tracking - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "url": "https://www.producttalk.org/trash-can-tracking-all-things-product-podcast-with-teresa-torres-petra-wille/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-09-22T13:00:04+00:00",
+      "summary": "Listen to this episode on: Spotify | Apple Podcasts What if the ideas you throw away tell you more about the health of your product process than the ones you ship? In this episode of All Things Product, Petra Wille introduces trash can tracking — a deceptively simple technique fo...",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Why a16z is Building a New School for the AI Era | Ben Horowitz",
+      "url": "https://a16z.simplecast.com/episodes/why-a16z-is-building-a-new-school-for-the-ai-era-ben-horowitz-yv3mnCj_",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-09-22T12:05:00+00:00",
+      "summary": "Ben Horowitz and Erik Torenberg sit down with Gagan Biyani to introduce the Horowitz and Andreessen Academy and discuss a bigger question: what should education look like when AI is rapidly changing the skills people need to build, work, and create? Ben and Gagan explain why they...",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "When giving an ‘F’  is the right product decision",
+      "url": "https://www.productledalliance.com/when-giving-an-f-is-the-right-product-decision/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-09-22T12:00:22+00:00",
+      "summary": "Build a seamless experience for real users, not for the intruders exploiting it.",
+      "tags": [
+        "Product Culture"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Amazon Blocks Muse, Amazon’s Moat, Aggregator v Aggregator",
+      "url": "https://stratechery.com/2026/amazon-blocks-muse-amazons-moat-aggregator-v-aggregator/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-09-22T10:00:00+00:00",
+      "summary": "Amazon predictably blocked Muse, but there is room for a deal based on the reality that Amazon's physical world investments are an AI moat.",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "New Market or New Use Case? How Fintechs Should Choose Their Next Growth Move",
       "url": "https://medium.com/@maxineP/new-market-or-new-use-case-how-fintechs-should-choose-their-next-growth-move-0b91a0b8ab48?source=rss------product_management-5",
@@ -750,6 +887,18 @@
       "type": "article",
       "date": "2026-09-16T07:26:56+00:00",
       "summary": "AI applications win where they reshape workflows, own context, reduce effort, and turn model capability into trusted outcomes. Continue reading on Medium »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "GBrain",
+      "url": "https://www.producthunt.com/products/gbrain",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-09-15T21:15:03+00:00",
+      "summary": "Plug your own memory, tools, and skills into any AI Discussion | Link",
       "tags": [
         "AI Strategy"
       ],
@@ -10399,170 +10548,6 @@
         "Product Design"
       ],
       "is_fallback": true
-    },
-    {
-      "title": "LockIn MCP",
-      "url": "https://www.producthunt.com/products/lockin-mcp",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-06-25T09:35:32+00:00",
-      "summary": "Let AI block distractions for you when you need to lock in Discussion | Link",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "The Hidden Tax on Every Product Decision",
-      "url": "https://www.productcoalition.com/p/the-fine-print-that-cost-a-fortune",
-      "source": "Product Coalition",
-      "type": "article",
-      "date": "2026-06-25T09:30:53+00:00",
-      "summary": "Every Product Team Knows the Cost of Building. Almost None Know the Cost of Getting It Wrong.",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "How to Reduce Software Development Costs: 4 Proven Ways",
-      "url": "https://medium.com/@pragmaticcoders/how-to-reduce-software-development-costs-4-proven-ways-b81313034d00?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-06-25T07:57:54+00:00",
-      "summary": "The article outlines four actionable strategies to lower software development expenses, such as tightening scope definition, automating repetitive tasks, leveraging open‑source components, and adopting more efficient development processes. It highlights how these tactics can improve team productivity and reduce waste, delivering higher ROI for product initiatives.",
-      "tags": [
-        "Product Strategy",
-        "Productivity",
-        "Metrics"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "The Real Difference Between a $5K Designer and a $50K Designer",
-      "url": "https://medium.muz.li/the-real-difference-between-a-5k-designer-and-a-50k-designer-9ae98214b2ae?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-06-25T06:54:04+00:00",
-      "summary": "The article argues that the true value of a high-cost designer lies not in polish or fancy animations, but in their ability to deeply understand the core problem and boldly address it. This problem‑solving mindset distinguishes a $50K designer from a $5K one.",
-      "tags": [
-        "Product Design",
-        "Leadership",
-        "Product Strategy"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Freshers Are Not Junior Seniors: Why Entry-Level Hiring Assessment Needs a Different Logic",
-      "url": "https://medium.com/@pmishra_89980/freshers-are-not-junior-seniors-why-entry-level-hiring-assessment-needs-a-different-logic-7073812d2802?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-06-25T06:45:58+00:00",
-      "summary": "The article argues that entry‑level candidates should not be assessed using the same criteria as senior hires, as their potential and skill sets differ fundamentally. It proposes a distinct evaluation framework that focuses on learning ability, cultural fit, and growth potential rather than senior‑level performance metrics.",
-      "tags": [
-        "Hiring",
-        "Product Strategy",
-        "Leadership"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Observational Instinct Over Credentials: The Kunal Shah Playbook",
-      "url": "https://medium.com/@simran2002vaidya/observational-instinct-over-credentials-the-kunal-shah-playbook-83d69b902017?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-06-25T05:54:58+00:00",
-      "summary": "The article dissects Kunal Shah’s playbook, emphasizing the power of observational instincts and real‑world insights over formal credentials when building and scaling products. It uses Meta’s $900 million investment in CRED as a case study to illustrate how deep market understanding, user behavior observation, and strategic positioning drive massive growth and valuation.",
-      "tags": [
-        "Product Strategy",
-        "Growth",
-        "Leadership"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Rimini Street: Sr. Support Engineer, EBS",
-      "url": "https://weworkremotely.com/remote-jobs/rimini-street-sr-support-engineer-ebs",
-      "source": "We Work Remotely",
-      "type": "job",
-      "date": "2026-06-24T22:25:04+00:00",
-      "summary": "Rimini Street is hiring a Sr. Support Engineer for its EBS portfolio, focusing on delivering mission‑critical support and managed services for Oracle, SAP, and VMware applications. The role emphasizes leveraging the company's Agentic AI ERP solutions to improve client outcomes, lower costs, and free resources for strategic initiatives.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Product Culture"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Origami Risk: Technical Partnerships Manager",
-      "url": "https://weworkremotely.com/remote-jobs/origami-risk-technical-partnerships-manager",
-      "source": "We Work Remotely",
-      "type": "job",
-      "date": "2026-06-24T22:25:04+00:00",
-      "summary": "The Technical Partnerships Manager will design and scale the technical infrastructure of Origami Risk’s third‑party ecosystem within the Origami Marketplace, driving new paid partnership programs and revenue forecasts. The role blends commercial acumen with partnership engineering to unlock meaningful growth opportunities through premium marketplace collaborations.",
-      "tags": [
-        "Growth",
-        "Stakeholders",
-        "Product Strategy"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Principal Product Manager Acquisition Products",
-      "url": "https://remoteOK.com/remote-jobs/remote-principal-product-manager-acquisition-products-butterflymx-1134023",
-      "source": "Remote OK",
-      "type": "job",
-      "date": "2026-06-24T22:00:03+00:00",
-      "summary": "Our Mission: ButterflyMX is on a mission to empower people to automate property access, operations, and security from a single platform. Our products are installed in more than 20,000+ multifamily, commercial, gated communities, and student-housing properties worldwide, including...",
-      "tags": [
-        "Career",
-        "Growth",
-        "Platform Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Ad Reframe",
-      "url": "https://www.producthunt.com/products/outpaint-com-ad-reframe",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-06-24T14:14:23+00:00",
-      "summary": "The piece outlines a workflow for transforming user‑generated content (UGC) ads into formats suitable for TV discussion panels, emphasizing the need for streamlined editing, branding consistency, and cross‑channel distribution. It highlights how product teams can leverage automation and collaboration tools to repurpose organic ad content efficiently, driving broader reach and engagement across traditional media.",
-      "tags": [
-        "Product Strategy",
-        "AI Tools",
-        "Growth"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "GLM 5.2: why I’m replacing Opus in Claude Code with this new model",
-      "url": "https://www.lennysnewsletter.com/p/glm-52-why-im-replacing-opus-in-claude",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-06-24T12:03:52+00:00",
-      "summary": "The article explores the author's experience swapping Opus for the open-weight GLM‑5.2 model in Claude Code, detailing its performance across code audits, UI redesigns, and a 45‑minute autonomous bug‑hunting session using Cursor. The author highlights the model's efficiency, noting it completed the tasks for just $3.36, suggesting a cost‑effective alternative for AI‑assisted development workflows.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Productivity"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "My Vibe Coding Adventure, The App and the Experience, Ten Takeaways",
-      "url": "https://stratechery.com/2026/my-vibe-coding-adventure-the-app-and-the-experience-ten-takeaways/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-06-24T10:00:00+00:00",
-      "summary": "The article chronicles the author’s hands‑on journey building a personal “vibe coding” app, highlighting practical insights from design through deployment. It distills ten key takeaways—including the importance of rapid prototyping, user‑centered feedback loops, and aligning technical choices with long‑term usage goals—that can guide product managers in creating habit‑forming tools.",
-      "tags": [
-        "Product Strategy",
-        "Product Design",
-        "Growth"
-      ],
-      "is_fallback": false
     }
   ]
 }
