@@ -1,7 +1,91 @@
 {
-  "updated": "2026-09-23T09:43:23.401210+00:00",
-  "total": 846,
+  "updated": "2026-09-24T09:42:37.135768+00:00",
+  "total": 840,
   "items": [
+    {
+      "title": "I Used AI to Do Product Discovery on My Own Idea",
+      "url": "https://adityanandaaa.medium.com/i-used-ai-to-do-product-discovery-on-my-own-idea-628c97d8e755?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-09-24T09:21:42+00:00",
+      "summary": "I use Hevy for almost every workout. It tracks my exercises, sets, reps, weights and history, which means something slightly funny happens… Continue reading on Medium »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Instagram broke the link my customers live on. I had a week to fix it.",
+      "url": "https://medium.com/age-of-awareness/instagram-broke-the-link-my-customers-live-on-i-had-a-week-to-fix-it-686faf179c01?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-09-24T09:15:51+00:00",
+      "summary": "On 18 March 2026, Meta changed one default in the Instagram app. By the end of the day, the agencies on my platform had lost most of their… Continue reading on Age of Awareness »",
+      "tags": [
+        "Platform Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Build or Buy Is Not a Technical Decision",
+      "url": "https://www.productcoalition.com/p/build-or-buy-is-not-a-technical-decision",
+      "source": "Product Coalition",
+      "type": "article",
+      "date": "2026-09-24T08:01:42+00:00",
+      "summary": "The build case is argued in sprints, and the bill turns up later as headcount",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "A Different View of Building a PPF Product Portfolio, Not Just One SKU",
+      "url": "https://medium.com/@SHIELD_SPIRIT/a-different-view-of-building-a-ppf-product-portfolio-not-just-one-sku-41cafa9984ba?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-09-24T06:04:12+00:00",
+      "summary": "One “best” film cannot serve every dealer, installer, fleet and private-label brief. I once watched an installer set aside a beautiful… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "What Do You Ship When the Tax Is Bigger Than the Margin?",
+      "url": "https://medium.com/@XAbhii/what-do-you-ship-when-the-tax-is-bigger-than-the-margin-b90289e44840?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-09-24T03:31:02+00:00",
+      "summary": "October 2023, Indian real-money gaming. Three of the things we shipped, we pulled within weeks. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "More on Muse, Amazon, and Walmart; Muse and Expedia; Whither Google?",
+      "url": "https://stratechery.com/2026/more-on-muse-amazon-and-walmart-muse-and-expedia-whither-google/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-09-23T10:00:00+00:00",
+      "summary": "Meta needs Walmart to wait out Amazon; Expedia seeks to keep its middleware position; meanwhile, where is Google?",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Amjad Masad on Rethinking College for the AI Era",
+      "url": "https://a16z.simplecast.com/episodes/amjad-masad-on-rethinking-college-for-the-ai-era-sOmuMQGQ",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-09-23T10:00:00+00:00",
+      "summary": "Erik Torenberg sits down with Replit founder and CEO Amjad Masad and Horowitz and Andreessen Academy co-founder and CEO Gagan Biyani to ask what education should look like for a generation growing up with AI. Amjad argues that one of the most valuable things young people bring to...",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "I Gave 3 AI Agents One Job. They Finished It While I Went On Coffee Run.",
       "url": "https://medium.com/titansoft-engineering/i-gave-3-ai-agents-one-job-they-finished-it-while-i-went-on-coffee-run-a361bb582cb3?source=rss------product_management-5",
@@ -516,6 +600,18 @@
       "tags": [
         "AI Strategy",
         "Security"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "minimi 2.0",
+      "url": "https://www.producthunt.com/products/shram",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-09-18T20:16:52+00:00",
+      "summary": "AI cat that closes your open loops Discussion | Link",
+      "tags": [
+        "AI Strategy"
       ],
       "is_fallback": true
     },
@@ -1712,6 +1808,18 @@
         "AI Strategy",
         "AI Tools",
         "Privacy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Autonomous Product Delivery",
+      "url": "https://www.producthunt.com/products/autonomyai",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-09-08T15:13:35+00:00",
+      "summary": "Discover, plan, build, ship, repeat. Product teams run it Discussion | Link",
+      "tags": [
+        "Product Strategy"
       ],
       "is_fallback": true
     },
@@ -10355,197 +10463,6 @@
       "summary": "The best Stratechery content from the week of June 22, 2026, including a vibe coding adventure, Apple in Europe, and a midsummer mailbag.",
       "tags": [
         "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "EP105 What happens when your users become the builders?",
-      "url": "https://www.productcoalition.com/p/ep105-what-happens-when-your-users",
-      "source": "Product Coalition",
-      "type": "article",
-      "date": "2026-06-26T09:00:57+00:00",
-      "summary": "In this episode, Saurabh Sharma discusses how enterprise AI products are reshaping product management by turning users into builders, enabling them to create custom workflows and primitives. He highlights the challenges of evolving roadmaps and managing AI agents, and offers guidance on designing AI-driven product experiences that boost engagement and efficiency.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "AI Tools"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "The Anatomy of Incompetence: Why Toxic Leadership Accrues an Operational Governance Tax",
-      "url": "https://medium.com/@christopher.reepsr/the-anatomy-of-incompetence-why-toxic-leadership-accrues-an-operational-governance-tax-7c849f0a20d2?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-06-26T08:34:58+00:00",
-      "summary": "By Christopher Reep Continue reading on Medium »",
-      "tags": [
-        "Leadership",
-        "Risk Management"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "The History of Innovation Cycles",
-      "url": "https://medium.com/@jerrygrzegorzek/the-history-of-innovation-cycles-90532cb91479?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-06-26T08:06:30+00:00",
-      "summary": "The foundational premise of modern capitalist economics is not equilibrium, but constant, turbulent disruption. This concept was famously… Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "AI Isn’t Free: The Product Manager’s Guide to AI Economics",
-      "url": "https://medium.com/design-bootcamp/ai-isnt-free-the-product-manager-s-guide-to-ai-economics-811587d55d47?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-06-26T07:37:30+00:00",
-      "summary": "Every product roadmap today seems to contain the same item: “Add AI.” Continue reading on Bootcamp »",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Aurora",
-      "url": "https://www.producthunt.com/products/aurora-21",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-06-26T05:37:09+00:00",
-      "summary": "Mac notch command center for productivity with tool access Discussion | Link",
-      "tags": [
-        "Productivity"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "RetroMac",
-      "url": "https://www.producthunt.com/products/retromac",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-06-26T04:24:48+00:00",
-      "summary": "Turn your Mac into a time machine. Discussion | Link",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Backlog Management Explained: How Product Teams Prioritize Work That Matters",
-      "url": "https://hardikgp.medium.com/backlog-management-explained-how-product-teams-prioritize-work-that-matters-5d2f7b2b770e?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-06-26T03:38:34+00:00",
-      "summary": "Learn how product backlogs, prioritization techniques, backlog refinement, and continuous planning help modern software teams focus on the… Continue reading on Medium »",
-      "tags": [
-        "Prioritization"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "ClinePass",
-      "url": "https://www.producthunt.com/products/cline-4",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-06-25T22:55:24+00:00",
-      "summary": "ClinePass enables teams to run top open-weight AI models directly within the Cline Discussion platform, streamlining the integration of advanced machine learning capabilities into product workflows. This tool helps product managers experiment with and deploy AI features faster, reducing reliance on external services and accelerating iteration cycles.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Platform Strategy"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Kerendia Task Force",
-      "url": "https://remoteOK.com/remote-jobs/remote-kerendia-task-force-bayer-1134145",
-      "source": "Remote OK",
-      "type": "job",
-      "date": "2026-06-25T19:17:49+00:00",
-      "summary": "At Bayer we’re visionaries, driven to solve the world’s toughest challenges and striving for a world where ,Health for all, Hunger for none’ is no longer a dream, but a real possibility. We’re doing it with energy, curiosity and sheer dedication, always learning from unique persp...",
-      "tags": [
-        "Career"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Sunrise",
-      "url": "https://www.producthunt.com/products/sunrise-5",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-06-25T18:39:17+00:00",
-      "summary": "A real planner for Google Tasks Discussion | Link",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "hh2",
-      "url": "https://remoteOK.com/remote-jobs/remote-hh2-biztech-1134146",
-      "source": "Remote OK",
-      "type": "job",
-      "date": "2026-06-25T15:06:30+00:00",
-      "summary": "Civalgo is your all-in-one construction management solution, designed by industry experts to streamline project planning, resource allocation, and daily reporting. Simplify your operations, enhance team collaboration, and boost productivity with our intuitive, real-time platform....",
-      "tags": [
-        "Career",
-        "Platform Strategy",
-        "Productivity"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Is This Okay? How Override Labs Built a Safety-First AI Consent Coach for Teen Boys",
-      "url": "https://www.producttalk.org/is-this-okay-how-override-labs-built-a-safety-first-ai-consent-coach-for-teen-boys/",
-      "source": "Product Talk",
-      "type": "article",
-      "date": "2026-06-25T13:00:46+00:00",
-      "summary": "Listen to this episode on: Spotify | Apple Podcasts What if AI could help prevent sexual assault before it happens — without tracking users, judging them, or handing them a verdict? In this episode of Just Now Possible , Teresa Torres talks with Priya Nakra (Founder and Product L...",
-      "tags": [
-        "AI Strategy",
-        "Privacy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "🔮 The state of the AI economy",
-      "url": "https://www.exponentialview.co/p/the-state-of-the-ai-economy",
-      "source": "Exponential View",
-      "type": "trend",
-      "date": "2026-06-25T11:18:49+00:00",
-      "summary": "We've reconstructed the AI economy from the bottom up",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Mobile accessibility at velocity:  Test smarter, ship faster [OnDemand]",
-      "url": "https://www.productledalliance.com/mobile-accessibility-at-velocity-ondemand/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-06-25T11:02:18+00:00",
-      "summary": "Mobile accessibility doesn't work like web. Watch this OnDemand webinar to get practical frameworks and a live demo of the Mobile Testing Suite.",
-      "tags": [
-        "Engineering Velocity"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "An Interview with Figma CEO Dylan Field About Design and AI",
-      "url": "https://stratechery.com/2026/an-interview-with-figma-ceo-dylan-field-about-design-and-ai/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-06-25T10:00:00+00:00",
-      "summary": "An interview with Figma CEO Dylan Field about building Figma, and why he believes AI gives the company a tailwind.",
-      "tags": [
-        "AI Strategy",
-        "Career",
-        "Product Design"
       ],
       "is_fallback": true
     }
