@@ -1,7 +1,81 @@
 {
-  "updated": "2026-09-24T09:42:37.135768+00:00",
-  "total": 840,
+  "updated": "2026-09-25T10:00:01.779302+00:00",
+  "total": 841,
   "items": [
+    {
+      "title": "How My Cats Became the Face of a Tech Ecosystem",
+      "url": "https://medium.com/womenintechnology/how-my-cats-became-the-face-of-a-tech-ecosystem-9d5868141577?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-09-25T09:46:01+00:00",
+      "summary": "Tech doesn’t have to be boring. See how I used my pets’ personalities to build a cyberpunk brand and became the foundation of Jaxx’s Lab. Continue reading on Women in Technology »",
+      "tags": [
+        "Platform Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Question I Ask Every Founder in the First 10 Minutes and Why Most Cannot Answer It",
+      "url": "https://medium.com/@taherpittalvala/the-question-i-ask-every-founder-in-the-first-10-minutes-and-why-most-cannot-answer-it-db0df4891dad?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-09-25T09:26:01+00:00",
+      "summary": "Every founder I work with has a product idea. Most have thought about it for months. Some have a pitch deck. Some have a prototype. A few… Continue reading on Medium »",
+      "tags": [
+        "Product Design"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Thinking About a Career Change? How to Plan Your Next Move at Mid-Career",
+      "url": "https://medium.com/@rakeshvermacoach/thinking-about-a-career-change-how-to-plan-your-next-move-at-mid-career-2c32450a1857?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-09-25T08:45:37+00:00",
+      "summary": "At some point in your career, you may find yourself thinking: Continue reading on Medium »",
+      "tags": [
+        "Career"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The AI Org Chart: Why Your Cheapest Model Might Be Your Best Hire",
+      "url": "https://medium.com/illumination/the-ai-org-chart-why-your-cheapest-model-might-be-your-best-hire-4e534fb303e0?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-09-25T05:55:02+00:00",
+      "summary": "There’s a decision every fintech product team eventually has to make, usually while staring at a usage-and-billing dashboard at 11pm: do… Continue reading on ILLUMINATION »",
+      "tags": [
+        "AI Strategy",
+        "Metrics",
+        "Pricing"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Decktly",
+      "url": "https://www.producthunt.com/products/decktly",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-09-24T18:54:08+00:00",
+      "summary": "Edit HTML presentations like PowerPoint Discussion | Link",
+      "tags": [
+        "Communication"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "An Interview with Colossus EIC Jeremy Stern About Profiling Mark Zuckerberg",
+      "url": "https://stratechery.com/2026/an-interview-with-colossus-eic-jeremy-stern-about-profiling-mark-zuckerberg/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-09-24T10:00:00+00:00",
+      "summary": "An interview with Colossus EIC Jeremy Stern about profiling Mark Zuckerberg and other prominent tech figures.",
+      "tags": [
+        "Career"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "I Used AI to Do Product Discovery on My Own Idea",
       "url": "https://adityanandaaa.medium.com/i-used-ai-to-do-product-discovery-on-my-own-idea-628c97d8e755?source=rss------product_management-5",
@@ -35,6 +109,20 @@
       "summary": "The build case is argued in sprints, and the bill turns up later as headcount",
       "tags": [
         "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Case Against an AI Pause | Eddy Lazzarin",
+      "url": "https://a16z.simplecast.com/episodes/the-case-against-an-ai-pause-eddy-lazzarin-oPay7sAU",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-09-24T07:00:00+00:00",
+      "summary": "a16z crypto General Partner Eddy Lazzarin joins Theo Jaffee on MTS to debate the increasingly prominent calls to slow AI development and whether the current safety conversation is conflating very different kinds of risk. Eddy argues that the debate puts too much emphasis on specu...",
+      "tags": [
+        "AI Strategy",
+        "Hardware Differentiation",
+        "Security"
       ],
       "is_fallback": true
     },
@@ -1857,6 +1945,18 @@
       "summary": "I spent years building for habit. Entertainment taught me to build for desire.",
       "tags": [
         "Product Culture"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "FinalFrame",
+      "url": "https://www.producthunt.com/products/finalframe",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-09-08T10:33:54+00:00",
+      "summary": "AI photo critique: what to fix next and when to stop editing Discussion | Link",
+      "tags": [
+        "AI Strategy"
       ],
       "is_fallback": true
     },
@@ -10378,91 +10478,6 @@
       "tags": [
         "AI Strategy",
         "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Product Managers as Philosopher III: Agency vs Structure — Why Metrics Construct Reality",
-      "url": "https://medium.com/@akerkebexultan/product-managers-as-philosopher-iii-agency-vs-structure-why-metrics-construct-reality-4b7190e8e299?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-06-27T07:57:08+00:00",
-      "summary": "Determinism vs Free Will: AARRR Will Trap You. NSM Won’t Save You. Here’s What Will. Continue reading on Medium »",
-      "tags": [
-        "Growth",
-        "Metrics"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Reimagining WalletHub",
-      "url": "https://medium.com/@guptais6/reimagining-wallethub-b568ffe0a8a8?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-06-27T07:47:29+00:00",
-      "summary": "WalletHub’s biggest opportunity isn’t design. It’s telling people who it’s for. Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Own the Niche, Rent the Rest",
-      "url": "https://medium.com/@jonschdev/own-the-niche-rent-the-rest-85daa7d76369?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-06-27T04:07:06+00:00",
-      "summary": "Building the whole stack feels like a moat. The numbers say it’s mostly overhead in disguise — and the companies running away with this… Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "The Future Product Organization: AI, Product, Engineering, and Business in the Same Room",
-      "url": "https://medium.com/@prasanna.5187/the-future-product-organization-ai-product-engineering-and-business-in-the-same-room-393bb264d2c3?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-06-27T02:32:37+00:00",
-      "summary": "Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Macro",
-      "url": "https://www.producthunt.com/products/macro-workspace",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-06-26T19:41:09+00:00",
-      "summary": "Unifies your work into one app with shared memory Discussion | Link",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Mark by Airtop",
-      "url": "https://www.producthunt.com/products/airtop",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-06-26T19:21:13+00:00",
-      "summary": "Vibe automation for solo marketers Discussion | Link",
-      "tags": [
-        "Automation"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "2026.26: Summer Vibes",
-      "url": "https://stratechery.com/2026/summer-vibes/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-06-26T17:00:00+00:00",
-      "summary": "The best Stratechery content from the week of June 22, 2026, including a vibe coding adventure, Apple in Europe, and a midsummer mailbag.",
-      "tags": [
-        "Product Strategy"
       ],
       "is_fallback": true
     }
