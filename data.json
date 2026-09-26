@@ -1,7 +1,117 @@
 {
-  "updated": "2026-09-25T10:00:01.779302+00:00",
-  "total": 841,
+  "updated": "2026-09-26T09:42:03.769770+00:00",
+  "total": 844,
   "items": [
+    {
+      "title": "Before You Build It: How FEA Helps Engineers Find Mechanical Design Risks",
+      "url": "https://medium.com/@designx57/before-you-build-it-how-fea-helps-engineers-find-mechanical-design-risks-4540b8d1afd2?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-09-26T08:56:44+00:00",
+      "summary": "Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Beyond the First Answer: Designing AI for Deeper Understanding",
+      "url": "https://medium.com/@kubrasakk/beyond-the-first-answer-designing-ai-for-deeper-understanding-91aa450705f3?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-09-26T08:34:37+00:00",
+      "summary": "What changes when AI helps us move from observations to hypotheses, evidence, and better questions? Continue reading on Medium »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🔮 Safety in numbness",
+      "url": "https://www.exponentialview.co/p/safety-in-numbness",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-09-26T06:49:41+00:00",
+      "summary": "On originality, intellectual bravery and why disagreeing with LLMs is a good sign",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Experts Lead Experts",
+      "url": "https://www.svpg.com/experts-lead-experts/",
+      "source": "SVPG",
+      "type": "article",
+      "date": "2026-09-25T18:17:29+00:00",
+      "summary": "We are still early in the journey to learn the long-term impact of AI, but one trend that continues to capture attention is that managers and other leaders will be much less important, and that all we really need are skilled individual contributor builders. We’ve all seen the hea...",
+      "tags": [
+        "Hardware Differentiation"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "2026.39: Begun, the Aggregator Wars Have",
+      "url": "https://stratechery.com/2026/begun-the-aggregator-wars-have/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-09-25T17:00:00+00:00",
+      "summary": "The best Stratechery content from the week of September 21, 2026, including Meta vs. Amazon, GM bending the knee to CarPlay, and profiling the profiler.",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🤖 Your agent, whose interests?",
+      "url": "https://www.exponentialview.co/p/meta-muse-digital-butler",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-09-25T15:11:52+00:00",
+      "summary": "Meta’s Muse shows that users want a digital butler, but there may be a conflict of interests",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Reputation Graph of Silicon Valley | Introducing Cosign",
+      "url": "https://a16z.simplecast.com/episodes/the-reputation-graph-of-silicon-valley-introducing-cosign-qLcU00IT",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-09-25T14:00:00+00:00",
+      "summary": "a16z’s Erik Torenberg sits down with Josh Elman, Olivia Moore, and David Booth to introduce Cosign, a new product built around professional reputation and the people, companies, and products you’re willing to put your name behind. They unpack a simple idea at the heart of Silicon...",
+      "tags": [
+        "AI Strategy",
+        "Career",
+        "Hardware Differentiation"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "GoodSocials",
+      "url": "https://www.producthunt.com/products/goodsocials",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-09-25T10:43:48+00:00",
+      "summary": "AI social media manager for LinkedIn. Only authentic content Discussion | Link",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Apple’s iPhone Duo Strategy: Why a More Expensive iPhone Could Sell More “Cheaper” iPhones",
+      "url": "https://medium.com/@farhad.rh/apples-iphone-duo-strategy-why-a-more-expensive-iphone-could-sell-more-cheaper-iphones-33fbebb87600?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-09-25T10:39:24+00:00",
+      "summary": "Apple’s introduction of the iPhone Duo is more than the launch of a new smartphone. It is a carefully designed pricing and… Continue reading on Medium »",
+      "tags": [
+        "Pricing"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "How My Cats Became the Face of a Tech Ecosystem",
       "url": "https://medium.com/womenintechnology/how-my-cats-became-the-face-of-a-tech-ecosystem-9d5868141577?source=rss------product_strategy-5",
@@ -2043,6 +2153,18 @@
       "summary": "One Tool. Every Accessibility Workflow. Continue reading on Medium »",
       "tags": [
         "Compliance"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Paragraph Notes",
+      "url": "https://www.producthunt.com/products/paragraph-notes",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-09-07T16:31:09+00:00",
+      "summary": "A private Markdown notes app for Mac Discussion | Link",
+      "tags": [
+        "Product Strategy"
       ],
       "is_fallback": true
     },
@@ -10392,94 +10514,6 @@
         "Productivity"
       ],
       "is_fallback": false
-    },
-    {
-      "title": "Why the Slowest Part of Your Delivery System Controls Everything",
-      "url": "https://medium.com/@richardfaint065/why-the-slowest-part-of-your-delivery-system-controls-everything-04650322545c?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-06-28T07:54:27+00:00",
-      "summary": "Software organisations love optimisation. We optimise sprint ceremonies, backlog refinement, deployment pipelines. We optimise the colour… Continue reading on Medium »",
-      "tags": [
-        "Prioritization"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "What Building an Inventory Management System Taught Me About Product Thinking in the Age of AI",
-      "url": "https://medium.com/@aniruddharora19/what-building-an-inventory-management-system-taught-me-about-product-thinking-in-the-age-of-ai-890c82c1f145?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-06-28T07:48:01+00:00",
-      "summary": "Why AI will write more software than ever before — but great Product Managers will still decide what deserves to exist. Continue reading on Medium »",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "What Building an Inventory Management System Taught Me About Product Thinking in the Age of AI",
-      "url": "https://medium.com/@aniruddharora19/what-building-an-inventory-management-system-taught-me-about-product-thinking-in-the-age-of-ai-890c82c1f145?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-06-28T07:48:01+00:00",
-      "summary": "Why AI will write more software than ever before — but great Product Managers will still decide what deserves to exist. Continue reading on Medium »",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Service Design Pyramid: Turning Research Insights into Actionable Product Strategy",
-      "url": "https://medium.com/@mehrvarzuxui/service-design-pyramid-turning-research-insights-into-actionable-product-strategy-551178df7254?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-06-28T07:34:18+00:00",
-      "summary": "Before creating personas, user flows, or UI screens, product teams need to make sense of the research they have collected. Continue reading on Medium »",
-      "tags": [
-        "Product Strategy",
-        "User Research"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "🔮 Fifty years of Moore’s Law wasn’t fast enough for AI #580",
-      "url": "https://www.exponentialview.co/p/ev-580",
-      "source": "Exponential View",
-      "type": "trend",
-      "date": "2026-06-28T02:14:28+00:00",
-      "summary": "Plus: The frontier is already agentic; unlocking innovation; new drugs, food apps without food & Chinese AI job market++",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "🧠 Community Wisdom: Beating a career slump, adding more structure to an established team, questions for new-team 1:1s, the evolving shape of the growth role, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-beating-a-career",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-06-27T17:09:06+00:00",
-      "summary": "Community Wisdom 191",
-      "tags": [
-        "Career",
-        "Community",
-        "Growth"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Lyto",
-      "url": "https://www.producthunt.com/products/lyto",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-06-27T15:17:01+00:00",
-      "summary": "\"One AI agent across your browser, tools, and messages \" Discussion | Link",
-      "tags": [
-        "AI Strategy",
-        "AI Tools"
-      ],
-      "is_fallback": true
     }
   ]
 }
