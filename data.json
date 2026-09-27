@@ -1,7 +1,74 @@
 {
-  "updated": "2026-09-26T09:42:03.769770+00:00",
-  "total": 844,
+  "updated": "2026-09-27T10:22:05.591376+00:00",
+  "total": 845,
   "items": [
+    {
+      "title": "- :   …",
+      "url": "https://elevatemindset82.medium.com/-d80971394a81?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-09-27T10:14:07+00:00",
+      "summary": "From chaos to consistency: a practical, psychology-backed guide to CMMI, process maturity, workplace behavior, real-world examples, and… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Building a Team at AI Speed | Harvey’s Maggie Landers",
+      "url": "https://a16z.simplecast.com/episodes/building-a-team-at-ai-speed-harveys-maggie-landers-1mxeFqtp",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-09-27T10:00:00+00:00",
+      "summary": "a16z’s Katie Kirsch sits down with Harvey VP of Talent Maggie Landers to discuss what happens inside a company growing at AI speed, and how you preserve culture while adding more than 1,000 employees in a year. Maggie explains why Harvey prioritizes progress over perfection, how",
+      "tags": [
+        "AI Strategy",
+        "Prioritization",
+        "Product Culture"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🔮 The pros and cons of collective AI #603",
+      "url": "https://www.exponentialview.co/p/ev-603",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-09-27T04:06:52+00:00",
+      "summary": "AGI and new moral subjects; ChatGPT drives a car; energy and AI need each other++",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🧠 Community Wisdom: AI doomerism, speeding up discovery in a big org, verifying engineering answers as a new PM, where analytics adds the most value, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-ai-doomerism-speeding",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-09-26T17:54:02+00:00",
+      "summary": "Community Wisdom 300",
+      "tags": [
+        "AI Strategy",
+        "Community",
+        "Metrics"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Aaron Levie, Steven Sinofsky & Martin Casado: How Do You Secure a World of AI Agents?",
+      "url": "https://a16z.simplecast.com/episodes/aaron-levie-steven-sinofsky-martin-casado-how-do-you-secure-a-world-of-ai-agents-v8Q401cc",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-09-26T10:00:00+00:00",
+      "summary": "Erik Torenberg sits down with Box CEO Aaron Levie, and a16z’s Martin Casado, and Steven Sinofsky to debate how the AI industry should think about safety, security, and regulation as increasingly capable agents move into the real world. They argue that much of today’s conversation...",
+      "tags": [
+        "Security",
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Before You Build It: How FEA Helps Engineers Find Mechanical Design Risks",
       "url": "https://medium.com/@designx57/before-you-build-it-how-fea-helps-engineers-find-mechanical-design-risks-4540b8d1afd2?source=rss------product_management-5",
@@ -724,6 +791,19 @@
       "tags": [
         "AI Strategy",
         "Growth"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Harmony",
+      "url": "https://www.producthunt.com/products/harmony-it",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-09-19T14:01:14+00:00",
+      "summary": "AI agents that resolve IT/HR tickets inside Slack and Teams Discussion | Link",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
       ],
       "is_fallback": true
     },
@@ -1504,6 +1584,18 @@
       "summary": "The AI assistant that does email for you Discussion | Link",
       "tags": [
         "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "KiwiDesk",
+      "url": "https://www.producthunt.com/products/kiwidesk",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-09-13T16:31:36+00:00",
+      "summary": "Tiling that feels like it shipped with macOS. Discussion | Link",
+      "tags": [
+        "Product Strategy"
       ],
       "is_fallback": true
     },
@@ -10434,86 +10526,6 @@
         "Communication"
       ],
       "is_fallback": true
-    },
-    {
-      "title": "Summer Break: Week of June 29",
-      "url": "https://stratechery.com/2026/summer-break-week-of-june-29/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-06-29T10:00:00+00:00",
-      "summary": "Stratechery is on summer break the week of June 29. There will be no Weekly Article or Updates. The next Update will be on Monday, July 6. Dithering, Sharp Tech, and Sharp China will also return the week of July 6. Greatest of All Talk and Asianometry will continue to publish. Th...",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Tool$",
-      "url": "https://dwayne-phillips.medium.com/tool-5e435111dad0?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-06-29T09:37:03+00:00",
-      "summary": "The article introduces Tool$, a new platform aimed at helping product teams consolidate and monetize their internal tooling. It outlines how the solution streamlines tool discovery, reduces duplication, and creates revenue streams from existing assets, positioning it as a strategic advantage for product managers looking to optimize resources.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Revenue"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Si no lo comunicas, no existe",
-      "url": "https://manuarjo.medium.com/si-no-lo-comunicas-no-existe-4604b4a05991?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-06-29T08:52:01+00:00",
-      "summary": "The article emphasizes that a product strategy is useless if it isn't clearly communicated to the team and stakeholders. It shares the author's experience of having strong strategies that failed because no one understood them, highlighting the need for transparent and continuous communication.",
-      "tags": [
-        "Communication",
-        "Product Strategy",
-        "Leadership"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Kira Community",
-      "url": "https://www.producthunt.com/products/kira-art",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-06-29T07:00:43+00:00",
-      "summary": "Curate moments with #hashtag Discussion | Link",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Don’t Innovate Around Personas. Innovate Around Situations.",
-      "url": "https://medium.com/@daverothschild/dont-innovate-around-personas-innovate-around-situations-76d7aa0274b5?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-06-29T05:04:04+00:00",
-      "summary": "The article argues that while personas are useful for visualizing customers, product teams should focus on the specific situations—contextual challenges and burdens—that users face, as these drive real innovation. By centering design and development around situational insights, teams can create more targeted and effective solutions.",
-      "tags": [
-        "Product Strategy",
-        "User Research",
-        "Product Design"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "OpenAI Codex lead on the new shape of product work | Andrew Ambrosino",
-      "url": "https://www.lennysnewsletter.com/p/openai-codex-lead-on-the-new-shape",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-06-28T12:31:54+00:00",
-      "summary": "Andrew Ambrosino discusses how OpenAI’s Codex is lowering development costs and reshaping product workflows, emphasizing the growing importance of design taste in differentiating products. He also previews upcoming features of the Codex desktop app that aim to boost developer productivity and streamline the creation process.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Productivity"
-      ],
-      "is_fallback": false
     }
   ]
 }
