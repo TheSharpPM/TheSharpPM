@@ -1,6 +1,11 @@
 {
   "editions": [
     {
+      "date": "2026-09-27",
+      "headline_theme": "Burnout Is The Real Cost Of AI Speed",
+      "file": "agent/2026-09-27.json"
+    },
+    {
       "date": "2026-09-20",
       "headline_theme": "AI hype vs. disciplined product work",
       "file": "agent/2026-09-20.json"
@@ -116,5 +121,5 @@
       "file": "agent/2026-05-03.json"
     }
   ],
-  "updated_at": "2026-09-20T12:15:44.804426+00:00"
+  "updated_at": "2026-09-27T13:00:46.644347+00:00"
 }

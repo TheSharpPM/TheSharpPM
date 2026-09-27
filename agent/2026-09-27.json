@@ -1,0 +1,45 @@
+{
+  "edition": "2026-09-27",
+  "headline_theme": "Burnout Is The Real Cost Of AI Speed",
+  "target_audience": "Senior PM",
+  "hook_source": "Lenny's Newsletter",
+  "editorial": "Lenny Tey’s recent Lenny’s Newsletter piece on the tech‑industry grief epidemic cuts through the hype: product teams are collapsing under the weight of relentless AI‑driven delivery expectations. The data‑driven optimism that AI will halve our workload is a mirage; the human cost is already measurable in sick days, turnover, and a pervasive sense of isolation.\n\nThree threads converge. First, Exponential View’s roundup of collective AI experiments shows that while AI can surface ideas faster, it also amplifies decision‑fatigue, forcing PMs to triage a flood of suggestions without clear ownership. Second, SVPG’s “Strong Opinions, Loosely Held” reminds us that decisive, principle‑driven roadmaps are the antidote to endless iteration – but only when the team has bandwidth to act on them. Finally, the burnout narrative is not a peripheral HR footnote; it directly erodes the strategic thinking that senior product leaders rely on to steer multi‑year visions. The only sustainable path is to re‑engineer discovery cycles, give experts genuine autonomy, and treat AI as an accelerator, not a replacement for human judgment.\n\nFor Senior PMs, the lever is concrete: audit every AI‑generated hypothesis for its impact on team capacity, and cut the ones that merely add noise. Champion a short “focus sprint” where a single hypothesis is tested end‑to‑end, then pause to reflect before the next AI suggestion lands. Translate the cost of overload into the metrics executives care about – missed deadlines, defect rates, and morale scores – and push back against unchecked velocity. By protecting cognitive bandwidth you keep the team sharp enough to deliver both speed and depth.\n",
+  "key_takeaways": [
+    "AI accelerates idea generation but also amplifies decision fatigue, demanding stricter hypothesis gating.",
+    "Burnout is a strategic risk: it erodes the deep thinking required for long‑term product vision.",
+    "Strong, principle‑based roadmaps are the antidote to endless iteration when teams have protected capacity."
+  ],
+  "must_reads": [
+    {
+      "source": "Lenny's Newsletter",
+      "title": "The grief, loneliness, and burnout sweeping through the tech industry",
+      "url": "https://www.lennysnewsletter.com/p/the-grief-loneliness-and-burnout",
+      "why": "The piece forces product leaders to confront the human toll of relentless AI‑first roadmaps, making the case that unchecked speed kills strategic depth."
+    },
+    {
+      "source": "Exponential View",
+      "title": "🔮 The pros and cons of collective AI #603",
+      "url": "https://www.exponentialview.co/p/ev-603",
+      "why": "It maps the paradox of AI‑generated ideas: faster discovery but higher decision fatigue, underscoring why PMs must filter rigorously."
+    },
+    {
+      "source": "SVPG",
+      "title": "Strong Opinions, Loosely Held",
+      "url": "https://www.svpg.com/strong-opinions-loosely-held/",
+      "why": "SVPG argues that decisive, principle‑driven roadmaps survive the noise of endless AI suggestions, a prescription that directly counters burnout."
+    }
+  ],
+  "contrarian": {
+    "note": "Claims that hierarchical expertise, not slower pacing, is the primary solution to product overload, challenging the editorial’s call for deliberate throttling.",
+    "source": "SVPG",
+    "title": "Experts Lead Experts",
+    "url": "https://www.svpg.com/experts-lead-experts/"
+  },
+  "also_worth": [],
+  "pm_homework": [
+    "Audit your AI‑generated backlog this week and eliminate at least 30% of low‑impact hypotheses.",
+    "Run a one‑week focus sprint on a single AI‑suggested experiment and document the cognitive load impact."
+  ],
+  "generated_at": "2026-09-27T13:00:46.644117+00:00",
+  "model_used": "openai/gpt-oss-120b"
+}
