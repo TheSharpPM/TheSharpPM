@@ -1,7 +1,106 @@
 {
-  "updated": "2026-09-27T10:22:05.591376+00:00",
-  "total": 845,
+  "updated": "2026-09-28T11:24:59.703018+00:00",
+  "total": 846,
   "items": [
+    {
+      "title": "A engenharia reversa é o novo jeito de estudar",
+      "url": "https://cleitonmafra.medium.com/a-engenharia-reversa-%C3%A9-o-novo-jeito-de-estudar-2d00effabacf?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-09-28T10:51:44+00:00",
+      "summary": "Mês passado estive na Codecon e um dos participantes me parou com uma pergunta que ficou girando na minha cabeça nos dias seguintes. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "How boAt Conquered India’s Consumer Tech Market: A Product & Marketing Teardown",
+      "url": "https://medium.com/@naravindr321/how-boat-conquered-indias-consumer-tech-market-a-product-marketing-teardown-ce83a17f29cc?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-09-28T10:49:42+00:00",
+      "summary": "Tags: Marketing Strategy | Consumer Electronics | Product Management Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Apps, Agents, and Aggregation",
+      "url": "https://stratechery.com/2026/apps-agents-and-aggregation/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-09-28T10:25:37+00:00",
+      "summary": "Agents are the ultimate Aggregators; they reveal apps as a means, not an ends, and providing them is tech's biggest prize.",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "AI Can Write Code. Why Isn’t Software Better?",
+      "url": "https://a16z.simplecast.com/episodes/ai-can-write-code-why-isnt-software-better-je38wEkC",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-09-28T10:00:00+00:00",
+      "summary": "a16z’s Ben Horowitz and Martin Casado sit down with TypeSafe AI founder Diogo Almeida to ask a simple question: AI has become remarkably capable, so where is all the automation? Diogo argues that coding agents may help us write software faster, but the software they produce still...",
+      "tags": [
+        "AI Strategy",
+        "AI Tools",
+        "Automation"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Antes de operar, diagnostica",
+      "url": "https://manuarjo.medium.com/antes-de-operar-hay-que-diagnosticar-7d2bc77fbfa6?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-09-28T07:31:33+00:00",
+      "summary": "Construir se ve y descubrir no. Esa asimetría explica por qué tantos equipos entregan rápido y aciertan poco. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "MuM",
+      "url": "https://www.producthunt.com/products/mum-multi-project-markdown",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-09-28T05:04:26+00:00",
+      "summary": "A reading-first Markdown engine for macOS Discussion | Link",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The 7-Part Test I Run on a Startup Idea Before Anyone Writes Code",
+      "url": "https://medium.com/startup-insider-edge/the-7-part-test-i-run-on-a-startup-idea-before-anyone-writes-code-b48ce86fa33c?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-09-27T15:06:22+00:00",
+      "summary": "I automated it and ran 50 startups through it in two weeks. The same seven checks separated the ready from the not-ready every time. Continue reading on StartupInsider »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The grief, loneliness, and burnout sweeping through the tech industry right now | Molly Graham",
+      "url": "https://www.lennysnewsletter.com/p/the-grief-loneliness-and-burnout",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-09-27T12:32:18+00:00",
+      "summary": "Listen now (94 mins) | Molly Graham revisits her famous career advice for the AI era, and explains why delegating to a robot is nothing like delegating to a human",
+      "tags": [
+        "AI Strategy",
+        "Career"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "- :   …",
       "url": "https://elevatemindset82.medium.com/-d80971394a81?source=rss------product_management-5",
@@ -52,6 +151,18 @@
         "AI Strategy",
         "Community",
         "Metrics"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "vantage.ai",
+      "url": "https://www.producthunt.com/products/vantage-ai-2",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-09-26T10:22:26+00:00",
+      "summary": "See and control what your coding agent does. Discussion | Link",
+      "tags": [
+        "AI Tools"
       ],
       "is_fallback": true
     },
@@ -10425,105 +10536,6 @@
       "tags": [
         "Metrics",
         "Retention"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "The Blurring Lines of Product Design: What Happens When Your Role Expands Beyond the Screen",
-      "url": "https://stephanieochan.medium.com/the-blurring-lines-of-product-design-what-happens-when-your-role-expands-beyond-the-screen-4b85cc9257c5?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-06-30T08:43:26+00:00",
-      "summary": "From pixels to proposals. How running my own product company changed the way I see design, stakeholders, and the future of our field. Continue reading on Medium »",
-      "tags": [
-        "Product Design",
-        "Stakeholders"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "On building for users whose job you aren’t doing",
-      "url": "https://medium.com/@halecolin1/on-building-for-users-whose-job-you-arent-doing-3b3eff7d9130?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-06-30T08:32:51+00:00",
-      "summary": "Two Users Told Me What A/B Testing Couldn’t . Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "The App You Already Have Is the Starting Point, Not the Obstacle",
-      "url": "https://medium.com/@FinClip/the-app-you-already-have-is-the-starting-point-not-the-obstacle-c8f6047fa044?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-06-30T07:58:35+00:00",
-      "summary": "Most super app projects fail before they ship — not because the idea is wrong, but because they start with a rebuild instead of a… Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "The Difference Between Engineering Judgment and Product Judgment",
-      "url": "https://medium.com/@taylorallis52/the-difference-between-engineering-judgment-and-product-judgment-d21c75672b16?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-06-29T20:30:30+00:00",
-      "summary": "What Sun Microsystems and Project Blackbox taught me about building products in the age of AI Continue reading on Medium »",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "🎙️ How I AI: GLM-5.2 review & How Gusto built a new product line with Claude Code",
-      "url": "https://www.lennysnewsletter.com/p/how-i-ai-glm-52-review-and-how-gusto",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-06-29T15:02:35+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
-      "tags": [
-        "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Physiotherapist UK",
-      "url": "https://remoteOK.com/remote-jobs/remote-physiotherapist-uk-healthhero-1134319",
-      "source": "Remote OK",
-      "type": "job",
-      "date": "2026-06-29T14:51:14+00:00",
-      "summary": "About Us HealthHero brings together human expertise and digital convenience together to deliver digital-first, integrated care that is revolutionising the healthcare industry. We are leaders in our market and have excellent feedback and great CQC ratings. We also focus on making",
-      "tags": [
-        "Career"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "📈 Data to start your week",
-      "url": "https://www.exponentialview.co/p/data-to-start-your-week-29-june-2026",
-      "source": "Exponential View",
-      "type": "trend",
-      "date": "2026-06-29T12:42:25+00:00",
-      "summary": "China's young guns, confidence in AI & faster than ever to $1 million",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "No Figma. No Jira. No docs. How Gusto built a new product line with Claude Code | Eddie Kim (CTO)",
-      "url": "https://www.lennysnewsletter.com/p/no-figma-no-jira-no-docs-how-gusto",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-06-29T12:03:38+00:00",
-      "summary": "Watch now | 🎙️ Eddie Kim, the CTO of Gusto, shows how a 5-person team shipped a full AI product line in 10 weeks using Claude Code, a perma-Zoom, and zero documentation",
-      "tags": [
-        "AI Strategy",
-        "AI Tools",
-        "Communication"
       ],
       "is_fallback": true
     }
