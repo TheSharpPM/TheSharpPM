@@ -1,7 +1,171 @@
 {
-  "updated": "2026-09-29T11:03:38.418870+00:00",
-  "total": 843,
+  "updated": "2026-09-30T10:53:51.837605+00:00",
+  "total": 853,
   "items": [
+    {
+      "title": "Your Remote Team Does Not Need More Updates. It Needs Better Decisions.",
+      "url": "https://medium.com/@Aidanta/your-remote-team-does-not-need-more-updates-it-needs-better-decisions-df0444e2d0ad?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-09-30T10:37:21+00:00",
+      "summary": "Most distributed teams do not suffer from a lack of communication. They suffer from unclear decision-making. Continue reading on Medium »",
+      "tags": [
+        "Communication"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Nobody Organizes Their Wishlist Later. So I built a prototype where this takes one gesture",
+      "url": "https://medium.com/@olegsadovyi/nobody-organizes-their-wishlist-later-so-i-built-a-prototype-where-this-takes-one-gesture-230b44d6bc6d?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-09-30T10:31:52+00:00",
+      "summary": "For a long time I have wanted to easily sort products into wishlists. And every time I ran into the same thing: technically the feature… Continue reading on Medium »",
+      "tags": [
+        "Product Design"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "OpenAI Dev Day, Dot and OpenAI’s Product Transition, Sign In With ChatGPT",
+      "url": "https://stratechery.com/2026/openai-dev-day-dot-and-openais-product-transition-sign-in-with-chatgpt/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-09-30T10:00:00+00:00",
+      "summary": "OpenAI's Dev Day showcased a product that is, frankly, pretty confusing. However, there is more vision here than it might seem.",
+      "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The $1 Trillion AI Buildout | State of Markets",
+      "url": "https://a16z.simplecast.com/episodes/the-1-trillion-ai-buildout-state-of-markets-tkJj_Zp1",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-09-30T10:00:00+00:00",
+      "summary": "a16z’s David George, Sarah Wang, Alex Immerman, and Santiago Rodriguez unpack 25 key charts from the latest State of Markets presentation, from the scale of the AI infrastructure buildout to what adoption looks like inside companies today. They examine why rising markets have so",
+      "tags": [
+        "AI Tools",
+        "AI Strategy",
+        "Communication"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Product Owner neye karar verir?",
+      "url": "https://medium.com/@gokhanbakin/product-owner-neye-karar-verir-41562466539b?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-09-30T03:26:39+00:00",
+      "summary": "Backlog yönetmekle ürünün sahibi olmak arasındaki gri alan. Continue reading on Medium »",
+      "tags": [
+        "Career",
+        "Prioritization"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Captivity Well: How to Read Retention When Users Cannot Leave",
+      "url": "https://medium.com/design-bootcamp/the-captivity-well-how-to-read-retention-when-users-cannot-leave-63b8c856fc08?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-09-29T21:36:55+00:00",
+      "summary": "A practical guide for product and design leaders building AI products people depend on Continue reading on Bootcamp »",
+      "tags": [
+        "AI Strategy",
+        "Retention"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "accelerate agency: Brand Content Manager",
+      "url": "https://weworkremotely.com/remote-jobs/accelerate-agency-brand-content-manager",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-09-29T19:07:41+00:00",
+      "summary": "Headquarters: Sarajevo, Bosnia and Herzegovina URL: http://accelerateagency.ai Brand Content Manager (Bosnia) The Company accelerate agency is a fast growing SaaS SEO agency. As we’re currently experiencing expedited growth, we’re now searching for an experienced Brand Content Ma...",
+      "tags": [
+        "Communication",
+        "Growth",
+        "Career"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Softswiss: Business Development Manager",
+      "url": "https://weworkremotely.com/remote-jobs/softswiss-business-development-manager",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-09-29T19:07:41+00:00",
+      "summary": "Headquarters: Saint Nikolaos Kato Polemidia, 4159 Cyprus URL: http://softswiss.com Overview: SOFTSWISS is hiring a Business Development Manager to join our iGaming Platform team. You’ll work on expanding our global client base, contributing to the growth of one of our core produc...",
+      "tags": [
+        "Growth",
+        "Career",
+        "Competitive Analysis"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🚨 The first existential IPO",
+      "url": "https://www.exponentialview.co/p/the-first-existential-ipo",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-09-29T15:54:57+00:00",
+      "summary": "On the leaked details of Anthropic’s IPO prospectus",
+      "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Product-Led Summit San Francisco, 2026",
+      "url": "https://www.productledalliance.com/product-led-summit-san-francisco-2026/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-09-29T15:06:18+00:00",
+      "summary": "Catch up with all sessions from Product-Led Summit San Francisco, including insights from eBay, Microsoft, Mastercard, RingCentral, and more.",
+      "tags": [
+        "Product Culture"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "All of the Lenny & Friends Summit talks are now online!",
+      "url": "https://www.lennysnewsletter.com/p/all-of-the-lenny-and-friends-summit",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-09-29T13:15:57+00:00",
+      "summary": "Plus, some reflections and takeaways from the day",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Unpacking Innovation - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "url": "https://www.producttalk.org/unpacking-innovation-all-things-product-podcast-with-teresa-torres-petra-wille/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-09-29T13:00:27+00:00",
+      "summary": "Listen to this episode on: Spotify | Apple Podcasts Is innovation the goal — or just a byproduct of solving customer problems well? In this episode of All Things Product, Petra Wille and Teresa Torres unpack one of the most misused words in product: \"innovation.\" Teresa makes the...",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Where the deterministic boundary goes  in agent design",
+      "url": "https://www.productledalliance.com/where-the-deterministic-boundary-goes-in-agent-design/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-09-29T12:00:49+00:00",
+      "summary": "The boundary between a correct answer and a good one.",
+      "tags": [
+        "Product Culture"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Managing the Talent Portfolio: Skill, Will, or Wrong Role? (Performance Mgmt. Series 5/7)",
       "url": "https://medium.com/swlh/managing-the-talent-portfolio-skill-will-or-wrong-role-performance-mgmt-series-5-7-6f50436d98b9?source=rss------product_management-5",
@@ -60,6 +224,18 @@
       "summary": "Nine years of Product Coalition writing keep landing on the same obstacle, and no framework removes it",
       "tags": [
         "Communication"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "m’kay",
+      "url": "https://www.producthunt.com/products/m-kay",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-09-29T02:18:05+00:00",
+      "summary": "One voice for all your coding agents, from your phone Discussion | Link",
+      "tags": [
+        "AI Tools"
       ],
       "is_fallback": true
     },
@@ -172,6 +348,18 @@
         "AI Strategy",
         "AI Tools",
         "Automation"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Zumbo",
+      "url": "https://www.producthunt.com/products/zumbo",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-09-28T07:36:26+00:00",
+      "summary": "Open source local AI voice-to-text for Mac for private STT Discussion | Link",
+      "tags": [
+        "AI Strategy"
       ],
       "is_fallback": true
     },
@@ -10436,66 +10624,6 @@
       "summary": "A desktop pet that grows as you code with Claude Code Discussion | Link",
       "tags": [
         "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Product operations guide to removing bottlenecks:  3 practitioners share what works",
-      "url": "https://www.productledalliance.com/product-operations-guide-to-removing-bottlenecks-3-practitioners-share-what-works/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-07-02T08:48:12+00:00",
-      "summary": "Bottlenecks rarely announce themselves. They build quietly through misaligned goals, unclear decision rights, and bloated processes. Here's how three product practitioners found and fixed them.",
-      "tags": [
-        "Product Culture"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "I realized that  alone isn’t",
-      "url": "https://medium.com/@mohammadadeeb5071/i-realized-that-alone-isnt-7786d62b8443?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-07-02T07:47:04+00:00",
-      "summary": "When I started my career, I believed that if my work looked good, 𝗼𝗽𝗽𝗼𝗿𝘁𝘂𝗻𝗶𝘁𝗶𝗲𝘀 would naturally follow. Continue reading on Medium »",
-      "tags": [
-        "Career"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Construct Computer",
-      "url": "https://www.producthunt.com/products/construct-computer",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-07-02T05:08:02+00:00",
-      "summary": "Your AI coworker gets a computer. You get your day back. Discussion | Link",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "How Data-Driven Sellers are Mining High-Margin Niches in Smart Appliances",
-      "url": "https://medium.com/@heavenho666/how-data-driven-sellers-are-mining-high-margin-niches-in-smart-appliances-a5684fd55745?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-07-02T03:04:25+00:00",
-      "summary": "In the highly competitive world of cross-border e-commerce, the era of blindly following macro trends is over. Continue reading on Medium »",
-      "tags": [
-        "Competitive Analysis"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "PixFit",
-      "url": "https://www.producthunt.com/products/pixfit",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-07-01T19:00:03+00:00",
-      "summary": "Turn 1 creative into every ad format, instantly Discussion | Link",
-      "tags": [
-        "Product Strategy"
       ],
       "is_fallback": true
     }
