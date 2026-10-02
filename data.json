@@ -1,7 +1,108 @@
 {
-  "updated": "2026-10-01T11:20:10.962298+00:00",
-  "total": 855,
+  "updated": "2026-10-02T10:52:45.977656+00:00",
+  "total": 859,
   "items": [
+    {
+      "title": "Build, Buy, or Defer: Where SaaS Engineering Actually Compounds",
+      "url": "https://medium.com/@oleks.kolesnykov/build-buy-or-defer-where-saas-engineering-actually-compounds-09bcb40867ba?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-10-02T10:32:42+00:00",
+      "summary": "An operating framework for deciding which software deserves permanent ownership Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Why AI Agents Can Beat the Incumbents",
+      "url": "https://a16z.simplecast.com/episodes/why-ai-agents-can-beat-the-incumbents-fcyhpbT6",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-10-02T10:00:00+00:00",
+      "summary": "a16z’s Seema Amble and Elena Burger sit down with Lio co-founder and CEO Vladimir Keil to ask where AI-native startups have an advantage when incumbent software companies already own the customer, the data, and the system of record. Their answer comes down to the work that happen...",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Food for Agile Thought 564: AI Pace Accelerating, Product Trio Future, Career Traps for Smart…",
+      "url": "https://medium.com/10-min-briefing-on-startup-tech-news/food-agile-thought-564-ai-pace-stefan-wolpers-1fe3cc3bfd80?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-10-02T09:45:16+00:00",
+      "summary": "Also: Jobs Matrix for AI, Dots, Healthy Feedback, End of the Ticket? Continue reading on Food for Agile Thought »",
+      "tags": [
+        "AI Strategy",
+        "Career"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "EP110 Agentic AI for Product Management: Building in an Autonomous Enterprise",
+      "url": "https://www.productcoalition.com/p/ep110-agentic-ai-for-product-management",
+      "source": "Product Coalition",
+      "type": "article",
+      "date": "2026-10-02T08:01:32+00:00",
+      "summary": "Eshaan Jain gave me the example that made agentic AI stop sounding clever and start sounding expensive.",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Etsy or Gumroad: Where Should Your Next Digital Product Launch?",
+      "url": "https://medium.com/@jerrytestone1/etsy-or-gumroad-where-should-your-next-digital-product-launch-2eb1318d3853?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-10-02T03:01:02+00:00",
+      "summary": "Choose according to the buyer’s route, the delivery requirements, and the work you can maintain. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Digital Product Architecture: Structural Distinctions Between Marketing Websites and Dynamic Web…",
+      "url": "https://medium.com/@jajadagogo1/digital-product-architecture-structural-distinctions-between-marketing-websites-and-dynamic-web-aebdf5a5bf2a?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-10-01T21:20:52+00:00",
+      "summary": "Digital venture creation demands precise architectural classification before the first line of markup or logic is generated. For founders… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Rebuilding the Internet for Privacy | Barrett Lyon on DoxxNet",
+      "url": "https://a16z.simplecast.com/episodes/rebuilding-the-internet-for-privacy-barrett-lyon-on-doxxnet-_F1_edMA",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-10-01T16:00:00+00:00",
+      "summary": "a16z’s Joel de la Garza sits down with DoxxNet founder Barrett Lyon to discuss what it would take to rebuild the internet around privacy, direct communication, and less dependence on centralized intermediaries. Barrett explains why he thinks traditional VPNs only solve part of th...",
+      "tags": [
+        "AI Strategy",
+        "Communication",
+        "Privacy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Generating Opportunity Solution Trees with AI: How Vistaly Rebuilt Its Product Around Interview Synthesis, Evals, and Repair Loops",
+      "url": "https://www.producttalk.org/generating-opportunity-solution-trees-with-ai-how-vistaly-rebuilt-its-product-around-interview-synthesis-evals-and-repair-loops/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-10-01T13:00:45+00:00",
+      "summary": "Listen to this episode on: Spotify | Apple Podcasts What happens when you hand your opportunity solution tree to an AI? Vistaly rebuilt its entire product to find out—and the agents were the easy part. In this episode of Just Now Possible , Teresa Torres talks with Matt O'",
+      "tags": [
+        "AI Strategy",
+        "Career"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "OpenAI launched a tool this summer that looks exactly like a shot at Wix and Squarespace.",
       "url": "https://medium.com/@olugbenga.akinwumi/openai-launched-a-tool-this-summer-that-looks-exactly-like-a-shot-at-wix-and-squarespace-ecac2e332858?source=rss------product_management-5",
@@ -191,6 +292,19 @@
       "tags": [
         "Career",
         "Prioritization"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Mintlify Desktop",
+      "url": "https://www.producthunt.com/products/mintlify",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-09-30T00:08:54+00:00",
+      "summary": "An AI-native app for writing documentation and knowledge Discussion | Link",
+      "tags": [
+        "Communication",
+        "AI Strategy"
       ],
       "is_fallback": true
     },
@@ -1577,6 +1691,18 @@
       "summary": "Sound like anime girl in realtime on your next call Discussion | Link",
       "tags": [
         "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Veltrix AI for E-commerce",
+      "url": "https://www.producthunt.com/products/veltrix-ai",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-09-17T15:49:25+00:00",
+      "summary": "Find how your e-commerce business could earn more Discussion | Link",
+      "tags": [
+        "AI Strategy"
       ],
       "is_fallback": true
     },
@@ -10577,82 +10703,6 @@
       "summary": "Every time I order food, I wonder about the person who delivers it. So I decided to actually dig into their problems and think about it… Continue reading on Medium »",
       "tags": [
         "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Architecture of Blind Spots: Why Predictive Algorithms Lose to Reality\n​Modern software is designed…",
-      "url": "https://medium.com/@energoconsalt.cch/architecture-of-blind-spots-why-predictive-algorithms-lose-to-reality-modern-software-is-designed-b77147a3541d?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-07-04T08:05:17+00:00",
-      "summary": "Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Governed AI Agents: Turning MCP Tool Access into Auditable Enterprise Workflows",
-      "url": "https://oleg-dubetcky.medium.com/governed-ai-agents-turning-mcp-tool-access-into-auditable-enterprise-workflows-64220a98f32b?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-07-04T07:44:55+00:00",
-      "summary": "The developer community is rightly celebrating the Model Context Protocol (MCP) as an open standard, MCP elegantly solves the integration… Continue reading on Medium »",
-      "tags": [
-        "AI Strategy",
-        "AI Tools",
-        "Compliance"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Endl",
-      "url": "https://www.producthunt.com/products/endl",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-07-03T19:10:29+00:00",
-      "summary": "A global operating account for fiat, stablecoins, and cards. Discussion | Link",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Budgeting Platform Uncertainty: The New Product Management Problem",
-      "url": "https://medium.com/@dhineshkumarganesan_90533/budgeting-platform-uncertainty-the-new-product-management-problem-ed7cdf99b9d3?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-07-03T17:13:01+00:00",
-      "summary": "What three evenings building an edge Kubernetes platform with agentic AI taught me about why autonomy doesn’t eliminate engineering effort… Continue reading on Medium »",
-      "tags": [
-        "AI Strategy",
-        "Platform Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "How to escape the alignment trap  and start shipping faster",
-      "url": "https://www.productledalliance.com/how-to-escape-the-alignment-trap-and-start-shipping-faster/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-07-03T15:00:51+00:00",
-      "summary": "Consensus feels safe, but it's costing you velocity.",
-      "tags": [
-        "Engineering Velocity",
-        "Stakeholders"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Beyond AI Hype: 5 SaaS Opportunities Worth Building Before 2027",
-      "url": "https://medium.com/@AdebayoWrites1/beyond-ai-hype-5-saas-opportunities-worth-building-before-2027-8b94c3b6652f?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-07-03T14:51:15+00:00",
-      "summary": "The next generation of successful SaaS products won't come from chasing AI trends. They'll come from solving overlooked business problems… Continue reading on Medium »",
-      "tags": [
-        "AI Strategy"
       ],
       "is_fallback": true
     }
