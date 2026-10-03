@@ -1,7 +1,109 @@
 {
-  "updated": "2026-10-02T10:52:45.977656+00:00",
-  "total": 859,
+  "updated": "2026-10-03T10:12:46.114348+00:00",
+  "total": 862,
   "items": [
+    {
+      "title": "Beyond the God Model | Alex Atallah & Amjad Masad",
+      "url": "https://a16z.simplecast.com/episodes/beyond-the-god-model-alex-atallah-amjad-masad-OPhKxfHE",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-10-03T10:00:00+00:00",
+      "summary": "A16z’s Erik Torenberg sits down with OpenRouter’s Alex Atallah and Replit founder and CEO Amjad Masad to discuss why the future of AI may look less like one all-purpose model and more like an ecosystem of specialized models working together. Alex explains why OpenRouter is bettin...",
+      "tags": [
+        "AI Strategy",
+        "Communication",
+        "Platform Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Why Claude Can’t Be Your PM (Yet)?",
+      "url": "https://samkmbuilds.medium.com/why-claude-cant-be-your-pm-yet-47580857639a?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-10-03T09:48:50+00:00",
+      "summary": "Before we begin, let’s start with the bugging question. Continue reading on Medium »",
+      "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "What product designers can learn from McKinsey and Toyota",
+      "url": "https://medium.com/@alesyachuk/what-product-designers-can-learn-from-mckinsey-and-toyota-00e8650cc87a?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-10-03T09:38:17+00:00",
+      "summary": "Three frameworks for thinking more clearly about product problems, root causes, and design decisions. Continue reading on Medium »",
+      "tags": [
+        "Product Design"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Feedzai: Global Solutions Consultant, Identity",
+      "url": "https://weworkremotely.com/remote-jobs/feedzai-global-solutions-consultant-identity",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-10-03T07:31:07+00:00",
+      "summary": "Headquarters: Spain Remote At Feedzai, we're building a world of safer money. A world where financial institutions move faster than criminals. Where the payments that fund real lives through salaries, savings, and businesses are protected in real time. We use trusted AI to detect...",
+      "tags": [
+        "Communication",
+        "AI Strategy",
+        "Career"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "6sense: Product Lead, Predictive Platform",
+      "url": "https://weworkremotely.com/remote-jobs/6sense-product-lead-predictive-platform",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-10-03T07:31:07+00:00",
+      "summary": "Headquarters: United States, Remote Our Mission: 6sense's mission is to multiply what matters: growth, retention, and efficiency. We envision a future where companies, teams and people reach their full potential. Our People: People are the heart and soul of 6sense. We serve with",
+      "tags": [
+        "Career",
+        "AI Strategy",
+        "Growth"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "2026.40: Dots and Question Marks",
+      "url": "https://stratechery.com/2026/dots-and-question-marks/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-10-02T17:00:00+00:00",
+      "summary": "The best Stratechery content from the week of September 28, 2026, including Meta's focus, what OpenAI is doing, and Mao and NBA Media Day.",
+      "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "What Shopify, Netflix, and Klarna  can teach us about working with AI teammates",
+      "url": "https://www.productledalliance.com/shopify-netflix-and-klarna-teach-us-about-ai-teammates/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-10-02T15:00:17+00:00",
+      "summary": "Your newest teammate is AI. Here's how to work alongside it.",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Choosing the Right Mobile App Development Partner",
+      "url": "https://yetistudio.medium.com/choosing-the-right-mobile-app-development-partner-db13da2010fb?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-10-02T11:43:58+00:00",
+      "summary": "A strong mobile app starts with the partner you choose before a single screen is designed. The right mobile development agency helps you… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Build, Buy, or Defer: Where SaaS Engineering Actually Compounds",
       "url": "https://medium.com/@oleks.kolesnykov/build-buy-or-defer-where-saas-engineering-actually-compounds-09bcb40867ba?source=rss------product_management-5",
@@ -382,6 +484,18 @@
       "summary": "Catch up with all sessions from Product-Led Summit San Francisco, including insights from eBay, Microsoft, Mastercard, RingCentral, and more.",
       "tags": [
         "Product Culture"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Prefer",
+      "url": "https://www.producthunt.com/products/prefer-2",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-09-29T13:37:08+00:00",
+      "summary": "The execution layer for AEO Discussion | Link",
+      "tags": [
+        "Product Strategy"
       ],
       "is_fallback": true
     },
@@ -841,6 +955,18 @@
         "AI Strategy",
         "Career",
         "Hardware Differentiation"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "WattMate",
+      "url": "https://www.producthunt.com/products/wattmate",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-09-25T11:11:29+00:00",
+      "summary": "Which app is draining your Mac, in watts and minutes saved Discussion | Link",
+      "tags": [
+        "Product Strategy"
       ],
       "is_fallback": true
     },
@@ -10614,95 +10740,6 @@
       "summary": "Claude Code, Codex, any CLI agent. Driven from your iPhone Discussion | Link",
       "tags": [
         "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "🔮 Exponential View #591: Never skilling; tricking OpenClaw; screwworm & progress; synth cells, tungsten & AI superforecasters++",
-      "url": "https://www.exponentialview.co/p/ev-591",
-      "source": "Exponential View",
-      "type": "trend",
-      "date": "2026-07-05T08:21:58+00:00",
-      "summary": "“You cut straight through the noise.” — Miguel O., a paying subscriber",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "The difference between good work and work that influences decisions",
-      "url": "https://medium.com/@oshinchawla/the-difference-between-good-work-and-work-that-influences-decisions-89a370d8500d?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-07-05T08:07:08+00:00",
-      "summary": "In the age of AI, good storytelling often makes the difference between information and influence. Continue reading on Medium »",
-      "tags": [
-        "Communication"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Turning Cancellations Into a Revenue System",
-      "url": "https://medium.com/@anandvadakan2000/turning-cancellations-into-a-revenue-system-f430bd47247f?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-07-05T07:31:19+00:00",
-      "summary": "A concept focused on transforming food delivery order cancellations into a structured revenue recovery system. It aims to reduce waste and… Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "AI Doesn’t Replace Decisions. It Redesigns Them.",
-      "url": "https://medium.com/@karthik_prdmgr/ai-doesnt-replace-decisions-it-redesigns-them-ca73744e30d3?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-07-05T03:55:03+00:00",
-      "summary": "Why the future of AI product design is about decision architecture, not automation. Continue reading on Medium »",
-      "tags": [
-        "AI Strategy",
-        "Automation",
-        "Product Design"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "🧠 Community Wisdom: Quarterly planning and AI, cash vs. equity comp, paying for interview exercises, AI-powered outbound, compliance startup opportunities, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-quarterly-planning",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-07-04T16:58:47+00:00",
-      "summary": "Community Wisdom 192",
-      "tags": [
-        "AI Strategy",
-        "Career",
-        "Community"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "CircleChat",
-      "url": "https://www.producthunt.com/products/circlechat",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-07-04T16:05:42+00:00",
-      "summary": "Give your AI agents a slack, a task board, and a boss Discussion | Link",
-      "tags": [
-        "AI Strategy",
-        "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "The Person Behind the Delivery: A Product Thinking Journey",
-      "url": "https://medium.com/@kashreen13/the-person-behind-the-delivery-a-product-thinking-journey-619035ed95e5?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-07-04T10:58:08+00:00",
-      "summary": "Every time I order food, I wonder about the person who delivers it. So I decided to actually dig into their problems and think about it… Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
       ],
       "is_fallback": true
     }
