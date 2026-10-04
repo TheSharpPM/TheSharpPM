@@ -1,6 +1,11 @@
 {
   "editions": [
     {
+      "date": "2026-10-04",
+      "headline_theme": "AI Isn’t a Silver Bullet—Structure Is",
+      "file": "agent/2026-10-04.json"
+    },
+    {
       "date": "2026-09-27",
       "headline_theme": "Burnout Is The Real Cost Of AI Speed",
       "file": "agent/2026-09-27.json"
@@ -121,5 +126,5 @@
       "file": "agent/2026-05-03.json"
     }
   ],
-  "updated_at": "2026-09-27T13:00:46.644347+00:00"
+  "updated_at": "2026-10-04T13:12:21.065282+00:00"
 }
