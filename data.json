@@ -1,7 +1,160 @@
 {
-  "updated": "2026-10-03T10:12:46.114348+00:00",
-  "total": 862,
+  "updated": "2026-10-04T10:53:23.593769+00:00",
+  "total": 868,
   "items": [
+    {
+      "title": "What to cut from an AI MVP’s first release in 2026",
+      "url": "https://medium.com/@irina_74748/what-to-cut-from-an-ai-mvps-first-release-in-2026-d77077dc9a0b?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-10-04T10:27:57+00:00",
+      "summary": "You have an LLM feature, a fixed runway, and a roadmap that gets longer every week. Continue reading on Medium »",
+      "tags": [
+        "AI Strategy",
+        "AI Tools",
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Inside the Box: Why Constraints Can Make Us Better",
+      "url": "https://medium.com/@alexglushenkov/inside-the-box-why-constraints-can-make-us-better-992aac9a49c7?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-10-04T10:27:03+00:00",
+      "summary": "We usually think progress comes from having more. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "David George & Jack Altman on AI, Autonomy, and the Next $25 Trillion",
+      "url": "https://a16z.simplecast.com/episodes/david-george-jack-altman-on-ai-autonomy-and-the-next-25-trillion-bFIBGYtV",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-10-04T10:00:00+00:00",
+      "summary": "a16z General Partner David George joins Jack Altman on Uncapped to make the case that many of the biggest debates in AI are framed the wrong way. Frontier models or open source? Labs or applications? David’s answer is often “and.” With AI adoption still concentrated among a relat...",
+      "tags": [
+        "AI Strategy",
+        "Communication"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Disrupting Urban EV Mobility: Driver-Controlled Variable-Width Cabin Architecture Inspired by…",
+      "url": "https://medium.com/@abdullahrahmath6/disrupting-urban-ev-mobility-driver-controlled-variable-width-cabin-architecture-inspired-by-1ea5ba019a10?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-10-04T08:29:20+00:00",
+      "summary": "Author: Rahmath Abdhulsalam Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Smartsheet: Group Product Manager – Corporate Systems",
+      "url": "https://weworkremotely.com/remote-jobs/smartsheet-group-product-manager-corporate-systems",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-10-04T07:31:27+00:00",
+      "summary": "Headquarters: -REMOTE, USA- For over 20 years, Smartsheet has empowered teams to manage work seamlessly and scale solutions smarter. Now, in our most ambitious chapter yet, we are uniting human teams with AI agents. By orchestrating the work agents do best, automating manual task...",
+      "tags": [
+        "Career",
+        "AI Strategy",
+        "Metrics"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Smartsheet: Director, Finance Systems & ERP",
+      "url": "https://weworkremotely.com/remote-jobs/smartsheet-director-finance-systems-erp",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-10-04T07:31:27+00:00",
+      "summary": "Headquarters: -REMOTE, USA- For over 20 years, Smartsheet has empowered teams to manage work seamlessly and scale solutions smarter. Now, in our most ambitious chapter yet, we are uniting human teams with AI agents. By orchestrating the work agents do best, automating manual task...",
+      "tags": [
+        "AI Strategy",
+        "Pricing",
+        "Career"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Poddle",
+      "url": "https://www.producthunt.com/products/poddle-3",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-10-04T04:39:18+00:00",
+      "summary": "Swing your phone, play pickleball on any computer! Discussion | Link",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Feeding Your Enterprise Data to a Shared LLM is a Strategic Mistake",
+      "url": "https://mithilsrivastav.medium.com/feeding-your-enterprise-data-to-a-shared-llm-is-a-strategic-mistake-862515a722de?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-10-04T04:21:57+00:00",
+      "summary": "A few weeks back, Chamath Palihapitiya said something most CIOs weren’t ready to hear: you can’t rent intelligence from the same place… Continue reading on Medium »",
+      "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🔮 The transition is hiding in plain sight #604",
+      "url": "https://www.exponentialview.co/p/ev-604",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-10-04T04:07:11+00:00",
+      "summary": "AI consciousness, electrification’s hidden progress, and the coming agentic bank run++",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "LaunchReel",
+      "url": "https://www.producthunt.com/products/launchreel-2",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-10-03T21:31:56+00:00",
+      "summary": "claude design but for editing professional videos faster. Discussion | Link",
+      "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🧠 Community Wisdom: Getting value from personal AI agents without handing over your inbox, the ego threat of going from IC to manager, uncommon perks to negotiate for, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-getting-value-from",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-10-03T17:00:49+00:00",
+      "summary": "Community Wisdom 301",
+      "tags": [
+        "AI Strategy",
+        "AI Tools",
+        "Community"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🔮 Quick weekend reads: the big AI questions",
+      "url": "https://www.exponentialview.co/p/quick-weekend-reads-the-big-ai-questions",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-10-03T12:54:07+00:00",
+      "summary": "A short set of readings on some of the biggest questions.",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Beyond the God Model | Alex Atallah & Amjad Masad",
       "url": "https://a16z.simplecast.com/episodes/beyond-the-god-model-alex-atallah-amjad-masad-OPhKxfHE",
@@ -10666,78 +10819,6 @@
       "type": "article",
       "date": "2026-07-06T12:03:37+00:00",
       "summary": "Watch now | 🎙️ Alessio Fanelli shows his Symphony + Linear setup for running parallel coding agents from his phone, then demos Codex hunting underpriced Pokémon cards in real time",
-      "tags": [
-        "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "AI Emaily",
-      "url": "https://www.producthunt.com/products/ai-emaily-unified-ai-inbox",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-07-06T09:37:56+00:00",
-      "summary": "Your AI inbox that writes like you + replies on autopilot Discussion | Link",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Beyond the Raids: Building the Digital Infrastructure for Food Safety",
-      "url": "https://medium.com/@ajinkyaakant/beyond-the-raids-building-the-digital-infrastructure-for-food-safety-2a359e664af2?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-07-06T09:13:18+00:00",
-      "summary": "How one man’s crackdown on food adulteration exposed a systemic failure and the design-led solution to fix it. Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "From Vercel to a Mini IDP: A PM’s Hands-On Journey with Backstage, Docker and Kubernetes",
-      "url": "https://mertgursoy.medium.com/from-vercel-to-a-mini-idp-a-pms-hands-on-journey-with-backstage-docker-and-kubernetes-30dec7ad966b?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-07-06T08:51:20+00:00",
-      "summary": "Building a mini Internal Developer Platform from scratch. The story of moving from “I know it” to “I built it, I lived it.” Continue reading on Medium »",
-      "tags": [
-        "Platform Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Can IT projects as an Investment be evaluated as an Investment?",
-      "url": "https://medium.com/@Flyingkite29/can-it-projects-as-an-investment-be-evaluated-as-an-investment-1b7786efb3c6?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-07-06T08:37:31+00:00",
-      "summary": "Yes, IT Project is an Investment and can be evaluated equivalently, and maybe even Price/Earning, PE Ratio can be used (augmented). Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "I Thought I Had a Great Startup Idea, then Fable 5 Pointed Out Everything I Missed.",
-      "url": "https://medium.com/@pixellensdesign/i-thought-i-had-a-great-startup-idea-then-fable-5-pointed-out-everything-i-missed-9c162f746467?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-07-06T07:34:33+00:00",
-      "summary": "I spent months researching a product I believed in and was about to finally start designing screens, and then I asked AI to review my PRD… Continue reading on Medium »",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "CodeMote",
-      "url": "https://www.producthunt.com/products/codemote-remote-control-for-any-ai",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-07-05T13:39:06+00:00",
-      "summary": "Claude Code, Codex, any CLI agent. Driven from your iPhone Discussion | Link",
       "tags": [
         "AI Tools"
       ],
