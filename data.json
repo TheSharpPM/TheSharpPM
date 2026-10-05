@@ -1,7 +1,133 @@
 {
-  "updated": "2026-10-04T10:53:23.593769+00:00",
-  "total": 868,
+  "updated": "2026-10-05T12:01:35.268155+00:00",
+  "total": 867,
   "items": [
+    {
+      "title": "Feature presentation  template",
+      "url": "https://www.productledalliance.com/feature-presentation-template-framework/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-10-05T12:00:07+00:00",
+      "summary": "A ready-made deck framework for cross-functional feature launches.",
+      "tags": [
+        "Communication",
+        "Stakeholders"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Why customers don’t care about your payment technology",
+      "url": "https://medium.com/@chinweokereke7/why-customers-dont-care-about-your-payment-technology-c5b493a043c7?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-10-05T11:47:00+00:00",
+      "summary": "Speculative ghostwriting sample - LinkedIn thought leadership for a fintech founder Continue reading on Medium »",
+      "tags": [
+        "Communication",
+        "Leadership"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "EARS Unwanted-Behaviour Requirements: Where Requirements for AI Agents Go Missing",
+      "url": "https://medium.com/@nicolas_payette/ears-unwanted-behaviour-requirements-where-requirements-for-ai-agents-go-missing-c0f1888b0dd5?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-10-05T11:46:25+00:00",
+      "summary": "Picture a Tuesday afternoon, around 4:40. A coding agent picks up a ticket that reads, in full: “The client should retry failed requests.” Continue reading on Medium »",
+      "tags": [
+        "AI Tools",
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Apple and a Hacker’s Future",
+      "url": "https://stratechery.com/2026/apple-and-a-hackers-future/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-10-05T10:00:00+00:00",
+      "summary": "I was happy for years in Apple's walled garden; with AI, however, their protections feel like limitations.",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Top 100 Consumer AI Apps: Who’s Actually Paying?",
+      "url": "https://a16z.simplecast.com/episodes/the-top-100-consumer-ai-apps-whos-actually-paying-PdmgSeRQ",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-10-05T10:00:00+00:00",
+      "summary": "a16z Editorial Partner Elena Burger sits down with investing partners Olivia Moore and Josh Elman to unpack the seventh edition of a16z’s Top 100 Consumer AI Apps, including a new dimension this time: what consumers are actually paying for. The data reveals a striking power-user",
+      "tags": [
+        "AI Tools",
+        "AI Strategy",
+        "Platform Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The agentic product loop:  Why shipping faster isn't enough",
+      "url": "https://www.productledalliance.com/the-agentic-product-loop-why-shipping-faster-isnt-enough/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-10-05T08:46:47+00:00",
+      "summary": "Shipping is no longer a bottleneck. Discover the agentic product loop and how it can speed up the rest of your product development cycle.",
+      "tags": [
+        "Engineering Velocity"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "AI Product Manager Responsibilities in 2026: What Sahil Aggarwal Believes PMs Should Own",
+      "url": "https://medium.com/@sahilaggarawal/ai-product-manager-responsibilities-41463cb50db5?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-10-05T07:36:12+00:00",
+      "summary": "When an AI feature works technically but fails to deliver customer value, becomes too expensive to scale, or behaves unpredictably, who… Continue reading on Medium »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Dos vías, un solo tren",
+      "url": "https://manuarjo.medium.com/dos-v%C3%ADas-un-solo-tren-91c8da04f718?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-10-05T07:22:47+00:00",
+      "summary": "Si en el artículo del Discovery defiendo que descubrir y entregar no son dos fases sino dos ritmos, el dual-track es justo la forma de… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Pilot5 Legal",
+      "url": "https://www.producthunt.com/products/pilot5-ai",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-10-04T20:12:37+00:00",
+      "summary": "Five AI models challenge every legal answer Discussion | Link",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "OpenAI’s Head of ChatGPT: We’re entering a new era of AI (again) | Tibo Sottiaux",
+      "url": "https://www.lennysnewsletter.com/p/openais-head-of-chatgpt-were-entering",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-10-04T12:32:47+00:00",
+      "summary": "Listen now (37 mins) | Tibo Sottiaux on why Dots is OpenAI’s biggest bet, why agents will dominate internet traffic, and what builders are still getting wrong",
+      "tags": [
+        "AI Tools",
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "What to cut from an AI MVP’s first release in 2026",
       "url": "https://medium.com/@irina_74748/what-to-cut-from-an-ai-mvps-first-release-in-2026-d77077dc9a0b?source=rss------product_management-5",
@@ -114,6 +240,18 @@
       "summary": "AI consciousness, electrification’s hidden progress, and the coming agentic bank run++",
       "tags": [
         "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Reactive Resume v6",
+      "url": "https://www.producthunt.com/products/reactive-resume",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-10-04T00:44:32+00:00",
+      "summary": "A free and open-source resume builder Discussion | Link",
+      "tags": [
+        "Career"
       ],
       "is_fallback": true
     },
@@ -10674,153 +10812,6 @@
       "summary": "Listen to this episode on: Spotify | Apple Podcasts Every product manager wants to move into leadership — but nobody wants to hire a leader without leadership experience. So how do you break the cycle? In this episode, Teresa and Petra unpack the practical, often-overlooked ways",
       "tags": [
         "Leadership"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "How to build an operating system for a startup:  Lessons from scaling 0 → 30+ employees",
-      "url": "https://www.productledalliance.com/how-to-build-an-operating-system-for-a-startup/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-07-07T12:00:08+00:00",
-      "summary": "What nobody tells you about scaling a startup sustainably.",
-      "tags": [
-        "Product Culture"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "A Script for Mark Zuckerberg",
-      "url": "https://stratechery.com/2026/a-script-for-mark-zuckerberg/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-07-07T10:00:00+00:00",
-      "summary": "A script for what Mark Zuckerberg should say on Meta's next earnings call.",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Inside Agoda (Travel-tech): Architecture, AI, and Growth",
-      "url": "https://creativerohit.medium.com/inside-agoda-travel-tech-architecture-ai-and-growth-ba2a1d5c0d17?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-07-07T08:01:59+00:00",
-      "summary": "Agoda is the Asia-focused online travel agency inside Booking Holdings (alongside Booking.com, Priceline, and Kayak). What makes it a… Continue reading on Medium »",
-      "tags": [
-        "Growth"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "The Kitchen, Not the Chef",
-      "url": "https://medium.com/@murungima/the-kitchen-not-the-chef-9eb48139edc5?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-07-07T07:15:39+00:00",
-      "summary": "Everyone obsesses over the model. The pipeline that feeds it is where production ML systems actually live or die Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Why AI Changes Product Requirements",
-      "url": "https://medium.com/@karthik_prdmgr/why-ai-changes-product-requirements-36c49f96cf87?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-07-07T05:26:42+00:00",
-      "summary": "Designing PRDs for systems that learn, reason, and collaborate. Continue reading on Medium »",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "What Problem Are You Solving?",
-      "url": "https://medium.com/@profshinseki/what-problem-are-you-solving-c66cc3c59d8c?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-07-07T04:16:01+00:00",
-      "summary": "I Thought I Was Prepared Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "JustVibe",
-      "url": "https://www.producthunt.com/products/justvibe",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-07-06T17:33:19+00:00",
-      "summary": "JustVibe is presented as a search engine tailored for actionable outcomes, offering personalized apps that streamline tasks and workflows. It positions itself as a tool for users who want immediate, context‑specific solutions rather than generic search results.",
-      "tags": [
-        "AI Tools",
-        "Product Strategy",
-        "Productivity"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "🎙️ How I AI: Sonnet 5 review & How to run autonomous coding agents from your phone",
-      "url": "https://www.lennysnewsletter.com/p/how-i-ai-sonnet-5-review-and-how",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-07-06T15:01:17+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
-      "tags": [
-        "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "The PM's personal positioning  framework",
-      "url": "https://www.productledalliance.com/the-pms-personal-positioning-framework/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-07-06T14:25:10+00:00",
-      "summary": "Clarify your strengths, your value, and your next career move.",
-      "tags": [
-        "Career",
-        "Competitive Analysis"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "📈 Data to start your week",
-      "url": "https://www.exponentialview.co/p/data-to-start-your-week-6-july-2026",
-      "source": "Exponential View",
-      "type": "trend",
-      "date": "2026-07-06T13:44:31+00:00",
-      "summary": "The coming supply shock; extreme heat; baby bust & growth boom++",
-      "tags": [
-        "Growth"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Let's Read Continuous Discovery Habits Together (July 2026)",
-      "url": "https://www.producttalk.org/cdh-book-club-july-2026/",
-      "source": "Product Talk",
-      "type": "article",
-      "date": "2026-07-06T13:00:02+00:00",
-      "summary": "Continuous Discovery Habits turned five this year. And to celebrate we are reading the book together. Each month, I am releasing an in-depth reading guide that includes: The chapters we will be reading A preview of the most important concepts we'll be learning about Short videos",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "How I run autonomous coding agents from my phone with OpenAI Symphony + Linear | Alessio Fanelli (Kernel Labs)",
-      "url": "https://www.lennysnewsletter.com/p/how-i-run-autonomous-coding-agents",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-07-06T12:03:37+00:00",
-      "summary": "Watch now | 🎙️ Alessio Fanelli shows his Symphony + Linear setup for running parallel coding agents from his phone, then demos Codex hunting underpriced Pokémon cards in real time",
-      "tags": [
-        "AI Tools"
       ],
       "is_fallback": true
     }
