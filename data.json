@@ -1,7 +1,169 @@
 {
-  "updated": "2026-10-05T12:01:35.268155+00:00",
-  "total": 867,
+  "updated": "2026-10-06T11:40:55.997593+00:00",
+  "total": 870,
   "items": [
+    {
+      "title": "Eighteen performance reviews finished on time.",
+      "url": "https://medium.com/@theringmaster30/eighteen-performance-reviews-finished-on-time-6ce8146b4515?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-10-06T11:21:15+00:00",
+      "summary": "https://profcalchub.com/ringmaster-post-29.html Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Performance Improvement Plans (PIP): Clarity Before Consequence (Performance Mgmt. Series 6/7)",
+      "url": "https://medium.com/swlh/performance-improvement-plans-pip-clarity-before-consequence-performance-mgmt-series-6-7-036f888398e0?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-10-06T11:01:41+00:00",
+      "summary": "Few management tools carry more emotional charge than the Performance Improvement Plan. Continue reading on The Startup »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Game Decompilation, Is This Legal?, A Well-Trodden Path",
+      "url": "https://stratechery.com/2026/game-decompilation-is-this-legal-a-well-trodden-path/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-10-06T10:07:36+00:00",
+      "summary": "Games are being decompiled, but the real risk to gaming is new games and increased personalization.",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Building Defense for the Agentic Era: Kevin Mandia",
+      "url": "https://a16z.simplecast.com/episodes/building-defense-for-the-agentic-era-kevin-mandia-4ylPD1X6",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-10-06T10:00:00+00:00",
+      "summary": "a16z General Partner David George sits down with Armadin founder and CEO Kevin Mandia to discuss what happens to cybersecurity when attackers can operate at machine speed. After 30 years in security and building Mandiant, Kevin says AI convinced him to get back on the field. He e...",
+      "tags": [
+        "AI Strategy",
+        "Security"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Semaphore: Senior Product Engineer",
+      "url": "https://weworkremotely.com/remote-jobs/semaphore-senior-product-engineer",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-10-06T08:44:40+00:00",
+      "summary": "Headquarters: Novi Sad URL: https://semaphore.io/ About Semaphore Semaphore is a remote-first software company building continuous integration and delivery (CI/CD) products for engineering teams. Our customers rely on Semaphore Cloud and our self-hosted enterprise products to bui...",
+      "tags": [
+        "Career",
+        "AI Strategy",
+        "Security"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Persona Was Never Supposed to Be a Person",
+      "url": "https://www.productcoalition.com/p/the-persona-was-never-supposed-to",
+      "source": "Product Coalition",
+      "type": "article",
+      "date": "2026-10-06T08:01:00+00:00",
+      "summary": "A decade of Product Coalition writing says the useful version describes a decision, not a human",
+      "tags": [
+        "Communication"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Product Ethics in the Age of AI",
+      "url": "https://romanpichler.medium.com/product-ethics-in-the-age-of-ai-74d25a559035?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-10-06T07:41:37+00:00",
+      "summary": "AI is changing not only what product teams can build, but also what they need to take responsibility for. As digital products increasingly… Continue reading on Medium »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Wrike: Senior Data Scientist",
+      "url": "https://weworkremotely.com/remote-jobs/wrike-senior-data-scientist",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-10-06T07:31:05+00:00",
+      "summary": "Headquarters: Czech Republic - Remote Wrike is the most powerful work management platform. Built for teams and organizations looking to collaborate, create, and exceed every day, Wrike brings everyone and all work into a single place to remove complexity, increase productivity, a...",
+      "tags": [
+        "AI Tools",
+        "AI Strategy",
+        "Career"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Everyone Is Hiring for Growth: What Upwork Job Posts Show",
+      "url": "https://medium.com/@e.vyacheclavova/everyone-is-hiring-for-growth-what-upwork-job-posts-show-4c7d902b9d88?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-10-06T06:24:58+00:00",
+      "summary": "For three months I have read Upwork job posts every day. I look for Product Manager and Product Owner work, so I read a lot of them. Continue reading on Medium »",
+      "tags": [
+        "Career",
+        "Growth"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "EasyCut",
+      "url": "https://www.producthunt.com/products/easycut-2",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-10-05T17:11:09+00:00",
+      "summary": "Edit your Claude motion videos Discussion | Link",
+      "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🎙️ How I AI: 8 real Jev use cases + How OpenAI uses ChatGPT Sites (live at DevDay!) + Claire’s DevDay recap",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-8-real-jev-use-cases-how",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-10-05T15:03:24+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+      "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "📈 Monday data: More AI, more justice?",
+      "url": "https://www.exponentialview.co/p/monday-data-more-ai-more-justice",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-10-05T13:51:44+00:00",
+      "summary": "Everyone’s got a lawyer now",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "How OpenAI uses ChatGPT Sites (live at DevDay!) | Kath Korevec (Product Lead)",
+      "url": "https://www.lennysnewsletter.com/p/how-openai-uses-chatgpt-sites-live",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-10-05T12:04:54+00:00",
+      "summary": "Watch now (36 mins) | 🎙️ Kath Korevec demos ChatGPT Sites live at OpenAI DevDay, showing how to turn Slack, Notion, and calendar data into internal tools that adapt to each person on your team",
+      "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Feature presentation  template",
       "url": "https://www.productledalliance.com/feature-presentation-template-framework/",
@@ -821,6 +983,18 @@
       "type": "trend",
       "date": "2026-09-29T12:51:48+00:00",
       "summary": "A smoke alarm that detects fire, not toast. Discussion | Link",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "OpenBot",
+      "url": "https://www.producthunt.com/products/openbot-3",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-09-29T12:36:29+00:00",
+      "summary": "Grok Bot alternative: free, local, open-source, multiplayer Discussion | Link",
       "tags": [
         "Product Strategy"
       ],
@@ -10673,145 +10847,6 @@
       "summary": "The classic product formula just got rewritten by AI.",
       "tags": [
         "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "XBOX Cuts; Bundling and the Internet Solvent; Transaction, Coordination, and Sunk Costs",
-      "url": "https://stratechery.com/2026/xbox-cuts-bundling-and-the-internet-solvent-transaction-coordination-and-sunk-costs/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-07-08T10:00:00+00:00",
-      "summary": "Microsoft's Xbox division is conducting big layoffs, as the company deals with abject failure of its Game Pass strategy.",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Just Ask by SEORCE",
-      "url": "https://www.producthunt.com/products/seorce",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-07-08T09:13:36+00:00",
-      "summary": "Talk to your SEO & AI Visibility data on WhatsApp. Discussion | Link",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "The Strategy of Metrics: Choosing KPIs, Designing Dashboards, and Leading with Vision",
-      "url": "https://medium.com/@sivavishnu0705/the-strategy-of-metrics-choosing-kpis-designing-dashboards-and-leading-with-vision-c3e776d94bb2?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-07-08T07:06:11+00:00",
-      "summary": "Design type-safe KPIs, balance data with intuition, and build clear, actionable dashboards without overwhelming stakeholders. Continue reading on Medium »",
-      "tags": [
-        "Metrics",
-        "Stakeholders"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Product Development Strategy for Sustainable Business Growth and Market Success",
-      "url": "https://medium.com/@muditastrataegis01/product-development-strategy-for-sustainable-business-growth-and-market-success-5933355dd4da?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-07-08T06:22:48+00:00",
-      "summary": "A well-defined product development strategy is the foundation of creating innovative products that meet customer expectations and achieve… Continue reading on Medium »",
-      "tags": [
-        "Growth"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Prefactor",
-      "url": "https://www.producthunt.com/products/prefactor",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-07-08T06:03:58+00:00",
-      "summary": "Evaluate your AI Agents in real-time Discussion | Link",
-      "tags": [
-        "AI Strategy",
-        "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "On-Device Field Extraction by Verify",
-      "url": "https://www.producthunt.com/products/veryfi",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-07-07T22:16:44+00:00",
-      "summary": "Secure on-device extraction even if you're offline Discussion | Link",
-      "tags": [
-        "Hardware Differentiation"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "New AI tools by IFTTT",
-      "url": "https://www.producthunt.com/products/ifttt",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-07-07T21:58:15+00:00",
-      "summary": "Automate with Grok, Gemini, Perplexity, and more Discussion | Link",
-      "tags": [
-        "AI Tools",
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "#874: Guy Oseary — The Legendary Hollywood Power Broker on 5-Minute Decisions, 36 Years of Managing Madonna, 26 IPOs, and Spotting Magic First",
-      "url": "#",
-      "source": "The Tim Ferriss Show",
-      "type": "podcast",
-      "date": "2026-07-07T21:30:00+00:00",
-      "summary": "Guy Oseary shares how his knack for spotting talent and making rapid, high‑stakes decisions propelled him to manage icons like Madonna, back blockbuster franchises, and build investment firms that have backed companies such as Airbnb, Uber, and Spotify. He discusses the principles behind scaling ventures, executing 5‑minute decisions, and achieving sustained growth across music, film, and tech.",
-      "tags": [
-        "Leadership",
-        "Growth",
-        "Product Strategy"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Knowledge Atlas by Fini",
-      "url": "https://www.producthunt.com/products/fini-2",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-07-07T13:22:43+00:00",
-      "summary": "The self-learning knowledge base that improves itself Discussion | Link",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "How tech workers are feeling in 2026: a workforce splitting in two",
-      "url": "https://www.lennysnewsletter.com/p/how-tech-workers-are-feeling-in-2026",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-07-07T13:04:22+00:00",
-      "summary": "The 2026 tech worker sentiment survey reveals a clear divide: a growing segment of employees feels optimistic and engaged, while another sizable group reports burnout, uncertainty, and disengagement. The split is driven by disparities in remote work flexibility, AI tool adoption, and perceived career growth opportunities, prompting companies to rethink talent strategies and internal communication.",
-      "tags": [
-        "Leadership",
-        "Retention",
-        "Product Culture"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Stepping Into Leadership - All Things Product Podcast with Teresa Torres & Petra Wille",
-      "url": "https://www.producttalk.org/stepping-into-leadership-all-things-product-podcast-with-teresa-torres-petra-wille/",
-      "source": "Product Talk",
-      "type": "article",
-      "date": "2026-07-07T13:00:28+00:00",
-      "summary": "Listen to this episode on: Spotify | Apple Podcasts Every product manager wants to move into leadership — but nobody wants to hire a leader without leadership experience. So how do you break the cycle? In this episode, Teresa and Petra unpack the practical, often-overlooked ways",
-      "tags": [
-        "Leadership"
       ],
       "is_fallback": true
     }
