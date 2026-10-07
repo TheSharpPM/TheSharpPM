@@ -1,7 +1,135 @@
 {
-  "updated": "2026-10-06T11:40:55.997593+00:00",
-  "total": 870,
+  "updated": "2026-10-07T11:30:16.682120+00:00",
+  "total": 872,
   "items": [
+    {
+      "title": "Most Product Marketers I Know Spend Only 30% of Their Time on Product Marketing",
+      "url": "https://medium.com/@ramaiyar/most-product-marketers-i-know-spend-only-30-of-their-time-on-product-marketing-354462fa906c?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-10-07T10:12:39+00:00",
+      "summary": "AI isn’t replacing the judgment PMMs are hired for. It’s finally giving them a way to spend more time using it. Continue reading on Medium »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "When someone asks if they still need you, can you answer?",
+      "url": "https://medium.com/analysts-corner/when-someone-asks-if-they-still-need-you-can-you-answer-12c26ae5197c?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-10-07T10:12:07+00:00",
+      "summary": "For product owners, product managers, and business analysts who work on internal products and want leadership to see what they contribute Continue reading on Analyst’s corner »",
+      "tags": [
+        "Career",
+        "Leadership"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Apple and LG, The House For Everyone Else, Agent Standards and Amazon",
+      "url": "https://stratechery.com/2026/apple-and-lg-the-house-for-everyone-else-agent-standards-and-amazon/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-10-07T10:01:39+00:00",
+      "summary": "Apple is taking a smarter approach to the home than I expected, leaning into integration (with partners); then, what Amazon should do about agents.",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "How Valon Rebuilt a $13 Trillion Industry From Scratch",
+      "url": "https://a16z.simplecast.com/episodes/how-valon-rebuilt-a-13-trillion-industry-from-scratch-0mcVWvYe",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-10-07T10:00:00+00:00",
+      "summary": "a16z General Partner Angela Strange sits down with Valon’s Andrew Wang and Linda Du to unpack what it takes to rebuild the infrastructure underneath a $13 trillion mortgage market that still relies heavily on systems designed before the internet. Linda and Andrew explain why Valo...",
+      "tags": [
+        "AI Strategy",
+        "Compliance",
+        "Platform Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Current: Producer, Client Experience & Growth (Contract)",
+      "url": "https://weworkremotely.com/remote-jobs/current-producer-client-experience-growth-contract",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-10-07T07:31:04+00:00",
+      "summary": "Headquarters: Remote (US) At Current At Current, we partner with ambitious brands to create digital experiences that drive meaningful business results. By bringing together strategy, design, production, and technology, we help organizations solve complex challenges and build expe...",
+      "tags": [
+        "Career",
+        "Communication",
+        "Product Design"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Expel: Product Manager, Detection Pipeline",
+      "url": "https://weworkremotely.com/remote-jobs/expel-product-manager-detection-pipeline",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-10-07T07:31:00+00:00",
+      "summary": "Headquarters: Remote You live at the intersection of security and product management, and there's no place you'd rather be. You understand that the detection pipeline isn't just plumbing. It's the connective tissue that turns raw security data into signal, and if ingestion, norma...",
+      "tags": [
+        "Career",
+        "Communication",
+        "Competitive Analysis"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Impact of Disruptive technologies on product development process",
+      "url": "https://medium.com/@muditastrataegis01/impact-of-disruptive-technologies-on-product-development-process-cfdf2958c7fe?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-10-07T04:40:15+00:00",
+      "summary": "Every technology extension has limitations if assessed from economic value addition perspective or simply utility point of view. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "AI Doesn’t Get Cheap Enough to Bundle at One Token Price",
+      "url": "https://medium.com/@zyane/ai-doesnt-get-cheap-enough-to-bundle-at-one-token-price-f239ee2d5d21?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-10-07T00:01:02+00:00",
+      "summary": "The useful threshold lives at the workload boundary: cost variance, heavy-use tails, subscription margins, product value, and budget… Continue reading on Medium »",
+      "tags": [
+        "AI Strategy",
+        "Pricing"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Recorded Conversations - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "url": "https://www.producttalk.org/recorded-conversations-all-things-product/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-10-06T13:00:39+00:00",
+      "summary": "Listen to this episode on: Spotify | Apple Podcasts We now record almost everything — every meeting has an AI note-taker, and some people wear glasses that capture every word. So what does that do to our relationships when nothing is forgotten and everything can be fact-checked?",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Adoption is a product problem,  not a rollout problem",
+      "url": "https://www.productledalliance.com/adoption-is-a-product-problem-not-a-rollout-problem/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-10-06T12:00:52+00:00",
+      "summary": "Login rates lie. Completion rates tell the truth.",
+      "tags": [
+        "Product Culture"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Eighteen performance reviews finished on time.",
       "url": "https://medium.com/@theringmaster30/eighteen-performance-reviews-finished-on-time-6ce8146b4515?source=rss------product_management-5",
@@ -2212,6 +2340,19 @@
       "is_fallback": true
     },
     {
+      "title": "Velozity",
+      "url": "https://www.producthunt.com/products/velozity-2",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-09-18T14:18:53+00:00",
+      "summary": "The workspace where your team and AI agents work together Discussion | Link",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
       "title": "AI Is Making Good Ideas Cheap",
       "url": "https://medium.com/@chemalielias/ai-is-making-good-ideas-cheap-1b9a8015d630?source=rss------product_management-5",
       "source": "Medium PM",
@@ -2294,6 +2435,18 @@
       "summary": "Find how your e-commerce business could earn more Discussion | Link",
       "tags": [
         "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Databench by Alkera",
+      "url": "https://www.producthunt.com/products/alkera",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-09-17T14:08:31+00:00",
+      "summary": "Open-source collaborative agentic workspace for data teams Discussion | Link",
+      "tags": [
+        "Product Strategy"
       ],
       "is_fallback": true
     },
@@ -10719,134 +10872,6 @@
       "tags": [
         "AI Strategy",
         "Career"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
-      "url": "https://a16z.simplecast.com/episodes/mark-zuckerberg-priscilla-chan-how-ai-will-help-cure-disease-J_rYFGCM",
-      "source": "a16z Podcast",
-      "type": "podcast",
-      "date": "2026-07-09T10:00:00+00:00",
-      "summary": "As part of our summer replay series, we're revisiting one of our favorite conversations from the past year. Mark Zuckerberg and Dr. Priscilla Chan join Ben Horowitz, Vineeta Agarwala, and Erik Torenberg to discuss the Chan Zuckerberg Initiative's ambitious effort to help cure, pr...",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Muse Image, Grok 4.5, Alex Karp on CNBC",
-      "url": "https://stratechery.com/2026/muse-image-grok-4-5-alex-karp-on-cnbc/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-07-09T10:00:00+00:00",
-      "summary": "The battle for verifiable data is increasingly defining the AI race, from Meta to Grok to the frontier labs.",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "The Product Management Salary  Survey 2026",
-      "url": "https://www.productledalliance.com/the-product-management-salary-survey-2026/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-07-09T09:52:44+00:00",
-      "summary": "Wish product management salary information was transparent? Help us figure out the salary benchmarks for PMs. Now’s your chance to have your say.",
-      "tags": [
-        "Career"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Automation roadmaps don’t fail in month three",
-      "url": "https://medium.com/@vlad.koval/automation-roadmaps-dont-fail-in-month-three-fd66c5610610?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-07-09T08:46:30+00:00",
-      "summary": "Most teams that attempt an AI automation roadmap don’t fail because they picked the wrong tool or underestimated complexity. They fail in… Continue reading on Medium »",
-      "tags": [
-        "AI Strategy",
-        "Automation",
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Advice Line with Jeni Britton of Jeni's Splendid Ice Creams (2025)",
-      "url": "#",
-      "source": "How I Built This",
-      "type": "podcast",
-      "date": "2026-07-09T07:10:00+00:00",
-      "summary": "Jeni Britton, founder of Jeni's Splendid Ice Creams, advises three early-stage food entrepreneurs on marketing focus, capital-raising pressure, and PR firm decisions, while highlighting her new venture Floura that addresses the national fiber deficiency. The conversation offers practical product strategy and growth insights for founders navigating early-market challenges.",
-      "tags": [
-        "Product Strategy",
-        "Growth",
-        "Prioritization"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "ChatCut",
-      "url": "https://www.producthunt.com/products/chatcut-ai-video-editor",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-07-09T06:50:16+00:00",
-      "summary": "Your AI video editor - in ChatGPT, desktop, and web Discussion | Link",
-      "tags": [
-        "AI Strategy",
-        "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "AI Governance Is a Product Discipline — David Yosuanto",
-      "url": "https://medium.com/@davidyosuanto/ai-governance-is-a-product-discipline-david-yosuanto-9ee3ae127d96?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-07-09T03:09:15+00:00",
-      "summary": "AI capability ships in days, while governance frameworks take months to draft. That asymmetry creates a fundamental product problem. When… Continue reading on Medium »",
-      "tags": [
-        "AI Strategy",
-        "Risk Management"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "AI Governance Is a Product Discipline — David Yosuanto",
-      "url": "https://medium.com/@davidyosuanto/ai-governance-is-a-product-discipline-david-yosuanto-78c213516d01?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-07-09T03:06:53+00:00",
-      "summary": "AI capability ships in days, while governance frameworks take months to draft. That asymmetry creates a fundamental product problem. When… Continue reading on Medium »",
-      "tags": [
-        "AI Strategy",
-        "Risk Management"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "What a harness is and how to build one with Claude Agent SDK",
-      "url": "https://www.lennysnewsletter.com/p/what-a-harness-is-and-how-to-build",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-07-08T12:03:35+00:00",
-      "summary": "Listen now | 🎙️ I built a custom Claude Agent SDK harness to automate Sentry bug triage, saved the \"dear agent, please fix this\" prompt forever, and show you exactly how to build your own",
-      "tags": [
-        "AI Tools",
-        "Platform Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Product management is leveling up:  The new playbook from the Product-Led Summit",
-      "url": "https://www.productledalliance.com/product-management-is-leveling-up-the-new-playbook-from-the-product-led-summit/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-07-08T12:00:07+00:00",
-      "summary": "The classic product formula just got rewritten by AI.",
-      "tags": [
-        "AI Strategy"
       ],
       "is_fallback": true
     }
