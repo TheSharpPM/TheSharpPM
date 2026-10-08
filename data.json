@@ -1,7 +1,128 @@
 {
-  "updated": "2026-10-07T11:30:16.682120+00:00",
-  "total": 872,
+  "updated": "2026-10-08T11:45:54.647408+00:00",
+  "total": 870,
   "items": [
+    {
+      "title": "He was a foot and a half shorter than me and still got in my face to tell me my job was worthless.",
+      "url": "https://medium.com/the-story-well/he-was-a-foot-and-a-half-shorter-than-me-and-still-got-in-my-face-to-tell-me-my-job-was-worthless-c96f06406762?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-10-08T11:38:20+00:00",
+      "summary": "https://profcalchub.com/ringmaster-post-30.html Continue reading on The Story Well »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Think Before You Choose Product Management",
+      "url": "https://medium.com/@khushbusharma_47842/think-before-you-choose-product-management-432467d0c0f8?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-10-08T11:29:51+00:00",
+      "summary": "Product Management has become one of the most talked-about career paths in technology. It is often presented as a career that combines… Continue reading on Medium »",
+      "tags": [
+        "Career"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "An Interview with Katie Harbath About Disrupting Politics at Facebook",
+      "url": "https://stratechery.com/2026/an-interview-with-katie-harbath-about-disrupting-politics-at-facebook/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-10-08T10:00:00+00:00",
+      "summary": "An interview with former Facebook Head of Global Elections Katie Harbath about her new book Disrupting Politics, and how things change for the company in the 2010s.",
+      "tags": [
+        "Career"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Building the Cloud for an Agentic World | AWS CEO Matt Garman",
+      "url": "https://a16z.simplecast.com/episodes/building-the-cloud-for-an-agentic-world-aws-ceo-matt-garman-d18BWOHC",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-10-08T10:00:00+00:00",
+      "summary": "a16z’s Raghu Raghuram sits down with AWS CEO Matt Garman to discuss how AI is reshaping the cloud, from the needs of AI-native startups to infrastructure increasingly designed for agents. Matt explains how AWS is adapting as agents write code and manage infrastructure, why it’s r...",
+      "tags": [
+        "AI Strategy",
+        "Hardware Differentiation"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The First Explanation Is Often the Easiest One, Not the Strongest One",
+      "url": "https://medium.com/@baniaputri/the-first-explanation-is-often-the-easiest-one-not-the-strongest-one-ee9cd89a36a3?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-10-08T09:16:22+00:00",
+      "summary": "Three cases on competing mechanisms, different interventions, and what evidence needs to establish before explanation becomes decision. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Customer Who Paid and Never Arrived",
+      "url": "https://www.productcoalition.com/p/the-customer-who-paid-and-never-arrived",
+      "source": "Product Coalition",
+      "type": "article",
+      "date": "2026-10-08T08:00:34+00:00",
+      "summary": "Acquisition buys the signature. Activation decides whether that revenue was ever real.",
+      "tags": [
+        "Growth"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Healthcare CRM: Buy, Build, or Partner?",
+      "url": "https://medium.com/@raftlabs/healthcare-crm-buy-build-or-partner-7cc724fa2422?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-10-08T03:21:01+00:00",
+      "summary": "Why generic CRMs fail in healthcare and what actually works for medical groups, practices, and digital health companies. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Epilude Narrator",
+      "url": "https://www.producthunt.com/products/epilude",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-10-07T21:03:10+00:00",
+      "summary": "Listen to any article, doc or text on your Mac Discussion | Link",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🔮 What is left to do",
+      "url": "https://www.exponentialview.co/p/what-is-left-to-do",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-10-07T13:50:46+00:00",
+      "summary": "The future of science may be provable, profitable and incomprehensible",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "tide",
+      "url": "https://www.producthunt.com/products/tide-simple-self-hostable-video-calls",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-10-07T10:31:31+00:00",
+      "summary": "A Jitsi alternative that does a few things really well Discussion | Link",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Most Product Marketers I Know Spend Only 30% of Their Time on Product Marketing",
       "url": "https://medium.com/@ramaiyar/most-product-marketers-i-know-spend-only-30-of-their-time-on-product-marketing-354462fa906c?source=rss------product_management-5",
@@ -10721,157 +10842,6 @@
       "summary": "Outcome-based roadmaps are strategic plans focused on results and goals (rather than specific features). Learn more about these popular roadmaps.",
       "tags": [
         "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "How Bitcoin Rewired a Classic Computer Science Problem",
-      "url": "https://a16z.simplecast.com/episodes/how-bitcoin-rewired-a-classic-computer-science-problem-0_lm073b",
-      "source": "a16z Podcast",
-      "type": "podcast",
-      "date": "2026-07-10T10:00:00+00:00",
-      "summary": "We're excited to share a special feed drop from The a16z Crypto Show. In the first episode of First Principles: The Scientific Roots of Blockchain Technology, Tim Roughgarden and Ittai Abraham trace the decades of computer science research that laid the foundation for modern bloc...",
-      "tags": [
-        "Product Culture"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Too much output, too little attention",
-      "url": "https://medium.com/@raqueladsantos/too-much-output-too-little-attention-ffb6a5b7c8c7?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-07-10T08:45:33+00:00",
-      "summary": "It was just one page. It had taken half of my previous week. It was the conclusion of a business case a director had asked me for. I… Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "San Fran Sim",
-      "url": "https://www.producthunt.com/products/san-fran-sim",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-07-10T08:07:45+00:00",
-      "summary": "A startup tycoon game Discussion | Link",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Who is a product builder?",
-      "url": "https://medium.com/@Praiseogolo/who-is-a-product-builder-363159e07f54?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-07-10T07:54:04+00:00",
-      "summary": "Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Experience Redesign for a Premium Recommerce Platform",
-      "url": "https://medium.com/@poonamjrn.ux/experience-redesign-for-a-premium-recommerce-platform-328c5ef3c2c7?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-07-10T04:05:54+00:00",
-      "summary": "A strategic redesign project exploring opportunities to improve usability and conversion of a luxury e-commerce and resale mobile app Continue reading on Medium »",
-      "tags": [
-        "Platform Strategy",
-        "User Research"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "“Use Cases, Capabilities, and Solutions — Oh My!”",
-      "url": "https://medium.com/@parkenal/use-cases-capabilities-and-solutions-oh-my-e9dc4a7af724?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-07-10T01:35:11+00:00",
-      "summary": "Moving Beyond the Backlog to Uncover True Needs That Drive Lasting Impact Continue reading on Medium »",
-      "tags": [
-        "Prioritization"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "GPT-5.6 Sol vs. Claude Fable: Why OpenAI’s new model crushes my benchmark",
-      "url": "https://www.lennysnewsletter.com/p/gpt-56-sol-vs-claude-fable-why-openais",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-07-09T17:33:57+00:00",
-      "summary": "Watch now | 🎙️GPT 5.6-Sol beats Fable on prototypes, PRDs, and browser use in my 5-category How I AI benchmark, and here's exactly where each model earns its spot.",
-      "tags": [
-        "AI Tools",
-        "AI Strategy",
-        "Product Design"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Assembly Studio",
-      "url": "https://www.producthunt.com/products/assembly-7",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-07-09T14:57:58+00:00",
-      "summary": "AI app builder that grows your revenue Discussion | Link",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Ways to think about token pricing",
-      "url": "https://www.ben-evans.com/benedictevans/2026/7/9/ways-to-think-about-token-pricing",
-      "source": "Benedict Evans",
-      "type": "trend",
-      "date": "2026-07-09T14:15:51+00:00",
-      "summary": "AI is in a supply crunch today, but what happens when we come out of it? How and where will supply, demand, price, capacity and capex get back into equilibrium? Today, model labs can name their price, but why won’t they end up as low-margin commodity infrastructure?",
-      "tags": [
-        "AI Strategy",
-        "Pricing"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "AI pricing is broken:  4 experts reframe the issue",
-      "url": "https://www.productledalliance.com/ai-pricing-is-broken-4-experts-reframe-the-issue/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-07-09T14:00:03+00:00",
-      "summary": "Discover four perspectives on AI monetization from leading product management experts. Learn how to price AI features and build a pricing strategy that scales.",
-      "tags": [
-        "Pricing",
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "From COVID Pivot to AI World Building: How Snapbar Reinvented the Photo Experience",
-      "url": "https://www.producttalk.org/from-covid-pivot-to-ai-world-building-how-snapbar-reinvented-the-photo-experience/",
-      "source": "Product Talk",
-      "type": "article",
-      "date": "2026-07-09T13:00:43+00:00",
-      "summary": "Listen to this episode on: Spotify | Apple Podcasts What does it take to reinvent a 14-year-old company—not once, but twice? In this episode of Just Now Possible , Teresa Torres talks with Sam Eitzen (Co-founder & CEO), Joe Eitzen (Co-founder & CPO), and Patrick Ellis",
-      "tags": [
-        "AI Strategy",
-        "Leadership"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Adam Mosseri: AI is a tailwind for authenticity",
-      "url": "https://www.lennysnewsletter.com/p/adam-mosseri-ai-is-a-tailwind-for",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-07-09T12:32:21+00:00",
-      "summary": "Listen now | Instagram’s Adam Mosseri on the new product team structure in 2026, the rise of the “product staff” role, and the hiring traits that matter most today",
-      "tags": [
-        "AI Strategy",
-        "Career"
       ],
       "is_fallback": true
     }
