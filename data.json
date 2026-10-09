@@ -1,7 +1,69 @@
 {
-  "updated": "2026-10-08T11:45:54.647408+00:00",
-  "total": 870,
+  "updated": "2026-10-09T11:39:15.568201+00:00",
+  "total": 871,
   "items": [
+    {
+      "title": "Agentic Expansion of the Domain Knowledge Repository Concept",
+      "url": "https://medium.com/@milwaukeemzummo/agentic-expansion-of-the-domain-knowledge-repository-concept-ceda478f074b?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-10-09T11:27:55+00:00",
+      "summary": "My role recently stepped deeper into AI. As I dug into agentic development I began noticing similarities with how humans understand and… Continue reading on Medium »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Buying shoes you can’t try on",
+      "url": "https://selensenturk.medium.com/buying-shoes-you-cant-try-on-a86380637faa?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-10-09T10:57:01+00:00",
+      "summary": "You want to train a mid-sized model on your own data. The model is chosen, the data is ready, the code runs. The only thing missing is a… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Your AI Configurator Is Only as Good as Your Rules",
+      "url": "https://medium.com/@kalyani.vasave/your-ai-configurator-is-only-as-good-as-your-rules-0be084f665c5?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-10-09T10:25:31+00:00",
+      "summary": "Why the rules and product data underneath decide whether AI quoting works. Continue reading on Medium »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Chips, Memory, and Power | Pat Gelsinger",
+      "url": "https://a16z.simplecast.com/episodes/chips-memory-and-power-pat-gelsinger-uwHe_vsU",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-10-09T10:00:00+00:00",
+      "summary": "a16z's Raghu Raghuram and Guido Appenzeller sit down with Playground Global General Partner and former Intel CEO Pat Gelsinger to discuss the next wave of semiconductor innovation and the physical constraints shaping the AI buildout. Drawing on his experience designing Intel's 38...",
+      "tags": [
+        "Hardware Differentiation",
+        "AI Strategy",
+        "Growth"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Trading Dollars for Dimes (And Why You Should)",
+      "url": "https://medium.com/write-a-catalyst/trading-dollars-for-dimes-and-why-you-should-d396015be855?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-10-09T06:46:23+00:00",
+      "summary": "Why the scariest thing in business isn’t losing to a rival , it’s deliberately killing your own best-selling product. Continue reading on Write A Catalyst »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "He was a foot and a half shorter than me and still got in my face to tell me my job was worthless.",
       "url": "https://medium.com/the-story-well/he-was-a-foot-and-a-half-shorter-than-me-and-still-got-in-my-face-to-tell-me-my-job-was-worthless-c96f06406762?source=rss------product_management-5",
@@ -96,6 +158,19 @@
       "summary": "Listen to any article, doc or text on your Mac Discussion | Link",
       "tags": [
         "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "OpenCharm",
+      "url": "https://www.producthunt.com/products/opencharm",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-10-07T15:54:37+00:00",
+      "summary": "Open-source body for the AI agent you already run Discussion | Link",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
       ],
       "is_fallback": true
     },
@@ -362,6 +437,18 @@
       "tags": [
         "Career",
         "Growth"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "De Stash",
+      "url": "https://www.producthunt.com/products/de-stash",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-10-06T05:57:22+00:00",
+      "summary": "See, search and clean up your Mac storage, 100% private Discussion | Link",
+      "tags": [
+        "Product Strategy"
       ],
       "is_fallback": true
     },
@@ -10772,78 +10859,6 @@
         "Stakeholders"
       ],
       "is_fallback": false
-    },
-    {
-      "title": "Why AI Makes Big Companies More Confidently Wrong",
-      "url": "https://medium.com/@jacky0305/why-ai-makes-big-companies-more-confidently-wrong-d5b41135becc?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-07-11T07:20:18+00:00",
-      "summary": "How the speed of AI-generated work creates a new class of organizational failure Continue reading on Medium »",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Building FindCoffeeMate Taught Me More About Product Engineering Than Any Course",
-      "url": "https://medium.com/@binaykumardas96/building-findcoffeemate-taught-me-more-about-product-engineering-than-any-course-7672cb0b8a55?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-07-11T07:06:33+00:00",
-      "summary": "When I started my career, I thought being a good engineer meant one thing: Continue reading on Medium »",
-      "tags": [
-        "Career"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Real Estate App Development: The 2026 Playbook for Founders",
-      "url": "https://techcirkle.medium.com/real-estate-app-development-the-2026-playbook-for-founders-acf307b28fc4?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-07-11T06:15:58+00:00",
-      "summary": "If you are planning a real estate app, the reference points in your head are probably Zillow, Rightmove, or a local property portal. That… Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "On-Demand App Development: The 2026 Business Guide",
-      "url": "https://techcirkle.medium.com/on-demand-app-development-the-2026-business-guide-fe19cc0ddcdb?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-07-11T06:15:50+00:00",
-      "summary": "What Makes an On-Demand App Different From a Standard Mobile App Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "2026.28: XBOX On the Rocks",
-      "url": "https://stratechery.com/2026/xbox-on-the-rocks/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-07-10T17:00:00+00:00",
-      "summary": "The best Stratechery content from the week of July 6, 2026, including a word from Mark Zuckerberg*, pulling the plug on XBOX, and toilet talk.",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "How to create outcome-based roadmaps  (with examples)",
-      "url": "https://www.productledalliance.com/how-to-create-outcome-based-roadmaps/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-07-10T14:00:00+00:00",
-      "summary": "Outcome-based roadmaps are strategic plans focused on results and goals (rather than specific features). Learn more about these popular roadmaps.",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
     }
   ]
 }
