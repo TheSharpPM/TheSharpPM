@@ -1,7 +1,106 @@
 {
-  "updated": "2026-10-09T11:39:15.568201+00:00",
-  "total": 871,
+  "updated": "2026-10-10T10:57:16.719555+00:00",
+  "total": 875,
   "items": [
+    {
+      "title": "Why AI Agents Are Becoming Products, Not Just Features",
+      "url": "https://medium.com/@satasiya252/why-ai-agents-are-becoming-products-not-just-features-840313f7ff2e?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-10-10T10:41:01+00:00",
+      "summary": "For years, the software industry followed a familiar pattern. Continue reading on Medium »",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "What Makes a Great Entrepreneur? | Ben Horowitz on Vintage x Vintage",
+      "url": "https://a16z.simplecast.com/episodes/what-makes-a-great-entrepreneur-ben-horowitz-on-vintage-x-vintage-FiiBzjgE",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-10-10T10:00:00+00:00",
+      "summary": "a16z co-founder and General Partner Ben Horowitz joins James Norman on the inaugural episode of Vintage x Vintage for a conversation spanning entrepreneurship, investing, hip-hop, and what changes when AI makes building dramatically easier. Ben reflects on going from Netscape to",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Using Prolepsis to Create Revolutionary Products",
+      "url": "https://medium.com/strategem/using-prolepsis-to-create-revolutionary-products-e0567e98dc59?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-10-10T09:49:17+00:00",
+      "summary": "What Steve Jobs, Bezos, and Jesus have to teach about product management Continue reading on Strategem »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Using Prolepsis to Create Revolutionary Products",
+      "url": "https://medium.com/strategem/using-prolepsis-to-create-revolutionary-products-e0567e98dc59?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-10-10T09:49:17+00:00",
+      "summary": "What Steve Jobs, Bezos, and Jesus have to teach about product management Continue reading on Strategem »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Tines: GTM Systems Specialist",
+      "url": "https://weworkremotely.com/remote-jobs/tines-gtm-systems-specialist",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-10-10T07:31:08+00:00",
+      "summary": "Headquarters: United States (Remote) Tines is the intelligent workflow company that powers some of the world's most important workflows. Tines has been supporting IT and security teams from a diverse range of customers, including Canva, Reddit, SAP, Coinbase, Mars, Fin (Intercom)...",
+      "tags": [
+        "Prioritization",
+        "Career",
+        "Communication"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🔮 The end of screen time",
+      "url": "https://www.exponentialview.co/p/the-end-of-screen-time",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-10-10T06:02:50+00:00",
+      "summary": "AI changes how we work, but can it also change where?",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Software Pilot That Never Ends",
+      "url": "https://medium.com/@colelamphere/the-software-pilot-that-never-ends-00b91ce2f3e8?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-10-09T20:20:32+00:00",
+      "summary": "Two properties, a kickoff call, and eleven months later nobody can say who decides. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "2026.41: It’s Not You, It’s Me",
+      "url": "https://stratechery.com/2026/its-not-you-its-me/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-10-09T17:00:00+00:00",
+      "summary": "The best Stratechery content from the week of October 5, 2026, including drifting apart from Apple, Facebook complications, and the delightful absurdity of U.S.-China dynamics.",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Agentic Expansion of the Domain Knowledge Repository Concept",
       "url": "https://medium.com/@milwaukeemzummo/agentic-expansion-of-the-domain-knowledge-repository-concept-ceda478f074b?source=rss------product_management-5",
@@ -303,6 +402,18 @@
       "is_fallback": true
     },
     {
+      "title": "Baby Desk",
+      "url": "https://www.producthunt.com/products/baby-desk",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-10-06T18:22:22+00:00",
+      "summary": "Let your baby smash the keyboard and your work stays safe Discussion | Link",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
       "title": "Recorded Conversations - All Things Product Podcast with Teresa Torres & Petra Wille",
       "url": "https://www.producttalk.org/recorded-conversations-all-things-product/",
       "source": "Product Talk",
@@ -483,6 +594,18 @@
       "type": "trend",
       "date": "2026-10-05T13:51:44+00:00",
       "summary": "Everyone’s got a lawyer now",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Naarchy",
+      "url": "https://www.producthunt.com/products/naarchy",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-10-05T12:08:18+00:00",
+      "summary": "A little island for everything on your Linux desktop Discussion | Link",
       "tags": [
         "Product Strategy"
       ],
@@ -10773,90 +10896,6 @@
         "AI Strategy",
         "Leadership",
         "Retention"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "🔮 Reading is dying. GPU demand isn’t.",
-      "url": "https://www.exponentialview.co/p/ev-592",
-      "source": "Exponential View",
-      "type": "trend",
-      "date": "2026-07-12T10:32:10+00:00",
-      "summary": "The article argues that traditional reading is becoming obsolete while demand for GPU-driven compute power continues to surge, driven by AI infrastructure needs and emerging high‑performance workloads beyond generative AI. It highlights the strategic opportunity for product teams to focus on GPU‑centric services, such as accelerated inference, data processing, and next‑gen compute platforms, to capture growth as AI adoption expands across industries.",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy",
-        "AI Tools"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Transformation Strategy Pillars: Digital | Business | Culture | Organization — The Embedded…",
-      "url": "https://medium.com/@alexander_nyiri/transformation-strategy-pillars-digital-business-culture-organization-the-embedded-d1ce480cb817?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-07-12T07:24:14+00:00",
-      "summary": "The article argues that successful digital transformation now requires harmonizing digital, business, cultural, and organizational pillars into a single, integrated system rather than tweaking isolated functions. For product managers, this means aligning product roadmaps with broader cultural shifts and organizational structures to drive sustainable change.",
-      "tags": [
-        "Product Strategy",
-        "Leadership",
-        "Growth"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Process Optimization: How Emerging Markets Are Leading the Way",
-      "url": "https://medium.com/@fredogwu/process-optimization-how-emerging-markets-are-leading-the-way-92d60edb9906?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-07-12T06:50:03+00:00",
-      "summary": "Emerging markets are pioneering innovative process optimization techniques, leveraging local insights and agile methodologies to streamline operations and cut costs. These approaches offer scalable lessons for product teams seeking efficiency and competitive advantage worldwide.",
-      "tags": [
-        "Product Strategy",
-        "Growth",
-        "Competitive Analysis"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "The Hyper-Velocity Trap: Why AI-Driven Feature Factories Are Killing User Experience",
-      "url": "https://medium.com/@uedanurag/the-hyper-velocity-trap-why-ai-driven-feature-factories-are-killing-user-experience-80cafa82a2bc?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-07-11T22:20:50+00:00",
-      "summary": "The article warns that AI‑driven feature factories, which churn out numerous updates at high speed, often sacrifice user experience for rapid output. It argues that product teams need to balance AI speed with careful design and user‑centric validation to avoid eroding product quality.",
-      "tags": [
-        "AI Strategy",
-        "Product Design",
-        "User Research"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "How I Use AI to Analyze Competitors in 30 Minutes (And Where It Still Fails)",
-      "url": "https://medium.com/@lcy455603678/how-i-use-ai-to-analyze-competitors-in-30-minutes-and-where-it-still-fails-7f6f26feef73?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-07-11T16:46:00+00:00",
-      "summary": "The article outlines a rapid AI-driven workflow for conducting competitive analysis in just 30 minutes, highlighting the new efficiencies and the specific steps involved. It also discusses the current limitations of AI in this context{,} such as gaps in nuanced interpretation and the need for human oversight to validate insights.​​​​​​​​​​​​​",
-      "tags": [
-        "AI Strategy",
-        "Competitive Analysis",
-        "Product Strategy"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "🧠 Community Wisdom: Negative network effects, managing overconfident colleagues, developers sidestepping design decisions, keeping stakeholder meetings on track, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-negative-network",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-07-11T16:40:58+00:00",
-      "summary": "This community roundup highlights common product challenges such as negative network effects, dealing with overconfident teammates, and preventing developers from bypassing design decisions. It also offers practical tips for keeping stakeholder meetings focused and maintaining alignment across teams.",
-      "tags": [
-        "Product Strategy",
-        "Leadership",
-        "Stakeholders"
       ],
       "is_fallback": false
     }
