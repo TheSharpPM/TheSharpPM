@@ -1,0 +1,71 @@
+name: Tests
+
+# The two content pipelines fail quietly when they fail at all: a bad
+# edition still publishes, it just cites something it never read. These
+# suites exist to catch that, so they have to run on their own rather
+# than when someone remembers to type the command.
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - 'requirements.txt'
+      - '.github/workflows/tests.yml'
+  pull_request:
+    paths:
+      - 'scripts/**'
+      - 'requirements.txt'
+      - '.github/workflows/tests.yml'
+  workflow_dispatch:
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+
+    # Read-only on purpose. Unlike the aggregator, nothing here commits.
+    permissions:
+      contents: read
+
+    strategy:
+      fail-fast: false
+      matrix:
+        # Both import paths are supported by design, so both are tested.
+        # "pinned" is what the daily and weekly workflows actually run on.
+        # "stubbed" is scripts/tests/harness.py standing in for whichever
+        # dependencies are absent, which is what a bare checkout gets -
+        # that path is the one a contributor hits first, and it had no
+        # coverage until this workflow existed.
+        deps: [pinned, stubbed]
+
+    name: tests (${{ matrix.deps }} dependencies)
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd  # v5
+
+      - name: Set up Python
+        uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405  # v6
+        with:
+          python-version: '3.11'
+
+      - name: Install pinned dependencies
+        if: matrix.deps == 'pinned'
+        run: pip install -r requirements.txt
+
+      - name: Run test suites
+        # Every suite runs even after one fails, so a red build reports
+        # everything that is broken rather than only the first thing.
+        # `|| failed=1` keeps the step alive under bash -e; the final
+        # exit is what actually fails the job - without it a broken
+        # suite would be swallowed and the build would go green.
+        run: |
+          failed=0
+          for suite in scripts/tests/test_*.py; do
+            echo "::group::$suite"
+            python "$suite" || failed=1
+            echo "::endgroup::"
+          done
+          if [ "$failed" -ne 0 ]; then
+            echo "::error::One or more test suites failed."
+          fi
+          exit "$failed"
