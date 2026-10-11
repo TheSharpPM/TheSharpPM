@@ -89,6 +89,73 @@ def main():
     r.check("live entries are returned", "https://medium.com/a" in everything)
     r.check("stale entries are not", "https://stratechery.com/b" not in everything)
 
+    print("\n--- the count cap bounds a committed directory ---")
+    # The TTL alone stopped being a bound: at three weeks, with the
+    # aggregator backfilling the corpus, an active week of feeds could
+    # push the committed cache well past where it should sit.
+    for stale in _TMP.glob("*.json"):
+        stale.unlink()
+    now = time.time()
+    original_cap = article_cache.MAX_CACHE_ENTRIES
+    article_cache.MAX_CACHE_ENTRIES = 5
+    try:
+        # Eight live entries, each an hour older than the last.
+        for i in range(8):
+            article_cache.put(f"https://www.svpg.com/p/{i}", f"body {i}",
+                              now=now - i * 3600)
+        removed = article_cache.prune(now=now)
+        survivors = {
+            json.loads(path.read_text(encoding="utf-8"))["url"]
+            for path in _TMP.glob("*.json")
+        }
+        r.check("prune drops the overflow", removed == 3, removed)
+        r.check("exactly the cap survives", len(survivors) == 5, len(survivors))
+        r.check("and it is the newest that survive",
+                survivors == {f"https://www.svpg.com/p/{i}" for i in range(5)},
+                sorted(survivors))
+    finally:
+        article_cache.MAX_CACHE_ENTRIES = original_cap
+
+    r.check("the shipped cap leaves room for the recent window",
+            article_cache.MAX_CACHE_ENTRIES >= 200,
+            article_cache.MAX_CACHE_ENTRIES)
+
+    print("\n--- what the daily run offers the cache ---")
+    # Originally only new_items were candidates, so an item was visible
+    # to the cache on the one day it entered data.json and never again -
+    # the cache held 6% of the citable corpus. The backfill is what
+    # closes that gap, so the ordering it promises is worth pinning.
+    import aggregate
+
+    def item(url, date):
+        return {"url": url, "date": date}
+
+    fresh = item("https://www.svpg.com/new", "2026-10-11")
+    corpus = [
+        item("https://www.producttalk.org/old", "2026-09-20"),
+        item("https://www.lennysnewsletter.com/mid", "2026-10-01"),
+        item("https://example-vendor-blog.com/spam", "2026-10-10"),
+        item("", "2026-10-09"),
+        fresh,
+    ]
+    ordered = aggregate.cache_candidates([fresh], corpus)
+    urls = [i["url"] for i in ordered]
+    r.check("a new arrival is offered first", urls[0] == fresh["url"], urls)
+    r.check("it is not offered twice", urls.count(fresh["url"]) == 1, urls)
+    r.check("the backfill runs newest-first",
+            urls[1:] == ["https://www.lennysnewsletter.com/mid",
+                         "https://www.producttalk.org/old"], urls)
+    r.check("uncacheable domains are never offered",
+            not any("vendor-blog" in u for u in urls), urls)
+
+    undated = aggregate.cache_candidates(
+        [], [item("https://www.svpg.com/a", ""), item("https://www.svpg.com/b", "2026-10-01")]
+    )
+    r.check("an undated item sorts last instead of crashing",
+            [i["url"] for i in undated]
+            == ["https://www.svpg.com/b", "https://www.svpg.com/a"],
+            [i["url"] for i in undated])
+
     print("\n--- SSRF defence is shared, not re-implemented ---")
     for bad in ["http://169.254.169.254/latest/meta-data/",
                 "http://localhost:8080/admin",

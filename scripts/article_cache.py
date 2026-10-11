@@ -41,10 +41,19 @@ from urllib.parse import urlparse
 import requests
 
 CACHE_DIR = Path("cache/articles")
-# One week. Long enough that Sunday's run sees everything the aggregator
-# collected since the previous edition, short enough that the cache does
-# not become an archive - agent/*.json is the archive.
-CACHE_TTL_SECONDS = 7 * 24 * 60 * 60
+# Three weeks, not one. A week was sized for "the news since the last
+# edition", but the agent does not only cite the last seven days: the
+# 2026-09-06 edition cited an SVPG piece published 2026-07-23, and the
+# 2026-09-13 edition cited a Product Talk guide from 2026-09-02. A
+# 7-day TTL expired those before Sunday, so the cache held 6% of the
+# citable corpus and three of that edition's four citations missed it.
+CACHE_TTL_SECONDS = 21 * 24 * 60 * 60
+
+# Hard ceiling on entries, enforced oldest-first by prune(). The TTL
+# alone no longer bounds the directory now that it is three weeks and
+# the aggregator backfills: this is what keeps the committed cache to
+# roughly 300 x 6KB = 1.8MB rather than growing with the feed volume.
+MAX_CACHE_ENTRIES = 300
 # Stored longer than the agent's MAX_ARTICLE_CHARS (2500) so the agent
 # slices from a fuller body rather than a body already cut to its own
 # limit. Raising the agent's limit later then needs no cache rebuild.
@@ -241,16 +250,18 @@ def load_all(now=None):
 
 
 def prune(now=None):
-    """Delete entries past the TTL. Returns how many were removed.
+    """Delete entries past the TTL, then oldest-first over the count cap.
 
-    Called by the aggregator each day. Without it the cache is an
-    ever-growing committed directory; with it the working set stays at
-    roughly one week of citable articles.
+    Called by the aggregator each day. Two bounds, because the TTL alone
+    stopped being one: at three weeks with backfill enabled, an active
+    week of feeds could otherwise push the committed directory well past
+    where it should sit.
     """
     if not CACHE_DIR.exists():
         return 0
     now = now or time.time()
     removed = 0
+    live = []
     for path in CACHE_DIR.glob("*.json"):
         try:
             entry = json.loads(path.read_text(encoding="utf-8"))
@@ -260,6 +271,19 @@ def prune(now=None):
         except Exception:
             stale = True   # unreadable entry is dead weight either way
         if stale:
+            try:
+                path.unlink()
+                removed += 1
+            except OSError:
+                pass
+        else:
+            live.append((fetched_at, path))
+    # Over the cap, drop the oldest first: the agent reaches for recent
+    # pieces, so age is the best available proxy for "least likely to be
+    # cited next Sunday".
+    if len(live) > MAX_CACHE_ENTRIES:
+        live.sort()
+        for _, path in live[:len(live) - MAX_CACHE_ENTRIES]:
             try:
                 path.unlink()
                 removed += 1

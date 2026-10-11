@@ -259,8 +259,44 @@ def is_cacheable(url):
                for d in CACHEABLE_DOMAIN_SUFFIXES)
 
 
+def cache_candidates(new_items, all_items):
+    """Items worth caching, newest first.
+
+    Originally this was new_items alone, which was wrong: an item is
+    "new" only on the day it first enters data.json, and data.json keeps
+    90 days. Everything already in the corpus was therefore invisible to
+    the cache forever - it held 6% of citable items, and three of the
+    2026-09-13 edition's four citations fell in the other 94%.
+
+    So the daily run also backfills: any citable item in the corpus that
+    is not cached yet is a candidate, newest first, bounded by the fetch
+    budget. Over a few days that converges on covering the recent window
+    rather than only each day's two-per-feed arrivals.
+    """
+    seen = set()
+    candidates = []
+    # New arrivals first - they are the most likely to matter on Sunday
+    # and they are the ones whose titles the digest just summarised.
+    for item in list(new_items) + list(all_items):
+        url = item.get("url")
+        if not url or url in seen or not is_cacheable(url):
+            continue
+        seen.add(url)
+        candidates.append(item)
+
+    def sort_key(item):
+        # Newest first; undated items sort last rather than crashing.
+        return item.get("date") or ""
+
+    new_urls = {i.get("url") for i in new_items}
+    head = [i for i in candidates if i.get("url") in new_urls]
+    tail = sorted((i for i in candidates if i.get("url") not in new_urls),
+                  key=sort_key, reverse=True)
+    return head + tail
+
+
 def cache_article_bodies(items, budget=MAX_ARTICLE_FETCHES_PER_RUN):
-    """Fetch and cache the body of each citable new item.
+    """Fetch and cache the body of each citable item, newest first.
 
     Best-effort throughout: this exists to save Agent Sharp an iteration
     on Sunday, and a page that will not load today is not a reason to
@@ -431,7 +467,8 @@ def main():
     # anything already cached is skipped.
     print("\nCaching article bodies for Agent Sharp...")
     removed = article_cache.prune()
-    fetched, skipped, failed = cache_article_bodies(new_items)
+    candidates = cache_candidates(new_items, all_items)
+    fetched, skipped, failed = cache_article_bodies(candidates)
     print(f"  cache: {fetched} fetched, {skipped} already cached, "
           f"{failed} failed, {removed} expired entries pruned")
  

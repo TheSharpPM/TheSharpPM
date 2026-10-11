@@ -59,6 +59,13 @@ ARTICLE_BODY = (
     "Measure outcomes, not output velocity."
 )
 
+# Deliberately shares no sentence with ARTICLE_BODY, so a quote lifted
+# from one article is never accidentally found in another.
+OTHER_BODY = (
+    "Pricing ladders reward the customers who were going to pay anyway. "
+    "Willingness to pay is a research question, not a pricing-page tweak."
+)
+
 
 def reset(dates=None, bodies=None):
     """Restore a pristine index and run state before each case.
@@ -83,8 +90,17 @@ def reset(dates=None, bodies=None):
             "title": "T", "source": "S",
             "date": (dates or {}).get(url, days_ago(3)),
         }
+    # Gate 10b refuses to publish a piece the agent never read, so the
+    # default fixture reads all four citations - otherwise every case
+    # below is rejected for an unread citation before its own gate runs.
+    # LENNY carries ARTICLE_BODY because the pull-quote cases quote it.
     agent.FETCHED_TEXT.update(
-        bodies if bodies is not None else {LENNY: ARTICLE_BODY}
+        bodies if bodies is not None else {
+            LENNY: ARTICLE_BODY,
+            SVPG: OTHER_BODY,
+            TALK: OTHER_BODY,
+            MTP: OTHER_BODY,
+        }
     )
 
 
@@ -212,15 +228,30 @@ def main():
     r.check("a fabricated pull quote is rejected",
             rejected_for(out, "does not appear"), out.get("error"))
 
-    reset()
+    # Gate 10b makes "cited but never fetched" unreachable: it runs
+    # before the quote gate, so an unread citation is refused for not
+    # having been read rather than for an unverifiable quote.
+    reset(bodies={LENNY: ARTICLE_BODY, TALK: OTHER_BODY, MTP: OTHER_BODY})
     quoted = edition()["must_reads"]
-    # SVPG was seen in a feed but never fetched, so there is no body to
-    # check the quote against and the gate must not guess.
     quoted[1]["pull_quote"] = (
         "Something unverifiable because we only ever saw a summary."
     )
     out = publish(must_reads=quoted)
-    r.check("a quote on a source that was never fetched is not checked",
+    r.check("a quote on a piece that was never read is caught by the read gate",
+            rejected_for(out, "not read")
+            and not rejected_for(out, "does not appear"), out.get("error"))
+
+    # The quote gate keeps its own empty-body fallback: a url that was
+    # fetched but yielded no text clears gate 10b, and gate 12 must not
+    # guess at a quote it has nothing to check against.
+    reset(bodies={LENNY: ARTICLE_BODY, SVPG: "",
+                  TALK: OTHER_BODY, MTP: OTHER_BODY})
+    quoted = edition()["must_reads"]
+    quoted[1]["pull_quote"] = (
+        "Something unverifiable because the fetch came back empty."
+    )
+    out = publish(must_reads=quoted)
+    r.check("a quote on a fetched-but-empty body is not checked",
             not rejected_for(out, "does not appear"), out.get("error"))
 
     reset()
