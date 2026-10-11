@@ -1,7 +1,93 @@
 {
-  "updated": "2026-10-10T10:57:16.719555+00:00",
-  "total": 875,
+  "updated": "2026-10-11T11:11:23.466661+00:00",
+  "total": 874,
   "items": [
+    {
+      "title": "How to Become a Product Manager in 2026",
+      "url": "https://medium.com/@nyanpainghtun/how-to-become-a-product-manager-in-2026-2bf56cfe549a?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-10-11T10:31:49+00:00",
+      "summary": "The rapid rise of artificial intelligence continues to reshape the skill sets required across industries. In today’s job market, those who… Continue reading on Medium »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Nick Bostrom: How Should We Navigate Superintelligence?",
+      "url": "https://a16z.simplecast.com/episodes/nick-bostrom-how-should-we-navigate-superintelligence-COJSBboX",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-10-11T10:00:00+00:00",
+      "summary": "Nick Bostrom joins Theo Jaffee and Sofia Puccini on MTS to revisit the ideas about superintelligence and existential risk that he helped bring into the mainstream, now that increasingly capable AI systems actually exist. Nick discusses why reinforcement learning may be pushing mo...",
+      "tags": [
+        "AI Strategy",
+        "Prioritization"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Real AI PM Interview Questions 2026",
+      "url": "https://shailesh-sharma.medium.com/real-ai-pm-interview-questions-2026-35171ec22578?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-10-11T09:57:47+00:00",
+      "summary": "PM interviews have changed Continue reading on Medium »",
+      "tags": [
+        "AI Strategy",
+        "Career"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🔮 AI & Math 2.0, Pakistan’s solar hedge & who controls computing++",
+      "url": "https://www.exponentialview.co/p/ev-605",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-10-11T04:44:15+00:00",
+      "summary": "An essential weekly reading on AI.",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Why Your Hotel Customers Need Apps, Not Sites",
+      "url": "https://medium.com/@raftlabs/why-your-hotel-customers-need-apps-not-sites-40b20c38bd7e?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-10-11T03:36:01+00:00",
+      "summary": "60% of hotel bookings happen on mobile. OTA commissions run 15–30%. Here’s what hospitality operators actually need from their tech… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Product Signals Don’t Explain Themselves",
+      "url": "https://medium.com/@strive.evidence/product-signals-dont-explain-themselves-72fb82c45a73?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-10-11T01:16:54+00:00",
+      "summary": "Why accurate customer and product evidence can still lead to incorrect strategic conclusions. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🧠 Community Wisdom: Community Wisdom Top Contributors Summer Class 2026 + ML recommendation systems, getting back into product after being fired, deciding when to quit a side project, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-community-wisdom",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-10-10T13:01:38+00:00",
+      "summary": "Community Wisdom 301",
+      "tags": [
+        "Community"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Why AI Agents Are Becoming Products, Not Just Features",
       "url": "https://medium.com/@satasiya252/why-ai-agents-are-becoming-products-not-just-features-840313f7ff2e?source=rss------product_management-5",
@@ -719,6 +805,18 @@
       "type": "article",
       "date": "2026-10-05T07:22:47+00:00",
       "summary": "Si en el artículo del Discovery defiendo que descubrir y entregar no son dos fases sino dos ritmos, el dual-track es justo la forma de… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Foley",
+      "url": "https://www.producthunt.com/products/foley",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-10-05T06:48:55+00:00",
+      "summary": "A voice to-do list that files, plans and asks first Discussion | Link",
       "tags": [
         "Product Strategy"
       ],
@@ -10779,125 +10877,6 @@
         "AI Strategy"
       ],
       "is_fallback": true
-    },
-    {
-      "title": "Flyout",
-      "url": "https://www.producthunt.com/products/flyout",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-07-13T10:10:46+00:00",
-      "summary": "Rich-text notes that fly out from your Mac's screen edge Discussion | Link",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Apple Sues OpenAI, Apple’s Real Problem",
-      "url": "https://stratechery.com/2026/apple-sues-openai-apples-real-problem/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-07-13T10:00:00+00:00",
-      "summary": "Apple is suing AI for stealing trade secrets; there is one guilty employee, but this mostly feels like lashing out.",
-      "tags": [
-        "AI Strategy",
-        "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Before Blockchains, There Was State Machine Replication",
-      "url": "https://a16z.simplecast.com/episodes/before-blockchains-there-was-state-machine-replication-gGXd4DoC",
-      "source": "a16z Podcast",
-      "type": "podcast",
-      "date": "2026-07-13T10:00:00+00:00",
-      "summary": "Every blockchain today relies on replication techniques first developed in the 1980s by researchers who weren't thinking about cryptocurrencies at all. In this episode, Tim Roughgarden speaks with MIT professor and Turing Award winner Barbara Liskov, one of the pioneers of progra...",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Good Software Does More Than Show You the Data",
-      "url": "https://medium.com/@ministryofbits/good-software-does-more-than-show-you-the-data-0b45b3369402?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-07-13T08:29:57+00:00",
-      "summary": "The article discusses how effective software should go beyond merely presenting data, emphasizing the importance of thoughtful design and user experience to drive meaningful insights. It reflects on recent development efforts that balance coding with design to create more valuable products.",
-      "tags": [
-        "Product Design",
-        "AI Tools",
-        "Product Strategy"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "“WHAT” Matters: Stop Starting with “How”",
-      "url": "https://medium.com/@aswath1990/what-matters-stop-starting-with-how-1ee0acb1bde0?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-07-13T08:15:00+00:00",
-      "summary": "The article argues that product teams often stall innovation by jumping straight to \"how\" questions, which constrain thinking to existing methods. It recommends starting with a clear definition of \"what\" needs to be achieved, allowing broader exploration of possibilities before deciding on implementation approaches.",
-      "tags": [
-        "Product Strategy",
-        "Leadership",
-        "Product Culture"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Sun Bum: Tom Rinks. The Secrets of a Master Brand Builder (2023)",
-      "url": "#",
-      "source": "How I Built This",
-      "type": "podcast",
-      "date": "2026-07-13T07:10:00+00:00",
-      "summary": "Tom Rinks shares how his early sales experience taught him deep consumer psychology, which he later applied to build Sun Bum from a niche sun lotion into a $400 million brand. He also discusses branding across diverse products and the importance of protecting creative work.",
-      "tags": [
-        "Product Strategy",
-        "Growth",
-        "Leadership"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Why Market Research Is the Most Underrated Skill in Product Management",
-      "url": "https://medium.com/@sohag933/why-market-research-is-the-most-underrated-skill-in-product-management-84c1b075451c?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-07-13T04:10:52+00:00",
-      "summary": "The article argues that product failures are rarely due to flawed technology, but rather stem from insufficient market insight. It emphasizes that deep market research equips product managers to identify real customer needs, validate assumptions early, and steer development toward viable solutions, making it a critical yet often overlooked competency.",
-      "tags": [
-        "User Research",
-        "Product Strategy",
-        "Growth"
-      ],
-      "is_fallback": false
-    },
-    {
-      "title": "Workshopy.io",
-      "url": "https://www.producthunt.com/products/workshopy-io",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-07-12T20:16:24+00:00",
-      "summary": "Turn a Markdown file into a live, trackable workshop Discussion | Link",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "How tech workers actually feel about AI in 2026 | Annual AI sentiment survey (Noam Segal)",
-      "url": "https://www.lennysnewsletter.com/p/how-tech-workers-actually-feel-about",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-07-12T12:32:14+00:00",
-      "summary": "The 2026 AI sentiment survey reveals a stark divide among tech employees: about half are thriving with AI integration, while the other half feel overwhelmed, leading to record-high burnout levels. For product managers, this underscores the need to balance AI-driven productivity gains with employee well‑being and to adopt strategies that support both high performers and those struggling.",
-      "tags": [
-        "AI Strategy",
-        "Leadership",
-        "Retention"
-      ],
-      "is_fallback": false
     }
   ]
 }
