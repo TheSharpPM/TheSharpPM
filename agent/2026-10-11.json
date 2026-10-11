@@ -1,0 +1,46 @@
+{
+  "edition": "2026-10-11",
+  "headline_theme": "Platform Gatekeeping Is the New Product Constraint",
+  "target_audience": "Staff PM",
+  "hook_source": "Stratechery",
+  "editorial": "Stratechery’s today \"Apple and LG, The House For Everyone Else, Agent Standards and Amazon\" exposes a stark truth: the era of building a product in a vacuum is over. The big consumer platforms have turned into gatekeepers of the entire software supply chain, demanding that every new feature be vetted against a handful of agent standards before it can even see a prototype. Treating your product as an isolated ship will soon leave you stranded in a harbor controlled by a few powerful captains.\n\nThe same pressure shows up in Exponential View’s \"The end of screen time,\" which warns that the old playbook of driving minutes‑of‑use is crumbling under privacy‑first regulations and user fatigue. Meanwhile, the \"AI & Math 2.0\" piece flags a new compute scarcity, turning AI capability into a geopolitical commodity. Together these three pieces paint a single, unavoidable reality: product strategy must be built around external constraints—platform gatekeeping, privacy limits, and compute supply—rather than pure internal ambition. Ignoring them means delayed launches, compliance headaches, and wasted engineering effort.\n\nStaff PMs, you sit at the intersection of vision and execution. Your leverage is in institutionalizing those strategic constraints: codify agent‑standard checklists into every feature sign‑off, replace minute‑based KPIs with outcome‑oriented metrics that survive privacy crackdowns, and create a compute‑risk register for any AI‑heavy initiative. Push senior leadership to fund dedicated platform liaison teams and to treat external limits as first‑class backlog items. By making the supply chain a core product concern, you turn gatekeepers from blockers into predictable partners.",
+  "key_takeaways": [
+    "Platform gatekeeping has become a core product dependency.",
+    "Engagement‑by‑minutes is eroding under privacy and fatigue pressures.",
+    "Compute scarcity turns AI features into a supply‑chain problem."
+  ],
+  "must_reads": [
+    {
+      "source": "Stratechery",
+      "title": "Apple and LG, The House For Everyone Else, Agent Standards and Amazon",
+      "url": "https://stratechery.com/2026/apple-and-lg-the-house-for-everyone-else-agent-standards-and-amazon/",
+      "why": "The article proves that platform gatekeeping is now a default operating system for modern products, forcing PMs to treat agent standards as a core requirement rather than a compliance afterthought."
+    },
+    {
+      "source": "Exponential View",
+      "title": "The end of screen time",
+      "url": "https://www.exponentialview.co/p/the-end-of-screen-time",
+      "why": "It declares the demise of minute‑based engagement, pushing product leaders to redesign success metrics around outcomes that survive privacy crackdowns and user burnout."
+    },
+    {
+      "source": "Exponential View",
+      "title": "AI & Math 2.0, Pakistan’s solar hedge & who controls computing++",
+      "url": "https://www.exponentialview.co/p/ev-605",
+      "why": "It spotlights the emerging compute bottleneck, reminding PMs that AI‑driven features must be budgeted against a volatile supply chain rather than assumed limitless."
+    }
+  ],
+  "contrarian": {
+    "note": "This piece argues that platform failures are often self‑inflicted by over‑ambitious founders, challenging the view that consolidation is inevitable and suggesting bold, independent product bets can still succeed.",
+    "source": "Stratechery",
+    "title": "It’s Not You, It’s Me",
+    "url": "https://stratechery.com/2026/its-not-you-its-me/"
+  },
+  "also_worth": [],
+  "pm_homework": [
+    "Create a cross‑team checklist that validates agent standards before any feature sign‑off.",
+    "Replace minute‑based KPIs with outcome‑oriented metrics in your OKRs.",
+    "Draft a compute‑risk register for any AI‑heavy initiative."
+  ],
+  "generated_at": "2026-10-11T13:59:36.821176+00:00",
+  "model_used": "openai/gpt-oss-120b"
+}
