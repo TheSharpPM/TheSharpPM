@@ -217,6 +217,50 @@ MAX_ALSO_WORTH_TITLE_CHARS = 300
 # Used by the publish gate to refuse premature or ungrounded publishes.
 TOOL_CALL_COUNTS = {}
 
+# The three tools that bring in SOURCE MATERIAL. read_memory is
+# deliberately absent: it reads our own archive, so counting it would
+# let the agent satisfy "you cannot pick the week's theme from one
+# article" by re-reading what it published last month.
+RESEARCH_TOOLS = ("fetch_feeds", "web_search", "fetch_article")
+
+
+def _research_calls():
+    """How much source material the agent has gathered.
+
+    This is the number Gate 1b enforces a minimum on. It was written out
+    by hand in three places, which is how the force-publish trigger came
+    to mean something subtly different from the gate it has to satisfy.
+    """
+    return sum(TOOL_CALL_COUNTS.get(name, 0) for name in RESEARCH_TOOLS)
+
+
+def _calls_spent():
+    """Every tool call that consumed an iteration, read_memory included.
+
+    The binding constraint on a run is iterations, not articles: the
+    2026-09-06 run used 13 of its 15. read_memory costs one just like a
+    fetch does, so the force-publish budget counts it even though the
+    research minimum does not - otherwise three read_memory calls buy
+    three extra iterations of drift.
+    """
+    return _research_calls() + TOOL_CALL_COUNTS.get("read_memory", 0)
+
+
+def _should_force_publish():
+    """True when the agent has gathered enough AND spent its budget.
+
+    Both halves, not either. The budget counts read_memory because an
+    iteration is an iteration; the research minimum does not, because
+    re-reading our own archive is not reporting. Dropping the first half
+    would pin the agent to publish_edition while Gate 1b still refuses
+    it - a deadlock that burns the recovery attempts instead of the
+    iterations it was meant to save.
+    """
+    return (
+        _research_calls() >= MIN_RESEARCH_CALLS
+        and _calls_spent() >= FORCE_PUBLISH_AT_RESEARCH_CALLS
+    )
+
 # Per-run cache of URLs the agent has already attempted to fetch.
 # Maps url -> 1-line note about the previous outcome. Used by
 # execute_tool to short-circuit duplicate fetch_article calls so the
@@ -1124,11 +1168,7 @@ def tool_publish_edition(headline_theme, editorial, must_reads,
 
     # Gate 1b: minimum exploration before publishing. Llama 3.3 likes to
     # publish on iteration 3-5 with one article. Force a wider lens.
-    research_calls = (
-        TOOL_CALL_COUNTS.get("fetch_feeds", 0)
-        + TOOL_CALL_COUNTS.get("web_search", 0)
-        + TOOL_CALL_COUNTS.get("fetch_article", 0)
-    )
+    research_calls = _research_calls()
     if research_calls < MIN_RESEARCH_CALLS:
         return {
             "error": (
@@ -2091,6 +2131,30 @@ def execute_tool(name, args):
     fn = TOOL_DISPATCH.get(name)
     if not fn:
         return {"error": f"unknown tool: {name}"}
+    # Collapse repeat read_memory calls. The archive does not change
+    # mid-run, so a second call returns nothing new - but the agent made
+    # up to 3 per run, each costing an iteration out of 15, because the
+    # sliding-window trim eventually stubs out the first result.
+    #
+    # Answer it with the digest instead of refusing outright. Everything
+    # the prompt actually sends the agent to memory for is three short
+    # lists (don't repeat a theme, don't reuse an audience, don't reuse a
+    # hook source); the full payload is four editions with editorial
+    # excerpts and must_read lists. So a repeat call still gets its
+    # question answered, at a fraction of the tokens, and nothing
+    # deadlocks if the agent genuinely needed the reminder.
+    if name == "read_memory" and TOOL_CALL_COUNTS.get(name, 0) > 1:
+        return {
+            "note": (
+                "You have already called read_memory this run. The archive "
+                "does not change mid-run, so here is the short version "
+                "rather than the full payload again - do not call it a "
+                "third time."
+            ),
+            "recent_headline_themes": _recent_headline_themes(),
+            "recent_target_audiences": _recent_target_audiences(),
+            "recent_hook_sources": _recent_hook_sources(),
+        }
     # Short-circuit duplicate fetch_article calls. The sliding-window
     # trim eventually replaces older tool results with stubs, which
     # causes the agent to forget it already fetched a URL and try it
@@ -2401,6 +2465,17 @@ def run_agent():
     total_schema_retries = 0
     total_rate_limit_retries = 0
 
+    # Run-level token totals. The system prompt (~1400 tokens) plus the
+    # tool declarations (~1150) are resent on every one of up to 15
+    # iterations, so fixed overhead dominates input. Whether that is
+    # expensive turns entirely on Groq's prompt cache, and these are the
+    # numbers that say so - printed at the end of every run, so the
+    # question is answerable from a workflow log instead of needing a
+    # Langfuse dashboard that may not even be configured.
+    run_input_tokens = 0
+    run_output_tokens = 0
+    run_cached_tokens = 0
+
     # Captured when publish_edition succeeds. Copied to trace output so
     # Langfuse LLM-as-judge evaluators can reference the editorial with
     # a simple `{{output.editorial}}` variable, instead of digging
@@ -2415,6 +2490,21 @@ def run_agent():
         """Attach outcome + counters (and, if published, the full
         edition) to the trace, score, end the root span, and flush.
         Best-effort - never raises. Safe to call at any exit point."""
+        if run_input_tokens:
+            cached_pct = round(100 * run_cached_tokens / run_input_tokens)
+            print(
+                f"\n  Tokens this run: {run_input_tokens} in "
+                f"({run_cached_tokens} cached, {cached_pct}%), "
+                f"{run_output_tokens} out."
+            )
+            if cached_pct < 20:
+                # Not an error - just the signal that the open question
+                # about prompt size has an answer, and it is "yes".
+                print(
+                    "  Prompt cache is barely hitting. The static system "
+                    "prompt is being paid for on nearly every call, so "
+                    "shrinking it would be real savings."
+                )
         if root_span:
             try:
                 output_payload = {
@@ -2424,6 +2514,9 @@ def run_agent():
                     "rate_limit_retries": total_rate_limit_retries,
                     "iterations_used": iteration,
                     "attempts_used": attempts,
+                    "input_tokens": run_input_tokens,
+                    "output_tokens": run_output_tokens,
+                    "cached_tokens": run_cached_tokens,
                 }
                 # Merge the published edition at top level so evals can
                 # do {{output.editorial}}, {{output.headline_theme}},
@@ -2540,11 +2633,7 @@ def run_agent():
         # reachable: either it is pinned, or the agent has met the
         # research minimum so the gate would accept a publish. Every
         # other turn keeps ~3k more of the TPM budget for context.
-        done_research = (
-            TOOL_CALL_COUNTS.get("fetch_feeds", 0)
-            + TOOL_CALL_COUNTS.get("web_search", 0)
-            + TOOL_CALL_COUNTS.get("fetch_article", 0)
-        )
+        done_research = _research_calls()
         current_max_tokens = (
             MAX_TOKENS_PUBLISH
             if (pinned_publish or done_research >= MIN_RESEARCH_CALLS)
@@ -2744,33 +2833,46 @@ def run_agent():
         # keeps the pin; a gate rejection below re-arms it.
         force_publish_next = False
 
-        # Close the Langfuse generation with the successful output +
-        # token usage. Groq exposes usage on response.usage. SDK v3
-        # uses usage_details= (renamed from usage=).
+        # Token usage. Groq caches a stable prompt prefix automatically on
+        # gpt-oss models and credits cached tokens back against the TPM
+        # limit, but whether that is actually happening is invisible
+        # unless prompt_tokens_details.cached_tokens is read.
+        #
+        # Read it OUTSIDE the Langfuse block. It used to live inside
+        # `if generation:`, which meant the one number needed to decide
+        # whether the ~1400-token system prompt is worth shrinking only
+        # existed when Langfuse happened to be configured, and was never
+        # printed anywhere. Now the run log answers the question on its
+        # own: a cached figure near zero across a run means the prefix is
+        # not stable and the prompt is being paid for on every call.
+        usage_obj = getattr(response, "usage", None)
+        usage_dict = None
+        cached_tokens = None
+        if usage_obj:
+            details = getattr(usage_obj, "prompt_tokens_details", None)
+            if details is not None:
+                cached_tokens = getattr(details, "cached_tokens", None)
+                if cached_tokens is None and isinstance(details, dict):
+                    cached_tokens = details.get("cached_tokens")
+            usage_dict = {
+                "input": getattr(usage_obj, "prompt_tokens", 0),
+                "output": getattr(usage_obj, "completion_tokens", 0),
+                "total": getattr(usage_obj, "total_tokens", 0),
+            }
+            run_input_tokens += usage_dict["input"]
+            run_output_tokens += usage_dict["output"]
+            if isinstance(cached_tokens, int):
+                run_cached_tokens += cached_tokens
+            cached_note = (
+                f", {cached_tokens} cached" if isinstance(cached_tokens, int)
+                else ", cached n/a"
+            )
+            print(f"     tokens: {usage_dict['input']} in, "
+                  f"{usage_dict['output']} out{cached_note}")
+
+        # Close the Langfuse generation with the successful output.
         if generation:
             try:
-                usage_obj = getattr(response, "usage", None)
-                usage_dict = None
-                cached_tokens = None
-                if usage_obj:
-                    # Groq caches a stable prompt prefix automatically on
-                    # gpt-oss models, and cached tokens are credited back
-                    # against the TPM limit. Whether that is happening is
-                    # invisible unless prompt_tokens_details.cached_tokens
-                    # is read - so read it, and put the hit rate on the
-                    # generation. If this stays near zero across a run,
-                    # the prefix is not stable and the system prompt is
-                    # being paid for on every single call.
-                    details = getattr(usage_obj, "prompt_tokens_details", None)
-                    if details is not None:
-                        cached_tokens = getattr(details, "cached_tokens", None)
-                        if cached_tokens is None and isinstance(details, dict):
-                            cached_tokens = details.get("cached_tokens")
-                    usage_dict = {
-                        "input": getattr(usage_obj, "prompt_tokens", 0),
-                        "output": getattr(usage_obj, "completion_tokens", 0),
-                        "total": getattr(usage_obj, "total_tokens", 0),
-                    }
                 generation.update(
                     output={
                         "content": message.content,
@@ -2992,12 +3094,16 @@ def run_agent():
         # inject a user message demanding publish_edition next and pin
         # tool_choice so the next request must produce that call. Fires
         # once per run.
-        research_calls = (
-            TOOL_CALL_COUNTS.get("fetch_feeds", 0)
-            + TOOL_CALL_COUNTS.get("web_search", 0)
-            + TOOL_CALL_COUNTS.get("fetch_article", 0)
-        )
-        if research_calls >= FORCE_PUBLISH_AT_RESEARCH_CALLS:
+        # Two different numbers, and the difference matters. The budget
+        # is every call that spent an iteration (read_memory included);
+        # the guard is source material only, because forcing a publish
+        # before Gate 1b's minimum is reachable would pin the agent to a
+        # tool call the gate then rejects - a deadlock that burns the
+        # recovery attempts instead of the iterations.
+        research_calls = _research_calls()
+        budget_spent = _calls_spent()
+        force_publish_ready = _should_force_publish()
+        if force_publish_ready:
             # Re-arm the pin on every subsequent turn, not just the
             # first time the threshold trips. gpt-oss-120b ignores
             # tool_choice often enough that a single pin is not enough:
@@ -3006,11 +3112,11 @@ def run_agent():
             # and the run drifted to max_iterations. The nudge message
             # itself still goes out only once.
             force_publish_next = True
-        if (not force_publish_nudged
-                and research_calls >= FORCE_PUBLISH_AT_RESEARCH_CALLS):
+        if not force_publish_nudged and force_publish_ready:
             force_publish_nudged = True
             print(
-                f"  Research budget reached ({research_calls} calls). "
+                f"  Research budget reached ({budget_spent} calls, "
+                f"{research_calls} of them research). "
                 f"Forcing publish_edition on next iteration."
             )
             # The publish turn runs on a hard-trimmed history, so hand
