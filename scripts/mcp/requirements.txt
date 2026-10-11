@@ -1,0 +1,11 @@
+# Dependencies for the MCP server ONLY. Kept out of the repo's top-level
+# requirements.txt on purpose: the daily aggregator and the weekly agent
+# must not grow a dependency they never import, and the CI suites need
+# to keep running without this installed.
+#
+# Pinned like the runtime deps, for the same reason - a breaking release
+# upstream should not ship without a deliberate bump here.
+#
+# Note the major version. mcp 2.x renamed FastMCP to MCPServer; any
+# tutorial importing mcp.server.fastmcp is written for 1.x.
+mcp==2.3.0

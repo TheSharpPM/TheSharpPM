@@ -18,3 +18,7 @@ venv/
 
 # Atomic-write temp files (in case a write is interrupted)
 *.json.tmp
+
+# Claude Code local settings - per-user permissions, not shared.
+# The skills in .claude/skills/ ARE shared and committed.
+.claude/settings.local.json
