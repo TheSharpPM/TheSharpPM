@@ -1,7 +1,130 @@
 {
-  "updated": "2026-10-11T11:11:23.466661+00:00",
-  "total": 874,
+  "updated": "2026-10-12T12:40:00.826004+00:00",
+  "total": 872,
   "items": [
+    {
+      "title": "📈 What is bigger than AI?",
+      "url": "https://www.exponentialview.co/p/what-is-bigger-than-ai",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-10-12T12:29:50+00:00",
+      "summary": "GLP-1s: the science, the savings and the societal stakes.",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "A Late Product Can Cost Less Than a Bad Launch",
+      "url": "https://humanbusinessworks.medium.com/a-late-product-can-cost-less-than-a-bad-launch-1a4a067a14bf?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-10-12T12:26:57+00:00",
+      "summary": "Delays are expensive and easy to see. The costs of launching before a product is ready can last much longer. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "How Meta designed Muse: an AI agent people actually want to talk to | Alex Cornell (Design Director)",
+      "url": "https://www.lennysnewsletter.com/p/how-meta-designed-muse-an-ai-agent",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-10-12T12:03:55+00:00",
+      "summary": "Listen now | 🎙️Alex Cornell explains how Muse serves your mom and an engineer with the same interface, and demos a SkyMall-style catalog, golf recaps, and a blog turned podcast",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Why Most Vertical AI SaaS Products Are Easy to Copy (And How to Build One That Isn’t)",
+      "url": "https://medium.com/@propeliustechnologies/why-most-vertical-ai-saas-products-are-easy-to-copy-and-how-to-build-one-that-isnt-99215c50e5f0?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-10-12T11:58:59+00:00",
+      "summary": "AI features can be replicated. Industry expertise, integrated workflows, and customer trust are much harder to replace. Continue reading on Medium »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Real Estate Software Stack: Build vs. Buy | ORIL",
+      "url": "https://medium.com/@oril_/real-estate-software-stack-build-vs-buy-oril-b4754d367c57?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-10-12T11:19:39+00:00",
+      "summary": "Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Personal Day",
+      "url": "https://stratechery.com/2026/personal-day-4/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-10-12T10:00:00+00:00",
+      "summary": "Personal Day — No Update",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Race to Recursive Self-Improving AI",
+      "url": "https://a16z.simplecast.com/episodes/the-race-to-recursive-self-improving-ai-OPuX1TcP",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-10-12T10:00:00+00:00",
+      "summary": "a16z General Partner Martin Casado sits down with MakerMaker.AI co-founders Dhaval Adjodah and Owen He to unpack recursive self-improvement, or RSI, and separate the increasingly popular term from what it would actually mean for an AI system to improve itself. Dhaval and Owen dis...",
+      "tags": [
+        "AI Strategy",
+        "Productivity"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Alamo Drafthouse Cinema: Tim and Karrie League (2023)",
+      "url": "#",
+      "source": "How I Built This",
+      "type": "podcast",
+      "date": "2026-10-12T07:10:00+00:00",
+      "summary": "In the early 1990’s, Tim League spent $50,000 in savings to lease an abandoned movie theater on the wrong side of the tracks—a shaky experiment that eventually grew into a thriving national chain. As Tim and his wife Karrie built theaters in Austin and beyond, they made a name fo...",
+      "tags": [
+        "Privacy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Kudos 3.0",
+      "url": "https://www.producthunt.com/products/kudos-smart-wallet",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-10-12T01:58:06+00:00",
+      "summary": "The AI that finds money you're missing and gets it back Discussion | Link",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Why every company now needs to think and operate like a lab team | Josh Woodward (Google Labs, Gemini, AI Studio)",
+      "url": "https://www.lennysnewsletter.com/p/why-every-company-now-needs-to-think",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-10-11T12:31:59+00:00",
+      "summary": "Listen now (62 mins) | Josh Woodward of Google Labs on where great ideas come from, knowing when to kill them, and building for a world where what’s possible changes every week",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "How to Become a Product Manager in 2026",
       "url": "https://medium.com/@nyanpainghtun/how-to-become-a-product-manager-in-2026-2bf56cfe549a?source=rss------product_management-5",
@@ -238,6 +361,18 @@
       "is_fallback": true
     },
     {
+      "title": "guilds.run",
+      "url": "https://www.producthunt.com/products/guilds-run",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-10-09T09:50:52+00:00",
+      "summary": "Design multi-agent systems that you can trust Discussion | Link",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
       "title": "Trading Dollars for Dimes (And Why You Should)",
       "url": "https://medium.com/write-a-catalyst/trading-dollars-for-dimes-and-why-you-should-d396015be855?source=rss------product_strategy-5",
       "source": "Medium Strategy",
@@ -246,6 +381,20 @@
       "summary": "Why the scariest thing in business isn’t losing to a rival , it’s deliberately killing your own best-selling product. Continue reading on Write A Catalyst »",
       "tags": [
         "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "#886: The Random Show — AI Super Assistants, Boner Pills, Dream Engineering, Wizards, Supplements, Books, and More",
+      "url": "#",
+      "source": "The Tim Ferriss Show",
+      "type": "podcast",
+      "date": "2026-10-08T17:30:00+00:00",
+      "summary": "In this edition of The Random Show, Tim and Kevin reunite in L.A. to talk AI super assistants that run your life over text message, agentic shopping, beta-alanine for climbing endurance, walnuts and sperm quality, dream engineering and anesthesia dreams, boner pills, man makeup,",
+      "tags": [
+        "AI Tools",
+        "AI Strategy",
+        "Communication"
       ],
       "is_fallback": true
     },
@@ -319,6 +468,20 @@
       "summary": "Acquisition buys the signature. Activation decides whether that revenue was ever real.",
       "tags": [
         "Growth"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Advice Line with Nick Green of Thrive Market",
+      "url": "#",
+      "source": "How I Built This",
+      "type": "podcast",
+      "date": "2026-10-08T07:10:00+00:00",
+      "summary": "Today’s callers: Mercedes in Utah tries to find harmony between quality and speed as she scales her concert attire brand for musicians. Then Danny in Colorado grapples with the tradeoffs of growing his sustainable and functional coffee brand. And Riya in Illinois wonders how to b...",
+      "tags": [
+        "AI Strategy",
+        "Prioritization",
+        "Privacy"
       ],
       "is_fallback": true
     },
@@ -1173,6 +1336,19 @@
       "summary": "Choose according to the buyer’s route, the delivery requirements, and the work you can maintain. Continue reading on Medium »",
       "tags": [
         "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "#885: How to Simplify Your Life — Tips from Oliver Burkeman, Chip Conley, Elizabeth Gilbert, and More",
+      "url": "#",
+      "source": "The Tim Ferriss Show",
+      "type": "podcast",
+      "date": "2026-10-02T00:00:00+00:00",
+      "summary": "Many of us feel like we’re drowning in invisible complexity. So I wanted to hit pause and ask a simple question: What are 1–3 decisions that could dramatically simplify my life? In this episode: Chip Conley shares how a near-death experience on stage changed his life. Greg McKeow...",
+      "tags": [
+        "Hardware Differentiation",
+        "Privacy"
       ],
       "is_fallback": true
     },
@@ -10677,204 +10853,6 @@
       "summary": "Listen to this episode on: Spotify | Apple Podcasts You've got behavioral analytics, support tickets, sales call notes, and a feedback inbox that never empties. With all that data coming in, do product teams actually still need to go out and talk to users? In this episode, Petra",
       "tags": [
         "Metrics"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Beyond the app:  Why the real product in banking is the system behind it",
-      "url": "https://www.productledalliance.com/the-real-product-in-banking-is-the-system/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-07-14T12:00:58+00:00",
-      "summary": "Fintech product management means owning the system, not just the screen.",
-      "tags": [
-        "Product Culture"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "The OpenAI Super App, ChatGPT = Codex, Whither Chat",
-      "url": "https://stratechery.com/2026/the-openai-super-app-chatgpt-codex-whither-chat/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-07-14T10:00:00+00:00",
-      "summary": "OpenAI has refashioned Codex as the new ChatGPT; is the company abandoning the chat category they pioneered?",
-      "tags": [
-        "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Is AI a Bubble? | Gavin Baker on Data Centers, GPUs, and the AI Economy",
-      "url": "https://a16z.simplecast.com/episodes/is-ai-a-bubble-gavin-baker-on-data-centers-gpus-and-the-ai-economy-HMRKhpqK",
-      "source": "a16z Podcast",
-      "type": "podcast",
-      "date": "2026-07-14T10:00:00+00:00",
-      "summary": "As part of our summer replay series, we're revisiting one of the standout conversations from Runtime, a16z's conference on AI infrastructure and the future of computing. Gavin Baker, Managing Partner and CIO of Atreides Management, joins David George to examine the biggest questi...",
-      "tags": [
-        "AI Strategy",
-        "Hardware Differentiation"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "ccshare",
-      "url": "https://www.producthunt.com/products/ccshare",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-07-14T08:43:39+00:00",
-      "summary": "multiplayer claude code Discussion | Link",
-      "tags": [
-        "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "The Product Mindset #1: The Product Is Not the Code",
-      "url": "https://medium.com/@maheshwaran.kumar.17/the-product-mindset-1-the-product-is-not-the-code-f1c533285b94?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-07-14T07:14:11+00:00",
-      "summary": "Why great products begin with understanding problems—not writing software. Continue reading on Medium »",
-      "tags": [
-        "Communication",
-        "Product Culture"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "The Code Worked. But It Didn’t Help Anyone",
-      "url": "https://mdraselmia15.medium.com/the-code-worked-but-it-didnt-help-anyone-858680844d04?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-07-14T07:00:38+00:00",
-      "summary": "Building Klassy Missy’s Regimen changed how I think about software engineering, product development,and what “working software\" really… Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Pocket Screen",
-      "url": "https://www.producthunt.com/products/toybird-labs",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-07-14T06:58:59+00:00",
-      "summary": "Keep any Mac window visible in a floating mini screen Discussion | Link",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Portero",
-      "url": "https://www.producthunt.com/products/portero",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-07-14T03:50:15+00:00",
-      "summary": "Know exactly what's running on every port of your Mac Discussion | Link",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "The Data Company That Actually Sells You Your Rolodex",
-      "url": "https://medium.com/@aryan1999varma/the-data-company-that-actually-sells-you-your-rolodex-2046944e5146?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-07-14T02:45:23+00:00",
-      "summary": "A first-year analyst gets handed a desk, two monitors, and a keyboard with keys labeled things like GO, MENU, and HELP in colors nobody… Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "What Makes People Come Back to an AI Feature",
-      "url": "https://medium.com/@ic-eight/what-makes-people-come-back-to-an-ai-feature-b795566755a8?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-07-14T02:24:28+00:00",
-      "summary": "Lately I’ve been using a few different AI Lens-style features — the kind that let you point a camera at something and get a response back… Continue reading on Medium »",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Product Manager AI",
-      "url": "https://remoteOK.com/remote-jobs/remote-product-manager-ai-yipitdata-1134770",
-      "source": "Remote OK",
-      "type": "job",
-      "date": "2026-07-13T22:00:32+00:00",
-      "summary": "About Us:YipitData is the leading market research and analytics firm for the disruptive economy and most recently raised $475M from The Carlyle Group at a valuation of over $1B. Every day, our proprietary technology analyzes billions of alternative data points to uncover actionab...",
-      "tags": [
-        "Career",
-        "AI Strategy",
-        "Communication"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Mainichi",
-      "url": "https://www.producthunt.com/products/mainichi-2",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-07-13T19:26:12+00:00",
-      "summary": "Learn Japanese, one prefecture at a time. Discussion | Link",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "🎙️ How I AI: GPT-5.6 review, How a solo builder runs 24/7 local AI, and What an agent harness is and how to build one",
-      "url": "https://www.lennysnewsletter.com/p/how-i-ai-gpt-56-review-how-a-solo",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-07-13T15:02:17+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
-      "tags": [
-        "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Cekura",
-      "url": "https://www.producthunt.com/products/vocera",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-07-13T14:52:23+00:00",
-      "summary": "The self-improvement loop for voice agents Discussion | Link",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "This solo builder runs 24/7 local AI on his own hardware | Alex Finn",
-      "url": "https://www.lennysnewsletter.com/p/this-solo-builder-runs-247-local",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-07-13T12:05:20+00:00",
-      "summary": "Watch now | 🎙️ Alex Finn breaks down his five-computer local AI setup, the Claude Code build-and-review loop that ships features while he sleeps, and why unlimited local intelligence beats a $20 subscription",
-      "tags": [
-        "AI Strategy",
-        "AI Tools",
-        "Hardware Differentiation"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "📈 Data to start your week",
-      "url": "https://www.exponentialview.co/p/data-to-start-your-week-13-july-2026",
-      "source": "Exponential View",
-      "type": "trend",
-      "date": "2026-07-13T11:46:30+00:00",
-      "summary": "A new scaling law; AI job fears fade; Dementia in retreat++",
-      "tags": [
-        "AI Strategy"
       ],
       "is_fallback": true
     }
