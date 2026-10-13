@@ -1,7 +1,158 @@
 {
-  "updated": "2026-10-12T12:40:00.826004+00:00",
-  "total": 872,
+  "updated": "2026-10-13T12:25:54.593707+00:00",
+  "total": 873,
   "items": [
+    {
+      "title": "The hidden cost of false positives in product experimentation",
+      "url": "https://medium.com/@productguyy/the-hidden-cost-of-false-positives-in-product-experimentation-ac8cc157d033?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-10-13T12:06:28+00:00",
+      "summary": "You pull up your experimentation dashboard, and there it is: a glowing green metric with a p-value under 0.05. Continue reading on Medium »",
+      "tags": [
+        "Metrics"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "BBA Course Guide: Your First Step Toward a Career in Business and Management",
+      "url": "https://medium.com/@utkarshpanchal.308/bba-course-guide-your-first-step-toward-a-career-in-business-and-management-bfe58390aafd?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-10-13T11:51:40+00:00",
+      "summary": "If you are interested in business, leadership, and how organizations work, the BBA course (Bachelor of Business Administration) is a… Continue reading on Medium »",
+      "tags": [
+        "Career",
+        "Leadership"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "What fractional product leadership actually costs:  Reading the market's unpublished price list",
+      "url": "https://www.productledalliance.com/what-fractional-product-leadership-actually-costs/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-10-13T11:00:23+00:00",
+      "summary": "Fractional CPO pricing, finally out in the open.",
+      "tags": [
+        "Leadership",
+        "Pricing"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "SpaceX Buys More Spectrum, Musk and Market Structure, Distributed Cellular",
+      "url": "https://stratechery.com/2026/spacex-buys-more-spectrum-musk-and-market-structure-distributed-cellular/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-10-13T10:00:00+00:00",
+      "summary": "SpaceX's mobile strategy is becoming clearly with its latest spectrum purchase, and it might work.",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Can AI Break Cryptography? What the Experts Actually Think",
+      "url": "https://a16z.simplecast.com/episodes/can-ai-break-cryptography-what-the-experts-actually-think-LCUGnMEC",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-10-13T10:00:00+00:00",
+      "summary": "Could AI break the cryptography protecting everything from crypto wallets and banking to private messages? Recent advances in AI-driven mathematical research have sparked new warnings about the security of today's encryption systems, but how much of the concern is supported by ev...",
+      "tags": [
+        "AI Strategy",
+        "Security",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Why Claude Stopped Being a Chatbot",
+      "url": "https://medium.com/product-powerhouse/why-claude-stopped-being-a-chatbot-60c805b48406?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-10-13T09:25:34+00:00",
+      "summary": "In September, Anthropic took three separate Claude products and folded them back into one conversation. It’s one of the most interesting… Continue reading on Product Powerhouse »",
+      "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Nobody Told the Agent There Was a Floor",
+      "url": "https://www.productcoalition.com/p/nobody-told-the-agent-there-was-a",
+      "source": "Product Coalition",
+      "type": "article",
+      "date": "2026-10-13T08:01:20+00:00",
+      "summary": "From experiment results to models to agents that write to business systems",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Your SaaS Product Doesn’t Need More Features. It Might Need a Better Workflow.",
+      "url": "https://medium.com/@aakansha.maurya57/your-saas-product-doesnt-need-more-features-it-might-need-a-better-workflow-c66b0205bd67?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-10-13T07:32:38+00:00",
+      "summary": "Have you ever used a software product that seemed to have everything you needed, yet completing a simple task still felt unnecessarily… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Oportun: Principal Product Manager, Savings (R13997)",
+      "url": "https://weworkremotely.com/remote-jobs/oportun-principal-product-manager-savings-r13997",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-10-13T07:31:00+00:00",
+      "summary": "Headquarters: Remote - US Who We Are Oportun (Nasdaq: OPRT) is a mission-driven financial services company that puts its members' financial goals within reach. With intelligent borrowing, savings, and budgeting capabilities, Oportun empowers members with the confidence to build a...",
+      "tags": [
+        "AI Strategy",
+        "Career",
+        "Stakeholders"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Drive AI",
+      "url": "https://www.producthunt.com/products/the-drive-ai-2",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-10-13T05:39:15+00:00",
+      "summary": "The AI agent that does the work on your files Discussion | Link",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Predictability vs Outcomes",
+      "url": "https://www.svpg.com/predictability-vs-outcomes/",
+      "source": "SVPG",
+      "type": "article",
+      "date": "2026-10-12T15:24:29+00:00",
+      "summary": "I was first taught about the importance of outcome over output way back when I was an engineer getting coached to become a tech lead, and I was explicitly told that it was no longer enough to just build and ship, I had to make sure the solution actually solves the underlying prob...",
+      "tags": [
+        "Hardware Differentiation"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🎙️ How I AI: How Meta designed Muse with Alex Cornell",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-meta-designed-muse-with",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-10-12T15:00:38+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "📈 What is bigger than AI?",
       "url": "https://www.exponentialview.co/p/what-is-bigger-than-ai",
@@ -85,6 +236,18 @@
       "tags": [
         "AI Strategy",
         "Productivity"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Music Dawn",
+      "url": "https://www.producthunt.com/products/music-dawn",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-10-12T07:10:35+00:00",
+      "summary": "A recorder for musicians. Every idea sounds finished. Discussion | Link",
+      "tags": [
+        "Product Strategy"
       ],
       "is_fallback": true
     },
@@ -10699,160 +10862,6 @@
       "summary": "Quality alone has never been enough. Continue reading on Medium »",
       "tags": [
         "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "IBM Misses, IBM’s Mainframe Moat, IBM’s Many AI Problems",
-      "url": "https://stratechery.com/2026/ibm-misses-ibms-mainframe-moat-ibms-many-ai-problems/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-07-15T10:00:19+00:00",
-      "summary": "IBM announced preliminary results that spooked the software market generally; this is a story, however, specifically about IBM and its mainframe franchise.",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "From the Archive: Can Anyone Catch NVIDIA? | The Future of Chips and Infrastructure",
-      "url": "https://a16z.simplecast.com/episodes/can-anyone-catch-nvidia-the-future-of-chips-and-infrastructure-zpJUqKwQ",
-      "source": "a16z Podcast",
-      "type": "podcast",
-      "date": "2026-07-15T10:00:00+00:00",
-      "summary": "As part of our summer replay series, we're revisiting one of our favorite conversations on the future of AI infrastructure. SemiAnalysis founder Dylan Patel joins Erin Price-Wright, Guido Appenzeller, and Erik Torenberg to examine the rapidly evolving economics of AI hardware, fr...",
-      "tags": [
-        "Hardware Differentiation",
-        "AI Strategy",
-        "Competitive Analysis"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Product Development Economics (1)\nGreat Products Don’t Fail Because of Technology.",
-      "url": "https://medium.com/@zhang9680/product-development-economics-1-great-products-dont-fail-because-of-technology-32efa020506c?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-07-15T07:22:42+00:00",
-      "summary": "Lessons from more than twenty years in technology product development. Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Siasat PR Erigo: Mengubah Sentimen Menjadi Loyalitas Merek",
-      "url": "https://medium.com/@2400030084/siasat-pr-erigo-mengubah-sentimen-menjadi-loyalitas-merek-540bab816254?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-07-15T07:14:47+00:00",
-      "summary": "Lanskap industri fashion independen di Indonesia saat ini telah memasuki fase kompetisi yang sangat agresif, di mana medan pertempuran… Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Bolna Agent Studio",
-      "url": "https://www.producthunt.com/products/bolna-2",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-07-15T06:26:29+00:00",
-      "summary": "Build Voice AI Agent in 10 Minutes Discussion | Link",
-      "tags": [
-        "AI Strategy",
-        "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "AI Regulation Is Global Now (And Your Architecture Needs to Know)",
-      "url": "https://raftlabs.medium.com/ai-regulation-is-global-now-and-your-architecture-needs-to-know-df85fe0c3a45?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-07-15T03:21:00+00:00",
-      "summary": "15+ countries passed AI laws by 2026. EU, US, China, Canada all have requirements. Continue reading on Medium »",
-      "tags": [
-        "AI Strategy",
-        "Compliance"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Nitrosend",
-      "url": "https://www.producthunt.com/products/nitrosend",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-07-15T01:41:49+00:00",
-      "summary": "Email for AI agents. They sign up, send and reply. Discussion | Link",
-      "tags": [
-        "AI Strategy",
-        "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Junior Contact Center Agent",
-      "url": "https://remoteOK.com/remote-jobs/remote-junior-contact-center-agent-volkswagen-group-1134886",
-      "source": "Remote OK",
-      "type": "job",
-      "date": "2026-07-14T21:26:29+00:00",
-      "summary": "Annual gross salary range: Min. 15,732€ - Max. 17,805€ (depending on experience). Volkswagen Group Services is a Volkswagen Group company oriented towards working for Group companies worldwide. We provide services in the areas of production, logistics, data engineering (IT), engi...",
-      "tags": [
-        "Career",
-        "Communication",
-        "Competitive Analysis"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "ChikitAI",
-      "url": "https://www.producthunt.com/products/chikitai",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-07-14T20:54:35+00:00",
-      "summary": "Agentic AI for Healthcare Triage and Care Automation Discussion | Link",
-      "tags": [
-        "AI Strategy",
-        "AI Tools",
-        "Automation"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Before AI Writes a Single Line of Code, It Needs Something Most Beginners Skip",
-      "url": "https://medium.com/@oluwatomisinligali/before-ai-writes-a-single-line-of-code-it-needs-something-most-beginners-skip-eb8a13f1dfdb?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-07-14T18:52:51+00:00",
-      "summary": "I Thought Building an AI App Started with Writing Code. I Was Wrong. Continue reading on Medium »",
-      "tags": [
-        "AI Strategy",
-        "Communication"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Big Mike",
-      "url": "https://www.producthunt.com/products/big-mike",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-07-14T16:48:04+00:00",
-      "summary": "Your favorite uncle who knows sports & bets, on iMessage Discussion | Link",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Quality of Evidence - All Things Product Podcast with Teresa Torres & Petra Wille",
-      "url": "https://www.producttalk.org/quality-of-evidence-all-things-product-podcast-with-teresa-torres-petra-wille/",
-      "source": "Product Talk",
-      "type": "article",
-      "date": "2026-07-14T13:00:09+00:00",
-      "summary": "Listen to this episode on: Spotify | Apple Podcasts You've got behavioral analytics, support tickets, sales call notes, and a feedback inbox that never empties. With all that data coming in, do product teams actually still need to go out and talk to users? In this episode, Petra",
-      "tags": [
-        "Metrics"
       ],
       "is_fallback": true
     }
