@@ -1,7 +1,93 @@
 {
-  "updated": "2026-10-13T12:25:54.593707+00:00",
-  "total": 873,
+  "updated": "2026-10-14T09:55:04.346498+00:00",
+  "total": 875,
   "items": [
+    {
+      "title": "AMERICA, OPEN YOUR EYES - TRUMP IS SAVING YOU FROM HELL",
+      "url": "https://apostledavidoluwapemi.medium.com/america-open-your-eyes-trump-is-saving-you-from-hell-2f444e613dce?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-10-14T09:34:38+00:00",
+      "summary": "Donald Trump is for Jesus. I am for Jesus. That is why I stand with him. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "How to Tell Whether Your App Needs Another Feature",
+      "url": "https://medium.com/@ghcpgs/how-to-tell-whether-your-app-needs-another-feature-aa195a6b13ce?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-10-14T09:02:05+00:00",
+      "summary": "Why reducing friction matters more than adding functionality. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "How to Tell Whether Your App Needs Another Feature",
+      "url": "https://medium.com/@ghcpgs/how-to-tell-whether-your-app-needs-another-feature-aa195a6b13ce?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-10-14T09:02:05+00:00",
+      "summary": "Why reducing friction matters more than adding functionality. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Lattice: Lead Product Manager",
+      "url": "https://weworkremotely.com/remote-jobs/lattice-lead-product-manager",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-10-14T07:30:56+00:00",
+      "summary": "Headquarters: Remote - Canada What You Will Do We are looking for a Lead Product Manager to own the future of the Lattice MCP (Model Context Protocol) server and the integrations that power Lattice AI. This is the connective layer that lets customers use Lattice performance data",
+      "tags": [
+        "AI Tools",
+        "Career",
+        "Platform Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "How Do You Price Something That Thinks?",
+      "url": "https://medium.com/@amvale_86555/how-do-you-price-something-that-thinks-fec9bae806a5?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-10-13T20:07:40+00:00",
+      "summary": "This article was originally published on Alan Vale’s Blog. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Training Expectations - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "url": "https://www.producttalk.org/training-expectations-all-things-product-podcast-with-teresa-torres-petra-wille/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-10-13T13:00:18+00:00",
+      "summary": "Listen to this episode on: Spotify | Apple Podcasts You've got twelve people and one hour booked at next week's offsite. Can someone teach your team to do continuous discovery in that hour? Teresa Torres's answer is a flat no — and this episode is",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "How to tell if a startup has a moat",
+      "url": "https://www.lennysnewsletter.com/p/how-to-tell-if-a-startup-has-a-moat",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-10-13T12:45:41+00:00",
+      "summary": "A framework for assessing whether the company you’re considering joining is built to last",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "The hidden cost of false positives in product experimentation",
       "url": "https://medium.com/@productguyy/the-hidden-cost-of-false-positives-in-product-experimentation-ac8cc157d033?source=rss------product_management-5",
@@ -126,6 +212,18 @@
       "tags": [
         "AI Strategy",
         "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "daily.dev, now for your agent",
+      "url": "https://www.producthunt.com/products/daily-dev",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-10-12T18:30:13+00:00",
+      "summary": "Where agents discover what's next Discussion | Link",
+      "tags": [
+        "Product Strategy"
       ],
       "is_fallback": true
     },
@@ -506,6 +604,18 @@
       "summary": "Why the rules and product data underneath decide whether AI quoting works. Continue reading on Medium »",
       "tags": [
         "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Rambox",
+      "url": "https://www.producthunt.com/products/rambox",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-10-09T10:19:13+00:00",
+      "summary": "Ready-to-use workspaces as you switch tasks and contexts Discussion | Link",
+      "tags": [
+        "Product Strategy"
       ],
       "is_fallback": true
     },
@@ -10776,92 +10886,6 @@
         "AI Strategy",
         "Competitive Analysis",
         "Compliance"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "LayerProof Mylar",
-      "url": "https://www.producthunt.com/products/layerproof-social-content-generation",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-07-16T07:38:35+00:00",
-      "summary": "Create launch-ready motion videos for your products Discussion | Link",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Cowork in the Browser Changed My Mondays",
-      "url": "https://medium.com/all-about-claude/cowork-in-the-browser-changed-my-mondays-7a70b4c53130?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-07-16T07:34:42+00:00",
-      "summary": "Anthropic just moved Claude Cowork off the desktop and into a browser tab. For a PM on a locked-down work laptop, that one change quietly… Continue reading on All About Claude »",
-      "tags": [
-        "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "What migration taught me about compulsory digital products that you cannot skip as a user",
-      "url": "https://medium.com/@pak.kate/what-migration-taught-me-about-compulsory-digital-products-that-you-cannot-skip-as-a-user-5d556c78f11e?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-07-16T07:16:28+00:00",
-      "summary": "When I immigrated from Kazakhstan to Adelaide, South Australia, I got some interesting insights into product management that I had never… Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Kimi K3",
-      "url": "https://www.producthunt.com/products/kimi-2",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-07-16T06:56:06+00:00",
-      "summary": "The world's first open 3T-class model Discussion | Link",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Operations Administrator",
-      "url": "https://remoteOK.com/remote-jobs/remote-operations-administrator-work-force-nexus-1134885",
-      "source": "Remote OK",
-      "type": "job",
-      "date": "2026-07-16T03:07:13+00:00",
-      "summary": "Posted 2:59:24 PM. Location: RemoteEmployment Type: Full-TimeExperience: 0–1 YearAbout The RoleWe are looking for a…See this and similar jobs on LinkedIn.",
-      "tags": [
-        "Career"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Product Director EdTech Digital Learning",
-      "url": "https://remoteOK.com/remote-jobs/remote-product-director-edtech-digital-learning-peopleworth-1134884",
-      "source": "Remote OK",
-      "type": "job",
-      "date": "2026-07-15T19:27:56+00:00",
-      "summary": "Intro The organisation has reached an important inflection point. It has built a proven product, established strong market traction, and is entering its next phase of growth. The challenge is no longer proving the model. The challenge is scaling it without compromising quality. T...",
-      "tags": [
-        "AI Strategy",
-        "Career",
-        "Platform Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Why Good Products Fail (And Worse Ones Survive)",
-      "url": "https://medium.com/@veyrain.paperrain/why-good-products-fail-and-worse-ones-survive-77d76bf2888b?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-07-15T17:29:10+00:00",
-      "summary": "Quality alone has never been enough. Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
       ],
       "is_fallback": true
     }
