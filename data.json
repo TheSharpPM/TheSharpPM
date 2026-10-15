@@ -1,7 +1,106 @@
 {
-  "updated": "2026-10-14T09:55:04.346498+00:00",
-  "total": 875,
+  "updated": "2026-10-15T09:35:40.875074+00:00",
+  "total": 876,
   "items": [
+    {
+      "title": "Work Activity Types in Time Tracking: Dev, Review, Defects",
+      "url": "https://dganzha.medium.com/work-activity-types-in-time-tracking-dev-review-defects-d7afdc89a827?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-10-15T09:26:10+00:00",
+      "summary": "Logging every hour as generic “work” gives you a total and nothing else. How to set up work activity types for time tracking and group… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "How to Make HR Processes More Consistent as Your Business Grows",
+      "url": "https://medium.com/@dhruvkashyap09987/how-to-make-hr-processes-more-consistent-as-your-business-grows-71d8ae317dfd?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-10-15T09:23:17+00:00",
+      "summary": "As a business grows, managing employees becomes more complex. A small team may be able to handle attendance, leave requests, employee… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Deal That Came With Its Own Roadmap",
+      "url": "https://www.productcoalition.com/p/the-deal-that-came-with-its-own-roadmap",
+      "source": "Product Coalition",
+      "type": "article",
+      "date": "2026-10-15T08:01:10+00:00",
+      "summary": "Product & Profit #101",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Product Prioritisation Trap: Why Everything Can’t Be a Priority",
+      "url": "https://medium.com/@oliviabennett220795/the-product-prioritisation-trap-why-everything-cant-be-a-priority-00c2ca4323ac?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-10-15T07:04:49+00:00",
+      "summary": "One of the hardest parts of product management isn’t deciding what to build. It’s deciding what not to build. Continue reading on Medium »",
+      "tags": [
+        "Prioritization"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Digital Banking Is Not About More Features It’s About Building Customer Trust",
+      "url": "https://medium.com/@sohag933/digital-banking-is-not-about-more-features-its-about-building-customer-trust-7e2da86961c0?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-10-15T03:34:10+00:00",
+      "summary": "In banking, the best digital product isn’t the one with the most features. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Meta’s new ‘Muse Wonder’ model: good for AI agents, bad for design",
+      "url": "https://www.lennysnewsletter.com/p/metas-new-muse-wonder-model-good",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-10-14T12:04:05+00:00",
+      "summary": "Watch now (24 mins) | 🎙️Meta launched Muse Wonder with claims of frontier agentic performance, so I ran it headlessly through Claude Code against nearly 20 tasks to find out if any of it is true",
+      "tags": [
+        "AI Tools",
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Apple HomeView, The New Apple TV, The App Story",
+      "url": "https://stratechery.com/2026/apple-homeview-the-new-apple-tv-the-app-story/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-10-14T10:00:00+00:00",
+      "summary": "The Apple Homeview is official, and the question is how big is the addressable market for expensive devices based on subpar AI.",
+      "tags": [
+        "AI Strategy",
+        "Hardware Differentiation"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Can Open Models Keep Up With the AI Frontier? | Nathan Lambert",
+      "url": "https://a16z.simplecast.com/episodes/can-open-models-keep-up-with-the-ai-frontier-nathan-lambert-WqIVvxfv",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-10-14T10:00:00+00:00",
+      "summary": "a16z Partner Lisha Li sits down with AI researcher and Trillium founder Nathan Lambert to ask how durable the gap really is between frontier AI labs and open models. Nathan argues that OpenAI and Anthropic have structural advantages in compute, capital, and the ability to pioneer...",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "AMERICA, OPEN YOUR EYES - TRUMP IS SAVING YOU FROM HELL",
       "url": "https://apostledavidoluwapemi.medium.com/america-open-your-eyes-trump-is-saving-you-from-hell-2f444e613dce?source=rss------product_management-5",
@@ -59,6 +158,18 @@
       "type": "article",
       "date": "2026-10-13T20:07:40+00:00",
       "summary": "This article was originally published on Alan Vale’s Blog. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Apple HomeView",
+      "url": "https://www.producthunt.com/products/apple",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-10-13T14:29:39+00:00",
+      "summary": "A new way to stay connected, and manage the home Discussion | Link",
       "tags": [
         "Product Strategy"
       ],
@@ -10786,106 +10897,6 @@
       "tags": [
         "Communication",
         "Growth"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "EP107 From Founder to VP: What Changes About Product Judgment at Scale",
-      "url": "https://www.productcoalition.com/p/ep107-from-founder-to-vp-what-changes",
-      "source": "Product Coalition",
-      "type": "article",
-      "date": "2026-07-17T09:00:37+00:00",
-      "summary": "Summary",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Your AI Coding Agent Isn’t Careless. It’s Guessing. And It Never Tells You.",
-      "url": "https://medium.com/@lookmanabayomi24/your-ai-coding-agent-isnt-careless-it-s-guessing-and-it-never-tells-you-3d4ac339b806?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-07-17T07:20:13+00:00",
-      "summary": "A field guide called The AI Coding Workflow Manual shows what happens when you stop prompting and start briefing. Continue reading on Medium »",
-      "tags": [
-        "AI Strategy",
-        "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "I Had Thousands of Agent Traces and Still Couldn’t Tell Which Sessions Failed",
-      "url": "https://medium.com/@alex_8076/i-had-thousands-of-agent-traces-and-still-couldnt-tell-which-sessions-failed-ca744dffe5ca?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-07-17T07:16:44+00:00",
-      "summary": "Every agent team I talk to hits the same wall, in roughly the same order. You ship an AI agent. It breaks in ways you didn’t expect… Continue reading on Medium »",
-      "tags": [
-        "AI Strategy",
-        "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "The Best App Ideas Solve Boring Problems",
-      "url": "https://medium.com/skillstuff/the-best-app-ideas-solve-boring-problems-61cc22deccf0?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-07-17T07:11:57+00:00",
-      "summary": "Most successful apps didn’t start with revolutionary technology. Continue reading on Skill Stuff »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": ">=PlayingFild",
-      "url": "https://www.producthunt.com/products/playingfild",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-07-17T06:01:35+00:00",
-      "summary": "Productivity Tool & Tab Manager that Understands Context Discussion | Link",
-      "tags": [
-        "Productivity"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "O que a Trov ainda nos ensina sobre construir produtos de Seguros",
-      "url": "https://medium.com/@marinaoliveirasm/o-que-a-trov-ainda-nos-ensina-sobre-construir-produtos-de-seguros-f985f3c68ed4?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-07-16T23:45:46+00:00",
-      "summary": "Algumas empresas deixam de existir. Outras continuam influenciando a forma como uma indústria inteira pensa seus produtos. Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "HealthyNotch",
-      "url": "https://www.producthunt.com/products/healthynotch",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-07-16T14:38:59+00:00",
-      "summary": "Work shouldn't cost you your health Discussion | Link",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Replay 2025: David Sacks on AI, Crypto, and America's Technology Future",
-      "url": "https://a16z.simplecast.com/episodes/replay-2025-david-sacks-on-ai-crypto-and-americas-technology-future-g9dog_eR",
-      "source": "a16z Podcast",
-      "type": "podcast",
-      "date": "2026-07-16T10:00:00+00:00",
-      "summary": "As part of our summer replay series, we're revisiting one of our most-discussed conversations from the past year. David Sacks joins Marc Andreessen, Ben Horowitz, and Erik Torenberg to discuss the intersection of AI, crypto, regulation, and American competitiveness. The conversat...",
-      "tags": [
-        "AI Strategy",
-        "Competitive Analysis",
-        "Compliance"
       ],
       "is_fallback": true
     }
