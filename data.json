@@ -1,7 +1,134 @@
 {
-  "updated": "2026-10-15T09:35:40.875074+00:00",
-  "total": 876,
+  "updated": "2026-10-16T09:28:35.834636+00:00",
+  "total": 880,
   "items": [
+    {
+      "title": "Why Employee Information Becomes Difficult to Manage as Businesses Grow",
+      "url": "https://medium.com/@dhruvkashyap09987/why-employee-information-becomes-difficult-to-manage-as-businesses-grow-712246b16928?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-10-16T09:15:01+00:00",
+      "summary": "A growing business creates more than new opportunities. It also creates more information to manage. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Access Control Isn’t Just a Backend Problem",
+      "url": "https://medium.com/@virendrapatil2902/access-control-isnt-just-a-backend-problem-81cf17a63987?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-10-16T08:18:09+00:00",
+      "summary": "Part 7 of “The Hidden Cost of Bad Frontend,” a series for founders and product leaders Continue reading on Medium »",
+      "tags": [
+        "Leadership"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "EP111 The Churn Hidden Inside Payment Adoption",
+      "url": "https://www.productcoalition.com/p/ep111-the-churn-hidden-inside-payment",
+      "source": "Product Coalition",
+      "type": "article",
+      "date": "2026-10-16T08:01:09+00:00",
+      "summary": "A payment method can lift conversion and still leave the product worse off.",
+      "tags": [
+        "Retention"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "PagerDuty: Senior Solutions Consultant",
+      "url": "https://weworkremotely.com/remote-jobs/pagerduty-senior-solutions-consultant",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-10-16T07:31:07+00:00",
+      "summary": "Headquarters: Remote (USA - Boston, MA) PagerDuty, Inc. (NYSE: PD) is the global leader in AI-first digital operations. By automatically detecting, diagnosing, and remediating issues, the PagerDuty Platform orchestrates AI agents and automated workflows with context from over 750...",
+      "tags": [
+        "AI Strategy",
+        "Career",
+        "Stakeholders"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "EBANX: [Talent pool] Key Account Managment Specialist",
+      "url": "https://weworkremotely.com/remote-jobs/ebanx-talent-pool-key-account-managment-specialist",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-10-16T07:30:50+00:00",
+      "summary": "Headquarters: London l Remote EBANX is a global fintech founded in 2012 with a mission to be the leading payments partner in rising markets. With its own technology and infrastructure, combined with in-depth knowledge of the Latin American market, EBANX allows these companies to",
+      "tags": [
+        "Communication",
+        "Competitive Analysis",
+        "Career"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🚨 Anthropic: The agony and the ecstasy",
+      "url": "https://www.exponentialview.co/p/anthropic-the-agony-and-the-ecstasy",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-10-15T16:29:01+00:00",
+      "summary": "Hi, I sent this to members of our AI Investment Brief a couple of hours ago.",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Building an AI Voice Agent for 360 Degree Feedback: How Your360 AI Uses State Machines, Evals, and Layered Synthesis",
+      "url": "https://www.producttalk.org/building-an-ai-voice-agent-for-360-degree-feedback-how-your360-ai-uses-state-machines-evals-and-layered-synthesis/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-10-15T13:00:00+00:00",
+      "summary": "Listen to this episode on: Spotify | Apple Podcasts What does it take to build an AI voice agent that people will talk to for 44 minutes about their own blind spots? Your360 AI found out, one call at a time. In this episode of Just Now Possible , Teresa Torres talks",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "I had 67 bookmarks and couldn’t tell you why I’d saved any of them",
+      "url": "https://medium.com/@rajpaul075/i-had-67-bookmarks-and-couldnt-tell-you-why-i-d-saved-any-of-them-6525f9cb4be7?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-10-15T11:23:40+00:00",
+      "summary": "PRSM, a personal resource management tool that keeps the reason along with the link. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "A Conversation With Ari Emanuel About Entertainment and AI",
+      "url": "https://stratechery.com/2026/a-conversation-with-ari-emanuel-about-entertainment-and-ai/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-10-15T10:00:00+00:00",
+      "summary": "A conversation with Hollywood super-agent Ari Emanuel about his memoir, the impact of AI on Hollywood, and the power of a phone call.",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "When AI Agents Start Spending Your Money | Alex Rampell & Terry Angelos",
+      "url": "https://a16z.simplecast.com/episodes/when-ai-agents-start-spending-your-money-alex-rampell-terry-angelos-YowGFPLh",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-10-15T10:00:00+00:00",
+      "summary": "a16z General Partner Alex Rampell sits down with VGS Executive Board Member, Terry Angelos, to unpack what happens to payments when AI agents go from recommending what to buy to actually making the purchase. Terry explains the infrastructure required to safely give agents access",
+      "tags": [
+        "AI Strategy",
+        "AI Tools",
+        "Pricing"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Work Activity Types in Time Tracking: Dev, Review, Defects",
       "url": "https://dganzha.medium.com/work-activity-types-in-time-tracking-dev-review-defects-d7afdc89a827?source=rss------product_management-5",
@@ -57,6 +184,18 @@
       "type": "article",
       "date": "2026-10-15T03:34:10+00:00",
       "summary": "In banking, the best digital product isn’t the one with the most features. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Memory Chess",
+      "url": "https://www.producthunt.com/products/memory-chess",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-10-14T18:39:26+00:00",
+      "summary": "Study a chess position, then rebuild it from memory Discussion | Link",
       "tags": [
         "Product Strategy"
       ],
@@ -751,6 +890,18 @@
       "type": "trend",
       "date": "2026-10-09T09:50:52+00:00",
       "summary": "Design multi-agent systems that you can trust Discussion | Link",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Jockey by TwelveLabs",
+      "url": "https://www.producthunt.com/products/twelvelabs",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-10-09T08:49:45+00:00",
+      "summary": "Your entire video library: organized, searchable, understood Discussion | Link",
       "tags": [
         "Product Strategy"
       ],
@@ -10799,104 +10950,6 @@
       "summary": "See it once. Ask forever. Discussion | Link",
       "tags": [
         "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "BaseRT - Apple M5 Optimized",
-      "url": "https://www.producthunt.com/products/basert",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-07-18T08:15:22+00:00",
-      "summary": "6.4x faster than llama.cpp, 3.9x faster than MLX Discussion | Link",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "I Upgraded My Productivity Without Buying a New Laptop—These 5 Desk Accessories Made the Biggest…",
-      "url": "https://medium.com/@shashankshshu13/i-upgraded-my-productivity-without-buying-a-new-laptop-these-5-desk-accessories-made-the-biggest-e003b551b1a3?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-07-18T07:24:08+00:00",
-      "summary": "https://link.amazon/B0btWFfl7 Continue reading on Medium »",
-      "tags": [
-        "Productivity"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Steering by Value: You Can Kill a Bet, Not Confirm One",
-      "url": "https://medium.com/@__bbak/steering-by-value-you-can-kill-a-bet-not-confirm-one-9aa424d8f61b?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-07-18T06:26:01+00:00",
-      "summary": "The first two parts of this series did demolition. The first argued that value cannot serve as a control signal, because the worth of a… Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Reverse Engineering GitHub Copilot: What Every AI Product Manager Can Learn",
-      "url": "https://medium.com/@karthik_prdmgr/reverse-engineering-github-copilot-what-every-ai-product-manager-can-learn-8d381ffb3e21?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-07-18T03:53:43+00:00",
-      "summary": "Why one of the world’s most successful AI products is really a masterclass in workflow design — not just code generation. Continue reading on Medium »",
-      "tags": [
-        "AI Strategy",
-        "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "2026.29: Mainframes and Main Characters",
-      "url": "https://stratechery.com/2026/mainframes-and-main-characters/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-07-17T17:00:00+00:00",
-      "summary": "The best Stratechery content from the week of July 13, 2026, including the end of the mainframe, the continuing adventures of OpenAI, and answering the question, \"Is Netflix Washed?\".",
-      "tags": [
-        "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Deck",
-      "url": "https://www.producthunt.com/products/deck-9",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-07-17T16:41:13+00:00",
-      "summary": "The most capable AI assistant with its own inbox Discussion | Link",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "AI-first product development:  Building for humans and machines",
-      "url": "https://www.productledalliance.com/ai-first-product-development-building-for-humans-and-machines/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-07-17T15:00:36+00:00",
-      "summary": "Your product isn't just for humans anymore – build accordingly.",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Amjad Masad on Going Direct, Building Replit, and the Future of Software",
-      "url": "https://a16z.simplecast.com/episodes/amjad-masad-on-going-direct-building-replit-and-the-future-of-software-bWWNM4zx",
-      "source": "a16z Podcast",
-      "type": "podcast",
-      "date": "2026-07-17T10:00:00+00:00",
-      "summary": "Recorded live at the New Media Summit, Erik Torenberg sits down with Replit founder and CEO Amjad Masad to discuss founder-led storytelling, building in public, and the role of media in company building. Masad reflects on Replit’s decade-long journey, including the years before t...",
-      "tags": [
-        "Communication",
-        "Growth"
       ],
       "is_fallback": true
     }
