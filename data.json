@@ -1,7 +1,146 @@
 {
-  "updated": "2026-10-16T09:28:35.834636+00:00",
-  "total": 880,
+  "updated": "2026-10-17T09:00:53.349854+00:00",
+  "total": 884,
   "items": [
+    {
+      "title": "I Built an Open-Source, Local-First Workbench to Coordinate AI Coding Agents",
+      "url": "https://medium.com/@gangulysourik/i-built-an-open-source-local-first-workbench-to-coordinate-ai-coding-agents-60b5c1a8bd39?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-10-17T08:44:25+00:00",
+      "summary": "AI coding assistants have changed how I develop software. Continue reading on Medium »",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Week 1: Starting My Product Management Journey as a Final-Year Engineering Student",
+      "url": "https://medium.com/@jadhavsiddhi18/week-1-starting-my-product-management-journey-as-a-final-year-engineering-student-b6aef903c972?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-10-17T08:41:30+00:00",
+      "summary": "I’m a final-year engineering student aspiring to become a Product Manager. I don’t have an MBA or prior experience in product management… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Legion: Principal Product Manager, Agentic AI",
+      "url": "https://weworkremotely.com/remote-jobs/legion-principal-product-manager-agentic-ai",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-10-17T07:31:02+00:00",
+      "summary": "Headquarters: Remote, United States Principal Product Manager, Agentic AI REMOTE, United States JOB OVERVIEW Legion is building AI agents that carry out workforce management work, not agents that describe it. Much of what is presented as AI in workforce management today is a conv...",
+      "tags": [
+        "Career",
+        "AI Strategy",
+        "Compliance"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Customer.io: Global Controller",
+      "url": "https://weworkremotely.com/remote-jobs/customer-io-global-controller",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-10-17T07:30:55+00:00",
+      "summary": "Headquarters: Americas Remote About Customer.io Over 9,000 companies — from scrappy startups to global brands — use our platform to send billions of emails, push notifications, in-app messages, and SMS every day. Customer.io powers automated communication that people actually wan...",
+      "tags": [
+        "Career",
+        "Compliance",
+        "Communication"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Build a Graph Only Where the Answer Is a Relationship",
+      "url": "https://medium.com/@davidyosuanto/build-a-graph-only-where-the-answer-is-a-relationship-093549a55711?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-10-17T05:19:22+00:00",
+      "summary": "Graphs beat vector search when the answer depends on a relationship, and cost more elsewhere. Here is how to tell which case you are in. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Algumas certezas a menos: o que mudou desde que comecei a escrever sobre Design?",
+      "url": "https://medium.com/@ericadesignersp/algumas-certezas-a-menos-o-que-mudou-desde-que-comecei-a-escrever-sobre-design-48083f87e085?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-10-16T18:52:24+00:00",
+      "summary": "Seis anos, alguns negócios, muitos projetos e uma nova fase da vida depois, resolvi revisitar meus textos de 2020. E encontrei algumas… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "2026.42: Home At Last",
+      "url": "https://stratechery.com/2026/home-at-last/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-10-16T17:42:42+00:00",
+      "summary": "The best Stratechery content from the week of October 12, 2026, including what Apple is doing, SpaceX's appetite, and the title, takes, and the Washington Wizards.",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Step 5 Preview",
+      "url": "https://www.producthunt.com/products/step-3-5-flash",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-10-16T15:06:14+00:00",
+      "summary": "600B open weights, trained for long-running agents Discussion | Link",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "How Sabrina Jackson, VP of Product Management at Duetto,  helps her team handle the pressure",
+      "url": "https://www.productledalliance.com/how-leaders-help-teams-carry-pressure/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-10-16T15:00:00+00:00",
+      "summary": "Pressure never lets up. Great leaders just get better at handling it.",
+      "tags": [
+        "Leadership"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Our Standards",
+      "url": "https://www.productcoalition.com/p/standards",
+      "source": "Product Coalition",
+      "type": "article",
+      "date": "2026-10-16T12:59:21+00:00",
+      "summary": "Product Coalition has been running since 2014.",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "AI Can Write the Code. Can It Run the System? | Grepr CEO Jad Naous",
+      "url": "https://a16z.simplecast.com/episodes/ai-can-write-the-code-can-it-run-the-system-grepr-ceo-jad-naous-p_ifxVi2",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-10-16T10:00:00+00:00",
+      "summary": "a16z General Partner Martin Casado sits down with Grepr CEO Jad Naous to ask what comes after AI learns to write code: can it also debug and operate the systems that code creates? Jad shares how AI has transformed engineering inside his 10-person team, cutting some projects from",
+      "tags": [
+        "AI Strategy",
+        "AI Tools",
+        "Security"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Why Employee Information Becomes Difficult to Manage as Businesses Grow",
       "url": "https://medium.com/@dhruvkashyap09987/why-employee-information-becomes-difficult-to-manage-as-businesses-grow-712246b16928?source=rss------product_management-5",
@@ -35,6 +174,18 @@
       "summary": "A payment method can lift conversion and still leave the product worse off.",
       "tags": [
         "Retention"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Emochi",
+      "url": "https://www.producthunt.com/products/emochi-2",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-10-16T07:43:37+00:00",
+      "summary": "Voice journal to understand yourself through art and science Discussion | Link",
+      "tags": [
+        "Product Strategy"
       ],
       "is_fallback": true
     },
@@ -10852,104 +11003,6 @@
       "summary": "Elizabeth Stone, CPTO of Netflix, on managing AI-era product teams, the rise of systems thinking, and how to build excellence as an operating system",
       "tags": [
         "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "It Was Your Manager, Not a Program",
-      "url": "https://medium.com/@thepmcode7/it-was-your-manager-not-a-program-b9d2ec8321ca?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-07-19T07:33:00+00:00",
-      "summary": "Who this is for Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Your Equity Is Not a Number",
-      "url": "https://medium.com/@thepmcode7/your-equity-is-not-a-number-b6b8aeba9fcb?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-07-19T07:25:34+00:00",
-      "summary": "Who this is for: Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "They Called Airbnb Crazy Too",
-      "url": "https://medium.com/@deepreddy/they-called-airbnb-crazy-too-161642d7b072?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-07-19T04:45:42+00:00",
-      "summary": "The idea was never crazy. It was just missing the thing that makes strangers safe to trust. Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "🔮 Kimi K3 surprise & AI economics; the solar paradox; AI's right to learn, cancer vaccine & junior jobs++",
-      "url": "https://www.exponentialview.co/p/ev-593",
-      "source": "Exponential View",
-      "type": "trend",
-      "date": "2026-07-19T02:37:10+00:00",
-      "summary": "Plus: Palantir’s power, cancer vaccines and AI on iPhones",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Prosed",
-      "url": "https://www.producthunt.com/products/prosed-turn-your-content-into-a-book",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-07-19T01:23:23+00:00",
-      "summary": "The AI book service that shows its work Discussion | Link",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "🧠 Community Wisdom: Syncing Claude Code and Claude Design, earning trust when customers assume you vibe coded it, co-founder fallout lessons, personal CRMs, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-syncing-claude-code",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-07-18T17:04:04+00:00",
-      "summary": "Community Wisdom 194",
-      "tags": [
-        "AI Tools",
-        "Community"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "From Silicon to Chatbot: The Secret Layer Cake Powering Every AI Tool You Use",
-      "url": "https://medium.com/@reenamaritapinto/from-silicon-to-chatbot-the-secret-layer-cake-powering-every-ai-tool-you-use-400ebc68b23a?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-07-18T15:01:04+00:00",
-      "summary": "Why understanding the five layers of the AI stack will change how you think about “AI” forever Continue reading on Medium »",
-      "tags": [
-        "AI Strategy",
-        "Hardware Differentiation"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Rewisp — an ambient memory for your Mac",
-      "url": "https://www.producthunt.com/products/rewisp-an-ambient-memory-for-your-mac",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-07-18T11:45:09+00:00",
-      "summary": "See it once. Ask forever. Discussion | Link",
-      "tags": [
-        "Product Strategy"
       ],
       "is_fallback": true
     }
