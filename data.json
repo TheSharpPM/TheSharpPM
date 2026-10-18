@@ -1,7 +1,107 @@
 {
-  "updated": "2026-10-17T09:00:53.349854+00:00",
+  "updated": "2026-10-18T09:19:11.795353+00:00",
   "total": 884,
   "items": [
+    {
+      "title": "are evals the new prd?",
+      "url": "https://priyam-rajput.medium.com/are-evals-the-new-prd-e9e28f8686cd?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-10-18T09:00:02+00:00",
+      "summary": "my-thoughts on evals, vibes and shipping ai products that don’t embarrass you… Continue reading on Medium »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "How to Choose a Proof of Concept Development Company (Without Trusting the Rankings)",
+      "url": "https://entalogics.medium.com/how-to-choose-a-proof-of-concept-development-company-without-trusting-the-rankings-c36aa475782d?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-10-18T08:21:38+00:00",
+      "summary": "I looked for evidence that ratings, size or price predict a good outcome. I didn’t find any. Here’s what governments do instead. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Product UX Design Leader in USA: How to Build Digital Products People Love to Use",
+      "url": "https://medium.com/@Vikasrajputusa/product-ux-design-leader-in-usa-how-to-build-digital-products-people-love-to-use-ec8b184754a5?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-10-18T06:36:40+00:00",
+      "summary": "In today’s competitive US digital market, building a successful product requires more than an attractive interface. Continue reading on Medium »",
+      "tags": [
+        "Competitive Analysis",
+        "Product Design"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🔮 A world of many minds & the future of work",
+      "url": "https://www.exponentialview.co/p/ev-606",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-10-18T03:46:33+00:00",
+      "summary": "Good morning from London.",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Latch",
+      "url": "https://www.producthunt.com/products/latch-7",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-10-17T15:36:21+00:00",
+      "summary": "The app blocker you unlock by walking to your key Discussion | Link",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🧠 Community Wisdom: PRDs for agents, tracking competitor messaging, whether software moats still exist, exercising startup options when you leave, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-prds-for-agents",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-10-17T13:53:57+00:00",
+      "summary": "Community Wisdom 302",
+      "tags": [
+        "Community",
+        "Competitive Analysis"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Product Management Mistake That Happens Before the First User Story",
+      "url": "https://medium.com/@sajjaddeljou1995/the-product-management-mistake-that-happens-before-the-first-user-story-98072ffe7f2a?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-10-17T11:27:50+00:00",
+      "summary": "Why solving the right problem matters more than building the requested feature Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Why AI Could Finally Fix Healthcare Access | Zocdoc CEO Oliver Kharraz",
+      "url": "https://a16z.simplecast.com/episodes/why-ai-could-finally-fix-healthcare-access-zocdoc-ceo-oliver-kharraz-9n_zG60B",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-10-17T10:00:00+00:00",
+      "summary": "Why is booking a doctor's appointment still so difficult, and can AI finally change that? Zocdoc CEO Oliver Kharraz argues that the real problem isn't finding doctors, but connecting patients to accurate availability and making appointments bookable wherever they start their sear...",
+      "tags": [
+        "AI Tools",
+        "AI Strategy",
+        "Platform Strategy"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "I Built an Open-Source, Local-First Workbench to Coordinate AI Coding Agents",
       "url": "https://medium.com/@gangulysourik/i-built-an-open-source-local-first-workbench-to-coordinate-ai-coding-agents-60b5c1a8bd39?source=rss------product_management-5",
@@ -673,6 +773,18 @@
       "summary": "Delays are expensive and easy to see. The costs of launching before a product is ready can last much longer. Continue reading on Medium »",
       "tags": [
         "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "shim-cli",
+      "url": "https://www.producthunt.com/products/shim-cli",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-10-12T12:26:38+00:00",
+      "summary": "See what your coding agent sends. Mask what you can. Discussion | Link",
+      "tags": [
+        "AI Tools"
       ],
       "is_fallback": true
     },
@@ -10893,116 +11005,6 @@
         "AI Strategy",
         "Career",
         "Platform Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Paritok",
-      "url": "https://www.producthunt.com/products/paritok",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-07-20T08:39:12+00:00",
-      "summary": "Spend up to 85% less and run 3× longer coding agent sessions Discussion | Link",
-      "tags": [
-        "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Product-led vs. sales-led vs. market-led:  Which strategy is right for you?",
-      "url": "https://www.productledalliance.com/product-led-vs-sale-led-vs-market-led/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-07-20T08:26:00+00:00",
-      "summary": "Explore how product-led growth compares to sales-led and market-led strategies. Learn which approach fits your business and how to blend them for real results.",
-      "tags": [
-        "Growth"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "High Performance Starts with People, Not Pressure",
-      "url": "https://medium.com/@digital.acutevision/high-performance-starts-with-people-not-pressure-b4ee944b1653?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-07-20T07:54:45+00:00",
-      "summary": "Walk into any successful company, and you’ll probably notice something interesting. The teams that consistently deliver great results… Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "The Double Diamond Model for Better Problem Solving",
-      "url": "https://medium.com/@markhub24/the-double-diamond-model-for-better-problem-solving-f74da96c53f5?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-07-20T07:42:25+00:00",
-      "summary": "Discover how the Double Diamond framework helps businesses, marketers, and product teams understand problems before building better… Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "ShellMate",
-      "url": "https://www.producthunt.com/products/shellmate-2",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-07-20T07:15:54+00:00",
-      "summary": "The SSH workspace you'll actually enjoy using Discussion | Link",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Invisible AI: What B2B Startups Must Learn from Apple’s WWDC 2026",
-      "url": "https://appibara.medium.com/invisible-ai-what-b2b-startups-must-learn-from-apples-wwdc-2026-89cfd8f2d025?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-07-20T06:35:06+00:00",
-      "summary": "We were promised an escape from clunky software menus and endless navigation trees. Instead, the tech industry handed us a blinking text… Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "How AI Product Development Reduces Time-to-Market in 2026",
-      "url": "https://medium.com/@heimatverseservices/how-ai-product-development-reduces-time-to-market-in-2026-954a1265d5e6?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-07-20T05:59:13+00:00",
-      "summary": "Speed has become the defining factor in modern product development. In highly competitive markets, the difference between success and… Continue reading on Medium »",
-      "tags": [
-        "AI Strategy",
-        "Competitive Analysis"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Openbase",
-      "url": "https://www.producthunt.com/products/openbase-2",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-07-19T16:15:50+00:00",
-      "summary": "Manage your team of AI agents by voice, from anywhere Discussion | Link",
-      "tags": [
-        "AI Strategy",
-        "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Netflix CPTO on AI and the future of product and tech roles | Elizabeth Stone",
-      "url": "https://www.lennysnewsletter.com/p/netflix-cpto-on-ai-and-the-future",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-07-19T12:31:21+00:00",
-      "summary": "Elizabeth Stone, CPTO of Netflix, on managing AI-era product teams, the rise of systems thinking, and how to build excellence as an operating system",
-      "tags": [
-        "AI Strategy"
       ],
       "is_fallback": true
     }
