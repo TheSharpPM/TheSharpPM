@@ -3146,9 +3146,15 @@ def run_agent():
                     and isinstance(result, dict)
                     and str(result.get("error", "")).startswith("Refusing to publish")):
                 publish_rejects += 1
+                # The reason, not just the count: the 2026-10-19 run
+                # aborted after four rejections and only the last one's
+                # reason reached the workflow log. First line only - the
+                # rest is fix-it advice addressed to the model.
+                reason = str(result.get("error", "")).splitlines()[0]
                 print(
                     f"  Publish rejected by quality gate "
-                    f"({publish_rejects}/{MAX_PUBLISH_REJECTS})."
+                    f"({publish_rejects}/{MAX_PUBLISH_REJECTS}): "
+                    f"{reason[:300]}"
                 )
                 if publish_rejects >= MAX_PUBLISH_REJECTS:
                     print(
