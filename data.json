@@ -1,7 +1,110 @@
 {
-  "updated": "2026-10-18T09:19:11.795353+00:00",
-  "total": 884,
+  "updated": "2026-10-19T10:28:57.322586+00:00",
+  "total": 880,
   "items": [
+    {
+      "title": "Turning Customer Complaints Into Product Improvements: A Practical Framework",
+      "url": "https://medium.com/@zvarayi90/turning-customer-complaints-into-product-improvements-a-practical-framework-cb340b22fa63?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-10-19T10:01:03+00:00",
+      "summary": "Most customer complaints get resolved and then forgotten — understandably, because the immediate priority is making the individual… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Do You Trust Apple?",
+      "url": "https://stratechery.com/2026/do-you-trust-apple/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-10-19T10:00:00+00:00",
+      "summary": "Apple has a lot of trust in terms of delivering integrated products and preserving privacy; the real trust question is if you think Siri AI will justify investing more in their ecosystem.",
+      "tags": [
+        "AI Strategy",
+        "Platform Strategy",
+        "Privacy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "What Happens When Al Agents Can Spend Your Money?",
+      "url": "https://a16z.simplecast.com/episodes/what-happens-when-al-agents-can-spend-your-money-PREiwaJH",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-10-19T10:00:00+00:00",
+      "summary": "Why hasn't AI transformed everyday work as quickly as coding? Town CEO Jean-Denis Greze argues the bottleneck isn't intelligence, but making AI useful to people who don't have the time or technical skills to build their own automations. Jean-Denis joins a16z General Partner Alex",
+      "tags": [
+        "AI Strategy",
+        "Automation"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Building a Test Pyramid That Survives AI Features",
+      "url": "https://medium.com/@rohannniggam/building-a-test-pyramid-that-survives-ai-features-45e67735d02d?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-10-19T09:49:50+00:00",
+      "summary": "AI features break the assumption every test pyramid was built on: that the same input produces the same output. Continue reading on Medium »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Clover Health: Data Analyst, Clinical Data Effectiveness",
+      "url": "https://weworkremotely.com/remote-jobs/clover-health-data-analyst-clinical-data-effectiveness",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-10-19T07:31:04+00:00",
+      "summary": "Headquarters: Remote - USA Counterpart Health is an AI‑powered physician enablement platform that delivers clinical insights to providers at the point of care. Our flagship product, Counterpart Assistant, is embedded into clinicians’ workflows and integrates with EHR systems, hel...",
+      "tags": [
+        "Data",
+        "Career",
+        "Metrics"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Seinfeld",
+      "url": "https://www.acquired.fm/episodes/seinfeld",
+      "source": "Acquired",
+      "type": "podcast",
+      "date": "2026-10-19T04:00:46+00:00",
+      "summary": "Seinfeld, which ended three decades ago, has been watched by 72 million Americans so far THIS YEAR. Behind that incredible stat is an equally incredible business story: obsessive creators, perfect market timing, an ownership structure that aligned incentives for the long term…all...",
+      "tags": [
+        "AI Tools",
+        "Career"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Inside the black box of AI: How AI models actually think | Emmanuel Ameisen (Anthropic)",
+      "url": "https://www.lennysnewsletter.com/p/a-mind-expanding-conversation-on",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-10-18T12:31:36+00:00",
+      "summary": "Listen now (72 mins) | Emmanuel Ameisen of Anthropic explains what looking inside language models reveals about planning, consciousness, and AI safety",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Why Real-World AI Is Harder Than the Benchmark | EliseAI’s Mario Martone",
+      "url": "https://a16z.simplecast.com/episodes/why-real-world-ai-is-harder-than-the-benchmark-eliseais-mario-martone-SJLazqim",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-10-18T10:00:00+00:00",
+      "summary": "What changes when an AI mistake doesn’t just hurt a benchmark score, but affects someone’s housing or healthcare? EliseAI Head of Applied Research Mario Martone argues that deploying AI in essential industries requires a very different standard of reliability. Mario joins MTS to",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "are evals the new prd?",
       "url": "https://priyam-rajput.medium.com/are-evals-the-new-prd-e9e28f8686cd?source=rss------product_management-5",
@@ -152,6 +255,19 @@
         "Career",
         "Compliance",
         "Communication"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Starkomand",
+      "url": "https://www.producthunt.com/products/starkomand",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-10-17T07:14:53+00:00",
+      "summary": "Run your AI coding agents on an infinite canvas. Discussion | Link",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
       ],
       "is_fallback": true
     },
@@ -314,6 +430,18 @@
         "Communication",
         "Competitive Analysis",
         "Career"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Lazy AWS",
+      "url": "https://www.producthunt.com/products/lazy-aws-your-cloud-your-terminal",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-10-16T06:08:32+00:00",
+      "summary": "A keyboard-driven home for your AWS resources Discussion | Link",
+      "tags": [
+        "Product Strategy"
       ],
       "is_fallback": true
     },
@@ -10829,182 +10957,6 @@
       "tags": [
         "AI Strategy",
         "Pricing"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Netflix Earnings, Is Netflix Washed?, Additional Notes",
-      "url": "https://stratechery.com/2026/netflix-earnings-is-netflix-washed-additional-notes/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-07-21T10:00:00+00:00",
-      "summary": "Netflix's earnings were fine, and befitting a mature company whose most exciting days are likely behind them.",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "The Hidden Cost of Every “Quick” Design Fix",
-      "url": "https://medium.com/@Ciara_Hayes/the-hidden-cost-of-every-quick-design-fix-eafd4281eefe?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-07-21T07:44:34+00:00",
-      "summary": "We call them bandages. But every shortcut in the design process compounds into a debt that eventually bankrupts the user experience. Continue reading on Medium »",
-      "tags": [
-        "Product Design"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "The Feature Nobody Asked For That Fixed Our Churn Problem",
-      "url": "https://medium.com/@DeShawn-Harris/the-feature-nobody-asked-for-that-fixed-our-churn-problem-6ce724c26866?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-07-21T07:25:40+00:00",
-      "summary": "We spent months building exactly what our users demanded. It failed completely. Then we built the one thing they did not know they needed… Continue reading on Medium »",
-      "tags": [
-        "Retention"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Users don’t ask for the wrong features because they lack imagination.",
-      "url": "https://medium.com/@gopinathumakanthan/users-dont-ask-for-the-wrong-features-because-they-lack-imagination-374f79594a42?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-07-21T04:42:06+00:00",
-      "summary": "They ask because they’re standing inside a broken system, and describing the only way out they can see. Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "OpenChatCut",
-      "url": "https://www.producthunt.com/products/openchatcut",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-07-21T02:24:43+00:00",
-      "summary": "Open-source AI agent video editor with a real timeline Discussion | Link",
-      "tags": [
-        "AI Strategy",
-        "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Data Products Process for Continuous Learning and Improvement",
-      "url": "https://medium.com/@alvaro.thompson/data-products-process-for-continuous-learning-and-improvement-45a84fe417f9?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-07-21T00:19:02+00:00",
-      "summary": "A data product is a cycle of strategy, development, delivery, adoption, and learning - as long as there is value Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Hugging Face's CEO on Open Source AI, Model Routing, and the Future of Competition",
-      "url": "https://a16z.simplecast.com/episodes/hugging-faces-ceo-on-open-source-ai-model-routing-and-the-future-of-competition-qEt3voqD",
-      "source": "a16z Podcast",
-      "type": "podcast",
-      "date": "2026-07-20T17:08:39+00:00",
-      "summary": "As governments weigh new restrictions on frontier AI models, one question is becoming increasingly important: what role should open source play in the future of artificial intelligence? Theo Jaffee and Sofia Puccini speak with Hugging Face CEO Clément Delangue about AI regulation...",
-      "tags": [
-        "AI Strategy",
-        "AI Tools",
-        "Compliance"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "🎙️ How I AI: How the founder of Morning Brew built a Claude content machine that never runs out of ideas",
-      "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-the-founder-of-morning",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-07-20T15:01:56+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
-      "tags": [
-        "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Product feature  kick-off meeting template",
-      "url": "https://www.productledalliance.com/product-feature-kick-off-meeting-template-framework/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-07-20T14:59:19+00:00",
-      "summary": "Cover every angle before development begins with this kick-off meeting template.",
-      "tags": [
-        "Product Culture"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "📈 Data to start your week",
-      "url": "https://www.exponentialview.co/p/data-to-start-your-week-e71",
-      "source": "Exponential View",
-      "type": "trend",
-      "date": "2026-07-20T14:05:20+00:00",
-      "summary": "Kimi codes ⬆ Lithium recovery ⬆ Confidence in tech ⬇",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "How the founder of Morning Brew built a Claude content machine that never runs out of ideas and never sounds like slop | Alex Lieberman",
-      "url": "https://www.lennysnewsletter.com/p/how-the-founder-of-morning-brew-built",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-07-20T12:04:47+00:00",
-      "summary": "Listen now | 🎙 How Alex Lieberman (Morning Brew) built a Claude workflow that interviews him before drafting, codes his voice in Markdown, and runs a six-persona revision loop before posting",
-      "tags": [
-        "AI Tools",
-        "Career"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Who’s Afraid of Chinese Models?",
-      "url": "https://stratechery.com/2026/whos-afraid-of-chinese-models/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-07-20T11:00:08+00:00",
-      "summary": "Everyone is worried about Chinese models, but the frontier labs will be fine; we need to enable open U.S. alternatives.",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "LawnStarter: Senior Product Manager, Pricing",
-      "url": "https://weworkremotely.com/remote-jobs/lawnstarter-senior-product-manager-pricing",
-      "source": "We Work Remotely",
-      "type": "job",
-      "date": "2026-07-20T10:55:05+00:00",
-      "summary": "Headquarters: United States URL: http://lawnstarter.com About LawnStarter LawnStarter is the nation's leading on-demand marketplace for lawn care and outdoor services, with over $100M in annual bookings. We're expanding beyond lawn care to become the one-stop shop for all home se...",
-      "tags": [
-        "Career",
-        "Pricing",
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "LawnStarter: Senior Product Manager, Service Delivery",
-      "url": "https://weworkremotely.com/remote-jobs/lawnstarter-senior-product-manager-service-delivery",
-      "source": "We Work Remotely",
-      "type": "job",
-      "date": "2026-07-20T10:53:41+00:00",
-      "summary": "Headquarters: United States URL: http://lawnstarter.com About LawnStarter LawnStarter is the nation's leading on-demand marketplace for lawn care and outdoor services, with over $100M in annual bookings. We're expanding beyond lawn care to become the one-stop shop for all home se...",
-      "tags": [
-        "AI Strategy",
-        "Career",
-        "Platform Strategy"
       ],
       "is_fallback": true
     }
