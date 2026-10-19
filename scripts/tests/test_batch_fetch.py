@@ -188,6 +188,9 @@ def main():
             err.startswith("Refusing to publish") and "not read" in err, err[:200])
     r.check("the error names the unread piece", "'D'" in err, err[:200])
     r.check("the error points at the batch call", "urls=[...]" in err, err[:300])
+    r.check("the error lists the unread URL itself", MTP in err, err[:300])
+    r.check("the result carries the unread URLs for the loop to pin a read",
+            out.get("unread_urls") == [MTP], out.get("unread_urls"))
 
     print("\n--- and does not fire when everything was read ---")
     agent.FETCHED_TEXT[MTP] = "body"
@@ -197,6 +200,56 @@ def main():
     r.check("and that edition actually publishes",
             not (isinstance(out, dict) and out.get("error")),
             out.get("error") if isinstance(out, dict) else None)
+
+    print("\n--- budget spent with nothing read (the 2026-10-18 run) ---")
+    # That run made 3 feed, 3 search and 3 memory calls, never fetched a
+    # piece, was pinned to publish_edition with fetch_article forbidden,
+    # and Gate 10b refused all four attempts.
+    reset()
+    agent.TOOL_CALL_COUNTS.clear()
+    agent.TOOL_CALL_COUNTS.update(
+        {"fetch_feeds": 3, "web_search": 3, "read_memory": 3}
+    )
+    for u in (LENNY, SVPG, TALK, MTP):
+        agent.SEEN_SOURCES[u] = {"title": "T", "source": "S", "date": recent}
+    r.check("the budget is spent", agent._should_force_publish())
+    r.check("nothing read: the pin is a read, not a publish",
+            agent._budget_pin(0) == "fetch_article", agent._budget_pin(0))
+    r.check("the forced reads are capped, then it publishes anyway",
+            agent._budget_pin(agent.MAX_FORCED_READS) == "publish_edition")
+
+    digest = agent._citable_sources_digest()
+    r.check("the digest does not call unread pieces fetched",
+            "NOT read" in digest and "have READ" not in digest, digest[:200])
+
+    agent.FETCHED_TEXT[LENNY] = "body"
+    agent.FETCHED_URLS[LENNY] = "fetched successfully"
+    digest = agent._citable_sources_digest()
+    read_part, _, unread_part = digest.partition("NOT read")
+    r.check("the digest lists read and unread apart",
+            LENNY in read_part and LENNY not in unread_part
+            and SVPG in unread_part, digest)
+
+    for u in (SVPG, TALK, MTP):
+        agent.FETCHED_TEXT[u] = "body"
+        agent.FETCHED_URLS[u] = "fetched successfully"
+    r.check("enough read: the pin is publish_edition",
+            agent._budget_pin(1) == "publish_edition", agent._budget_pin(1))
+
+    reset()
+    agent.TOOL_CALL_COUNTS.clear()
+    agent.TOOL_CALL_COUNTS.update(
+        {"fetch_feeds": 3, "web_search": 3, "read_memory": 3}
+    )
+    agent.SEEN_SOURCES[LENNY] = {"title": "T", "source": "S", "date": recent}
+    agent.FETCHED_URLS[LENNY] = "errored: 404"
+    r.check("nothing left that will load: publish rather than a dead read",
+            agent._budget_pin(0) == "publish_edition", agent._budget_pin(0))
+
+    agent.TOOL_CALL_COUNTS.clear()
+    agent.TOOL_CALL_COUNTS.update({"fetch_feeds": 2})
+    r.check("budget not spent: no pin at all", agent._budget_pin(0) is None)
+
 
     return r.report()
 

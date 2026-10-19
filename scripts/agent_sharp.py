@@ -261,6 +261,65 @@ def _should_force_publish():
         and _calls_spent() >= FORCE_PUBLISH_AT_RESEARCH_CALLS
     )
 
+
+# Pieces an edition has to cite: the must_read minimum plus the
+# contrarian. Gate 10b refuses any of them that was not fetched.
+CITATIONS_NEEDED = MUST_READS_MIN + 1
+
+# How many turns the loop may pin to fetch_article once the research
+# budget is spent. Forcing a publish used to mean forbidding every other
+# tool, fetch_article included, while Gate 10b refuses to publish what
+# was not fetched: the 2026-10-18 run spent its budget on feeds and
+# searches, never read a piece, and burned all four publish attempts on
+# the same rejection. Three reads of up to MAX_URLS_PER_FETCH each cover
+# any edition; the cap keeps a run that will not settle from reading
+# until MAX_ITERATIONS.
+MAX_FORCED_READS = 3
+
+
+def _is_digestible(url):
+    """A source worth offering at publish time: citable and not stale."""
+    if not _is_citable_source(url):
+        return False
+    age = _source_age_days(url)
+    return age is None or age <= MAX_SOURCE_AGE_DAYS
+
+
+def _read_citable_sources():
+    """Citable sources whose full text was fetched this run."""
+    return [url for url in FETCHED_TEXT if _is_digestible(url)]
+
+
+def _unread_citable_sources():
+    """Citable sources seen in a feed or search but not yet read.
+
+    A URL that already failed to load is left out: fetching it again is
+    refused as a duplicate, so offering it only wastes a forced read.
+    """
+    return [
+        url for url in SEEN_SOURCES
+        if url not in FETCHED_TEXT
+        and url not in FETCHED_URLS
+        and _is_digestible(url)
+    ]
+
+
+def _budget_pin(forced_reads):
+    """Which tool to pin once the research budget is spent, or None.
+
+    fetch_article while the run has read too little to fill an edition
+    and something citable is still unread, publish_edition otherwise.
+    Never pinning straight to publish_edition with nothing read is the
+    whole point: Gate 10b would refuse every attempt.
+    """
+    if not _should_force_publish():
+        return None
+    if (forced_reads < MAX_FORCED_READS
+            and len(_read_citable_sources()) < CITATIONS_NEEDED
+            and _unread_citable_sources()):
+        return "fetch_article"
+    return "publish_edition"
+
 # Per-run cache of URLs the agent has already attempted to fetch.
 # Maps url -> 1-line note about the previous outcome. Used by
 # execute_tool to short-circuit duplicate fetch_article calls so the
@@ -1597,13 +1656,18 @@ def tool_publish_edition(headline_theme, editorial, must_reads,
         and str(item.get("url", "")).strip() not in FETCHED_TEXT
     ]
     if unread:
-        titles = ", ".join(
-            f"'{str(i.get('title'))[:60]}'" for i in unread[:3]
+        unread_urls = [str(i.get("url")).strip() for i in unread]
+        # Every URL, not just a few titles: the loop pins the next turn
+        # to fetch_article, and the agent can only read what it is shown.
+        listing = "\n".join(
+            f"- '{str(i.get('title'))[:60]}' {u}"
+            + (" (failed to load - drop it)" if u in FETCHED_URLS else "")
+            for i, u in zip(unread, unread_urls)
         )
         return {
             "error": (
                 f"Refusing to publish: you have not read "
-                f"{len(unread)} of the pieces you are citing ({titles}). "
+                f"{len(unread)} of the pieces you are citing:\n{listing}\n\n"
                 f"A feed summary or a search snippet is not enough to say "
                 f"what an article argues - that is how a conference "
                 f"write-up once got published as a critique of evaluation "
@@ -1612,7 +1676,8 @@ def tool_publish_edition(headline_theme, editorial, must_reads,
                 f"{MAX_URLS_PER_FETCH} at once) to read them, then call "
                 f"publish_edition again. If a piece will not load, drop it "
                 f"and cite something you did read."
-            )
+            ),
+            "unread_urls": unread_urls,
         }
 
     # Gate 11: recency. Only fires when the publication date was actually
@@ -2043,36 +2108,40 @@ def _record_seen_sources(name, args, result):
 
 
 def _citable_sources_digest(limit=MAX_DIGEST_SOURCES):
-    """Compact 'here is what you actually fetched' block for publish time.
+    """Compact 'here is what you can cite' block for publish time.
 
-    Only trusted/citable domains are listed, because must_reads may only
-    come from those - offering the model anything else just invites a
-    rejected publish.
+    Only citable, recent sources are listed (see _is_digestible): the
+    domain and recency gates would refuse anything else, so offering it
+    only buys a rejected publish.
+
+    Read and unread are listed apart. This used to be one list headed
+    "Sources you actually fetched", built from everything SEEN - feed
+    and search hits included - so on 2026-10-18 it handed the agent a
+    menu of pieces it had never read and Gate 10b refused all of them.
     """
-    lines = []
-    for url, meta in SEEN_SOURCES.items():
-        if not _is_citable_source(url):
-            continue
-        # Same reasoning as the domain filter above: the recency gate
-        # would reject these at publish time, so leaving them on the
-        # menu only buys a wasted publish attempt. Sources with no
-        # observed date stay listed - the gate lets those through too.
-        age = _source_age_days(url)
-        if age is not None and age > MAX_SOURCE_AGE_DAYS:
-            continue
+    def line(url):
+        meta = SEEN_SOURCES.get(url, {})
         title = (meta.get("title") or "")[:MAX_DIGEST_TITLE_CHARS]
         source = meta.get("source") or ""
         label = f"{title} ({source})" if source else title
-        lines.append(f"- {label + ' ' if label.strip() else ''}{url}")
-        if len(lines) >= limit:
-            break
-    if not lines:
-        return ""
-    return (
-        "Sources you actually fetched this run. Copy must_read and "
-        "contrarian URLs verbatim from this list - do NOT reconstruct a "
-        "URL from memory:\n" + "\n".join(lines)
-    )
+        return f"- {label + ' ' if label.strip() else ''}{url}"
+
+    read = _read_citable_sources()[:limit]
+    unread = _unread_citable_sources()[:max(0, limit - len(read))]
+    parts = []
+    if read:
+        parts.append(
+            "Sources you have READ this run. Cite only these, and copy "
+            "must_read and contrarian URLs verbatim - do NOT reconstruct "
+            "a URL from memory:\n" + "\n".join(line(u) for u in read)
+        )
+    if unread:
+        parts.append(
+            "Seen in a feed or search but NOT read - citing one is "
+            "refused until you fetch_article it:\n"
+            + "\n".join(line(u) for u in unread)
+        )
+    return "\n\n".join(parts)
 
 
 def span_output(result):
@@ -2588,10 +2657,15 @@ def run_agent():
     # ping-pong of "you must call a tool" -> "I am a language model".
     NO_TOOL_CALL_MAX_NUDGES = 1
     no_tool_call_nudges = 0
-    # Set to True after we inject the "stop researching, publish now"
-    # nudge. Used to force tool_choice to publish_edition on the next
-    # iteration so the model cannot keep stalling on more research.
-    force_publish_next = False
+    # The tool the next request pins tool_choice to, or None. Set once
+    # the research budget is spent (see _budget_pin) so the model cannot
+    # keep stalling on more research, and by a publish rejection.
+    # fetch_article is a legal pin, not just publish_edition: a run that
+    # spent its budget without reading anything has to be allowed to
+    # read before Gate 10b will accept a publish.
+    pin_next = None
+    forced_reads = 0
+    read_nudged = False
     force_publish_nudged = False
     # Bound on how many times publish_edition can be rejected by gates
     # before we give up. Each quality gate (whitelist, contrarian,
@@ -2615,17 +2689,17 @@ def run_agent():
         pinned_publish = False
         if attempts == 1:
             tool_choice = "required"
-        elif force_publish_next:
-            # Pin the next tool call to publish_edition. Cleared only
-            # once the call actually comes back (see below), so a
-            # schema/TPM retry does not silently drop the pin and let
-            # the agent wander back into research. A rejected publish
-            # re-arms it further down.
+        elif pin_next:
+            # Pin the next tool call. Cleared only once the call
+            # actually comes back (see below), so a schema/TPM retry
+            # does not silently drop the pin and let the agent wander
+            # back into research. A rejected publish re-arms it further
+            # down.
             tool_choice = {
                 "type": "function",
-                "function": {"name": "publish_edition"},
+                "function": {"name": pin_next},
             }
-            pinned_publish = True
+            pinned_publish = pin_next == "publish_edition"
         else:
             tool_choice = "auto"
 
@@ -2828,10 +2902,12 @@ def run_agent():
         # between had succeeded.
         schema_retries = 0
         rate_limit_retries = 0
-        # The publish pin has now been spent on a call that returned.
-        # Clearing it here rather than before the request means a retry
-        # keeps the pin; a gate rejection below re-arms it.
-        force_publish_next = False
+        # The pin has now been spent on a call that returned. Clearing
+        # it here rather than before the request means a retry keeps the
+        # pin; a gate rejection below re-arms it.
+        if pin_next == "fetch_article":
+            forced_reads += 1
+        pin_next = None
 
         # Token usage. Groq caches a stable prompt prefix automatically on
         # gpt-oss models and credits cached tokens back against the TPM
@@ -3083,7 +3159,18 @@ def run_agent():
                     )
                     _finalize_trace("aborted_max_rejects")
                     return 1
-                force_publish_next = True
+                # Gate 10b's fix is a fetch, not a rewrite, so re-pinning
+                # publish_edition there only repeats the rejection - the
+                # 2026-10-18 run did exactly that four times. Pin the
+                # read instead while anything named is still loadable.
+                fetchable = [
+                    u for u in result.get("unread_urls", [])
+                    if u not in FETCHED_URLS
+                ]
+                if fetchable and forced_reads < MAX_FORCED_READS:
+                    pin_next = "fetch_article"
+                else:
+                    pin_next = "publish_edition"
 
         if published:
             print("\nDone.")
@@ -3091,9 +3178,8 @@ def run_agent():
             return 0
 
         # If the agent has done enough research but is still spinning,
-        # inject a user message demanding publish_edition next and pin
-        # tool_choice so the next request must produce that call. Fires
-        # once per run.
+        # pin tool_choice so the next request must wind the run down:
+        # reading what it will cite first if it has not, then publishing.
         # Two different numbers, and the difference matters. The budget
         # is every call that spent an iteration (read_memory included);
         # the guard is source material only, because forcing a publish
@@ -3102,36 +3188,59 @@ def run_agent():
         # recovery attempts instead of the iterations.
         research_calls = _research_calls()
         budget_spent = _calls_spent()
-        force_publish_ready = _should_force_publish()
-        if force_publish_ready:
+        if pin_next is None:
             # Re-arm the pin on every subsequent turn, not just the
             # first time the threshold trips. gpt-oss-120b ignores
             # tool_choice often enough that a single pin is not enough:
             # once it slipped through with a research call, the old
             # one-shot version never asked for publish_edition again
-            # and the run drifted to max_iterations. The nudge message
-            # itself still goes out only once.
-            force_publish_next = True
-        if not force_publish_nudged and force_publish_ready:
+            # and the run drifted to max_iterations. Each nudge message
+            # still goes out only once. A pin a rejection just set wins.
+            pin_next = _budget_pin(forced_reads)
+        # The publish turn runs on a hard-trimmed history, so hand the
+        # model the exact URLs here rather than making it recall them
+        # from tool dumps that are about to be truncated.
+        if pin_next == "fetch_article" and not read_nudged and not publish_rejects:
+            read_nudged = True
+            print(
+                f"  Research budget reached ({budget_spent} calls, "
+                f"{research_calls} of them research) with "
+                f"{len(_read_citable_sources())} citable piece(s) read. "
+                f"Forcing fetch_article before publishing."
+            )
+            digest = _citable_sources_digest()
+            messages.append({
+                "role": "user",
+                "content": (
+                    f"You have made {research_calls} research tool calls "
+                    f"(min required: {MIN_RESEARCH_CALLS}). Stop searching: "
+                    f"do NOT call fetch_feeds, web_search or read_memory "
+                    f"again. An edition cites {CITATIONS_NEEDED} pieces and "
+                    f"publish_edition refuses any you have not read, so "
+                    f"your next call must be fetch_article with urls=[...] "
+                    f"(up to {MAX_URLS_PER_FETCH}) for the pieces you mean "
+                    f"to cite. Then call publish_edition."
+                    + (f"\n\n{digest}" if digest else "")
+                ),
+            })
+        if (pin_next == "publish_edition" and not force_publish_nudged
+                and _should_force_publish()):
             force_publish_nudged = True
             print(
                 f"  Research budget reached ({budget_spent} calls, "
                 f"{research_calls} of them research). "
                 f"Forcing publish_edition on next iteration."
             )
-            # The publish turn runs on a hard-trimmed history, so hand
-            # the model the exact URLs here rather than making it recall
-            # them from tool dumps that are about to be truncated.
             digest = _citable_sources_digest()
             messages.append({
                 "role": "user",
                 "content": (
                     f"You have made {research_calls} research tool calls "
                     f"(min required: {MIN_RESEARCH_CALLS}). Stop researching. "
-                    f"Do NOT call fetch_feeds, web_search, fetch_article, "
-                    f"or read_memory again. Your next and only tool call "
-                    f"must be publish_edition, populated from what you "
-                    f"have already fetched."
+                    f"Do NOT call fetch_feeds, web_search or read_memory "
+                    f"again. Your next tool call must be publish_edition, "
+                    f"citing only pieces you have read. Call fetch_article "
+                    f"only if publish_edition refuses a piece as unread."
                     + (f"\n\n{digest}" if digest else "")
                 ),
             })
