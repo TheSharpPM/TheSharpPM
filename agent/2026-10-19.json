@@ -1,0 +1,45 @@
+{
+  "edition": "2026-10-19",
+  "headline_theme": "AI Agents: Hype vs. Pragmatic Augmentation",
+  "target_audience": "Senior PM",
+  "hook_source": "Benedict Evans",
+  "editorial": "Benedict Evans’ recent essay, “AI, tools and transformation,” warns that a wave of AI‑powered tools will rewrite product economics. The headline‑grabbing claim is that agents will become the default interface, but the piece also admits the engineering overhead is massive. In practice, the most persuasive evidence comes from narrower deployments: Lenny Rachitsky’s note on a voice model that slashes video editing time for creators, and Product Talk’s deep‑dive into an AI voice agent for 360‑degree feedback, both of which expose the hidden cost of building full‑stack conversational layers.\n\nThe Information’s counter‑narrative doubles down on the hype, insisting that GPU scarcity is a temporary bottleneck and that “agent‑first” products will soon dominate. The reality sits between: AI can cut friction, but ROI evaporates when you chase the agent fantasy without a razor‑sharp problem. Teams that embed a model into an existing workflow—like the creator‑pipeline example—capture value quickly and sidestep the compute crunch. The engineering debt of a full conversational agent, as the Product Talk case shows, can outpace the modest user gains such agents often provide.\n\nSenior PMs, your leverage is in translating board‑level AI ambition into bite‑size, measurable outcomes. Insist on a problem‑first charter: define the exact decision or bottleneck the model will address before green‑lighting any agent‑style project. Prioritize reusable model components over bespoke agents, and tie every AI sprint to a concrete metric—time saved, error reduction, or revenue uplift. Delivering quick wins now preserves credibility with execs while keeping the door open for a true agent when the economics finally shift.",
+  "key_takeaways": [
+    "AI agents sound exciting but deliver diminishing returns without a tightly defined use‑case.",
+    "Embedding models into existing workflows yields faster ROI and avoids GPU‑scarcity bottlenecks.",
+    "Strategic product roadmaps must prioritize problem‑first AI initiatives over agent‑first fantasies."
+  ],
+  "must_reads": [
+    {
+      "source": "Benedict Evans",
+      "title": "AI, tools and transformation",
+      "url": "https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation",
+      "why": "Evans maps a sweeping vision of AI‑driven product economics but glosses over the heavy integration costs of full‑stack agents, prompting PMs to temper hype with realistic cost assessments."
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "title": "How I AI: Meta Muse Wonder + How Brooke Lacey is scaling video with AI",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-meta-muse-wonder-how-brooke",
+      "why": "Rachitsky demonstrates a laser‑focused AI deployment that delivers measurable creator productivity, proving narrow augmentations win over grandiose agent ambitions."
+    },
+    {
+      "source": "Product Talk",
+      "title": "Building an AI Voice Agent for 360 Degree Feedback: How Your360 AI Use",
+      "url": "https://www.producttalk.org/building-an-ai-voice-agent-for-360-degree-feedback-how-your360-ai-uses-state-machines-evals-and-layered-synthesis/",
+      "why": "PMs should treat this as a cautionary tale: the engineering debt of a conversational feedback agent quickly outpaces its modest user gains, making narrow augmentations far more sensible."
+    }
+  ],
+  "contrarian": {
+    "note": "The Information argues that compute scarcity will vanish and agent‑first products are inevitable, directly opposing the pragmatic, narrow‑use case stance.",
+    "source": "The Information",
+    "title": "Hype About AI ‘Agents’ Rises Again; Why GPUs Are So Hard to Find",
+    "url": "https://www.theinformation.com/newsletters/ai-agenda/hype-about-ai-agents-rises-again-why-gpus-are-so-hard-to-find"
+  },
+  "also_worth": [],
+  "pm_homework": [
+    "Audit every AI‑related epic: write a one‑sentence problem statement and ask whether a UI‑first augmentation could solve it cheaper.",
+    "Prototype a narrow AI feature that plugs into a current user flow, measure impact, and only then consider expanding to a conversational layer."
+  ],
+  "generated_at": "2026-10-19T18:44:26.966508+00:00",
+  "model_used": "openai/gpt-oss-120b"
+}

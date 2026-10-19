@@ -1,6 +1,11 @@
 {
   "editions": [
     {
+      "date": "2026-10-19",
+      "headline_theme": "AI Agents: Hype vs. Pragmatic Augmentation",
+      "file": "agent/2026-10-19.json"
+    },
+    {
       "date": "2026-10-11",
       "headline_theme": "Platform Gatekeeping Is the New Product Constraint",
       "file": "agent/2026-10-11.json"
@@ -131,5 +136,5 @@
       "file": "agent/2026-05-03.json"
     }
   ],
-  "updated_at": "2026-10-11T13:59:36.821368+00:00"
+  "updated_at": "2026-10-19T18:44:26.966864+00:00"
 }
