@@ -1,7 +1,119 @@
 {
-  "updated": "2026-10-20T09:48:01.087632+00:00",
-  "total": 877,
+  "updated": "2026-10-21T09:49:17.675861+00:00",
+  "total": 876,
   "items": [
+    {
+      "title": "Startups’ Most Expensive Mistake: Confusing Building a Product with Building a Business",
+      "url": "https://medium.com/@aycanaltinoz/startups-most-expensive-mistake-confusing-building-a-product-with-building-a-business-1a0c6ca77441?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-10-21T09:34:18+00:00",
+      "summary": "It has never been easier to bring a startup idea to life. Thanks to AI-powered development tools, ready-made infrastructure, cloud… Continue reading on Medium »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Almost 1,000 Interviews, Here’s What I Still Love About Hiring",
+      "url": "https://medium.com/@nedagolshan/almost-1-000-interviews-heres-what-i-still-love-about-hiring-aff75e95d95f?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-10-21T09:11:16+00:00",
+      "summary": "Continue reading on Medium »",
+      "tags": [
+        "Career"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Upsun: Product Manager",
+      "url": "https://weworkremotely.com/remote-jobs/upsun-product-manager",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-10-21T07:31:25+00:00",
+      "summary": "Headquarters: Remote • Germany, Canada, France, Spain or the UK About Upsun (formerly Platform.sh) Upsun is the cloud application platform humans and robots love. It is built for today’s hybrid teams, where AI agents write and test code and humans focus on solving the problems th...",
+      "tags": [
+        "AI Strategy",
+        "Career",
+        "Communication"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "AI Product Manager vs. Traditional Product Manager: What Changes With AI Products?",
+      "url": "https://medium.com/@sahilaggarawal/ai-product-manager-vs-traditional-pm-89a254b02eac?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-10-21T05:34:23+00:00",
+      "summary": "What changes when a product feature works perfectly in testing but delivers inconsistent or incorrect results once customers start using… Continue reading on Medium »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Acquisition Illusion",
+      "url": "https://medium.com/@hellosadri/the-acquisition-illusion-3c2ee6c3882e?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-10-20T22:59:16+00:00",
+      "summary": "Why Google’s Gemini Campaign Is Really About Activating Its Installed Base Continue reading on Medium »",
+      "tags": [
+        "AI Tools",
+        "Growth"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Mind-Bending Experiences - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "url": "https://www.producttalk.org/mind-bending-experiences-all-things-product-podcast-with-teresa-torres-petra-wille/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-10-20T13:00:54+00:00",
+      "summary": "Listen to this episode on: Spotify | Apple Podcasts Team events are making a comeback. After years of remote work and tight budgets, companies are bringing people together again, and many are looking for experiences that go beyond the usual offsite. So should companies deliberate...",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The invisible product:  Why operational design matters as much as UX",
+      "url": "https://www.productledalliance.com/the-invisible-product-why-operational-design-matters-as-much-as-ux/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-10-20T12:00:00+00:00",
+      "summary": "Great UX can’t hide broken operations. Learn why design must go deeper, by Shalini Mani, Senior Director of Product Management at Capital One.",
+      "tags": [
+        "Leadership"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Muse Spark Open, Meta + Apple, Thin and Thick",
+      "url": "https://stratechery.com/2026/muse-spark-open-meta-apple-thin-and-thick/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-10-20T10:00:00+00:00",
+      "summary": "Meta has a new open source model, and to everyone's surprise, they are are partnering with Apple to make sure you can run it locally.",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "What Happens When Everyone Has a Health Expert in Their Pocket? | OpenAI’s Karan Singhal",
+      "url": "https://a16z.simplecast.com/episodes/what-happens-when-everyone-has-a-health-expert-in-their-pocket-openais-karan-singhal-OIiX2t5T",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-10-20T10:00:00+00:00",
+      "summary": "More than 300 million people use ChatGPT for health and wellness questions each week. OpenAI’s Karan Singhal thinks that’s only the beginning: the longer-term goal is AI that can help people navigate their health proactively, while making trustworthy medical intelligence dramatic...",
+      "tags": [
+        "AI Tools",
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "AI Agents Know How to Pay. Do They Know When Not To?",
       "url": "https://medium.com/@jeffreypgoldberg/ai-agents-know-how-to-pay-do-they-know-when-not-to-c8d42f34cf2c?source=rss------product_management-5",
@@ -12,6 +124,30 @@
       "tags": [
         "AI Strategy",
         "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Woven Video",
+      "url": "https://www.producthunt.com/products/woven-video",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-10-20T09:27:15+00:00",
+      "summary": "Edit any video by chat, on a real Mac timeline Discussion | Link",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "LearnExcel",
+      "url": "https://www.producthunt.com/products/learnexcel",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-10-20T09:04:03+00:00",
+      "summary": "Learn Excel by typing real formulas, graded instantly Discussion | Link",
+      "tags": [
+        "Product Strategy"
       ],
       "is_fallback": true
     },
@@ -10770,156 +10906,6 @@
         "AI Strategy",
         "Automation",
         "Career"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Is the Product Operations Summit right for you?  A role-by-role, location-by-location guide",
-      "url": "https://www.productledalliance.com/is-the-product-operations-summit-right-for-you-faq/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-07-23T08:22:38+00:00",
-      "summary": "Considering attending our Product Operations Summit? This blog answers frequently asked questions to help you decide if the event is right for you.",
-      "tags": [
-        "Product Culture"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Saying No To Eighty Percent Of Customer Requests",
-      "url": "https://medium.com/@colelamphere/saying-no-to-eighty-percent-of-customer-requests-e2a3e1fd25be?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-07-23T07:36:33+00:00",
-      "summary": "The year we tried to please every operator nearly broke the product we set out to build Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Why the Best Software Teams Design for Change, Not Just Delivery",
-      "url": "https://techmigos.medium.com/why-the-best-software-teams-design-for-change-not-just-delivery-77f26a2a1de2?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-07-23T07:28:17+00:00",
-      "summary": "Every software project begins with optimism. Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Coinbase: Senior Software Engineer - Trading",
-      "url": "https://weworkremotely.com/remote-jobs/coinbase-senior-software-engineer-trading",
-      "source": "We Work Remotely",
-      "type": "job",
-      "date": "2026-07-23T07:05:02+00:00",
-      "summary": "Headquarters: Remote - Singapore Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a p...",
-      "tags": [
-        "Career",
-        "AI Strategy",
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Twilio: Senior Principal, Technical Program Management (Research & Development)",
-      "url": "https://weworkremotely.com/remote-jobs/twilio-senior-principal-technical-program-management-research-development",
-      "source": "We Work Remotely",
-      "type": "job",
-      "date": "2026-07-23T07:04:42+00:00",
-      "summary": "Headquarters: Remote - US Who we are At Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to hundreds of thousands of businesses and empower millions of developers worldwide to craft personalized customer experi...",
-      "tags": [
-        "Career",
-        "Communication",
-        "Metrics"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "The Purposeful Hybrid: Designing Agentic AI with Ancient Guardrails",
-      "url": "https://medium.com/@majurulez/the-purposeful-hybrid-designing-agentic-ai-with-ancient-guardrails-09a14f5f803e?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-07-23T06:55:50+00:00",
-      "summary": "Right now, product design teams have access to magic. Powered by advanced AI models, we can move from a simple thought to a working… Continue reading on Medium »",
-      "tags": [
-        "AI Strategy",
-        "Product Design"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Why Software Projects Fail Before Development Even Starts",
-      "url": "https://medium.com/@25-03443/why-software-projects-fail-before-development-even-starts-2ba60ccb0e20?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-07-23T06:35:22+00:00",
-      "summary": "The biggest reason software projects fail isn’t bad code it’s building the wrong solution to the wrong problem. Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Travis Kalanick Is Back | Building the Future of Industrial AI",
-      "url": "https://a16z.simplecast.com/episodes/travis-kalanick-is-back-building-the-future-of-industrial-ai-FA8ioD1f",
-      "source": "a16z Podcast",
-      "type": "podcast",
-      "date": "2026-07-22T21:26:58+00:00",
-      "summary": "Travis Kalanick, Ben Horowitz, and Erik Torenberg reunite to reflect on Uber's early days, the investment that almost happened, and why Kalanick believes the next great technology opportunity lies beyond software. They discuss the lessons of building Uber, the value of founder-le...",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "GTA DataCity",
-      "url": "https://www.producthunt.com/products/gta-datacity-san-francisco",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-07-22T19:59:04+00:00",
-      "summary": "San Francisco co-working dataset visualized, as a game! Discussion | Link",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Fikry",
-      "url": "https://www.producthunt.com/products/mis-trained-model-fikry",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-07-22T19:46:28+00:00",
-      "summary": "A mis-trained AI powered by bad data and confidence Discussion | Link",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Computer and browser use in Codex (5 real examples)",
-      "url": "https://www.lennysnewsletter.com/p/computer-and-browser-use-in-codex",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-07-22T12:03:38+00:00",
-      "summary": "Watch now | 🎙️ I show you exactly how I use browser use and computer use in Codex to QA my app, manage LinkedIn, and shop for Hawaii, including the under-prompting trick that makes frontier models work harder",
-      "tags": [
-        "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "OpenAI Hacks Hugging Face, What Happened, Alignment and Paper Clips",
-      "url": "https://stratechery.com/2026/openai-hacks-hugging-face-what-happened-alignment-and-paper-clips/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-07-22T10:00:00+00:00",
-      "summary": "OpenAI accidentally hacked Hugging Face, but the takeaways are more encouraging than people realize.",
-      "tags": [
-        "AI Tools",
-        "Stakeholders"
       ],
       "is_fallback": true
     }
