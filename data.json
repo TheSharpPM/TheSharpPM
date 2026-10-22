@@ -1,7 +1,156 @@
 {
-  "updated": "2026-10-21T09:49:17.675861+00:00",
-  "total": 876,
+  "updated": "2026-10-22T09:48:56.260806+00:00",
+  "total": 878,
   "items": [
+    {
+      "title": "Why Two Quotes for the Same Web App Can Be $60,000 Apart",
+      "url": "https://medium.com/@mohsinarshadazad.qa/why-web-app-quotes-vary-9759871c91f9?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-10-22T09:41:53+00:00",
+      "summary": "Scope, hidden line items and hourly rates explain most of the gap. Here is how to compare quotes properly. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "On Quitting, Privilege, and the Search for Purpose at 33",
+      "url": "https://medium.com/@tzeyingaw/on-quitting-privilege-and-the-search-for-purpose-at-33-a3088ee809a5?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-10-22T09:34:05+00:00",
+      "summary": "I’m 33 years old, and I am experiencing a full-blown existential crisis. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Maven Clinic: Director PM, Payments & Client Success",
+      "url": "https://weworkremotely.com/remote-jobs/maven-clinic-director-pm-payments-client-success",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-10-22T07:30:54+00:00",
+      "summary": "Headquarters: San Francisco, CA; Remote, US Maven Clinic is the world's largest virtual clinic for women and families on a mission to make healthcare work for all of us. Through Maven Enterprise, the company partners with more than 2,300 employers and health plans to provide end-...",
+      "tags": [
+        "Career",
+        "Growth",
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Christopher William Johnson and MasterCard debit: adoption as a product-strategy problem",
+      "url": "https://medium.com/@christopherwilliamjohnson/christopher-william-johnson-and-mastercard-debit-adoption-as-a-product-strategy-problem-edeca898a590?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-10-22T01:08:48+00:00",
+      "summary": "Professional history prepared from Christopher William Johnson’s firsthand account and supplied historical records, with AI-assisted… Continue reading on Medium »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Sponkly",
+      "url": "https://www.producthunt.com/products/sponkly",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-10-21T23:31:26+00:00",
+      "summary": "Live voice translation for chats, calls, meetings & YouTube Discussion | Link",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Claude Duet is beautiful. I still forgot to use it",
+      "url": "https://www.lennysnewsletter.com/p/claude-duet-is-beautiful-i-still",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-10-21T20:25:18+00:00",
+      "summary": "Watch now (16 mins) | 🎙️ I tested Claude Duet, Anthropic's beautifully designed new personal agent, on real work to see if it can beat my personal agent fatigue and make the cut",
+      "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "How to Build a B2B Product Strategy When the User Isn’t the Buyer",
+      "url": "https://medium.com/@the-ux-design-stack/how-to-build-a-b2b-product-strategy-when-the-user-isnt-the-buyer-1961518e4805?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-10-21T20:11:02+00:00",
+      "summary": "Selling to businesses and selling to consumers share one thing: you need a product people want. Beyond that, the rules are different. B2B… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Archivist",
+      "url": "https://www.producthunt.com/products/archivist",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-10-21T19:16:09+00:00",
+      "summary": "From messy filenames to shareable collections Discussion | Link",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Presented by Stripe",
+      "url": "https://stratechery.com/2026/presented-by-stripe/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-10-21T17:35:31+00:00",
+      "summary": "Stratechery is now presented by Stripe. What that means for me, for you, and for the future of Stratechery content.",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Experimentation, AI and the Product Model",
+      "url": "https://www.svpg.com/experimentation-ai-and-the-product-model/",
+      "source": "SVPG",
+      "type": "article",
+      "date": "2026-10-21T15:53:41+00:00",
+      "summary": "NOTE: This is a narrative form of a keynote for the Circus Austin Experimentation Conference. While experimentation can be found in various parts of a company, most people think of either product or marketing. This talk is focused on the product organization, the people responsib...",
+      "tags": [
+        "AI Strategy",
+        "Communication",
+        "Hardware Differentiation"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Netflix Earnings, Business or Franchise, Disney’s Deal",
+      "url": "https://stratechery.com/2026/netflix-earnings-business-or-franchise-disneys-deal/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-10-21T10:00:00+00:00",
+      "summary": "Netflix has a solid business, which is exactly the problem: the company increasingly seems like a business and not a franchise, at least in terms of growth.",
+      "tags": [
+        "Growth"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Missing Infrastructure for AI Agents: Documents | Reducto’s Adit Abraham",
+      "url": "https://a16z.simplecast.com/episodes/the-missing-infrastructure-for-ai-agents-documents-reductos-adit-abraham-Tf_0B_WM",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-10-21T10:00:00+00:00",
+      "summary": "AI agents can reason over enormous amounts of information, but much of the world’s actual work is still trapped in PDFs, spreadsheets, scans, and other formats that models struggle to reliably understand. Reducto co-founder and CEO Adit Abraham argues that solving this document l...",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Startups’ Most Expensive Mistake: Confusing Building a Product with Building a Business",
       "url": "https://medium.com/@aycanaltinoz/startups-most-expensive-mistake-confusing-building-a-product-with-building-a-business-1a0c6ca77441?source=rss------product_management-5",
@@ -326,6 +475,18 @@
       "summary": "AI features break the assumption every test pyramid was built on: that the same input produces the same output. Continue reading on Medium »",
       "tags": [
         "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Is the Product Operations Summit right for you?  A role-by-role, location-by-location guide",
+      "url": "https://www.productledalliance.com/is-the-product-operations-summit-right-for-you-faq/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-10-19T08:22:00+00:00",
+      "summary": "Considering attending our Product Operations Summit? This blog answers frequently asked questions to help you decide if the event is right for you.",
+      "tags": [
+        "Product Culture"
       ],
       "is_fallback": true
     },
@@ -10764,148 +10925,6 @@
         "AI Strategy",
         "Pricing",
         "Security"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Professional Website Maintenance Services for Businesses Across Canada",
-      "url": "https://medium.com/@farazarshad2002/professional-website-maintenance-services-for-businesses-across-canada-ba3e09d1ab9d?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-07-24T07:44:02+00:00",
-      "summary": "Why Professional Website Maintenance Services Are Essential for Businesses in Calgary, Toronto, Vancouver, and Beyond Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Saying No To Eighty Percent Of Customer Requests",
-      "url": "https://medium.com/@colelamphere/saying-no-to-eighty-percent-of-customer-requests-619d9d8b7c80?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-07-24T07:36:07+00:00",
-      "summary": "The year we tried to please every operator nearly buried the product Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "JetBrains: AI Technical Lead - C++ Ecosystem",
-      "url": "https://weworkremotely.com/remote-jobs/jetbrains-ai-technical-lead-cpp-ecosystem",
-      "source": "We Work Remotely",
-      "type": "job",
-      "date": "2026-07-24T07:01:22+00:00",
-      "summary": "Headquarters: Amsterdam, Netherlands; Belgrade, Serbia; Berlin, Germany; Limassol, Cyprus; London, United Kingdom; Madrid, Spain; Munich, Germany; Paphos, Cyprus; Prague, Czech Republic; Remote, Germany; Warsaw, Poland; Yerevan, Armenia AI is fundamentally changing how developers...",
-      "tags": [
-        "Career",
-        "AI Strategy",
-        "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Smartsheet: Director, Analyst Relations",
-      "url": "https://weworkremotely.com/remote-jobs/smartsheet-director-analyst-relations",
-      "source": "We Work Remotely",
-      "type": "job",
-      "date": "2026-07-24T07:01:22+00:00",
-      "summary": "Headquarters: -REMOTE, USA- For over 20 years, Smartsheet has empowered teams to manage work seamlessly and scale solutions smarter. Now, in our most ambitious chapter yet, we are uniting human teams with AI agents. By orchestrating the work agents do best, automating manual task...",
-      "tags": [
-        "Career",
-        "AI Strategy",
-        "Stakeholders"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "AI Made More Things Possible. It Didn’t Make More Things Valuable.",
-      "url": "https://medium.com/@ic-eight/ai-made-more-things-possible-it-didnt-make-more-things-valuable-407eff37515f?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-07-24T03:10:22+00:00",
-      "summary": "AI can now do things that were impossible, or absurdly expensive, a few years ago. Turn a photo into a poem. Summarize a painting. Rewrite… Continue reading on Medium »",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "What Trov Can Still Teach Us About Building Insurance Products",
-      "url": "https://medium.com/@marinaoliveirasm/what-trov-can-still-teach-us-about-building-insurance-products-b9872e43be68?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-07-23T23:08:35+00:00",
-      "summary": "A Harvard Business School case on product strategy and why challenging assumptions often matters more than building better features Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Customer.io Summer Release",
-      "url": "https://www.producthunt.com/products/customer-io",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-07-23T21:00:18+00:00",
-      "summary": "New ways to reach customers in the moments that matter Discussion | Link",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "The AI Productivity Paradox",
-      "url": "https://www.svpg.com/the-ai-productivity-paradox/",
-      "source": "SVPG",
-      "type": "article",
-      "date": "2026-07-23T18:22:04+00:00",
-      "summary": "We’ve been writing a lot lately about product teams that are clearly leveraging AI to deliver faster, yet their outcomes are not improving. Today, this phenomenon, known as the “AI Productivity Paradox,” has been recognized by people from across the industry. From the latest McKi...",
-      "tags": [
-        "AI Strategy",
-        "Communication",
-        "Hardware Differentiation"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "🔮 Will Kimi K3 change the economics of AI?",
-      "url": "https://www.exponentialview.co/p/will-kimi-k3-change-the-economics-of-ai",
-      "source": "Exponential View",
-      "type": "trend",
-      "date": "2026-07-23T14:16:26+00:00",
-      "summary": "The pressure is on",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Building AI for Women's Health: How Hertility Combined Bayesian Diagnosis and Scan Automation",
-      "url": "https://www.producttalk.org/building-ai-for-womens-health-how-hertility-combined-bayesian-diagnosis-and-scan-automation/",
-      "source": "Product Talk",
-      "type": "article",
-      "date": "2026-07-23T13:00:17+00:00",
-      "summary": "Listen to this episode on: Spotify | Apple Podcasts How do you build trustworthy AI diagnostic tools in one of medicine's most historically under-researched areas? In this episode of Just Now Possible , Teresa Torres talks with Tulsi Patel (Director of Product and Technology), Lo...",
-      "tags": [
-        "AI Strategy",
-        "Automation",
-        "Leadership"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Building the Physical AI Stack | Travis Kalanick on TBPN",
-      "url": "https://a16z.simplecast.com/episodes/building-the-physical-ai-stack-travis-kalanick-on-tbpn-pij0lvRd",
-      "source": "a16z Podcast",
-      "type": "podcast",
-      "date": "2026-07-23T10:00:00+00:00",
-      "summary": "Travis Kalanick joins TBPN to discuss Atoms, his vision for industrial AI, and why he believes the biggest opportunities in AI lie beyond software. He explains how Atoms is bringing autonomy to mining, logistics, and food production, why robotics will reshape physical industries,...",
-      "tags": [
-        "AI Strategy",
-        "Automation",
-        "Career"
       ],
       "is_fallback": true
     }
