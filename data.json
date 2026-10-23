@@ -1,7 +1,81 @@
 {
-  "updated": "2026-10-22T09:48:56.260806+00:00",
+  "updated": "2026-10-23T09:45:02.540998+00:00",
   "total": 878,
   "items": [
+    {
+      "title": "Why Business Growth Can Create Operational Challenges | Madasky",
+      "url": "https://medium.com/@sachdevrohit411/why-business-growth-can-create-operational-challenges-madasky-a28d0c67184a?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-10-23T09:12:01+00:00",
+      "summary": "A business can attract more customers, increase its sales and expand into new markets, yet find it increasingly difficult to manage… Continue reading on Medium »",
+      "tags": [
+        "Growth"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "What to Do After Product Launch: A Practical Guide for Founders",
+      "url": "https://medium.com/@weeklylaunches/what-to-do-after-product-launch-a-practical-guide-for-founders-4dc8ed09bd5b?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-10-23T09:10:33+00:00",
+      "summary": "A practical seven-day plan to understand your first users, fix product problems, and build a repeatable path to growth. Continue reading on Medium »",
+      "tags": [
+        "Growth"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Frontier Ideas a16z Wants to Fund | Marc Andreessen, Ben Horowitz & Chris Dixon",
+      "url": "https://a16z.simplecast.com/episodes/tbc-gRs50MgP",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-10-22T16:07:57+00:00",
+      "summary": "a16z is expanding a16z crypto into a16z Frontier, a broader mandate to back founders building at the edges of what's possible. Chris Dixon joins Marc Andreessen, Ben Horowitz, and Erik Torenberg to explain why founders should increasingly ask not “is this too ambitious?” but “is",
+      "tags": [
+        "AI Strategy",
+        "AI Tools",
+        "Hardware Differentiation"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Quando 500 usuários davam quase o mesmo trabalho que 15 mil",
+      "url": "https://medium.com/@giovanaarmidoro/quando-500-usu%C3%A1rios-davam-quase-o-mesmo-trabalho-que-15-mil-624731e554ed?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-10-22T15:21:58+00:00",
+      "summary": "As decisões de produto para reduzir o esforço operacional e preparar a plataforma para crescer. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The AI Feature Discovery Canvas: 7 Questions to Answer Before You Build Anything",
+      "url": "https://medium.com/@mauhhikthakkar/the-ai-feature-discovery-canvas-7-questions-to-answer-before-you-build-anything-647e14271d8e?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-10-22T14:01:06+00:00",
+      "summary": "A practical way to turn “we should add AI” into a validated user problem, a bounded solution, and a measurable product bet. Continue reading on Medium »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "An Interview with Craig Moffett About SpaceX and Bubbles",
+      "url": "https://stratechery.com/2026/an-interview-with-craig-moffett-about-spacex-and-bubbles/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-10-22T10:00:00+00:00",
+      "summary": "An interview with Craig Moffett about SpaceX, from launch to broadband to mobile, plus how he is applying the lessons of the dot-com bubble to today.",
+      "tags": [
+        "Career"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Why Two Quotes for the Same Web App Can Be $60,000 Apart",
       "url": "https://medium.com/@mohsinarshadazad.qa/why-web-app-quotes-vary-9759871c91f9?source=rss------product_management-5",
@@ -21,6 +95,18 @@
       "type": "article",
       "date": "2026-10-22T09:34:05+00:00",
       "summary": "I’m 33 years old, and I am experiencing a full-blown existential crisis. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Truffle",
+      "url": "https://www.producthunt.com/products/truffle-music-tag-editor",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-10-22T07:48:52+00:00",
+      "summary": "Fix messy tags, covers and duplicates in your Mac library Discussion | Link",
       "tags": [
         "Product Strategy"
       ],
@@ -4239,6 +4325,18 @@
       "type": "trend",
       "date": "2026-09-19T06:34:04+00:00",
       "summary": "We can see the dangers. But we can also see a practical solution.",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "MOVO AI",
+      "url": "https://www.producthunt.com/products/movo-ai",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-09-19T05:45:58+00:00",
+      "summary": "The world's first long-form video agent for mobile Discussion | Link",
       "tags": [
         "AI Strategy"
       ],
@@ -10827,104 +10925,6 @@
       "summary": "Search, organize and export every AI chat in one place Discussion | Link",
       "tags": [
         "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "localskills.sh",
-      "url": "https://www.producthunt.com/products/localskills-sh",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-07-25T08:56:27+00:00",
-      "summary": "AI Skill & MCP server management for teams & enterprises Discussion | Link",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "AI in Product Development That Works",
-      "url": "https://raftlabs.medium.com/ai-in-product-development-that-works-75d1748673e5?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-07-25T07:06:01+00:00",
-      "summary": "How product teams use AI to ship faster, reduce costs, and improve quality without creating new risks. Continue reading on Medium »",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "5 Signs Your Clinic Needs Management Software",
-      "url": "https://medium.com/@infoavamed0/5-signs-your-clinic-needs-management-software-83ee9ec4de13?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-07-25T06:54:43+00:00",
-      "summary": "How to Know It’s Time to Digitize Your Healthcare Practice Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "AI Isn’t the Future of Business. It Is the Future Operating Model.",
-      "url": "https://medium.com/@karthik_prdmgr/ai-isnt-the-future-of-business-it-is-the-future-operating-model-c6bf7432e39a?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-07-25T04:44:55+00:00",
-      "summary": "Why the Companies That Win Won’t Build the Best AI Models — They’ll Build the Best Decision Systems Continue reading on Medium »",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Claude Opus 5 review: this model is brilliant (but annoying)",
-      "url": "https://www.lennysnewsletter.com/p/claude-opus-5-review-this-model-is",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-07-24T17:15:25+00:00",
-      "summary": "Watch now | 🎙️ I ran Opus 5 through my seven-model benchmark, compared it with six other leading models, and came away with a verdict I genuinely didn’t expect",
-      "tags": [
-        "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "2026.30: The Copium Wars",
-      "url": "https://stratechery.com/2026/the-copium-wars/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-07-24T17:00:00+00:00",
-      "summary": "The best Stratechery content from the week of July 20, 2026 including Chinese models and frontier futures, what happened to Hugging Face, and the NBA and its second apron bet.",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Beehiiv. How a Morning Brew Engineer Took On Substack and Rebuilt Newsletter Infrastructure",
-      "url": "https://medium.com/@Khomichenko/beehiiv-how-a-morning-brew-engineer-took-on-substack-and-rebuilt-newsletter-infrastructure-018bceee8981?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-07-24T10:02:37+00:00",
-      "summary": "In 2017, Tyler Denk had a degree in mechanical engineering, $120,000 in student loans, and roughly $2.50 to his name. He was crashing in… Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Sriram Krishnan on Open Source AI's Biggest Week Yet",
-      "url": "https://a16z.simplecast.com/episodes/sriram-krishnan-on-open-source-ais-biggest-week-yet-1yfA3ln5",
-      "source": "a16z Podcast",
-      "type": "podcast",
-      "date": "2026-07-24T10:00:00+00:00",
-      "summary": "Sriram Krishnan joins Theo Jaffee and Sofia Puccini just after concluding his tenure as Senior White House Policy Advisor on AI to discuss one of the biggest weeks yet for open-source AI. They unpack the rapid release of models including Kimi K3 and Qwen, why open models are putt...",
-      "tags": [
-        "AI Strategy",
-        "Pricing",
-        "Security"
       ],
       "is_fallback": true
     }
