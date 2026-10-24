@@ -1,7 +1,133 @@
 {
-  "updated": "2026-10-23T09:45:02.540998+00:00",
-  "total": 878,
+  "updated": "2026-10-24T09:17:42.560855+00:00",
+  "total": 882,
   "items": [
+    {
+      "title": "Human Developer or AI Agent: The Same Management Approach",
+      "url": "https://medium.com/@urilaish/human-developer-or-ai-agent-the-same-management-approach-9862b1223d97?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-10-24T08:59:34+00:00",
+      "summary": "The approach I developed with a brilliant developer now guides my work with AI: I set the direction, give room to create, and keep… Continue reading on Medium »",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Cribl: Director, Product Management (Security)",
+      "url": "https://weworkremotely.com/remote-jobs/cribl-director-product-management-security",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-10-24T07:31:04+00:00",
+      "summary": "Headquarters: Remote - United States Join the company that’s building the telemetry infrastructure for the AI era. At Cribl, we partner with IT and Security teams at many of the world’s biggest enterprises, including half of the Fortune 100, to bridge the gap between AI ambition",
+      "tags": [
+        "Competitive Analysis",
+        "Career",
+        "Leadership"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Gusto, Inc.: Payment Operations Analyst",
+      "url": "https://weworkremotely.com/remote-jobs/gusto-inc-payment-operations-analyst",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-10-24T07:31:03+00:00",
+      "summary": "Headquarters: San Francisco, CA - Hybrid; Seattle, WA - Remote About Gusto At Gusto, we're on a mission to grow the small business economy. We handle the hard stuff — payroll, health insurance, 401(k)s, and HR — so owners can focus on their craft and their customers. With teams i...",
+      "tags": [
+        "Career",
+        "AI Strategy",
+        "Stakeholders"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The internet’s Wuhan moment",
+      "url": "https://www.exponentialview.co/p/the-internets-wuhan-moment",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-10-23T17:56:58+00:00",
+      "summary": "AI is turning every old bug into a serious problem. The Internet that survives will be safer--but less open.",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "When one project cannot justify a shared investment",
+      "url": "https://medium.com/@salmanasif5/when-one-project-cannot-justify-a-shared-investment-d0216ccf4c3f?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-10-23T17:03:35+00:00",
+      "summary": "How to assess reusable technical work across credible customer demand without assuming reuse will pay for itself. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "2026.43: A New Era",
+      "url": "https://stratechery.com/2026/a-new-era/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-10-23T17:00:00+00:00",
+      "summary": "The best Stratechery content from the week of October 19, 2026, including the best iPad but worst phone, SS Sarandos in a storm, and You Can See Everything.",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Becoming a Better PM with Anne: Product Strategy",
+      "url": "https://medium.com/@Anne_PM/becoming-a-better-pm-with-anne-product-strategy-cd23d3b8596e?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-10-23T16:30:25+00:00",
+      "summary": "Product Management Learning Series | Week 1 Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Product-Led Alliance Awards 2026:  Your shortlist",
+      "url": "https://www.productledalliance.com/product-led-alliance-awards-shortlist/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-10-23T12:10:43+00:00",
+      "summary": "Meet the shortlist for the Product-Led Alliance Awards 2026, from standout leaders to rising stars and teams.",
+      "tags": [
+        "Product Culture"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Sharp Tech on Video: Netflix Angst, the End of the Internet, and Meta’s VR Glasses",
+      "url": "https://stratechery.com/2026/sharp-tech-on-video-netflix-angst-the-end-of-the-internet-and-metas-vr-glasses/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-10-23T10:00:00+00:00",
+      "summary": "Sharp Tech is, for the first time, available on video. You have two ways to consume it: YouTube, and here on Stratechery",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Amazon CEO Andy Jassy on the $220 Billion AI Buildout",
+      "url": "https://a16z.simplecast.com/episodes/amazon-ceo-220-billion-still-cant-meet-ai-demand-3QzhqLQK",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-10-23T10:00:00+00:00",
+      "summary": "Amazon expects to spend roughly $220 billion in CapEx in 2026, yet CEO Andy Jassy says the company is still leaving meaningful AI demand on the table.** He believes the buildout could ultimately help make AWS a $1 trillion annual run-rate business. Andy joins a16z co-founder Ben",
+      "tags": [
+        "AI Strategy",
+        "Security"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Why Business Growth Can Create Operational Challenges | Madasky",
       "url": "https://medium.com/@sachdevrohit411/why-business-growth-can-create-operational-challenges-madasky-a28d0c67184a?source=rss------product_management-5",
@@ -123,6 +249,18 @@
         "Career",
         "Growth",
         "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Penta",
+      "url": "https://www.producthunt.com/products/penta-cd-player-changer",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-10-22T04:20:49+00:00",
+      "summary": "A ’90s 5-disc CD changer on iPhone Duo Discussion | Link",
+      "tags": [
+        "Product Strategy"
       ],
       "is_fallback": true
     },
@@ -272,6 +410,18 @@
         "AI Strategy",
         "Career",
         "Communication"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Shedi",
+      "url": "https://www.producthunt.com/products/shedi",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-10-21T06:38:11+00:00",
+      "summary": "Get back the space Xcode, Docker and node_modules ate Discussion | Link",
+      "tags": [
+        "Product Strategy"
       ],
       "is_fallback": true
     },
@@ -10826,105 +10976,6 @@
       "summary": "Listen now | Dianne Penn, Anthropic’s first PM, on the bets that made Claude dominant: the coding pivot, the eval-driven development loop, and what comes after coding is solved",
       "tags": [
         "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "AI Let Me Build 10x Faster. It Also Let Me Break Things 10x Faster.",
-      "url": "https://medium.com/@haseebrehman_78779/ai-let-me-build-10x-faster-it-also-let-me-break-things-10x-faster-5792c82b1311?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-07-26T07:58:27+00:00",
-      "summary": "Nobody puts this part in the pitch deck: if there’s a flaw in what you’re cloning from, you now ship it at the same speed you ship… Continue reading on Medium »",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "https://usadealshub2026.blogspot.com/2026/07/large-size-strapless-bra-invisible.html",
-      "url": "https://medium.com/@bcame210/https-usadealshub2026-blogspot-com-2026-07-large-size-strapless-bra-invisible-html-8fc3baee7646?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-07-26T06:27:32+00:00",
-      "summary": "Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "🔮 Copy that: The curious case of AI distillation #594",
-      "url": "https://www.exponentialview.co/p/ev-594",
-      "source": "Exponential View",
-      "type": "trend",
-      "date": "2026-07-26T02:43:29+00:00",
-      "summary": "Copy that. Plus: China's chip chase,",
-      "tags": [
-        "AI Strategy",
-        "Hardware Differentiation"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Three Failed Redesigns and the Hard Truth About Stakeholder Buy-In",
-      "url": "https://medium.com/@NiamhOS/three-failed-redesigns-and-the-hard-truth-about-stakeholder-buy-in-5372fc4d7d43?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-07-25T22:06:01+00:00",
-      "summary": "Great design does not die from bad pixels. It dies from bad politics. Here is how to survive the room. Continue reading on Medium »",
-      "tags": [
-        "Stakeholders"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Would Your Product Survive a User Testing Session Without a Script?",
-      "url": "https://medium.com/@DeShawn-Harris/would-your-product-survive-a-user-testing-session-without-a-script-079fcdd9636a?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-07-25T22:01:01+00:00",
-      "summary": "Scripts hide the truth. When you stop telling users what to do, you finally see how they actually think. Continue reading on Medium »",
-      "tags": [
-        "User Research"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "🧠 Community Wisdom: Staying on a client’s radar during pilot purgatory, pairing Linear with a discovery tool, the limits of what AI can automate, whether Techstars is worth it, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-staying-on-a-clients",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-07-25T16:01:44+00:00",
-      "summary": "Community Wisdom 194",
-      "tags": [
-        "AI Strategy",
-        "Community"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "AI YC interview with Gstack agents",
-      "url": "https://www.producthunt.com/products/gstack-joins-your-meeting",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-07-25T15:43:46+00:00",
-      "summary": "AI specialists that join your Google Meet and gives feedback Discussion | Link",
-      "tags": [
-        "AI Strategy",
-        "Career"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "AI Toolbox 3.0",
-      "url": "https://www.producthunt.com/products/chatgpt-toolbox",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-07-25T13:16:23+00:00",
-      "summary": "Search, organize and export every AI chat in one place Discussion | Link",
-      "tags": [
-        "AI Strategy"
       ],
       "is_fallback": true
     }
