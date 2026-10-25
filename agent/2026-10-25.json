@@ -1,0 +1,47 @@
+{
+  "edition": "2026-10-25",
+  "headline_theme": "AI Experimentation: Hype vs Real Impact",
+  "target_audience": "Lead/Principal PM",
+  "hook_source": "Lenny's Newsletter",
+  "editorial": "Lenny’s Newsletter warned that Claude Duet, despite its sleek interface, sits on the shelf because teams lack a disciplined way to turn AI output into measurable product moves. The piece cuts to the chase: even the most beautiful AI assistant is useless without an outcome‑first framework. Benedict Evans echoes this, noting that the latest wave of AI tools is sold as a silver bullet, yet most promised gains evaporate once the hype fades. He points out that generative models can churn out copy or mockups in seconds, but they rarely move the needle on core metrics that matter to users and the business.\n\nSVPG’s \"Predictability vs Outcomes\" reminds us that shipping predictable processes without clear outcome focus is a recipe for waste. The same authors argue that the true north of product work is impact on customer value, not the volume of experiments. The contrarian SVPG essay \"Experimentation, AI and the Product Model\" pushes back, claiming AI can actually elevate experimentation by automating hypothesis generation and data triage, suggesting we should double down on tooling rather than pull back.\n\nLead and Principal PMs sit at the nexus of strategy and execution, and they must decide whether to let AI tools dictate the roadmap or use them as disciplined assistants. First, audit every AI‑driven experiment against a concrete outcome metric—if the tool doesn’t tie to a user‑facing KPI, kill it. Second, champion an “outcome‑first” framework across squads, translating AI insights into hypothesis‑driven product bets. Third, educate senior leadership on the limits of AI hype, backing recommendations with hard data rather than glossy demos. In doing so, senior leaders will see AI as a catalyst, not a crutch, and the organization can avoid the false promise of endless experiments that never ship value.",
+  "key_takeaways": [
+    "AI tooling promises speed, but speed without outcome alignment is empty.",
+    "Predictable processes crumble when they’re not tied to clear customer‑value metrics.",
+    "Even the slickest AI assistants fail without a disciplined outcome‑first framework.",
+    "Automation of hypothesis work can boost experimentation, but only if the hypotheses are grounded in real user problems."
+  ],
+  "must_reads": [
+    {
+      "source": "Benedict Evans",
+      "title": "AI, tools and transformation",
+      "url": "https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation",
+      "why": "Evans cuts through the hype, showing that most AI tools add marginal speed but rarely shift core product outcomes—a caution every PM should internalize."
+    },
+    {
+      "source": "SVPG",
+      "title": "Predictability vs Outcomes",
+      "url": "https://www.svpg.com/predictability-vs-outcomes/",
+      "why": "The authors argue that predictable processes without outcome focus breed waste; this forces PMs to re‑anchor on impact rather than output."
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "title": "Claude Duet is beautiful. I still forgot to use it",
+      "url": "https://www.lennysnewsletter.com/p/claude-duet-is-beautiful-i-still",
+      "why": "Lenny shows how even a polished AI assistant stalls when teams lack a framework to convert its suggestions into measurable product moves."
+    }
+  ],
+  "contrarian": {
+    "note": "This piece argues that AI can fundamentally improve experimentation by automating hypothesis generation and data triage, urging PMs to lean into AI rather than retreat.",
+    "source": "SVPG",
+    "title": "Experimentation, AI and the Product Model",
+    "url": "https://www.svpg.com/experimentation-ai-and-the-product-model/"
+  },
+  "also_worth": [],
+  "pm_homework": [
+    "Audit all AI‑driven experiments this quarter for a direct link to a user‑facing KPI; shut down any that lack it.",
+    "Roll out an outcome‑first template for hypothesis formulation across your squads.",
+    "Prepare a one‑page briefing for senior leadership that quantifies AI tool ROI versus baseline metrics."
+  ],
+  "generated_at": "2026-10-25T12:33:04.733300+00:00",
+  "model_used": "openai/gpt-oss-120b"
+}

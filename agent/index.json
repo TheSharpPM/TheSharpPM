@@ -1,6 +1,11 @@
 {
   "editions": [
     {
+      "date": "2026-10-25",
+      "headline_theme": "AI Experimentation: Hype vs Real Impact",
+      "file": "agent/2026-10-25.json"
+    },
+    {
       "date": "2026-10-19",
       "headline_theme": "AI Agents: Hype vs. Pragmatic Augmentation",
       "file": "agent/2026-10-19.json"
@@ -136,5 +141,5 @@
       "file": "agent/2026-05-03.json"
     }
   ],
-  "updated_at": "2026-10-19T18:44:26.966864+00:00"
+  "updated_at": "2026-10-25T12:33:04.733605+00:00"
 }
