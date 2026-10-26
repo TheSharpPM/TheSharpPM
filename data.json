@@ -1,7 +1,131 @@
 {
-  "updated": "2026-10-25T09:34:35.394542+00:00",
+  "updated": "2026-10-26T10:43:32.551756+00:00",
   "total": 885,
   "items": [
+    {
+      "title": "Sprint capacity planning that survives holidays, leave and shared team members",
+      "url": "https://medium.com/@thofiqebag/sprint-capacity-planning-that-survives-holidays-leave-and-shared-team-members-77d4f14a0b77?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-10-26T10:31:01+00:00",
+      "summary": "Stop committing to velocity and start counting real hours Continue reading on Medium »",
+      "tags": [
+        "Engineering Velocity"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "I Tested Design References on 48 AI-Generated Pages. Looking Them Up Wasn’t Enough.",
+      "url": "https://medium.com/@PopovOnline/i-tested-design-references-on-48-ai-generated-pages-looking-them-up-wasnt-enough-7ed8a2027687?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-10-26T10:19:14+00:00",
+      "summary": "Mandatory lookup won 5 of 12 comparisons against a no-reference baseline. A workflow that also required design decisions won 8. The… Continue reading on Medium »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Building Features Doesn’t Mean Building a Great Product.",
+      "url": "https://medium.com/@boddusindhu2025/building-features-doesnt-mean-building-a-great-product-386a1c1a1122?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-10-26T10:02:58+00:00",
+      "summary": "Sometimes, the best product decision isn’t about adding something new. It’s about understanding what’s already going wrong. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The End of the Internet",
+      "url": "https://stratechery.com/2026/the-end-of-the-internet/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-10-26T10:00:00+00:00",
+      "summary": "The old Internet, where anyone could host a server is over, but it's just the final blow in an ending that has been coming for years. The future, though, is brighter than it appears.",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "OpenAI: When AI Agents Use Computers Faster Than You",
+      "url": "https://a16z.simplecast.com/episodes/openai-when-ai-agents-use-computers-faster-than-you-QLF23qpt",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-10-26T10:00:00+00:00",
+      "summary": "AI agents are approaching a point where they can use computers faster than expert humans, turning the user interface itself into a universal way for AI to interact with software. OpenAI’s Ari Weinstein and James Sun argue that computer use is now entering its scaling moment, as b...",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Reddit: Engineering Manager, Knowledge Graph Platform",
+      "url": "https://weworkremotely.com/remote-jobs/reddit-engineering-manager-knowledge-graph-platform",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-10-26T07:31:18+00:00",
+      "summary": "Headquarters: Remote - United States Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most",
+      "tags": [
+        "Career",
+        "AI Strategy",
+        "Platform Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "We Assumed an Indian Privacy Law Didn’t Apply to a US App.",
+      "url": "https://medium.com/@gmtasoftware/we-assumed-an-indian-privacy-law-didnt-apply-to-a-us-app-b64f4a04a831?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-10-26T06:54:21+00:00",
+      "summary": "Dana Whitfield’s first reaction to the questionnaire was relief that it wasn’t hers to answer. Stride, the fitness-coaching app she ran… Continue reading on Medium »",
+      "tags": [
+        "Privacy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "VibeiDE",
+      "url": "https://www.producthunt.com/products/vibeide",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-10-25T21:30:48+00:00",
+      "summary": "Queue agent tasks in parallel and review each result Discussion | Link",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "An 86-minute guide to finding PMF | Rob Snyder (Author, The Power of Pull)",
+      "url": "https://www.lennysnewsletter.com/p/an-86-minute-guide-to-finding-pmf",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-10-25T12:31:34+00:00",
+      "summary": "Listen now (86 mins) | The founder who helped over 50 startups hit $1M ARR shares his PULL framework for finding real product-market fit",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The New Startup Playbook | Box CEO Aaron Levie",
+      "url": "https://a16z.simplecast.com/episodes/the-new-startup-playbook-box-ceo-aaron-levie-I0FN5_nv",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-10-25T10:00:00+00:00",
+      "summary": "Can a 10-person startup outperform a company with hundreds of employees? Box CEO Aaron Levie argues AI agents are giving small teams a level of leverage that simply wasn't economically possible before, creating a window for startups to outrun incumbents. In this episode of Speedr...",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "What I Wish I Had Known Before I Started Writing About Product Management",
       "url": "https://medium.com/@an.anika.wuebben/what-i-wish-i-had-known-before-i-started-writing-about-product-management-866548640e3c?source=rss------product_management-5",
@@ -347,6 +471,18 @@
         "Career",
         "Growth",
         "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "PDF Accessibility Checker by WebYes",
+      "url": "https://www.producthunt.com/products/pdf-accessibility-checker",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-10-22T05:52:07+00:00",
+      "summary": "Find PDF accessibility issues for free, with fix guidance Discussion | Link",
+      "tags": [
+        "Product Strategy"
       ],
       "is_fallback": true
     },
@@ -10871,144 +11007,6 @@
       "summary": "Build less on instinct, and more on validated pain.",
       "tags": [
         "Product Culture"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Fei-Fei Li on Spatial Intelligence and Robotics",
-      "url": "https://a16z.simplecast.com/episodes/fei-fei-li-on-spatial-intelligence-and-robotics-j8HvsWJf",
-      "source": "a16z Podcast",
-      "type": "podcast",
-      "date": "2026-07-28T10:00:00+00:00",
-      "summary": "Last week, World Labs announced its acquisition of SceniX, bringing together two teams working on one of AI's biggest unsolved problems: how to give machines a true understanding of the physical world. Martin Casado sits down with Fei-Fei Li, co-founder and CEO of World Labs, cre...",
-      "tags": [
-        "AI Strategy",
-        "Growth"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Most feature requests are symptoms, not specs",
-      "url": "https://medium.com/@colelamphere/most-feature-requests-are-symptoms-not-specs-10fa6c93da7d?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-07-28T07:38:50+00:00",
-      "summary": "We say no to most of what operators ask for, and it is the most useful product work we do Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "What Makes Engineering Companies Truly Global Today",
-      "url": "https://medium.com/@sourabhkrgup/what-makes-engineering-companies-truly-global-today-3349eab38a92?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-07-28T07:24:37+00:00",
-      "summary": "Being recognized among the Top global engineering companies involves much more than operating in multiple countries. Global engineering… Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Product development — Series 1: Balancing product features, cost, and timing in new product…",
-      "url": "https://medium.com/@muditastrataegis01/product-development-series-1-balancing-product-features-cost-and-timing-in-new-product-cb3a6e7857ef?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-07-28T05:38:58+00:00",
-      "summary": "New product development is a complex process that involves several stages, from ideation to launch. Balancing product features, cost and… Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Why AI Adoption Isn’t ROI — The 5-Part Canvas (2026)",
-      "url": "https://medium.com/design-bootcamp/ai-feature-roi-canvas-2026-1f0d5724043d?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-07-28T04:56:09+00:00",
-      "summary": "The three dimensions of AI ROI that every boardroom framework skips — and the feature-level worksheet that catches them. Continue reading on Bootcamp »",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "🎙️ How I AI: Claude Opus 5 Review + Browser use in Codex + How Cursor and a Raspberry Pi makes AI fun",
-      "url": "https://www.lennysnewsletter.com/p/how-i-ai-claude-opus-5-review-browser",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-07-27T15:03:21+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
-      "tags": [
-        "AI Tools",
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "📈 Data to start your week",
-      "url": "https://www.exponentialview.co/p/data-to-start-your-week-27-07-2026",
-      "source": "Exponential View",
-      "type": "trend",
-      "date": "2026-07-27T14:15:47+00:00",
-      "summary": "Open models volume ↑ AI & productivity ↑ Kids in cities ↓",
-      "tags": [
-        "AI Strategy",
-        "Productivity"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "From zero coding background to hardware hacker: How Cursor + a Raspberry Pi makes AI fun",
-      "url": "https://www.lennysnewsletter.com/p/from-zero-coding-background-to-hardware",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-07-27T12:04:34+00:00",
-      "summary": "Watch now | 🎙️ Maddie Reese built a thermal printer anyone can message, a working Twitter pager, and a personal API using Cursor, a Raspberry Pi, and the radical idea that fun beats practical",
-      "tags": [
-        "AI Strategy",
-        "AI Tools",
-        "Hardware Differentiation"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "How to craft more effective  product problem statements",
-      "url": "https://www.productledalliance.com/problem-statements-to-anchor-product-development/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-07-27T11:24:00+00:00",
-      "summary": "A good problem statement concisely defines the key user needs and obstacles to address, without assuming specific solutions upfront. This focuses the team on the right challenges to solve versus just pushing features.",
-      "tags": [
-        "Product Culture"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Vacation: Week of July 27",
-      "url": "https://stratechery.com/2026/vacation-week-of-july-27/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-07-27T10:00:00+00:00",
-      "summary": "Stratechery is on vacation the week of July 27. There will be no Weekly Article or Updates. The next Update will be on Monday, August 3. Sharp Tech, and Greatest of All Talk will also return the week of August 3. Sharp China and Asianometry will continue to publish, and there wil...",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Steven Sinofsky: AI Doesn't Need New Rules Yet",
-      "url": "https://a16z.simplecast.com/episodes/steven-sinofsky-ai-doesnt-need-new-rules-yet-BuNOSzIn",
-      "source": "a16z Podcast",
-      "type": "podcast",
-      "date": "2026-07-27T10:00:00+00:00",
-      "summary": "Steven Sinofsky joins Theo Jaffee and Sofia Puccini for a conversation on AI regulation, open-source models, and what history can teach us about technological revolutions. Drawing on decades of experience leading products at Microsoft, Sinofsky argues that governments are rushing...",
-      "tags": [
-        "AI Strategy",
-        "Compliance"
       ],
       "is_fallback": true
     }
