@@ -6,3 +6,11 @@ feedparser==6.0.12
 requests==2.34.0
 groq==1.2.0
 langfuse==3.15.0
+
+# Transitive (via requests), pinned anyway: certifi is the CA bundle that
+# decides which certificates every HTTPS call trusts. 2026.10.23 follows
+# Mozilla on the October 2026 eMudhra compromise - emSign ECC Root CA -
+# G3, C1 and C3 removed, G1 kept. Do not go back to 2026.10.18: that
+# emergency release dropped all four emSign roots, including G1. Bump
+# promptly if Mozilla or Chrome distrust G1.
+certifi==2026.10.23
