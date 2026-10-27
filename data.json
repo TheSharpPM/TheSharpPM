@@ -1,7 +1,119 @@
 {
-  "updated": "2026-10-26T10:43:32.551756+00:00",
-  "total": 885,
+  "updated": "2026-10-27T10:12:34.959906+00:00",
+  "total": 886,
   "items": [
+    {
+      "title": "Reinventing School for the AI Era | Joe Liemandt, Gagan Biyani & Erik Torenberg",
+      "url": "https://a16z.simplecast.com/episodes/reinventing-school-for-the-ai-era-joe-liemandt-gagan-biyani-erik-torenberg-qpcIrpfu",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-10-27T10:00:00+00:00",
+      "summary": "What should school look like if AI can help students learn dramatically faster? Alpha School founder Joe Liemandt argues the answer isn’t to fill the extra time with more academics, but to redesign school around the skills traditional classrooms struggle to teach: agency, teamwor...",
+      "tags": [
+        "AI Strategy",
+        "Communication"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "I Built a Product for 10,000 Users. Here’s Why 90% of Them Left.",
+      "url": "https://medium.com/@tohbie.adelaja/i-built-a-product-for-10-000-users-heres-why-90-of-them-left-5d5eef4f94ff?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-10-27T09:57:12+00:00",
+      "summary": "Let me tell you about the most humbling moment of my career. Continue reading on Medium »",
+      "tags": [
+        "Career"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Feature Request Myth: What the Kano Model Says Customers Actually Notice",
+      "url": "https://medium.com/@covalescuandrei433/the-feature-request-myth-what-the-kano-model-says-customers-actually-notice-842b19191e7b?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-10-27T09:18:57+00:00",
+      "summary": "Customers don’t reward every improvement equally. Noriaki Kano’s 1984 model explains which features earn delight, which only prevent anger… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Spec Is the Bottleneck, Not the Model",
+      "url": "https://medium.com/@davidyosuanto/the-spec-is-the-bottleneck-not-the-model-4d9ec9c50462?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-10-27T09:01:57+00:00",
+      "summary": "Coding agents removed typing as the constraint. They moved it upstream to specification, and most teams have not staffed that shift. Continue reading on Medium »",
+      "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "When every feature makes sense, but the product doesn’t",
+      "url": "https://medium.com/design-bootcamp/when-every-feature-makes-sense-but-the-product-doesnt-f01d7c07d750?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-10-26T21:26:25+00:00",
+      "summary": "How teams settle disagreements, and who ends up paying for it. Continue reading on Bootcamp »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "📈 Monday data: For science the bottleneck isn’t intelligence",
+      "url": "https://www.exponentialview.co/p/monday-data-for-science-the-bottleneck",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-10-26T15:25:11+00:00",
+      "summary": "AI already improves AI. Whether that compounds across the sciences depends on the field.",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Product operations  job description templates",
+      "url": "https://www.productledalliance.com/product-operations-job-description-templates-framework/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-10-26T15:02:51+00:00",
+      "summary": "Hire the right product ops talent at every level.",
+      "tags": [
+        "Career"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🎙️ How I AI: Claude Duet honest review + Why Reddit built its own AI prototyping tool",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-claude-duet-honest-review",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-10-26T15:00:53+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Why Reddit built its own AI prototyping tool | Blair Metcalf",
+      "url": "https://www.lennysnewsletter.com/p/why-reddit-built-its-own-ai-prototyping",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-10-26T12:04:20+00:00",
+      "summary": "Watch now (30 mins) | 🎙️ Reddit’s principal UX engineer shows how a custom Figma MCP and Cursor pipeline takes any designer from blank slate to shareable, production-shaped prototype in minutes—no Git required",
+      "tags": [
+        "Product Design",
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Sprint capacity planning that survives holidays, leave and shared team members",
       "url": "https://medium.com/@thofiqebag/sprint-capacity-planning-that-survives-holidays-leave-and-shared-team-members-77d4f14a0b77?source=rss------product_management-5",
@@ -681,6 +793,18 @@
       "tags": [
         "AI Tools",
         "Growth"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Coachare",
+      "url": "https://www.producthunt.com/products/coachare",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-10-20T13:39:05+00:00",
+      "summary": "Your potential. Unlocked. Discussion | Link",
+      "tags": [
+        "Product Strategy"
       ],
       "is_fallback": true
     },
@@ -1482,6 +1606,18 @@
       "type": "trend",
       "date": "2026-10-14T18:39:26+00:00",
       "summary": "Study a chess position, then rebuild it from memory Discussion | Link",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Orbit",
+      "url": "https://www.producthunt.com/products/orbit-app-blocker",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-10-14T14:54:42+00:00",
+      "summary": "Stop doomscrolling. Earn every app unlock. Discussion | Link",
       "tags": [
         "Product Strategy"
       ],
@@ -10885,128 +11021,6 @@
       "summary": "Turn YouTube into your personal learning platform Discussion | Link",
       "tags": [
         "Platform Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "AI Micro Dramas, Generative Media, and the Future of Creativity",
-      "url": "https://a16z.simplecast.com/episodes/ai-micro-dramas-generative-media-and-the-future-of-creativity-ZbK1xyzO",
-      "source": "a16z Podcast",
-      "type": "podcast",
-      "date": "2026-07-29T10:00:00+00:00",
-      "summary": "Justine Moore, partner at Andreessen Horowitz, joins New Economies to explore the rapid evolution of generative media and why AI-native content is reaching an inflection point. They discuss the rise of AI micro-dramas, how creators are building entirely new forms of entertainment...",
-      "tags": [
-        "AI Strategy",
-        "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "I Built a Radiology AI Agent",
-      "url": "https://medium.com/@shreeparasnathexports/i-built-a-radiology-ai-agent-56739aa0eb11?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-07-29T08:02:43+00:00",
-      "summary": "Continue reading on Medium »",
-      "tags": [
-        "AI Strategy",
-        "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Why Your Day-2 Email Might Be the Most Important Email You Send",
-      "url": "https://medium.com/@tabassumsiddiq/why-your-day-2-email-might-be-the-most-important-email-you-send-fde1a7c20ef2?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-07-29T07:06:54+00:00",
-      "summary": "Everyone obsesses over the welcome email. Almost nobody thinks hard about what comes next. Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Why WeChat Pay Can’t Be Copied in Europe. And What That Means for Fintech",
-      "url": "https://medium.com/@and.yakush/why-wechat-pay-cant-be-copied-in-europe-and-what-that-means-for-fintech-338638dda25c?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-07-29T06:20:01+00:00",
-      "summary": "The most dramatic product expansion in financial history relied on conditions Europe doesn’t have. The lesson isn’t “build a super-app.” Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Poth Labs",
-      "url": "https://www.producthunt.com/products/poth-labs",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-07-29T04:59:40+00:00",
-      "summary": "The customer brain for your company Discussion | Link",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "What If We Need Less Localized Content?",
-      "url": "https://medium.com/@ic-eight/what-if-we-need-less-localized-content-c1770462ac52?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-07-29T01:35:27+00:00",
-      "summary": "This week, several localization companies were talking about the future. Phrase is moving toward “Language Intelligence.” Lokalise is… Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Task Monki",
-      "url": "https://www.producthunt.com/products/task-monki",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-07-28T21:38:08+00:00",
-      "summary": "Run coding agents through the full development process Discussion | Link",
-      "tags": [
-        "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Onset MCP",
-      "url": "https://www.producthunt.com/products/onset-io",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-07-28T21:30:24+00:00",
-      "summary": "Write and publish release notes from your AI assistant Discussion | Link",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "11 products I love, free for a year—the biggest Product Pass expansion in 2 years",
-      "url": "https://www.lennysnewsletter.com/p/productpass-summer2026launch",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-07-28T15:54:24+00:00",
-      "summary": "Runway, Higgsfield, Waking Up, Brain.fm, Customer.io, Resend, Pangram, Mercury Personal, Supercut, Readwise, and Jam are joining Product Pass today, all included with Annual and Insider memberships",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Product managers need a  problem-first mindset",
-      "url": "https://www.productledalliance.com/product-managers-need-a-problem-first-mindset/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-07-28T12:00:16+00:00",
-      "summary": "Build less on instinct, and more on validated pain.",
-      "tags": [
-        "Product Culture"
       ],
       "is_fallback": true
     }
