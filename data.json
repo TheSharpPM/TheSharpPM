@@ -1,7 +1,169 @@
 {
-  "updated": "2026-10-27T10:12:34.959906+00:00",
-  "total": 886,
+  "updated": "2026-10-28T10:58:49.636407+00:00",
+  "total": 893,
   "items": [
+    {
+      "title": "You were named product owner because you know the business. What about the rest of the job?",
+      "url": "https://medium.com/analysts-corner/you-were-named-product-owner-because-you-know-the-business-what-about-the-rest-of-the-job-04e347922cad?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-10-28T10:23:31+00:00",
+      "summary": "A product owner appointed from inside the company needs more than business knowledge. Here’s how to check whether you have what the job… Continue reading on Analyst’s corner »",
+      "tags": [
+        "Career"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Meta Earnings, Muse and the Frontier, Musebook",
+      "url": "https://stratechery.com/2026/meta-earnings-muse-and-the-frontier-musebook/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-10-28T10:06:13+00:00",
+      "summary": "Meta's earnings come in the context of Zuckerberg delivering on his promise; if investors believe in Muse they must support Meta's spending on compute.",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Mark Cuban’s Plan to Make Healthcare Affordable",
+      "url": "https://a16z.simplecast.com/episodes/mark-cubans-plan-to-make-healthcare-affordable-mwTxnVYe",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-10-28T10:00:00+00:00",
+      "summary": "Mark Cuban thinks AI could transform healthcare, but it won’t fix opaque prices and broken incentives on its own. His starting point for employers: run every benefits contract through AI and ask where you’re getting ripped off. Mark joins a16z General Partner Julie Yoo and Erik T...",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Computer Hardware and Networking Course: A 6-Point Checklist Before You Enrol",
+      "url": "https://medium.com/@panchalutkarsh.308/computer-hardware-and-networking-course-a-6-point-checklist-before-you-enrol-80e1ca7035e9?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-10-28T09:36:20+00:00",
+      "summary": "Every office, school, and hospital depends on computers and networks that work, and someone has to keep them running. Continue reading on Medium »",
+      "tags": [
+        "Hardware Differentiation"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Storyblok: Senior Database Reliability Engineer I - Germany/Austria/UK",
+      "url": "https://weworkremotely.com/remote-jobs/storyblok-senior-database-reliability-engineer-i-germany-austria-uk",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-10-28T07:31:13+00:00",
+      "summary": "Headquarters: Remote Storyblok is a headless CMS that enables marketers and developers to create with joy and publish with confidence. It empowers you to deliver structured and consistent content everywhere: websites, apps, AI search, and beyond. Legendary brands like Virgin Medi...",
+      "tags": [
+        "Security",
+        "Career",
+        "Communication"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Carrot: Product Design Lead",
+      "url": "https://weworkremotely.com/remote-jobs/carrot-product-design-lead",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-10-28T07:31:07+00:00",
+      "summary": "Headquarters: Remote About Carrot: Carrot is the leading global fertility and family care platform, built on intelligent care orchestration: the right clinical guidance, at the right moment, in the context of each member’s life. More than a thousand multinational employers, healt...",
+      "tags": [
+        "Career",
+        "Product Design",
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "“I Don’t Care If Jack Ma Wants It”: What Alibaba Taught Me About Ruthless Prioritization",
+      "url": "https://medium.com/@talal.gill/i-dont-care-if-jack-ma-wants-it-what-alibaba-taught-me-about-ruthless-prioritization-936187be04db?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-10-28T05:55:39+00:00",
+      "summary": "One day at Daraz, I left a one-line note in a product review: the Next and Previous buttons on step 3 are on the bottom left. On every… Continue reading on Medium »",
+      "tags": [
+        "Prioritization"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Why Tactical Patience Is Your Greatest Superpower in a High-Velocity Tech World",
+      "url": "https://medium.com/@karanchauhan1131/why-tactical-patience-is-your-greatest-superpower-in-a-high-velocity-tech-world-c5e909fa4b15?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-10-28T04:01:01+00:00",
+      "summary": "In an industry addicted to instant feedback loops, the ability to hold steady when momentum flat-lines separates sustainable builders from… Continue reading on Medium »",
+      "tags": [
+        "Engineering Velocity"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🔮 Anthropic’s S-1 in charts",
+      "url": "https://www.exponentialview.co/p/anthropics-s-1-in-charts",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-10-27T17:31:56+00:00",
+      "summary": "Watch now (34 mins) | Anthropic’s S-1 should finally address the elephant in the room: is AI real?",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Open For sales",
+      "url": "https://www.producthunt.com/products/open-for-sales",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-10-27T15:27:12+00:00",
+      "summary": "Your next sales campaign is one prompt away Discussion | Link",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Defining What Good Looks Likes - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "url": "https://www.producttalk.org/defining-what-good-looks-likes-all-things-product-podcast-with-teresa-torres-petra-wille/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-10-27T13:00:15+00:00",
+      "summary": "Listen to this episode on: Spotify | Apple Podcasts AI evals feel like a brand-new skill — but the hardest part is a question product teams have always had to answer: what does \"good\" actually look like? Petra Wille and Teresa Torres dig into Teresa's recent",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Second Reader:  How to build a website AI agents trust",
+      "url": "https://www.productledalliance.com/how-to-build-a-website-ai-agents-trust/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-10-27T12:00:00+00:00",
+      "summary": "AI agents research your product and recommend it before customers ever see it. Learn how to build a persona for this buyer.",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Anthropic S-1, The Cost of Compute, Who Is Paying?",
+      "url": "https://stratechery.com/2026/anthropic-s-1-the-cost-of-compute-who-is-paying/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-10-27T10:32:57+00:00",
+      "summary": "Anthropic's IPO is finally here; the core business is very profitable, but competition may eat all of the profits, even as investors are set up for endless dilution.",
+      "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Reinventing School for the AI Era | Joe Liemandt, Gagan Biyani & Erik Torenberg",
       "url": "https://a16z.simplecast.com/episodes/reinventing-school-for-the-ai-era-joe-liemandt-gagan-biyani-erik-torenberg-qpcIrpfu",
@@ -1385,6 +1547,19 @@
         "AI Strategy",
         "AI Tools",
         "Security"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Trigger.dev: Webhooks for your AI agents",
+      "url": "https://www.producthunt.com/products/trigger-dev",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-10-16T09:30:22+00:00",
+      "summary": "Run AI agents with Slack, Supabase and 50+ other services Discussion | Link",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
       ],
       "is_fallback": true
     },
@@ -10935,92 +11110,6 @@
       "summary": "Discover the five core patterns of product thinking and learn how to translate your everyday skills into a successful product career.",
       "tags": [
         "Career"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "AI for America's Small Businesses | Lassie",
-      "url": "https://a16z.simplecast.com/episodes/ai-for-americas-small-businesses-lassie-bwImYMRh",
-      "source": "a16z Podcast",
-      "type": "podcast",
-      "date": "2026-07-30T10:00:00+00:00",
-      "summary": "Alex Rampell and Olivia Moore speak with Lassie cofounders Steijn Pelle and Frédéric Renken about bringing AI to one of the most overlooked parts of the economy: small businesses. Inspired by time spent working inside dental practices, Pelle and Renken set out to automate the adm...",
-      "tags": [
-        "AI Strategy",
-        "AI Tools",
-        "Automation"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Saying no to eighty percent of customer requests",
-      "url": "https://medium.com/@colelamphere/saying-no-to-eighty-percent-of-customer-requests-95cb93148bd4?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-07-30T07:38:55+00:00",
-      "summary": "The year we tried to build everything operators asked for nearly broke the product we already had Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "AI Is Making Developers Faster. It’s Not Making Software Better.",
-      "url": "https://medium.com/@amroar/ai-is-making-developers-faster-its-not-making-software-better-2a250941d2a7?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-07-30T07:31:46+00:00",
-      "summary": "Speed and quality are not the same thing. The industry is about to learn that the hard way. Continue reading on Medium »",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Does Your Business Need a Mobile App?",
-      "url": "https://medium.com/@diliphembram121/does-your-business-need-a-mobile-app-7412e401461f?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-07-30T06:58:29+00:00",
-      "summary": "A mobile application is valuable when it improves a frequent customer or business workflow. Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "FloodWatch: Building a Community-Powered Flood Intelligence Platform.",
-      "url": "https://medium.com/@sandraidoko231/floodwatch-building-a-community-powered-flood-intelligence-platform-b0196134b3e2?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-07-30T06:38:07+00:00",
-      "summary": "A Product Management Case Study Continue reading on Medium »",
-      "tags": [
-        "Platform Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Port22",
-      "url": "https://www.producthunt.com/products/port22",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-07-29T20:50:08+00:00",
-      "summary": "Claude Code, Codex & more on your phone Discussion | Link",
-      "tags": [
-        "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Focus Room",
-      "url": "https://www.producthunt.com/products/focus-room",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-07-29T17:02:29+00:00",
-      "summary": "Turn YouTube into your personal learning platform Discussion | Link",
-      "tags": [
-        "Platform Strategy"
       ],
       "is_fallback": true
     }
