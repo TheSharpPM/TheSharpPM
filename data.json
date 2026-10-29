@@ -1,7 +1,120 @@
 {
-  "updated": "2026-10-28T10:58:49.636407+00:00",
-  "total": 893,
+  "updated": "2026-10-29T11:15:55.881427+00:00",
+  "total": 896,
   "items": [
+    {
+      "title": "An Interview with Palantir CTO Shyam Sankar About the AI Religious War",
+      "url": "https://stratechery.com/2026/an-interview-with-palantir-cto-shyam-sankar-about-the-ai-religious-war/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-10-29T10:00:00+00:00",
+      "summary": "An interview with Palantir CTO Shyam Sankar about AI diffusion and safety, forward-deployed engineer, and what the battle in tech is actually about.",
+      "tags": [
+        "AI Strategy",
+        "Career"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Design Thinking: Why Half My Process Happens Before the First Idea",
+      "url": "https://praveenjoshi007.medium.com/design-thinking-why-half-my-process-happens-before-the-first-idea-8fda95fd0f5d?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-10-29T09:40:10+00:00",
+      "summary": "“Design thinking is a misnomer; it is more about doing than thinking. Bias toward doing and making over thinking and meeting.” – d.school Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Case study. When users don’t know who to call: designing Bricio",
+      "url": "https://medium.com/design-bootcamp/case-study-when-users-dont-know-who-to-call-designing-bricio-bec1343561d4?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-10-29T09:36:49+00:00",
+      "summary": "How a friend’s story and prototype research shaped a home repair assistant Continue reading on Bootcamp »",
+      "tags": [
+        "Product Design"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Typeform: Senior AI Engineer - EU",
+      "url": "https://weworkremotely.com/remote-jobs/typeform-senior-ai-engineer-eu",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-10-29T07:30:52+00:00",
+      "summary": "Headquarters: Germany (Remote) ; Ireland (Remote); Netherlands (Remote) ; Portugal (Remote) ; Spain (Remote) ; United Kingdom (Remote) Who we are Typeform is a refreshingly different form builder. We help over 150,000 businesses collect the data they need with forms, surveys, and...",
+      "tags": [
+        "Career",
+        "AI Strategy",
+        "Data"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Typeform: Senior AI Engineer - US",
+      "url": "https://weworkremotely.com/remote-jobs/typeform-senior-ai-engineer-us",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-10-29T07:30:52+00:00",
+      "summary": "Headquarters: United States (Remote) Who we are Typeform is a refreshingly different form builder. We help over 150,000 businesses collect the data they need with forms, surveys, and quizzes that people enjoy. Designed to look striking and feel effortless to fill out, Typeform dr...",
+      "tags": [
+        "Career",
+        "AI Strategy",
+        "Data"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Does Anyone Actually Use OKRs Properly?",
+      "url": "https://medium.com/practical-agilist/does-anyone-actually-use-okrs-properly-895701c7c55d?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-10-28T19:17:40+00:00",
+      "summary": "Start by dropping the word “cascade” Continue reading on Practical Agilist »",
+      "tags": [
+        "Metrics"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "When one customer starts choosing your market",
+      "url": "https://medium.com/@salmanasif5/when-one-customer-starts-choosing-your-market-9e8ff678f56c?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-10-28T18:14:37+00:00",
+      "summary": "A profitable contract can restrict the next sale. Evaluate the commitments, not just the funded work. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "AI Product Summit Berlin, Oct 2026",
+      "url": "https://www.productledalliance.com/ai-product-summit-berlin-oct-2026/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-10-28T13:11:31+00:00",
+      "summary": "Catch up on every session from AI Product Summit Berlin with sessions from the likes of SAP, Auros and Coople.",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Grok vs. Dot vs. Muse vs. Claude Duet: which one crushes the competition?",
+      "url": "https://www.lennysnewsletter.com/p/grok-vs-dot-vs-muse-vs-claude-duet",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-10-28T12:04:22+00:00",
+      "summary": "Listen now | 🎙️ I ranked Grok Bot, Dot, Muse, and Claude Duet across 9 real tasks—and the scores told me which agent runs my work and which runs my life",
+      "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "You were named product owner because you know the business. What about the rest of the job?",
       "url": "https://medium.com/analysts-corner/you-were-named-product-owner-because-you-know-the-business-what-about-the-rest-of-the-job-04e347922cad?source=rss------product_management-5",
@@ -99,6 +212,18 @@
       "summary": "In an industry addicted to instant feedback loops, the ability to hold steady when momentum flat-lines separates sustainable builders from… Continue reading on Medium »",
       "tags": [
         "Engineering Velocity"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Confetti",
+      "url": "https://www.producthunt.com/products/confetti-5",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-10-27T23:51:07+00:00",
+      "summary": "Build hardware projects using plain-English prompts Discussion | Link",
+      "tags": [
+        "Hardware Differentiation"
       ],
       "is_fallback": true
     },
@@ -633,6 +758,19 @@
       "summary": "A practical seven-day plan to understand your first users, fix product problems, and build a repeatable path to growth. Continue reading on Medium »",
       "tags": [
         "Growth"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Gologin Cloud Browser",
+      "url": "https://www.producthunt.com/products/gologin",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-10-22T17:53:59+00:00",
+      "summary": "Cloud browser for AI agents and tough sites Discussion | Link",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
       ],
       "is_fallback": true
     },
@@ -11011,105 +11149,6 @@
       "summary": "A 3-step framework for getting ruthless about priorities, before it costs you a quarter. Continue reading on Medium »",
       "tags": [
         "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "How Enterprise AI Really Gets Deployed",
-      "url": "https://a16z.simplecast.com/episodes/decagons-playbook-for-building-enterprise-ai-applications-VB3G3VC1",
-      "source": "a16z Podcast",
-      "type": "podcast",
-      "date": "2026-07-31T10:00:00+00:00",
-      "summary": "Sarah Wang and Kimberly Tan are joined by Jesse Zhang and Ashwin Sreenivas, co-founders of Decagon, to discuss the evolution of enterprise AI agents, why the company increasingly relies on open-source models, and how it is helping some of the world’s largest companies deploy AI i...",
-      "tags": [
-        "AI Strategy",
-        "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "I Tested the Best Website Monitoring Tools in 2026 — Here’s What I Found",
-      "url": "https://medium.com/@ahmetkaplan.dev/i-tested-the-best-website-monitoring-tools-in-2026-heres-what-i-found-8fe76b0eb262?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-07-31T08:06:45+00:00",
-      "summary": "Website monitoring has evolved far beyond simply checking whether a page is online. Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Saying No To Eighty Percent Of Customer Requests",
-      "url": "https://medium.com/@colelamphere/saying-no-to-eighty-percent-of-customer-requests-7cf61ebe21ae?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-07-31T07:37:19+00:00",
-      "summary": "Most of them are symptoms of a workflow problem the customer cannot see. Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "EBANX: Group Product Manager | Argentina",
-      "url": "https://weworkremotely.com/remote-jobs/ebanx-group-product-manager-argentina",
-      "source": "We Work Remotely",
-      "type": "job",
-      "date": "2026-07-31T07:31:02+00:00",
-      "summary": "Headquarters: Remote in Buenos Aires EBANX is one of the most successful fintechs to emerge from Latin America — and today, we are building a truly global payments company. Our mission has remained constant from day one: to unlock access and enable companies and consumers to part...",
-      "tags": [
-        "Career",
-        "Competitive Analysis",
-        "Prioritization"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Product Vision vs MVP: How to Ship Faster Without Designing a Dead-End Product",
-      "url": "https://medium.productcoalition.com/product-vision-vs-mvp-how-to-ship-faster-without-designing-a-dead-end-product-d877ab8c0c96?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-07-30T15:02:44+00:00",
-      "summary": "What I learned about scoping a first release without cutting off the product’s future, from shipping the official Albanian Volleyball… Continue reading on Product Coalition »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "From Fragmented Information to a Unified Product: Designing and Shipping the Official Albanian…",
-      "url": "https://medium.productcoalition.com/from-fragmented-information-to-a-unified-product-designing-and-shipping-the-official-albanian-03801c08741b?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-07-30T14:52:53+00:00",
-      "summary": "How I took the Albanian Volleyball Federation from a scattered, offline product to a released mobile app, while keeping the full product… Continue reading on Product Coalition »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "🔮 For AI adopters, success and failure look identical — at first",
-      "url": "https://www.exponentialview.co/p/ai-adoption-j-curve",
-      "source": "Exponential View",
-      "type": "trend",
-      "date": "2026-07-30T11:01:20+00:00",
-      "summary": "Modelling the AI J-curve",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Recognizing the product thinking  you already do",
-      "url": "https://www.productledalliance.com/recognizing-the-product-thinking-you-already-do/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-07-30T11:00:18+00:00",
-      "summary": "Discover the five core patterns of product thinking and learn how to translate your everyday skills into a successful product career.",
-      "tags": [
-        "Career"
       ],
       "is_fallback": true
     }
