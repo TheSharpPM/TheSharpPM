@@ -1,7 +1,128 @@
 {
-  "updated": "2026-10-29T11:15:55.881427+00:00",
-  "total": 896,
+  "updated": "2026-10-30T11:10:27.177993+00:00",
+  "total": 899,
   "items": [
+    {
+      "title": "Your Life Is a Backlog With No Product Manager",
+      "url": "https://medium.com/product-powerhouse/your-life-is-a-backlog-with-no-product-manager-6a34d6b980a2?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-10-30T11:01:34+00:00",
+      "summary": "Why capable, ambitious people end up busy for years and ship almost nothing, and the fix product teams use every week Continue reading on Product Powerhouse »",
+      "tags": [
+        "Prioritization"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Why Your Approval Process Is Slow (and a 6-Step Method to Fix It)",
+      "url": "https://medium.com/@salvador.jimenez-juarez/why-your-approval-process-is-slow-and-a-6-step-method-to-fix-it-079b99f994ad?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-10-30T11:01:32+00:00",
+      "summary": "A step-by-step Business Analysis method you can apply to any approval workflow that keeps stalling Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Sharp Tech on Video: Anthropic’s S-1 and What It Means for Meta and Muse, You Can See Everything, and Brewers!",
+      "url": "https://stratechery.com/2026/sharp-tech-on-video-anthropics-s-1-and-what-it-means-for-meta-and-muse-you-can-see-everything-and-brewers/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-10-30T10:00:00+00:00",
+      "summary": "Sharp Tech is, for the first time, available on video. You have three ways to consume it: YouTube, Spotify, and here on Stratechery.",
+      "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Why AI Could Turn Small Law Firms Into Billion-Dollar Businesses",
+      "url": "https://a16z.simplecast.com/episodes/why-ai-could-turn-small-law-firms-into-billion-dollar-businesses-e8YNZDux",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-10-30T10:00:00+00:00",
+      "summary": "What happens when AI makes legal work cheap enough to take cases lawyers couldn't afford to touch before? Eve CEO Jay Madheswaran argues that AI won't just cut costs for law firms. It could expand access to legal representation by making an entirely new class of cases economicall...",
+      "tags": [
+        "AI Strategy",
+        "Communication"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "GTM Labs | November 2027",
+      "url": "https://www.productledalliance.com/gtm-labs-november-2027/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-10-30T09:35:37+00:00",
+      "summary": "Summary unavailable.",
+      "tags": [
+        "Product Culture"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "GTM Labs | October 2027",
+      "url": "https://www.productledalliance.com/gtm-labs-october-2027/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-10-30T09:35:25+00:00",
+      "summary": "Summary unavailable.",
+      "tags": [
+        "Product Culture"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "EP109 Why the Best Leaders Give Context, Not Direction with Norma Løvhaugen (Neat.no) and Jay Stansell",
+      "url": "https://www.productcoalition.com/p/ep109-why-the-best-leaders-give-context",
+      "source": "Product Coalition",
+      "type": "article",
+      "date": "2026-10-30T09:00:59+00:00",
+      "summary": "A team can deliver exactly what a customer requested and still solve the wrong problem.",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "AI advises. You decide.",
+      "url": "https://medium.com/@christine.petrosyan_64263/ai-advises-you-decide-98e6f021ff0c?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-10-29T15:46:36+00:00",
+      "summary": "Set it up to help you, not to do the job instead of you. Continue reading on Medium »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Startups Rebuilding American Industry | The AD50",
+      "url": "https://a16z.simplecast.com/episodes/the-startups-rebuilding-american-industry-the-ad50-ZBbH0YCR",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-10-29T13:50:00+00:00",
+      "summary": "America’s defense, energy, manufacturing, and robotics booms are increasingly becoming one story: the rebuilding of the country’s industrial base. This year’s AD50 highlights the companies building across that stack, from critical materials and factories to the systems they ultim...",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🤖 Microsoft is making room for machines",
+      "url": "https://www.exponentialview.co/p/microsoft-is-making-room-for-machines",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-10-29T13:15:09+00:00",
+      "summary": "Why a firm with the fattest margins in its history is letting a quarter of its staff go",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "An Interview with Palantir CTO Shyam Sankar About the AI Religious War",
       "url": "https://stratechery.com/2026/an-interview-with-palantir-cto-shyam-sankar-about-the-ai-religious-war/",
@@ -64,6 +185,18 @@
         "Career",
         "AI Strategy",
         "Data"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Kestrix",
+      "url": "https://www.producthunt.com/products/kestrix",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-10-28T20:26:10+00:00",
+      "summary": "Repo-agnostic CI control plane with DAG-based triggers. Discussion | Link",
+      "tags": [
+        "Product Strategy"
       ],
       "is_fallback": true
     },
@@ -200,6 +333,19 @@
       "summary": "One day at Daraz, I left a one-line note in a product review: the Next and Previous buttons on step 3 are on the bottom left. On every… Continue reading on Medium »",
       "tags": [
         "Prioritization"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Vaani Developer Platform",
+      "url": "https://www.producthunt.com/products/vaani-developer-platfrom",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-10-28T05:20:54+00:00",
+      "summary": "The only voice AI harness that you'll ever need Discussion | Link",
+      "tags": [
+        "Platform Strategy",
+        "AI Strategy"
       ],
       "is_fallback": true
     },
@@ -11041,114 +11187,6 @@
       "summary": "The fastest workflow for developing with AI Discussion | Link",
       "tags": [
         "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "From Idea to Execution Blueprint in Exactly 60 Seconds",
-      "url": "https://medium.com/@AI_Factory_Platform/from-idea-to-execution-blueprint-in-exactly-60-seconds-3fd761093cce?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-08-01T07:40:59+00:00",
-      "summary": "The blank page is the most formidable obstacle in product design. When a founder or software engineer conceives a new product idea, their… Continue reading on Medium »",
-      "tags": [
-        "Product Design"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "A Florist Asked Me to Fix Her Prices. It Turned Into a Six-Week Rabbit Hole.",
-      "url": "https://kodlodev.medium.com/a-florist-asked-me-to-fix-her-prices-it-turned-into-a-six-week-rabbit-hole-8f5122960d01?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-08-01T07:37:35+00:00",
-      "summary": "A client reached out a while back — she runs a flower shop, WooCommerce store, maybe 200 products. Her problem sounded simple on the phone… Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "📚 My non-obvious summer reading list",
-      "url": "https://www.exponentialview.co/p/my-non-obvious-summer-reading-list-2026",
-      "source": "Exponential View",
-      "type": "trend",
-      "date": "2026-08-01T06:07:26+00:00",
-      "summary": "A bit older, a bit left field",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Capptivo",
-      "url": "https://www.producthunt.com/products/capptivo",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-08-01T04:40:38+00:00",
-      "summary": "Free open-source screen recorder & demo editor Discussion | Link",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Strategy Is Easy. Execution Is Hard.",
-      "url": "https://medium.com/@karthik_prdmgr/strategy-is-easy-execution-is-hard-ece4e132ea22?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-08-01T01:59:14+00:00",
-      "summary": "Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "EssayKraft",
-      "url": "https://www.producthunt.com/products/essaykraft",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-07-31T18:27:31+00:00",
-      "summary": "Native essay writing app for Mac and iPad Discussion | Link",
-      "tags": [
-        "Communication"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "EP108 Why Product Teams Slow Down as Companies Scale — And What to Do About It",
-      "url": "https://www.productcoalition.com/p/ep108-why-product-teams-slow-down",
-      "source": "Product Coalition",
-      "type": "article",
-      "date": "2026-07-31T17:03:04+00:00",
-      "summary": "Summary",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Zen Whisper",
-      "url": "https://www.producthunt.com/products/zen-whisper",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-07-31T14:55:35+00:00",
-      "summary": "On-device Mac dictation that types into any app Discussion | Link",
-      "tags": [
-        "Hardware Differentiation"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "How do you decide what to build next when everything feels important?",
-      "url": "https://xenabler-digital.medium.com/how-do-you-decide-what-to-build-next-when-everything-feels-important-eb3c138f20d2?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-07-31T12:01:01+00:00",
-      "summary": "A 3-step framework for getting ruthless about priorities, before it costs you a quarter. Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
       ],
       "is_fallback": true
     }
