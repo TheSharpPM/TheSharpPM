@@ -1,7 +1,95 @@
 {
-  "updated": "2026-10-30T11:10:27.177993+00:00",
-  "total": 899,
+  "updated": "2026-10-31T10:44:37.687346+00:00",
+  "total": 897,
   "items": [
+    {
+      "title": "How to Turn One Creative Workflow Into Hundreds of Product Images",
+      "url": "https://medium.com/@agentdocks/how-to-turn-one-creative-workflow-into-hundreds-of-product-images-870e4864c709?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-10-31T10:40:00+00:00",
+      "summary": "How AI automation is changing creative production for brands managing hundreds or thousands of products. Continue reading on Medium »",
+      "tags": [
+        "AI Strategy",
+        "Automation"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Can AI Fix Professional Networking? | Inside Cosign",
+      "url": "https://a16z.simplecast.com/episodes/can-ai-fix-professional-networking-inside-cosign-Qm0xoOue",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-10-31T10:00:00+00:00",
+      "summary": "What if finding your next job, co-founder, or collaborator depended less on a resume and more on who is willing to vouch for you? Cosign is building a professional network around those signals, with the longer-term goal of giving AI agents access to the relationship and reputatio...",
+      "tags": [
+        "AI Strategy",
+        "AI Tools",
+        "Career"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "An Identity & Fraud PM’s Love Letter to KBA: Some Legacies Are Worth Killing",
+      "url": "https://medium.com/@shreyashashank/an-identity-fraud-pms-love-letter-to-kba-some-legacies-are-worth-killing-a3cab86ef9a1?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-10-31T09:13:36+00:00",
+      "summary": "Why I replaced knowledge-based authentication with layered identity verification, and what happened to conversion and compliance Continue reading on Medium »",
+      "tags": [
+        "Compliance",
+        "Security"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "AC Bridge",
+      "url": "https://www.producthunt.com/products/ac-bridge",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-10-31T04:20:01+00:00",
+      "summary": "Your smart lights show when Claude Code or Codex needs you. Discussion | Link",
+      "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "You launched it. But where did it land?",
+      "url": "https://bridalpearson.medium.com/you-launched-it-but-where-did-it-land-f4de392ab1f0?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-10-31T01:10:48+00:00",
+      "summary": "You launched it. But where did it land? Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "2026.44: At Long Last…",
+      "url": "https://stratechery.com/2026/at-long-last/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-10-30T17:00:00+00:00",
+      "summary": "The best Stratechery content from the week of October 26, 2026 including Anthropic numbers, the end of the Internet as we know it, and autocracies then and now.",
+      "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Fastest Way to Build the Wrong Thing",
+      "url": "https://medium.com/@makssoud.abdelrahman/the-fastest-way-to-build-the-wrong-thing-dcebb3d19092?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-10-30T16:28:44+00:00",
+      "summary": "AI has made execution cheap. That makes our decisions the expensive part. Continue reading on Medium »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Your Life Is a Backlog With No Product Manager",
       "url": "https://medium.com/product-powerhouse/your-life-is-a-backlog-with-no-product-manager-6a34d6b980a2?source=rss------product_management-5",
@@ -84,6 +172,18 @@
       "summary": "A team can deliver exactly what a customer requested and still solve the wrong problem.",
       "tags": [
         "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "BaseTab AI",
+      "url": "https://www.producthunt.com/products/basetab-ai",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-10-29T17:41:03+00:00",
+      "summary": "Turn your new tab into an AI-powered workspace Discussion | Link",
+      "tags": [
+        "AI Strategy"
       ],
       "is_fallback": true
     },
@@ -11061,132 +11161,6 @@
         "AI Strategy",
         "Communication",
         "Product Design"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "ShootClip",
-      "url": "https://www.producthunt.com/products/shootclip",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-08-02T10:43:52+00:00",
-      "summary": "Edit videos 10x faster with AI Discussion | Link",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Multi-Agent Systems Aren’t a Tech Decision. They’re an Organizational Redesign in Disguise.",
-      "url": "https://medium.com/@tmucb.all/multi-agent-systems-arent-a-tech-decision-they-re-an-organizational-redesign-in-disguise-07cbb492e044?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-08-02T07:45:13+00:00",
-      "summary": "Multi-agent AI systems are rarely just a technical engineering choice. Underneath the clean architecture diagrams, they function as an… Continue reading on Medium »",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "EBANX: Product Manager | South Cone",
-      "url": "https://weworkremotely.com/remote-jobs/ebanx-product-manager-south-cone",
-      "source": "We Work Remotely",
-      "type": "job",
-      "date": "2026-08-02T07:30:49+00:00",
-      "summary": "Headquarters: Buenos Aires | Remote At EBANX , we believe barriers were made to be broken. We started our story in Curitiba, Brazil, and today we are a global company, present in more than 29 countries, with offices in Curitiba, São Paulo, Shanghai, Singapore, and Johannesburg .",
-      "tags": [
-        "Career",
-        "Competitive Analysis",
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "PURPLE Isn’t a Game Launcher. It’s NCSOFT’s Quiet Bet on the “Super-App” Model",
-      "url": "https://medium.com/@brainofcthulu/purple-isnt-a-game-launcher-it-s-ncsoft-s-quiet-bet-on-the-super-app-model-56c5e4122be0?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-08-02T06:50:45+00:00",
-      "summary": "Most people still describe PURPLE as “NCSOFT’s launcher.” Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "When the Event Ends: How Platforms Can Keep Spike-Driven Users",
-      "url": "https://medium.com/@bhavleennkaur/when-the-event-ends-how-platforms-can-keep-spike-driven-users-dc8b5bbb7ed2?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-08-02T06:42:48+00:00",
-      "summary": "A product case study on event-driven growth, with a practical framework for retention, using Indian OTT and news apps as examples. Continue reading on Medium »",
-      "tags": [
-        "Growth",
-        "Platform Strategy",
-        "Retention"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "🔮 Leopold & exponential markets; transformative GLP-1s; runaway AI & the future of safety++ #595",
-      "url": "https://www.exponentialview.co/p/ev-595",
-      "source": "Exponential View",
-      "type": "trend",
-      "date": "2026-08-02T03:19:05+00:00",
-      "summary": "Plus: AI agents as citizen rights, protein & longevity, nervous Europe",
-      "tags": [
-        "AI Strategy",
-        "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "I Thought Google Wanted a Number. They Were Actually Testing My Thinking. | Part 02",
-      "url": "https://imharshal11.medium.com/i-thought-google-wanted-a-number-they-were-actually-testing-my-thinking-part-02-3f7213833913?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-08-01T18:54:48+00:00",
-      "summary": "Continuing from Part 1 Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "🧠 Community Wisdom: Getting started with open source models, making a U.S. business trip worth it, preparing for a possible layoff, when marketing can’t keep up with product, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-getting-started",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-08-01T17:25:18+00:00",
-      "summary": "Community Wisdom 195",
-      "tags": [
-        "Community"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Marc Andreessen and Chris Dixon: What’s at Stake in Crypto Regulation",
-      "url": "https://a16z.simplecast.com/episodes/marc-andreessen-and-chris-dixon-whats-at-stake-in-crypto-regulation-2sleSszn",
-      "source": "a16z Podcast",
-      "type": "podcast",
-      "date": "2026-08-01T15:38:28+00:00",
-      "summary": "Marc Andreessen, Chris Dixon, and Robert Hackett discuss one of the most consequential policy debates facing the crypto industry: the push for comprehensive U.S. market structure legislation and what regulatory clarity could mean for innovation, financial markets, and America's t...",
-      "tags": [
-        "Compliance",
-        "Leadership"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "agent-manager",
-      "url": "https://www.producthunt.com/products/agent-manager",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-08-01T14:19:18+00:00",
-      "summary": "The fastest workflow for developing with AI Discussion | Link",
-      "tags": [
-        "AI Strategy"
       ],
       "is_fallback": true
     }
