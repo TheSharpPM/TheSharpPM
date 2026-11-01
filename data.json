@@ -1,7 +1,111 @@
 {
-  "updated": "2026-10-31T10:44:37.687346+00:00",
-  "total": 897,
+  "updated": "2026-11-01T11:39:18.029206+00:00",
+  "total": 898,
   "items": [
+    {
+      "title": "A/B Testing With 500 Users: What You Can Actually Detect (and What to Decide on Judgment)",
+      "url": "https://medium.com/@syed_ali/a-b-testing-with-500-users-what-you-can-actually-detect-and-what-to-decide-on-judgment-bc9705a2edba?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-11-01T11:26:11+00:00",
+      "summary": "AB testing sample size for startups with hundreds of users decides what a test can see before it runs. At 500 users per arm, modest lifts… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Astrology App Development: 7 Decisions to Make Before You Build",
+      "url": "https://medium.com/@digittrix/astrology-app-development-7-decisions-to-make-before-you-build-7d63fc446231?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-11-01T11:18:39+00:00",
+      "summary": "Plan your astrology app’s features, consultations, payments, integrations, and launch requirements before hiring developers. Continue reading on Medium »",
+      "tags": [
+        "Career"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Doze pessoas são obrigadas a usar seu produto e ele tem roadmap trimestral",
+      "url": "https://medium.com/@leandro-raposo/doze-pessoas-s%C3%A3o-obrigadas-a-usar-seu-produto-e-ele-tem-roadmap-trimestral-2a25171a84bb?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-11-01T11:01:02+00:00",
+      "summary": "Existe um Squad, em alguma empresa de médio porte brasileira, cujo OKR trimestral inclui aumentar a adoção de um sistema de roteirização… Continue reading on Medium »",
+      "tags": [
+        "Metrics",
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "How Bending Spoons Built a $20 Billion Compounder | Luca Ferrari",
+      "url": "https://a16z.simplecast.com/episodes/how-bending-spoons-built-a-20-billion-compounder-luca-ferrari-etgfvfs0",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-11-01T11:00:00+00:00",
+      "summary": "Can relentless optimization create as much value as breakthrough invention? Bending Spoons CEO Luca Ferrari argues that radical innovation can produce extraordinary outcomes, but systematic improvement can be more dependable, especially when paired with a model designed to compou...",
+      "tags": [
+        "AI Strategy",
+        "Growth",
+        "Platform Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "ZoomInfo Technologies LLC: Principal Product Manager - Identity",
+      "url": "https://weworkremotely.com/remote-jobs/zoominfo-technologies-llc-principal-product-manager-identity",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-11-01T07:31:04+00:00",
+      "summary": "Headquarters: Remote-US ZoomInfo is where careers accelerate. We move fast, think boldly, and empower you to do the best work of your life. You’ll be surrounded by teammates who care deeply, challenge each other, and celebrate wins. With tools that amplify your impact and a cultu...",
+      "tags": [
+        "Career",
+        "Communication",
+        "Competitive Analysis"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Product Leadership Starts Where the Roadmap Ends",
+      "url": "https://medium.com/@ankursingh2k14/product-leadership-starts-where-the-roadmap-ends-ba881127b24e?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-11-01T06:13:57+00:00",
+      "summary": "Why delivering more isn’t always the same as creating more value. Continue reading on Medium »",
+      "tags": [
+        "Leadership",
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🔮 39 charts on Anthropic, one-person biotech firm & cheap solar #608",
+      "url": "https://www.exponentialview.co/p/ev-608",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-11-01T03:54:37+00:00",
+      "summary": "Bigger and smaller all at the same time",
+      "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🧠 Community Wisdom: The biggest sources of interruptions for PMs, hiring junior PMs with case studies vs. behavioral interviews, building a product harness for AI-driven development, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-the-biggest-sources",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-10-31T16:14:41+00:00",
+      "summary": "Community Wisdom 304",
+      "tags": [
+        "Career",
+        "AI Strategy",
+        "Community"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "How to Turn One Creative Workflow Into Hundreds of Product Images",
       "url": "https://medium.com/@agentdocks/how-to-turn-one-creative-workflow-into-hundreds-of-product-images-870e4864c709?source=rss------product_management-5",
@@ -172,6 +276,18 @@
       "summary": "A team can deliver exactly what a customer requested and still solve the wrong problem.",
       "tags": [
         "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Usage for Claude + ChatGPT 4.0",
+      "url": "https://www.producthunt.com/products/usage-for-claude",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-10-29T21:38:31+00:00",
+      "summary": "Claude + ChatGPT limits on your Mac, iPhone, iPad and Watch Discussion | Link",
+      "tags": [
+        "AI Tools"
       ],
       "is_fallback": true
     },
@@ -593,6 +709,19 @@
       "summary": "How teams settle disagreements, and who ends up paying for it. Continue reading on Bootcamp »",
       "tags": [
         "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Riverside Agents",
+      "url": "https://www.producthunt.com/products/riverside-fm",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-10-26T17:33:37+00:00",
+      "summary": "A team of AI agents for video: produce, edit, clip, post Discussion | Link",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
       ],
       "is_fallback": true
     },
@@ -11049,118 +11178,6 @@
       "tags": [
         "AI Tools",
         "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Meta Earnings, Meta’s Timing Problems, The Financial Tail",
-      "url": "https://stratechery.com/2026/meta-earnings-metas-timing-problems-the-financial-tail/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-08-03T10:00:00+00:00",
-      "summary": "Meta's earnings were a bit disappointing; future promises about AI products were more disconcerting.",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Copiar, externalizar o hacerlo en casa",
-      "url": "https://manuarjo.medium.com/copiar-externalizar-o-hacerlo-en-casa-5d560fb76db1?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-08-03T08:37:04+00:00",
-      "summary": "Ante casi cualquier funcionalidad nueva tienes tres caminos: copiar lo que ya hace otro, externalizarlo a un tercero, o construirlo con tu… Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Copiar, externalizar o hacerlo en casa",
-      "url": "https://manuarjo.medium.com/copiar-externalizar-o-hacerlo-en-casa-5d560fb76db1?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-08-03T08:37:04+00:00",
-      "summary": "Ante casi cualquier funcionalidad nueva tienes tres caminos: copiar lo que ya hace otro, externalizarlo a un tercero, o construirlo con tu… Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "The Awkward Truth About Managing the Designers Who Used to Be Your Peers",
-      "url": "https://medium.com/@Baran-Ozdemir/the-awkward-truth-about-managing-the-designers-who-used-to-be-your-peers-93b22590ab40?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-08-03T08:20:08+00:00",
-      "summary": "Promotion does not erase history. Here is how to navigate the complex shift from coworker to leader without losing their trust or your own… Continue reading on Medium »",
-      "tags": [
-        "Product Design"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Building Product-Driven Engineering Teams: Connecting Field Insights to Product Strategy",
-      "url": "https://medium.com/@hngondoki/building-product-driven-engineering-teams-connecting-field-insights-to-product-strategy-1df71dfad028?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-08-03T07:54:51+00:00",
-      "summary": "We had a system that worked technically. But the people using it had stopped trusting it. That is the honest starting point many… Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Murmell",
-      "url": "https://www.producthunt.com/products/murmell",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-08-03T02:46:50+00:00",
-      "summary": "Cloud canvas where your team and AI agents works together Discussion | Link",
-      "tags": [
-        "AI Strategy",
-        "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "ZapDigits MCP",
-      "url": "https://www.producthunt.com/products/zapdigits",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-08-02T18:39:13+00:00",
-      "summary": "The MCP server for marketing data Discussion | Link",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "This CPO regrets that product management exists | Tom Verrilli (CPO of Whatnot)",
-      "url": "https://www.lennysnewsletter.com/p/this-cpo-regrets-that-product-management",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-08-02T12:32:02+00:00",
-      "summary": "Listen now | Tom Verrilli explains why fewer, more senior PMs doing real IC work outperform any ratio-driven org structure",
-      "tags": [
-        "Career",
-        "Leadership"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Ruby Thelot on Internet Culture, AI, and the Future of Taste",
-      "url": "https://a16z.simplecast.com/episodes/ruby-thelot-on-internet-culture-ai-and-the-future-of-taste-CvhHSpzt",
-      "source": "a16z Podcast",
-      "type": "podcast",
-      "date": "2026-08-02T10:46:36+00:00",
-      "summary": "Sophia Dew and Sofia Puccini are joined by Ruby Thelot, designer, artist, cyberethnographer, professor at NYU, and founder of 13101401, for a wide-ranging conversation about internet culture, AI, digital communities, and how technology is reshaping the way we relate to one anothe...",
-      "tags": [
-        "AI Strategy",
-        "Communication",
-        "Product Design"
       ],
       "is_fallback": true
     }
