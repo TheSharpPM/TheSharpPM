@@ -1,0 +1,47 @@
+{
+  "edition": "2026-11-01",
+  "headline_theme": "AI Tokens Have Become a Core Product Lever",
+  "target_audience": "Staff PM",
+  "hook_source": "Stratechery",
+  "editorial": "Ben Thompson’s \"At Long Last…\" in Stratechery declares the AI‑token market has finally shed its hype‑fuel and entered a pricing regime that feels more like a commodity than a meme. The headline‑grabbing dip reported by Bloomberg – a sharp contraction in token valuations over the past six months – confirms the shift, while the 39‑chart deep‑dive from Exponential View lays out the supply‑demand dynamics now driving that volatility. As product leaders, we can no longer pretend these tokens are a side‑show; they’re becoming a core component of product economics.\n\nSVPG’s \"Experimentation, AI and the Product Model\" shows why treating AI tokens as a feature flag is a mistake. The classic experiment loop – hypothesis, test, learn – breaks when the cost base is a fluctuating market asset. Instead, they propose a dual‑track model: separate the token‑exposure risk from the user‑value hypothesis, measuring each in isolation before merging. The Exponential View charts reinforce this, mapping token velocity and market depth directly to product adoption in a way that mirrors traditional pricing elasticity. Bloomberg’s contrarian take reminds us that the market’s recent pull‑back could be a temporary lull, not a permanent stabilization, so any complacency would be premature.\n\nFor Staff PMs, the implication is clear: you own the bridge between finance, engineering, and go‑to‑market. Build a cross‑functional token‑risk council, mandate real‑time price alerts, and require every AI‑token‑enabled feature to have a non‑token fallback. Prioritize experiments that prove value independent of token price, and use the resulting data to negotiate budget allocations with finance. Your credibility now hinges on turning a speculative asset into a predictable lever for growth.",
+  "key_takeaways": [
+    "AI token markets are shifting from hype to commodity‑like pricing.",
+    "Traditional experiment loops collapse when the cost base is a market‑priced token.",
+    "Embedding real‑time token price monitoring into product KPIs is now non‑negotiable.",
+    "Volatility may still resurface, so product teams must design token‑agnostic fallback paths."
+  ],
+  "must_reads": [
+    {
+      "source": "Stratechery",
+      "title": "At Long Last…",
+      "url": "https://stratechery.com/2026/at-long-last/",
+      "why": "Thompson nails the moment AI tokens stopped being hype and started behaving like tradable commodities, forcing product teams to reckon with real price signals."
+    },
+    {
+      "source": "Exponential View",
+      "title": "🔮 39 charts on Anthropic, one-person biotech firm & cheap solar #608",
+      "url": "https://www.exponentialview.co/p/ev-608",
+      "why": "Azem’s data visualizations map token supply, demand, and price elasticity, giving PMs a quantitative foundation for pricing decisions."
+    },
+    {
+      "source": "SVPG",
+      "title": "Experimentation, AI and the Product Model",
+      "url": "https://www.svpg.com/experimentation-ai-and-the-product-model/",
+      "why": "The authors expose why traditional A/B loops fail with volatile token costs and prescribe a dual‑track experimentation framework."
+    }
+  ],
+  "contrarian": {
+    "note": "Bloomberg warns that token volatility remains a wild card, suggesting the market hasn’t settled and that speculative swings could return.",
+    "source": "Bloomberg",
+    "title": "AI Token Prices Drop, Raising Questions on Sector’s Pricing Power",
+    "url": "https://www.bloomberg.com/news/articles/2026-07-03/the-ai-trade-is-losing-one-of-its-key-signals-taking-stock"
+  },
+  "also_worth": [],
+  "pm_homework": [
+    "Create a token‑price alert board and integrate it with your product analytics.",
+    "Run a dual‑track experiment on an AI‑token feature: one path with token exposure, one without.",
+    "Convene a token‑risk council with finance, engineering, and legal to define fallback strategies."
+  ],
+  "generated_at": "2026-11-01T14:17:17.350404+00:00",
+  "model_used": "openai/gpt-oss-120b"
+}
