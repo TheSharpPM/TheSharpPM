@@ -1,7 +1,121 @@
 {
-  "updated": "2026-11-01T11:39:18.029206+00:00",
-  "total": 898,
+  "updated": "2026-11-02T13:02:26.416082+00:00",
+  "total": 896,
   "items": [
+    {
+      "title": "Understanding the Indrive User Experience\n BY: Ogechi Ezekwe\n Learning ID: ALT/SOP/KAR/026/0042",
+      "url": "https://medium.com/@ezekweogechi20/understanding-the-indrive-user-experience-by-ogechi-ezekwe-learning-id-alt-sop-kar-026-0042-a902cc35fbfc?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-11-02T12:54:43+00:00",
+      "summary": "Introduction Indrive is a ride-hailing app that connects passengers with drivers who can take them to their destinations. Unlike some… Continue reading on Medium »",
+      "tags": [
+        "Product Design"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "How to Handle Conflicting Priorities as a Product Manager (Without Saying Yes to Everything)",
+      "url": "https://medium.com/@novatools/how-to-handle-conflicting-priorities-as-a-product-manager-without-saying-yes-to-everything-a3b270f21655?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-11-02T12:31:01+00:00",
+      "summary": "An improv rule, a surprising study about deadlines, and the one-hour monthly meeting that fixes your roadmap. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Otter.ai: Senior Solution Architect",
+      "url": "https://weworkremotely.com/remote-jobs/otter-ai-senior-solution-architect",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-11-02T07:31:12+00:00",
+      "summary": "Headquarters: Mountain View, CA; Remote The Opportunity We are seeking a talented Senior Solution Architect with deep enterprise pre-sales experience who wants to own the technical sale for complex, multi-stakeholder deals and help define how our AI meeting intelligence platform",
+      "tags": [
+        "AI Strategy",
+        "Career",
+        "Competitive Analysis"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Descript: Lead Editor Product Manager",
+      "url": "https://weworkremotely.com/remote-jobs/descript-lead-editor-product-manager",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-11-02T07:31:04+00:00",
+      "summary": "Headquarters: San Francisco, CA or Remote, US About the role Descript's script-based editing features are at the heart of why creators trust us for their highest-stakes content. Product launches. Client interviews. Marketing campaigns. Content that represents them to their audien...",
+      "tags": [
+        "AI Strategy",
+        "Career",
+        "Communication"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "What Comes After MVP? Post-Launch Roadmap for Startups",
+      "url": "https://medium.com/@ksofttechnologies/what-comes-after-mvp-post-launch-roadmap-for-startups-1026c8b1f2c5?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-11-02T04:35:58+00:00",
+      "summary": "The MVP launch is where assumptions stop being private and start meeting real users Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Breaking the Meme: Did Meta Sabotage WhatsApp’s Core Identity with a “B”?",
+      "url": "https://medium.com/@maximilianocarlosrisa/breaking-the-meme-did-meta-sabotage-whatsapps-core-identity-with-a-b-eeccfcffc298?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-11-02T03:19:57+00:00",
+      "summary": "A critical case study on linguistic bias, cognitive friction, and the erosion of digital semiotics in mass-market mobile products. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Xmind 2027",
+      "url": "https://www.producthunt.com/products/xmind",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-11-02T00:24:06+00:00",
+      "summary": "Your mind map is now an AI thinking partner Discussion | Link",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "How a 19-year-old intern built the growth engine behind this $2B AI company | Hector Serrano",
+      "url": "https://www.lennysnewsletter.com/p/how-a-19-year-old-intern-built-the",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-11-01T13:31:36+00:00",
+      "summary": "Listen now (88 mins) | Hector Serrano on building Wispr Flow’s paid-UGC machine, hiring young talent over polished resumes, and why the best marketers are “allergic to AI”",
+      "tags": [
+        "Career",
+        "AI Strategy",
+        "Growth"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Agent Inbox",
+      "url": "https://www.producthunt.com/products/agent-inbox",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-11-01T12:10:54+00:00",
+      "summary": "Give your agent an email address, Slack and Telegram handle Discussion | Link",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "A/B Testing With 500 Users: What You Can Actually Detect (and What to Decide on Judgment)",
       "url": "https://medium.com/@syed_ali/a-b-testing-with-500-users-what-you-can-actually-detect-and-what-to-decide-on-judgment-bc9705a2edba?source=rss------product_management-5",
@@ -11041,143 +11155,6 @@
       "summary": "The case for career emergence",
       "tags": [
         "Career"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "When your product is an AI agent:  The new PLG playbook",
-      "url": "https://www.productledalliance.com/when-your-product-is-an-ai-agent-the-new-plg-playbook/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-08-04T12:00:17+00:00",
-      "summary": "Enterprise AI agents don't grow like traditional SaaS products do.",
-      "tags": [
-        "AI Strategy",
-        "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Microsoft Earnings, Microsoft vs. Meta, The Efficiency Payoff",
-      "url": "https://stratechery.com/2026/microsoft-earnings-microsoft-vs-meta-the-efficiency-payoff/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-08-04T10:00:00+00:00",
-      "summary": "Microsoft's earnings were compelling because they showed a clarity of strategy, lower costs, and a tangibility of application. The reason why is scarier.",
-      "tags": [
-        "Productivity"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Redesigning Google Maps: Solving the Last-Mile Parking Problem",
-      "url": "https://medium.com/@kashreen13/redesigning-google-maps-solving-the-last-mile-parking-problem-d37a3db00ca2?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-08-04T07:44:21+00:00",
-      "summary": "The problem Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "If Your Product Only Works for Calm Users, It’s Broken",
-      "url": "https://medium.com/design-bootcamp/if-your-product-only-works-for-calm-users-its-broken-03ce748486c0?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-08-04T07:32:29+00:00",
-      "summary": "The useful part of inclusive design turned out to be a test suite and five lines in a definition of done. Continue reading on Bootcamp »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Stability AI: Senior Product Engineer, Growth & Lifecycle Infrastructure - Music & Audio",
-      "url": "https://weworkremotely.com/remote-jobs/stability-ai-senior-product-engineer-growth-lifecycle-infrastructure-music-audio",
-      "source": "We Work Remotely",
-      "type": "job",
-      "date": "2026-08-04T07:30:43+00:00",
-      "summary": "Headquarters: Los Angeles, CA or Remote (United States) Stability AI is a community and mission-driven, open artificial intelligence company that cares deeply about real-world implications and applications. Our most considerable advances grow from our diversity in working across",
-      "tags": [
-        "Career",
-        "Growth",
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Marvel Went Bankrupt in 1996. The Comeback Was Built on the Characters Nobody Wanted.",
-      "url": "https://medium.com/@aryan1999varma/marvel-went-bankrupt-in-1996-the-comeback-was-built-on-the-characters-nobody-wanted-6689504b64a9?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-08-04T06:16:45+00:00",
-      "summary": "On the Friday after Christmas in 1996, a comic book company filed for Chapter 11 protection. The paperwork listed $229 million in total… Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Why 90% of Custom-Built Creator Platforms Never Launch",
-      "url": "https://medium.com/startup-insider-edge/why-custom-creator-platforms-never-launch-2026-84e29ced9b1f?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-08-04T04:34:19+00:00",
-      "summary": "The Standish Group has tracked software project outcomes for three decades, across more than 50,000 projects. Their most recent findings… Continue reading on StartupInsider »",
-      "tags": [
-        "Platform Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "🎙️ How I AI: ChatGPT Codex Voice + browser + Sites: an expert’s AI workflow | Nick Baumann (OpenAI)",
-      "url": "https://www.lennysnewsletter.com/p/how-i-ai-chatgpt-codex-voice-browser",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-08-03T15:02:21+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
-      "tags": [
-        "AI Tools",
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "📈 Data to start your week",
-      "url": "https://www.exponentialview.co/p/data-to-start-your-week-3-aug-2026",
-      "source": "Exponential View",
-      "type": "trend",
-      "date": "2026-08-03T14:02:35+00:00",
-      "summary": "AI is blurring jobs ⬆️ GenAI entertainment ⬆️ El Niño & stability ⬇️",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Ch. 9: Identifying Hidden Assumptions",
-      "url": "https://www.producttalk.org/cdh-book-club-august-2026/",
-      "source": "Product Talk",
-      "type": "article",
-      "date": "2026-08-03T13:00:27+00:00",
-      "summary": "Continuous Discovery Habits turns five this year. And to celebrate we are reading the book together. Each month, I am releasing an in-depth reading guide that includes: The chapters we will be reading A preview of the most important concepts we'll be learning about Short videos y...",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "ChatGPT Codex Voice + browser + Sites: an expert’s AI workflow | Nick Baumann (OpenAI)",
-      "url": "https://www.lennysnewsletter.com/p/chatgpt-codex-voice-browser-sites",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-08-03T12:04:26+00:00",
-      "summary": "Watch now | 🎙️ChatGPT Voice now manages multiple threads, reads your screen, and runs background tasks, and Nick Baumann walks me through the whole workflow live",
-      "tags": [
-        "AI Tools",
-        "AI Strategy"
       ],
       "is_fallback": true
     }
