@@ -1,7 +1,155 @@
 {
-  "updated": "2026-11-02T13:02:26.416082+00:00",
-  "total": 896,
+  "updated": "2026-11-03T12:34:40.559996+00:00",
+  "total": 894,
   "items": [
+    {
+      "title": "Why I Deleted My Browser Extension’s Onboarding Tour",
+      "url": "https://medium.com/@ittikornlongtee/why-i-deleted-my-browser-extensions-onboarding-tour-3c6121a8c928?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-11-03T12:31:02+00:00",
+      "summary": "Why I Deleted My Browser Extension’s Onboarding Tour Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "A metric increased.  Are users actually better off?",
+      "url": "https://www.productledalliance.com/a-metric-increased-are-users-actually-better-off/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-11-03T12:00:00+00:00",
+      "summary": "A positive metric is not proof of a better experience.",
+      "tags": [
+        "Metrics"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Apple Earnings, Memory Problems, The Hardware Company Regression",
+      "url": "https://stratechery.com/2026/apple-earnings-memory-problems-the-hardware-company-regression/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-11-03T11:00:00+00:00",
+      "summary": "Apple's earnings suggest that the company's hardware business is doing better than ever, even in the face of memory challenges. Does the software story help or hurt?",
+      "tags": [
+        "Hardware Differentiation"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Andrew Huberman’s Three Rules for Better Health and Focus",
+      "url": "https://a16z.simplecast.com/episodes/andrew-hubermans-three-rules-for-better-health-and-focus-3LRT9Uzz",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-11-03T11:00:00+00:00",
+      "summary": "If you could do only three things for your health, what should they be? Andrew Huberman’s answer is surprisingly straightforward: get bright light shortly after waking, resistance train, and make the sleep you can get as high-quality as possible. Andrew joins a16z General Partner...",
+      "tags": [
+        "Product Culture"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Minimum Viable Product (MVP) in Mobile App Development Explained",
+      "url": "https://medium.com/@manasasurusuri0909/minimum-viable-product-mvp-in-mobile-app-development-explained-5c2a83db7713?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-11-03T06:14:35+00:00",
+      "summary": "Somewhere in every app project there’s a moment when the feature list gets long. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Corvo",
+      "url": "https://www.producthunt.com/products/corvo-3",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-11-03T05:37:15+00:00",
+      "summary": "A mailbox that tidies itself as mail arrives Discussion | Link",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Your Systems Map Is Where the Work Stops",
+      "url": "https://medium.com/@davidyosuanto/your-systems-map-is-where-the-work-stops-8491812c674f?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-11-03T02:17:23+00:00",
+      "summary": "Systems thinking is mostly used to understand problems, rarely to change them. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "LifeVal",
+      "url": "https://www.producthunt.com/products/openai",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-11-02T18:45:51+00:00",
+      "summary": "OpenAI's benchmark for everyday life tasks with AI Discussion | Link",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Robots Already Working in American Factories | Tutor Intelligence",
+      "url": "https://a16z.simplecast.com/episodes/the-robots-already-working-in-american-factories-tutor-intelligence-331v57N3",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-11-02T16:05:00+00:00",
+      "summary": "What does it take to build robots that can actually work in factories and warehouses? Tutor Intelligence CEO Josh Gruenstein argues robotics is a systems problem spanning AI, hardware, manufacturing, and the work itself. Josh joins a16z General Partners Martin Casado and Raghu Ra...",
+      "tags": [
+        "Hardware Differentiation"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🎙️ How I AI: Grok vs. Dot vs. Muse vs. Duet + How Figma’s PMs actually use AI every day",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-grok-vs-dot-vs-muse-vs-duet",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-11-02T16:02:08+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+      "tags": [
+        "AI Strategy",
+        "Product Design"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "📈 Political ads turn against data centers",
+      "url": "https://www.exponentialview.co/p/political-ads-turn-against-data-centers",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-11-02T15:41:38+00:00",
+      "summary": "Plus: Korea’s chip boom, the Census asks firms about “Super Intelligence”, and US workers check out++",
+      "tags": [
+        "Hardware Differentiation"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "How Figma’s PMs actually use AI every day | Ezra Mechaber (PM, Figma)",
+      "url": "https://www.lennysnewsletter.com/p/how-figmas-pms-actually-use-ai-every",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-11-02T13:04:11+00:00",
+      "summary": "Listen now | 🎙️ Figma growth PM Ezra Mechaber demos PM OS, a 31-skill repo used by 60+ PMs, and AutoXP, an agent that runs growth experiments with one human checkpoint",
+      "tags": [
+        "AI Strategy",
+        "Growth",
+        "Product Design"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Understanding the Indrive User Experience\n BY: Ogechi Ezekwe\n Learning ID: ALT/SOP/KAR/026/0042",
       "url": "https://medium.com/@ezekweogechi20/understanding-the-indrive-user-experience-by-ogechi-ezekwe-learning-id-alt-sop-kar-026-0042-a902cc35fbfc?source=rss------product_management-5",
@@ -23,6 +171,20 @@
       "summary": "An improv rule, a surprising study about deadlines, and the one-hour monthly meeting that fixes your roadmap. Continue reading on Medium »",
       "tags": [
         "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Airbnb CEO Brian Chesky: “I Was a Great Founder and a Terrible CEO”",
+      "url": "https://youtu.be/ZYf-DfxJg1c⁠",
+      "source": "How I Built This",
+      "type": "podcast",
+      "date": "2026-11-02T08:10:00+00:00",
+      "summary": "This episode is available on Youtube: https://youtu.be/ZYf-DfxJg1c Brian Chesky was 26 when he and his co-founders launched Airbnb, turning a few air mattresses in a San Francisco apartment into one of the most successful startups of all time. But as Airbnb grew into a company wo...",
+      "tags": [
+        "Career",
+        "Hardware Differentiation",
+        "Leadership"
       ],
       "is_fallback": true
     },
@@ -10966,195 +11128,6 @@
       "summary": "Share this article In June, I returned to Product at Heart in Hamburg, Germany. I love this event. Arne Kittler and Petra Wille do such an amazing job of curating a thoughtful lineup of speakers and they obsess over the attendee experience. If you are looking for a high-quality",
       "tags": [
         "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Build an AI code review bot in 30 minutes with Vercel Eve",
-      "url": "https://www.lennysnewsletter.com/p/build-an-ai-code-review-bot-in-30",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-08-05T12:04:01+00:00",
-      "summary": "Watch now | 🎙️ I used Vercel Eve agents and Codex to build Merge Mommy: a PR review bot that scores risk, auto-approves the easy ones, and pings me in Slack for the rest",
-      "tags": [
-        "AI Strategy",
-        "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Brandfetch MCP",
-      "url": "https://www.producthunt.com/products/brandfetch",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-08-05T11:55:55+00:00",
-      "summary": "Stop your AI from guessing brand logos Discussion | Link",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Google Earnings, The Frontier Case, Amazon Earnings",
-      "url": "https://stratechery.com/2026/google-earnings-the-frontier-case-amazon-earnings/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-08-05T10:00:00+00:00",
-      "summary": "Google's earnings seemed to confirm the Anthropic hedge; it was Andy Jassy who explained why their — and Amazon's — capex was justifiable.",
-      "tags": [
-        "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Three Startups Reinventing Critical Infrastructure",
-      "url": "https://a16z.simplecast.com/episodes/three-startups-reinventing-critical-infrastructure-FkRDwjit",
-      "source": "a16z Podcast",
-      "type": "podcast",
-      "date": "2026-08-05T10:00:00+00:00",
-      "summary": "This week, a16z American Dynamism Films premiered three short documentaries highlighting companies tackling some of America's biggest industrial challenges: Ulysses, Mariana Materials, and Radiant. Before watching those films, we're revisiting conversations with the founders behi...",
-      "tags": [
-        "Security"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "The AI Paradox",
-      "url": "https://medium.com/@carolina.valdez/the-ai-paradox-ed5ccd3db2b7?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-08-05T07:51:54+00:00",
-      "summary": "Everyone is asking the same question: Continue reading on Medium »",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "PiggyVest: A Product Teardown of One of Nigeria’s Most Trusted Savings Platforms",
-      "url": "https://medium.com/@Oluwapelum/piggyvest-a-product-teardown-of-one-of-nigerias-most-trusted-savings-platforms-036b766094e4?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-08-05T07:48:38+00:00",
-      "summary": "Managing money isn’t difficult because people don’t know they should save, it’s difficult because spending is always easier than saving. Continue reading on Medium »",
-      "tags": [
-        "Platform Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Duolingo’s New Features Aren’t About Learning",
-      "url": "https://medium.com/product-powerhouse/duolingos-new-features-aren-t-about-learning-0f93c9aa190b?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-08-05T07:41:19+00:00",
-      "summary": "Focus Mode, streak frames, calendar reminders: three small updates, one retention playbook, and what it teaches product managers Continue reading on Product Notes »",
-      "tags": [
-        "Retention"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Top 7 Product Design Companies to work with in 2026",
-      "url": "https://medium.com/@design-growth/top-7-product-design-companies-to-work-with-in-2026-aeda03c5d791?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-08-05T05:20:29+00:00",
-      "summary": "Hiring a specialized product designer is hard. Building a full product design team from scratch is even harder, especially when your… Continue reading on Medium »",
-      "tags": [
-        "Product Design",
-        "Career"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Dover MCP",
-      "url": "https://www.producthunt.com/products/dover",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-08-04T23:35:35+00:00",
-      "summary": "Run your hiring process from Claude or ChatGPT Discussion | Link",
-      "tags": [
-        "AI Tools",
-        "Career"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "X Money",
-      "url": "https://www.producthunt.com/products/x-money-2",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-08-04T20:51:31+00:00",
-      "summary": "Your money, on the world's most powerful network. Discussion | Link",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Ododok",
-      "url": "https://www.producthunt.com/products/ododok",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-08-04T20:17:00+00:00",
-      "summary": "Count every chew with your AirPods Discussion | Link",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Uptalent.io: Part-Time Brand & Outreach Assistant - B2B SaaS VC (Remote)",
-      "url": "https://weworkremotely.com/remote-jobs/uptalent-io-part-time-brand-outreach-assistant-b2b-saas-vc-remote-1",
-      "source": "We Work Remotely",
-      "type": "job",
-      "date": "2026-08-04T15:18:27+00:00",
-      "summary": "Headquarters: Argentina URL: http://uptalent.io Description Part-Time Brand & Outreach Assistant – B2B SaaS VC (Remote) Schedule: ~10-20 hours/week | Flexible | Central Time Zone Preferred Type: Part-Time | Remote Industry: Venture Capital / B2B SaaS Startups A leading early-stag...",
-      "tags": [
-        "Career",
-        "Communication",
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Power Digital: Growth Marketing Manager, B2B SaaS",
-      "url": "https://weworkremotely.com/remote-jobs/power-digital-growth-marketing-manager-b2b-saas-1",
-      "source": "We Work Remotely",
-      "type": "job",
-      "date": "2026-08-04T15:18:27+00:00",
-      "summary": "Headquarters: Remote - Costa Rica URL: http://powerdigital.com Who We Are: We are a tech-enabled growth firm–at the intersection of marketing, consulting & data intelligence–igniting revenue and brand recognition for leading and emerging companies around the world. As a people-fi...",
-      "tags": [
-        "Growth",
-        "Career",
-        "Metrics"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "OpenAI's Joshua Achiam: Did We Already Reach AGI?",
-      "url": "https://a16z.simplecast.com/episodes/openais-joshua-achiam-did-we-already-reach-agi-kjP0kXD4",
-      "source": "a16z Podcast",
-      "type": "podcast",
-      "date": "2026-08-04T14:56:48+00:00",
-      "summary": "Theo Jaffee is joined by Joshua Achiam, Chief Futurist at OpenAI, for a conversation on AI cybersecurity, frontier model capabilities, and why he believes society may have already crossed the threshold into an AGI-era without fully recognizing it. They discuss AI's rapidly advanc...",
-      "tags": [
-        "AI Strategy",
-        "AI Tools",
-        "Security"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "What if you’re not supposed to have a long-term plan?",
-      "url": "https://www.lennysnewsletter.com/p/what-if-youre-not-supposed-to-have",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-08-04T13:02:53+00:00",
-      "summary": "The case for career emergence",
-      "tags": [
-        "Career"
       ],
       "is_fallback": true
     }
