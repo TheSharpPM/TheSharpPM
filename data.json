@@ -1,7 +1,121 @@
 {
-  "updated": "2026-11-04T12:45:13.495730+00:00",
-  "total": 892,
+  "updated": "2026-11-05T12:55:44.566575+00:00",
+  "total": 894,
   "items": [
+    {
+      "title": "MVP Development Cost: What to Budget Before You Build",
+      "url": "https://medium.com/@primocys/mvp-development-cost-what-to-budget-before-you-build-9575bb7b0d5d?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-11-05T12:26:16+00:00",
+      "summary": "Realistic budget ranges, a sample $20,000 breakdown, the hidden costs most quotes skip and seven ways to spend less without losing the… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "There’s Harmony in Teamwork — \n A wife’s secret idea, a\n friend in a quartet, and\n fifty people…",
+      "url": "https://medium.com/the-story-well/theres-harmony-in-teamwork-a-wife-s-secret-idea-a-friend-in-a-quartet-and-fifty-people-6f03dd90d804?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-11-05T12:20:25+00:00",
+      "summary": "Full story: https://profcalchub.com/ringmaster-post-38.html Continue reading on The Story Well »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Product-Led Summit | Boston 2026",
+      "url": "https://www.productledalliance.com/product-led-summit-boston-2026-2/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-11-05T11:42:08+00:00",
+      "summary": "Catch up on all the sessions from Product-Led Summit Boston 2026!",
+      "tags": [
+        "Product Culture"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Product-Led Summit | Boston 2026",
+      "url": "https://www.productledalliance.com/product-led-summit-boston-2026/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-11-05T11:41:38+00:00",
+      "summary": "Catch up on all the sessions from Product-Led Summit Boston 2026!",
+      "tags": [
+        "Product Culture"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "An Interview With Intuit CEO Sasan Goodarzi About Accounting and AI",
+      "url": "https://stratechery.com/2026/an-interview-with-intuit-ceo-sasan-goodarzi-about-accounting-and-ai/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-11-05T11:00:00+00:00",
+      "summary": "An interview with Intuit CEO Sasan Goodarzi about the working for one of tech's oldest software companies, and how Intuit is leaning into the AI paradigm shift.",
+      "tags": [
+        "AI Strategy",
+        "Career"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The New CFO: How AI Is Rewriting the Finance Function | Figma CFO Praveer Melwani",
+      "url": "https://a16z.simplecast.com/episodes/the-new-cfo-how-ai-is-rewriting-the-finance-function-figma-cfo-praveer-melwani-z9a_w4ym",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-11-05T11:00:00+00:00",
+      "summary": "AI is moving finance from reconciling what happened last month to helping decide what the business should do next. Figma CFO Praveer Melwani argues that the best finance teams are becoming builders themselves, automating repetitive work so they can spend more time understanding c...",
+      "tags": [
+        "AI Strategy",
+        "Product Design",
+        "Automation"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "How product designers earn a seat at the table",
+      "url": "https://medium.com/joash-pereira/how-product-designers-earn-a-seat-at-the-table-ae330c672c57?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-11-05T10:46:48+00:00",
+      "summary": "Early in my career, I thought a good designer solved the problem they were given really well. Then I led design teams at Mindtickle and… Continue reading on The Canvas and the Code »",
+      "tags": [
+        "Product Design",
+        "Career"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "ChatGPT Images 2.6",
+      "url": "https://www.producthunt.com/products/chatgpt-images-2-6",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-11-05T00:41:38+00:00",
+      "summary": "GIFs, reusable reference images and 50% faster generation Discussion | Link",
+      "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Zanda Health: Product Owner",
+      "url": "https://weworkremotely.com/remote-jobs/zanda-health-product-owner-1",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-11-04T12:59:25+00:00",
+      "summary": "Headquarters: Australia URL: https://zandahealth.com/eu/ Product Owner Remote | Permanent Contractor | Core EU Collaboration Hours Reports to: Product Manager Are you a product driven problem solver who enjoys turning customer insight into things that actually get built? Do you l...",
+      "tags": [
+        "Career",
+        "Prioritization",
+        "Stakeholders"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "How to get feedback from SaaS users?",
       "url": "https://medium.com/@dinocorreia/how-to-get-feedback-from-saas-users-d1e0e34a07b6?source=rss------product_management-5",
@@ -245,6 +359,18 @@
       "summary": "Plus: Korea’s chip boom, the Census asks firms about “Super Intelligence”, and US workers check out++",
       "tags": [
         "Hardware Differentiation"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Living Brain",
+      "url": "https://www.producthunt.com/products/chatandbuild",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-11-02T15:07:36+00:00",
+      "summary": "Interoperable, efficient memory layer for agentic AI Discussion | Link",
+      "tags": [
+        "AI Strategy"
       ],
       "is_fallback": true
     },
@@ -11004,107 +11130,6 @@
       "summary": "Prototype first, document later: a new rhythm for product teams.",
       "tags": [
         "Product Design"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "The Reality of AI-Powered Cyberattacks | Truffle Security & Socket",
-      "url": "https://a16z.simplecast.com/episodes/the-reality-of-ai-powered-cyberattacks-truffle-security-socket-vbyiWFXA",
-      "source": "a16z Podcast",
-      "type": "podcast",
-      "date": "2026-08-07T10:00:00+00:00",
-      "summary": "Joel De La Garza is joined by Dylan Ayrey, co-founder and CEO of Truffle Security, and Feross Aboukhadijeh, founder and CEO of Socket, to discuss one of the biggest shifts happening in cybersecurity: AI models are no longer just finding vulnerabilities—they're exploiting them. As...",
-      "tags": [
-        "Security",
-        "AI Strategy",
-        "Platform Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Coinbase: Forward Deployed Engineer, Compliance [Office of the CTO]",
-      "url": "https://weworkremotely.com/remote-jobs/coinbase-forward-deployed-engineer-compliance-office-of-the-cto",
-      "source": "We Work Remotely",
-      "type": "job",
-      "date": "2026-08-07T07:31:06+00:00",
-      "summary": "Headquarters: Remote - USA Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place t...",
-      "tags": [
-        "Career",
-        "Compliance",
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Several Open Source PIM Platforms Rolled Out Major Updates: Here’s What’s New in 2026",
-      "url": "https://medium.com/kairi-ai/several-open-source-pim-platforms-rolled-out-major-updates-heres-what-s-new-in-2026-285a30f041b5?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-08-07T05:53:29+00:00",
-      "summary": "From AI-powered product enrichment to faster performance, discover the biggest changes in the latest open source PIM releases Continue reading on KAIRI »",
-      "tags": [
-        "AI Strategy",
-        "Platform Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Fitts’s Law: Why the Button Is Exactly Where It Is",
-      "url": "https://waffledesigns.medium.com/fittss-law-why-the-button-is-exactly-where-it-is-33fb88ea7ad1?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-08-07T05:26:01+00:00",
-      "summary": "In the early 1950s, the United States Air Force had a problem it could not explain by pilot error alone. Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Swipe",
-      "url": "https://www.producthunt.com/products/swipe-9",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-08-06T20:59:53+00:00",
-      "summary": "Swipe right on your next customer Discussion | Link",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "HAR",
-      "url": "https://www.producthunt.com/products/har",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-08-06T14:56:17+00:00",
-      "summary": "Open Source harness for multi-agent coding workflows Discussion | Link",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "The Product That Earned Its Own Disappearance",
-      "url": "https://medium.com/@samih.yedievli/the-product-that-earned-its-own-disappearance-8f4182af1e2a?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-08-06T14:50:24+00:00",
-      "summary": "What happens when you ask a leadership question about a machine Continue reading on Medium »",
-      "tags": [
-        "Leadership"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "akta.pro",
-      "url": "https://www.producthunt.com/products/akta-pro",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-08-06T13:03:25+00:00",
-      "summary": "Private company data and signals API for the agent economy Discussion | Link",
-      "tags": [
-        "Product Strategy"
       ],
       "is_fallback": true
     }
