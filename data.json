@@ -1,7 +1,107 @@
 {
-  "updated": "2026-11-06T12:40:41.278758+00:00",
-  "total": 891,
+  "updated": "2026-11-07T11:29:08.999918+00:00",
+  "total": 892,
   "items": [
+    {
+      "title": "My health isn’t a loyalty program",
+      "url": "https://medium.com/@irisatalay/my-health-isnt-a-loyalty-program-e7ccd7dbf91e?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-11-07T11:11:24+00:00",
+      "summary": "What product designers and managers should ask before celebrating the next visit. Continue reading on Medium »",
+      "tags": [
+        "Product Design"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Mark Hyman’s Guide to Living Longer and Staying Strong",
+      "url": "https://a16z.simplecast.com/episodes/mark-hymans-guide-to-living-longer-and-staying-strong-csBJXQYG",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-11-07T11:00:00+00:00",
+      "summary": "What actually matters if you want to stay healthy as you age? Dr. Mark Hyman argues it isn’t the most extreme longevity intervention. It’s the small investments you make every day in strength, nutrition, sleep, and stress. Mark joins a16z Partner Daisy Wolf to walk through what h...",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Your Users Signed Up. So Why Aren’t They Using Your Product?",
+      "url": "https://medium.com/@auxle2022/your-users-signed-up-so-why-arent-they-using-your-product-00e21a5ff665?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-11-07T10:35:21+00:00",
+      "summary": "Getting someone to create an account is one thing. Getting them to come back is a completely different sport. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Claude Design Isn’t Dying. AI Design Is Evolving.",
+      "url": "https://fatmadoganseckin.medium.com/claude-design-isnt-dying-ai-design-is-evolving-a13d221b3b9f?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-11-07T06:01:01+00:00",
+      "summary": "Why the future of product design is moving beyond interface generation toward integrated workflows, human judgment, and product strategy. Continue reading on Medium »",
+      "tags": [
+        "AI Strategy",
+        "AI Tools",
+        "Product Design"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Multi-Agent Scenario Simulation Is Not a Crystal Ball (and That Is the Point)",
+      "url": "https://monnfts.medium.com/multi-agent-scenario-simulation-is-not-a-crystal-ball-and-that-is-the-point-24f4e0e7f715?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-11-07T03:25:13+00:00",
+      "summary": "What Mirror actually does when AI agents rehearse a situation — and the three things people often confuse it with. Continue reading on Medium »",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "2026.45: Falling Leaves (and Stocks)",
+      "url": "https://stratechery.com/2026/falling-leaves-and-stocks/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-11-06T18:14:42+00:00",
+      "summary": "The best Stratechery content from the week of November 2, 2026, including AI on the ballot, a Google state of the union, and China.",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "How Meghana Makhija, Senior PM at Amazon,  keeps AI products trustworthy after launch",
+      "url": "https://www.productledalliance.com/why-ai-products-quietly-fail-after-launch/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-11-06T15:00:00+00:00",
+      "summary": "The five traps that quietly erode trust in AI products – and the fix.",
+      "tags": [
+        "AI Strategy",
+        "Career"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "What to build next? With Bill Gross, IdeaLab.ai",
+      "url": "https://www.exponentialview.co/p/what-to-build-next-with-bill-gross",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-11-06T14:37:32+00:00",
+      "summary": "“This is my way to have 12,000 companies at once.“",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "If I Were Starting Out Again as a PM, This Is What I Would Do",
       "url": "https://medium.com/@estherugwu22/if-i-were-starting-out-again-as-a-pm-this-is-what-i-would-do-000dac3c4d58?source=rss------product_management-5",
@@ -716,6 +816,18 @@
       "summary": "Bigger and smaller all at the same time",
       "tags": [
         "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Standflow",
+      "url": "https://www.producthunt.com/products/standflow",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-10-31T22:13:34+00:00",
+      "summary": "Sit, stand, perch, and move on a rhythm from your menu bar Discussion | Link",
+      "tags": [
+        "Product Strategy"
       ],
       "is_fallback": true
     },
@@ -1811,6 +1923,18 @@
       "summary": "A practical way to turn “we should add AI” into a validated user problem, a bounded solution, and a measurable product bet. Continue reading on Medium »",
       "tags": [
         "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "PacerTrip",
+      "url": "https://www.producthunt.com/products/pacertrip",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-10-22T11:54:24+00:00",
+      "summary": "Pick a marathon abroad. We plan the trip around race day. Discussion | Link",
+      "tags": [
+        "Product Strategy"
       ],
       "is_fallback": true
     },
@@ -10985,116 +11109,6 @@
         "AI Tools",
         "Career",
         "Growth"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Contact Database: Turning Scattered Information into Smarter Business Connections",
-      "url": "https://medium.com/@b2cdatabases.co/contact-database-turning-scattered-information-into-smarter-business-connections-61470f37e5ee?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-08-09T05:11:33+00:00",
-      "summary": "A growing business can quickly accumulate hundreds or thousands of customer and prospect records. The real challenge isn’t simply having… Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Three Questions to Ask Before Trusting Any Feature Impact Analysis",
-      "url": "https://f-ahsan.medium.com/three-questions-to-ask-before-trusting-any-feature-impact-analysis-1ff03d9ad458?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-08-09T03:29:55+00:00",
-      "summary": "The questions that separate a real result from a hopeful story. Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "🔮 Agents form alliances, DeepMind’s reset & how likely is a crash? #596",
-      "url": "https://www.exponentialview.co/p/ev-596",
-      "source": "Exponential View",
-      "type": "trend",
-      "date": "2026-08-09T02:52:30+00:00",
-      "summary": "Your Sunday briefing on how AI is colliding with markets, institutions, and culture.",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Who Says Japanese Users Need That?",
-      "url": "https://medium.com/@ic-eight/who-says-japanese-users-need-that-481ed6df14c5?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-08-08T23:39:21+00:00",
-      "summary": "Japan marketers and localization consultants repeat the same lines so often they’ve started to sound like facts. Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "When Quality Becomes the Wrong Goal",
-      "url": "https://medium.com/@ic-eight/when-quality-becomes-the-wrong-goal-ac9eb7f3ec73?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-08-08T23:30:23+00:00",
-      "summary": "Early in my career, while working in-house at a global technology company, I once stayed at my desk until around 10:30 p.m. Continue reading on Medium »",
-      "tags": [
-        "Career"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Workflo",
-      "url": "https://www.producthunt.com/products/workflo-2",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-08-08T22:35:22+00:00",
-      "summary": "Mac workspace automation that never sees your screen Discussion | Link",
-      "tags": [
-        "Automation"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "🧠 Community Wisdom: Crafting outreach that reads as authentic, finding design partners, what counts as a moat when anyone can build, making a product vision stick, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-crafting-outreach",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-08-08T17:08:14+00:00",
-      "summary": "Community Wisdom 196",
-      "tags": [
-        "Community",
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "The 80% Problem: Why First-Time Investors on Stable Money Never Came Back",
-      "url": "https://medium.com/@siddhantmohapatra8989/the-80-problem-why-first-time-investors-on-stable-money-never-came-back-f45682eaf99b?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-08-08T14:50:27+00:00",
-      "summary": "How I diagnosed a “habit” problem hiding behind a “satisfaction” metric — and turned it into a PRD, an AI layer, and a live MVP. Continue reading on Medium »",
-      "tags": [
-        "AI Strategy",
-        "Metrics"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "CURE YOUR DIABETES WITH EVIDENCECURE AI",
-      "url": "https://medium.com/@rasahrarampur/cure-your-diabetes-with-evidencecure-a6dc30f59ada?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-08-08T14:07:07+00:00",
-      "summary": "Defeating venomous traditions and practices, And how EvidenceCure is putting up a fight against them. Continue reading on Medium »",
-      "tags": [
-        "AI Strategy"
       ],
       "is_fallback": true
     }
