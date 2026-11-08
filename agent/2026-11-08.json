@@ -1,0 +1,46 @@
+{
+  "edition": "2026-11-08",
+  "headline_theme": "AI hype won’t save product teams that ignore outcomes",
+  "target_audience": "Senior PM",
+  "hook_source": "SVPG",
+  "editorial": "SVPG’s \"AI and the Future of the Product Role\" pulls back the curtain on the AI‑first mantra and reminds us that product teams still live and die by the metrics that matter to the market. The column warns that without a clear impact framework, AI experiments become vanity projects that dilute focus and drain resources. The buzz around “AI‑first” roadmaps is therefore a distraction from the hard truth: outcomes win.\n\nBenedict Evans reinforces this in his recent essay, arguing that the flood of AI tools has inflated the perceived leverage of product managers without delivering a corresponding lift in execution. He warns that teams will waste months building pipelines that never move the needle because the underlying problems are strategic, not technical. Lenny’s Newsletter adds a granular view: building frontier models consumes talent and budget at a scale that can cripple a product team’s ability to iterate, yet the promised performance gains are often marginal. The convergence of these three pieces is clear—AI is a powerful lever, but only when it’s tied to measurable impact.\n\nSenior PMs must stop treating AI as a silver bullet and start treating it as a hypothesis to be validated. First, surface a clear outcome metric—revenue, retention, or cost reduction—and frame any AI experiment against that target. Second, allocate budget only after the hypothesis passes a lightweight test, avoiding the allure of “future‑proof” tech that never ships. Finally, communicate trade‑offs to senior leadership: explain that the real risk is not the lack of AI, but the opportunity cost of diverting resources from outcome‑driven work.",
+  "key_takeaways": [
+    "AI hype inflates perceived leverage but rarely translates into measurable outcomes.",
+    "Investors and markets still prioritize growth and retention over shiny tech stacks.",
+    "Frontier model projects consume disproportionate resources and must be justified by clear business impact."
+  ],
+  "must_reads": [
+    {
+      "source": "SVPG",
+      "title": "AI and the Future of the Product Role",
+      "url": "https://www.svpg.com/ai-and-the-future-of-the-product-role/",
+      "why": "The essay warns that product leaders who chase AI hype without a clear impact framework end up diluting focus, leaving teams spread thin across speculative projects."
+    },
+    {
+      "source": "Benedict Evans",
+      "title": "AI, tools and transformation",
+      "url": "https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation",
+      "why": "Evans calls out the illusion of productivity gains from AI tools, arguing that without disciplined outcome measurement they become vanity projects."
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "title": "What it actually takes to build frontier models",
+      "url": "https://www.lennysnewsletter.com/p/what-it-actually-takes-to-build-frontier",
+      "why": "Doshi’s deep dive reveals the hidden cost of frontier model development, underscoring why product teams must justify AI spend with concrete business results."
+    }
+  ],
+  "contrarian": {
+    "note": "Stratechery argues that market pressures, not AI hype, dominate product success, challenging the notion that AI alone can rescue underperforming teams.",
+    "source": "Stratechery",
+    "title": "2026.45: Falling Leaves (and Stocks)",
+    "url": "https://stratechery.com/2026/falling-leaves-and-stocks/"
+  },
+  "also_worth": [],
+  "pm_homework": [
+    "Define a single outcome metric for any AI experiment and tie funding to its early validation.",
+    "Run a lightweight test of an AI hypothesis before committing engineering resources.",
+    "Prepare a brief for leadership that quantifies the opportunity cost of AI work versus outcome‑driven initiatives."
+  ],
+  "generated_at": "2026-11-08T14:18:15.876868+00:00",
+  "model_used": "openai/gpt-oss-120b"
+}

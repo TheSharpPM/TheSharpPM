@@ -1,6 +1,11 @@
 {
   "editions": [
     {
+      "date": "2026-11-08",
+      "headline_theme": "AI hype won’t save product teams that ignore outcomes",
+      "file": "agent/2026-11-08.json"
+    },
+    {
       "date": "2026-11-01",
       "headline_theme": "AI Tokens Have Become a Core Product Lever",
       "file": "agent/2026-11-01.json"
@@ -146,5 +151,5 @@
       "file": "agent/2026-05-03.json"
     }
   ],
-  "updated_at": "2026-11-01T14:17:17.350674+00:00"
+  "updated_at": "2026-11-08T14:18:15.877217+00:00"
 }
