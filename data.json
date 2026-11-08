@@ -1,7 +1,80 @@
 {
-  "updated": "2026-11-07T11:29:08.999918+00:00",
-  "total": 892,
+  "updated": "2026-11-08T11:41:32.342813+00:00",
+  "total": 891,
   "items": [
+    {
+      "title": "The Health Interventions Actually Worth Your Time | Justin Mares",
+      "url": "https://a16z.simplecast.com/episodes/the-health-interventions-actually-worth-your-time-justin-mares-7c97fzV_",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-11-08T11:00:00+00:00",
+      "summary": "Health advice has become an endless stream of supplements, diets, wearables, and biohacks. Which interventions are actually worth your time? Truemed CEO Justin Mares argues that most people should ignore the extremes and focus on a few fundamentals: better food, movement, sleep,",
+      "tags": [
+        "Product Culture"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "How Better Credit Management Can Protect Manufacturing Cash Flow | Madasky",
+      "url": "https://medium.com/@emanproject2002/how-better-credit-management-can-protect-manufacturing-cash-flow-madasky-99a8508ceea1?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-11-08T10:58:19+00:00",
+      "summary": "Offering credit to customers is common in manufacturing. It helps businesses maintain commercial relationships, compete for larger orders… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Vibe coding is easy. Finding demand isn’t.",
+      "url": "https://medium.com/@pcodesdev/vibe-coding-is-easy-finding-demand-isnt-772b62917592?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-11-08T10:51:10+00:00",
+      "summary": "AI makes building easy, but demand is the hard part. Learn AI product validation so your next app solves a problem people will pay for. Continue reading on Medium »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Hidden Relationship Between Product Strategy and UX Design",
+      "url": "https://medium.com/@GulAhmedShah/the-hidden-relationship-between-product-strategy-and-ux-design-f97f616fc488?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-11-08T08:25:22+00:00",
+      "summary": "Stop treating them as separate phases. Here is how aligning business goals with user intent builds products that actually scale. Continue reading on Medium »",
+      "tags": [
+        "Product Design",
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Your Features Aren’t a Moat Anymore",
+      "url": "https://chetanchanna.medium.com/your-features-arent-a-moat-anymore-f2b59232f98e?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-11-08T05:41:02+00:00",
+      "summary": "AI has shortened the time it takes to produce a software feature. If your advantage is that rivals need months to catch up, you don’t have… Continue reading on Medium »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🔮 The people vs tech; the Europoor; forgotten Creole++ #609",
+      "url": "https://www.exponentialview.co/p/ev-609",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-11-08T03:47:27+00:00",
+      "summary": "Your weekend briefing on AI and exponential technologies",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "My health isn’t a loyalty program",
       "url": "https://medium.com/@irisatalay/my-health-isnt-a-loyalty-program-e7ccd7dbf91e?source=rss------product_management-5",
@@ -292,6 +365,18 @@
       "is_fallback": true
     },
     {
+      "title": "Keypause",
+      "url": "https://www.producthunt.com/products/keypause",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-11-05T04:38:36+00:00",
+      "summary": "Turn off your Mac's keyboard while you clean it Discussion | Link",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
       "title": "ChatGPT Images 2.6",
       "url": "https://www.producthunt.com/products/chatgpt-images-2-6",
       "source": "Product Hunt",
@@ -523,6 +608,18 @@
       "tags": [
         "AI Strategy",
         "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Sage2 by Levanto Labs",
+      "url": "https://www.producthunt.com/products/sagecraft",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-11-02T18:04:38+00:00",
+      "summary": "Turn live talk into structured data and instant actions Discussion | Link",
+      "tags": [
+        "Product Strategy"
       ],
       "is_fallback": true
     },
@@ -10993,122 +11090,6 @@
       "tags": [
         "AI Strategy",
         "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Apple Earnings, More on Amazon’s Earnings",
-      "url": "https://stratechery.com/2026/apple-earnings-more-on-amazons-earnings/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-08-10T10:00:00+00:00",
-      "summary": "Apple's earnings (and stock) are limited not by memory but rather chip shortages; then, more on Amazon's earnings and Andy Jassy's market analysis.",
-      "tags": [
-        "Competitive Analysis",
-        "Hardware Differentiation"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "The Self-Improving Company | Kavak's AI Playbook",
-      "url": "https://a16z.simplecast.com/episodes/how-kavak-rebuilt-itself-around-ai-agents-alejandro-maza-ayala-lp7LuwGh",
-      "source": "a16z Podcast",
-      "type": "podcast",
-      "date": "2026-08-10T10:00:00+00:00",
-      "summary": "Angela Strange and Gabriel Vasquez are joined by Alejandro Maza Ayala, Chief Product & AI Officer at Kavak, to unpack how the Latin American used-car marketplace rebuilt itself around AI agents, with 96% of customer interactions and 95% of transactions now handled by agents. Alej...",
-      "tags": [
-        "AI Strategy",
-        "AI Tools",
-        "Leadership"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "nobody tells you where Product Taste is actually built",
-      "url": "https://binarycodeverses.medium.com/nobody-tells-you-where-product-taste-is-actually-built-54acae6d7531?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-08-10T06:01:01+00:00",
-      "summary": "I didn’t set out to build product taste. I didn’t even know what it was until I watched the absence of it, and then, a few weeks later… Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Big Five vs. 16PF vs. DISC: Which Framework Actually Predicts Job Performance?",
-      "url": "https://medium.com/@pmishra_89980/big-five-vs-16pf-vs-disc-which-framework-actually-predicts-job-performance-7ee76e5ead11?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-08-10T05:41:58+00:00",
-      "summary": "Three vendors present three polished reports. One uses the Big Five, another uses 16PF, and the third recommends DISC. Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Disney: The Renaissance and the Empire",
-      "url": "https://www.acquired.fm/episodes/disney-the-renaissance-and-the-empire",
-      "source": "Acquired",
-      "type": "podcast",
-      "date": "2026-08-10T04:41:43+00:00",
-      "summary": "In 1984, the Walt Disney Company was worth more dead than alive. Disney Animation — the heart of Walt's famous flywheel — had stagnated for years, bleeding away talent while corporate raiders circled, salivating over offers to sell off the film library to MGM and offload the park...",
-      "tags": [
-        "AI Tools",
-        "Communication",
-        "Competitive Analysis"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "The User Insights Engine: Advanced Research, Synthesis, and Behavioral Analytics AI Tools for UX…",
-      "url": "https://medium.com/@DilSalaKamina/the-user-insights-engine-advanced-research-synthesis-and-behavioral-analytics-ai-tools-for-ux-bcf6959549fb?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-08-10T04:31:03+00:00",
-      "summary": "Let’s be real, designing a product without real research just means you’re crossing your fingers and hoping for the best, all while making… Continue reading on Medium »",
-      "tags": [
-        "AI Strategy",
-        "Metrics"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Pawvis",
-      "url": "https://www.producthunt.com/products/pawvis",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-08-09T23:36:50+00:00",
-      "summary": "Control your Mac via camera & train gestures, local & FOSS Discussion | Link",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "The Problem with Problem-First Innovation",
-      "url": "https://medium.com/@dumandal1998/the-problem-with-problem-first-innovation-346887bac1f7?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-08-09T13:46:29+00:00",
-      "summary": "For years, I have taught a simple idea in my SAFe Agilist and Product Owner/Product Manager courses: Continue reading on Medium »",
-      "tags": [
-        "Career"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "The playbook for building high talent density teams | Adam Ward, Head of Talent at Cursor",
-      "url": "https://www.lennysnewsletter.com/p/the-playbook-for-building-high-talent",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-08-09T12:31:29+00:00",
-      "summary": "Listen now | Cursor’s Adam Ward on “funnel of doom” hiring, treating every hire like an executive search, and why caring is the biggest unfair advantage in recruiting",
-      "tags": [
-        "AI Tools",
-        "Career",
-        "Growth"
       ],
       "is_fallback": true
     }
