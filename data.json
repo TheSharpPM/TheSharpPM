@@ -1,7 +1,143 @@
 {
-  "updated": "2026-11-08T11:41:32.342813+00:00",
-  "total": 891,
+  "updated": "2026-11-09T13:34:06.220011+00:00",
+  "total": 888,
   "items": [
+    {
+      "title": "Running a Namespace: The Controls and Economics of RWA ID for Platforms",
+      "url": "https://medium.com/@rwaidentity/running-a-namespace-the-controls-and-economics-of-rwa-id-for-platforms-40a8054e96a4?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-11-09T13:08:01+00:00",
+      "summary": "A walkthrough of what a platform actually operates in RWA ID: the console, the allowlist workflow, USDG claim fees, sponsored onboarding… Continue reading on Medium »",
+      "tags": [
+        "Platform Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "How this founder built a better Duolingo with Codex | William Imoh",
+      "url": "https://www.lennysnewsletter.com/p/how-this-founder-built-a-better-duolingo",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-11-09T13:04:17+00:00",
+      "summary": "Watch now (39 mins) | 🎙️ Hackmamba founder William Imoh shows the native app he built with Codex to learn Norwegian, and the Lord of the Rings Grok bot fellowship that helps run his company",
+      "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Nobody Asked for ChatGPT. So Why Do We Build Products Around Problems?",
+      "url": "https://medium.com/@aadithyan.ammencheril/nobody-asked-for-chatgpt-so-why-do-we-build-products-around-problems-958581af7a02?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-11-09T12:22:46+00:00",
+      "summary": "There is a recurring idea in product management that building a product should begin with identifying a problem. Continue reading on Medium »",
+      "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "PM-to-PMM handover  checklist",
+      "url": "https://www.productledalliance.com/pm-to-pmm-handover-checklist-frameworl/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-11-09T12:00:00+00:00",
+      "summary": "Get product managers and product marketers on the same page before launch.",
+      "tags": [
+        "Product Culture"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Your UPI Payment Is “Processing.” Now What?",
+      "url": "https://medium.com/@growlohith/your-upi-payment-is-processing-now-what-e86a01004f48?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-11-09T11:23:02+00:00",
+      "summary": "A product case study on how I’d fix the most anxious moment in Google Pay Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Jensen Huang’s Affair, The Culper Report, Huang’s Righteousness",
+      "url": "https://stratechery.com/2026/jensen-huangs-affair-the-culper-report-huangs-righteousness/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-11-09T11:00:00+00:00",
+      "summary": "Nvidia CEO Jensen Huang admitted to an affair with a Chinese spy, and that might not be the end of his troubles. I hope he survives, but his influence will never be the same.",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Scott Kupor on Building a16z and Rebuilding the Federal Workforce",
+      "url": "https://a16z.simplecast.com/episodes/scott-kupor-on-building-a16z-and-rebuilding-the-federal-workforce-EU8R_X0j",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-11-09T11:00:00+00:00",
+      "summary": "Scott Kupor helped build a16z from three people into a firm with hundreds of employees. Now, as Director of the U.S. Office of Personnel Management, he’s applying some of the same lessons about talent, incentives, and organizational design to a workforce of roughly two million fe...",
+      "tags": [
+        "Growth"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Reach Flipped the Ranking: Intercom’s Three RICE Examples, Scored With and Without the R",
+      "url": "https://medium.com/@covalescu.andrei/reach-flipped-the-ranking-intercoms-three-rice-examples-scored-with-and-without-the-r-b638bcda7411?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-11-09T09:39:35+00:00",
+      "summary": "Sean McBride’s RICE and Sean Ellis’s ICE look like cousins. Put them side by side on McBride’s own numbers and one letter changes which… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "ProArch: BA/Technical Product Manager",
+      "url": "https://weworkremotely.com/remote-jobs/proarch-ba-technical-product-manager",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-11-09T09:06:54+00:00",
+      "summary": "Headquarters: United States URL: https://jobs.workable.com/company/u8TybTAE2YbYgRVFYov9t4/jobs-at-proarch Partner Discovery & Requirements Analysis Lead and document working sessions with clinical, finance, operations, product, and technical stakeholders to understand existing wo...",
+      "tags": [
+        "Career",
+        "Data",
+        "Communication"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Customer.io: Senior Product Manager, Workflows",
+      "url": "https://weworkremotely.com/remote-jobs/customer-io-senior-product-manager-workflows",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-11-09T01:53:37+00:00",
+      "summary": "Headquarters: Hidalgo del Parral, Chihuahua, Mexico URL: https://customer.io About Customer.io Over 9,000 companies — from scrappy startups to global brands — use our platform to send billions of emails, push notifications, in-app messages, and SMS every day. Customer.io powers a...",
+      "tags": [
+        "Career",
+        "AI Strategy",
+        "Communication"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Why PMs are suddenly valuable again | Tulsee Doshi (Head of Product, Gemini)",
+      "url": "https://www.lennysnewsletter.com/p/what-it-actually-takes-to-build-frontier",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-11-08T13:31:32+00:00",
+      "summary": "Listen now (59 mins) | Tulsee Doshi on building Google’s frontier models, why evals and vibes both matter, and her 60-20-20 framework for shipping ahead of the curve",
+      "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "The Health Interventions Actually Worth Your Time | Justin Mares",
       "url": "https://a16z.simplecast.com/episodes/the-health-interventions-actually-worth-your-time-justin-mares-7c97fzV_",
@@ -563,6 +699,19 @@
       "is_fallback": true
     },
     {
+      "title": "Dageno AI 2.0",
+      "url": "https://www.producthunt.com/products/agent-powered-geo-by-dageno",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-11-03T10:49:37+00:00",
+      "summary": "See why AI recommends your competitors instead of you Discussion | Link",
+      "tags": [
+        "AI Strategy",
+        "Competitive Analysis"
+      ],
+      "is_fallback": true
+    },
+    {
       "title": "Minimum Viable Product (MVP) in Mobile App Development Explained",
       "url": "https://medium.com/@manasasurusuri0909/minimum-viable-product-mvp-in-mobile-app-development-explained-5c2a83db7713?source=rss------product_strategy-5",
       "source": "Medium Strategy",
@@ -705,6 +854,18 @@
       "type": "article",
       "date": "2026-11-02T12:31:01+00:00",
       "summary": "An improv rule, a surprising study about deadlines, and the one-hour monthly meeting that fixes your roadmap. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Pawse.ai",
+      "url": "https://www.producthunt.com/products/pawse-ai",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-11-02T11:48:42+00:00",
+      "summary": "Sound engineered for dogs, not humans Discussion | Link",
       "tags": [
         "Product Strategy"
       ],
@@ -10891,205 +11052,6 @@
       "tags": [
         "Leadership",
         "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "How to make people care about your startup",
-      "url": "https://www.lennysnewsletter.com/p/how-to-make-people-care-about-your",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-08-11T13:31:07+00:00",
-      "summary": "Three founder archetypes—and how to turn your origin story into a communications strategy",
-      "tags": [
-        "Communication"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Jotform AI Data Assistant",
-      "url": "https://www.producthunt.com/products/jotform",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-08-11T12:01:37+00:00",
-      "summary": "Turn form data into insights and action with AI Discussion | Link",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Feature flags are becoming  a strategic product operations layer",
-      "url": "https://www.productledalliance.com/feature-flags-a-strategic-product-operations-layer/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-08-11T12:00:43+00:00",
-      "summary": "Flags started as an engineering safety mechanism and quietly became the control plane for how modern product teams release, experiment, and operate, but most product leaders haven't caught up.",
-      "tags": [
-        "Leadership"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Nvidia’s Risky Business",
-      "url": "https://stratechery.com/2026/nvidias-risky-business/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-08-11T10:00:00+00:00",
-      "summary": "Nvidia is finding new ways for its customers to raise money, and it's expanding the risk of the AI buildout significantly.",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "The CISO Playbook for AI Agents | Datadog",
-      "url": "https://a16z.simplecast.com/episodes/the-ciso-playbook-for-ai-agents-datadog-rhAxFNQK",
-      "source": "a16z Podcast",
-      "type": "podcast",
-      "date": "2026-08-11T10:00:00+00:00",
-      "summary": "a16z's Joel De La Garza is joined by Emilio Escobar, Chief Information Security Officer at Datadog, to discuss what it takes to secure a company where nearly every employee is using AI and more than 4,000 engineers are working with coding agents. Rather than trying to block new t...",
-      "tags": [
-        "AI Strategy",
-        "AI Tools",
-        "Security"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "AI maturity gap: Are product teams keeping up?",
-      "url": "https://www.productledalliance.com/ai-maturity-gap-ebook/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-08-11T09:52:20+00:00",
-      "summary": "New research from 500 product leaders shows AI adoption has outpaced AI maturity. Download the report to see where the gap is widening.",
-      "tags": [
-        "AI Strategy",
-        "Leadership"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Kodak Didn’t Miss Digital, It Sold the Cure.",
-      "url": "https://medium.com/@aryan1999varma/kodak-didnt-miss-digital-it-sold-the-cure-db01c89344f7?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-08-11T05:59:32+00:00",
-      "summary": "The Second Act, week five: what Fujifilm understood about its own product that Kodak never did. Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Kodak Didn’t Miss Digital, It Sold the Cure.",
-      "url": "https://medium.com/@aryan1999varma/kodak-didnt-miss-digital-it-sold-the-cure-db01c89344f7?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-08-11T05:59:32+00:00",
-      "summary": "The Second Act, week five: what Fujifilm understood about its own product that Kodak never did. Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Product management — the review nobody runs",
-      "url": "https://medium.com/design-bootcamp/product-management-the-review-nobody-runs-24d9c5cf9641?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-08-11T05:02:39+00:00",
-      "summary": "We taught a generation of PMs to write specs. We never taught them to review one, and AI is repeating the mistake. Continue reading on Bootcamp »",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "How Fast the Unit of Work Keeps Changing",
-      "url": "https://medium.com/@ic-eight/how-fast-the-unit-of-work-keeps-changing-9950a4bbc674?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-08-11T04:10:21+00:00",
-      "summary": "In December 2025, I started questioning the traditional localization workflow. Why translate with AI when you could generate directly from… Continue reading on Medium »",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "📈 Making sense of the AI capex logjam",
-      "url": "https://www.exponentialview.co/p/ai-capex-deployment-gap",
-      "source": "Exponential View",
-      "type": "trend",
-      "date": "2026-08-10T17:09:58+00:00",
-      "summary": "Bought now, billed later",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Product operations  meeting template",
-      "url": "https://www.productledalliance.com/product-operations-meeting-template-framework/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-08-10T15:22:27+00:00",
-      "summary": "Run product ops meetings that actually move things forward.",
-      "tags": [
-        "Product Culture"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "🎙️ How I AI: Build an AI code review bot in 30 minutes + Claude Code for normal people",
-      "url": "https://www.lennysnewsletter.com/p/how-i-ai-build-an-ai-code-review",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-08-10T15:01:49+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
-      "tags": [
-        "AI Strategy",
-        "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Checksum AI",
-      "url": "https://www.producthunt.com/products/checksum-ai",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-08-10T14:43:32+00:00",
-      "summary": "Your coding agent’s testing buddy Discussion | Link",
-      "tags": [
-        "AI Strategy",
-        "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "A Fresh Definition of The Product Role",
-      "url": "https://www.svpg.com/a-fresh-definition-of-the-product-role/",
-      "source": "SVPG",
-      "type": "article",
-      "date": "2026-08-10T12:49:18+00:00",
-      "summary": "I’m just guessing here, but I’d say over the years I’ve seen at least one hundred different definitions of the product role (i.e. product manager/product owner). I’m pretty sure that anyone reading this would have seen at least several. Part of the problem is that there are diffe...",
-      "tags": [
-        "Career",
-        "Hardware Differentiation"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Claude Code for normal people: skills, voice mode, and how to collaborate with AI",
-      "url": "https://www.lennysnewsletter.com/p/claude-code-for-normal-people-skills",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-08-10T12:01:44+00:00",
-      "summary": "Listen now | 🎙️ Grace Clarke rebuilt her service business in Claude, turning 20 hours of weekly admin into one automated pipeline for proposals, client tracking, and email",
-      "tags": [
-        "AI Strategy",
-        "AI Tools"
       ],
       "is_fallback": true
     }
