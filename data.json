@@ -1,7 +1,132 @@
 {
-  "updated": "2026-11-09T13:34:06.220011+00:00",
-  "total": 888,
+  "updated": "2026-11-10T13:12:49.008835+00:00",
+  "total": 891,
   "items": [
+    {
+      "title": "How competing onboarding checklists can get in the way of activation: a Scribe breakdown",
+      "url": "https://riyajawandhiya.medium.com/how-competing-onboarding-checklists-can-get-in-the-way-of-activation-a-scribe-breakdown-18f038f8176c?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-11-10T13:01:04+00:00",
+      "summary": "TL;DR Continue reading on Medium »",
+      "tags": [
+        "Growth"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Acquisition Challenge: How a Pharmacist Helped Micro Pharmacies Run Better Through an App",
+      "url": "https://medium.com/@psamanthaputeri/acquisition-challenge-how-a-pharmacist-helped-micro-pharmacies-run-better-through-an-app-02da98fa7b94?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-11-10T12:57:23+00:00",
+      "summary": "Why pharmacies weren’t buying our point-of-sale system, and how two tested hypotheses turned into three product decisions. Continue reading on Medium »",
+      "tags": [
+        "Growth"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Acquisition Challenge: How a Pharmacist Helped Micro Pharmacies Run Better Through an App",
+      "url": "https://medium.com/@psamanthaputeri/acquisition-challenge-how-a-pharmacist-helped-micro-pharmacies-run-better-through-an-app-02da98fa7b94?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-11-10T12:57:23+00:00",
+      "summary": "Why pharmacies weren’t buying our point-of-sale system, and how two tested hypotheses turned into three product decisions. Continue reading on Medium »",
+      "tags": [
+        "Growth"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Judo Strategy",
+      "url": "https://productsamurai.medium.com/judo-strategy-e8f14372a336?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-11-10T12:35:59+00:00",
+      "summary": "In the age of disruption incumbents with decades of history get swept away by startups at an alarming rate. What allows these fledgling… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "From standalone product to enterprise platform:  The decisions that determine whether it scales",
+      "url": "https://www.productledalliance.com/from-standalone-product-to-enterprise-platform/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-11-10T12:00:00+00:00",
+      "summary": "A platform grows from shared decisions, not feature lists.",
+      "tags": [
+        "Platform Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Jensen Huang Story Gets Worse, Washington vs. New York, Silicon Valley",
+      "url": "https://stratechery.com/2026/the-jensen-huang-story-gets-worse-washington-vs-new-york-silicon-valley/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-11-10T11:00:00+00:00",
+      "summary": "The Jensen Huang story got worse for him on Monday; the real risk for Huang is governance, even more than national security. Who benefits?",
+      "tags": [
+        "Hardware Differentiation",
+        "Risk Management",
+        "Security"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Madness and mayhem",
+      "url": "https://www.exponentialview.co/p/madness-and-mayhem",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-11-10T02:02:29+00:00",
+      "summary": "A note on Jensen, AI spending, data centers & Anthropic",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Claude Fable 5.2 review: fast, creative, and finally not annoying",
+      "url": "https://www.lennysnewsletter.com/p/claude-fable-52-review-fast-creative",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-11-09T20:37:49+00:00",
+      "summary": "Watch now (25 mins) | 🎙️ My first-look at Fable 5.2: what it built for me, where it fell down, and whether it belongs in your daily AI stack",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🎙️ How I AI: How this founder built a better Duolingo with Codex",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-this-founder-built-a",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-11-09T16:01:20+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+      "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "📈 AI-exposed workers wait a month longer for a job",
+      "url": "https://www.exponentialview.co/p/monday-data-09-11-2026",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-11-09T13:45:58+00:00",
+      "summary": "Plus: Slow chips, Steam runs on AI & the ozone hole++",
+      "tags": [
+        "AI Strategy",
+        "Hardware Differentiation"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Running a Namespace: The Controls and Economics of RWA ID for Platforms",
       "url": "https://medium.com/@rwaidentity/running-a-namespace-the-controls-and-economics-of-rwa-id-for-platforms-40a8054e96a4?source=rss------product_management-5",
@@ -212,6 +337,18 @@
       "is_fallback": true
     },
     {
+      "title": "Coffee",
+      "url": "https://www.producthunt.com/products/coffee-9",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-11-08T01:06:13+00:00",
+      "summary": "A quiet Markdown editor for Mac, with sums in your notes Discussion | Link",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
       "title": "My health isn’t a loyalty program",
       "url": "https://medium.com/@irisatalay/my-health-isnt-a-loyalty-program-e7ccd7dbf91e?source=rss------product_management-5",
       "source": "Medium PM",
@@ -396,6 +533,18 @@
         "AI Strategy",
         "Communication",
         "Hardware Differentiation"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Quillo",
+      "url": "https://www.producthunt.com/products/quillo-2",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-11-05T15:57:02+00:00",
+      "summary": "Listen to any PDF in a natural voice, then ask Quillo Ai Discussion | Link",
+      "tags": [
+        "AI Strategy"
       ],
       "is_fallback": true
     },
@@ -10940,118 +11089,6 @@
       "tags": [
         "AI Tools",
         "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "What Your Banking App Knows About You — And Why It Won’t Tell You",
-      "url": "https://medium.com/@debasis_33479/what-your-banking-app-knows-about-you-and-why-it-wont-tell-you-2a6b1639bd85?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-08-12T12:46:10+00:00",
-      "summary": "A story about data, silence, and the 62-point problem hiding inside your phone. Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Garry Tan on Taste, Agents and Founder Ambition",
-      "url": "https://a16z.simplecast.com/episodes/garry-tan-on-taste-agents-and-founder-ambition-5Wi5biPg",
-      "source": "a16z Podcast",
-      "type": "podcast",
-      "date": "2026-08-12T10:26:08+00:00",
-      "summary": "Anish Acharya is joined by Garry Tan, President and CEO of Y Combinator, for a conversation about how AI is rewriting the startup playbook, why founders should be more ambitious than ever, and what two decades of Silicon Valley booms, busts, and missed opportunities have taught G...",
-      "tags": [
-        "AI Strategy",
-        "Communication",
-        "Hardware Differentiation"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Anthropic’s Watermarking, How It (Probably) Works, Worse Than It Seems",
-      "url": "https://stratechery.com/2026/anthropics-watermarking-how-it-probably-works-worse-than-it-seems/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-08-12T10:00:00+00:00",
-      "summary": "Anthropic is adding watermarking in response to the E.U.'s AI law. It's a terrible idea, first and foremost for philosophical reasons.",
-      "tags": [
-        "AI Strategy",
-        "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Must-attend product events  in 2026",
-      "url": "https://www.productledalliance.com/top-product-led-events-you-must-attend/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-08-12T09:00:00+00:00",
-      "summary": "Explore the top upcoming product leadership events in 2026. Stay ahead on trends, grow your network, and gain actionable insights from top product experts.",
-      "tags": [
-        "Leadership"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Chiplab",
-      "url": "https://www.producthunt.com/products/chiplab",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-08-12T08:37:19+00:00",
-      "summary": "Test firmware on a virtual chip with no hardware needed Discussion | Link",
-      "tags": [
-        "Hardware Differentiation"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "How AI Is Transforming Content Operations and Catalog Management",
-      "url": "https://medium.com/@abi309divya/how-ai-is-transforming-content-operations-and-catalog-management-842a93109d82?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-08-12T06:26:37+00:00",
-      "summary": "Imagine launching hundreds of products without AI. Every product description, feature, attribute, image validation, and quality check had… Continue reading on Medium »",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "85 Laws of Software Engineering",
-      "url": "https://medium.com/@denisafanasev/85-laws-of-software-engineering-dd78575f217b?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-08-12T06:08:58+00:00",
-      "summary": "I went back through the software engineering books I consider foundational — the ones that keep being right long after their examples… Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Netflix Engagement Metrics 2026",
-      "url": "https://shailesh-sharma.medium.com/netflix-engagement-metrics-2026-9b3227284d3e?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-08-11T18:11:55+00:00",
-      "summary": "Netflix will now report engagement once a year instead of twice. Continue reading on Medium »",
-      "tags": [
-        "Metrics"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "John Neuhart on Creating Customer-Centered Cultures in Modern Organizations",
-      "url": "https://medium.com/@johnneuhart/john-neuhart-on-creating-customer-centered-cultures-in-modern-organizations-f3c6d141add5?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-08-11T14:15:56+00:00",
-      "summary": "How customer insight can connect product strategy, marketing, and Agile leadership Continue reading on Medium »",
-      "tags": [
-        "Leadership",
-        "Product Strategy"
       ],
       "is_fallback": true
     }
