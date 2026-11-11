@@ -1,7 +1,95 @@
 {
-  "updated": "2026-11-10T13:12:49.008835+00:00",
-  "total": 891,
+  "updated": "2026-11-11T12:22:39.972951+00:00",
+  "total": 893,
   "items": [
+    {
+      "title": "Pay a Stranger to Get Lost in Your Product",
+      "url": "https://medium.com/@Hishmate/pay-a-stranger-to-get-lost-in-your-product-39e89a5b02be?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-11-11T11:44:40+00:00",
+      "summary": "Every founder has the same blind spot: you cannot forget how your own product works. You know which button matters, what the empty state… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Shoppers Love AI, Until Something Goes Wrong",
+      "url": "https://medium.com/@wartelski/shoppers-love-ai-until-something-goes-wrong-fb5d84f2ec87?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-11-11T11:31:01+00:00",
+      "summary": "A big new study of online shoppers found a clean, almost rule-like pattern: people happily let AI help them find things, and firmly want a… Continue reading on Medium »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Intel Earnings, AMD Earnings, Intel and AMD’s Divergence",
+      "url": "https://stratechery.com/2026/intel-earnings-amd-earnings-intel-and-amds-divergence/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-11-11T11:00:00+00:00",
+      "summary": "Intel and AMD's diverging earnings point to fundamental historical differences, and make me wonder if Intel needs to find a new (old) path.",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "What the Internet Boom Teaches Us About the AI Buildout | Mike Volpi",
+      "url": "https://a16z.simplecast.com/episodes/what-the-internet-boom-teaches-us-about-the-ai-buildout-mike-volpi-C_gHjXbG",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-11-11T11:00:00+00:00",
+      "summary": "The internet boom built bandwidth. The AI boom is building intelligence. Mike Volpi, who helped shape Cisco’s strategy during the internet buildout, asks what that era can teach us about this one. Mike joins a16z’s Raghu Raghuram and Guido Appenzeller to compare today’s investmen...",
+      "tags": [
+        "AI Strategy",
+        "Growth",
+        "Hardware Differentiation"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "HubSpot’s Co-Founder on Finding Your Next Startup Idea",
+      "url": "https://a16z.simplecast.com/episodes/hubspots-co-founder-on-finding-your-next-startup-idea-J9uhCiZA",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-11-10T15:29:35+00:00",
+      "summary": "As frontier AI labs expand into applications, where should startups build? a16z Partner Joe Schmidt joins HubSpot co-founder and CTO Dharmesh Shah to explore why the software opportunity is growing, and how founders can stay off the “Yellow Brick Road” the labs are racing down. D...",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "State of the tech job market: late 2026",
+      "url": "https://www.lennysnewsletter.com/p/state-of-the-tech-job-market-late",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-11-10T15:04:03+00:00",
+      "summary": "PMs are winning, engineers are plateauing, designers are hurting, and the biggest AI hiring boom isn’t in software",
+      "tags": [
+        "AI Strategy",
+        "Career",
+        "Product Design"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Discovery & The 4 Risks - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "url": "https://www.producttalk.org/discovery-the-4-risks-all-things-product-podcast-with-teresa-torres-petra-wille/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-11-10T14:00:00+00:00",
+      "summary": "Listen to this episode on: Spotify | Apple Podcasts In one of their most philosophical episodes yet, Petra Wille and Teresa Torres turn product thinking on the discovery practice itself. If you treat the continuous discovery habits as a product — and the organizations that buy tr...",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "How competing onboarding checklists can get in the way of activation: a Scribe breakdown",
       "url": "https://riyajawandhiya.medium.com/how-competing-onboarding-checklists-can-get-in-the-way-of-activation-a-scribe-breakdown-18f038f8176c?source=rss------product_management-5",
@@ -760,6 +848,19 @@
       "summary": "“The assistant should give helpful, accurate, on-brand answers.” Every PRD says something like this, and you can’t test a word of it. With… Continue reading on Medium »",
       "tags": [
         "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Relay",
+      "url": "https://www.producthunt.com/products/relaytoai",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-11-04T01:29:16+00:00",
+      "summary": "DocSend for AI agents: send and receive docs with context Discussion | Link",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
       ],
       "is_fallback": true
     },
@@ -1571,6 +1672,19 @@
       "summary": "Start by dropping the word “cascade” Continue reading on Practical Agilist »",
       "tags": [
         "Metrics"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "CALL-E",
+      "url": "https://www.producthunt.com/products/call-e",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-10-28T18:49:25+00:00",
+      "summary": "The phone line for AI agents Discussion | Link",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
       ],
       "is_fallback": true
     },
@@ -11000,95 +11114,6 @@
       "summary": "Multitrack synth, sampler, drum machine, and looper for iOS. Discussion | Link",
       "tags": [
         "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "The startup PM playbook:  What it really takes to build from zero",
-      "url": "https://www.productledalliance.com/the-startup-pm-playbook-build-from-zero/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-08-13T11:00:56+00:00",
-      "summary": "Building a product from scratch? Get practical frameworks for finding product-market fit, prioritizing problems, and shipping fast from trusted product leaders.",
-      "tags": [
-        "Engineering Velocity",
-        "Leadership",
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "The Two Ways to Sell AI: Lighthouse or Landgrab?",
-      "url": "https://a16z.simplecast.com/episodes/the-two-ways-to-sell-ai-lighthouse-or-landgrab-9C2mrr4S",
-      "source": "a16z Podcast",
-      "type": "podcast",
-      "date": "2026-08-13T10:00:00+00:00",
-      "summary": "Elena Burger is joined by a16z's Andy McCall and Joe Schmidt to break down two very different ways AI startups can go to market: the lighthouse and the landgrab. Should founders win a handful of marquee customers whose credibility unlocks an entire industry, or move quickly acros...",
-      "tags": [
-        "AI Strategy",
-        "Career",
-        "Pricing"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Deepmark",
-      "url": "https://www.producthunt.com/products/deepmark",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-08-13T08:05:11+00:00",
-      "summary": "Search your bookmarks by what's inside them, not the title Discussion | Link",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Testosil Review 2026: Ingredients, Benefits, Pros & Cons, Dosage & Is It Worth It?",
-      "url": "https://medium.com/@ceo.trustpickshub/testosil-review-2026-ingredients-benefits-pros-cons-dosage-is-it-worth-it-87572450ef20?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-08-13T06:37:01+00:00",
-      "summary": "An evidence-aware look at Testosil’s ingredients, clinical research, dosage, potential benefits, limitations, pricing, guarantee, and what… Continue reading on Medium »",
-      "tags": [
-        "Pricing"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "AI Is Creating a New Role Nobody Is Talking About: The AI Reviewer",
-      "url": "https://medium.com/codetodeploy/ai-is-creating-a-new-role-nobody-is-talking-about-the-ai-reviewer-c603bc726d03?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-08-13T06:35:32+00:00",
-      "summary": "We gave AI the ability to do almost everything. We forgot to figure out who checks its work. Continue reading on CodeToDeploy »",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Decoding Davinci Resolve 21 : An AI implementation teardown",
-      "url": "https://aniketpattanaik.medium.com/decoding-davinci-resolve-21-an-ai-implementation-teardown-34a91d938722?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-08-13T05:10:35+00:00",
-      "summary": "A Decision Decode — reverse-engineering why Blackmagic built Resolve 21’s AI the way it did. Continue reading on Medium »",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "ThreadPort",
-      "url": "https://www.producthunt.com/products/threadport",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-08-12T19:57:51+00:00",
-      "summary": "Move AI chats between ChatGPT, Claude & Gemini in one click Discussion | Link",
-      "tags": [
-        "AI Tools",
-        "AI Strategy"
       ],
       "is_fallback": true
     }
