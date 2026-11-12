@@ -1,7 +1,106 @@
 {
-  "updated": "2026-11-11T12:22:39.972951+00:00",
+  "updated": "2026-11-12T13:32:09.790719+00:00",
   "total": 893,
   "items": [
+    {
+      "title": "How to choose between banners, pop-ups, and in-product prompts? UX Guide",
+      "url": "https://riyajawandhiya.medium.com/how-to-choose-between-banners-pop-ups-and-in-product-prompts-ux-guide-b88bc3ed10f2?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-11-12T13:01:02+00:00",
+      "summary": "When to use each pattern, what to avoid, and when to stop showing it. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Our Very Own Baseball Furies",
+      "url": "https://medium.com/the-story-well/our-very-own-baseball-furies-fabcaf9316a1?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-11-12T12:01:51+00:00",
+      "summary": "Some days it was cards. Some days it was ball hockey. And some days it was baseball with a tennis ball by the docks. Continue reading on The Story Well »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "An Interview With Roblox CEO David Baszucki About Aggregating Play",
+      "url": "https://stratechery.com/2026/an-interview-with-roblox-ceo-david-baszucki-about-aggregating-play/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-11-12T11:00:00+00:00",
+      "summary": "An interview with Roblox CEO David Baszucki about how AI is transforming game creation, and why that opens up huge opportunities to both enable developers and make Roblox both an Aggregator and a platform.",
+      "tags": [
+        "AI Strategy",
+        "Career",
+        "Platform Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Next Era of Games: Mods, Agents, and Infinite Worlds",
+      "url": "https://a16z.simplecast.com/episodes/the-next-era-of-games-mods-agents-and-infinite-worlds-cRTFWzHi",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-11-12T11:00:00+00:00",
+      "summary": "AI is collapsing the distance between an idea and a playable game. What happens when almost anyone can build one? In this episode, a16z General Partners Anish Acharya and Jonathan Lai discuss how AI is changing game development, from generating art and code to operating tools lik...",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Product Manager’s Guide to AI Integration",
+      "url": "https://medium.com/@druthikgoud/the-product-managers-guide-to-ai-integration-098ab885caa4?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-11-12T09:11:51+00:00",
+      "summary": "A practical framework for deciding where to embed AI in your product Continue reading on Medium »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Why Useful AI Products Can Still Be Hard to Adopt",
+      "url": "https://medium.com/@yidoosmart/why-useful-ai-products-can-still-be-hard-to-adopt-21cc6b6a0e16?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-11-12T03:27:26+00:00",
+      "summary": "Follow the work around the answer: preparation, verification, and the handoff. Continue reading on Medium »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "2027 Product Conferences",
+      "url": "https://www.producttalk.org/2027-product-conferences/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-11-11T14:00:00+00:00",
+      "summary": "We are starting to pull together our list of 2027 product conferences. This list is by no means exhaustive. If you know of product conferences that are not on the list and you think they should be, please send an email to conferences@producttalk.org . We’ll also keep",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Claude Code + Obsidian: My family’s AI brain | Scott Farrar",
+      "url": "https://www.lennysnewsletter.com/p/claude-code-obsidian-my-familys-ai",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-11-11T13:04:09+00:00",
+      "summary": "Watch now (34 mins) | 🎙️ Scott Farrar walks through the Claude Code and Obsidian system he built to track appliances, chase insurance quotes, and keep household projects moving",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Pay a Stranger to Get Lost in Your Product",
       "url": "https://medium.com/@Hishmate/pay-a-stranger-to-get-lost-in-your-product-39e89a5b02be?source=rss------product_management-5",
@@ -171,6 +270,19 @@
       "type": "trend",
       "date": "2026-11-10T02:02:29+00:00",
       "summary": "A note on Jensen, AI spending, data centers & Anthropic",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Spacefast by Automattic",
+      "url": "https://www.producthunt.com/products/spacefast-by-automattic",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-11-09T22:40:16+00:00",
+      "summary": "Give your AI agents a place to build, run, and ship Discussion | Link",
       "tags": [
         "AI Strategy",
         "AI Tools"
@@ -621,6 +733,18 @@
         "AI Strategy",
         "Communication",
         "Hardware Differentiation"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Plurai Simulation",
+      "url": "https://www.producthunt.com/products/plurai",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-11-05T19:33:30+00:00",
+      "summary": "A simulated world that makes your agent improve on every run Discussion | Link",
+      "tags": [
+        "Product Strategy"
       ],
       "is_fallback": true
     },
@@ -10990,130 +11114,6 @@
       "summary": "The integration that took us eleven months is the reason a customer stayed after a competitor quoted half our price. Continue reading on Medium »",
       "tags": [
         "Competitive Analysis"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Ben Horowitz and Travis Kalanick on Building Again",
-      "url": "https://a16z.simplecast.com/episodes/ben-horowitz-and-travis-kalanick-on-building-again-o4RgblCd",
-      "source": "a16z Podcast",
-      "type": "podcast",
-      "date": "2026-08-14T10:00:00+00:00",
-      "summary": "Ben Horowitz, Travis Kalanick, and Erik Torenberg take the stage at Atoms' launch event for a candid fireside conversation about entrepreneurship, company building, and why Kalanick believes the next industrial revolution will be powered by AI. They revisit pivotal moments from U...",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Meridian",
-      "url": "https://www.producthunt.com/products/meridian-16",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-08-14T08:42:54+00:00",
-      "summary": "Don't let your work go unnoticed. Get promoted! Discussion | Link",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Youkti",
-      "url": "https://www.producthunt.com/products/youkti",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-08-14T07:50:59+00:00",
-      "summary": "Finds who's ready to buy, then tells you what to do next Discussion | Link",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "HarnessRouter Community Edition",
-      "url": "https://www.producthunt.com/products/epsilla",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-08-14T06:38:52+00:00",
-      "summary": "Open-source unified interface for agent harnesses Discussion | Link",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "How AI Is Turning Product Managers Into Builders",
-      "url": "https://medium.com/ai-center-grow-earn-with-ai/how-ai-is-turning-product-managers-into-builders-dadfc866351c?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-08-14T06:11:58+00:00",
-      "summary": "Judgment, Testing, and Auditing Continue reading on AI Center — Grow & Earn with AI »",
-      "tags": [
-        "AI Strategy",
-        "Compliance"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Why Change an App That Works? Because “Working” Is Not the Same as “Safe”",
-      "url": "https://medium.com/@FinClip/why-change-an-app-that-works-because-working-is-not-the-same-as-safe-e3c95dfbb4dd?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-08-14T05:38:13+00:00",
-      "summary": "The strongest argument against evolving a standalone app into a platform is that the app already works. It’s also the argument most likely… Continue reading on Medium »",
-      "tags": [
-        "Platform Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "AI Agents Do Not Remove Management; They Expose It",
-      "url": "https://different-perspectives.medium.com/ai-agents-do-not-remove-management-they-expose-it-64dd8f909cb7?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-08-14T05:31:01+00:00",
-      "summary": "Automation makes unclear ownership visible faster, not less important. Continue reading on Medium »",
-      "tags": [
-        "AI Strategy",
-        "AI Tools",
-        "Automation"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Navigara",
-      "url": "https://www.producthunt.com/products/navigara",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-08-13T22:04:24+00:00",
-      "summary": "Connect Your AI Spend Directly to Your Roadmap Discussion | Link",
-      "tags": [
-        "AI Strategy",
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Compass Calendar",
-      "url": "https://www.producthunt.com/products/compass-calendar",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-08-13T19:31:57+00:00",
-      "summary": "The keyboard-first calendar to get organized quickly Discussion | Link",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "ARC-24 Multitrack Groovebox for iOS",
-      "url": "https://www.producthunt.com/products/arc-24-multitrack-groovebox-fro-ios",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-08-13T16:30:37+00:00",
-      "summary": "Multitrack synth, sampler, drum machine, and looper for iOS. Discussion | Link",
-      "tags": [
-        "Product Strategy"
       ],
       "is_fallback": true
     }
