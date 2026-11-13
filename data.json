@@ -1,7 +1,92 @@
 {
-  "updated": "2026-11-12T13:32:09.790719+00:00",
-  "total": 893,
+  "updated": "2026-11-13T12:47:45.977129+00:00",
+  "total": 892,
   "items": [
+    {
+      "title": "Leadership Is Not a Title: 8 Ways You Are Already Leading Before the Promotion",
+      "url": "https://medium.com/@taneshalmoody/leadership-is-not-a-title-8-ways-you-are-already-leading-before-the-promotion-a98c5cbea808?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-11-13T12:46:01+00:00",
+      "summary": "Leadership Is Not a Title: 8 Ways You Are Already Leading Before the Promotion Continue reading on Medium »",
+      "tags": [
+        "Leadership"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "A Changelog Is a Record of Product Decisions",
+      "url": "https://medium.com/@radarmakers/a-changelog-is-a-record-of-product-decisions-a8c3afa7e1c5?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-11-13T12:40:15+00:00",
+      "summary": "A changelog is often treated as the last stop in a release pipeline. Code ships, someone looks at commits, and a list of fragments is… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Every Day Is Zero Day | Wiz CTO Ami Luttwak",
+      "url": "https://a16z.simplecast.com/episodes/every-day-is-zero-day-wiz-cto-ami-luttwak-s6KylyoZ",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-11-13T11:00:00+00:00",
+      "summary": "AI isn’t just helping defenders find vulnerabilities. It’s giving attackers the speed and expertise to exploit them faster than many companies can respond. Wiz co-founder and CTO Ami Luttwak joins a16z General Partners Zane Lackey and Sarah Wang to unpack what he calls “Black Oct...",
+      "tags": [
+        "Security",
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "EP112 Why Adding Engineers Slows You Down: Escaping the Ticket Factory with Thanos Diacakis and Jay Stansell",
+      "url": "https://www.productcoalition.com/p/ep112-why-adding-engineers-slows",
+      "source": "Product Coalition",
+      "type": "article",
+      "date": "2026-11-13T09:01:21+00:00",
+      "summary": "I wanted to understand why teams can add people and process, then ship less.",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "YouTube Doesn’t Need to Beat Spotify at Audiobooks",
+      "url": "https://medium.com/@shishirhegde1205/youtube-doesnt-need-to-beat-spotify-at-audiobooks-19d6d4e1883c?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-11-13T05:41:51+00:00",
+      "summary": "It needs people like me, who’ve never listened to one. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Sharp Tech on Video: Nvidia After Jensen Huang, Ominous News for American AI, D.C. Gets Its Revenge",
+      "url": "https://stratechery.com/2026/sharp-tech-on-video-nvidia-after-jensen-huang-ominous-news-for-american-ai-d-c-gets-its-revenge/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-11-13T03:47:52+00:00",
+      "summary": "Sharp Tech is, for the first time, available on video. You have three ways to consume it: YouTube, Spotify, and here on Stratechery",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🔥 Jensen Huang and the future of the AI boom",
+      "url": "https://www.exponentialview.co/p/jensen-huang-and-the-future-of-the",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-11-12T16:19:28+00:00",
+      "summary": "Good news for some, not so good news for others",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "How to choose between banners, pop-ups, and in-product prompts? UX Guide",
       "url": "https://riyajawandhiya.medium.com/how-to-choose-between-banners-pop-ups-and-in-product-prompts-ux-guide-b88bc3ed10f2?source=rss------product_management-5",
@@ -545,6 +630,18 @@
       "summary": "A quiet Markdown editor for Mac, with sums in your notes Discussion | Link",
       "tags": [
         "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Kairos",
+      "url": "https://www.producthunt.com/products/kairos-18",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-11-07T16:38:24+00:00",
+      "summary": "Personal analytics engine across health, finances, & social Discussion | Link",
+      "tags": [
+        "Metrics"
       ],
       "is_fallback": true
     },
@@ -2157,6 +2254,18 @@
         "Product Design",
         "AI Strategy",
         "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Templify AI",
+      "url": "https://www.producthunt.com/products/templify",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-10-26T11:56:03+00:00",
+      "summary": "Powerful content editor for people who aren’t editors Discussion | Link",
+      "tags": [
+        "AI Strategy"
       ],
       "is_fallback": true
     },
@@ -10989,131 +11098,6 @@
       "summary": "What building a customer-specific healthcare solution taught me about turning a solution into a repeatable product Continue reading on Medium »",
       "tags": [
         "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Temporal Technologies: Director, GTM Strategy & Analytics",
-      "url": "https://weworkremotely.com/remote-jobs/temporal-technologies-director-gtm-strategy-analytics",
-      "source": "We Work Remotely",
-      "type": "job",
-      "date": "2026-08-15T07:31:27+00:00",
-      "summary": "Headquarters: United States - Remote Opportunity About Us Temporal is an open source programming model that can simplify code, make applications more reliable, and help developers focus on the important things like delivering features faster. We are on a mission to be the reliabl...",
-      "tags": [
-        "Career",
-        "Engineering Velocity",
-        "Growth"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Different Industries YET Same SaaS Playbook",
-      "url": "https://medium.com/@zankar.bhalala16/different-industries-yet-same-saas-playbook-6331935c36c8?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-08-15T05:49:33+00:00",
-      "summary": "I analysed B2B SaaS companies across completely different industries. Their strategies are surprisingly similar. Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "The More Code I Delegate to AI, the More I Think Like a Product Manager",
-      "url": "https://medium.com/@pradeep00271/the-more-code-i-delegate-to-ai-the-more-i-think-like-a-product-manager-d1f4fc436801?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-08-15T05:21:01+00:00",
-      "summary": "AI agents did more than speed up my implementation. They pushed me to question customer problems, compare product choices, and decide what… Continue reading on Medium »",
-      "tags": [
-        "AI Strategy",
-        "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "I Became a Product Manager and Also Slightly Crazy",
-      "url": "https://medium.com/@shwetadas930/i-became-a-product-manager-and-also-slightly-crazy-b7802f5beaa7?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-08-15T04:38:12+00:00",
-      "summary": "A confession from someone who now asks her cook to prioritise vegetables before they churn Continue reading on Medium »",
-      "tags": [
-        "Prioritization",
-        "Retention"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "🔮 The market misread Google’s AI exodus",
-      "url": "https://www.exponentialview.co/p/google-deepmind-exodus-ai-cycle",
-      "source": "Exponential View",
-      "type": "trend",
-      "date": "2026-08-15T04:31:21+00:00",
-      "summary": "We're earlier in the cycle than you may think",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Chert",
-      "url": "https://www.producthunt.com/products/chert",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-08-15T04:01:04+00:00",
-      "summary": "Vapi for FaceTime: AI video agents in a few lines Discussion | Link",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "OpenTrade",
-      "url": "https://www.producthunt.com/products/opentrade",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-08-15T01:23:20+00:00",
-      "summary": "Open-source trading harness for Claude Code / Codex. Discussion | Link",
-      "tags": [
-        "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Mindcase",
-      "url": "https://www.producthunt.com/products/mindcase",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-08-14T23:56:00+00:00",
-      "summary": "Extract data from anywhere on the web within minutes Discussion | Link",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "2026.33: The CapEx Train Keeps Rolling",
-      "url": "https://stratechery.com/2026/the-capex-train-keeps-rolling/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-08-14T17:00:00+00:00",
-      "summary": "The best Stratechery content from the week of August 10, 2026, including the capital constraint, AI writing, and a tale of two cities.",
-      "tags": [
-        "AI Strategy",
-        "Communication"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Vertical SaaS Moats Are Boring On Purpose",
-      "url": "https://medium.com/@colelamphere/vertical-saas-moats-are-boring-on-purpose-d2891a6b428a?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-08-14T16:29:24+00:00",
-      "summary": "The integration that took us eleven months is the reason a customer stayed after a competitor quoted half our price. Continue reading on Medium »",
-      "tags": [
-        "Competitive Analysis"
       ],
       "is_fallback": true
     }
