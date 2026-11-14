@@ -1,7 +1,81 @@
 {
-  "updated": "2026-11-13T12:47:45.977129+00:00",
-  "total": 892,
+  "updated": "2026-11-14T11:56:27.505712+00:00",
+  "total": 894,
   "items": [
+    {
+      "title": "250+ Product Management Resources Worth Saving",
+      "url": "https://medium.com/@olafioyeseyifunmi/250-product-management-resources-worth-saving-f67db05cfa4c?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-11-14T11:01:01+00:00",
+      "summary": "So, I have a habit of saving almost every useful Product Management resource I come across. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "“Technically Ready” Isn’t a Release Criterion",
+      "url": "https://medium.com/ai-all-in/technically-ready-isnt-a-release-criterion-d9f3cf5171a2?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-11-14T09:34:17+00:00",
+      "summary": "What Google’s AI Principles leave unsaid Continue reading on All in AI »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🔮 What does it cost to make a worker?",
+      "url": "https://www.exponentialview.co/p/what-does-it-cost-to-make-a-worker",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-11-14T07:27:27+00:00",
+      "summary": "Some early sketches of the economics of manufactured intelligence",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "2026.46: The End of Jensen",
+      "url": "https://stratechery.com/2026/the-end-of-jensen/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-11-13T18:00:00+00:00",
+      "summary": "The best Stratechery content from the week of November 9, 2026, including the shocking demise of Jensen Huang; enterprise, consumer and Intel; and professional basketbal.",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Purpose Alignment Model",
+      "url": "https://productsamurai.medium.com/the-purpose-alignment-model-5884e65c834a?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-11-13T17:13:47+00:00",
+      "summary": "When scaling Agile/Scrum, we invariably run into the alignment vs. autonomy problem. In short, you cannot have autonomous, self-directing… Continue reading on Medium »",
+      "tags": [
+        "Stakeholders"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "AI Agents Can Recommend Actions, but Businesses Must Decide What They’re Allowed to Do",
+      "url": "https://medium.com/@salmanasif5/ai-agents-can-recommend-actions-but-businesses-must-decide-what-theyre-allowed-to-do-b81682df342d?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-11-13T16:43:25+00:00",
+      "summary": "What a customer billing dispute reveals about business rules, agent permissions, and why safe automation requires more than a better… Continue reading on Medium »",
+      "tags": [
+        "AI Strategy",
+        "AI Tools",
+        "Automation"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Leadership Is Not a Title: 8 Ways You Are Already Leading Before the Promotion",
       "url": "https://medium.com/@taneshalmoody/leadership-is-not-a-title-8-ways-you-are-already-leading-before-the-promotion-a98c5cbea808?source=rss------product_management-5",
@@ -23,6 +97,18 @@
       "summary": "A changelog is often treated as the last stop in a release pipeline. Code ships, someone looks at commits, and a list of fragments is… Continue reading on Medium »",
       "tags": [
         "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Tabletop by Google Labs",
+      "url": "https://www.producthunt.com/products/google-labs",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-11-13T11:39:17+00:00",
+      "summary": "Build interactive group experiences with AI. Discussion | Link",
+      "tags": [
+        "AI Strategy"
       ],
       "is_fallback": true
     },
@@ -1339,6 +1425,19 @@
       "summary": "Sound engineered for dogs, not humans Discussion | Link",
       "tags": [
         "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "HiringNow",
+      "url": "https://www.producthunt.com/products/hiringnow",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-11-02T10:23:37+00:00",
+      "summary": "AI job agent that finds & apply for jobs before anyone else. Discussion | Link",
+      "tags": [
+        "AI Strategy",
+        "Career"
       ],
       "is_fallback": true
     },
@@ -11024,80 +11123,6 @@
       "tags": [
         "Product Design",
         "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Tab Notes",
-      "url": "https://www.producthunt.com/products/tab-notes",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-08-16T10:41:15+00:00",
-      "summary": "Turn your browser new tab into a distraction-free notepad Discussion | Link",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Your Users Don’t Want More Features. They Want Less Work.",
-      "url": "https://medium.com/@mohibshabbar/your-users-dont-want-more-features-they-want-less-work-7b25a59a56ac?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-08-16T05:47:42+00:00",
-      "summary": "The best software doesn’t give people more things to do. It quietly removes things they shouldn’t have to do at all. Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "🔮 The curious economics of a $6 AI agent #597",
-      "url": "https://www.exponentialview.co/p/ev-597",
-      "source": "Exponential View",
-      "type": "trend",
-      "date": "2026-08-16T05:39:19+00:00",
-      "summary": "Amazon spent some $1.8 million on a Claude project that ran unnoticed for five months. “It’s difficult to figure out how much anything [AI-related] costs”.",
-      "tags": [
-        "AI Tools",
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "PM Case Study: Vendors Don’t Need a Storefront; They Need to Remember Who Asked",
-      "url": "https://medium.com/@patriciaoko97/pm-case-study-vendors-dont-need-a-storefront-they-need-to-remember-who-asked-7ddc5146b40a?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-08-16T04:55:57+00:00",
-      "summary": "A product management case study for Nigerian small businesses selling on WhatsApp and why the real problem was never the shopfront Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "🧠 Community Wisdom: Recovering from burnout, what Airtable’s sale says about the ceiling on a startup, keeping architecture docs up to date, running competitor analysis, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-recovering-from",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-08-15T17:01:13+00:00",
-      "summary": "Community Wisdom 197",
-      "tags": [
-        "Community",
-        "Competitive Analysis"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "From Solution to Product: What 0-to-1 Product Development Really Looks Like",
-      "url": "https://medium.com/@ashutoshjoshi4545/from-solution-to-product-what-0-to-1-product-development-really-looks-like-ff53816226cb?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-08-15T15:16:51+00:00",
-      "summary": "What building a customer-specific healthcare solution taught me about turning a solution into a repeatable product Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
       ],
       "is_fallback": true
     }
