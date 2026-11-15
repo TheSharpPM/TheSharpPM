@@ -1,6 +1,11 @@
 {
   "editions": [
     {
+      "date": "2026-11-15",
+      "headline_theme": "Outcomes Over Predictability: The New PM Compass",
+      "file": "agent/2026-11-15.json"
+    },
+    {
       "date": "2026-11-08",
       "headline_theme": "AI hype won’t save product teams that ignore outcomes",
       "file": "agent/2026-11-08.json"
@@ -151,5 +156,5 @@
       "file": "agent/2026-05-03.json"
     }
   ],
-  "updated_at": "2026-11-08T14:18:15.877217+00:00"
+  "updated_at": "2026-11-15T14:44:54.426649+00:00"
 }

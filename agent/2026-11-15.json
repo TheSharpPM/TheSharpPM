@@ -1,0 +1,47 @@
+{
+  "edition": "2026-11-15",
+  "headline_theme": "Outcomes Over Predictability: The New PM Compass",
+  "target_audience": "Lead/Principal PM",
+  "hook_source": "Benedict Evans",
+  "editorial": "Benedict Evans’ column *AI, tools and transformation* cuts through the hype: AI isn’t a magic wand, it’s a measurement amplifier that forces product teams to prove impact with data, not intuition. Evans insists that without disciplined outcome tracking, AI‑driven experiments become vanity projects that look impressive but deliver no market value. That warning should make every senior leader question any roadmap that leans on AI for credibility alone.\n\nTwo other pieces drive the point home. Marty Cagan’s SVPG essay *Predictability vs Outcomes* declares that “predictability is a myth” and urges product leaders to replace dates with concrete outcomes. Mind the Product’s guide to the three financial metrics every PM needs—ARR, NRR, and CAC—shows how a scorecard translates product decisions into board‑room language, making missed targets impossible to ignore. Together, these three voices map a clear path: product success now hinges on hard numbers, not glossy timelines. When ARR climbs and churn drops, the scorecard instantly surfaces the product moves that matter.\n\nThe Stratechery post *The End of Jensen* throws a wrench in this optimism, warning that an AI‑driven hype cycle can drown disciplined product thinking. For Lead/Principal PMs, the takeaway is stark: champion outcome metrics while policing AI‑centric distraction. Deploy the financial scorecard to negotiate scope, anchor cross‑functional OKRs, and call out any roadmap that exists without a measurable business impact. Your influence now rests on translating vision into verifiable results, not on defending speculative timelines. Audit every initiative, replace dates with outcome targets, and demand a clear ROI before green‑lighting AI‑heavy experiments.",
+  "key_takeaways": [
+    "Roadmaps without outcome anchors are strategic dead‑ends.",
+    "AI tools amplify measurement but don’t replace the need for clear business metrics.",
+    "Financial scorecards translate product impact into language executives can act on.",
+    "Hype‑driven AI focus can distract from core market validation."
+  ],
+  "must_reads": [
+    {
+      "source": "SVPG",
+      "title": "Predictability vs Outcomes",
+      "url": "https://www.svpg.com/predictability-vs-outcomes/",
+      "why": "The essay exposes the illusion of predictability and forces senior product leaders to replace dates with measurable outcomes, a shift that directly aligns product work with business health."
+    },
+    {
+      "source": "Benedict Evans",
+      "title": "AI, tools and transformation",
+      "url": "https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation",
+      "why": "Evans reminds us that AI is a measurement amplifier, not a replacement for disciplined outcome tracking; the right tools let us test hypotheses at scale."
+    },
+    {
+      "source": "Mind the Product",
+      "title": "The 3 financial metrics every PM needs on their scorecard",
+      "url": "https://www.mindtheproduct.com/the-3-financial-metrics-every-pm-needs-on-their-scorecard",
+      "why": "Embedding ARR, NRR, and CAC into the product scorecard forces every decision to be justified in dollars, turning vague ambition into board‑level accountability."
+    }
+  ],
+  "contrarian": {
+    "note": "The Stratechery piece warns that the AI hype wave can drown disciplined product practices, suggesting teams may chase flashy metrics at the expense of market validation.",
+    "source": "Stratechery",
+    "title": "2026.46: The End of Jensen",
+    "url": "https://stratechery.com/2026/the-end-of-jensen/"
+  },
+  "also_worth": [],
+  "pm_homework": [
+    "Audit your current roadmap: replace every date with a specific outcome metric.",
+    "Implement the three financial metrics into your team’s weekly dashboard.",
+    "Schedule a cross‑functional review to surface any AI‑centric initiatives that lack a measurable business hypothesis."
+  ],
+  "generated_at": "2026-11-15T14:44:54.426373+00:00",
+  "model_used": "openai/gpt-oss-120b"
+}
