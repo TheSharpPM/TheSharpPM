@@ -1,7 +1,71 @@
 {
-  "updated": "2026-11-14T11:56:27.505712+00:00",
-  "total": 894,
+  "updated": "2026-11-15T12:27:10.885929+00:00",
+  "total": 891,
   "items": [
+    {
+      "title": "AI Product Architecture: A Practical Stack for Building AI Applications",
+      "url": "https://medium.com/@ashwaniirawat/ai-product-architecture-a-practical-stack-for-building-ai-applications-d8a1ace66905?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-11-15T12:02:15+00:00",
+      "summary": "A production AI application isn’t just an LLM connected to a user interface. Continue reading on Medium »",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "A Status Page Is a Customer Interface for Uncertainty",
+      "url": "https://medium.com/@radarmakers/a-status-page-is-a-customer-interface-for-uncertainty-fada7e201c10?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-11-15T11:46:01+00:00",
+      "summary": "A service can be partly broken while its homepage looks calm. One customer cannot sign in, another can, and the team is still trying to… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "What Breaks When You Scale 10x? | Zipline’s Keller Cliffton",
+      "url": "https://a16z.simplecast.com/episodes/what-breaks-when-you-scale-10x-ziplines-keller-cliffton-xr3f9vCW",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-11-15T11:00:00+00:00",
+      "summary": "It was illegal to fly autonomously in U.S. airspace when Keller Cliffton started Zipline, so the company went somewhere that would let it prove the technology worked: Rwanda. A decade later, Zipline has made more than 3 million deliveries and is bringing its autonomous delivery n...",
+      "tags": [
+        "Product Culture"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🔮 The $22 billion question about AI self-improvement #610",
+      "url": "https://www.exponentialview.co/p/ev-610",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-11-15T04:47:29+00:00",
+      "summary": "Plus: Cheap solar, who pays for Claude & DNA immunotherapy++",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🧠 Community Wisdom: When you become the bottleneck for your AI agents, the PULL framework for PMs, product growth vs. growth marketing, boosting feedback response rates, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-when-you-become",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-11-14T21:15:46+00:00",
+      "summary": "Community Wisdom 305",
+      "tags": [
+        "AI Strategy",
+        "AI Tools",
+        "Community"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "250+ Product Management Resources Worth Saving",
       "url": "https://medium.com/@olafioyeseyifunmi/250-product-management-resources-worth-saving-f67db05cfa4c?source=rss------product_management-5",
@@ -11,6 +75,18 @@
       "summary": "So, I have a habit of saving almost every useful Product Management resource I come across. Continue reading on Medium »",
       "tags": [
         "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "From the Telephone to Modern Computing | James Gleick",
+      "url": "https://a16z.simplecast.com/episodes/from-the-telephone-to-modern-computing-james-gleick-oBlUL96w",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-11-14T11:00:00+00:00",
+      "summary": "James Gleick — acclaimed science writer and bestselling author of Chaos: Making a New Science as well as biographies on polymaths Isaac Newton and Richard Feynman — joins Sonal Chokshi and Robert Hackett to discuss his new book, The Telephone: A New History. It is a story of a de...",
+      "tags": [
+        "Hardware Differentiation"
       ],
       "is_fallback": true
     },
@@ -720,6 +796,18 @@
       "is_fallback": true
     },
     {
+      "title": "collecto.rs",
+      "url": "https://www.producthunt.com/products/collecto-rs",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-11-07T23:33:53+00:00",
+      "summary": "Catalog any collection, from Pokémon to pitcher plants Discussion | Link",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
       "title": "Kairos",
       "url": "https://www.producthunt.com/products/kairos-18",
       "source": "Product Hunt",
@@ -762,6 +850,18 @@
       "type": "article",
       "date": "2026-11-07T10:35:21+00:00",
       "summary": "Getting someone to create an account is one thing. Getting them to come back is a completely different sport. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "TwoBucket",
+      "url": "https://www.producthunt.com/products/twobucket",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-11-07T07:14:18+00:00",
+      "summary": "Beginner-friendly mobile detailing software for bookings Discussion | Link",
       "tags": [
         "Product Strategy"
       ],
@@ -10985,144 +11085,6 @@
       "summary": "Find, organize, and reuse every image on your Mac Discussion | Link",
       "tags": [
         "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "MailerLite: Technical Product Manager",
-      "url": "https://weworkremotely.com/remote-jobs/mailerlite-technical-product-manager",
-      "source": "We Work Remotely",
-      "type": "job",
-      "date": "2026-08-17T12:16:59+00:00",
-      "summary": "Headquarters: Lithuania URL: https://www.mailerlite.com/company-values MailerLite is one of the fastest-growing email marketing services. We help more than 1 million businesses around the world stay in touch with their customers. Today, we are a team of more than 170 dreamers, ad...",
-      "tags": [
-        "Career",
-        "AI Strategy",
-        "Communication"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "How a solo founder used Codex and ChatGPT to launch a fashion brand without engineers | Yana Welinder",
-      "url": "https://www.lennysnewsletter.com/p/how-a-solo-founder-used-codex-and",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-08-17T12:04:02+00:00",
-      "summary": "Watch now | 🎙️From hand-drawn sketch to 3D-printed gown, Yana Welinder shows how Codex plus computer use makes previously unmanufacturable garments and full e-commerce builds possible for a solo founder",
-      "tags": [
-        "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "AI MVP Product Discovery: Validate Before You Build",
-      "url": "https://medium.com/@govindmurmu250/ai-mvp-product-discovery-validate-before-you-build-481ef797f4de?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-08-17T12:00:39+00:00",
-      "summary": "Before investing in development, validate the customer problem, essential MVP features, AI feasibility, architecture, cost, and launch… Continue reading on Medium »",
-      "tags": [
-        "AI Strategy",
-        "Leadership"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Stripe Acquiring OpenRouter, Aggregating AI?, Flipping the Business Model",
-      "url": "https://stratechery.com/2026/stripe-acquiring-openrouter-aggregating-ai-flipping-the-business-model/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-08-17T10:00:00+00:00",
-      "summary": "Stripe is reportedly acquiring OpenRouter, an implicit bet on a future market of models and the chance at Aggregation.",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Stripe’s AI Strategy: Build More, Not Less",
-      "url": "https://a16z.simplecast.com/episodes/stripes-ai-strategy-build-more-not-less-0w7FfhZZ",
-      "source": "a16z Podcast",
-      "type": "podcast",
-      "date": "2026-08-17T10:00:00+00:00",
-      "summary": "a16z General Partner David George is joined by Will Gaybrick, President of Product & Business at Stripe, to discuss how AI is changing the way Stripe builds products, organizes teams, and thinks about the future of internet commerce. Stripe has evolved from a payments company int...",
-      "tags": [
-        "AI Strategy",
-        "AI Tools",
-        "Platform Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Impact of Disruptive technologies on product development process",
-      "url": "https://medium.com/@muditastrataegis01/impact-of-disruptive-technologies-on-product-development-process-69e866d8fceb?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-08-17T05:37:56+00:00",
-      "summary": "Every technology extension has limitations if assessed from economic value addition perspective or simply utility point of view. Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "We Shipped Faster After We Started Saying No to Our Own Ideas",
-      "url": "https://medium.com/@virendrapatil2902/we-shipped-faster-after-we-started-saying-no-to-our-own-ideas-debbbc569ed1?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-08-17T05:31:02+00:00",
-      "summary": "Two engineers came to me with a proposal. Good proposal. Clean writeup, real problem, sensible design, three weeks of work. Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "What Product Managers Need to Understand: Product, Engineering, UX, and AI",
-      "url": "https://medium.com/@raylabs/what-product-managers-need-to-understand-product-engineering-ux-and-ai-299a2d9f6e49?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-08-17T05:23:23+00:00",
-      "summary": "Product Management can look simple from the outside. Continue reading on Medium »",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "AI Can Discover More. But Can It Decide What to Kill?",
-      "url": "https://medium.com/@ic-eight/ai-can-discover-more-but-can-it-decide-what-to-kill-cf5655392b75?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-08-17T00:49:56+00:00",
-      "summary": "In the previous piece, I described an experiment: giving AI different kinds of evidence about the same product and watching what it… Continue reading on Medium »",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Taku AI",
-      "url": "https://www.producthunt.com/products/taku-ai",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-08-16T15:14:17+00:00",
-      "summary": "Borrow the best AI setups and make them yours. Discussion | Link",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "OpenAI’s Head of Design: This is the best time in history to be a designer | Ian Silber",
-      "url": "https://www.lennysnewsletter.com/p/openais-head-of-design-this-is-the",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-08-16T12:31:42+00:00",
-      "summary": "Listen now | OpenAI’s head of product design on why this is the best time in history to be a designer, where humans still beat AI, and how to escape the overwhelm",
-      "tags": [
-        "Product Design",
-        "AI Tools"
       ],
       "is_fallback": true
     }
