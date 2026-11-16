@@ -1,7 +1,117 @@
 {
-  "updated": "2026-11-15T12:27:10.885929+00:00",
-  "total": 891,
+  "updated": "2026-11-16T13:19:16.054540+00:00",
+  "total": 890,
   "items": [
+    {
+      "title": "Noise That Looks Like the Problem",
+      "url": "https://medium.com/@murungaephantus/noise-that-looks-like-the-problem-f483765480f6?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-11-16T13:04:30+00:00",
+      "summary": "A few years ago, a manager told me something I didn’t want to hear. It doesn’t matter how hard you work. What matters is the outcome of… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "How I fight token fraud as a solo founder",
+      "url": "https://www.lennysnewsletter.com/p/how-i-fight-token-fraud-as-a-solo",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-11-16T13:04:09+00:00",
+      "summary": "Watch now (40 mins) | 🎙️ After losing tens of thousands of dollars to token fraud, I walk through six attack patterns, the defenses I built, and why I killed free trials",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Your SaaS Has Signups, But No Active Users. Fix This Before Spending More on Marketing.",
+      "url": "https://medium.com/@dealpilo/your-saas-has-signups-but-no-active-users-fix-this-before-spending-more-on-marketing-f71de5593f12?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-11-16T12:31:02+00:00",
+      "summary": "People are signing up for your SaaS. So why isn’t anyone actually using it? Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "One Person Doing Three Jobs With One Title",
+      "url": "https://stephanie-muxfeld.medium.com/one-person-doing-three-jobs-with-one-title-b288076d0c48?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-11-16T12:31:01+00:00",
+      "summary": "Signal Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Product Management Skills  Survey 2027",
+      "url": "https://www.productledalliance.com/product-management-skills-survey/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-11-16T12:20:20+00:00",
+      "summary": "Which product management skills matter most today, and which will in three years? Take our anonymous survey and help set the benchmark for PMs.",
+      "tags": [
+        "Product Culture"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Loop speed is the new  shipping speed",
+      "url": "https://www.productledalliance.com/loop-speed-is-the-new-shipping-speed/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-11-16T12:00:00+00:00",
+      "summary": "Discover the new bottlenecks of product development, as Martin Felcman of Productboard teases his upcoming CPO Summit session.",
+      "tags": [
+        "Leadership"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Alex Imas & Tyler Cowen | AI Is Moving Fast. Why Isn’t the Economy?",
+      "url": "https://a16z.simplecast.com/episodes/alex-imas-tyler-cowen-ai-is-moving-fast-why-isnt-the-economy-33WdZifY",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-11-16T11:30:48+00:00",
+      "summary": "AI capabilities are improving fast. But will the economy move just as quickly? a16z General Partner Erik Torenberg sits down with Google DeepMind economist Alex Imas and economist Tyler Cowen to examine how advances in AI translate into growth, jobs, wages, and productivity. They...",
+      "tags": [
+        "AI Strategy",
+        "AI Tools",
+        "Growth"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Obituaries",
+      "url": "https://stratechery.com/2026/obituaries/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-11-16T11:02:49+00:00",
+      "summary": "The demise of Jensen Huang was the end of a great many things, including Nvidia's long-term prospects, the AI bubble, and the exceptional way in which the U.S. viewed itself in the world.",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Meta’s Muse: How we launched the most successful consumer product this year | Mona Sarantakos",
+      "url": "https://www.lennysnewsletter.com/p/metas-muse-how-we-launched-the-most",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-11-15T13:31:28+00:00",
+      "summary": "Listen now | Mona Sarantakos on going from a weekend with OpenClaw to shipping the fastest-growing consumer AI product in history",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "AI Product Architecture: A Practical Stack for Building AI Applications",
       "url": "https://medium.com/@ashwaniirawat/ai-product-architecture-a-practical-stack-for-building-ai-applications-d8a1ace66905?source=rss------product_management-5",
@@ -111,6 +221,18 @@
       "summary": "Some early sketches of the economics of manufactured intelligence",
       "tags": [
         "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "ChatGPT Wallet",
+      "url": "https://www.producthunt.com/products/chatgpt",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-11-13T18:06:13+00:00",
+      "summary": "Let ChatGPT agents buy things without seeing your card Discussion | Link",
+      "tags": [
+        "AI Tools"
       ],
       "is_fallback": true
     },
@@ -1000,6 +1122,18 @@
       "type": "article",
       "date": "2026-11-06T05:03:34+00:00",
       "summary": "A successful product must do more than stand out; it needs to solve a real problem, deliver a reliable experience, and meet the demands of… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Zoom Slides",
+      "url": "https://www.producthunt.com/products/zoom",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-11-06T03:08:24+00:00",
+      "summary": "Turn your Zoom meetings into ready-to-present slides Discussion | Link",
       "tags": [
         "Product Strategy"
       ],
@@ -10936,153 +11070,6 @@
       "type": "trend",
       "date": "2026-08-18T14:52:07+00:00",
       "summary": "Turn public buying signals into sales pipeline Discussion | Link",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Launch ops: How to launch  when the plan keeps changing",
-      "url": "https://www.productledalliance.com/launch-ops-how-to-launch-when-the-plan-keeps-changing/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-08-18T11:38:45+00:00",
-      "summary": "The plan will change. The launch date won't. Plan accordingly.",
-      "tags": [
-        "Product Culture"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Nvidia Backs OpenAI Data Center, Anthropic News, Google Buys Spirit Airlines Data",
-      "url": "https://stratechery.com/2026/nvidia-backs-openai-data-center-anthropic-news-google-buys-spirit-airlines-data/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-08-18T10:00:00+00:00",
-      "summary": "Nvidia makes another deal, this time with a frontier lab; Anthropic's revenue continues to amaze; and maybe data finally is oil.",
-      "tags": [
-        "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "How Do You Defend Against AI That Can Hack?",
-      "url": "https://a16z.simplecast.com/episodes/how-do-you-defend-against-ai-that-can-hack-L2M2EmmY",
-      "source": "a16z Podcast",
-      "type": "podcast",
-      "date": "2026-08-18T10:00:00+00:00",
-      "summary": "a16z's Joel De La Garza is joined by Nick Warner of Neo and Max Pollard of Cotool to discuss what happens when cybersecurity tools built to defend against humans and malware suddenly have to contend with AI agents. As frontier models become more capable of finding and exploiting",
-      "tags": [
-        "AI Strategy",
-        "Security",
-        "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "🔮 Introducing: AI Economy Research Fellowship",
-      "url": "https://www.exponentialview.co/p/ai-economy-research-fellowship-2026",
-      "source": "Exponential View",
-      "type": "trend",
-      "date": "2026-08-18T08:53:30+00:00",
-      "summary": "Join our team to make sense of the AI economy",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "AI Maturity & Governance: Using AI Wisely Before Prompting",
-      "url": "https://medium.com/@marketing_57115/ai-maturity-governance-using-ai-wisely-before-prompting-7dbda9852543?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-08-18T05:38:36+00:00",
-      "summary": "Discover why true AI maturity isn’t about building more AI features, but about deliberate decision-making, governance, and knowing when to… Continue reading on Medium »",
-      "tags": [
-        "AI Strategy",
-        "Risk Management"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Why Product Documentation Is the First Step Before Building Any Software Product",
-      "url": "https://medium.com/@qicapp/why-product-documentation-is-the-first-step-before-building-any-software-product-53181bb1a5fd?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-08-18T05:22:27+00:00",
-      "summary": "Most software projects do not fail because developers cannot write code. They fail because teams start coding before they clearly… Continue reading on Medium »",
-      "tags": [
-        "Communication"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Abercrombie Deleted Everything People Hated. Sales Fell for Two More Years.",
-      "url": "https://medium.com/@aryan1999varma/abercrombie-deleted-everything-people-hated-sales-fell-for-two-more-years-cf310aeb70f3?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-08-18T04:49:26+00:00",
-      "summary": "The apology was never the strategy. The thing that actually saved the company is far less satisfying, and far more useful. Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Tovel AI",
-      "url": "https://www.producthunt.com/products/tovel-ai",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-08-18T02:18:35+00:00",
-      "summary": "From conversation to action, in three steps Discussion | Link",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "🎙️ How I AI: How a solo founder used Codex and ChatGPT to launch a fashion brand without engineers",
-      "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-a-solo-founder-used",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-08-17T15:03:16+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
-      "tags": [
-        "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "📈 Data to start your week",
-      "url": "https://www.exponentialview.co/p/data-to-start-your-week-26-08-17",
-      "source": "Exponential View",
-      "type": "trend",
-      "date": "2026-08-17T13:37:21+00:00",
-      "summary": "AI revenue update; frontier usage gap; hidden solar; China’s robot dominance++",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "anyCreature by Gobkit",
-      "url": "https://www.producthunt.com/products/anycreature",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-08-17T13:30:34+00:00",
-      "summary": "Summon monsters straight from your agent. Discussion | Link",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Caplio",
-      "url": "https://www.producthunt.com/products/caplio",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-08-17T12:59:14+00:00",
-      "summary": "Find, organize, and reuse every image on your Mac Discussion | Link",
       "tags": [
         "Product Strategy"
       ],
