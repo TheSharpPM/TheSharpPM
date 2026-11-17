@@ -1,7 +1,129 @@
 {
-  "updated": "2026-11-16T13:19:16.054540+00:00",
-  "total": 890,
+  "updated": "2026-11-17T14:04:05.398851+00:00",
+  "total": 891,
   "items": [
+    {
+      "title": "The Sharing Gap - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "url": "https://www.producttalk.org/the-sharing-gap-all-things-product-podcast-with-teresa-torres-petra-wille/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-11-17T14:00:00+00:00",
+      "summary": "Listen to this episode on: Spotify | Apple Podcasts Why has everyone stopped sharing their real product work — and what do we lose when the field goes quiet? Petra Wille and Teresa Torres return to the never-ending social-media question, this time from a trend angle: the genuinel...",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Amazon Didn’t Kill Cash on Delivery. It Priced It.",
+      "url": "https://medium.com/@MoreJayendra/amazon-didnt-kill-cash-on-delivery-it-priced-it-a0f70bfe32de?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-11-17T13:31:01+00:00",
+      "summary": "A ₹7 to ₹10 fee on pay-on-delivery looks like nothing. Here is the break-even math behind it, why it quietly moves people to pay online… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Preserving the Position of Parking Lot Item Types while Exporting and Importing Data",
+      "url": "https://medium.com/@openrose/preserving-the-position-of-parking-lot-item-types-while-exporting-and-importing-data-28d6a9d99a46?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-11-17T13:01:24+00:00",
+      "summary": "Managing requirements and project information effectively is about more than simply storing data. It is equally important to maintain the… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Illusion of Progress in Product Development",
+      "url": "https://medium.com/@m.r.afchangi.p/the-illusion-of-progress-in-product-development-0e54cd1b43e1?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-11-17T12:48:33+00:00",
+      "summary": "Eighteen months of development, countless features, and the true story of an AI startup that never made it to market. Continue reading on Medium »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "How to run quarterly prioritization across a multi-product portfolio  – start to finish",
+      "url": "https://www.productledalliance.com/how-to-run-quarterly-prioritization-across-a-multi-product-portfolio/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-11-17T12:00:00+00:00",
+      "summary": "Learn how to score every initiative, give leadership priorities a clear place in the model, and prove your roadmap delivers.",
+      "tags": [
+        "Leadership",
+        "Prioritization",
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Apple Permissions Update, The New App Paradigm, My iPhone Duo Review",
+      "url": "https://stratechery.com/2026/apple-permissions-update-the-new-app-paradigm-my-iphone-duo-review/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-11-17T11:00:00+00:00",
+      "summary": "Apple doesn't ruin the Mac, but they don't fix the agent problem, raising questions if they can think outside the app paradigm. Then, my iPhone Duo review.",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Super Apps Aren’t Built Overnight (Here’s How Grab Actually Did It)",
+      "url": "https://medium.com/@raftlabs/super-apps-arent-built-overnight-here-s-how-grab-actually-did-it-976677fd3710?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-11-17T07:06:01+00:00",
+      "summary": "A Grab-like super app requires a shared platform layer plus pluggable services. Don’t start as a super app. Start with rides or food, then… Continue reading on Medium »",
+      "tags": [
+        "Platform Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🔮 What Anthropic is really listing",
+      "url": "https://www.exponentialview.co/p/what-anthropic-is-really-listing",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-11-16T16:36:16+00:00",
+      "summary": "Tithes, not tokens",
+      "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🎙️ How I AI: Fable 5.2 Review + How I fight token fraud as a solo founder + Building a Claude Code family OS",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-fable-52-review-how-i-fight",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-11-16T16:02:55+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+      "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Ch. 11: Measuring Impact",
+      "url": "https://www.producttalk.org/ch-11-measuring-impact/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-11-16T14:00:00+00:00",
+      "summary": "Continuous Discovery Habits turns five this year. And to celebrate we are reading the book together. Each month, I am releasing an in-depth reading guide that includes: The chapters we will be reading A preview of the most important concepts we'll be learning about Short videos y...",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Noise That Looks Like the Problem",
       "url": "https://medium.com/@murungaephantus/noise-that-looks-like-the-problem-f483765480f6?source=rss------product_management-5",
@@ -23,6 +145,18 @@
       "summary": "Watch now (40 mins) | 🎙️ After losing tens of thousands of dollars to token fraud, I walk through six attack patterns, the defenses I built, and why I killed free trials",
       "tags": [
         "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "When notifications stop arriving, users stop  coming back: How Fin stays ahead of it.",
+      "url": "https://www.productledalliance.com/when-notifications-stop-arriving-users-stop-coming-back-how-fin-stays-ahead-of-it/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-11-16T13:01:10+00:00",
+      "summary": "A three-minute look at how Fin protects the emails its users depend on.",
+      "tags": [
+        "Product Culture"
       ],
       "is_fallback": true
     },
@@ -97,6 +231,20 @@
       "summary": "The demise of Jensen Huang was the end of a great many things, including Nvidia's long-term prospects, the AI bubble, and the exceptional way in which the U.S. viewed itself in the world.",
       "tags": [
         "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Pinecall",
+      "url": "https://www.producthunt.com/products/pinecall",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-11-16T10:54:15+00:00",
+      "summary": "The open-source platform for voice AI agents Discussion | Link",
+      "tags": [
+        "AI Strategy",
+        "AI Tools",
+        "Platform Strategy"
       ],
       "is_fallback": true
     },
@@ -1298,6 +1446,19 @@
       "date": "2026-11-05T00:41:38+00:00",
       "summary": "GIFs, reusable reference images and 50% faster generation Discussion | Link",
       "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "EkLine",
+      "url": "https://www.producthunt.com/products/ekline",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-11-04T21:32:44+00:00",
+      "summary": "Get your API discovered, recommended, and used by AI agents Discussion | Link",
+      "tags": [
+        "AI Strategy",
         "AI Tools"
       ],
       "is_fallback": true
@@ -10921,157 +11082,6 @@
         "Automation",
         "Career",
         "Stakeholders"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "🫧 Is AI a bubble yet? Our five gauges say no",
-      "url": "https://www.exponentialview.co/p/is-ai-a-bubble-yet-our-five-gauges",
-      "source": "Exponential View",
-      "type": "trend",
-      "date": "2026-08-19T12:05:40+00:00",
-      "summary": "Demand is justifying all the spending, but the spending is getting harder to unwind",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Apple Settles With E.U., U.S. App Store Fees, ATT Rules in Germany",
-      "url": "https://stratechery.com/2026/apple-settles-with-e-u-u-s-app-store-fees-att-rules-in-germany/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-08-19T10:00:00+00:00",
-      "summary": "Apple's App Store is finally facing the reality of lower fees, and the EU should be satisfied with its work; it's ok it's late.",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "How Whatnot Built a Global Marketplace",
-      "url": "https://a16z.simplecast.com/episodes/how-whatnot-built-a-global-marketplace-DoonwHjN",
-      "source": "a16z Podcast",
-      "type": "podcast",
-      "date": "2026-08-19T10:00:00+00:00",
-      "summary": "a16z General Partner David George is joined by Grant LaFontaine, co-founder of Whatnot, to unpack how a marketplace that started with collectibles evolved into one of the world's leading live shopping platforms. Grant traces the company's origins from selling Pokémon cards online...",
-      "tags": [
-        "AI Strategy",
-        "Platform Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Empathy Mapping: The sticky note that holds a person inside it",
-      "url": "https://waffledesigns.medium.com/empathy-mapping-the-sticky-note-that-holds-a-person-inside-it-32ca335ca892?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-08-19T05:26:01+00:00",
-      "summary": "You are in a meeting room. Someone has drawn a large circle on a whiteboard, divided it into four quadrants, and written “Says,” “Thinks,”… Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "When AI makes “enough” impossible",
-      "url": "https://medium.com/@ghoshadave/when-ai-makes-enough-impossible-a2374f7d2b9a?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-08-19T04:35:56+00:00",
-      "summary": "AI is making knowledge workers faster. But faster doesn’t necessarily mean better - or happier. Continue reading on Medium »",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "What I Learned Auditing 35+ Youth FinTech & Financial Literacy Apps",
-      "url": "https://medium.com/@bahriyesevval/what-i-learned-auditing-35-youth-fintech-financial-literacy-apps-e2902d6b1996?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-08-19T01:26:11+00:00",
-      "summary": "Building a financial product for younger audiences is a fascinating UX and product strategy challenge. You aren’t just designing a… Continue reading on Medium »",
-      "tags": [
-        "Compliance",
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "I tested Grok Bot, Grok 4.6, and Cursor Origin - here’s my honest take",
-      "url": "https://www.lennysnewsletter.com/p/i-tested-grok-bot-grok-46-and-cursor",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-08-18T21:30:31+00:00",
-      "summary": "Watch now | 🎙️ I tested Grok Bot, Cursor Origin, and Grok 4.6 head-to-head against my favorite models and ranked them on the Claire Index: here's what actually moved the needle",
-      "tags": [
-        "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Caspar Health: Junior Product Manager*in (alle Identitäten)",
-      "url": "https://weworkremotely.com/remote-jobs/caspar-health-junior-product-manager-in-alle-identitaten",
-      "source": "We Work Remotely",
-      "type": "job",
-      "date": "2026-08-18T20:33:18+00:00",
-      "summary": "Headquarters: Remote, Berlin What to expect Caspar Health ist führend in der digitalen Reha-Nachsorge. Wir entwickeln Lösungen, die eine moderne, datengestützte Gesundheitsversorgung ermöglichen und die Brücke zwischen Klinik und Zuhause schlagen. Unsere App bietet Patient*innen",
-      "tags": [
-        "Career",
-        "Growth",
-        "Product Design"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Medisca: Upstream Product Manager",
-      "url": "https://weworkremotely.com/remote-jobs/medisca-upstream-product-manager",
-      "source": "We Work Remotely",
-      "type": "job",
-      "date": "2026-08-18T20:31:54+00:00",
-      "summary": "Headquarters: Georgia, United States Medisca is a global company leveraging strong partnerships to serve healthcare professionals across diverse wellness disciplines. Offering extensive and essential solutions - including pharmaceutical ingredients and service, mixing technology",
-      "tags": [
-        "Career",
-        "Communication",
-        "Competitive Analysis"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Network Effects in SaaS: When Your Product Gets Better Because More People Use It",
-      "url": "https://medium.com/@atticusli/network-effects-in-saas-when-your-product-gets-better-because-more-people-use-it-7061f172b3c9?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-08-18T17:01:04+00:00",
-      "summary": "Network effects are the most powerful growth engine in technology, but most SaaS products fail to design for them. Continue reading on Medium »",
-      "tags": [
-        "Growth"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Announcing Lenny’s Jobs: The best place in the world to find, vet, and land your dream job",
-      "url": "https://www.lennysnewsletter.com/p/announcing-lennys-jobs-the-best-place",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-08-18T15:40:06+00:00",
-      "summary": "Where product managers, engineers, designers, and growth/marketing professionals discover high-quality open roles at tech companies",
-      "tags": [
-        "Growth",
-        "Product Design"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "BrandJet",
-      "url": "https://www.producthunt.com/products/brandjet-ai",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-08-18T14:52:07+00:00",
-      "summary": "Turn public buying signals into sales pipeline Discussion | Link",
-      "tags": [
-        "Product Strategy"
       ],
       "is_fallback": true
     }
