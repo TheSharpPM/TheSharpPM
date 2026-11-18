@@ -1,7 +1,136 @@
 {
-  "updated": "2026-11-17T14:04:05.398851+00:00",
+  "updated": "2026-11-18T13:38:42.657665+00:00",
   "total": 891,
   "items": [
+    {
+      "title": "What Is Product Management? Responsibilities, Skills and Career Opportunities",
+      "url": "https://strideschoolofbusiness.medium.com/what-is-product-management-responsibilities-skills-and-career-opportunities-8bbca8266ab4?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-11-18T13:31:50+00:00",
+      "summary": "Every product starts with a question. What problem are we trying to solve? Continue reading on Medium »",
+      "tags": [
+        "Career"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Advent of Code: How Little Green Men Helped Me Solve a Puzzle",
+      "url": "https://productsamurai.medium.com/advent-of-code-how-little-green-men-helped-me-solve-a-puzzle-4d01c55c2f45?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-11-18T13:29:33+00:00",
+      "summary": "Okay, so first of all it is all Serge’s fault. On the train back from Schiphol he introduced me to https://www.adventofcode.com and… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Secret to Making People Buy Your Product",
+      "url": "https://productsamurai.medium.com/the-secret-to-making-people-buy-your-product-242397e491f3?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-11-18T13:26:50+00:00",
+      "summary": "There is no greater waste than building something extremely efficient, well architectured (is that a word?), with high quality that nobody… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "What Happens When a Prediction Market Has No Liquidity?",
+      "url": "https://medium.com/@gammaplus/what-happens-when-a-prediction-market-has-no-liquidity-f799b1217164?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-11-18T11:34:53+00:00",
+      "summary": "Everything looks fine on launch day. Then a user tries to place a trade. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "WorkMotion: Senior Product Manager",
+      "url": "https://weworkremotely.com/remote-jobs/workmotion-senior-product-manager",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-11-18T11:31:46+00:00",
+      "summary": "Headquarters: Egypt URL: https://jobs.workable.com/company/jzo8hYoyQi6MffQtCgXykk/jobs-at-workmotion Senior Product Manager, Enterprise Location: Remote (Egypt only) Contract type: 1-year renewable contract Salary: €38,000 gross annual salary (fixed + bonus) Not Your Typical Work...",
+      "tags": [
+        "Career",
+        "Product Strategy",
+        "Stakeholders"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Nacre Capital: Head of Product",
+      "url": "https://weworkremotely.com/remote-jobs/nacre-capital-head-of-product",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-11-18T11:31:45+00:00",
+      "summary": "Headquarters: Chile URL: https://jobs.workable.com/company/8rWSxRWEU6b9TEpdx1KtdS/jobs-at-nacre-capital FDNA is a pioneer in AI-powered phenotyping and precision health, dedicated to expediting the diagnosis and care management of rare genetic and developmental disorders. Used ac...",
+      "tags": [
+        "Career",
+        "Compliance",
+        "Growth"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Nvidia Earnings; Office Convergence; OS Wars, AI Edition",
+      "url": "https://stratechery.com/2026/nvidia-earnings-office-convergence-os-wars-ai-edition/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-11-18T11:00:00+00:00",
+      "summary": "Nvidia's earnings were boring, and also a statement as to why Jensen Huang probably isn't coming back; then, Microsoft and Anthropic ship dueling operating system updates.",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Missing Layer for Personal AI | First Person Labs’ Ken Liu",
+      "url": "https://a16z.simplecast.com/episodes/the-missing-layer-for-personal-ai-first-person-labs-ken-liu-wu4i8Q00",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-11-18T11:00:00+00:00",
+      "summary": "AI agents are getting smarter, but every new agent still has to learn who you are. What if your preferences, priorities, relationships, and digital context could move with you instead? First Person Labs co-founder Ken Liu joins a16z’s Martin Casado and Joel de la Garza to introdu...",
+      "tags": [
+        "AI Strategy",
+        "AI Tools",
+        "Security"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "35 premium tools free for a year—now with OpenRouter, LangChain, Sentry, TextExpander, and Ploy 💥",
+      "url": "https://www.lennysnewsletter.com/p/35-premium-tools-free-for-a-yearnow",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-11-17T18:02:02+00:00",
+      "summary": "Over $40,000 in value, exclusively for Lenny’s Newsletter subscribers",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Can AI Learn to Improve Itself? | Recursive Self-Improvement",
+      "url": "https://a16z.simplecast.com/episodes/can-ai-learn-to-improve-itself-recursive-self-improvement-MhAlOhBQ",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-11-17T17:44:53+00:00",
+      "summary": "For decades, the idea of AI improving itself was just a thought experiment. Today, AI is already helping researchers at frontier labs run experiments, write code and test ideas faster. Mark Chen says OpenAI has built “AI research interns.” So how far are we from AI that can do th...",
+      "tags": [
+        "AI Strategy",
+        "AI Tools",
+        "Stakeholders"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "The Sharing Gap - All Things Product Podcast with Teresa Torres & Petra Wille",
       "url": "https://www.producttalk.org/the-sharing-gap-all-things-product-podcast-with-teresa-torres-petra-wille/",
@@ -257,6 +386,19 @@
       "summary": "Listen now | Mona Sarantakos on going from a weekend with OpenClaw to shipping the fastest-growing consumer AI product in history",
       "tags": [
         "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "S.Space",
+      "url": "https://www.producthunt.com/products/s-space",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-11-15T13:26:16+00:00",
+      "summary": "Your team and everyone's AI agents, in one workspace Discussion | Link",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
       ],
       "is_fallback": true
     },
@@ -590,6 +732,18 @@
       "summary": "Follow the work around the answer: preparation, verification, and the handoff. Continue reading on Medium »",
       "tags": [
         "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Mermaid Flow",
+      "url": "https://www.producthunt.com/products/mermaid-chart",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-11-11T20:24:56+00:00",
+      "summary": "The visual builder for agentic workflows Discussion | Link",
+      "tags": [
+        "Product Strategy"
       ],
       "is_fallback": true
     },
@@ -10929,159 +11083,6 @@
       "summary": "Vibe-code games, then share them like TikToks Discussion | Link",
       "tags": [
         "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "How Global Networks Are Reshaping Startup Success",
-      "url": "https://a16z.simplecast.com/episodes/how-global-networks-are-reshaping-startup-success-YCGysOkP",
-      "source": "a16z Podcast",
-      "type": "podcast",
-      "date": "2026-08-20T10:00:00+00:00",
-      "summary": "Elena Burger is joined by a16z’s Angela Strange and Gabriel Vasquez to discuss the rise of the \"borderless founder\": entrepreneurs who bring the networks and insights of their home markets together with the talent, capital, and speed of Silicon Valley to build global companies. A...",
-      "tags": [
-        "AI Strategy",
-        "Hardware Differentiation",
-        "Platform Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "fx (by Vercel)",
-      "url": "https://www.producthunt.com/products/fx-by-vercel",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-08-20T08:24:52+00:00",
-      "summary": "Vercel's tiny, open-source coding agent Discussion | Link",
-      "tags": [
-        "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "How product leaders actually get the  C-suite rowing in the same direction",
-      "url": "https://www.productledalliance.com/how-product-leaders-get-the-c-suite-aligned/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-08-20T08:24:24+00:00",
-      "summary": "Learn how top CPOs actually get their C-suite aligned, from earning trust before metrics to building the operating model that keeps it from decaying.",
-      "tags": [
-        "Leadership",
-        "Metrics"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "The part of product panagement nobody puts in the job description",
-      "url": "https://medium.com/@ghoshadave/the-part-of-product-panagement-nobody-puts-in-the-job-description-182d99b06854?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-08-20T05:41:01+00:00",
-      "summary": "You can learn every framework, master every interview question, and still struggle as a PM if you don’t learn how to lead people. Continue reading on Medium »",
-      "tags": [
-        "Career"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "We Measured the Wrong Agile Metric for 20 Years",
-      "url": "https://medium.com/@qwertyden/we-measured-the-wrong-agile-metric-for-20-years-c855ffbb0ff9?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-08-20T05:27:06+00:00",
-      "summary": "Most Agile organizations obsess over: Continue reading on Medium »",
-      "tags": [
-        "Metrics"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Turnstone",
-      "url": "https://www.producthunt.com/products/turnstone",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-08-20T04:40:12+00:00",
-      "summary": "Grok Bot alternative that runs on your AI, completely free Discussion | Link",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "From could to should: human-centered design as organizational decision-making",
-      "url": "https://medium.com/design-bootcamp/from-could-to-should-human-centered-design-as-organizational-decision-making-59c8574477a1?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-08-20T04:28:46+00:00",
-      "summary": "The technology changes. The questions shouldn’t. Why human-centered design is a framework for navigating uncertainty and reducing risk in… Continue reading on Bootcamp »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "How to Use AI in Product Management: 5 Real-World Lessons on AI Adoption",
-      "url": "https://medium.com/@mandarchiplunkar/how-to-use-ai-in-product-management-5-real-world-lessons-on-ai-adoption-9fc7e918a6a3?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-08-20T04:18:12+00:00",
-      "summary": "AI is no longer just a productivity tool for writing emails or summarizing meetings. Continue reading on Medium »",
-      "tags": [
-        "AI Strategy",
-        "Communication",
-        "Productivity"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Destiny Rings",
-      "url": "https://www.producthunt.com/products/destiny-rings",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-08-20T02:09:37+00:00",
-      "summary": "Proximity-powered dating, social & networking Discussion | Link",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Hermai Brand API",
-      "url": "https://www.producthunt.com/products/hermai-brand-api",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-08-20T01:12:56+00:00",
-      "summary": "White label your B2B SaaS with every customer's brand Discussion | Link",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Duel.com: Product Owner",
-      "url": "https://weworkremotely.com/remote-jobs/duel-com-product-owner",
-      "source": "We Work Remotely",
-      "type": "job",
-      "date": "2026-08-19T20:38:12+00:00",
-      "summary": "Headquarters: Malta Duel is a protest against everything wrong in gambling. The purest, fairest casino ever built. The Vatican of gamba. We're waging war on scammers, fake bets, and dark patterns — and we need a Product Owner who wants to burn the old playbook down. The role You",
-      "tags": [
-        "Prioritization",
-        "Career",
-        "Growth"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "E. Breuninger& Co.: Product Owner (m/w/d)  Tools & Systeme Customer Service // remote möglich",
-      "url": "https://weworkremotely.com/remote-jobs/e-breuninger-co-product-owner-m-w-d-tools-systeme-customer-service-remote-moglich",
-      "source": "We Work Remotely",
-      "type": "job",
-      "date": "2026-08-19T20:37:05+00:00",
-      "summary": "Headquarters: Stuttgart, Deutschland Unternehmensbeschreibung Fashion und Lifestyle, 6.500 Mitarbeiter:innen, 13 Department Stores, Online-Shops in Deutschland, Polen, Österreich, Belgien, Luxemburg, Spanien, Italien, Tschechien, den Niederlanden und der Schweiz, über 2.000 Marke...",
-      "tags": [
-        "Automation",
-        "Career",
-        "Stakeholders"
       ],
       "is_fallback": true
     }
