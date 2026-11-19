@@ -1,7 +1,132 @@
 {
-  "updated": "2026-11-18T13:38:42.657665+00:00",
-  "total": 891,
+  "updated": "2026-11-19T14:05:21.219346+00:00",
+  "total": 895,
   "items": [
+    {
+      "title": "A Product Roadmap Shows the Work. A Product Strategy Explains the Choices.",
+      "url": "https://medium.com/@JedBlumenfeld/a-product-roadmap-shows-the-work-a-product-strategy-explains-the-choices-13827ef713a4?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-11-19T13:01:01+00:00",
+      "summary": "As a kid, the question was simple: What do I want to be when I grow up? Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "A Product Roadmap Shows the Work. A Product Strategy Explains the Choices.",
+      "url": "https://medium.com/@JedBlumenfeld/a-product-roadmap-shows-the-work-a-product-strategy-explains-the-choices-13827ef713a4?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-11-19T13:01:01+00:00",
+      "summary": "As a kid, the question was simple: What do I want to be when I grow up? Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Art of Product Management",
+      "url": "https://medium.com/@strigdima/the-art-of-product-management-8bc6a1ec6e54?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-11-19T12:49:15+00:00",
+      "summary": "On tech nerds, ticket pushers, visionaries, and the mythical creature that might be hiding somewhere in your org chart Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Art of Product Management",
+      "url": "https://medium.com/@strigdima/the-art-of-product-management-8bc6a1ec6e54?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-11-19T12:49:15+00:00",
+      "summary": "On tech nerds, ticket pushers, visionaries, and the mythical creature that might be hiding somewhere in your org chart Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "An Interview With Eric Seufert About Agentic Commerce",
+      "url": "https://stratechery.com/2026/an-interview-with-eric-seufert-about-agentic-commerce/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-11-19T11:00:00+00:00",
+      "summary": "An interview with Eric Seufert about agentic commerce, including why he thinks ads will be the answer, and why I want retailers who cater to agents.",
+      "tags": [
+        "Career"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Reddit: Associate General Counsel, Ads Product",
+      "url": "https://weworkremotely.com/remote-jobs/reddit-associate-general-counsel-ads-product",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-11-19T06:01:50+00:00",
+      "summary": "Headquarters: Remote - United States Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most",
+      "tags": [
+        "AI Strategy",
+        "Career",
+        "Communication"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Typeform: Senior IT Engineer",
+      "url": "https://weworkremotely.com/remote-jobs/typeform-senior-it-engineer",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-11-19T06:01:49+00:00",
+      "summary": "Headquarters: Germany (Remote) ; Ireland (Remote); Netherlands (Remote) ; Portugal (Remote) ; United Kingdom (Remote) Who we are Typeform is a refreshingly different form builder. We help over 150,000 businesses collect the data they need with forms, surveys, and quizzes that peo...",
+      "tags": [
+        "Career",
+        "AI Strategy",
+        "Automation"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Adside",
+      "url": "https://www.producthunt.com/products/adside",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-11-19T00:52:42+00:00",
+      "summary": "A team of specialized AI agents that manage paid ads for you Discussion | Link",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Grab My Personal Annual Review Claude Code Plugin",
+      "url": "https://www.producttalk.org/personal-annual-review-claude-code-plugin/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-11-18T14:05:00+00:00",
+      "summary": "Summary unavailable.",
+      "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "My Personal Annual Review Process (Now a Claude Code Plugin)",
+      "url": "https://www.producttalk.org/personal-annual-review/",
+      "source": "Product Talk",
+      "type": "article",
+      "date": "2026-11-18T14:00:00+00:00",
+      "summary": "Every December, I reflect on my year and plan the next. I share 4 exercises in my personal annual review, plus a Claude Code plugin.",
+      "tags": [
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "What Is Product Management? Responsibilities, Skills and Career Opportunities",
       "url": "https://strideschoolofbusiness.medium.com/what-is-product-management-responsibilities-skills-and-career-opportunities-8bbca8266ab4?source=rss------product_management-5",
@@ -644,6 +769,18 @@
       "type": "trend",
       "date": "2026-11-13T03:47:52+00:00",
       "summary": "Sharp Tech is, for the first time, available on video. You have three ways to consume it: YouTube, Spotify, and here on Stratechery",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "TestSprite 4.0",
+      "url": "https://www.producthunt.com/products/testsprite",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-11-12T22:40:48+00:00",
+      "summary": "Fix one thing, break another? This agent checks it all Discussion | Link",
       "tags": [
         "Product Strategy"
       ],
@@ -10993,96 +11130,6 @@
         "AI Strategy",
         "Platform Strategy",
         "Retention"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Microsoft's Deputy CISO on Securing AI Agents",
-      "url": "https://a16z.simplecast.com/episodes/how-microsoft-is-securing-the-agentic-enterprise-aaron-zollman-j7eOe8NH",
-      "source": "a16z Podcast",
-      "type": "podcast",
-      "date": "2026-08-21T11:40:08+00:00",
-      "summary": "a16z's Joel De La Garza is joined by Aaron Zollman, Deputy CISO at Microsoft Gaming, to discuss how security teams can embrace AI agents without losing control. Aaron shares Microsoft's experience with OpenClaw, from the initial instinct to ban it to figuring out how to make it s...",
-      "tags": [
-        "AI Strategy",
-        "AI Tools",
-        "Security"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Pendo: Director, Customer Growth & Lifecycle",
-      "url": "https://weworkremotely.com/remote-jobs/pendo-director-customer-growth-lifecycle",
-      "source": "We Work Remotely",
-      "type": "job",
-      "date": "2026-08-21T07:30:41+00:00",
-      "summary": "Headquarters: Raleigh, NC / New York, NY / EST Remote The Team + The Role Pendo is rebuilding for the AI era, with new products, new buyers, and new ways to deliver value to customers. The Customer Growth and Lifecycle function sits at the center of that shift, helping turn custo...",
-      "tags": [
-        "AI Strategy",
-        "Career",
-        "Leadership"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Your roadmap is not your strategy",
-      "url": "https://medium.com/@ghoshadave/your-roadmap-is-not-your-strategy-b8956e475980?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-08-21T05:46:01+00:00",
-      "summary": "A product strategy isn’t a longer list of priorities. It’s a clear answer to what matters, why it matters, and what you’re willing to do… Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Your roadmap is not your strategy",
-      "url": "https://medium.com/@ghoshadave/your-roadmap-is-not-your-strategy-b8956e475980?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-08-21T05:46:01+00:00",
-      "summary": "A product strategy isn’t a longer list of priorities. It’s a clear answer to what matters, why it matters, and what you’re willing to do… Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Your AI Idea Deserves More Than a Prototype. Build It to Scale",
-      "url": "https://medium.com/@michael.keller314/your-ai-idea-deserves-more-than-a-prototype-build-it-to-scale-6b63e637fb22?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-08-21T05:42:01+00:00",
-      "summary": "A promising AI idea can generate excitement in a prototype, but the real test begins when customers, data, integrations, security… Continue reading on Medium »",
-      "tags": [
-        "AI Strategy",
-        "Product Design",
-        "Security"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "ICE Scoring: The Score That Takes Thirty Seconds and Gets You Eighty Percent There",
-      "url": "https://waffledesigns.medium.com/ice-scoring-the-score-that-takes-thirty-seconds-and-gets-you-eighty-percent-there-2b0eeeb48491?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-08-21T05:26:01+00:00",
-      "summary": "ICE Scoring was created to be faster than RICE. That is its entire reason for existing. Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Pocket by Meta",
-      "url": "https://www.producthunt.com/products/pocket-by-meta",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-08-21T03:32:59+00:00",
-      "summary": "Vibe-code games, then share them like TikToks Discussion | Link",
-      "tags": [
-        "Product Strategy"
       ],
       "is_fallback": true
     }
