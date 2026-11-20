@@ -1,7 +1,121 @@
 {
-  "updated": "2026-11-19T14:05:21.219346+00:00",
-  "total": 895,
+  "updated": "2026-11-20T13:48:42.253255+00:00",
+  "total": 897,
   "items": [
+    {
+      "title": "Your Team Is Twice the Size. Your Feedback Can’t Wait for the 1:1.",
+      "url": "https://medium.com/@dmytrostephen/your-team-is-twice-the-size-your-feedback-cant-wait-for-the-1-1-a02414f4247e?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-11-20T13:28:11+00:00",
+      "summary": "A lightweight feedback system for engineering managers who now carry far more direct reports than they were hired for Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "How to Extract Almost Any Information From a Website Using Python",
+      "url": "https://medium.com/@learnwithhercodingtut/how-to-extract-almost-any-information-from-a-website-using-python-beecee5b4589?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-11-20T13:08:20+00:00",
+      "summary": "One of the most useful things I’ve learned about Python is that it can turn almost any repetitive online task into an automated workflow. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Sharp Tech on Video: Jensen’s Not Coming Back, AI Shopping, The iPhone Duo",
+      "url": "https://stratechery.com/2026/sharp-tech-on-video-jensens-not-coming-back-ai-shopping-the-iphone-duo/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-11-20T11:00:00+00:00",
+      "summary": "Sharp Tech is, for the first time, available on video. You have three ways to consume it: YouTube, Spotify, and here on Stratechery",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Building a Dating App: The Niche Matters More Than the Product",
+      "url": "https://medium.com/@raftlabs/building-a-dating-app-the-niche-matters-more-than-the-product-5b01f05e5d17?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-11-20T07:16:01+00:00",
+      "summary": "Hinge’s $51M acquisition wasn’t about scale. It was about a specific mechanic for a specific audience. Here’s how to build a niche dating… Continue reading on Medium »",
+      "tags": [
+        "Growth"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Tebra: Senior Product Manager",
+      "url": "https://weworkremotely.com/remote-jobs/tebra-senior-product-manager",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-11-20T06:01:44+00:00",
+      "summary": "Headquarters: United States - Remote Tebra only initiates contact with candidates via email from an official Tebra email address (@ tebra.com , @ patientpop.com , or @ kareo.com ) or through our applicant tracking system, Greenhouse. We will only ask you to provide sensitive pers...",
+      "tags": [
+        "Career",
+        "AI Strategy",
+        "Communication"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Storyblok: Technical Support Engineer II - Costa Rica, Colombia, Mexico",
+      "url": "https://weworkremotely.com/remote-jobs/storyblok-technical-support-engineer-ii-costa-rica-colombia-mexico",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-11-20T06:01:35+00:00",
+      "summary": "Headquarters: Remote Storyblok is a headless CMS that enables marketers and developers to create with joy and publish with confidence. It empowers you to deliver structured and consistent content everywhere: websites, apps, AI search, and beyond. Legendary brands like Virgin Medi...",
+      "tags": [
+        "Career",
+        "AI Strategy",
+        "Communication"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Samiksa",
+      "url": "https://www.producthunt.com/products/samiksa",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-11-20T04:22:09+00:00",
+      "summary": "Understand research, test it yourself, publish your own Discussion | Link",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Before replacing a billing system, decide what you can safely test to determine the right direction",
+      "url": "https://medium.com/@salmanasif5/before-replacing-a-billing-system-decide-what-you-can-safely-test-to-determine-the-right-direction-5579e56b4eed?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-11-19T15:37:54+00:00",
+      "summary": "A company can look for a better way to bill for its work product and still not be ready to let a new system send customer invoices. Continue reading on Medium »",
+      "tags": [
+        "Pricing"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "How Fast Should We Build Superintelligence? | Nick Bostrom",
+      "url": "https://a16z.simplecast.com/episodes/how-fast-should-we-build-superintelligence-nick-bostrom-21xI3Oxg",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-11-19T15:29:34+00:00",
+      "summary": "The question isn’t simply whether humanity should race toward superintelligence or stop. Nick Bostrom argues the harder challenge is preserving the ability to slow down when safety falls behind, without turning a temporary pause into permanent technological stagnation. a16z’s Edd...",
+      "tags": [
+        "AI Strategy",
+        "Risk Management",
+        "Stakeholders"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "A Product Roadmap Shows the Work. A Product Strategy Explains the Choices.",
       "url": "https://medium.com/@JedBlumenfeld/a-product-roadmap-shows-the-work-a-product-strategy-explains-the-choices-13827ef713a4?source=rss------product_management-5",
@@ -47,6 +161,18 @@
       "summary": "On tech nerds, ticket pushers, visionaries, and the mythical creature that might be hiding somewhere in your org chart Continue reading on Medium »",
       "tags": [
         "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Stormi",
+      "url": "https://www.producthunt.com/products/stormi",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-11-19T12:24:03+00:00",
+      "summary": "An AI team on your iPhone that does real work Discussion | Link",
+      "tags": [
+        "AI Strategy"
       ],
       "is_fallback": true
     },
@@ -11030,106 +11156,6 @@
         "AI Strategy",
         "Career",
         "Community"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "🏦 The problem with petards",
-      "url": "https://www.exponentialview.co/p/the-problem-with-petards",
-      "source": "Exponential View",
-      "type": "trend",
-      "date": "2026-08-22T13:23:14+00:00",
-      "summary": "How the AI industry’s apocalyptic warnings became the political case against the data centers it needs.",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Martin Casado on Where the Value Is Going in AI",
-      "url": "https://a16z.simplecast.com/episodes/martin-casado-on-where-the-value-is-going-in-ai-750ULKGM",
-      "source": "a16z Podcast",
-      "type": "podcast",
-      "date": "2026-08-22T10:00:00+00:00",
-      "summary": "Martin Casado joins MTS hosts Theo Jaffee and Sophia Dew to unpack where value is actually accruing in AI, why this technology cycle looks fundamentally different from previous waves, and whether the frontier labs will ultimately capture most of the market. Martin explains why AI...",
-      "tags": [
-        "AI Strategy",
-        "Growth"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "I Built 10 Small Projects Instead of One Big One — Here’s What Happened",
-      "url": "https://medium.com/codetodeploy/i-built-10-small-projects-instead-of-one-big-one-heres-what-happened-39b644a5a45e?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-08-22T05:33:18+00:00",
-      "summary": "For a long time, I thought the best way to get better at Python was to build something impressive. Continue reading on CodeToDeploy »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "13 Verified Remote Writing Jobs Hiring Now in August 2026",
-      "url": "https://medium.com/@earnestsherrill/13-verified-remote-writing-jobs-hiring-now-in-august-2026-941c4d187288?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-08-22T04:02:41+00:00",
-      "summary": "Current Remote Writing Jobs With Verified Employers, Pay, Requirements and Application Details Continue reading on Medium »",
-      "tags": [
-        "Career",
-        "Communication"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "A Product Roadmap Isn’t a To-Do List",
-      "url": "https://medium.com/@harshi.dhawan/a-product-roadmap-isnt-a-to-do-list-748b47be00f6?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-08-22T03:23:42+00:00",
-      "summary": "I used to think a product roadmap was basically a list of things a team planned to build. Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Don’t Launch a Marketplace. Launch a Minimum Viable Market.",
-      "url": "https://medium.com/design-bootcamp/dont-launch-a-marketplace-launch-a-minimum-viable-market-c7c78f8ed55c?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-08-21T21:26:52+00:00",
-      "summary": "Marketplaces are notoriously difficult to kickstart. Continue reading on Bootcamp »",
-      "tags": [
-        "Platform Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "2026.34: App Snore",
-      "url": "https://stratechery.com/2026/app-snore/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-08-21T17:00:00+00:00",
-      "summary": "The best Stratechery content from the week of August 17, 2026, including Apple making compromises in the EU, Truth (Social) and reconciliation, and August fun with the Clippers and Lakers.",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Retention in the age of agents:  AI-native, not AI-replaced",
-      "url": "https://www.productledalliance.com/retention-in-the-age-of-ai-agents/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-08-21T15:00:49+00:00",
-      "summary": "Build the AI-native platform your users never want to leave.",
-      "tags": [
-        "AI Strategy",
-        "Platform Strategy",
-        "Retention"
       ],
       "is_fallback": true
     }
