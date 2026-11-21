@@ -1,7 +1,133 @@
 {
-  "updated": "2026-11-20T13:48:42.253255+00:00",
-  "total": 897,
+  "updated": "2026-11-21T13:13:24.064985+00:00",
+  "total": 901,
   "items": [
+    {
+      "title": "RuDao.org Book Preface : In 1986, TonyTong.cc",
+      "url": "https://com2000.medium.com/rudao-org-book-preface-in-1986-tonytong-cc-cdfcb73b4c7c?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-11-21T12:05:51+00:00",
+      "summary": "Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Professional Network Built for You and Your AI Agent",
+      "url": "https://a16z.simplecast.com/episodes/the-professional-network-built-for-you-and-your-ai-agent-Gt_BkCoL",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-11-21T11:00:00+00:00",
+      "summary": "What if your AI agent could find the people you should know before you even start looking? Cosign is building a professional network around reputation and trusted recommendations, and now agents can use that network too. MTS host Sophia Dew sits down with a16z’s David Booth and C...",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Python Project That Finally Made Me Think Like a Developer",
+      "url": "https://python.plainenglish.io/the-python-project-that-finally-made-me-think-like-a-developer-dd282dc3d37e?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-11-21T10:23:26+00:00",
+      "summary": "There is a point in every beginner’s programming journey when following tutorials stops being enough. Continue reading on Python in Plain English »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "The Part of a 4G Dash Cam Deal That No Spec Sheet Covers",
+      "url": "https://medium.com/@amj276394/the-part-of-a-4g-dash-cam-deal-that-no-spec-sheet-covers-f5b980b45dc6?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-11-21T10:04:42+00:00",
+      "summary": "A manufacturer’s view of what decides whether a 4G dash cam line survives its first year in a new market Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "When to Build Your Own HubSpot Alternative",
+      "url": "https://medium.com/@raftlabs/when-to-build-your-own-hubspot-alternative-b341f12fa7a1?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-11-21T07:21:01+00:00",
+      "summary": "HubSpot’s full suite costs $24K-$60K annually. Custom build costs $100K-$180K once. Payback under 24 months. Here’s when the math works. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Oportun: Senior Director of Product Management (R14361)",
+      "url": "https://weworkremotely.com/remote-jobs/oportun-senior-director-of-product-management-r14361",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-11-21T06:03:19+00:00",
+      "summary": "Headquarters: Remote - US Who We Are Oportun (Nasdaq: OPRT) is a mission-driven financial services company that puts its members' financial goals within reach. With intelligent borrowing, savings, and budgeting capabilities, Oportun empowers members with the confidence to build a...",
+      "tags": [
+        "AI Strategy",
+        "Career",
+        "Compliance"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "ZoomInfo Technologies LLC: Principal Product Manager, Person Data",
+      "url": "https://weworkremotely.com/remote-jobs/zoominfo-technologies-llc-principal-product-manager-person-data",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-11-21T06:02:29+00:00",
+      "summary": "Headquarters: Bethesda, Maryland, United States; Remote; Vancouver, Washington, United States; Waltham, Massachusetts, United States ZoomInfo is where careers accelerate. We move fast, think boldly, and empower you to do the best work of your life. You’ll be surrounded by teammat...",
+      "tags": [
+        "Career",
+        "AI Tools",
+        "Compliance"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "2026.47: Down in DC",
+      "url": "https://stratechery.com/2026/down-in-dc/",
+      "source": "Stratechery",
+      "type": "trend",
+      "date": "2026-11-20T19:09:57+00:00",
+      "summary": "The best Stratechery content from the week of November 16, 2026, including obituaries and exceptionalism, arguments about agents, and Ben gets a Duo.",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Why the Agent Era Needs a New Operating System | DHH",
+      "url": "https://a16z.simplecast.com/episodes/why-the-agent-era-needs-a-new-operating-system-dhh-aj7iuAnL",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-11-20T15:48:13+00:00",
+      "summary": "David Heinemeier Hansson thinks the agent era is reopening a window in computing that has been closed for decades: the chance to build a new operating system people actually want to use. DHH joins a16z General Partners Martin Casado and Anish Acharya to explain why he’s building",
+      "tags": [
+        "Platform Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "How Mridul Chulet, VP of Product at JPMorganChase, turns product sunsets  into growth moments",
+      "url": "https://www.productledalliance.com/turn-a-product-sunset-into-a-growth-moment/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-11-20T15:00:00+00:00",
+      "summary": "How you retire a product matters as much as how you launch it.",
+      "tags": [
+        "Growth",
+        "Leadership"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Your Team Is Twice the Size. Your Feedback Can’t Wait for the 1:1.",
       "url": "https://medium.com/@dmytrostephen/your-team-is-twice-the-size-your-feedback-cant-wait-for-the-1-1-a02414f4247e?source=rss------product_management-5",
@@ -465,6 +591,31 @@
       "summary": "A Grab-like super app requires a shared platform layer plus pluggable services. Don’t start as a super app. Start with rides or food, then… Continue reading on Medium »",
       "tags": [
         "Platform Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "OpenVorld",
+      "url": "https://www.producthunt.com/products/openvorld",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-11-16T19:15:46+00:00",
+      "summary": "Give your AI agents a home you can see Discussion | Link",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Shipyard",
+      "url": "https://www.producthunt.com/products/shipyard",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-11-16T18:21:35+00:00",
+      "summary": "MCP for Claude, Cursor and Codex to Automate Integrations Discussion | Link",
+      "tags": [
+        "AI Tools"
       ],
       "is_fallback": true
     },
@@ -11056,106 +11207,6 @@
       "summary": "A framework for deciding what not to build Continue reading on Medium »",
       "tags": [
         "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "How to close $100K+ enterprise deals, step by step | Jen Abel",
-      "url": "https://www.lennysnewsletter.com/p/how-to-close-100k-1m-deals-step-by",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-08-23T12:31:43+00:00",
-      "summary": "Listen now | Jen Abel returns for a third time to walk us through every step of the enterprise sales cycle—from the first cold outreach to the final contract signature",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "GitLab: AI Transformation Owner, Product & Design",
-      "url": "https://weworkremotely.com/remote-jobs/gitlab-ai-transformation-owner-product-design",
-      "source": "We Work Remotely",
-      "type": "job",
-      "date": "2026-08-23T07:30:51+00:00",
-      "summary": "Headquarters: Remote, Canada; Remote, United Kingdom; Remote, United States GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and ac...",
-      "tags": [
-        "AI Strategy",
-        "Career",
-        "Automation"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "This Simple Website Made $180K in Two Days by Letting People Bid for the Top Spot",
-      "url": "https://medium.com/@adarsh-gupta/this-simple-website-made-180k-in-two-days-by-letting-people-bid-for-the-top-spot-76787f193a09?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-08-23T04:52:47+00:00",
-      "summary": "You can never copy it btw Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "STLC: What Really Happens Before a Product Reaches UAT",
-      "url": "https://medium.com/@sohag933/stlc-what-really-happens-before-a-product-reaches-uat-3c0c596460a3?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-08-23T04:00:27+00:00",
-      "summary": "Many people think Software Testing = Execute Test Cases + Find Bugs. Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "What Did Nuvei Really Buy? A Product Growth View of the Payoneer Acquisition",
-      "url": "https://medium.com/@biancachen2033/what-did-nuvei-really-buy-a-product-growth-view-of-the-payoneer-acquisition-c52140a5d044?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-08-23T02:59:24+00:00",
-      "summary": "This article is a written companion to the second episode of my podcast, Signals Beyond the Headlines, where I explore the ideas… Continue reading on Medium »",
-      "tags": [
-        "Growth"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "From QA to Product Management: The Skills That Transfer Better Than You Think",
-      "url": "https://medium.com/@karthik_prdmgr/from-qa-to-product-management-the-skills-that-transfer-better-than-you-think-feba545f18e6?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-08-23T02:59:04+00:00",
-      "summary": "A career transition from Quality Assurance (QA) to Product Management (PM) can look like a dramatic shift. Continue reading on Medium »",
-      "tags": [
-        "Career"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "🔮 Why one AI is better than four #598",
-      "url": "https://www.exponentialview.co/p/why-one-ai-is-better-than-four-598",
-      "source": "Exponential View",
-      "type": "trend",
-      "date": "2026-08-23T02:19:40+00:00",
-      "summary": "Plus: Why isn’t jevon’s paradox showing in the statistics & why generation isn’t comprehension",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "🧠 Community Wisdom: Favorite Lenny’s Product Pass tools, how AI is reshaping hiring, what to prioritize when you join a new company, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-favorite-lennys",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-08-22T19:23:07+00:00",
-      "summary": "Community Wisdom 198",
-      "tags": [
-        "AI Strategy",
-        "Career",
-        "Community"
       ],
       "is_fallback": true
     }
