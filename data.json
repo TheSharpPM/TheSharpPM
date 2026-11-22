@@ -1,7 +1,69 @@
 {
-  "updated": "2026-11-21T13:13:24.064985+00:00",
-  "total": 901,
+  "updated": "2026-11-22T13:01:23.943606+00:00",
+  "total": 898,
   "items": [
+    {
+      "title": "We Promoted Our Fastest Developer to Engineering Manager. By Week 6, Three Engineers Wanted Out",
+      "url": "https://medium.com/javarevisited/we-promoted-our-fastest-developer-to-engineering-manager-by-week-6-three-engineers-wanted-out-37d069cea063?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-11-22T11:57:03+00:00",
+      "summary": "He could solve problems nobody else wanted to touch. We assumed that meant he could lead the people solving them. Continue reading on Javarevisited »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "How to Build an Online Income Stream Step by Step (Without Getting Overwhelmed)",
+      "url": "https://medium.com/@kousarrukhsana269/how-to-build-an-online-income-stream-step-by-step-without-getting-overwhelmed-f69a5558bc59?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-11-22T11:55:58+00:00",
+      "summary": "​Many people look for ways to earn online and end up feeling stuck before they even begin. One day you hear about freelancing, the next… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Replay: How the Internet Happened | Chris Dixon & Brian McCullough (2018)",
+      "url": "https://a16z.simplecast.com/episodes/replay-how-the-internet-happened-chris-dixon-brian-mccullough-2018-k0AHBjvt",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-11-22T11:00:00+00:00",
+      "summary": "Why do technologies that look like bad ideas in one era become enormous companies in the next? Originally recorded in 2018, Brian McCullough and Chris Dixon trace the companies, failures, and accidents that built the modern internet. They revisit the battle between the open web a...",
+      "tags": [
+        "Product Culture"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🔮 Certified human, twin primes, Anthropic++ #611",
+      "url": "https://www.exponentialview.co/p/ev-611",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-11-22T04:59:51+00:00",
+      "summary": "Your Sunday briefing on AI and exponential technologies",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🧠 Community Wisdom: Handling context switching with multiple agents, giving feedback on AI-generated designs, getting AI to write less like AI, why PMs don’t share what they’re really working on",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-handling-context",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-11-21T16:49:56+00:00",
+      "summary": "Community Wisdom 306",
+      "tags": [
+        "AI Strategy",
+        "Community"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "RuDao.org Book Preface : In 1986, TonyTong.cc",
       "url": "https://com2000.medium.com/rudao-org-book-preface-in-1986-tonytong-cc-cdfcb73b4c7c?source=rss------product_management-5",
@@ -1233,6 +1295,18 @@
         "AI Strategy",
         "Growth",
         "Hardware Differentiation"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Squint",
+      "url": "https://www.producthunt.com/products/squint",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-11-10T21:43:34+00:00",
+      "summary": "Explains whatever you're looking at, now on Mac Discussion | Link",
+      "tags": [
+        "Product Strategy"
       ],
       "is_fallback": true
     },
@@ -4221,6 +4295,18 @@
       "type": "trend",
       "date": "2026-10-19T23:12:51+00:00",
       "summary": "Open models, built for agents. Discussion | Link",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Daymaker",
+      "url": "https://www.producthunt.com/products/daymaker",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-10-19T18:41:04+00:00",
+      "summary": "Gifts so personal, your prospects take the meeting. Discussion | Link",
       "tags": [
         "Product Strategy"
       ],
@@ -11083,128 +11169,6 @@
       "type": "article",
       "date": "2026-08-24T15:02:23+00:00",
       "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "I spent $20,000 on Devin in a month. Here’s what I learned | Ryan Carson (solo founder)",
-      "url": "https://www.lennysnewsletter.com/p/i-spent-20000-on-devin-in-a-month",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-08-24T12:04:02+00:00",
-      "summary": "Watch now | 🎙️ Solo founder Ryan Carson runs 15 concurrent Devin agents to handle engineering, customer success, and investor updates, and he uses a handwritten list to keep it all straight",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Product manager portfolio  framework",
-      "url": "https://www.productledalliance.com/product-manager-portfolio-framework/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-08-24T12:00:16+00:00",
-      "summary": "Build a portfolio that gets you hired.",
-      "tags": [
-        "Product Culture"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "The AI-Native Product Summit",
-      "url": "https://www.productledalliance.com/the-ai-native-product-summit/",
-      "source": "Product-Led Alliance",
-      "type": "event",
-      "date": "2026-08-24T11:56:14+00:00",
-      "summary": "The AI-Native Product Summit",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "📈 Data to start your week",
-      "url": "https://www.exponentialview.co/p/data-to-start-your-week-26-08-24",
-      "source": "Exponential View",
-      "type": "trend",
-      "date": "2026-08-24T10:46:04+00:00",
-      "summary": "AI is now AI’s biggest customer; China’s coal milestone; climate change in your bloodstream++",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Autonomy and Innovation",
-      "url": "https://stratechery.com/2026/autonomy-and-innovation/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-08-24T10:00:00+00:00",
-      "summary": "Incentives favor offense when it comes to agentic cybersecurity; it's the same dynamic that will limit incumbents and fuel startups in the long run.",
-      "tags": [
-        "Security"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Why Medical AI Needs a Referee | Protege's Engy Ziedan",
-      "url": "https://a16z.simplecast.com/episodes/why-medical-ai-needs-a-referee-proteges-engy-ziedan-K_iA_k2D",
-      "source": "a16z Podcast",
-      "type": "podcast",
-      "date": "2026-08-24T10:00:00+00:00",
-      "summary": "Daisy Wolf and Eva Steinman are joined by Engy Ziedan, co-founder and Chief Scientific Officer of Protege, to discuss why medical AI has a measurement problem, and why scoring well on a benchmark doesn't necessarily mean a model is ready for the hospital. Engy explains why health...",
-      "tags": [
-        "AI Strategy",
-        "Metrics",
-        "Stakeholders"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "How Do You Know Your App Is Ready to Become a Platform?",
-      "url": "https://medium.com/@FinClip/how-do-you-know-your-app-is-ready-to-become-a-platform-d976e583aa4f?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-08-24T05:57:41+00:00",
-      "summary": "Platform readiness appears in repeated work, crowded release paths and broken customer journeys long before it appears in an architecture… Continue reading on Medium »",
-      "tags": [
-        "Platform Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "JTBD Statements: The milkshake that was never about milkshakes",
-      "url": "https://waffledesigns.medium.com/jtbd-statements-the-milkshake-that-was-never-about-milkshakes-bf17a0600636?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-08-24T05:26:01+00:00",
-      "summary": "A fast food chain wanted to sell more milkshakes. This is not a metaphor. It was an actual business problem, and the way it got solved… Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Watching Nolan Like a Product Person",
-      "url": "https://medium.com/illumination/watching-nolan-like-a-product-person-c4e1d9fb51cb?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-08-23T17:35:30+00:00",
-      "summary": "Nolan gets three hours and a paid ticket. Your onboarding gets six seconds and one bar of network. Continue reading on ILLUMINATION »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Signal vs Noise: No is every PM’s superpower",
-      "url": "https://medium.com/@sbanerjee2300/signal-vs-noise-no-is-every-pms-superpower-748e9dbc1a75?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-08-23T17:29:50+00:00",
-      "summary": "A framework for deciding what not to build Continue reading on Medium »",
       "tags": [
         "Product Strategy"
       ],
