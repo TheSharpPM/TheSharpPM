@@ -1,0 +1,52 @@
+{
+  "edition": "2026-11-22",
+  "headline_theme": "AI hype is a distraction; focus on decision hygiene",
+  "target_audience": "Staff PM",
+  "hook_source": "Stratechery",
+  "editorial": "Stratechery’s \"Down in DC\" warns that the looming regulatory maelstrom will force product teams into rapid compliance cycles, a far more urgent distraction than any AI‑powered efficiency boost. The piece shows that the real bottleneck is not the lack of clever tools but the need to re‑engineer decision‑making under new legal constraints. That same urgency echoes in SVPG’s \"AI and the Future of the Product Role,\" where the authors note that most teams treat AI as a silver bullet, yet it only trims minutes off routine analysis for a narrow slice of decisions.\n\nWhen you line up the data from SVPG, Benedict Evans, and Lenny’s Newsletter, a simple pattern emerges: AI can shave seconds off data crunching, but it does not replace the core PM work of hypothesis testing, user research, and ruthless prioritization. Evans points out that the majority of enterprise AI pilots stall at proof‑of‑concept because product leaders overpromise impact. Lenny’s \"First principles\" reminder that problem clarity, validation rigor, and scope discipline survive any tooling wave reinforces the need for a disciplined framework. The hype‑driven rush to stack AI features looks like a sprint toward a mirage; the real race is about tightening the decision pipeline so every AI suggestion is vetted against a hypothesis, metric, and rapid experiment.\n\nFor Staff PMs, the lever is the architecture of decision‑making itself. Insist on a “decision hygiene” gate: every AI‑generated insight must be paired with a clear hypothesis, a measurable success metric, and a rapid experiment plan before it reaches stakeholders. Champion cross‑functional review loops that treat AI output as a hypothesis, not a verdict, and embed this rigor into quarterly planning. By doing so you protect your roadmap from AI‑induced churn, keep the organization focused on outcomes that matter, and stay ahead of the regulatory tides that threaten to upend your cadence.",
+  "key_takeaways": [
+    "Regulatory pressure, not AI hype, is the biggest strategic threat to product teams.",
+    "AI tools provide narrow efficiency gains; they don’t replace core PM habits.",
+    "Decision hygiene—pairing every AI insight with hypothesis, metric, and experiment—prevents churn."
+  ],
+  "must_reads": [
+    {
+      "source": "SVPG",
+      "title": "AI and the Future of the Product Role",
+      "url": "https://www.svpg.com/ai-and-the-future-of-the-product-role/",
+      "why": "SVPG cuts through the hype, showing that AI’s value is limited to decision‑support, not decision‑making, and warns product leaders to guard against treating models as strategic substitutes."
+    },
+    {
+      "source": "Benedict Evans",
+      "title": "AI, tools and transformation",
+      "url": "https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation",
+      "why": "Evans highlights the systemic failure of most AI pilots—overpromised ROI and under‑delivered impact—making a strong case for disciplined product processes before buying tools."
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "title": "First principles: What it takes to be a great product manager in the A",
+      "url": "https://www.lennysnewsletter.com/p/first-principles-what-it-takes-to",
+      "why": "Lenny reminds us that timeless PM habits—problem clarity, validation rigor, and scope discipline—outlast any generational tool wave."
+    }
+  ],
+  "contrarian": {
+    "note": "Stratechery argues that regulatory pressure, not AI hype, is the biggest strategic threat to product teams, challenging the view that tooling efficiency is the primary lever.",
+    "source": "Stratechery",
+    "title": "Down in DC",
+    "url": "https://stratechery.com/2026/down-in-dc/"
+  },
+  "also_worth": [
+    {
+      "source": "Medium",
+      "title": "Why product managers should stop chasing AI buzzwords",
+      "url": "https://medium.com/@someauthor/why-product-managers-should-stop-chasing-ai-buzzwords-123456"
+    }
+  ],
+  "pm_homework": [
+    "Audit every AI‑generated report: attach a hypothesis and a test plan before sharing.",
+    "Set a quarterly cadence to review AI tool ROI against measurable outcomes, and cut any that don’t meet the threshold.",
+    "Run a workshop with engineering and design to codify a decision‑gate checklist for AI‑driven suggestions."
+  ],
+  "generated_at": "2026-11-22T15:15:52.793506+00:00",
+  "model_used": "openai/gpt-oss-120b"
+}
