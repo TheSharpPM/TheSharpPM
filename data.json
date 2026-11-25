@@ -1,7 +1,135 @@
 {
-  "updated": "2026-11-24T15:30:05.381355+00:00",
-  "total": 907,
+  "updated": "2026-11-25T15:14:40.025540+00:00",
+  "total": 909,
   "items": [
+    {
+      "title": "Your Renewal Tracker Shouldn't Pretend It Can Renew Your Certification",
+      "url": "https://medium.com/@accumentum/your-renewal-tracker-shouldnt-pretend-it-can-renew-your-certification-6261f0983611?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-11-25T14:54:49+00:00",
+      "summary": "Why we built PathLock™ to keep credit cycles and exam renewals apart, and to leave the final word with the issuing body. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Competitive Usability Testing: How to Answer an AI-Native Competitor Without Copying It",
+      "url": "https://medium.com/@mina.wahid.01/competitive-usability-testing-how-to-answer-an-ai-native-competitor-without-copying-it-cb992472c351?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-11-25T14:16:01+00:00",
+      "summary": "You only lose to an AI-native competitor where users feel the difference on a task they care about. Everywhere else, you are reacting to a… Continue reading on Medium »",
+      "tags": [
+        "Competitive Analysis",
+        "AI Strategy",
+        "User Research"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "How to Reduce AI Hallucinations When Business Information Is Missing",
+      "url": "https://syntheticbrew.medium.com/how-to-reduce-ai-hallucinations-when-business-information-is-missing-da0d9f405e3d?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-11-25T14:01:02+00:00",
+      "summary": "Give an agent a useful way to handle missing records, ambiguous requests, and unsupported claims. Continue reading on Medium »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "What a GTA 6 Style Launch Teaches Product Managers About AI Product Rollouts",
+      "url": "https://medium.com/@rameshk99807/what-a-gta-6-style-launch-teaches-product-managers-about-ai-product-rollouts-3a9e79572fec?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-11-25T13:17:26+00:00",
+      "summary": "Why does your AI feature fall flat on launch day when the demo had the whole room nodding? Continue reading on Medium »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Gemini 4 Neon beat GPT-6.2 and Claude in my 25-task AI benchmark",
+      "url": "https://www.lennysnewsletter.com/p/gemini-4-neon-beat-gpt-62-and-claude",
+      "source": "Lenny's Newsletter",
+      "type": "article",
+      "date": "2026-11-25T13:04:21+00:00",
+      "summary": "Watch now (32 mins) | 🎙️ My late-2026 How I AI bench: GPT-6.2 disappointed me, Opus 5.5 is my least annoying daily driver, and Gemini 4 Neon is now my top pick",
+      "tags": [
+        "AI Tools",
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Replay: Principles and Algorithms for Work and Life | Ray Dalio (2019)",
+      "url": "https://a16z.simplecast.com/episodes/replay-principles-and-algorithms-for-work-and-life-ray-dalio-2019-c5Xl8LYw",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-11-25T11:00:00+00:00",
+      "summary": "Can you turn the lessons you learn from experience into a repeatable system for making better decisions? Ray Dalio argues that writing down the principles behind your decisions, testing them against history, and eventually turning them into algorithms can help. In this archive co...",
+      "tags": [
+        "Communication"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Smartsheet: Product Operations Manager (Remote Eligible)",
+      "url": "https://weworkremotely.com/remote-jobs/smartsheet-product-operations-manager-remote-eligible",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-11-25T06:02:20+00:00",
+      "summary": "Headquarters: -REMOTE, USA- For over 20 years, Smartsheet has empowered teams to manage work seamlessly and scale solutions smarter. Now, in our most ambitious chapter yet, we are uniting human teams with AI agents. By orchestrating the work agents do best, automating manual task...",
+      "tags": [
+        "AI Strategy",
+        "Career",
+        "Metrics"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Hold'em",
+      "url": "https://www.producthunt.com/products/hold-em",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-11-24T22:25:40+00:00",
+      "summary": "Swipe real Black Friday cart deals across Shopify Discussion | Link",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "MemoryWorks",
+      "url": "https://www.producthunt.com/products/memoryworks",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-11-24T20:30:45+00:00",
+      "summary": "Company memory for people and AI agents Discussion | Link",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Maven Clinic: Product Manager, Care Delivery",
+      "url": "https://weworkremotely.com/remote-jobs/maven-clinic-product-manager-care-delivery",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-11-24T18:32:23+00:00",
+      "summary": "Headquarters: San Francisco, CA; Remote, US Maven Clinic is the world's largest virtual clinic for women and families on a mission to make healthcare work for all of us. Through Maven Enterprise, the company partners with more than 2,300 employers and health plans to provide end-...",
+      "tags": [
+        "AI Strategy",
+        "Career",
+        "Communication"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "How to Calculate TAM, SAM and SOM Bottom-Up (A Step-by-Step Guide for PMs)",
       "url": "https://medium.com/@aispeckit_hq/how-to-calculate-tam-sam-and-som-bottom-up-a-step-by-step-guide-for-pms-054cbb0e24d7?source=rss------product_management-5",
@@ -11182,110 +11310,6 @@
       "summary": "We don’t have a data problem. We have an understanding problem. And AI may be making the distinction more important than ever. Continue reading on Medium »",
       "tags": [
         "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "The Startup Metrics That Actually Explain Growth",
-      "url": "https://medium.com/@Ciara_Hayes/the-startup-metrics-that-actually-explain-growth-e8fb35d55863?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-08-27T13:19:31+00:00",
-      "summary": "Most founders track numbers that make them feel good. Here is how to track the ones that actually keep your company alive. Continue reading on Medium »",
-      "tags": [
-        "Growth",
-        "Metrics"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Agentic First is Not a Chatbot Product Strategy",
-      "url": "https://medium.com/@kpieper876/agentic-first-is-not-a-chatbot-product-strategy-716f8dd02526?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-08-27T13:16:01+00:00",
-      "summary": "Agentic products should start with outcomes and workflows, orchestrate across systems, and reserve humans for intentional judgment points. Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Inside Cursor: The Anatomy of a Generational Startup",
-      "url": "https://a16z.simplecast.com/episodes/inside-cursor-the-anatomy-of-a-generational-startup-eVZ_egyp",
-      "source": "a16z Podcast",
-      "type": "podcast",
-      "date": "2026-08-27T10:00:00+00:00",
-      "summary": "a16z General Partners Martin Casado, Sarah Wang, and Matt Bornstein unpack the story of Cursor: how a small, product-obsessed team entered one of the most competitive markets in technology, took on incumbents with seemingly unbeatable advantages, and repeatedly made decisions tha...",
-      "tags": [
-        "AI Tools",
-        "Competitive Analysis",
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Databricks: AI Engineer - FDE (Forward Deployed Engineer)",
-      "url": "https://weworkremotely.com/remote-jobs/databricks-ai-engineer-fde-forward-deployed-engineer-1",
-      "source": "We Work Remotely",
-      "type": "job",
-      "date": "2026-08-27T07:31:13+00:00",
-      "summary": "Headquarters: Remote - United Kingdom AI Engineer - FDE (Forward Deployed Engineer) Req ID: CSQ427R191 Location: United Kingdom - Remote (must be based in the UK for this role) Mission The AI Forward Deployed Engineering (AI FDE) team is a highly specialized customer-facing AI te...",
-      "tags": [
-        "AI Strategy",
-        "Career",
-        "Compliance"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Databricks: AI Engineer - FDE (Forward Deployed Engineer)",
-      "url": "https://weworkremotely.com/remote-jobs/databricks-ai-engineer-fde-forward-deployed-engineer",
-      "source": "We Work Remotely",
-      "type": "job",
-      "date": "2026-08-27T07:31:00+00:00",
-      "summary": "Headquarters: Remote - India CSQ326R35 AI Engineer - FDE (Forward Deployed Engineer) Mission The AI Forward Deployed Engineering (AI FDE) team is a highly specialized customer-facing AI team at Databricks. We deliver professional services engagements to help our customers build a...",
-      "tags": [
-        "AI Strategy",
-        "Career",
-        "Compliance"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Wondering Canvas",
-      "url": "https://www.producthunt.com/products/wondering-2",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-08-27T06:40:56+00:00",
-      "summary": "Visual ChatGPT in Parallel Discussion | Link",
-      "tags": [
-        "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Switch",
-      "url": "https://www.producthunt.com/products/switch-11",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-08-27T04:57:54+00:00",
-      "summary": "Bring any AI agent into Slack, Teams & Discord. Open-source. Discussion | Link",
-      "tags": [
-        "AI Strategy",
-        "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Firecrawl Developer Index",
-      "url": "https://www.producthunt.com/products/extract-by-firecrawl",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-08-26T17:33:36+00:00",
-      "summary": "A curated index of 70M+ artifacts for coding agents. Discussion | Link",
-      "tags": [
-        "AI Tools"
       ],
       "is_fallback": true
     }
