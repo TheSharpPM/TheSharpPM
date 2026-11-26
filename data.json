@@ -1,7 +1,123 @@
 {
-  "updated": "2026-11-25T15:14:40.025540+00:00",
-  "total": 909,
+  "updated": "2026-11-26T14:41:04.653968+00:00",
+  "total": 915,
   "items": [
+    {
+      "title": "Lovable Remembers Your Project. Can You Explain Its Rules?",
+      "url": "https://gabemdev.medium.com/lovable-remembers-your-project-can-you-explain-its-rules-2266596d58ff?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-11-26T14:01:03+00:00",
+      "summary": "Turn the decisions behind your AI-built app into a short, versioned record another builder can read and verify. Continue reading on Medium »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "How AI Is Changing PM Interviews in France (2026)",
+      "url": "https://medium.com/no%C3%A9-product-management/how-ai-is-changing-pm-interviews-in-france-2026-b92e9343a4af?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-11-26T13:43:04+00:00",
+      "summary": "What recruiters now expect from PM candidates, how case studies are evolving, and how to prepare. Insights from Noé’s community survey and… Continue reading on Noé Product Management »",
+      "tags": [
+        "AI Strategy",
+        "Career"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Replay: On Food as Medicine (2020)",
+      "url": "https://a16z.simplecast.com/episodes/replay-on-food-as-medicine-2020-6pgEsA1X",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-11-26T11:00:00+00:00",
+      "summary": "What if one of healthcare’s most powerful interventions isn’t a drug, but food? Originally recorded in 2020, this conversation looks at how nutrition could help prevent and manage chronic disease while lowering healthcare costs. Julie Yoo speaks with Dr. Andrea Feinberg and Plate...",
+      "tags": [
+        "Security"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Must-attend product events  in 2027",
+      "url": "https://www.productledalliance.com/top-product-led-events-you-must-attend/",
+      "source": "Product-Led Alliance",
+      "type": "event",
+      "date": "2026-11-26T09:00:00+00:00",
+      "summary": "Explore the top upcoming product leadership events in 2027. Stay ahead of trends, grow your network, and gain actionable insights from top product experts.",
+      "tags": [
+        "Leadership"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Brand Psychology: How Brands Shape Your Identity",
+      "url": "https://fajrulhadi.medium.com/brand-psychology-how-brands-shape-your-identity-111d3ca29c32?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-11-26T08:50:18+00:00",
+      "summary": "Discover How brand psycholoy and neuromarketing turn products into extensions of your identity Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Claude-Mem Cloud Sync",
+      "url": "https://www.producthunt.com/products/claude-mem",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-11-26T07:58:18+00:00",
+      "summary": "Switch devices. Keep your AI agents' memory. Discussion | Link",
+      "tags": [
+        "AI Strategy",
+        "AI Tools",
+        "Hardware Differentiation"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "AI Product Management Capstone: From Opportunity to Launch",
+      "url": "https://medium.com/@kirpalsingh17/ai-product-management-capstone-from-opportunity-to-launch-becbf2f84856?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-11-26T07:41:37+00:00",
+      "summary": "Apply AI product management principles through a practical end-to-end product exercise, from discovery to launch and growth. Continue reading on Medium »",
+      "tags": [
+        "AI Strategy",
+        "Growth"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Sumo Logic: Principal Product Marketing Manager",
+      "url": "https://weworkremotely.com/remote-jobs/sumo-logic-principal-product-marketing-manager",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-11-26T06:02:20+00:00",
+      "summary": "Headquarters: Remote US Principal Product Marketing Manager — AI Systems & Content Architecture The Mission As a Principal Product Marketing Manager — AI Systems & Content Architecture, you will determine the architecture of our narrative and collateral engine. Rather than operat...",
+      "tags": [
+        "AI Strategy",
+        "Career",
+        "Communication"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Smartsheet: Senior Product Manager I (Remote Eligible)",
+      "url": "https://weworkremotely.com/remote-jobs/smartsheet-senior-product-manager-i-remote-eligible",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-11-26T06:02:20+00:00",
+      "summary": "Headquarters: -REMOTE, USA- For over 20 years, Smartsheet has empowered teams to manage work seamlessly and scale solutions smarter. Now, in our most ambitious chapter yet, we are uniting human teams with AI agents. By orchestrating the work agents do best, automating manual task...",
+      "tags": [
+        "AI Strategy",
+        "Career",
+        "Communication"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Your Renewal Tracker Shouldn't Pretend It Can Renew Your Certification",
       "url": "https://medium.com/@accumentum/your-renewal-tracker-shouldnt-pretend-it-can-renew-your-certification-6261f0983611?source=rss------product_management-5",
@@ -112,6 +228,18 @@
       "summary": "Company memory for people and AI agents Discussion | Link",
       "tags": [
         "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Hub",
+      "url": "https://www.producthunt.com/products/hub-20",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-11-24T18:34:28+00:00",
+      "summary": "Run 100 Claude Code or Codex sessions like 5 Discussion | Link",
+      "tags": [
         "AI Tools"
       ],
       "is_fallback": true
@@ -11261,55 +11389,6 @@
       "summary": "The Discovery Phase Continue reading on Medium »",
       "tags": [
         "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "The Infrastructure Behind the Machine Age",
-      "url": "https://a16z.simplecast.com/episodes/the-infrastructure-behind-the-machine-age-M3g5NamY",
-      "source": "a16z Podcast",
-      "type": "podcast",
-      "date": "2026-08-28T10:00:00+00:00",
-      "summary": "Ben Horowitz, Martin Casado, Raghu Raghuram, and Erik Torenberg discuss the launch of a16z's new Machine Age Fund and the infrastructure buildout behind AI, from chips, memory, and networking to power, cooling, and data centers. Why a dedicated fund now? The group argues that the...",
-      "tags": [
-        "Hardware Differentiation",
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Staats",
-      "url": "https://www.producthunt.com/products/staats-3",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-08-28T07:12:12+00:00",
-      "summary": "Ask your coding agent how your site is doing Discussion | Link",
-      "tags": [
-        "AI Tools"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "O que o mercado espera de você?AI Powered PM’s",
-      "url": "https://tatianafloren.medium.com/o-que-o-mercado-espera-de-voc%C3%AA-ai-powered-pms-b57e41d2852c?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-08-27T16:13:47+00:00",
-      "summary": "Como a Inteligência Artificial está mudando o papel do Product Manager — e por que julgamento humano continua sendo essencial Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Why Organizations Still Make Bad Decisions in the Age of AI",
-      "url": "https://medium.com/@kapilt/why-organizations-still-make-bad-decisions-in-the-age-of-ai-2efff6f9e127?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-08-27T16:03:22+00:00",
-      "summary": "We don’t have a data problem. We have an understanding problem. And AI may be making the distinction more important than ever. Continue reading on Medium »",
-      "tags": [
-        "AI Strategy"
       ],
       "is_fallback": true
     }
