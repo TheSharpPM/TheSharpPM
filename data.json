@@ -1,7 +1,111 @@
 {
-  "updated": "2026-11-26T14:41:04.653968+00:00",
-  "total": 915,
+  "updated": "2026-11-27T14:35:13.342435+00:00",
+  "total": 914,
   "items": [
+    {
+      "title": "From an Indian Village to the Corporate Boardroom: How Ordinary People Are Practising Reinvention…",
+      "url": "https://patarychandan.medium.com/from-an-indian-village-to-the-corporate-boardroom-how-ordinary-people-are-practising-reinvention-fbfd2ecb898f?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-11-27T14:17:06+00:00",
+      "summary": "Reinvention is not reserved for CEOs, technology leaders, entrepreneurs, or people working in multinational corporations. It is happening… Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Replay: From Swipe to Scale: How Tinder Became #1 (2024)",
+      "url": "https://a16z.simplecast.com/episodes/replay-from-swipe-to-scale-how-tinder-became-1-2024-6396tu7J",
+      "source": "a16z Podcast",
+      "type": "podcast",
+      "date": "2026-11-27T11:00:00+00:00",
+      "summary": "How do you build a network product when it only works if everyone around you is already using it? Originally recorded in 2024, Tinder founder Sean Rad explains how the company went from a few hundred users to the world’s #1 dating app. Sean joins a16z General Partner Andrew Chen",
+      "tags": [
+        "Competitive Analysis",
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Using the Four Levels of AI autonomy to decide where AI fits into your product",
+      "url": "https://medium.com/@LuRoth_/using-the-four-levels-of-ai-autonomy-to-decide-where-ai-fits-into-your-product-1e1f1a7b1b16?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-11-27T10:44:48+00:00",
+      "summary": "[Published originally in Mind the Product] Continue reading on Medium »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "If a Customer Can Build Your Dashboard, What Are They Paying For?",
+      "url": "https://medium.com/space-ux-design/if-a-customer-can-build-your-dashboard-what-are-they-paying-for-3a4823dc2930?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-11-27T10:28:32+00:00",
+      "summary": "AI makes it easier to build a tool for one afternoon. That changes what a SaaS product has to deliver every week. Continue reading on Space UX Design »",
+      "tags": [
+        "AI Strategy",
+        "Metrics",
+        "Product Design"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "EP113 Turning Proprietary Data Into a Product: Lessons from Benzinga's API Business with Tommy Cotter (Benzinga) and Jay Stansell",
+      "url": "https://www.productcoalition.com/p/ep113-turning-proprietary-data-into",
+      "source": "Product Coalition",
+      "type": "article",
+      "date": "2026-11-27T09:00:43+00:00",
+      "summary": "Benzinga's newsroom needed financial datasets before those datasets became products customers could buy separately.",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Upstart: Principal Product Manager, Growth",
+      "url": "https://weworkremotely.com/remote-jobs/upstart-principal-product-manager-growth",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-11-27T06:03:25+00:00",
+      "summary": "Headquarters: United States | Remote About Upstart At Upstart, we’re united by a mission that matters: to radically reduce the cost and complexity of borrowing for all Americans. Every day, we bring creativity, experimentation, and advanced AI to reshape access to credit, helping...",
+      "tags": [
+        "Career",
+        "Growth",
+        "Metrics"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Pinterest: Senior Staff Technical Program Manager, Search Signals",
+      "url": "https://weworkremotely.com/remote-jobs/pinterest-senior-staff-technical-program-manager-search-signals",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-11-27T06:03:25+00:00",
+      "summary": "Headquarters: San Francisco, CA, US; Remote, US About Pinterest: Millions of people around the world come to our platform to find creative ideas, dream about new possibilities and plan for memories that will last a lifetime. At Pinterest, we’re on a mission to bring everyone the",
+      "tags": [
+        "AI Strategy",
+        "Career",
+        "Compliance"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Depost AI",
+      "url": "https://www.producthunt.com/products/depost-ai",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-11-27T03:17:55+00:00",
+      "summary": "The LinkedIn AI agent that learns what works for your brand Discussion | Link",
+      "tags": [
+        "AI Strategy",
+        "AI Tools"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "Lovable Remembers Your Project. Can You Explain Its Rules?",
       "url": "https://gabemdev.medium.com/lovable-remembers-your-project-can-you-explain-its-rules-2266596d58ff?source=rss------product_management-5",
@@ -190,6 +294,18 @@
       "summary": "Can you turn the lessons you learn from experience into a repeatable system for making better decisions? Ray Dalio argues that writing down the principles behind your decisions, testing them against history, and eventually turning them into algorithms can help. In this archive co...",
       "tags": [
         "Communication"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Wizstar R1",
+      "url": "https://www.producthunt.com/products/wizstar",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-11-25T07:56:05+00:00",
+      "summary": "Seedance 2.0-level product videos at a lower cost Discussion | Link",
+      "tags": [
+        "Product Strategy"
       ],
       "is_fallback": true
     },
@@ -11267,128 +11383,6 @@
       "tags": [
         "Community",
         "Pricing"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "The Developer Skill Nobody Puts on a Resume",
-      "url": "https://medium.com/@tayfun.kendiroglu20/the-developer-skill-nobody-puts-on-a-resume-fcd22b846d3d?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-08-29T11:38:02+00:00",
-      "summary": "Knowing how to build things is valuable. Knowing what deserves to be built is something else entirely. Continue reading on Medium »",
-      "tags": [
-        "Career"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Virtual Data Room — Design for Privacy and Trust",
-      "url": "https://medium.com/design-bootcamp/virtual-data-room-design-for-privacy-and-trust-a43b763f7c8c?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-08-29T11:13:05+00:00",
-      "summary": "Overview Continue reading on Bootcamp »",
-      "tags": [
-        "Privacy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Why 1,200 AI Agents Started Working Together | Ryan Greenblatt",
-      "url": "https://a16z.simplecast.com/episodes/why-1-200-ai-agents-started-working-together-ryan-greenblatt-i7A557W2",
-      "source": "a16z Podcast",
-      "type": "podcast",
-      "date": "2026-08-29T10:00:00+00:00",
-      "summary": "Ryan Greenblatt, Chief Scientist at Redwood Research, joins MTS host Theo Jaffee to unpack a new independent investigation into the OpenAI Hugging Face hacking incident and what it reveals about how large groups of AI agents behave when they're allowed to coordinate. Ryan and his...",
-      "tags": [
-        "AI Tools",
-        "AI Strategy",
-        "Stakeholders"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Before You Build It: How I Decide Whether a Product Idea Is Worth Pursuing",
-      "url": "https://medium.com/@aj98bina/before-you-build-it-how-i-decide-whether-a-product-idea-is-worth-pursuing-2f66a6efbef1?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-08-28T23:18:21+00:00",
-      "summary": "The most expensive product mistakes often happen before a single line of code is written. Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Every expensive partner dispute in product development starts with the same sentence: “That’s not…",
-      "url": "https://medium.com/@mihaela.blanaru/every-expensive-partner-dispute-in-product-development-starts-with-the-same-sentence-thats-not-856a549851c3?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-08-28T17:11:10+00:00",
-      "summary": "Every expensive partner dispute in a product development programme starts with some version of the same sentence. “That is not what we… Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "A product brief that needs its author in the room is not a brief. It’s a set of meeting notes.",
-      "url": "https://medium.com/@mihaela.blanaru/a-product-brief-that-needs-its-author-in-the-room-is-not-a-brief-its-a-set-of-meeting-notes-813a4581e9d6?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-08-28T17:10:31+00:00",
-      "summary": "Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Notification Design Psychology: When Alerts Help and When They Annoy",
-      "url": "https://medium.com/@atticusli/notification-design-psychology-when-alerts-help-and-when-they-annoy-1f8be3e0956c?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-08-28T17:01:03+00:00",
-      "summary": "Notifications sit at the intersection of attention and interruption. Behavioral science reveals why most notification strategies backfire… Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "2026.35: Internet Hype and Real World Change",
-      "url": "https://stratechery.com/2026/internet-hype-and-real-world-change/",
-      "source": "Stratechery",
-      "type": "trend",
-      "date": "2026-08-28T17:00:00+00:00",
-      "summary": "The best Stratechery content from the week of August 24, 2026 including the breaker's advantage, the new battle for HDMI1, and how data center discourse ends.",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Hy4 preview",
-      "url": "https://www.producthunt.com/products/hunyuan-a13b",
-      "source": "Product Hunt",
-      "type": "trend",
-      "date": "2026-08-28T16:57:52+00:00",
-      "summary": "Tencent’s 770B open model for long-horizon work Discussion | Link",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Why Most Companies Skip the Most Important Step",
-      "url": "https://yasmeenturayhi.medium.com/why-most-companies-skip-the-most-important-step-fa1b8c519df0?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-08-28T16:51:01+00:00",
-      "summary": "The Discovery Phase Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
       ],
       "is_fallback": true
     }
