@@ -1,7 +1,95 @@
 {
-  "updated": "2026-11-27T14:35:13.342435+00:00",
-  "total": 914,
+  "updated": "2026-11-28T13:50:51.053523+00:00",
+  "total": 916,
   "items": [
+    {
+      "title": "What I Thought Made a Great Product in 2023 vs. What I Think Now",
+      "url": "https://medium.com/@olafioyeseyifunmi/what-i-thought-made-a-great-product-in-2023-vs-what-i-think-now-490400f4bce5?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-11-28T13:01:02+00:00",
+      "summary": "One of the things I enjoy about documenting my thoughts is being able to revisit them years later and see what has changed. Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "I Stopped Telling My Manager How Much Time AI Saves Me. Here’s Why",
+      "url": "https://medium.com/javarevisited/i-stopped-telling-my-manager-how-much-time-ai-saves-me-heres-why-9c0791ff680b?source=rss------product_management-5",
+      "source": "Medium PM",
+      "type": "article",
+      "date": "2026-11-28T12:59:44+00:00",
+      "summary": "The last engineer who admitted how quickly he could finish his work was rewarded with somebody else’s workload. Continue reading on Javarevisited »",
+      "tags": [
+        "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Docker: Principal Product Manager, Sandboxes",
+      "url": "https://weworkremotely.com/remote-jobs/docker-principal-product-manager-sandboxes",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-11-28T12:00:42+00:00",
+      "summary": "Headquarters: Canada About Docker Docker is the platform at the center of how intelligent software gets built. For more than a decade, Docker has helped millions of developers and thousands of organizations build, ship, and run software consistently across any environment. Today,...",
+      "tags": [
+        "Career",
+        "Platform Strategy",
+        "Prioritization"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "🎁 Azeem’s holiday gift guide",
+      "url": "https://www.exponentialview.co/p/azeems-gift-guide-2026",
+      "source": "Exponential View",
+      "type": "trend",
+      "date": "2026-11-28T07:23:29+00:00",
+      "summary": "My favorite stationery, long flight must-haves, books, records & the best phone since the Nokia 6110",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Why Do Food Delivery Apps Show You So Much Before You Even Search?",
+      "url": "https://medium.com/@adispatil6/why-do-food-delivery-apps-show-you-so-much-before-you-even-search-e2c5af687732?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-11-28T06:54:39+00:00",
+      "summary": "Exploring the tension between discovery and intent on Swiggy and Zomato Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Would Customers Return to Your Store for the Replacement Parts?",
+      "url": "https://medium.com/@backtrue_24010/would-customers-return-to-your-store-for-the-replacement-parts-a38cb220c43a?source=rss------product_strategy-5",
+      "source": "Medium Strategy",
+      "type": "article",
+      "date": "2026-11-28T06:43:22+00:00",
+      "summary": "Use a real replenishment need to design a website offer, then check compatibility, delivery and contribution Continue reading on Medium »",
+      "tags": [
+        "Product Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Coinbase: Group Product Manager, AI Foundations",
+      "url": "https://weworkremotely.com/remote-jobs/coinbase-group-product-manager-ai-foundations",
+      "source": "We Work Remotely",
+      "type": "job",
+      "date": "2026-11-28T06:02:40+00:00",
+      "summary": "Headquarters: Remote - USA Ready to do the most impactful work of your career? Coinbase is building the future of finance for people, institutions and their agents, with one place to trade crypto, equities, derivatives and prediction markets, use stablecoins, and connect AI agent...",
+      "tags": [
+        "AI Tools",
+        "Career",
+        "Stakeholders"
+      ],
+      "is_fallback": true
+    },
     {
       "title": "From an Indian Village to the Corporate Boardroom: How Ordinary People Are Practising Reinvention…",
       "url": "https://patarychandan.medium.com/from-an-indian-village-to-the-corporate-boardroom-how-ordinary-people-are-practising-reinvention-fbfd2ecb898f?source=rss------product_management-5",
@@ -294,6 +382,18 @@
       "summary": "Can you turn the lessons you learn from experience into a repeatable system for making better decisions? Ray Dalio argues that writing down the principles behind your decisions, testing them against history, and eventually turning them into algorithms can help. In this archive co...",
       "tags": [
         "Communication"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "Superrelay",
+      "url": "https://www.producthunt.com/products/superrelay",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-11-25T09:36:17+00:00",
+      "summary": "One inbox for every app you ship, never priced per ticket Discussion | Link",
+      "tags": [
+        "Product Strategy"
       ],
       "is_fallback": true
     },
@@ -2375,6 +2475,18 @@
       "summary": "AI has shortened the time it takes to produce a software feature. If your advantage is that rivals need months to catch up, you don’t have… Continue reading on Medium »",
       "tags": [
         "AI Strategy"
+      ],
+      "is_fallback": true
+    },
+    {
+      "title": "DearDarling",
+      "url": "https://www.producthunt.com/products/deardarling",
+      "source": "Product Hunt",
+      "type": "trend",
+      "date": "2026-11-08T05:39:19+00:00",
+      "summary": "A couples messenger with a mutual friend, Pip Discussion | Link",
+      "tags": [
+        "Product Strategy"
       ],
       "is_fallback": true
     },
@@ -11296,93 +11408,6 @@
       "summary": "The programmable mic you can squeeze, shake & play Discussion | Link",
       "tags": [
         "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "AI’s third era: the rise of persistent AI coworkers | Tara Seshan (OpenAI’s product lead)",
-      "url": "https://www.lennysnewsletter.com/p/ais-third-era-the-rise-of-persistent",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-08-30T12:31:30+00:00",
-      "summary": "Listen now | Tara Seshan, head of Codex and ChatGPT Work at OpenAI, on why ambition is now the differentiator, steering vs. rowing, and why you need to build for where the models will be in two to three months",
-      "tags": [
-        "AI Tools",
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "Why a16z Launched the Machine Age Fund | Jen Kha",
-      "url": "https://a16z.simplecast.com/episodes/why-a16z-launched-the-machine-age-fund-jen-kha-MopZc0wl",
-      "source": "a16z Podcast",
-      "type": "podcast",
-      "date": "2026-08-30T10:00:00+00:00",
-      "summary": "a16z Managing Partner and Head of Global Partnerships Jen Kha joins MTS hosts Theo Jaffee and Sophia Dew to discuss a16z's Machine Age Fund and the investment thesis behind rebuilding the physical infrastructure that powers AI. Jen explains why chips, networking, memory, cooling,...",
-      "tags": [
-        "AI Strategy",
-        "Hardware Differentiation"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "When Information Becomes Non-Local",
-      "url": "https://medium.com/@ankursaran_59645/when-information-becomes-non-local-7b7b7a9221a8?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-08-30T09:49:41+00:00",
-      "summary": "Article 2 of “Quantum Consciousness in AI Architecture: From Physics to Transcendence” Continue reading on Medium »",
-      "tags": [
-        "AI Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "I Vibe Coded My Entertainment Gallery Room Over the Weekend",
-      "url": "https://medium.com/towards-data-engineering/i-vibe-coded-my-entertainment-gallery-room-over-the-weekend-d3aabd2f955b?source=rss------product_management-5",
-      "source": "Medium PM",
-      "type": "article",
-      "date": "2026-08-30T09:48:51+00:00",
-      "summary": "Dear Readers, Continue reading on Towards Data Engineering »",
-      "tags": [
-        "Data"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "The Architecture of Nostalgia: What Spotify Wrapped Teaches Us About Emotional Design",
-      "url": "https://medium.com/@NiamhOS/the-architecture-of-nostalgia-what-spotify-wrapped-teaches-us-about-emotional-design-8d7a8928f6bc?source=rss------product_strategy-5",
-      "source": "Medium Strategy",
-      "type": "article",
-      "date": "2026-08-30T07:43:46+00:00",
-      "summary": "We think data is for logic. Spotify proved it is actually the most potent tool we have for human connection. Continue reading on Medium »",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "🔮 Unbounded self-improvement and its limits #599",
-      "url": "https://www.exponentialview.co/p/ev-599",
-      "source": "Exponential View",
-      "type": "trend",
-      "date": "2026-08-30T02:51:35+00:00",
-      "summary": "Plus: The deceptive popularity of open-weight models & DIY compute.",
-      "tags": [
-        "Product Strategy"
-      ],
-      "is_fallback": true
-    },
-    {
-      "title": "🧠 Community Wisdom: Building without clear PM requirements, selling a product before building it, pricing fast-moving B2B SaaS, a year of job hunting, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-building-without",
-      "source": "Lenny's Newsletter",
-      "type": "article",
-      "date": "2026-08-29T18:59:48+00:00",
-      "summary": "Community Wisdom 199",
-      "tags": [
-        "Community",
-        "Pricing"
       ],
       "is_fallback": true
     }
